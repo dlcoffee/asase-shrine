@@ -10,6 +10,7 @@ export type Day =
   | 'saturday'
 
 export interface Item {
+  _id?: number
   id: string
   name: string
   rarity?: number
@@ -664,6 +665,7 @@ const itemsList: Item[] = [
     days: ['monday', 'thursday'],
   },
   {
+    _id: 104323,
     id: 'teachings_of_elegance',
     name: 'Teachings of Elegance',
     rarity: 2,
