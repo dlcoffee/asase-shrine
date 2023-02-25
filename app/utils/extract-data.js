@@ -1,4 +1,6 @@
-export const avatarIds = [
+const axios = require('axios')
+
+const avatarIds = [
   10000002,
   10000003,
   10000005,
@@ -82,10 +84,11 @@ async function main() {
   const results = []
 
   for (const avatarId of avatarIds) {
-    const result = await fetch(`https://api.ambr.top/v2/en/avatar/${avatarId}`)
-
-    if (result.ok) {
-      const { data: avatar } = await result.json()
+    try {
+      const response = await axios.get(
+        `https://api.ambr.top/v2/en/avatar/${avatarId}`
+      )
+      const { data: avatar } = response.data
       // console.log(avatar)
 
       const formatted = {
@@ -98,7 +101,7 @@ async function main() {
       console.log(formatted)
 
       results.push(formatted)
-    } else {
+    } catch (err) {
       console.log('something went wrong fetching id: ', avatarId)
     }
   }
