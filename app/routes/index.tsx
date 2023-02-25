@@ -40,7 +40,7 @@ export default function Index() {
                 />
                 <div className="flex items-center">
                   {talent_materials.map((m) => {
-                    const className = m.days?.includes(today)
+                    const className = m.days?.includes(data.today)
                       ? 'font-bold'
                       : 'font-normal'
 
