@@ -39,16 +39,12 @@ export default function Index() {
                 />
                 <div className="flex items-center">
                   {talent_materials.map((m) => {
-                    if (m.days?.includes(today)) {
-                      return (
-                        <span key={m.id} className="font-bold">
-                          {m.name}
-                        </span>
-                      )
-                    }
+                    const className = m.days?.includes(today)
+                      ? 'font-bold'
+                      : 'font-normal'
 
                     return (
-                      <span key={m.id} className="font-normal">
+                      <span key={m.id} className={className}>
                         {m.name}
                       </span>
                     )
