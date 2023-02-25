@@ -6,9 +6,13 @@ import { db } from '~/utils/db.server'
 
 export const loader = async (args: LoaderArgs) => {
   const characters = await db.characters.all()
+  const today = new Date()
+    .toLocaleDateString('en-US', { weekday: 'long' })
+    .toLowerCase() as Day
 
   const data = {
     characters,
+    today,
   }
 
   return json(data)
@@ -16,14 +20,11 @@ export const loader = async (args: LoaderArgs) => {
 
 export default function Index() {
   const data = useLoaderData<typeof loader>()
-  const today = new Date()
-    .toLocaleDateString('en-US', { weekday: 'long' })
-    .toLowerCase() as Day
 
   return (
     <div className="container mx-auto">
       <h1 className="text-3xl font-bold underline">Asase Shrine</h1>
-      <h2>Today: {today}</h2>
+      <h2>Today: {data.today}</h2>
       <ul className="list-disc">
         {data.characters.map((character) => {
           const { id, name, icon, talent_materials } = character
