@@ -1,0 +1,5244 @@
+[
+    {
+        "name": "Wolfhook",
+        "description": "A berry with thorns that often gets attached to a wolf's pelt. When you look at it, you can almost hear the echoing cries of the wolves in the woods.",
+        "type": "Local Specialty (Mondstadt)",
+        "recipe": false,
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Found in the wild",
+                "type": "single"
+            },
+            {
+                "name": "Recommendation: Found in Wolvendom",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_100021",
+        "rank": 1,
+        "route": "Wolfhook",
+        "_id": "100021",
+        "id": "wolfhook"
+    },
+    {
+        "name": "Valberry",
+        "description": "A plump and translucent berry that has a fragrant smell and a sweet, refreshing taste. In the past, the storm watchers' only solace was the sweetness of this fruit and hope for the city's peace.",
+        "type": "Local Specialty (Mondstadt)",
+        "recipe": false,
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Found in the wild",
+                "type": "single"
+            },
+            {
+                "name": "Recommendation: Found on Stormbearer Mountains",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_100022",
+        "rank": 1,
+        "route": "Valberry",
+        "_id": "100022",
+        "id": "valberry"
+    },
+    {
+        "name": "Cecilia",
+        "description": "A beautiful flower with a name that suits its appearance. It only grows where harsh winds blow, and is just as intangible as the true heart of an unbound soul.",
+        "type": "Local Specialty (Mondstadt)",
+        "recipe": false,
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Found in the wild",
+                "type": "single"
+            },
+            {
+                "name": "Recommendation: Found on Starsnatch Cliff",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_100023",
+        "rank": 1,
+        "route": "Cecilia",
+        "_id": "100023",
+        "id": "cecilia"
+    },
+    {
+        "name": "Windwheel Aster",
+        "description": "A plant that adores the wind. To the proud children of the wind, or the citizens of Mondstadt, the Windwheel Asters are \"the visible winds.\"",
+        "type": "Local Specialty (Mondstadt)",
+        "recipe": false,
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Found near the Statue of The Seven at Windrise",
+                "type": "single"
+            },
+            {
+                "name": "Found under trees in the wild",
+                "type": "single"
+            },
+            {
+                "name": "Recommendation: Found in Stormterror's Lair",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_100024",
+        "rank": 1,
+        "route": "Windwheel Aster",
+        "_id": "100024",
+        "id": "windwheel_aster"
+    },
+    {
+        "name": "Philanemo Mushroom",
+        "description": "A fungus that grows in the warm caress of the wind. It is as everlasting as the wind, nourishing life.",
+        "type": "Local Specialty (Mondstadt)",
+        "recipe": false,
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Found under the eaves of houses",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_100025",
+        "rank": 1,
+        "route": "Philanemo Mushroom",
+        "_id": "100025",
+        "id": "philanemo_mushroom"
+    },
+    {
+        "name": "Jueyun Chili",
+        "description": "A spicy plant native to Liyue. Merely smelling it makes one hot and thirsty.",
+        "type": "Local Specialty (Liyue)",
+        "recipe": false,
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Found in the wild",
+                "type": "single"
+            },
+            {
+                "name": "Recommendation: Found in Qingce Village",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_100027",
+        "rank": 1,
+        "route": "Jueyun Chili",
+        "_id": "100027",
+        "id": "jueyun_chili"
+    },
+    {
+        "name": "Noctilucous Jade",
+        "description": "A rare mineral that glimmers in the dark. It's said to be a mutated gemstone condensed from the flourishing elements of the world.",
+        "type": "Local Specialty (Liyue)",
+        "recipe": false,
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Found in caves in Liyue",
+                "type": "single"
+            },
+            {
+                "name": "Recommendation: Found in Mingyun Village",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_100028",
+        "rank": 1,
+        "route": "Noctilucous Jade",
+        "_id": "100028",
+        "id": "noctilucous_jade"
+    },
+    {
+        "name": "Silk Flower",
+        "description": "A crimson flower that blooms like the rainbow clouds in Liyue. It can be made into silky-smooth fabric.",
+        "type": "Local Specialty (Liyue)",
+        "recipe": false,
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Found near Yujing Terrace, Liyue Harbor",
+                "type": "single"
+            },
+            {
+                "name": "Found near Wangshu Inn",
+                "type": "single"
+            },
+            {
+                "name": "Recommendation: Found in Liyue Harbor",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_100029",
+        "rank": 1,
+        "route": "Silk Flower",
+        "_id": "100029",
+        "id": "silk_flower"
+    },
+    {
+        "name": "Glaze Lily",
+        "description": "An extremely ancient flower that was said to be commonly seen in Liyue. It transforms the memories of the land into its fragrance during florescence.",
+        "type": "Local Specialty (Liyue)",
+        "recipe": false,
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Found in the wild",
+                "type": "single"
+            },
+            {
+                "name": "Recommendation: Found in Yujing Terrace, Liyue Harbor",
+                "type": "single"
+            },
+            {
+                "name": "Recommendation: Found in Qingce Village",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_100030",
+        "rank": 1,
+        "route": "Glaze Lily",
+        "_id": "100030",
+        "id": "glaze_lily"
+    },
+    {
+        "name": "Qingxin",
+        "description": "A translucent white flower that only grows on the highest stone peaks. It eschews the warmth and moisture of the plains to gaze out afar from the solitary mountaintops.",
+        "type": "Local Specialty (Liyue)",
+        "recipe": false,
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Found in the heights of stone forests",
+                "type": "single"
+            },
+            {
+                "name": "Recommendation: Found in Jueyun Karst",
+                "type": "single"
+            },
+            {
+                "name": "Recommendation: Found in Guyun Stone Forest",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_100031",
+        "rank": 1,
+        "route": "Qingxin",
+        "_id": "100031",
+        "id": "qingxin"
+    },
+    {
+        "name": "Starconch",
+        "description": "Empty seashells brought ashore by the tides. Hold it close to your ear, and hear the longing calls of the sea.",
+        "type": "Local Specialty (Liyue)",
+        "recipe": false,
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Found on the beaches of Liyue",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_100033",
+        "rank": 1,
+        "route": "Starconch",
+        "_id": "100033",
+        "id": "starconch"
+    },
+    {
+        "name": "Violetgrass",
+        "description": "A small flower with strong vitality. It is said that its downward-blooming flower keeps its fragrance from dissipating.",
+        "type": "Local Specialty (Liyue)",
+        "recipe": false,
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Found near cliffs in Liyue",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_100034",
+        "rank": 1,
+        "route": "Violetgrass",
+        "_id": "100034",
+        "id": "violetgrass"
+    },
+    {
+        "name": "Small Lamp Grass",
+        "description": "A wild grass that emits light at night. Used in cooking to enhance other flavors.",
+        "type": "Local Specialty (Mondstadt)",
+        "recipe": false,
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Found in the wild at night",
+                "type": "single"
+            },
+            {
+                "name": "Recommendation: Found in Wolvendom",
+                "type": "single"
+            },
+            {
+                "name": "Recommendation: Found in the Whispering Woods",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_100055",
+        "rank": 1,
+        "route": "Small Lamp Grass",
+        "_id": "100055",
+        "id": "small_lamp_grass"
+    },
+    {
+        "name": "Calla Lily",
+        "description": "A flower that grows near water sources. When cooked, the petals have a chunky texture, yet are sweet and a little bitter.",
+        "type": "Local Specialty (Mondstadt)",
+        "recipe": false,
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Found near lakes",
+                "type": "single"
+            },
+            {
+                "name": "Recommendation: Found in Springvale",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_100056",
+        "rank": 1,
+        "route": "Calla Lily",
+        "_id": "100056",
+        "id": "calla_lily"
+    },
+    {
+        "name": "Dandelion Seed",
+        "description": "A tiny seed that rides on the wind. Even without its feathered wings, it still holds the hope from afar within.",
+        "type": "Local Specialty (Mondstadt)",
+        "recipe": false,
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Found in the wild",
+                "type": "single"
+            },
+            {
+                "name": "Recommendation: Found at Mondstadt gates",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_100057",
+        "rank": 1,
+        "route": "Dandelion Seed",
+        "_id": "100057",
+        "id": "dandelion_seed"
+    },
+    {
+        "name": "Cor Lapis",
+        "description": "A precious crystal of condensed pure Geo element that usually grows along with other minerals. It's also commonly called \"Cor Petrae.\"",
+        "type": "Local Specialty (Liyue)",
+        "recipe": false,
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Found under cliffs in Liyue",
+                "type": "single"
+            },
+            {
+                "name": "Recommendation: Found on Mt. Hulao",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_100058",
+        "rank": 1,
+        "route": "Cor Lapis",
+        "_id": "100058",
+        "id": "cor_lapis"
+    },
+    {
+        "name": "Onikabuto",
+        "description": "A strange beetle that inhabits areas rich with Electro energy. Its docile and sedentary temperament could not be more different from the fierce, demonic visage displayed on its armored shell.",
+        "type": "Local Specialty (Inazuma)",
+        "recipe": false,
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Found in the wild",
+                "type": "single"
+            },
+            {
+                "name": "Recommendation: Found on Narukami Island",
+                "type": "single"
+            },
+            {
+                "name": "Recommendation: Found in Tatarasuna",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_101201",
+        "rank": 1,
+        "route": "Onikabuto",
+        "_id": "101201",
+        "id": "onikabuto"
+    },
+    {
+        "name": "Sakura Bloom",
+        "description": "Blossoms from the Sacred Sakura at the Grand Narukami Shrine, filled with a fondness for Inazuma.",
+        "type": "Local Specialty (Inazuma)",
+        "recipe": false,
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Found in the wild",
+                "type": "single"
+            },
+            {
+                "name": "Recommendation: Found on Narukami Island",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_101202",
+        "rank": 1,
+        "route": "Sakura Bloom",
+        "_id": "101202",
+        "id": "sakura_bloom"
+    },
+    {
+        "name": "Crystal Marrow",
+        "description": "A crystal that contains a sliver of Tatarigami power. Adding this material during smelting will greatly increase the strength and toughness of metals.",
+        "type": "Local Specialty (Inazuma)",
+        "recipe": false,
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Found in the wild",
+                "type": "single"
+            },
+            {
+                "name": "Recommendation: Found on Yashiori Island",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_101203",
+        "rank": 1,
+        "route": "Crystal Marrow",
+        "_id": "101203",
+        "id": "crystal_marrow"
+    },
+    {
+        "name": "Dendrobium",
+        "description": "A vibrant plant that has also been named the \"lycoris\" by the poets. It was once thought extinct in the Inazuman archipelago, only to re-emerge now upon the battlefields. It is said that it blooms most enchantingly where much blood was spilled.",
+        "type": "Local Specialty (Inazuma)",
+        "recipe": false,
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Found in the wild",
+                "type": "single"
+            },
+            {
+                "name": "Recommendation: Found on Nazuchi Beach",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_101204",
+        "rank": 1,
+        "route": "Dendrobium",
+        "_id": "101204",
+        "id": "dendrobium"
+    },
+    {
+        "name": "Naku Weed",
+        "description": "Even on windless days, this plant will tremble lightly amid the cries of thunder. The parts of it that resemble petals are in fact extensions of the leaves meant to protect the fragile flower.",
+        "type": "Local Specialty (Inazuma)",
+        "recipe": false,
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Found in the wild",
+                "type": "single"
+            },
+            {
+                "name": "Recommendation: Found in Tatarasuna",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_101205",
+        "rank": 1,
+        "route": "Naku Weed",
+        "_id": "101205",
+        "id": "naku_weed"
+    },
+    {
+        "name": "Sea Ganoderma",
+        "description": "A plant species that only grows in certain regions and islands of the ocean. Though it looks like a fungus of some sort, it actually comes from a substance secreted by certain soft-bodied organisms.",
+        "type": "Local Specialty (Inazuma)",
+        "recipe": false,
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Found in Inazuman seawater",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_101206",
+        "rank": 1,
+        "route": "Sea Ganoderma",
+        "_id": "101206",
+        "id": "sea_ganoderma"
+    },
+    {
+        "name": "Sango Pearl",
+        "description": "A precious pearl that grows in the coral of Watatsumi. Gives off a cool sheen like that of the moonlight.",
+        "type": "Local Specialty (Inazuma)",
+        "recipe": false,
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Found in the wild",
+                "type": "single"
+            },
+            {
+                "name": "Recommendation: Found on Watatsumi Island",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_101207",
+        "rank": 1,
+        "route": "Sango Pearl",
+        "_id": "101207",
+        "id": "sango_pearl"
+    },
+    {
+        "name": "Amakumo Fruit",
+        "description": "The fruit of the Amakumo Grass, which grows on Seirai Island. You can hear it crackling with a tiny current if you hold it up to your ear.",
+        "type": "Local Specialty (Inazuma)",
+        "recipe": false,
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Found in the wild",
+                "type": "single"
+            },
+            {
+                "name": "Recommendation: Found on Seirai Island",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_101208",
+        "rank": 1,
+        "route": "Amakumo Fruit",
+        "_id": "101208",
+        "id": "amakumo_fruit"
+    },
+    {
+        "name": "Fluorescent Fungus",
+        "description": "A mushroom that glows like a night-light. Some curious power lies hidden within it.",
+        "type": "Local Specialty (Inazuma)",
+        "recipe": false,
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Found in the wild",
+                "type": "single"
+            },
+            {
+                "name": "Recommendation: Found on Tsurumi Island",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_101209",
+        "rank": 1,
+        "route": "Fluorescent Fungus",
+        "_id": "101209",
+        "id": "fluorescent_fungus"
+    },
+    {
+        "name": "Rukkhashava Mushrooms",
+        "description": "A fungus that grows in layers upon layers, like a sea of clouds, and which mostly grows on trees deep in the rainforest.",
+        "type": "Local Specialty (Sumeru)",
+        "recipe": false,
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Found in the wild",
+                "type": "single"
+            },
+            {
+                "name": "Recommendation: Found in the Ashavan Realm",
+                "type": "single"
+            },
+            {
+                "name": "Recommendation: Found in Lokapala Jungle",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_101213",
+        "rank": 1,
+        "route": "Rukkhashava Mushrooms",
+        "_id": "101213",
+        "id": "rukkhashava_mushrooms"
+    },
+    {
+        "name": "Padisarah",
+        "description": "A holy and noble plant. The conditions for growth in its environment are very demanding. The flower buds can be processed to make valuable spices.",
+        "type": "Local Specialty (Sumeru)",
+        "recipe": false,
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Found near Sumeru City",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_101214",
+        "rank": 1,
+        "route": "Padisarah",
+        "_id": "101214",
+        "id": "padisarah"
+    },
+    {
+        "name": "Nilotpala Lotus",
+        "description": "Growing in the forest wetlands, these plants only bloom at night with flowers as bright as the moon.",
+        "type": "Local Specialty (Sumeru)",
+        "recipe": false,
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Found at water bodies in Sumeru",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_101215",
+        "rank": 1,
+        "route": "Nilotpala Lotus",
+        "_id": "101215",
+        "id": "nilotpala_lotus"
+    },
+    {
+        "name": "Kalpalata Lotus",
+        "description": "Flowers from vines that grow on cliff sides. It is called a lotus only because it has a similar appearance to one. Aside from that, it bears no other similar properties to the lotus.",
+        "type": "Local Specialty (Sumeru)",
+        "recipe": false,
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Found in the mountains of Sumeru",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_101217",
+        "rank": 1,
+        "route": "Kalpalata Lotus",
+        "_id": "101217",
+        "id": "kalpalata_lotus"
+    },
+    {
+        "name": "Henna Berry",
+        "description": "A fruit that grows even in the most hostile of desert environments. Its vibrant crimson fruits are made even more lovely against a backdrop of yellow sand.",
+        "type": "Local Specialty (Sumeru)",
+        "recipe": false,
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Found in the deserts of Sumeru",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_101220",
+        "rank": 1,
+        "route": "Henna Berry",
+        "_id": "101220",
+        "id": "henna_berry"
+    },
+    {
+        "name": "Sand Grease Pupa",
+        "description": "You can only find such husks deep in the desert where the Quicksand Eels breed. The hardened shell is meant to protect the Quicksand Eels' larval bodies until they finally acclimate to the conditions of the dry desert.",
+        "type": "Local Specialty (Sumeru)",
+        "recipe": false,
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Found in the deserts of Sumeru",
+                "type": "single"
+            },
+            {
+                "name": "Recommendation: Found in Wenut Tunnels",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_101222",
+        "rank": 1,
+        "route": "Sand Grease Pupa",
+        "_id": "101222",
+        "id": "sand_grease_pupa"
+    },
+    {
+        "name": "Scarab",
+        "description": "A tenacious beetle that finds repose within the vast ocean of desert sand. The golden pattern on such beetles' shells hints at some deep relationship between them and the ancient ruins that dot the desert.",
+        "type": "Local Specialty (Sumeru)",
+        "recipe": false,
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Found in the desert ruins of Sumeru",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_101225",
+        "rank": 1,
+        "route": "Scarab",
+        "_id": "101225",
+        "id": "scarab"
+    },
+    {
+        "name": "Brilliant Diamond Sliver",
+        "description": "Character Ascension material.\\n\"Welcome to this world.\"",
+        "type": "Character Level-Up Material",
+        "recipe": false,
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Adventure Rank Reward",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_104101",
+        "rank": 2,
+        "route": "Brilliant Diamond Sliver",
+        "_id": "104101",
+        "id": "brilliant_diamond_sliver"
+    },
+    {
+        "name": "Brilliant Diamond Fragment",
+        "description": "Character Ascension material.\\n\"Welcome to this world.\"",
+        "type": "Character Level-Up Material",
+        "recipe": false,
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Adventure Rank Reward",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_104102",
+        "rank": 3,
+        "route": "Brilliant Diamond Fragment",
+        "_id": "104102",
+        "id": "brilliant_diamond_fragment"
+    },
+    {
+        "name": "Brilliant Diamond Chunk",
+        "description": "Character Ascension material.\\n\"Welcome to this world.\"",
+        "type": "Character Level-Up Material",
+        "recipe": false,
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Adventure Rank Reward",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_104103",
+        "rank": 4,
+        "route": "Brilliant Diamond Chunk",
+        "_id": "104103",
+        "id": "brilliant_diamond_chunk"
+    },
+    {
+        "name": "Brilliant Diamond Gemstone",
+        "description": "Character Ascension material.\\n\"Welcome to this world.\"",
+        "type": "Character Level-Up Material",
+        "recipe": false,
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Adventure Rank Reward",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_104104",
+        "rank": 5,
+        "route": "Brilliant Diamond Gemstone",
+        "_id": "104104",
+        "id": "brilliant_diamond_gemstone"
+    },
+    {
+        "name": "Agnidus Agate Sliver",
+        "description": "Character Ascension material.",
+        "type": "Character Level-Up Material",
+        "recipe": {
+            "50001": {
+                "104121": 1,
+                "104201": 1
+            },
+            "50002": {
+                "104131": 1,
+                "104201": 1
+            },
+            "50003": {
+                "104141": 1,
+                "104201": 1
+            },
+            "50004": {
+                "104151": 1,
+                "104201": 1
+            },
+            "50005": {
+                "104161": 1,
+                "104201": 1
+            },
+            "50006": {
+                "104171": 1,
+                "104201": 1
+            }
+        },
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Dropped by Pyro Regisvines",
+                "type": "single"
+            },
+            {
+                "name": "Dropped by Pyro Hypostases",
+                "type": "single"
+            },
+            {
+                "name": "Purchase from the Souvenir Shop",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_104111",
+        "rank": 2,
+        "route": "Agnidus Agate Sliver",
+        "_id": "104111",
+        "id": "agnidus_agate_sliver"
+    },
+    {
+        "name": "Agnidus Agate Fragment",
+        "description": "Character Ascension material.\\n\"A pilgrimage for a wish; a battle to earn a name...\"",
+        "type": "Character Level-Up Material",
+        "recipe": {
+            "15001": {
+                "104111": 3
+            },
+            "50007": {
+                "104122": 1,
+                "104201": 3
+            },
+            "50008": {
+                "104132": 1,
+                "104201": 3
+            },
+            "50009": {
+                "104142": 1,
+                "104201": 3
+            },
+            "50010": {
+                "104152": 1,
+                "104201": 3
+            },
+            "50011": {
+                "104162": 1,
+                "104201": 3
+            },
+            "50012": {
+                "104172": 1,
+                "104201": 3
+            }
+        },
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Dropped by Lv. 40+ Pyro Regisvines",
+                "type": "single"
+            },
+            {
+                "name": "Dropped by Lv. 40+ Pyro Hypostases",
+                "type": "single"
+            },
+            {
+                "name": "Crafted",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_104112",
+        "rank": 3,
+        "route": "Agnidus Agate Fragment",
+        "_id": "104112",
+        "id": "agnidus_agate_fragment"
+    },
+    {
+        "name": "Agnidus Agate Chunk",
+        "description": "Character Ascension material.\\n\"A pilgrimage for a wish; a battle to earn a name...\\nBurnt to cinders for a dream.\"",
+        "type": "Character Level-Up Material",
+        "recipe": {
+            "15002": {
+                "104112": 3
+            },
+            "50013": {
+                "104123": 1,
+                "104201": 9
+            },
+            "50014": {
+                "104133": 1,
+                "104201": 9
+            },
+            "50015": {
+                "104143": 1,
+                "104201": 9
+            },
+            "50016": {
+                "104153": 1,
+                "104201": 9
+            },
+            "50017": {
+                "104163": 1,
+                "104201": 9
+            },
+            "50018": {
+                "104173": 1,
+                "104201": 9
+            }
+        },
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Dropped by Lv. 60+ Pyro Regisvines",
+                "type": "single"
+            },
+            {
+                "name": "Dropped by Lv. 60+ Pyro Hypostases",
+                "type": "single"
+            },
+            {
+                "name": "Crafted",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_104113",
+        "rank": 4,
+        "route": "Agnidus Agate Chunk",
+        "_id": "104113",
+        "id": "agnidus_agate_chunk"
+    },
+    {
+        "name": "Agnidus Agate Gemstone",
+        "description": "Character Ascension material.\\n\"A pilgrimage for a wish; a battle to earn a name...\\nBurnt to cinders for a dream.\\nIf the intention yet remains, achieved ██'s truth he has.\"",
+        "type": "Character Level-Up Material",
+        "recipe": {
+            "15003": {
+                "104113": 3
+            },
+            "50019": {
+                "104124": 1,
+                "104201": 27
+            },
+            "50020": {
+                "104134": 1,
+                "104201": 27
+            },
+            "50021": {
+                "104144": 1,
+                "104201": 27
+            },
+            "50022": {
+                "104154": 1,
+                "104201": 27
+            },
+            "50023": {
+                "104164": 1,
+                "104201": 27
+            },
+            "50024": {
+                "104174": 1,
+                "104201": 27
+            }
+        },
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Dropped by Lv. 75+ Pyro Regisvines",
+                "type": "single"
+            },
+            {
+                "name": "Dropped by Lv. 75+ Pyro Hypostases",
+                "type": "single"
+            },
+            {
+                "name": "Crafted",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_104114",
+        "rank": 5,
+        "route": "Agnidus Agate Gemstone",
+        "_id": "104114",
+        "id": "agnidus_agate_gemstone"
+    },
+    {
+        "name": "Varunada Lazurite Sliver",
+        "description": "Character Ascension material.",
+        "type": "Character Level-Up Material",
+        "recipe": {
+            "50025": {
+                "104111": 1,
+                "104201": 1
+            },
+            "50026": {
+                "104131": 1,
+                "104201": 1
+            },
+            "50027": {
+                "104141": 1,
+                "104201": 1
+            },
+            "50028": {
+                "104151": 1,
+                "104201": 1
+            },
+            "50029": {
+                "104161": 1,
+                "104201": 1
+            },
+            "50030": {
+                "104171": 1,
+                "104201": 1
+            }
+        },
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Dropped by Oceanids",
+                "type": "single"
+            },
+            {
+                "name": "Dropped by Hydro Hypostases",
+                "type": "single"
+            },
+            {
+                "name": "Purchase from the Souvenir Shop",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_104121",
+        "rank": 2,
+        "route": "Varunada Lazurite Sliver",
+        "_id": "104121",
+        "id": "varunada_lazurite_sliver"
+    },
+    {
+        "name": "Varunada Lazurite Fragment",
+        "description": "Character Ascension material.\\n\"My ideals have no stains.\"",
+        "type": "Character Level-Up Material",
+        "recipe": {
+            "15004": {
+                "104121": 3
+            },
+            "50031": {
+                "104112": 1,
+                "104201": 3
+            },
+            "50032": {
+                "104132": 1,
+                "104201": 3
+            },
+            "50033": {
+                "104142": 1,
+                "104201": 3
+            },
+            "50034": {
+                "104152": 1,
+                "104201": 3
+            },
+            "50035": {
+                "104162": 1,
+                "104201": 3
+            },
+            "50036": {
+                "104172": 1,
+                "104201": 3
+            }
+        },
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Dropped by Lv. 40+ Oceanids",
+                "type": "single"
+            },
+            {
+                "name": "Dropped by Lv. 40+ Hydro Hypostases",
+                "type": "single"
+            },
+            {
+                "name": "Crafted",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_104122",
+        "rank": 3,
+        "route": "Varunada Lazurite Fragment",
+        "_id": "104122",
+        "id": "varunada_lazurite_fragment"
+    },
+    {
+        "name": "Varunada Lazurite Chunk",
+        "description": "Character Ascension material.\\n\"My ideals have no stains.\\nI must correct you. People here bear no sins in the eyes of the gods...\"",
+        "type": "Character Level-Up Material",
+        "recipe": {
+            "15005": {
+                "104122": 3
+            },
+            "50037": {
+                "104113": 1,
+                "104201": 9
+            },
+            "50038": {
+                "104133": 1,
+                "104201": 9
+            },
+            "50039": {
+                "104143": 1,
+                "104201": 9
+            },
+            "50040": {
+                "104153": 1,
+                "104201": 9
+            },
+            "50041": {
+                "104163": 1,
+                "104201": 9
+            },
+            "50042": {
+                "104173": 1,
+                "104201": 9
+            }
+        },
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Dropped by Lv. 60+ Oceanids",
+                "type": "single"
+            },
+            {
+                "name": "Dropped by Lv. 60+ Hydro Hypostases",
+                "type": "single"
+            },
+            {
+                "name": "Crafted",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_104123",
+        "rank": 4,
+        "route": "Varunada Lazurite Chunk",
+        "_id": "104123",
+        "id": "varunada_lazurite_chunk"
+    },
+    {
+        "name": "Varunada Lazurite Gemstone",
+        "description": "Character Ascension material.\\n\"My ideals have no stains.\\nI must correct you. People here bear no sins in the eyes of the gods... Only laws and the Tribunal can judge someone.\\nThey can judge even me. So praise my magnificence and purity.\"",
+        "type": "Character Level-Up Material",
+        "recipe": {
+            "15006": {
+                "104123": 3
+            },
+            "50043": {
+                "104114": 1,
+                "104201": 27
+            },
+            "50044": {
+                "104134": 1,
+                "104201": 27
+            },
+            "50045": {
+                "104144": 1,
+                "104201": 27
+            },
+            "50046": {
+                "104154": 1,
+                "104201": 27
+            },
+            "50047": {
+                "104164": 1,
+                "104201": 27
+            },
+            "50048": {
+                "104174": 1,
+                "104201": 27
+            }
+        },
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Dropped by Lv. 75+ Oceanids",
+                "type": "single"
+            },
+            {
+                "name": "Dropped by Lv. 75+ Hydro Hypostases",
+                "type": "single"
+            },
+            {
+                "name": "Crafted",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_104124",
+        "rank": 5,
+        "route": "Varunada Lazurite Gemstone",
+        "_id": "104124",
+        "id": "varunada_lazurite_gemstone"
+    },
+    {
+        "name": "Nagadus Emerald Sliver",
+        "description": "Character Ascension material.",
+        "type": "Character Level-Up Material",
+        "recipe": {
+            "50049": {
+                "104111": 1,
+                "104201": 1
+            },
+            "50050": {
+                "104121": 1,
+                "104201": 1
+            },
+            "50051": {
+                "104141": 1,
+                "104201": 1
+            },
+            "50052": {
+                "104151": 1,
+                "104201": 1
+            },
+            "50053": {
+                "104161": 1,
+                "104201": 1
+            },
+            "50054": {
+                "104171": 1,
+                "104201": 1
+            }
+        },
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Dropped by Jadeplume Terrorshroom",
+                "type": "single"
+            },
+            {
+                "name": "Dropped by Dendro Hypostases",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_104131",
+        "rank": 2,
+        "route": "Nagadus Emerald Sliver",
+        "_id": "104131",
+        "id": "nagadus_emerald_sliver"
+    },
+    {
+        "name": "Nagadus Emerald Fragment",
+        "description": "Character Ascension material.\\n\"I had a very, very long dream...\"",
+        "type": "Character Level-Up Material",
+        "recipe": {
+            "15007": {
+                "104131": 3
+            },
+            "50055": {
+                "104112": 1,
+                "104201": 3
+            },
+            "50056": {
+                "104122": 1,
+                "104201": 3
+            },
+            "50057": {
+                "104142": 1,
+                "104201": 3
+            },
+            "50058": {
+                "104152": 1,
+                "104201": 3
+            },
+            "50059": {
+                "104162": 1,
+                "104201": 3
+            },
+            "50060": {
+                "104172": 1,
+                "104201": 3
+            }
+        },
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Dropped by Lv. 40+ Jadeplume Terrorshroom",
+                "type": "single"
+            },
+            {
+                "name": "Dropped by Lv. 40+ Dendro Hypostases",
+                "type": "single"
+            },
+            {
+                "name": "Crafted",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_104132",
+        "rank": 3,
+        "route": "Nagadus Emerald Fragment",
+        "_id": "104132",
+        "id": "nagadus_emerald_fragment"
+    },
+    {
+        "name": "Nagadus Emerald Chunk",
+        "description": "Character Ascension material.\\n\"I had a very, very long dream...\"\\n\"In it, people were holding hands, dancing in a circle, be they sages or fools, dancers or warriors, puppets or statues of gods...\"",
+        "type": "Character Level-Up Material",
+        "recipe": {
+            "15008": {
+                "104132": 3
+            },
+            "50061": {
+                "104113": 1,
+                "104201": 9
+            },
+            "50062": {
+                "104123": 1,
+                "104201": 9
+            },
+            "50063": {
+                "104143": 1,
+                "104201": 9
+            },
+            "50064": {
+                "104153": 1,
+                "104201": 9
+            },
+            "50065": {
+                "104163": 1,
+                "104201": 9
+            },
+            "50066": {
+                "104173": 1,
+                "104201": 9
+            }
+        },
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Dropped by Lv. 60+ Jadeplume Terrorshroom",
+                "type": "single"
+            },
+            {
+                "name": "Dropped by Lv. 60+ Dendro Hypostases",
+                "type": "single"
+            },
+            {
+                "name": "Crafted",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_104133",
+        "rank": 4,
+        "route": "Nagadus Emerald Chunk",
+        "_id": "104133",
+        "id": "nagadus_emerald_chunk"
+    },
+    {
+        "name": "Nagadus Emerald Gemstone",
+        "description": "Character Ascension material.\\n\"I had a very, very long dream...\"\\n\"In it, people were holding hands, dancing in a circle, be they sages or fools, dancers or warriors, puppets or statues of gods...\"\\n\"That dancing circle embodied everything about the universe. Life has always been the end, while it is wisdom that shall be the means.\"",
+        "type": "Character Level-Up Material",
+        "recipe": {
+            "15009": {
+                "104133": 3
+            },
+            "50067": {
+                "104114": 1,
+                "104201": 27
+            },
+            "50068": {
+                "104124": 1,
+                "104201": 27
+            },
+            "50069": {
+                "104144": 1,
+                "104201": 27
+            },
+            "50070": {
+                "104154": 1,
+                "104201": 27
+            },
+            "50071": {
+                "104164": 1,
+                "104201": 27
+            },
+            "50072": {
+                "104174": 1,
+                "104201": 27
+            }
+        },
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Dropped by Lv. 75+ Jadeplume Terrorshroom",
+                "type": "single"
+            },
+            {
+                "name": "Dropped by Lv. 75+ Dendro Hypostases",
+                "type": "single"
+            },
+            {
+                "name": "Crafted",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_104134",
+        "rank": 5,
+        "route": "Nagadus Emerald Gemstone",
+        "_id": "104134",
+        "id": "nagadus_emerald_gemstone"
+    },
+    {
+        "name": "Vajrada Amethyst Sliver",
+        "description": "Character Ascension material.",
+        "type": "Character Level-Up Material",
+        "recipe": {
+            "50073": {
+                "104111": 1,
+                "104201": 1
+            },
+            "50074": {
+                "104121": 1,
+                "104201": 1
+            },
+            "50075": {
+                "104131": 1,
+                "104201": 1
+            },
+            "50076": {
+                "104151": 1,
+                "104201": 1
+            },
+            "50077": {
+                "104161": 1,
+                "104201": 1
+            },
+            "50078": {
+                "104171": 1,
+                "104201": 1
+            }
+        },
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Dropped by Electro Hypostases",
+                "type": "single"
+            },
+            {
+                "name": "Dropped by Thunder Manifestation",
+                "type": "single"
+            },
+            {
+                "name": "Dropped by Electro Regisvines",
+                "type": "single"
+            },
+            {
+                "name": "Purchase from the Souvenir Shop",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_104141",
+        "rank": 2,
+        "route": "Vajrada Amethyst Sliver",
+        "_id": "104141",
+        "id": "vajrada_amethyst_sliver"
+    },
+    {
+        "name": "Vajrada Amethyst Fragment",
+        "description": "Character Ascension material.\\n\"This body is the noblest and most eminent of all in this world.\"",
+        "type": "Character Level-Up Material",
+        "recipe": {
+            "15010": {
+                "104141": 3
+            },
+            "50079": {
+                "104112": 1,
+                "104201": 3
+            },
+            "50080": {
+                "104122": 1,
+                "104201": 3
+            },
+            "50081": {
+                "104132": 1,
+                "104201": 3
+            },
+            "50082": {
+                "104152": 1,
+                "104201": 3
+            },
+            "50083": {
+                "104162": 1,
+                "104201": 3
+            },
+            "50084": {
+                "104172": 1,
+                "104201": 3
+            }
+        },
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Dropped by Lv. 40+ Electro Hypostases",
+                "type": "single"
+            },
+            {
+                "name": "Dropped by Lv. 40+ Thunder Manifestations",
+                "type": "single"
+            },
+            {
+                "name": "Dropped by Lv. 40+ Electro Regisvines",
+                "type": "single"
+            },
+            {
+                "name": "Crafted",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_104142",
+        "rank": 3,
+        "route": "Vajrada Amethyst Fragment",
+        "_id": "104142",
+        "id": "vajrada_amethyst_fragment"
+    },
+    {
+        "name": "Vajrada Amethyst Chunk",
+        "description": "Character Ascension material.\\n\"This body is the noblest and most eminent of all in this world.\\nIt should hold absolute control over this world.\"",
+        "type": "Character Level-Up Material",
+        "recipe": {
+            "15011": {
+                "104142": 3
+            },
+            "50085": {
+                "104113": 1,
+                "104201": 9
+            },
+            "50086": {
+                "104123": 1,
+                "104201": 9
+            },
+            "50087": {
+                "104133": 1,
+                "104201": 9
+            },
+            "50088": {
+                "104153": 1,
+                "104201": 9
+            },
+            "50089": {
+                "104163": 1,
+                "104201": 9
+            },
+            "50090": {
+                "104173": 1,
+                "104201": 9
+            }
+        },
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Dropped by Lv. 60+ Electro Hypostases",
+                "type": "single"
+            },
+            {
+                "name": "Dropped by Lv. 60+ Thunder Manifestations",
+                "type": "single"
+            },
+            {
+                "name": "Dropped by Lv. 60+ Electro Regisvines",
+                "type": "single"
+            },
+            {
+                "name": "Crafted",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_104143",
+        "rank": 4,
+        "route": "Vajrada Amethyst Chunk",
+        "_id": "104143",
+        "id": "vajrada_amethyst_chunk"
+    },
+    {
+        "name": "Vajrada Amethyst Gemstone",
+        "description": "Character Ascension material.\\n\"This body is the noblest and most eminent of all in this world.\\n\"It should hold absolute control over this world.\\n\"It once promised its people a dream: the never-changing 'eternity.'\"",
+        "type": "Character Level-Up Material",
+        "recipe": {
+            "15012": {
+                "104143": 3
+            },
+            "50091": {
+                "104114": 1,
+                "104201": 27
+            },
+            "50092": {
+                "104124": 1,
+                "104201": 27
+            },
+            "50093": {
+                "104134": 1,
+                "104201": 27
+            },
+            "50094": {
+                "104154": 1,
+                "104201": 27
+            },
+            "50095": {
+                "104164": 1,
+                "104201": 27
+            },
+            "50096": {
+                "104174": 1,
+                "104201": 27
+            }
+        },
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Dropped by Lv. 75+ Electro Hypostases",
+                "type": "single"
+            },
+            {
+                "name": "Dropped by Lv. 75+ Thunder Manifestations",
+                "type": "single"
+            },
+            {
+                "name": "Dropped by Lv. 75+ Electro Regisvines",
+                "type": "single"
+            },
+            {
+                "name": "Crafted",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_104144",
+        "rank": 5,
+        "route": "Vajrada Amethyst Gemstone",
+        "_id": "104144",
+        "id": "vajrada_amethyst_gemstone"
+    },
+    {
+        "name": "Vayuda Turquoise Sliver",
+        "description": "Character Ascension material.",
+        "type": "Character Level-Up Material",
+        "recipe": {
+            "50097": {
+                "104111": 1,
+                "104201": 1
+            },
+            "50098": {
+                "104121": 1,
+                "104201": 1
+            },
+            "50099": {
+                "104131": 1,
+                "104201": 1
+            },
+            "50100": {
+                "104141": 1,
+                "104201": 1
+            },
+            "50101": {
+                "104161": 1,
+                "104201": 1
+            },
+            "50102": {
+                "104171": 1,
+                "104201": 1
+            }
+        },
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Dropped by Anemo Hypostases",
+                "type": "single"
+            },
+            {
+                "name": "Dropped by Setekh Wenut",
+                "type": "single"
+            },
+            {
+                "name": "Purchase from the Souvenir Shop",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_104151",
+        "rank": 2,
+        "route": "Vayuda Turquoise Sliver",
+        "_id": "104151",
+        "id": "vayuda_turquoise_sliver"
+    },
+    {
+        "name": "Vayuda Turquoise Fragment",
+        "description": "Character Ascension material.\\n\"Still, the winds change direction.\"",
+        "type": "Character Level-Up Material",
+        "recipe": {
+            "15013": {
+                "104151": 3
+            },
+            "50103": {
+                "104112": 1,
+                "104201": 3
+            },
+            "50104": {
+                "104122": 1,
+                "104201": 3
+            },
+            "50105": {
+                "104132": 1,
+                "104201": 3
+            },
+            "50106": {
+                "104142": 1,
+                "104201": 3
+            },
+            "50107": {
+                "104162": 1,
+                "104201": 3
+            },
+            "50108": {
+                "104172": 1,
+                "104201": 3
+            }
+        },
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Dropped by Lv. 40+ Anemo Hypostases",
+                "type": "single"
+            },
+            {
+                "name": "Dropped by Lv. 40+ Setekh Wenut",
+                "type": "single"
+            },
+            {
+                "name": "Crafted",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_104152",
+        "rank": 3,
+        "route": "Vayuda Turquoise Fragment",
+        "_id": "104152",
+        "id": "vayuda_turquoise_fragment"
+    },
+    {
+        "name": "Vayuda Turquoise Chunk",
+        "description": "Character Ascension material.\\n\"Still, the winds change direction.\\nSomeday, they will blow towards a brighter future...\"",
+        "type": "Character Level-Up Material",
+        "recipe": {
+            "15014": {
+                "104152": 3
+            },
+            "50109": {
+                "104113": 1,
+                "104201": 9
+            },
+            "50110": {
+                "104123": 1,
+                "104201": 9
+            },
+            "50111": {
+                "104133": 1,
+                "104201": 9
+            },
+            "50112": {
+                "104143": 1,
+                "104201": 9
+            },
+            "50113": {
+                "104163": 1,
+                "104201": 9
+            },
+            "50114": {
+                "104173": 1,
+                "104201": 9
+            }
+        },
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Dropped by Lv. 60+ Anemo Hypostases",
+                "type": "single"
+            },
+            {
+                "name": "Dropped by Lv. 60+ Setekh Wenut",
+                "type": "single"
+            },
+            {
+                "name": "Crafted",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_104153",
+        "rank": 4,
+        "route": "Vayuda Turquoise Chunk",
+        "_id": "104153",
+        "id": "vayuda_turquoise_chunk"
+    },
+    {
+        "name": "Vayuda Turquoise Gemstone",
+        "description": "Character Ascension material.\\n\"Still, the winds change direction.\\n\"Someday, they will blow towards a brighter future...\\n\"Take my blessings and live leisurely from this day onward.\"",
+        "type": "Character Level-Up Material",
+        "recipe": {
+            "15015": {
+                "104153": 3
+            },
+            "50115": {
+                "104114": 1,
+                "104201": 27
+            },
+            "50116": {
+                "104124": 1,
+                "104201": 27
+            },
+            "50117": {
+                "104134": 1,
+                "104201": 27
+            },
+            "50118": {
+                "104144": 1,
+                "104201": 27
+            },
+            "50119": {
+                "104164": 1,
+                "104201": 27
+            },
+            "50120": {
+                "104174": 1,
+                "104201": 27
+            }
+        },
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Dropped by Lv. 75+ Anemo Hypostases",
+                "type": "single"
+            },
+            {
+                "name": "Dropped by Lv. 75+ Setekh Wenut",
+                "type": "single"
+            },
+            {
+                "name": "Crafted",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_104154",
+        "rank": 5,
+        "route": "Vayuda Turquoise Gemstone",
+        "_id": "104154",
+        "id": "vayuda_turquoise_gemstone"
+    },
+    {
+        "name": "Shivada Jade Sliver",
+        "description": "Character Ascension material.",
+        "type": "Character Level-Up Material",
+        "recipe": {
+            "50121": {
+                "104111": 1,
+                "104201": 1
+            },
+            "50122": {
+                "104121": 1,
+                "104201": 1
+            },
+            "50123": {
+                "104131": 1,
+                "104201": 1
+            },
+            "50124": {
+                "104141": 1,
+                "104201": 1
+            },
+            "50125": {
+                "104151": 1,
+                "104201": 1
+            },
+            "50126": {
+                "104171": 1,
+                "104201": 1
+            }
+        },
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Dropped by Cryo Regisvines.",
+                "type": "single"
+            },
+            {
+                "name": "Dropped by Cryo Hypostases",
+                "type": "single"
+            },
+            {
+                "name": "Purchase from the Souvenir Shop",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_104161",
+        "rank": 2,
+        "route": "Shivada Jade Sliver",
+        "_id": "104161",
+        "id": "shivada_jade_sliver"
+    },
+    {
+        "name": "Shivada Jade Fragment",
+        "description": "Character Ascension material.\\n\"Sorry...\"",
+        "type": "Character Level-Up Material",
+        "recipe": {
+            "15016": {
+                "104161": 3
+            },
+            "50127": {
+                "104112": 1,
+                "104201": 3
+            },
+            "50128": {
+                "104122": 1,
+                "104201": 3
+            },
+            "50129": {
+                "104132": 1,
+                "104201": 3
+            },
+            "50130": {
+                "104142": 1,
+                "104201": 3
+            },
+            "50131": {
+                "104152": 1,
+                "104201": 3
+            },
+            "50132": {
+                "104172": 1,
+                "104201": 3
+            }
+        },
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Dropped by Lv. 40+ Cryo Regisvines",
+                "type": "single"
+            },
+            {
+                "name": "Dropped by Lv. 40+ Cryo Hypostases",
+                "type": "single"
+            },
+            {
+                "name": "Crafted",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_104162",
+        "rank": 3,
+        "route": "Shivada Jade Fragment",
+        "_id": "104162",
+        "id": "shivada_jade_fragment"
+    },
+    {
+        "name": "Shivada Jade Chunk",
+        "description": "Character Ascension material.\\n\"Sorry...\"\\n\"...to also have you shoulder the grievances of the world.\"",
+        "type": "Character Level-Up Material",
+        "recipe": {
+            "15017": {
+                "104162": 3
+            },
+            "50133": {
+                "104113": 1,
+                "104201": 9
+            },
+            "50134": {
+                "104123": 1,
+                "104201": 9
+            },
+            "50135": {
+                "104133": 1,
+                "104201": 9
+            },
+            "50136": {
+                "104143": 1,
+                "104201": 9
+            },
+            "50137": {
+                "104153": 1,
+                "104201": 9
+            },
+            "50138": {
+                "104173": 1,
+                "104201": 9
+            }
+        },
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Dropped by Lv. 60+ Cryo Regisvines",
+                "type": "single"
+            },
+            {
+                "name": "Dropped by Lv. 60+ Cryo Hypostases",
+                "type": "single"
+            },
+            {
+                "name": "Crafted",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_104163",
+        "rank": 4,
+        "route": "Shivada Jade Chunk",
+        "_id": "104163",
+        "id": "shivada_jade_chunk"
+    },
+    {
+        "name": "Shivada Jade Gemstone",
+        "description": "Character Ascension material.\\n\"Sorry... to also have you shoulder the grievances of the world.\\n\"Since you could endure my bitter cold, you must have the desire to burn?\\n\"Then, burn away the old world for me.\"",
+        "type": "Character Level-Up Material",
+        "recipe": {
+            "15018": {
+                "104163": 3
+            },
+            "50139": {
+                "104114": 1,
+                "104201": 27
+            },
+            "50140": {
+                "104124": 1,
+                "104201": 27
+            },
+            "50141": {
+                "104134": 1,
+                "104201": 27
+            },
+            "50142": {
+                "104144": 1,
+                "104201": 27
+            },
+            "50143": {
+                "104154": 1,
+                "104201": 27
+            },
+            "50144": {
+                "104174": 1,
+                "104201": 27
+            }
+        },
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Dropped by Lv. 75+ Cryo Regisvines",
+                "type": "single"
+            },
+            {
+                "name": "Dropped by Lv. 75+ Cryo Hypostases",
+                "type": "single"
+            },
+            {
+                "name": "Crafted",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_104164",
+        "rank": 5,
+        "route": "Shivada Jade Gemstone",
+        "_id": "104164",
+        "id": "shivada_jade_gemstone"
+    },
+    {
+        "name": "Prithiva Topaz Sliver",
+        "description": "Character Ascension material.",
+        "type": "Character Level-Up Material",
+        "recipe": {
+            "50145": {
+                "104111": 1,
+                "104201": 1
+            },
+            "50146": {
+                "104121": 1,
+                "104201": 1
+            },
+            "50147": {
+                "104131": 1,
+                "104201": 1
+            },
+            "50148": {
+                "104141": 1,
+                "104201": 1
+            },
+            "50149": {
+                "104151": 1,
+                "104201": 1
+            },
+            "50150": {
+                "104161": 1,
+                "104201": 1
+            }
+        },
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Dropped by Geo Hypostases",
+                "type": "single"
+            },
+            {
+                "name": "Dropped by Golden Wolflords",
+                "type": "single"
+            },
+            {
+                "name": "Dropped by Ruin Serpents",
+                "type": "single"
+            },
+            {
+                "name": "Purchase from the Souvenir Shop",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_104171",
+        "rank": 2,
+        "route": "Prithiva Topaz Sliver",
+        "_id": "104171",
+        "id": "prithiva_topaz_sliver"
+    },
+    {
+        "name": "Prithiva Topaz Fragment",
+        "description": "Character Ascension material.\\n\"The currencies that flow through this land are my flesh and blood.\"",
+        "type": "Character Level-Up Material",
+        "recipe": {
+            "15019": {
+                "104171": 3
+            },
+            "50151": {
+                "104112": 1,
+                "104201": 3
+            },
+            "50152": {
+                "104122": 1,
+                "104201": 3
+            },
+            "50153": {
+                "104132": 1,
+                "104201": 3
+            },
+            "50154": {
+                "104142": 1,
+                "104201": 3
+            },
+            "50155": {
+                "104152": 1,
+                "104201": 3
+            },
+            "50156": {
+                "104162": 1,
+                "104201": 3
+            }
+        },
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Dropped by Lv. 40+ Geo Hypostases",
+                "type": "single"
+            },
+            {
+                "name": "Dropped by Lv. 40+ Golden Wolflords",
+                "type": "single"
+            },
+            {
+                "name": "Dropped by Lv. 40+ Ruin Serpents",
+                "type": "single"
+            },
+            {
+                "name": "Crafted",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_104172",
+        "rank": 3,
+        "route": "Prithiva Topaz Fragment",
+        "_id": "104172",
+        "id": "prithiva_topaz_fragment"
+    },
+    {
+        "name": "Prithiva Topaz Chunk",
+        "description": "Character Ascension material.\\n\"The currencies that flow through this land are my flesh and blood.\\nFor thus did I become the guarantor of the people's hard work, wisdom, and future.\"",
+        "type": "Character Level-Up Material",
+        "recipe": {
+            "15020": {
+                "104172": 3
+            },
+            "50157": {
+                "104113": 1,
+                "104201": 9
+            },
+            "50158": {
+                "104123": 1,
+                "104201": 9
+            },
+            "50159": {
+                "104133": 1,
+                "104201": 9
+            },
+            "50160": {
+                "104143": 1,
+                "104201": 9
+            },
+            "50161": {
+                "104153": 1,
+                "104201": 9
+            },
+            "50162": {
+                "104163": 1,
+                "104201": 9
+            }
+        },
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Dropped by Lv. 60+ Geo Hypostases",
+                "type": "single"
+            },
+            {
+                "name": "Dropped by Lv. 60+ Golden Wolflords",
+                "type": "single"
+            },
+            {
+                "name": "Dropped by Lv. 60+ Ruin Serpents",
+                "type": "single"
+            },
+            {
+                "name": "Crafted",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_104173",
+        "rank": 4,
+        "route": "Prithiva Topaz Chunk",
+        "_id": "104173",
+        "id": "prithiva_topaz_chunk"
+    },
+    {
+        "name": "Prithiva Topaz Gemstone",
+        "description": "Character Ascension material.\\n\"The currencies that flow through this land are my flesh and blood.\\nFor thus did I become the guarantor of the people's hard work, wisdom, and future.\\nThis is the trust I have placed in them. Betray it, and you taint my blood.\"",
+        "type": "Character Level-Up Material",
+        "recipe": {
+            "15021": {
+                "104173": 3
+            },
+            "50163": {
+                "104114": 1,
+                "104201": 27
+            },
+            "50164": {
+                "104124": 1,
+                "104201": 27
+            },
+            "50165": {
+                "104134": 1,
+                "104201": 27
+            },
+            "50166": {
+                "104144": 1,
+                "104201": 27
+            },
+            "50167": {
+                "104154": 1,
+                "104201": 27
+            },
+            "50168": {
+                "104164": 1,
+                "104201": 27
+            }
+        },
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Dropped by Lv. 75+ Geo Hypostases",
+                "type": "single"
+            },
+            {
+                "name": "Dropped by Lv. 75+ Golden Wolflords",
+                "type": "single"
+            },
+            {
+                "name": "Dropped by Lv. 75+ Ruin Serpents",
+                "type": "single"
+            },
+            {
+                "name": "Crafted",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_104174",
+        "rank": 5,
+        "route": "Prithiva Topaz Gemstone",
+        "_id": "104174",
+        "id": "prithiva_topaz_gemstone"
+    },
+    {
+        "name": "Teachings of Freedom",
+        "description": "Talent Level-Up material.\\nFreedom is the spirit of the land of the wind.\\nThe freedom to live is one of such. It is the freedom to live freely and healthily without concerns of one's own safety.",
+        "type": "Talent Level-Up Material",
+        "recipe": false,
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Domain of Mastery: Frosted Altar",
+                "type": "domain",
+                "days": [
+                    "monday",
+                    "thursday",
+                    "sunday"
+                ]
+            }
+        ],
+        "icon": "UI_ItemIcon_104301",
+        "rank": 2,
+        "route": "Teachings of Freedom",
+        "_id": "104301",
+        "id": "teachings_of_freedom"
+    },
+    {
+        "name": "Guide to Freedom",
+        "description": "Talent Level-Up material.\\nFreedom is the spirit of the land of the wind.\\nThe freedom of travel is one of such. It is the freedom to traverse the land freely without being obstructed.",
+        "type": "Talent Level-Up Material",
+        "recipe": {
+            "13001": {
+                "104301": 3
+            }
+        },
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Crafted",
+                "type": "single"
+            },
+            {
+                "name": "Domain of Mastery: Frosted Altar",
+                "type": "domain",
+                "days": [
+                    "monday",
+                    "thursday",
+                    "sunday"
+                ]
+            }
+        ],
+        "icon": "UI_ItemIcon_104302",
+        "rank": 3,
+        "route": "Guide to Freedom",
+        "_id": "104302",
+        "id": "guide_to_freedom"
+    },
+    {
+        "name": "Philosophies of Freedom",
+        "description": "Talent Level-Up material.\\nFreedom is the spirit of the land of the wind.\\nTo sing is one such freedom. To sing on the land created by the Anemo Archon is to send your heart away with the song on the wind.",
+        "type": "Talent Level-Up Material",
+        "recipe": {
+            "13002": {
+                "104302": 3
+            }
+        },
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Crafted",
+                "type": "single"
+            },
+            {
+                "name": "Domain of Mastery: Frosted Altar",
+                "type": "domain",
+                "days": [
+                    "monday",
+                    "thursday",
+                    "sunday"
+                ]
+            }
+        ],
+        "icon": "UI_ItemIcon_104303",
+        "rank": 4,
+        "route": "Philosophies of Freedom",
+        "_id": "104303",
+        "id": "philosophies_of_freedom"
+    },
+    {
+        "name": "Teachings of Resistance",
+        "description": "Talent Level-Up material.\\nResistance is the backbone of the land of the wind.\\nThe history of Mondstadt is one of resistances. People rose up to prevent past conflicts from ever being forgotten, like sprouts breaking through the soil, like the eternal wind eroding through stone walls.",
+        "type": "Talent Level-Up Material",
+        "recipe": false,
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Domain of Mastery: Frozen Abyss",
+                "type": "domain",
+                "days": [
+                    "tuesday",
+                    "friday",
+                    "sunday"
+                ]
+            }
+        ],
+        "icon": "UI_ItemIcon_104304",
+        "rank": 2,
+        "route": "Teachings of Resistance",
+        "_id": "104304",
+        "id": "teachings_of_resistance"
+    },
+    {
+        "name": "Guide to Resistance",
+        "description": "Talent Level-Up material.\\nResistance is the backbone of the city of Wind.\\nThe history of Mondstadt is one of resistances. People rose up to grant the citizens of Mondstadt the freedom they now enjoy, like the Anemo Archon blowing away the snow, or like Vennessa rising up to fight.",
+        "type": "Talent Level-Up Material",
+        "recipe": {
+            "13003": {
+                "104304": 3
+            }
+        },
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Crafted",
+                "type": "single"
+            },
+            {
+                "name": "Domain of Mastery: Frozen Abyss",
+                "type": "domain",
+                "days": [
+                    "tuesday",
+                    "friday",
+                    "sunday"
+                ]
+            }
+        ],
+        "icon": "UI_ItemIcon_104305",
+        "rank": 3,
+        "route": "Guide to Resistance",
+        "_id": "104305",
+        "id": "guide_to_resistance"
+    },
+    {
+        "name": "Philosophies of Resistance",
+        "description": "Talent Level-Up material.\\nResistance is the backbone of the land of the wind.\\nThe history of Mondstadt is one of resistances. People rose up to allow the future Mondstadt's poetry to freely be that of the wind and be spread across the land.",
+        "type": "Talent Level-Up Material",
+        "recipe": {
+            "13004": {
+                "104305": 3
+            }
+        },
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Crafted",
+                "type": "single"
+            },
+            {
+                "name": "Domain of Mastery: Frozen Abyss",
+                "type": "domain",
+                "days": [
+                    "tuesday",
+                    "friday",
+                    "sunday"
+                ]
+            }
+        ],
+        "icon": "UI_ItemIcon_104306",
+        "rank": 4,
+        "route": "Philosophies of Resistance",
+        "_id": "104306",
+        "id": "philosophies_of_resistance"
+    },
+    {
+        "name": "Teachings of Ballad",
+        "description": "Talent Level-Up material.\\nPoetry is the soul of the land of the wind.\\nPoetry is the manifestations of beautiful feelings. On a beautiful day, the breezes carry with them poetry that touches the heart of people like the wind caressing the leaves.",
+        "type": "Talent Level-Up Material",
+        "recipe": false,
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Domain of Mastery: Realm of Slumber",
+                "type": "domain",
+                "days": [
+                    "wednesday",
+                    "saturday",
+                    "sunday"
+                ]
+            }
+        ],
+        "icon": "UI_ItemIcon_104307",
+        "rank": 2,
+        "route": "Teachings of Ballad",
+        "_id": "104307",
+        "id": "teachings_of_ballad"
+    },
+    {
+        "name": "Guide to Ballad",
+        "description": "Talent Level-Up material.\\nPoetry is the soul of the land of the wind.\\nPoetry is the manifestations of the will to encourage. In the dark days, the gales in the streets and alleyways whisper words of fury, like the battle drums, like the low rumbling before the storm.",
+        "type": "Talent Level-Up Material",
+        "recipe": {
+            "13005": {
+                "104307": 3
+            }
+        },
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Crafted",
+                "type": "single"
+            },
+            {
+                "name": "Domain of Mastery: Realm of Slumber",
+                "type": "domain",
+                "days": [
+                    "wednesday",
+                    "saturday",
+                    "sunday"
+                ]
+            }
+        ],
+        "icon": "UI_ItemIcon_104308",
+        "rank": 3,
+        "route": "Guide to Ballad",
+        "_id": "104308",
+        "id": "guide_to_ballad"
+    },
+    {
+        "name": "Philosophies of Ballad",
+        "description": "Talent Level-Up material.\\nPoetry is the soul of the land of the wind.\\nPoetry is the manifestations of the desire to spread the word. Though nothing is eternal, though nothing will be the same, the wind's poetry will still spread beyond the skies, the land, the seas to every corner of the world.",
+        "type": "Talent Level-Up Material",
+        "recipe": {
+            "13006": {
+                "104308": 3
+            }
+        },
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Crafted",
+                "type": "single"
+            },
+            {
+                "name": "Domain of Mastery: Realm of Slumber",
+                "type": "domain",
+                "days": [
+                    "wednesday",
+                    "saturday",
+                    "sunday"
+                ]
+            }
+        ],
+        "icon": "UI_ItemIcon_104309",
+        "rank": 4,
+        "route": "Philosophies of Ballad",
+        "_id": "104309",
+        "id": "philosophies_of_ballad"
+    },
+    {
+        "name": "Teachings of Prosperity",
+        "description": "Talent Level-Up material.\\nProsperity is the people's pursuit in the land of Geo.\\nProsperity is the blessing of Liyue, it is the foundation of the great city built by the gods and the people of Liyue, and it is the source of the peace and safety of the land.",
+        "type": "Talent Level-Up Material",
+        "recipe": false,
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Domain of Mastery: Altar of Flames",
+                "type": "domain",
+                "days": [
+                    "monday",
+                    "thursday",
+                    "sunday"
+                ]
+            }
+        ],
+        "icon": "UI_ItemIcon_104310",
+        "rank": 2,
+        "route": "Teachings of Prosperity",
+        "_id": "104310",
+        "id": "teachings_of_prosperity"
+    },
+    {
+        "name": "Guide to Prosperity",
+        "description": "Talent Level-Up material.\\nProsperity is the people's pursuit in the land of Geo.\\nProsperity is the promise made by Liyue to its children: To repay the hard-working laborers with enough gold to brighten up this land.",
+        "type": "Talent Level-Up Material",
+        "recipe": {
+            "13007": {
+                "104310": 3
+            }
+        },
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Crafted",
+                "type": "single"
+            },
+            {
+                "name": "Domain of Mastery: Altar of Flames",
+                "type": "domain",
+                "days": [
+                    "monday",
+                    "thursday",
+                    "sunday"
+                ]
+            }
+        ],
+        "icon": "UI_ItemIcon_104311",
+        "rank": 3,
+        "route": "Guide to Prosperity",
+        "_id": "104311",
+        "id": "guide_to_prosperity"
+    },
+    {
+        "name": "Philosophies of Prosperity",
+        "description": "Talent Level-Up material.\\nProsperity is the people's pursuit in the land of Geo.\\nProsperity is Liyue's past, present, and future. This prosperity is unmatched and unobtainable by any other nations — it all belongs to Liyue and its inhabitants.",
+        "type": "Talent Level-Up Material",
+        "recipe": {
+            "13008": {
+                "104311": 3
+            }
+        },
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Crafted",
+                "type": "single"
+            },
+            {
+                "name": "Domain of Mastery: Altar of Flames",
+                "type": "domain",
+                "days": [
+                    "monday",
+                    "thursday",
+                    "sunday"
+                ]
+            }
+        ],
+        "icon": "UI_ItemIcon_104312",
+        "rank": 4,
+        "route": "Philosophies of Prosperity",
+        "_id": "104312",
+        "id": "philosophies_of_prosperity"
+    },
+    {
+        "name": "Teachings of Diligence",
+        "description": "Talent Level-Up material.\\nIndustriousness is the foundation of the land of Geo.\\nDiligence is having the bravery and the strength to conquer mountains and seas and to pursue gold and prosperity through honest, hard work.",
+        "type": "Talent Level-Up Material",
+        "recipe": false,
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Domain of Mastery: Heart of the Flames",
+                "type": "domain",
+                "days": [
+                    "tuesday",
+                    "friday",
+                    "sunday"
+                ]
+            }
+        ],
+        "icon": "UI_ItemIcon_104313",
+        "rank": 2,
+        "route": "Teachings of Diligence",
+        "_id": "104313",
+        "id": "teachings_of_diligence"
+    },
+    {
+        "name": "Guide to Diligence",
+        "description": "Talent Level-Up material.\\nIndustriousness is the foundation of the land of Geo.\\nIndustriousness is the catalyst that flows in the blood of the people of Liyue, able to turn rocks into gold. It is what lies behind the greatness of its great commercial port.",
+        "type": "Talent Level-Up Material",
+        "recipe": {
+            "13009": {
+                "104313": 3
+            }
+        },
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Crafted",
+                "type": "single"
+            },
+            {
+                "name": "Domain of Mastery: Heart of the Flames",
+                "type": "domain",
+                "days": [
+                    "tuesday",
+                    "friday",
+                    "sunday"
+                ]
+            }
+        ],
+        "icon": "UI_ItemIcon_104314",
+        "rank": 3,
+        "route": "Guide to Diligence",
+        "_id": "104314",
+        "id": "guide_to_diligence"
+    },
+    {
+        "name": "Philosophies of Diligence",
+        "description": "Talent Level-Up material.\\nIndustriousness is the foundation of the land of Geo.\\nIndustriousness is believing in one's own ability to earn a place in the land of the gods through sweat, wisdom, and power.",
+        "type": "Talent Level-Up Material",
+        "recipe": {
+            "13010": {
+                "104314": 3
+            }
+        },
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Crafted",
+                "type": "single"
+            },
+            {
+                "name": "Domain of Mastery: Heart of the Flames",
+                "type": "domain",
+                "days": [
+                    "tuesday",
+                    "friday",
+                    "sunday"
+                ]
+            }
+        ],
+        "icon": "UI_ItemIcon_104315",
+        "rank": 4,
+        "route": "Philosophies of Diligence",
+        "_id": "104315",
+        "id": "philosophies_of_diligence"
+    },
+    {
+        "name": "Teachings of Gold",
+        "description": "Talent Level-Up material.\\nGold is the symbol of the land of Geo.\\nGold is the blood that flows deep within Liyue's veins, the muscle that makes up Liyue's beating heart, and the bones that make Liyue stand proud.",
+        "type": "Talent Level-Up Material",
+        "recipe": false,
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Domain of Mastery: Circle of Embers",
+                "type": "domain",
+                "days": [
+                    "wednesday",
+                    "saturday",
+                    "sunday"
+                ]
+            }
+        ],
+        "icon": "UI_ItemIcon_104316",
+        "rank": 2,
+        "route": "Teachings of Gold",
+        "_id": "104316",
+        "id": "teachings_of_gold"
+    },
+    {
+        "name": "Guide to Gold",
+        "description": "Talent Level-Up material.\\nGold is the symbol of the land of Geo.\\nGold symbolizes conversion. This is the unspoken understanding between Liyue's mountains, land, city, and people. In Liyue, industriousness is converted into gold, and gold into prosperity.",
+        "type": "Talent Level-Up Material",
+        "recipe": {
+            "13011": {
+                "104316": 3
+            }
+        },
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Crafted",
+                "type": "single"
+            },
+            {
+                "name": "Domain of Mastery: Circle of Embers",
+                "type": "domain",
+                "days": [
+                    "wednesday",
+                    "saturday",
+                    "sunday"
+                ]
+            }
+        ],
+        "icon": "UI_ItemIcon_104317",
+        "rank": 3,
+        "route": "Guide to Gold",
+        "_id": "104317",
+        "id": "guide_to_gold"
+    },
+    {
+        "name": "Philosophies of Gold",
+        "description": "Talent Level-Up material.\\nGold is the symbol of the land of Geo.\\nGold is the wealth of Liyue, but Liyue's true wealth is the hearts of its people that shine like gold.",
+        "type": "Talent Level-Up Material",
+        "recipe": {
+            "13012": {
+                "104317": 3
+            }
+        },
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Crafted",
+                "type": "single"
+            },
+            {
+                "name": "Domain of Mastery: Circle of Embers",
+                "type": "domain",
+                "days": [
+                    "wednesday",
+                    "saturday",
+                    "sunday"
+                ]
+            }
+        ],
+        "icon": "UI_ItemIcon_104318",
+        "rank": 4,
+        "route": "Philosophies of Gold",
+        "_id": "104318",
+        "id": "philosophies_of_gold"
+    },
+    {
+        "name": "Crown of Insight",
+        "description": "A precious Talent Level-Up material.\\nOnce a medium for the storage and transfer of wisdom in ancient times. Now, wisdom is found in ancient texts and in profound speech. Nevertheless, this Crown of Insight must still be able to impart some transcendent power and wisdom to its bearer.",
+        "type": "Talent Level-Up Material",
+        "recipe": false,
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Limited-Duration Event Reward",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_104319",
+        "rank": 5,
+        "route": "Crown of Insight",
+        "_id": "104319",
+        "id": "crown_of_insight"
+    },
+    {
+        "name": "Teachings of Transience",
+        "description": "Talent Level-Up material.\\nTransience is the dream of the nation of thunder.\\nFleeting glories are the highest expression of mortal beauty, for are we mortals not like the flashing lightning itself? Like a lovely dream or blossoming spark, we shall leave a gorgeous mark on the eternal night sky.",
+        "type": "Talent Level-Up Material",
+        "recipe": false,
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Domain of Mastery: Reign of Violet",
+                "type": "domain",
+                "days": [
+                    "monday",
+                    "thursday",
+                    "sunday"
+                ]
+            }
+        ],
+        "icon": "UI_ItemIcon_104320",
+        "rank": 2,
+        "route": "Teachings of Transience",
+        "_id": "104320",
+        "id": "teachings_of_transience"
+    },
+    {
+        "name": "Guide to Transience",
+        "description": "Talent Level-Up material.\\nTransience is the dream of the nation of thunder.\\nWe find the greatest joys in mortal life in transient dreams, for is life itself not like the shadow of the thunder? Pursue your dreams into the clouds if you wish, and enjoy the unexpected silence of the dim lamp-lit nights.",
+        "type": "Talent Level-Up Material",
+        "recipe": {
+            "13013": {
+                "104320": 3
+            }
+        },
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Crafted",
+                "type": "single"
+            },
+            {
+                "name": "Domain of Mastery: Reign of Violet",
+                "type": "domain",
+                "days": [
+                    "monday",
+                    "thursday",
+                    "sunday"
+                ]
+            }
+        ],
+        "icon": "UI_ItemIcon_104321",
+        "rank": 3,
+        "route": "Guide to Transience",
+        "_id": "104321",
+        "id": "guide_to_transience"
+    },
+    {
+        "name": "Philosophies of Transience",
+        "description": "Talent Level-Up material.\\nTransience is the dream of the nation of thunder.\\nThe fleeting nature of this mortal world is the essence of beauty, for are our lives in this world not akin to the levin flash? Yet the might of the divine comes suddenly, and before the roar of eternity, who can stand?",
+        "type": "Talent Level-Up Material",
+        "recipe": {
+            "13014": {
+                "104321": 3
+            }
+        },
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Crafted",
+                "type": "single"
+            },
+            {
+                "name": "Domain of Mastery: Reign of Violet",
+                "type": "domain",
+                "days": [
+                    "monday",
+                    "thursday",
+                    "sunday"
+                ]
+            }
+        ],
+        "icon": "UI_ItemIcon_104322",
+        "rank": 4,
+        "route": "Philosophies of Transience",
+        "_id": "104322",
+        "id": "philosophies_of_transience"
+    },
+    {
+        "name": "Teachings of Elegance",
+        "description": "Talent Level-Up material.\\nElegance is the form of the nation of thunder.\\nElegance brooks no flattery, and the elegant are ever noble. They are like the sea eagles who soar on high to contend with the resounding storms. They will not cater to philistine vulgarity, as one would not cast a flower crown into the mud, staining its dignity.",
+        "type": "Talent Level-Up Material",
+        "recipe": false,
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Domain of Mastery: Thundering Valley",
+                "type": "domain",
+                "days": [
+                    "tuesday",
+                    "friday",
+                    "sunday"
+                ]
+            }
+        ],
+        "icon": "UI_ItemIcon_104323",
+        "rank": 2,
+        "route": "Teachings of Elegance",
+        "_id": "104323",
+        "id": "teachings_of_elegance"
+    },
+    {
+        "name": "Guide to Elegance",
+        "description": "Talent Level-Up material.\\nElegance is the form of the nation of thunder.\\nElegance shuns arrogance. The elegant are ever humble, and only by discarding vanity and sloth may one see clearly — and is there not beauty and loveliness even in the basest of appearances?",
+        "type": "Talent Level-Up Material",
+        "recipe": {
+            "13015": {
+                "104323": 3
+            }
+        },
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Crafted",
+                "type": "single"
+            },
+            {
+                "name": "Domain of Mastery: Thundering Valley",
+                "type": "domain",
+                "days": [
+                    "tuesday",
+                    "friday",
+                    "sunday"
+                ]
+            }
+        ],
+        "icon": "UI_ItemIcon_104324",
+        "rank": 3,
+        "route": "Guide to Elegance",
+        "_id": "104324",
+        "id": "guide_to_elegance"
+    },
+    {
+        "name": "Philosophies of Elegance",
+        "description": "Talent Level-Up material.\\nElegance is the form of the nation of thunder.\\nElegance abhors vulgarity, and the elegant ever walk alone. Resisting base evils, unmoved by base loves, never taking refuge in base ignorance — that is how one perceives the chasm between the elegant and the contemptuous.",
+        "type": "Talent Level-Up Material",
+        "recipe": {
+            "13016": {
+                "104324": 3
+            }
+        },
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Crafted",
+                "type": "single"
+            },
+            {
+                "name": "Domain of Mastery: Thundering Valley",
+                "type": "domain",
+                "days": [
+                    "tuesday",
+                    "friday",
+                    "sunday"
+                ]
+            }
+        ],
+        "icon": "UI_ItemIcon_104325",
+        "rank": 4,
+        "route": "Philosophies of Elegance",
+        "_id": "104325",
+        "id": "philosophies_of_elegance"
+    },
+    {
+        "name": "Teachings of Light",
+        "description": "Talent Level-Up material.\\nLight is the yearning of the land of thunder.\\nThe ruler who claims to have perceived all forever aims to hoard celestial glory. But this vision that cannot be shared only leads people to long for it more fiercely, like moths diving into the flame.",
+        "type": "Talent Level-Up Material",
+        "recipe": false,
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Domain of Mastery: Vine-Infested Ruins",
+                "type": "domain",
+                "days": [
+                    "wednesday",
+                    "saturday",
+                    "sunday"
+                ]
+            }
+        ],
+        "icon": "UI_ItemIcon_104326",
+        "rank": 2,
+        "route": "Teachings of Light",
+        "_id": "104326",
+        "id": "teachings_of_light"
+    },
+    {
+        "name": "Guide to Light",
+        "description": "Talent Level-Up material.\\nLight is the yearning of the land of thunder.\\nThough the sun rays themselves should be blocked by layers upon layers of clouds, there are still those in the thunder god's land who dream of piercing that wrathful sea of lightning to pursue the glory of the divine, fearing not that they shall be cruelly struck down.",
+        "type": "Talent Level-Up Material",
+        "recipe": {
+            "13017": {
+                "104326": 3
+            }
+        },
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Crafted",
+                "type": "single"
+            },
+            {
+                "name": "Domain of Mastery: Vine-Infested Ruins",
+                "type": "domain",
+                "days": [
+                    "wednesday",
+                    "saturday",
+                    "sunday"
+                ]
+            }
+        ],
+        "icon": "UI_ItemIcon_104327",
+        "rank": 3,
+        "route": "Guide to Light",
+        "_id": "104327",
+        "id": "guide_to_light"
+    },
+    {
+        "name": "Philosophies of Light",
+        "description": "Talent Level-Up material.\\nLight is the yearning of the land of thunder.\\nThough they must live forever on the earth, humanity will always reach for the light. Mortals will pursue and surpass, and they will never stop. A sealed eternity may, perhaps, look magnificent, but its essence is death.",
+        "type": "Talent Level-Up Material",
+        "recipe": {
+            "13018": {
+                "104327": 3
+            }
+        },
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Crafted",
+                "type": "single"
+            },
+            {
+                "name": "Domain of Mastery: Vine-Infested Ruins",
+                "type": "domain",
+                "days": [
+                    "wednesday",
+                    "saturday",
+                    "sunday"
+                ]
+            }
+        ],
+        "icon": "UI_ItemIcon_104328",
+        "rank": 4,
+        "route": "Philosophies of Light",
+        "_id": "104328",
+        "id": "philosophies_of_light"
+    },
+    {
+        "name": "Teachings of Admonition",
+        "description": "Talent Level-Up material.\\nAdmonition is the branches of the nation of wisdom.\\nAdmonition comes from a pure heart. Only sensible words of goodwill can express profound wisdom and free the sprout of knowledge from the shackles of arrogance.",
+        "type": "Talent Level-Up Materials",
+        "recipe": false,
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Domain of Mastery: Full Moon",
+                "type": "domain",
+                "days": [
+                    "monday",
+                    "thursday",
+                    "sunday"
+                ]
+            }
+        ],
+        "icon": "UI_ItemIcon_104329",
+        "rank": 2,
+        "route": "Teachings of Admonition",
+        "_id": "104329",
+        "id": "teachings_of_admonition"
+    },
+    {
+        "name": "Guide to Admonition",
+        "description": "Talent Level-Up material.\\nAdmonition is the branches of the nation of wisdom.\\nAdmonition is paired with wise thinking. Careful deliberation affords humble words a clarity that convinces the wise and enlightens the foolish. Such words allow wisdom to flow like an unobstructed river.",
+        "type": "Talent Level-Up Materials",
+        "recipe": {
+            "13019": {
+                "104329": 3
+            }
+        },
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Crafted",
+                "type": "single"
+            },
+            {
+                "name": "Domain of Mastery: Full Moon",
+                "type": "domain",
+                "days": [
+                    "monday",
+                    "thursday",
+                    "sunday"
+                ]
+            }
+        ],
+        "icon": "UI_ItemIcon_104330",
+        "rank": 3,
+        "route": "Guide to Admonition",
+        "_id": "104330",
+        "id": "guide_to_admonition"
+    },
+    {
+        "name": "Philosophies of Admonition",
+        "description": "Talent Level-Up material.\\nAdmonition is the branches of the nation of wisdom.\\nAdmonition is completed by good deeds. What is done confers real meaning upon what is said. When one's mind, words, and deeds are aligned, their nourishment shall guarantee the fruition of wisdom's tree.",
+        "type": "Talent Level-Up Materials",
+        "recipe": {
+            "13020": {
+                "104330": 3
+            }
+        },
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Crafted",
+                "type": "single"
+            },
+            {
+                "name": "Domain of Mastery: Full Moon",
+                "type": "domain",
+                "days": [
+                    "monday",
+                    "thursday",
+                    "sunday"
+                ]
+            }
+        ],
+        "icon": "UI_ItemIcon_104331",
+        "rank": 4,
+        "route": "Philosophies of Admonition",
+        "_id": "104331",
+        "id": "philosophies_of_admonition"
+    },
+    {
+        "name": "Teachings of Ingenuity",
+        "description": "Talent Level-Up material.\\nIngenuity is the leaf-veins of the nation of wisdom.\\nIngenuity springs forth from benevolent consideration. They say that \"a poisonous tree bears no kind fruit.\" Similarly, ingenious nascent ideas are always born from determined and benign minds, for only they are worthy bearers of wisdom.",
+        "type": "Talent Level-Up Materials",
+        "recipe": false,
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Domain of Mastery: Witticism",
+                "type": "domain",
+                "days": [
+                    "tuesday",
+                    "friday",
+                    "sunday"
+                ]
+            }
+        ],
+        "icon": "UI_ItemIcon_104332",
+        "rank": 2,
+        "route": "Teachings of Ingenuity",
+        "_id": "104332",
+        "id": "teachings_of_ingenuity"
+    },
+    {
+        "name": "Guide to Ingenuity",
+        "description": "Talent Level-Up material.\\nIngenuity is the leaf-veins of the nation of wisdom. Ingenuity sets words of integrity on the right path. One who thinks out of goodwill and in a clever and careful fashion never deviates from the path of boons. Yet one who thinks with contempt and malice shall taint their words with despicable colors.",
+        "type": "Talent Level-Up Materials",
+        "recipe": {
+            "13021": {
+                "104332": 3
+            }
+        },
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Crafted",
+                "type": "single"
+            },
+            {
+                "name": "Domain of Mastery: Witticism",
+                "type": "domain",
+                "days": [
+                    "tuesday",
+                    "friday",
+                    "sunday"
+                ]
+            }
+        ],
+        "icon": "UI_ItemIcon_104333",
+        "rank": 3,
+        "route": "Guide to Ingenuity",
+        "_id": "104333",
+        "id": "guide_to_ingenuity"
+    },
+    {
+        "name": "Philosophies of Ingenuity",
+        "description": "Talent Level-Up material.\\nIngenuity is the leaf-veins of the nation of wisdom.\\nIngenuity is completed by harmonious conduct. What is done completes what is thought. Wisdom blooms where the mind, words, and practice converge.",
+        "type": "Talent Level-Up Materials",
+        "recipe": {
+            "13022": {
+                "104333": 3
+            }
+        },
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Crafted",
+                "type": "single"
+            },
+            {
+                "name": "Domain of Mastery: Witticism",
+                "type": "domain",
+                "days": [
+                    "tuesday",
+                    "friday",
+                    "sunday"
+                ]
+            }
+        ],
+        "icon": "UI_ItemIcon_104334",
+        "rank": 4,
+        "route": "Philosophies of Ingenuity",
+        "_id": "104334",
+        "id": "philosophies_of_ingenuity"
+    },
+    {
+        "name": "Teachings of Praxis",
+        "description": "Talent Level-Up material.\\nPraxes are the roots of the nation of wisdom.\\nPraxes stem from an unwavering will. All wisdom is manifested through the unyielding pursuit of goodness. Where goodness is not practiced, ingenuity and eloquence wither.",
+        "type": "Talent Level-Up Materials",
+        "recipe": false,
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Domain of Mastery: Basket of Discipline",
+                "type": "domain",
+                "days": [
+                    "wednesday",
+                    "saturday",
+                    "sunday"
+                ]
+            }
+        ],
+        "icon": "UI_ItemIcon_104335",
+        "rank": 2,
+        "route": "Teachings of Praxis",
+        "_id": "104335",
+        "id": "teachings_of_praxis"
+    },
+    {
+        "name": "Guide to Praxis",
+        "description": "Talent Level-Up material.\\nPraxes are the roots of the nation of wisdom.\\nPraxes validate words of honesty. Though one speaks and acts out of goodwill, one has not yet obtained wisdom. Wisdom, born from action, is a signet pressed upon honest words.",
+        "type": "Talent Level-Up Materials",
+        "recipe": {
+            "13023": {
+                "104335": 3
+            }
+        },
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Crafted",
+                "type": "single"
+            },
+            {
+                "name": "Domain of Mastery: Basket of Discipline",
+                "type": "domain",
+                "days": [
+                    "wednesday",
+                    "saturday",
+                    "sunday"
+                ]
+            }
+        ],
+        "icon": "UI_ItemIcon_104336",
+        "rank": 3,
+        "route": "Guide to Praxis",
+        "_id": "104336",
+        "id": "guide_to_praxis"
+    },
+    {
+        "name": "Philosophies of Praxis",
+        "description": "Talent Level-Up material.\\nPraxes are the roots of the nation of wisdom.\\nPraxes bring forth the fruit of wisdom. Practice grants itself meaning, and it is only by treading a path that unites action, speech, and thought that the wise may reach perfection.",
+        "type": "Talent Level-Up Materials",
+        "recipe": {
+            "13024": {
+                "104336": 3
+            }
+        },
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Crafted",
+                "type": "single"
+            },
+            {
+                "name": "Domain of Mastery: Basket of Discipline",
+                "type": "domain",
+                "days": [
+                    "wednesday",
+                    "saturday",
+                    "sunday"
+                ]
+            }
+        ],
+        "icon": "UI_ItemIcon_104337",
+        "rank": 4,
+        "route": "Philosophies of Praxis",
+        "_id": "104337",
+        "id": "philosophies_of_praxis"
+    },
+    {
+        "name": "Slime Condensate",
+        "description": "A thick coating found on slimes. Most commonly seen material in elemental workshops.",
+        "type": "Character Level-Up Material",
+        "recipe": false,
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Dropped by slimes",
+                "type": "single"
+            },
+            {
+                "name": "Stardust Exchange",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_112002",
+        "rank": 1,
+        "route": "Slime Condensate",
+        "_id": "112002",
+        "id": "slime_condensate"
+    },
+    {
+        "name": "Slime Secretions",
+        "description": "Mildly purified slime secretions. Harmful to the skin. Please avoid direct exposure.",
+        "type": "Character Level-Up Material",
+        "recipe": {
+            "11001": {
+                "112002": 3
+            }
+        },
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Crafted",
+                "type": "single"
+            },
+            {
+                "name": "Dropped by Lv. 40+ slimes",
+                "type": "single"
+            },
+            {
+                "name": "Stardust Exchange",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_112003",
+        "rank": 2,
+        "route": "Slime Secretions",
+        "_id": "112003",
+        "id": "slime_secretions"
+    },
+    {
+        "name": "Slime Concentrate",
+        "description": "Concentrated slime essence. When left alone, it will begin to move on its own.",
+        "type": "Character Level-Up Material",
+        "recipe": {
+            "11002": {
+                "112003": 3
+            }
+        },
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Crafted",
+                "type": "single"
+            },
+            {
+                "name": "Dropped by Lv. 60+ slimes",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_112004",
+        "rank": 3,
+        "route": "Slime Concentrate",
+        "_id": "112004",
+        "id": "slime_concentrate"
+    },
+    {
+        "name": "Damaged Mask",
+        "description": "A broken bone mask that once belonged to some hilichurl.\\nNow more broken than complete, it can no longer perform its primary function.",
+        "type": "Character Level-Up Material",
+        "recipe": false,
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Dropped by hilichurls",
+                "type": "single"
+            },
+            {
+                "name": "Dropped uncommonly by hilichurl archers",
+                "type": "single"
+            },
+            {
+                "name": "Dropped uncommonly by samachurls",
+                "type": "single"
+            },
+            {
+                "name": "Dropped uncommonly by mitachurls",
+                "type": "single"
+            },
+            {
+                "name": "Dropped uncommonly by lawachurls",
+                "type": "single"
+            },
+            {
+                "name": "Stardust Exchange",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_112005",
+        "rank": 1,
+        "route": "Damaged Mask",
+        "_id": "112005",
+        "id": "damaged_mask"
+    },
+    {
+        "name": "Stained Mask",
+        "description": "A bone mask, covered in unidentifiable stains, that emanates a mysterious odor.\\nYet such is the devotion of hilichurls to masks that they will wear it nonetheless.",
+        "type": "Character Level-Up Material",
+        "recipe": {
+            "11003": {
+                "112005": 3
+            }
+        },
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Crafted",
+                "type": "single"
+            },
+            {
+                "name": "Dropped by Lv. 40+ hilichurls",
+                "type": "single"
+            },
+            {
+                "name": "Dropped uncommonly by Lv. 40+ hilichurl archers",
+                "type": "single"
+            },
+            {
+                "name": "Dropped uncommonly by Lv. 40+ samachurls",
+                "type": "single"
+            },
+            {
+                "name": "Dropped uncommonly by Lv. 40+ mitachurls",
+                "type": "single"
+            },
+            {
+                "name": "Dropped uncommonly by Lv. 40+ lawachurls",
+                "type": "single"
+            },
+            {
+                "name": "Stardust Exchange",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_112006",
+        "rank": 2,
+        "route": "Stained Mask",
+        "_id": "112006",
+        "id": "stained_mask"
+    },
+    {
+        "name": "Ominous Mask",
+        "description": "A glossy bone mask with oil markings painted on it, meant to intimidate enemies.\\nNo one really knows why hilichurls are so fascinated with masks. Some say that it's because they don't want to see their own reflections in the water.",
+        "type": "Character Level-Up Material",
+        "recipe": {
+            "11004": {
+                "112006": 3
+            }
+        },
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Crafted",
+                "type": "single"
+            },
+            {
+                "name": "Dropped by Lv. 60+ hilichurls",
+                "type": "single"
+            },
+            {
+                "name": "Dropped uncommonly by Lv. 60+ hilichurl archers",
+                "type": "single"
+            },
+            {
+                "name": "Dropped uncommonly by Lv. 60+ samachurls",
+                "type": "single"
+            },
+            {
+                "name": "Dropped uncommonly by Lv. 60+ mitachurls",
+                "type": "single"
+            },
+            {
+                "name": "Dropped uncommonly by Lv. 60+ lawachurls",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_112007",
+        "rank": 3,
+        "route": "Ominous Mask",
+        "_id": "112007",
+        "id": "ominous_mask"
+    },
+    {
+        "name": "Divining Scroll",
+        "description": "A scroll that likely relates to some kind of magic. Exudes an inexplicable but ominous warmth.",
+        "type": "Character Level-Up Material",
+        "recipe": false,
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Dropped by samachurls",
+                "type": "single"
+            },
+            {
+                "name": "Stardust Exchange",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_112008",
+        "rank": 1,
+        "route": "Divining Scroll",
+        "_id": "112008",
+        "id": "divining_scroll"
+    },
+    {
+        "name": "Sealed Scroll",
+        "description": "An old scroll lacking in detail and clarity. By following the images on it, some magical creatures can recreate a small part of its magic.",
+        "type": "Character Level-Up Material",
+        "recipe": {
+            "11005": {
+                "112008": 3
+            }
+        },
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Crafted",
+                "type": "single"
+            },
+            {
+                "name": "Dropped by Lv. 40+ samachurls",
+                "type": "single"
+            },
+            {
+                "name": "Stardust Exchange",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_112009",
+        "rank": 2,
+        "route": "Sealed Scroll",
+        "_id": "112009",
+        "id": "sealed_scroll"
+    },
+    {
+        "name": "Forbidden Curse Scroll",
+        "description": "A scroll inscribed with ancient images. It is said that few can decipher its meaning, and the few scholars that have all went mad.",
+        "type": "Character Level-Up Material",
+        "recipe": {
+            "11006": {
+                "112009": 3
+            }
+        },
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Crafted",
+                "type": "single"
+            },
+            {
+                "name": "Dropped by Lv. 60+ samachurls",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_112010",
+        "rank": 3,
+        "route": "Forbidden Curse Scroll",
+        "_id": "112010",
+        "id": "forbidden_curse_scroll"
+    },
+    {
+        "name": "Firm Arrowhead",
+        "description": "A roughly produced arrowhead. Though unimpressive, neither it nor the bow should be underestimated, for even the bravest knight can be felled by an arrow from the rear.",
+        "type": "Character Level-Up Material",
+        "recipe": false,
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Dropped by hilichurl archers",
+                "type": "single"
+            },
+            {
+                "name": "Stardust Exchange",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_112011",
+        "rank": 1,
+        "route": "Firm Arrowhead",
+        "_id": "112011",
+        "id": "firm_arrowhead"
+    },
+    {
+        "name": "Sharp Arrowhead",
+        "description": "A well-made arrowhead. Sharp enough to penetrate armor with the ease of a rock through the surface of water.",
+        "type": "Character Level-Up Material",
+        "recipe": {
+            "11007": {
+                "112011": 3
+            }
+        },
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Crafted",
+                "type": "single"
+            },
+            {
+                "name": "Dropped by Lv. 40+ hilichurl archers",
+                "type": "single"
+            },
+            {
+                "name": "Stardust Exchange",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_112012",
+        "rank": 2,
+        "route": "Sharp Arrowhead",
+        "_id": "112012",
+        "id": "sharp_arrowhead"
+    },
+    {
+        "name": "Weathered Arrowhead",
+        "description": "An old arrowhead coated in blood. The arrowhead has long since lost its sharpness and thus its use as a weapon.\\nHowever, it represents the pride of a hunter and acts as both an amulet and a medal.",
+        "type": "Character Level-Up Material",
+        "recipe": {
+            "11008": {
+                "112012": 3
+            }
+        },
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Crafted",
+                "type": "single"
+            },
+            {
+                "name": "Dropped by Lv. 60+ hilichurl archers",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_112013",
+        "rank": 3,
+        "route": "Weathered Arrowhead",
+        "_id": "112013",
+        "id": "weathered_arrowhead"
+    },
+    {
+        "name": "Recruit's Insignia",
+        "description": "An insignia to identify the recruits. Makes one wonder about what the ones joining the Fatui's war machine were thinking.",
+        "type": "Character Level-Up Material",
+        "recipe": false,
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Dropped by Fatui Skirmishers",
+                "type": "single"
+            },
+            {
+                "name": "Dropped by some Fatui Agents",
+                "type": "single"
+            },
+            {
+                "name": "Dropped uncommonly by Fatui Cicin Mages",
+                "type": "single"
+            },
+            {
+                "name": "Stardust Exchange",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_112032",
+        "rank": 1,
+        "route": "Recruit's Insignia",
+        "_id": "112032",
+        "id": "recruit's_insignia"
+    },
+    {
+        "name": "Sergeant's Insignia",
+        "description": "An insignia with a different shape to distinguish the sergeants from new recruits. Perhaps there are complicated emotions behind it.",
+        "type": "Character Level-Up Material",
+        "recipe": {
+            "11021": {
+                "112032": 3
+            }
+        },
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Crafted",
+                "type": "single"
+            },
+            {
+                "name": "Dropped by Lv. 40+ Fatui Skirmishers",
+                "type": "single"
+            },
+            {
+                "name": "Dropped uncommonly by Lv. 40+ Fatui Agents",
+                "type": "single"
+            },
+            {
+                "name": "Dropped uncommonly by Lv. 40+ Fatui Cicin Mages",
+                "type": "single"
+            },
+            {
+                "name": "Stardust Exchange",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_112033",
+        "rank": 2,
+        "route": "Sergeant's Insignia",
+        "_id": "112033",
+        "id": "sergeant's_insignia"
+    },
+    {
+        "name": "Lieutenant's Insignia",
+        "description": "An insignia to identify officers. The Fatui possess a colossal army, so there must be something extraordinary about the ones who achieved this rank within the group.",
+        "type": "Character Level-Up Material",
+        "recipe": {
+            "11022": {
+                "112033": 3
+            }
+        },
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Crafted",
+                "type": "single"
+            },
+            {
+                "name": "Dropped by Lv. 60+ Fatui Skirmishers",
+                "type": "single"
+            },
+            {
+                "name": "Dropped uncommonly by Lv. 60+ Fatui Agents",
+                "type": "single"
+            },
+            {
+                "name": "Dropped uncommonly by Lv. 60+ Fatui Cicin Mages",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_112034",
+        "rank": 3,
+        "route": "Lieutenant's Insignia",
+        "_id": "112034",
+        "id": "lieutenant's_insignia"
+    },
+    {
+        "name": "Treasure Hoarder Insignia",
+        "description": "A signet that proudly represents its owner's position as member of the Treasure Hoarders. The pursuit of treasure knows no bounds. That said... Is being a thief something to be proud of?",
+        "type": "Character Level-Up Material",
+        "recipe": false,
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Dropped by Treasure Hoarders",
+                "type": "single"
+            },
+            {
+                "name": "Stardust Exchange",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_112035",
+        "rank": 1,
+        "route": "Treasure Hoarder Insignia",
+        "_id": "112035",
+        "id": "treasure_hoarder_insignia"
+    },
+    {
+        "name": "Silver Raven Insignia",
+        "description": "A raven insignia used by members of the Treasure Hoarders to identify each other. The Treasure Hoarders ask for no resume. Anyone who has an insatiable desire for treasure and is backed up by an equal amount of courage can become a worthy member.",
+        "type": "Character Level-Up Material",
+        "recipe": {
+            "11023": {
+                "112035": 3
+            }
+        },
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Crafted",
+                "type": "single"
+            },
+            {
+                "name": "Dropped by Lv. 40+ Treasure Hoarders",
+                "type": "single"
+            },
+            {
+                "name": "Stardust Exchange",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_112036",
+        "rank": 2,
+        "route": "Silver Raven Insignia",
+        "_id": "112036",
+        "id": "silver_raven_insignia"
+    },
+    {
+        "name": "Golden Raven Insignia",
+        "description": "A raven insignia that symbolizes the pride and the guiding principle of the Treasure Hoarders. Whether it's hidden amidst the vastness of the land or in the depths of the seas, as long as there are treasures to be hunted down, the spirit of Treasure Hoarders, who will stop at nothing to acquire them, will never die.",
+        "type": "Character Level-Up Material",
+        "recipe": {
+            "11024": {
+                "112036": 3
+            }
+        },
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Crafted",
+                "type": "single"
+            },
+            {
+                "name": "Dropped by Lv. 60+ Treasure Hoarders",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_112037",
+        "rank": 3,
+        "route": "Golden Raven Insignia",
+        "_id": "112037",
+        "id": "golden_raven_insignia"
+    },
+    {
+        "name": "Whopperflower Nectar",
+        "description": "Nectar extracted from the stamen of a Whopperflower that contains trace amounts of elemental energy.\\nThe taste of the nectar has a hint of Sweet Flower in it.",
+        "type": "Character Level-Up Material",
+        "recipe": false,
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Dropped by whopperflowers",
+                "type": "single"
+            },
+            {
+                "name": "Stardust Exchange",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_112038",
+        "rank": 1,
+        "route": "Whopperflower Nectar",
+        "_id": "112038",
+        "id": "whopperflower_nectar"
+    },
+    {
+        "name": "Shimmering Nectar",
+        "description": "Nectar that is full of pure elemental energy.\\nScholars generally concur that Whopperflowers are advanced life forms among the elemental plants, but there has yet to be a satisfactory explanation regarding their predatory habits.",
+        "type": "Character Level-Up Material",
+        "recipe": {
+            "11025": {
+                "112038": 3
+            }
+        },
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Crafted",
+                "type": "single"
+            },
+            {
+                "name": "Dropped by Lv. 40+ whopperflowers",
+                "type": "single"
+            },
+            {
+                "name": "Stardust Exchange",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_112039",
+        "rank": 2,
+        "route": "Shimmering Nectar",
+        "_id": "112039",
+        "id": "shimmering_nectar"
+    },
+    {
+        "name": "Energy Nectar",
+        "description": "A thick and sticky honey that is full of energy.\\nThe Whopperflower hunts by tricking its prey, a process it uses to possibly evolve into a more powerful and pure form.",
+        "type": "Character Level-Up Material",
+        "recipe": {
+            "11026": {
+                "112039": 3
+            }
+        },
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Crafted",
+                "type": "single"
+            },
+            {
+                "name": "Dropped by Lv. 60+ whopperflowers",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_112040",
+        "rank": 3,
+        "route": "Energy Nectar",
+        "_id": "112040",
+        "id": "energy_nectar"
+    },
+    {
+        "name": "Old Handguard",
+        "description": "A battle-worn handguard that was once mounted on an Inazuman blade.\\nFor those adept in the art of the sword, the tsuba is a defense from the edge of an opponent's blade. For beginners, it is a defense made for their own right hand, to protect it from itself.",
+        "type": "Character Level-Up Material",
+        "recipe": false,
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Dropped by Nobushi",
+                "type": "single"
+            },
+            {
+                "name": "Stardust Exchange",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_112044",
+        "rank": 1,
+        "route": "Old Handguard",
+        "_id": "112044",
+        "id": "old_handguard"
+    },
+    {
+        "name": "Kageuchi Handguard",
+        "description": "A handguard mounded upon a sword of some distinction.\\nInazuma has a long tradition of sword-making. When making swords, smiths will often make several different weapons at once, before choosing from among them the \"shinuchi,\" or the best weapon, while the others are known as \"kageuchi.\"",
+        "type": "Character Level-Up Material",
+        "recipe": {
+            "11029": {
+                "112044": 3
+            }
+        },
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Crafted",
+                "type": "single"
+            },
+            {
+                "name": "Dropped by Lv. 40+ Nobushi",
+                "type": "single"
+            },
+            {
+                "name": "Stardust Exchange",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_112045",
+        "rank": 2,
+        "route": "Kageuchi Handguard",
+        "_id": "112045",
+        "id": "kageuchi_handguard"
+    },
+    {
+        "name": "Famed Handguard",
+        "description": "An intricately-made handguard that was mounted upon a famed weapon.\\nSome believe that swords have souls and lives of their own, and thus deserve their own names. Those who love their blades will be acknowledged by them in turn. But those who see their swords as friends or even lovers should be warned that this relationship is built on death and bloodshed. The passions of those who dance with their blade amid crimson showers must surely be cooled someday by fickle steel.",
+        "type": "Character Level-Up Material",
+        "recipe": {
+            "11030": {
+                "112045": 3
+            }
+        },
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Crafted",
+                "type": "single"
+            },
+            {
+                "name": "Dropped by Lv. 60+ Nobushi",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_112046",
+        "rank": 3,
+        "route": "Famed Handguard",
+        "_id": "112046",
+        "id": "famed_handguard"
+    },
+    {
+        "name": "Spectral Husk",
+        "description": "An energy core that allows the Specters to float. It contains a small amount of elemental energy.\\nMost of the rest has already dispersed.",
+        "type": "Character Level-Up Material",
+        "recipe": false,
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Dropped by Specters",
+                "type": "single"
+            },
+            {
+                "name": "Stardust Exchange",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_112053",
+        "rank": 1,
+        "route": "Spectral Husk",
+        "_id": "112053",
+        "id": "spectral_husk"
+    },
+    {
+        "name": "Spectral Heart",
+        "description": "An energy core that allows the Specters to float.\\nThese elemental life-forms have strange behavioral patterns and will periodically surge in number before disappearing.",
+        "type": "Character Level-Up Material",
+        "recipe": {
+            "11035": {
+                "112053": 3
+            }
+        },
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Crafted",
+                "type": "single"
+            },
+            {
+                "name": "Dropped by Lv. 40+ Specters",
+                "type": "single"
+            },
+            {
+                "name": "Stardust Exchange",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_112054",
+        "rank": 2,
+        "route": "Spectral Heart",
+        "_id": "112054",
+        "id": "spectral_heart"
+    },
+    {
+        "name": "Spectral Nucleus",
+        "description": "A complete energy core that can sometimes be found after defeating Specters.\\nThere is a debate among those who just have to divide the world into winners and losers: what floats better — a Specter or an Anemo Slime?",
+        "type": "Character Level-Up Material",
+        "recipe": {
+            "11036": {
+                "112054": 3
+            }
+        },
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Crafted",
+                "type": "single"
+            },
+            {
+                "name": "Dropped by Lv. 60+ Specters",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_112055",
+        "rank": 3,
+        "route": "Spectral Nucleus",
+        "_id": "112055",
+        "id": "spectral_nucleus"
+    },
+    {
+        "name": "Fungal Spores",
+        "description": "A small amount of glittering spore powder left behind by Floating Fungi. Seems that a sneeze is all it takes for this powder to vanish without a trace.",
+        "type": "Character Level-Up Material",
+        "recipe": false,
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Dropped by Fungi",
+                "type": "single"
+            },
+            {
+                "name": "Dropped uncommonly by Fungi (activated)",
+                "type": "single"
+            },
+            {
+                "name": "Dropped uncommonly by Fungi (scorched)",
+                "type": "single"
+            },
+            {
+                "name": "Stardust Exchange",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_112059",
+        "rank": 1,
+        "route": "Fungal Spores",
+        "_id": "112059",
+        "id": "fungal_spores"
+    },
+    {
+        "name": "Luminescent Pollen",
+        "description": "A small parcel of luminescent Fungal Spore powder, a common medical ingredient in the land of rainforests. Merchants usually sell them in paper packets.",
+        "type": "Character Level-Up Material",
+        "recipe": {
+            "11041": {
+                "112059": 3
+            }
+        },
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Crafted",
+                "type": "single"
+            },
+            {
+                "name": "Dropped by Lv. 40+ Fungi",
+                "type": "single"
+            },
+            {
+                "name": "Dropped uncommonly by Lv. 40+ Fungi (activated)",
+                "type": "single"
+            },
+            {
+                "name": "Dropped uncommonly by Lv. 40+ Fungi (scorched)",
+                "type": "single"
+            },
+            {
+                "name": "Stardust Exchange",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_112060",
+        "rank": 2,
+        "route": "Luminescent Pollen",
+        "_id": "112060",
+        "id": "luminescent_pollen"
+    },
+    {
+        "name": "Crystalline Cyst Dust",
+        "description": "A huge lump of spore powder collected from a structurally complete spore cyst. Put it in an appropriate environment, and the area might be filled with a thriving aggregation of Floating Fungi later...",
+        "type": "Character Level-Up Material",
+        "recipe": {
+            "11042": {
+                "112060": 3
+            }
+        },
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Crafted",
+                "type": "single"
+            },
+            {
+                "name": "Dropped by Lv. 60+ Fungi",
+                "type": "single"
+            },
+            {
+                "name": "Dropped uncommonly by Lv. 60+ Fungi (activated)",
+                "type": "single"
+            },
+            {
+                "name": "Dropped uncommonly by Lv. 60+ Fungi (scorched)",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_112061",
+        "rank": 3,
+        "route": "Crystalline Cyst Dust",
+        "_id": "112061",
+        "id": "crystalline_cyst_dust"
+    },
+    {
+        "name": "Faded Red Satin",
+        "description": "A piece of red satin used to cover the eyes. The fabric is slightly torn.\\nMany Eremites tend to cover their eyes with textiles, but the original intention of this practice has long been lost to the sands of time.",
+        "type": "Character Level-Up Material",
+        "recipe": false,
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Dropped by The Eremites",
+                "type": "single"
+            },
+            {
+                "name": "Stardust Exchange",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_112065",
+        "rank": 1,
+        "route": "Faded Red Satin",
+        "_id": "112065",
+        "id": "faded_red_satin"
+    },
+    {
+        "name": "Trimmed Red Silk",
+        "description": "A piece of red silk trimmed with simple decorations.\\nA seasoned warrior can detect weaknesses from their foe's eyes and thus take advantage. The Eremites have long since lost a master to serve, and now they have no one to trust but themselves. Word has it that they are more than convinced that all things betray, even their own eyes.",
+        "type": "Character Level-Up Material",
+        "recipe": {
+            "11045": {
+                "112065": 3
+            }
+        },
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Crafted",
+                "type": "single"
+            },
+            {
+                "name": "Dropped by Lv. 40+ Eremites",
+                "type": "single"
+            },
+            {
+                "name": "Stardust Exchange",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_112066",
+        "rank": 2,
+        "route": "Trimmed Red Silk",
+        "_id": "112066",
+        "id": "trimmed_red_silk"
+    },
+    {
+        "name": "Rich Red Brocade",
+        "description": "A piece of red brocade woven with golden thread.\\nThose born in the gilded desert under the sun occasionally sing a song, of which the meaning has been forgotten. They would praise the scorching sun that illuminates the earth as equally as ever and bewail the afterglow at the end of the dusk. Some unfamiliar words recur at the end of the song, which are said to be the names of ancient gods. Legend has it that when the King of the Desert was still alive, his people chose to cover their eyes as they dared not look upon him, whose brilliance was beyond that of the sun.",
+        "type": "Character Level-Up Material",
+        "recipe": {
+            "11046": {
+                "112066": 3
+            }
+        },
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Crafted",
+                "type": "single"
+            },
+            {
+                "name": "Dropped by Lv. 60+ Eremites",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_112067",
+        "rank": 3,
+        "route": "Rich Red Brocade",
+        "_id": "112067",
+        "id": "rich_red_brocade"
+    },
+    {
+        "name": "Hurricane Seed",
+        "description": "The imploded form of an Anemo Hypostasis upon its defeat.\\nContains the essence of Anemo energy.\\nIt is said that the power to create hurricanes resides within its seemingly fragile body. This butterfly of pure Anemo energy must surely be waiting for the day when it can conjure up storms once again.",
+        "type": "Character Level-Up Material",
+        "recipe": false,
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Dropped by Lv. 30+ Anemo Hypostases",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_113001",
+        "rank": 4,
+        "route": "Hurricane Seed",
+        "_id": "113001",
+        "id": "hurricane_seed"
+    },
+    {
+        "name": "Lightning Prism",
+        "description": "An Electro Hypostasis channels nearby elemental energy to repair damaged elemental entities. Contains the essence of Electro energy.\\nAn ordinary prism separates white light into its component colors; a Lightning Prism, however, channels flowing energies and weaves them into lightning. It will continue to do so even after the Electro Hypostasis has been defeated.",
+        "type": "Character Level-Up Material",
+        "recipe": false,
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Dropped by Lv. 30+ Electro Hypostases",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_113002",
+        "rank": 4,
+        "route": "Lightning Prism",
+        "_id": "113002",
+        "id": "lightning_prism"
+    },
+    {
+        "name": "Dvalin's Plume",
+        "description": "A feather from the tail of the Dragon of the East.\\nAs a dragon's feather it has experienced more than a thousand years' worth of winds. One senses within it a yearning for freedom so strong that it could whip up a light breeze to rescue it from its current confines. Its former owner's recognition of you is what makes it content to stay in your hands.",
+        "type": "Character Level-Up Material",
+        "recipe": {
+            "60001": {
+                "113004": 1,
+                "113021": 1
+            },
+            "60002": {
+                "113005": 1,
+                "113021": 1
+            }
+        },
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Lv. 70+ Stormterror Challenge Reward",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_113003",
+        "rank": 5,
+        "route": "Dvalin's Plume",
+        "_id": "113003",
+        "id": "dvalin's_plume"
+    },
+    {
+        "name": "Dvalin's Claw",
+        "description": "A claw from the Dragon of the East.\\nIt once contained the shadow dragon Durin's vile poison, having torn through the latter's flesh in battle. Thanks to your purification and healing, it is no longer toxic.",
+        "type": "Character Level-Up Material",
+        "recipe": {
+            "60003": {
+                "113003": 1,
+                "113021": 1
+            },
+            "60004": {
+                "113005": 1,
+                "113021": 1
+            }
+        },
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Lv. 70+ Stormterror Challenge Reward",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_113004",
+        "rank": 5,
+        "route": "Dvalin's Claw",
+        "_id": "113004",
+        "id": "dvalin's_claw"
+    },
+    {
+        "name": "Dvalin's Sigh",
+        "description": "A bit of power taken from the whirlwinds evoked by the Dragon of the East.\\nBeautiful and transparent, both trade winds and tornadoes will work in his name. The winds move as his companion, his voice, and his freedom.\\nHis enemies are the thousands who stand against the wind.",
+        "type": "Character Level-Up Material",
+        "recipe": {
+            "60005": {
+                "113003": 1,
+                "113021": 1
+            },
+            "60006": {
+                "113004": 1,
+                "113021": 1
+            }
+        },
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Lv. 70+ Stormterror Challenge Reward",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_113005",
+        "rank": 5,
+        "route": "Dvalin's Sigh",
+        "_id": "113005",
+        "id": "dvalin's_sigh"
+    },
+    {
+        "name": "Tail of Boreas",
+        "description": "A handful of tail scales from the Great Wolf King of the North.\\nEven without his physical body and beyond death, Boreas still possesses extraordinary powers. He took a form comprised of ice and wind to embrace a new challenge, but even such a form could not house all of his power. The ice scales that fell during the battle still retain some of their spiritual energy.",
+        "type": "Character Level-Up Material",
+        "recipe": {
+            "60101": {
+                "113007": 1,
+                "113021": 1
+            },
+            "60102": {
+                "113008": 1,
+                "113021": 1
+            }
+        },
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Lv. 70+ Wolf of the North Challenge Reward",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_113006",
+        "rank": 5,
+        "route": "Tail of Boreas",
+        "_id": "113006",
+        "id": "tail_of_boreas"
+    },
+    {
+        "name": "Ring of Boreas",
+        "description": "A bit of crystallized ice from the Great Wolf King of the North.\\nThis land was once a realm of freezing-cold blizzards and ice storms filled with razor-sharp ice shards, all at the command of Boreas. Though his power may have diminished, he could still freeze the land in an instant.",
+        "type": "Character Level-Up Material",
+        "recipe": {
+            "60103": {
+                "113006": 1,
+                "113021": 1
+            },
+            "60104": {
+                "113008": 1,
+                "113021": 1
+            }
+        },
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Lv. 70+ Wolf of the North Challenge Reward",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_113007",
+        "rank": 5,
+        "route": "Ring of Boreas",
+        "_id": "113007",
+        "id": "ring_of_boreas"
+    },
+    {
+        "name": "Spirit Locket of Boreas",
+        "description": "A bit of the Great Wolf King of the North's power drawn from its soul.\\nThis land was once a realm of freezing-cold blizzards and ice storms filled with razor-sharp ice shards, all at the command of Boreas. In his final moments, he finally realized the chilling north wind could only extinguish life, not nurture it. Therefore, Boreas let his powers freely flow into the land to protect it and its inhabitants.",
+        "type": "Character Level-Up Material",
+        "recipe": {
+            "60105": {
+                "113006": 1,
+                "113021": 1
+            },
+            "60106": {
+                "113007": 1,
+                "113021": 1
+            }
+        },
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Lv. 70+ Wolf of the North Challenge Reward",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_113008",
+        "rank": 5,
+        "route": "Spirit Locket of Boreas",
+        "_id": "113008",
+        "id": "spirit_locket_of_boreas"
+    },
+    {
+        "name": "Basalt Pillar",
+        "description": "A pillar formed by the shell of a Geo Hypostasis, composed of high-density Geo energy.\\nIt is a testament to Geo's status as the heaviest of the elements. Maybe the reason a Geo Hypostasis creates this pillar out of its shell and raises itself is just to get closer to the sky, not to combat enemies.",
+        "type": "Character Level-Up Material",
+        "recipe": false,
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Dropped by Lv.30+ Geo Hypostases",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_113009",
+        "rank": 4,
+        "route": "Basalt Pillar",
+        "_id": "113009",
+        "id": "basalt_pillar"
+    },
+    {
+        "name": "Hoarfrost Core",
+        "description": "The exposed core of a defeated Cryo Regisvine. Pure Cryo energy is contained within it.\\nEnergy and thoughts that swell deep within the earth will eventually erupt on the surface. Even the deathly silent frost will attach to living things on the ground, turning even ordinary vegetation like vines into huge, vicious predators.",
+        "type": "Character Level-Up Material",
+        "recipe": false,
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Dropped by Lv. 30+ Cryo Regisvines",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_113010",
+        "rank": 4,
+        "route": "Hoarfrost Core",
+        "_id": "113010",
+        "id": "hoarfrost_core"
+    },
+    {
+        "name": "Everflame Seed",
+        "description": "A seed that fuels the unending flames of the Pyro Regisvine. It emits Pyro energy as if it will burn all that has ever sprouted from the ground.\\nEndless desires flow among turbulent energy deep within the earth. What desire could steadily hold such fire to the plants and long so eagerly to bathe everything in unquenchable flames?",
+        "type": "Character Level-Up Material",
+        "recipe": false,
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Dropped by Lv. 30+ Pyro Regisvines",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_113011",
+        "rank": 4,
+        "route": "Everflame Seed",
+        "_id": "113011",
+        "id": "everflame_seed"
+    },
+    {
+        "name": "Cleansing Heart",
+        "description": "A palmful of eternal water left by an oceanid.\\nThough it has already diffused among the depths of the lake, its purity remains all the same. But why would a creature so pure and clean as an oceanid covet the appearance of a being that roams the land, and assume such a form with pure water? They need not breathe nor do they require sustenance...",
+        "type": "Character Level-Up Material",
+        "recipe": false,
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Dropped by Lv. 30+ Oceanids",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_113012",
+        "rank": 4,
+        "route": "Cleansing Heart",
+        "_id": "113012",
+        "id": "cleansing_heart"
+    },
+    {
+        "name": "Tusk of Monoceros Caeli",
+        "description": "The horn of a whale that you obtained from defeating Childe, who had unleashed the might of his Delusion.\\nIt is said that the shape of one's constellation determines one's character. The image of a whale cruising across the celestial heights represents a solipsism that seeks to crush and devour all in its path.\\nEmbracing this aspect of himself, Childe gleefully summoned one such beast before throwing himself into battle against you.",
+        "type": "Character Level-Up Material",
+        "recipe": {
+            "60201": {
+                "113014": 1,
+                "113021": 1
+            },
+            "60202": {
+                "113015": 1,
+                "113021": 1
+            }
+        },
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Lv. 70+ Childe Challenge Reward",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_113013",
+        "rank": 5,
+        "route": "Tusk of Monoceros Caeli",
+        "_id": "113013",
+        "id": "tusk_of_monoceros_caeli"
+    },
+    {
+        "name": "Shard of a Foul Legacy",
+        "description": "The shard of a weapon that you obtained from defeating Childe, who had unleashed the might of his Delusion.\\nIt is stained with a profound color that is not of this world, no doubt due to the land of endless darkness that the young boy saw with his own two eyes.\\nPerhaps it has nothing to do with the power of a Delusion, but as they say, the weapon reflects its user...",
+        "type": "Character Level-Up Material",
+        "recipe": {
+            "60203": {
+                "113013": 1,
+                "113021": 1
+            },
+            "60204": {
+                "113015": 1,
+                "113021": 1
+            }
+        },
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Lv. 70+ Childe Challenge Reward",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_113014",
+        "rank": 5,
+        "route": "Shard of a Foul Legacy",
+        "_id": "113014",
+        "id": "shard_of_a_foul_legacy"
+    },
+    {
+        "name": "Shadow of the Warrior",
+        "description": "A fragment of power that you obtained from defeating Childe, who had unleashed the might of his Delusion.\\nIt is the product of a will to fight that has been honed over countless slaughters.\\nIf humans do indeed have destinies, then his must surely have been twisted by such deeds. Why else, then, would he always be at the heart of every conflict?",
+        "type": "Character Level-Up Material",
+        "recipe": {
+            "60205": {
+                "113013": 1,
+                "113021": 1
+            },
+            "60206": {
+                "113014": 1,
+                "113021": 1
+            }
+        },
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Lv. 70+ Childe Challenge Reward",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_113015",
+        "rank": 5,
+        "route": "Shadow of the Warrior",
+        "_id": "113015",
+        "id": "shadow_of_the_warrior"
+    },
+    {
+        "name": "Juvenile Jade",
+        "description": "A crystalline substance taken from a Primo Geovishap. Within it is contained the potential to become a dragon.\\nThese dull crystals are precipitated within the bodies of vishaps sleeping in the mountains. Liyue folklore holds that they will gather power over many years, after which this crystal will, at last, replace their original heart, and the vishap will become a true dragon — one that can shake the mountains and split the earth.",
+        "type": "Character Level-Up Material",
+        "recipe": false,
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Dropped by Lv. 30+ Primo Geovishaps",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_113016",
+        "rank": 4,
+        "route": "Juvenile Jade",
+        "_id": "113016",
+        "id": "juvenile_jade"
+    },
+    {
+        "name": "Dragon Lord's Crown",
+        "description": "Horns created from hardened jade crystallized over a thousand years are the natural crown of the dragon king.\\nInfused with spirit and carved from bedrock, it was born from the mountain's heart to show the strength of the earth to the land amidst monoliths, and its long golden horns are the mark of its ancient strife with an ancient lord.\\nFor a time, this horn was shattered and lost its luster, but now it gleams cold and gold as it sits in your palm.",
+        "type": "Character Level-Up Material",
+        "recipe": {
+            "60301": {
+                "113018": 1,
+                "113021": 1
+            },
+            "60302": {
+                "113019": 1,
+                "113021": 1
+            }
+        },
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Lv. 70+ Azhdaha Challenge Reward",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_113017",
+        "rank": 5,
+        "route": "Dragon Lord's Crown",
+        "_id": "113017",
+        "id": "dragon_lord's_crown"
+    },
+    {
+        "name": "Bloodjade Branch",
+        "description": "Nurtured by the might of the dragon king, these bone branches glitter with strange, unique colors.\\nHatred coursed through the natural streams and kissed the cold moonlight, and from them were these crystalline branches born and grown...\\nEven though they were severed in battle, these branches steeped in dragon blood rustle as if eternally ill-at-ease.",
+        "type": "Character Level-Up Material",
+        "recipe": {
+            "60303": {
+                "113017": 1,
+                "113021": 1
+            },
+            "60304": {
+                "113019": 1,
+                "113021": 1
+            }
+        },
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Lv. 70+ Azhdaha Challenge Reward",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_113018",
+        "rank": 5,
+        "route": "Bloodjade Branch",
+        "_id": "113018",
+        "id": "bloodjade_branch"
+    },
+    {
+        "name": "Gilded Scale",
+        "description": "Scaled armor that grows naturally over mystical stone, tough and silent, and filled with the strength of the dragon king.\\nAcross the years as countless generations returned to the mulch of the earth, gold and obsidian embedded themselves into flesh and blood forged from bedrock before spreading and turning into scales.\\nSearing agony, wordless cries... perhaps they will all vanish when the grudges that spawned them, too, finally come to an end.",
+        "type": "Character Level-Up Material",
+        "recipe": {
+            "60305": {
+                "113017": 1,
+                "113021": 1
+            },
+            "60306": {
+                "113018": 1,
+                "113021": 1
+            }
+        },
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Lv. 70+ Azhdaha Challenge Reward",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_113019",
+        "rank": 5,
+        "route": "Gilded Scale",
+        "_id": "113019",
+        "id": "gilded_scale"
+    },
+    {
+        "name": "Crystalline Bloom",
+        "description": "An ice crystal of exceeding purity that is created in the frigid blooming of a Cryo Hypostasis.\\nThese frosty crystals will continue to grow according to their own cold, rigid laws, till one day a flower of winter shall bloom and freeze everything. Perhaps it is stagnant time, that never-thawing bosom, that is the essence of this undying flower.",
+        "type": "Character Level-Up Material",
+        "recipe": false,
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Dropped by Lv.30+ Cryo Hypostases",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_113020",
+        "rank": 4,
+        "route": "Crystalline Bloom",
+        "_id": "113020",
+        "id": "crystalline_bloom"
+    },
+    {
+        "name": "Marionette Core",
+        "description": "This core can power the inorganic Maguu Kenki and cause it to wield a blade like a living being.\\nFlesh decays, and with it decay all martial arts mastery and all poignant memories.\\nPerhaps only by converting one's four limbs and body into sturdy mechanical parts, and by at last sacrificing one's very own heart for a sophisticated mechanical one, can one transcend the impermanence of the fleshly form...",
+        "type": "Character Level-Up Material",
+        "recipe": false,
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Dropped by Lv. 30+ Maguu Kenki",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_113022",
+        "rank": 4,
+        "route": "Marionette Core",
+        "_id": "113022",
+        "id": "marionette_core"
+    },
+    {
+        "name": "Perpetual Heart",
+        "description": "The core that powers the autonomous movements of the Perpetual Mechanical Array.\\nSome theorize that the symbols on these cores have knowledge and logic inscribed upon them in a language that eyes cannot perceive. Some go a step further and believe that these unique Ruin machines autonomously decided to forsake a biomimetic form to pursue strength of function on account of their especially large cores and complex inscriptions.",
+        "type": "Character Level-Up Material",
+        "recipe": false,
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Dropped by Lv. 30+ Perpetual Mechanical Arrays",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_113023",
+        "rank": 4,
+        "route": "Perpetual Heart",
+        "_id": "113023",
+        "id": "perpetual_heart"
+    },
+    {
+        "name": "Smoldering Pearl",
+        "description": "A crystallization of a Pyro Hypostasis that constantly emits heat.\\nEven the burning flames shall one day grow cold, and even the ashen firewood can will itself back into a raging blaze. It must then be the will of the world that Pyro Hypostases should constantly cool down and heat up, much like the universe teems with endless life... until the fated darkness shall one day descend and bring it all to naught.",
+        "type": "Character Level-Up Material",
+        "recipe": false,
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Dropped by Lv.30+ Pyro Hypostases",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_113024",
+        "rank": 4,
+        "route": "Smoldering Pearl",
+        "_id": "113024",
+        "id": "smoldering_pearl"
+    },
+    {
+        "name": "Molten Moment",
+        "description": "A certain deformed fragment containing great might. You obtained this from defeating Signora, who unleashed her original power.\\n\"I had a long, long dream.\\n\"I dreamed that you and I met again in the pure white world that we created.\\n\"But I woke up at last, having long been consumed by the raging flames, while you had long returned to the earth along with that poisoned blood.\\n\"But none of it matters anymore. I must continue forging ahead. I must incinerate everything behind me. I must believe in that pure, spotless, everlasting realm that he spoke of — that I saw in the 'delusion' he let me see, at the end of the horizon of Her Majesty's dreams.\"",
+        "type": "Character Level-Up Material",
+        "recipe": {
+            "60401": {
+                "113021": 1,
+                "113026": 1
+            },
+            "60402": {
+                "113021": 1,
+                "113027": 1
+            }
+        },
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Lv. 70+ Signora Challenge Reward",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_113025",
+        "rank": 5,
+        "route": "Molten Moment",
+        "_id": "113025",
+        "id": "molten_moment"
+    },
+    {
+        "name": "Hellfire Butterfly",
+        "description": "A warped shard that houses great might. You obtained this from defeating Signora, who unleashed her original power.\\nThe seal of ice was broken under duress, and as her former will surged forth from its pale white prison and she remembered her old name once more, the undying butterfly danced amidst burning flesh and blood. And she remembered her past, wandering the land, spreading the flame, burning away all evil — and she recalled the face of the person she could never meet again.",
+        "type": "Character Level-Up Material",
+        "recipe": {
+            "60403": {
+                "113021": 1,
+                "113025": 1
+            },
+            "60404": {
+                "113021": 1,
+                "113027": 1
+            }
+        },
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Lv. 70+ Signora Challenge Reward",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_113026",
+        "rank": 5,
+        "route": "Hellfire Butterfly",
+        "_id": "113026",
+        "id": "hellfire_butterfly"
+    },
+    {
+        "name": "Ashen Heart",
+        "description": "A deformed fragment that contains powerful emotions. You obtained this from defeating Signora, who unleashed her original power.\\nEven tears cannot extinguish the flames. Molten-hot agony and rage rush through her veins, oozing from her tear ducts.\\nThe First Fatuus found her just before her heart could be destroyed by the eternal blaze. He understood that only deeper hate and obsession could quench the fire that devoured her and make her his ally...",
+        "type": "Character Level-Up Material",
+        "recipe": {
+            "60405": {
+                "113021": 1,
+                "113025": 1
+            },
+            "60406": {
+                "113021": 1,
+                "113026": 1
+            }
+        },
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Lv. 70+ Signora Challenge Reward",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_113027",
+        "rank": 5,
+        "route": "Ashen Heart",
+        "_id": "113027",
+        "id": "ashen_heart"
+    },
+    {
+        "name": "Dew of Repudiation",
+        "description": "A strange water droplet left behind by the collapse of the Hydro Hypostasis.\\nIt has strong rejection properties, and this forms the basis of one of the Hydro Hypostasis' attack patterns as well. They say that water contains memories and willpower, and that these things can grow when bodies of water meld together. However, the waves conjured by the Hydro Hypostasis are incompatible with the currents that flow above and below ground. Even if it were to flow into the surpassingly pure waters of Petrichor, this drop of water will likely resist assimilation as strongly as mercury.",
+        "type": "Character Level-Up Material",
+        "recipe": false,
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Dropped by Lv. 30+ Hydro Hypostases",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_113028",
+        "rank": 4,
+        "route": "Dew of Repudiation",
+        "_id": "113028",
+        "id": "dew_of_repudiation"
+    },
+    {
+        "name": "Storm Beads",
+        "description": "Crackling Electro pearls left behind by the Thunder Manifestation.\\nIt is said that Thunder Manifestations will only descend upon lands where powerful hatred dwells. The singers say that it is the unbearable disappointments and sufferings of life that drive them to forever wander the broken earth, unleashing sky-searing lightning as they go.",
+        "type": "Character Level-Up Material",
+        "recipe": false,
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Dropped by Lv. 30+ Thunder Manifestations",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_113029",
+        "rank": 4,
+        "route": "Storm Beads",
+        "_id": "113029",
+        "id": "storm_beads"
+    },
+    {
+        "name": "Riftborn Regalia",
+        "description": "A broken horn that you obtained from defeating the Wolflord. That said, it should not have left anything behind after your hunt.\\nEven a lord among the Riftwolves is nothing before monsters of a higher pedigree.\\n\"Gold\" mass-produced these malformed wolf packs almost as if by accident, like shrunken drawings on discarded sheets of paper, and the horns on this one represent its authority to command its dark brood to dissolve space itself.",
+        "type": "Character Level-Up Material",
+        "recipe": false,
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Dropped by Lv. 30+ Golden Wolflords",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_113030",
+        "rank": 4,
+        "route": "Riftborn Regalia",
+        "_id": "113030",
+        "id": "riftborn_regalia"
+    },
+    {
+        "name": "Dragonheir's False Fin",
+        "description": "A piece of biological tissue that you found after defeating the Bathysmal Vishaps.\\nAlthough it looks like a fin of some kind, it does not actually have any function at all.\\nThe people of Byakuyakoku once investigated the Bathysmal Vishaps quite deeply. Their most distinctive feature was the ability to choose what traits it wished to pass on to its offspring. Because of their great hatred for man-made light sources, these vishaps will lose any visual acuity by the time they reach maturity. At the same time, they have also evolved a certain degree of elemental polymorphism for combat purposes.",
+        "type": "Character Level-Up Material",
+        "recipe": false,
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Dropped by Lv. 30+ Bathysmal Vishap Herds",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_113031",
+        "rank": 4,
+        "route": "Dragonheir's False Fin",
+        "_id": "113031",
+        "id": "dragonheir's_false_fin"
+    },
+    {
+        "name": "Mudra of the Malefic General",
+        "description": "A puppet joint obtained from the Plane of Euthymia. The gesture here symbolizes the concept that \"one sees and one does.\"\\nEven now that \"she\" has become a calamitous deity, she can still utilize such transcendent gestures, her sword flashing forth as swiftly as her eyes may see.\\nAnd yet, as the countless disasters ground on for far too long, the baleful general's shell had to embrace a new spring.",
+        "type": "Character Level-Up Material",
+        "recipe": {
+            "60501": {
+                "113021": 1,
+                "113033": 1
+            },
+            "60502": {
+                "113021": 1,
+                "113034": 1
+            }
+        },
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Lv. 70+ Guardian of Eternity Challenge Reward",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_113032",
+        "rank": 5,
+        "route": "Mudra of the Malefic General",
+        "_id": "113032",
+        "id": "mudra_of_the_malefic_general"
+    },
+    {
+        "name": "Tears of the Calamitous God",
+        "description": "A puppet joint obtained from the Plane of Euthymia. The gesture here is in the shape of the baleful Eye of Stormy Judgment.\\nSince they are able to bring down curse and catastrophe alike with a mere gaze, it might seem natural to blame life's misfortunes on calamitous deities. However, if you think about it a little harder, if your will is strong enough, and if your convictions are firm enough...\\nThe catastrophes go on for too long. Even a baleful gaze must wash itself with tears.",
+        "type": "Character Level-Up Material",
+        "recipe": {
+            "60503": {
+                "113021": 1,
+                "113032": 1
+            },
+            "60504": {
+                "113021": 1,
+                "113034": 1
+            }
+        },
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Lv. 70+ Guardian of Eternity Challenge Reward",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_113033",
+        "rank": 5,
+        "route": "Tears of the Calamitous God",
+        "_id": "113033",
+        "id": "tears_of_the_calamitous_god"
+    },
+    {
+        "name": "The Meaning of Aeons",
+        "description": "A small piece of headgear obtained once the dust settled in the Plane of Euthymia.\\nOne thought may end all calamity, and there will always be thoughts that may transcend time.\\nAmid all this, one wonders if Makoto's true meaning was successfully communicated or not.",
+        "type": "Character Level-Up Material",
+        "recipe": {
+            "60505": {
+                "113021": 1,
+                "113032": 1
+            },
+            "60506": {
+                "113021": 1,
+                "113033": 1
+            }
+        },
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Lv. 70+ Guardian of Eternity Challenge Reward",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_113034",
+        "rank": 5,
+        "route": "The Meaning of Aeons",
+        "_id": "113034",
+        "id": "the_meaning_of_aeons"
+    },
+    {
+        "name": "Runic Fang",
+        "description": "A \"fang\" with which the mysterious, snakelike machine of old dug into mountains' depths. There are many ominous runes carved on it.\\nIt is said that giant serpents lurk in the dark fissures deep beneath the ground. Burning with eternal resentment and malice toward the world above, they throw themselves into digging great tunnels, yet none know what their malicious purposes are...",
+        "type": "Character Level-Up Material",
+        "recipe": false,
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Dropped by Lv. 30+ Ruin Serpents",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_113035",
+        "rank": 4,
+        "route": "Runic Fang",
+        "_id": "113035",
+        "id": "runic_fang"
+    },
+    {
+        "name": "Majestic Hooked Beak",
+        "description": "An elongated bill that you found after defeating the Jadeplume Terrorshroom.\\nResearchers still consider it a miracle even now that some soft Fungi have evolved these rock-hard hooked beaks. This magnificent king amongst Fungi has been leisurely pacing on the finish line of evolution. Now and then, it emits a long call to all the living beings in the rainforest: Even the most helpless and timid creature may one day become the monarch of the woods.",
+        "type": "Character Level-Up Material",
+        "recipe": false,
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Dropped by Lv. 30+ Jadeplume Terrorshroom",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_113036",
+        "rank": 4,
+        "route": "Majestic Hooked Beak",
+        "_id": "113036",
+        "id": "majestic_hooked_beak"
+    },
+    {
+        "name": "Thunderclap Fruitcore",
+        "description": "The core of an Electro Regisvine, wrapped in razor-sharp leaves, wantonly emits Electro energy.\\nThe roaring energy rampaging deep within the earth is eager to pour out its rage, thus even tainting these unfortunate vines with its mania, causing them to wail and flail their branches frantically. One can hardly tell whether it longs for others to taste the pain of being continuously electrocuted and charred or if it is struggling, looking forward to its inevitable doom.",
+        "type": "Character Level-Up Material",
+        "recipe": false,
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Dropped by Lv. 30+ Electro Regisvines",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_113037",
+        "rank": 4,
+        "route": "Thunderclap Fruitcore",
+        "_id": "113037",
+        "id": "thunderclap_fruitcore"
+    },
+    {
+        "name": "Perpetual Caliber",
+        "description": "A motive device obtained from a mysterious ruin machine.\\nThe machine it once powered may have been destroyed, but it continues to rotate all the same.\\nThere should be no such thing as an energy source that can sustain itself forever in this world, and most research results obtained in the field of \"perpetual motion\" have been eventually proved false. Yet, this device is proof that a now-destroyed civilization once reached heights that present-day nations could not hope to match...",
+        "type": "Character Level-Up Material",
+        "recipe": false,
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Dropped by Lv. 30+ Aeonblight Drakes",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_113038",
+        "rank": 4,
+        "route": "Perpetual Caliber",
+        "_id": "113038",
+        "id": "perpetual_caliber"
+    },
+    {
+        "name": "Light Guiding Tetrahedron",
+        "description": "A core component obtained via defeating a mysterious ruin machine.\\nTo this day, these ancient devices have not forgotten the dreams of their masters or their own duties: to build a thousand palaces, to administrate three thousand machines, to sow ten thousand flowers that shall never bloom again, and to recreate a paradise now buried beneath the desert sands for the sake of all who live in this world.\\nThough the lord of the desert no longer lives, and those dreams have long been corrupted by sinful whispers, and though all the magical pillars have been broken and have collapsed, the great beast once favored by the king hides still within the great searing storm.",
+        "type": "Character Level-Up Material",
+        "recipe": false,
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Dropped by Lv. 30+ Semi-Intransient Matrices",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_113039",
+        "rank": 4,
+        "route": "Light Guiding Tetrahedron",
+        "_id": "113039",
+        "id": "light_guiding_tetrahedron"
+    },
+    {
+        "name": "Quelled Creeper",
+        "description": "The final coalesced form of the Dendro Hypostasis. The tough vines protect a pure cubic elemental crystal.\\nDendro defies any common logic yet exists in perfect harmony with life. Elemental Hypostases, on the contrary, are most distant in appearance to all living beings. The combination of these two should probably never have appeared in this world. It is said that such elemental hypostases have the intelligence to \"learn\" and have thus understood the colors and dreams of the forest, a process that has transformed them into this shape over thousands of years.",
+        "type": "Character Level-Up Material",
+        "recipe": false,
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Dropped by Lv.30+ Dendro Hypostases",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_113040",
+        "rank": 4,
+        "route": "Quelled Creeper",
+        "_id": "113040",
+        "id": "quelled_creeper"
+    },
+    {
+        "name": "Puppet Strings",
+        "description": "Tubes that were inserted into the mechanical puppet's back. The colors that flow within them are sometimes dull, and at others, vibrant. The contrast is so great as to be fearful.\\nThey provided power to the mechanical puppet, and at the same time served as its strings, controlling it and binding it.\\nOnce the support of these tubes is lost, the puppet becomes as weak as a newborn infant, barely able to even move.",
+        "type": "Character Level-Up Material",
+        "recipe": {
+            "60601": {
+                "113021": 1,
+                "113042": 1
+            },
+            "60602": {
+                "113021": 1,
+                "113043": 1
+            }
+        },
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Lv. 70+ Shouki no Kami, the Prodigal Challenge Reward",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_113041",
+        "rank": 5,
+        "route": "Puppet Strings",
+        "_id": "113041",
+        "id": "puppet_strings"
+    },
+    {
+        "name": "Mirror of Mushin",
+        "description": "The mirror that was set in Shouki no Kami's chest to separate him from the outside world. The mitsudomoe symbol is emblazoned on it as a deliberate show of status and might.\\nThis symbol, however, is no show of obeisance to the master of lightning, but is instead a blade pointed at the existing powers that be in this world. Nor is the mirror a means to shut out the looks of judgment from onlooking people, but is rather a bulwark against this base and sullied world. Within this great temple shall punishment be meted out and ignorance be cleansed.\\nDreams shall be overturned, desires shall be cut away, and karma shall be reset.",
+        "type": "Character Level-Up Material",
+        "recipe": {
+            "60603": {
+                "113021": 1,
+                "113041": 1
+            },
+            "60604": {
+                "113021": 1,
+                "113043": 1
+            }
+        },
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Lv. 70+ Shouki no Kami, the Prodigal Challenge Reward",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_113042",
+        "rank": 5,
+        "route": "Mirror of Mushin",
+        "_id": "113042",
+        "id": "mirror_of_mushin"
+    },
+    {
+        "name": "Daka's Bell",
+        "description": "This ball joint, used to connect mechanical limbs together, is shaped almost like a bell. Though it may seem dainty, it can be used to carry an unimaginably large amount of energy.\\nIf connected to one's arms, then one will lose all feeling in them.\\nAnd all strength in one's legs will dissipate if such joints are connected to them.\\nConnect this joint to one's skull...\\nAh, hatred, pain, madness, pride — none of these will be washed away.\\nMost fortunate.",
+        "type": "Character Level-Up Material",
+        "recipe": {
+            "60605": {
+                "113021": 1,
+                "113041": 1
+            },
+            "60606": {
+                "113021": 1,
+                "113042": 1
+            }
+        },
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Lv. 70+ Shouki no Kami, the Prodigal Challenge Reward",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_113043",
+        "rank": 5,
+        "route": "Daka's Bell",
+        "_id": "113043",
+        "id": "daka's_bell"
+    },
+    {
+        "name": "Pseudo-Stamens",
+        "description": "The pale wing-sheathes hiding in a Wenut's tail are as thin as the blooming stamens of a flower.\\nIt is said that in the past, even before the beginning of time, they used to travel through the moist land under meadows and forests, similar to birds flying across the sky and fish swimming in the water. It is generally believed that their mimicry of flowers is to lure lost prey caught by sandstorms. There is also a theory, however, that their imitation of a blooming flower was inspired by the splendid blossoms countless epochs ago, which have long gone the way of the desert winds.",
+        "type": "Character Level-Up Material",
+        "recipe": false,
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Dropped by Lv. 30+ Setekh Wenut",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_113044",
+        "rank": 4,
+        "route": "Pseudo-Stamens",
+        "_id": "113044",
+        "id": "pseudo-stamens"
+    }
+]

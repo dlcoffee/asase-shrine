@@ -1,0 +1,165 @@
+{
+    "id": "traveler",
+    "rank": 5,
+    "name": "Traveler",
+    "element": null,
+    "weaponType": "WEAPON_SWORD_ONE_HAND",
+    "icon": "UI_AvatarIcon_PlayerGirl",
+    "birthday": [
+        0,
+        0
+    ],
+    "release": 1601244000,
+    "route": "Traveler",
+    "fetter": {
+        "title": "",
+        "detail": "A traveler from another world who had their only kin taken away, forcing them to embark on a journey to find The Seven.",
+        "constellation": "Viatrix",
+        "native": "-",
+        "cv": {
+            "EN": "Sarah Miller-Crews & Corina Boettger",
+            "CHS": "宴宁 & 多多poi",
+            "JP": "悠木碧 & 古賀葵",
+            "KR": "Lee Sae-ah & Kim Ka-ryoung"
+        }
+    },
+    "upgrade": {
+        "prop": [
+            {
+                "propType": "FIGHT_PROP_BASE_HP",
+                "initValue": 911.79102,
+                "type": "GROW_CURVE_HP_S4"
+            },
+            {
+                "propType": "FIGHT_PROP_BASE_ATTACK",
+                "initValue": 17.808,
+                "type": "GROW_CURVE_ATTACK_S4"
+            },
+            {
+                "propType": "FIGHT_PROP_BASE_DEFENSE",
+                "initValue": 57.225,
+                "type": "GROW_CURVE_HP_S4"
+            }
+        ],
+        "promote": [
+            {
+                "unlockMaxLevel": 20,
+                "promoteLevel": 0
+            },
+            {
+                "promoteLevel": 1,
+                "costItems": {
+                    "100024": 3,
+                    "104101": 1,
+                    "112005": 3
+                },
+                "unlockMaxLevel": 40,
+                "addProps": {
+                    "FIGHT_PROP_BASE_HP": 681.15454,
+                    "FIGHT_PROP_BASE_DEFENSE": 42.75,
+                    "FIGHT_PROP_BASE_ATTACK": 13.3038,
+                    "FIGHT_PROP_ATTACK_PERCENT": 0
+                },
+                "requiredPlayerLevel": 15,
+                "coinCost": 20000
+            },
+            {
+                "promoteLevel": 2,
+                "costItems": {
+                    "100024": 10,
+                    "104102": 3,
+                    "112005": 15
+                },
+                "unlockMaxLevel": 50,
+                "addProps": {
+                    "FIGHT_PROP_BASE_HP": 1165.13281,
+                    "FIGHT_PROP_BASE_DEFENSE": 73.125,
+                    "FIGHT_PROP_BASE_ATTACK": 22.7565,
+                    "FIGHT_PROP_ATTACK_PERCENT": 0.06
+                },
+                "requiredPlayerLevel": 25,
+                "coinCost": 40000
+            },
+            {
+                "promoteLevel": 3,
+                "costItems": {
+                    "100024": 20,
+                    "104102": 6,
+                    "112006": 12
+                },
+                "unlockMaxLevel": 60,
+                "addProps": {
+                    "FIGHT_PROP_BASE_HP": 1810.43713,
+                    "FIGHT_PROP_BASE_DEFENSE": 113.625,
+                    "FIGHT_PROP_BASE_ATTACK": 35.3601,
+                    "FIGHT_PROP_ATTACK_PERCENT": 0.12
+                },
+                "requiredPlayerLevel": 30,
+                "coinCost": 60000
+            },
+            {
+                "promoteLevel": 4,
+                "costItems": {
+                    "100024": 30,
+                    "104103": 3,
+                    "112006": 18
+                },
+                "unlockMaxLevel": 70,
+                "addProps": {
+                    "FIGHT_PROP_BASE_HP": 2294.41528,
+                    "FIGHT_PROP_BASE_DEFENSE": 144,
+                    "FIGHT_PROP_BASE_ATTACK": 44.8128,
+                    "FIGHT_PROP_ATTACK_PERCENT": 0.12
+                },
+                "requiredPlayerLevel": 35,
+                "coinCost": 80000
+            },
+            {
+                "promoteLevel": 5,
+                "costItems": {
+                    "100024": 45,
+                    "104103": 6,
+                    "112007": 12
+                },
+                "unlockMaxLevel": 80,
+                "addProps": {
+                    "FIGHT_PROP_BASE_HP": 2778.39355,
+                    "FIGHT_PROP_BASE_DEFENSE": 174.375,
+                    "FIGHT_PROP_BASE_ATTACK": 54.2655,
+                    "FIGHT_PROP_ATTACK_PERCENT": 0.18
+                },
+                "requiredPlayerLevel": 40,
+                "coinCost": 100000
+            },
+            {
+                "promoteLevel": 6,
+                "costItems": {
+                    "100024": 60,
+                    "104104": 6,
+                    "112007": 24
+                },
+                "unlockMaxLevel": 90,
+                "addProps": {
+                    "FIGHT_PROP_BASE_HP": 3262.37183,
+                    "FIGHT_PROP_BASE_DEFENSE": 204.75,
+                    "FIGHT_PROP_BASE_ATTACK": 63.7182,
+                    "FIGHT_PROP_ATTACK_PERCENT": 0.24
+                },
+                "requiredPlayerLevel": 50,
+                "coinCost": 120000
+            }
+        ]
+    },
+    "other": null,
+    "ascension": {
+        "100024": 1,
+        "104101": 2,
+        "104102": 3,
+        "104103": 4,
+        "104104": 5,
+        "112005": 1,
+        "112006": 2,
+        "112007": 3
+    },
+    "_id": 10000007
+}

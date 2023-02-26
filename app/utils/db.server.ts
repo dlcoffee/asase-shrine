@@ -1,22 +1,38 @@
-import { type Character, characters, charactersList } from '~/data/characters'
+import { type Avatar, avatars, avatarsList } from '~/data/avatars'
+import { type Item, items } from '~/data/items'
 
 const db = {
-  characters: {
-    findByIds: async (ids: string) => {
-      const results: Character[] = []
+  avatars: {
+    findByIds: async (ids: string[]) => {
+      const results: Avatar[] = []
 
       for (const id of ids) {
-        const character = characters[id]
+        const avatar = avatars[id]
 
-        if (character) {
-          results.push(character)
+        if (avatar) {
+          results.push(avatar)
         }
       }
 
       return results
     },
     all: async () => {
-      return charactersList
+      return avatarsList
+    },
+  },
+  items: {
+    findByIds: async (ids: string[]) => {
+      const results: Item[] = []
+
+      for (const id of ids) {
+        const item = items[id]
+
+        if (item) {
+          results.push(item)
+        }
+      }
+
+      return results
     },
   },
 }

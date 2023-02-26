@@ -1,6 +1,11 @@
-# Welcome to Remix!
+# Asase Shrine
 
-- [Remix Docs](https://remix.run/docs)
+### Built On
+
+- [Remix](https://remix.run/)
+- [Cloudflare Pages](https://pages.cloudflare.com/) - for hosting (and eventually caching)
+- [Enka.Network](https://api.enka.network/#/) - for getting player info
+- [Project Amber](https://ambr.top) - for retrieving game data and images
 
 ## Development
 
