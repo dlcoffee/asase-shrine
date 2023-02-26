@@ -1,6 +1,7 @@
 import { type ReactNode } from 'react'
 import { useLoaderData } from '@remix-run/react'
 import { type LoaderArgs, json } from '@remix-run/cloudflare'
+import { formatInTimeZone } from 'date-fns-tz'
 import { type Day, type Item, type SourceDomain } from '~/data/items'
 import { type Avatar } from '~/data/avatars'
 
@@ -15,10 +16,12 @@ export const loader = async (args: LoaderArgs) => {
   // 4. hardcode list
   const avatars = await db.avatars.all()
 
-  // todo: use correct date based on user location
-  const today = new Date()
-    .toLocaleDateString('en-US', { weekday: 'long' })
-    .toLowerCase() as Day
+  // TODO: handle other servers as well as reset time
+  const today = formatInTimeZone(
+    new Date(),
+    'America/New_York',
+    'EEEE'
+  ).toLowerCase() as Day
 
   const farmableCache: Record<string, [Item, Avatar[]]> = {}
 
@@ -52,11 +55,7 @@ export const loader = async (args: LoaderArgs) => {
 
   const farmable = Object.values(farmableCache)
 
-  const data = {
-    farmable,
-  }
-
-  return json(data)
+  return json({ farmable })
 }
 
 const DataList = ({ children }: { children: ReactNode }) => {
