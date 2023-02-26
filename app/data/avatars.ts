@@ -69,12 +69,20 @@ import yoimiya from './avatars/yoimiya.json'
 import yun_jin from './avatars/yun_jin.json'
 import zhongli from './avatars/zhongli.json'
 
+interface Fetter {
+  title: string
+  detail: string
+  constellation: string
+  native: string
+}
+
 export interface Avatar {
   _id: string | number // traveler has an id string
   id: string
   name: string
   icon: string
   ascension: Record<string, number>
+  fetter: Fetter
 }
 
 export const avatarsList: Avatar[] = [

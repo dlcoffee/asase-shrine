@@ -1,5 +1,5 @@
 import { type ReactNode } from 'react'
-import { useLoaderData } from '@remix-run/react'
+import { Link, useLoaderData } from '@remix-run/react'
 import { type LoaderArgs, json } from '@remix-run/cloudflare'
 import { formatInTimeZone } from 'date-fns-tz'
 import { type Day, type Item, type SourceDomain } from '~/data/items'
@@ -72,12 +72,14 @@ const DataListItem = ({ item, avatars }: { item: Item; avatars: Avatar[] }) => {
   return (
     <div className="px-4 py-5 flex">
       <dt className="font-medium text-gray-500">
-        <img
-          src={itemImageSrc}
-          title={item.name}
-          alt={item.name}
-          className="w-12 rounded-md"
-        />
+        <Link to={`/m/${item._id}`} key={item.id}>
+          <img
+            src={itemImageSrc}
+            title={item.id}
+            alt={item.name}
+            className="w-12 rounded-md"
+          />
+        </Link>
       </dt>
       <dd className="mt-1">
         <div className="flex">
@@ -85,13 +87,14 @@ const DataListItem = ({ item, avatars }: { item: Item; avatars: Avatar[] }) => {
             const avatarImgSrc = `https://api.ambr.top/assets/UI/${avatar.icon}.png`
 
             return (
-              <img
-                key={avatar.id}
-                src={avatarImgSrc}
-                title={avatar.name}
-                alt={avatar.name}
-                className="w-12 rounded-md"
-              />
+              <Link to={`/a/${avatar.id}`} key={avatar.id}>
+                <img
+                  src={avatarImgSrc}
+                  title={avatar.id}
+                  alt={avatar.name}
+                  className="w-12 rounded-md"
+                />
+              </Link>
             )
           })}
         </div>
