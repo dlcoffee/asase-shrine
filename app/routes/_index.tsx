@@ -3,9 +3,14 @@ import { Link, useLoaderData } from '@remix-run/react'
 import { type LoaderArgs, json } from '@remix-run/cloudflare'
 import { formatInTimeZone } from 'date-fns-tz'
 import { type Day, type Item, type SourceDomain } from '~/data/items'
-import { type Avatar } from '~/data/avatars'
 
 import { db } from '~/utils/db.server'
+
+interface AvatarDisplay {
+  id: string
+  name: string
+  icon: string
+}
 
 export const loader = async (args: LoaderArgs) => {
   // todo: make more efficient
@@ -19,10 +24,17 @@ export const loader = async (args: LoaderArgs) => {
   // TODO: handle other servers as well as reset time
   const today = formatInTimeZone(new Date(), 'America/New_York', 'EEEE').toLowerCase() as Day
 
-  const farmableCache: Record<string, [Item, Avatar[]]> = {}
+  const farmableCache: Record<string, [Item, AvatarDisplay[]]> = {}
 
   for (const avatar of avatars) {
     const { ascension } = avatar
+
+    const display: AvatarDisplay = {
+      id: avatar.id,
+      name: avatar.name,
+      icon: avatar.icon,
+    }
+
     const itemIds = Object.keys(ascension)
     const items = await db.items.findByIds(itemIds)
     const talentMaterials = items.filter((item) => item.type.includes('Talent Level-Up Material'))
@@ -36,9 +48,9 @@ export const loader = async (args: LoaderArgs) => {
 
         if (days.includes(today)) {
           if (!farmableCache[_id]) {
-            farmableCache[_id] = [material, [avatar]]
+            farmableCache[_id] = [material, [display]]
           } else {
-            farmableCache[_id][1].push(avatar)
+            farmableCache[_id][1].push(display)
           }
         }
       }
@@ -58,7 +70,7 @@ const DataList = ({ children }: { children: ReactNode }) => {
   )
 }
 
-const DataListItem = ({ item, avatars }: { item: Item; avatars: Avatar[] }) => {
+const DataListItem = ({ item, avatars }: { item: Item; avatars: AvatarDisplay[] }) => {
   const itemImageSrc = `https://api.ambr.top/assets/UI/${item.icon}.png`
 
   return (
@@ -90,7 +102,7 @@ export default function Index() {
   const { farmable } = data
 
   return (
-    <div className="mx-auto max-w-lg px-4 lg:mx-0">
+    <div className="mx-auto max-w-lg px-4">
       <h1 className="pt-4 pb-2 text-3xl font-bold underline">Asase Shrine</h1>
 
       <DataList>

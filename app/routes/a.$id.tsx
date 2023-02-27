@@ -26,8 +26,8 @@ export default function AvatarDetails() {
   const { avatar } = data
 
   return (
-    <div className="container mx-auto">
-      <h1 className="text-3xl font-bold underline">{avatar.name}</h1>
+    <div className="mx-auto max-w-lg px-4">
+      <h1 className="pt-4 pb-2 text-3xl font-bold underline">{avatar.name}</h1>
       <div>{avatar.fetter.detail}</div>
     </div>
   )

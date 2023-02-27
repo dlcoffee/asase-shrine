@@ -1,17 +1,8 @@
 import type { MetaFunction, LinksFunction } from '@remix-run/cloudflare'
-import {
-  Links,
-  LiveReload,
-  Meta,
-  Outlet,
-  Scripts,
-  ScrollRestoration,
-} from '@remix-run/react'
+import { Link, Links, LiveReload, Meta, Outlet, Scripts, ScrollRestoration } from '@remix-run/react'
 import stylesheet from '~/tailwind.css'
 
-export const links: LinksFunction = () => [
-  { rel: 'stylesheet', href: stylesheet },
-]
+export const links: LinksFunction = () => [{ rel: 'stylesheet', href: stylesheet }]
 
 export const meta: MetaFunction = () => ({
   charset: 'utf-8',
@@ -27,6 +18,19 @@ export default function App() {
         <Links />
       </head>
       <body>
+        <nav className="bg-gray-800">
+          <div className="mx-auto max-w-lg px-4">
+            <div className="space-y-1  pt-2 pb-3">
+              <Link to="/" className="pr-2 text-white">
+                Home
+              </Link>
+
+              <Link to="/t/new" className="px-2 text-white">
+                Track
+              </Link>
+            </div>
+          </div>
+        </nav>
         <Outlet />
         <ScrollRestoration />
         <Scripts />

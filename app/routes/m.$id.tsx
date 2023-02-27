@@ -26,8 +26,9 @@ export default function MaterialDetails() {
   const { material } = data
 
   return (
-    <div className="container mx-auto">
-      <h1 className="text-3xl font-bold underline">{material.name}</h1>
+    <div className="mx-auto max-w-lg px-4">
+      <h1 className="pt-4 pb-2 text-3xl font-bold underline">{material.name}</h1>
+
       <p className="mt-1 max-w-2xl text-sm text-gray-500">Sources</p>
       <ul>
         {material.source.map((source) => {
