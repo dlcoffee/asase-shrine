@@ -2,14 +2,7 @@ import { createLookup } from '~/utils/create-lookup'
 
 import itemsJson from './items.json'
 
-export type Day =
-  | 'sunday'
-  | 'monday'
-  | 'tuesday'
-  | 'wednesday'
-  | 'thursday'
-  | 'friday'
-  | 'saturday'
+export type Day = 'sunday' | 'monday' | 'tuesday' | 'wednesday' | 'thursday' | 'friday' | 'saturday'
 
 interface Recipe {
   [id: string]: Record<string, number>
@@ -38,6 +31,7 @@ export interface Item {
   icon: string
   type: string
   source: Source[]
+  rank: 1 | 2 | 3 | 4 | 5
   recipe: false | Recipe
 }
 
