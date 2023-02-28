@@ -9,9 +9,6 @@ interface ItemDisplay {
   id: string
   name: string
   icon: string
-}
-
-type DetailedItemDisplay = ItemDisplay & {
   details?: ItemDisplay[]
 }
 
@@ -19,12 +16,11 @@ interface AvatarDisplay {
   id: string
   name: string
   icon: string
-  items: ItemDisplay[]
   talent_materials: {
-    book?: DetailedItemDisplay
-    boss?: ItemDisplay
+    book?: ItemDisplay
+    crown?: ItemDisplay
   }
-  character_materials: DetailedItemDisplay[]
+  character_materials: ItemDisplay[]
 }
 
 function isCharacterLevelUpMaterial(item: Item) {
@@ -40,7 +36,16 @@ function isElementalAscensionMaterial(item: Item) {
   return isCharacterLevelUpMaterial(item) && names.some((name) => item.name.toLowerCase().includes(name))
 }
 
-function materialSrcUrl(item: DetailedItemDisplay) {
+function itemToDisplay(item: Item): ItemDisplay {
+  return {
+    _id: item._id,
+    id: item.id,
+    name: item.name,
+    icon: item.icon,
+  }
+}
+
+function materialSrcUrl(item: ItemDisplay) {
   return `https://api.ambr.top/assets/UI/${item.icon}.png`
 }
 
@@ -55,77 +60,77 @@ export const loader = async ({ request }: LoaderArgs) => {
     const ids = Object.keys(avatar.ascension)
     const items = await db.items.findByIds(ids)
 
+    // rank 2: teaching
+    // rank 3: guide
+    // rank 4: philosophies
+    // rank 5: crown
     const talentMaterials = items.filter((item) => isTalentLevelUpMaterial(item))
+
+    // rank 1: item
+    // rank 2: elemental sliver, item
+    // rank 3: elemental fragment, item
+    // rank 4: elemental chunk, (normal) boss material
+    // rank 5: elemental gemstone, boss material (weekly)
     const characterMaterials = items.filter((item) => isCharacterLevelUpMaterial(item))
-    const nonTalentOrCharacterMaterialsDisplay: DetailedItemDisplay[] = items
+
+    const localSpecialtyMaterials: ItemDisplay[] = items
       .filter((item) => !isTalentLevelUpMaterial(item) && !isCharacterLevelUpMaterial(item))
-      .map((item) => {
-        return {
-          _id: item._id,
-          id: item.id,
-          name: item.name,
-          icon: item.icon,
-        }
-      })
+      .map((item) => itemToDisplay(item))
 
     // TODO: write tests for convoluted and dumb logic.
     const teachingBook = talentMaterials.find((m) => m.rank === 2) // teaching === 2
-    let teachingBookDisplay: DetailedItemDisplay | undefined
+    let teachingBookDisplay: ItemDisplay | undefined
 
     if (teachingBook) {
-      teachingBookDisplay = {
-        _id: teachingBook._id,
-        id: teachingBook.id,
-        name: teachingBook.name,
-        icon: teachingBook.icon,
-        // guide === 3, philosophies === 4
-        details: talentMaterials.filter((m) => m.rank === 3 || m.rank === 4),
-      }
+      teachingBookDisplay = itemToDisplay(teachingBook)
+      teachingBookDisplay.details = talentMaterials.filter((m) => m.rank === 3 || m.rank === 4)
     }
-    const boss = talentMaterials.find((m) => m.rank === 5)
+
+    const crown = talentMaterials.find((m) => m.rank === 5)
 
     // [non character materials, elemental character materials, rest of character materials]
-    const characterMaterialsDisplay: DetailedItemDisplay[] = []
+    const characterMaterialsDisplay: ItemDisplay[] = []
 
-    if (nonTalentOrCharacterMaterialsDisplay.length) {
-      characterMaterialsDisplay.push(...nonTalentOrCharacterMaterialsDisplay)
+    if (localSpecialtyMaterials.length) {
+      characterMaterialsDisplay.push(...localSpecialtyMaterials)
     }
 
-    const sliverMaterial = characterMaterials.find((m) => isElementalAscensionMaterial(m) && m.rank === 2)
-    let sliverMaterialDisplay: DetailedItemDisplay | undefined
+    const rootGemMaterial = characterMaterials.find((m) => isElementalAscensionMaterial(m) && m.rank === 2)
+    let rootGemMaterialDisplay: ItemDisplay | undefined
 
-    if (sliverMaterial) {
-      sliverMaterialDisplay = {
-        _id: sliverMaterial._id,
-        id: sliverMaterial.id,
-        name: sliverMaterial.name,
-        icon: sliverMaterial.icon,
-        // guide === 3, philosophies === 4
-        details: characterMaterials.filter((m) => isElementalAscensionMaterial(m)),
-      }
-
-      characterMaterialsDisplay.push(sliverMaterialDisplay)
+    if (rootGemMaterial) {
+      rootGemMaterialDisplay = itemToDisplay(rootGemMaterial)
+      rootGemMaterialDisplay.details = characterMaterials.filter((m) => isElementalAscensionMaterial(m))
+      characterMaterialsDisplay.push(rootGemMaterialDisplay)
     }
 
-    for (const material of characterMaterials) {
-      if (!isElementalAscensionMaterial(material)) {
-        characterMaterialsDisplay.push({
-          _id: material._id,
-          id: material.id,
-          name: material.name,
-          icon: material.icon,
-        })
-      }
+    const rootCommonMaterial = characterMaterials.find((m) => !isElementalAscensionMaterial(m) && m.rank === 1)
+    let rootCommonMaterialDisplay: ItemDisplay | undefined
+
+    if (rootCommonMaterial) {
+      rootCommonMaterialDisplay = itemToDisplay(rootCommonMaterial)
+      rootCommonMaterialDisplay.details = characterMaterials.filter(
+        (m) => !isElementalAscensionMaterial(m) && (m.rank === 2 || m.rank === 3)
+      )
+      characterMaterialsDisplay.push(rootCommonMaterialDisplay)
+    }
+
+    const bossMaterials = characterMaterials
+      .filter((m) => !isElementalAscensionMaterial(m) && (m.rank === 4 || m.rank === 5))
+      .sort((a, b) => a.rank - b.rank)
+      .map(itemToDisplay)
+
+    if (bossMaterials.length) {
+      characterMaterialsDisplay.push(...bossMaterials)
     }
 
     avatars.push({
       id: avatar.id,
       name: avatar.name,
       icon: avatar.icon,
-      items,
       talent_materials: {
         book: teachingBookDisplay,
-        boss,
+        crown,
       },
       character_materials: characterMaterialsDisplay,
     })
@@ -138,8 +143,6 @@ export default function MaterialDetails() {
   const data = useLoaderData<typeof loader>()
   const { avatars } = data
 
-  console.log(avatars)
-
   return (
     <div className="mx-auto max-w-lg px-4">
       <h1 className="pt-4 pb-2 text-3xl font-bold underline">Tracking</h1>
@@ -147,9 +150,8 @@ export default function MaterialDetails() {
       <div className="flex flex-col px-2 py-3">
         {avatars.map((avatar) => {
           const {
-            talent_materials: { book, boss },
+            talent_materials: { book, crown },
             character_materials,
-            items,
           } = avatar
           const avatarImgSrc = `https://api.ambr.top/assets/UI/${avatar.icon}.png`
 
@@ -176,12 +178,12 @@ export default function MaterialDetails() {
                       </Link>
                     )}
 
-                    {boss && (
-                      <Link to={`/m/${boss._id}`}>
+                    {crown && (
+                      <Link to={`/m/${crown._id}`}>
                         <img
-                          src={materialSrcUrl(boss)}
-                          title={boss.id}
-                          alt={boss.name}
+                          src={materialSrcUrl(crown)}
+                          title={crown.id}
+                          alt={crown.name}
                           className="m-2 w-12 rounded-md"
                         />
                       </Link>
