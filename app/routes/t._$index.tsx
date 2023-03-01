@@ -1,6 +1,7 @@
 import { Link, useLoaderData } from '@remix-run/react'
 import { type LoaderArgs, json } from '@remix-run/cloudflare'
-import { type Item } from '~/data/items'
+import { formatInTimeZone } from 'date-fns-tz'
+import { type Day, type Item, type SourceDomain } from '~/data/items'
 
 import { db } from '~/utils/db.server'
 
@@ -9,6 +10,7 @@ interface ItemDisplay {
   id: string
   name: string
   icon: string
+  farmable?: boolean
   details?: ItemDisplay[]
 }
 
@@ -52,6 +54,7 @@ function itemToDisplay(item: Item): ItemDisplay {
     id: item.id,
     name: item.name,
     icon: item.icon,
+    farmable: false,
   }
 }
 
@@ -107,6 +110,21 @@ export const loader = async ({ request }: LoaderArgs) => {
 
     if (teachingBook) {
       teachingBookDisplay = itemToDisplay(teachingBook)
+
+      // TODO: handle other servers as well as reset time
+      const today = formatInTimeZone(new Date(), 'America/New_York', 'EEEE').toLowerCase() as Day
+
+      const { source } = teachingBook
+      const domains = source.filter((source): source is SourceDomain => source.type === 'domain')
+
+      for (const domain of domains) {
+        const { days } = domain
+
+        if (days.includes(today)) {
+          teachingBookDisplay.farmable = true
+        }
+      }
+
       teachingBookDisplay.details = talentMaterials.filter((m) => m.rank === 3 || m.rank === 4)
     }
 
@@ -129,7 +147,7 @@ export const loader = async ({ request }: LoaderArgs) => {
     }
 
     const rootCommonMaterial = characterAndWeaponEnhancementMaterials.find((m) => m.rank === 1)
-    let rootCommonMaterialDisplay: ItemDisplay | undefined
+    let rootCommonMaterialDisplay: ItemDisplay
 
     if (rootCommonMaterial) {
       rootCommonMaterialDisplay = itemToDisplay(rootCommonMaterial)
@@ -193,8 +211,8 @@ export default function TrackingIndex() {
               </div>
 
               <div className="flex flex-col">
-                <div className="flex flex-col border border-amber-600">
-                  <div>talent level up materials</div>
+                <div className="flex flex-col">
+                  <p>talent level up materials</p>
                   <div className="flex flex-wrap">
                     {book && (
                       <Link to={`/m/${book._id}`}>
@@ -202,7 +220,7 @@ export default function TrackingIndex() {
                           src={materialSrcUrl(book)}
                           title={book.id}
                           alt={book.name}
-                          className="m-1 rounded-md"
+                          className={`m-1 rounded-md ${book.farmable ? 'ring-2 ring-emerald-600' : ''}`}
                           width="48"
                           height="48"
                         />
@@ -224,8 +242,8 @@ export default function TrackingIndex() {
                   </div>
                 </div>
 
-                <div className="flex flex-col border border-purple-800">
-                  <div>character ascension materials</div>
+                <div className="flex flex-col">
+                  <p>character ascension materials</p>
                   <div className="flex flex-wrap">
                     {character_materials.map((item) => {
                       return (
