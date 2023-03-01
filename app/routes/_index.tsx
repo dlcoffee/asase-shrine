@@ -49,7 +49,9 @@ export const loader = async (args: LoaderArgs) => {
     // rank 3: guide
     // rank 4: philosophies
     // rank 5: crown
-    const talentMaterials = items.filter((item) => item.type.includes('Talent Level-Up Material'))
+    const talentMaterials = items.filter((item) => {
+      return item.type.includes('Character Talent Material') || item.type.includes('Talent Level-Up Material')
+    })
 
     for (const material of talentMaterials) {
       const { _id, source } = material
