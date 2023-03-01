@@ -12,6 +12,13 @@ interface AvatarDisplay {
   icon: string
 }
 
+interface ItemDisplay {
+  _id: string
+  id: string
+  name: string
+  icon: string
+}
+
 export const loader = async (args: LoaderArgs) => {
   // todo: make more efficient
   // some approaches:
@@ -24,7 +31,7 @@ export const loader = async (args: LoaderArgs) => {
   // TODO: handle other servers as well as reset time
   const today = formatInTimeZone(new Date(), 'America/New_York', 'EEEE').toLowerCase() as Day
 
-  const farmableCache: Record<string, [Item, AvatarDisplay[]]> = {}
+  const entryCache: Record<string, [Item, AvatarDisplay[]]> = {}
 
   for (const avatar of avatars) {
     const { ascension } = avatar
@@ -37,6 +44,11 @@ export const loader = async (args: LoaderArgs) => {
 
     const itemIds = Object.keys(ascension)
     const items = await db.items.findByIds(itemIds)
+
+    // rank 2: teaching
+    // rank 3: guide
+    // rank 4: philosophies
+    // rank 5: crown
     const talentMaterials = items.filter((item) => item.type.includes('Talent Level-Up Material'))
 
     for (const material of talentMaterials) {
@@ -47,17 +59,70 @@ export const loader = async (args: LoaderArgs) => {
         const { days } = domain
 
         if (days.includes(today)) {
-          if (!farmableCache[_id]) {
-            farmableCache[_id] = [material, [display]]
+          if (!entryCache[_id]) {
+            entryCache[_id] = [material, [display]]
           } else {
-            farmableCache[_id][1].push(display)
+            entryCache[_id][1].push(display)
           }
         }
       }
     }
   }
 
-  const farmable = Object.values(farmableCache)
+  const entries = Object.values(entryCache)
+  const farmableCache: Record<string, [ItemDisplay, Record<string, AvatarDisplay>]> = {}
+
+  for (const entry of entries) {
+    const item = entry[0]
+    const avatars = entry[1]
+    const key = item.name.split(' ').at(-1)?.toLowerCase()
+
+    if (!key) {
+      continue
+    }
+
+    if (!farmableCache[key]) {
+      farmableCache[key] = [
+        {
+          _id: 'temp',
+          id: 'temp',
+          name: 'temp',
+          icon: 'temp',
+        },
+        {},
+      ] // initialize
+    }
+
+    if (item.rank === 2) {
+      farmableCache[key][0] = {
+        _id: item._id,
+        id: item.id,
+        name: item.name,
+        icon: item.icon,
+      }
+    }
+
+    const avatarCache = farmableCache[key][1]
+
+    for (const avatar of avatars) {
+      const display: AvatarDisplay = {
+        id: avatar.id,
+        name: avatar.name,
+        icon: avatar.icon,
+      }
+
+      avatarCache[avatar.id] = display
+    }
+  }
+
+  const values = Object.values(farmableCache)
+
+  const farmable = values.map((value) => {
+    const item = value[0]
+    const avatars = Object.values(value[1])
+
+    return [item, avatars]
+  }) as unknown as [Item, AvatarDisplay[]] // TODO: fix weird ts error
 
   return json({ farmable })
 }
@@ -70,7 +135,7 @@ const DataList = ({ children }: { children: ReactNode }) => {
   )
 }
 
-const DataListItem = ({ item, avatars }: { item: Item; avatars: AvatarDisplay[] }) => {
+const DataListItem = ({ item, avatars }: { item: ItemDisplay; avatars: AvatarDisplay[] }) => {
   const itemImageSrc = `https://api.ambr.top/assets/UI/${item.icon}.png`
 
   return (
@@ -107,6 +172,7 @@ export default function Index() {
 
       <DataList>
         {farmable.map(([item, avatars]) => {
+          // TODO: fix weird ts error
           return <DataListItem key={item.id} item={item} avatars={avatars} />
         })}
       </DataList>
