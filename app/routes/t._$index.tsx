@@ -27,13 +27,23 @@ function isCharacterLevelUpMaterial(item: Item) {
   return item.type.includes('Character Level-Up Material')
 }
 
-function isTalentLevelUpMaterial(item: Item) {
-  return item.type.includes('Talent Level-Up Material')
+function isCharacterTalentMaterial(item: Item) {
+  const { type } = item
+  const names = ['teachings', 'guide', 'philosophies', 'crown of insight']
+
+  return (
+    // talent materials are typed both ways for some reason
+    (type.includes('Character Talent Material') || type.includes('Talent Level-Up Material')) &&
+    names.some((name) => item.name.toLowerCase().includes(name))
+  )
 }
 
-function isElementalAscensionMaterial(item: Item) {
-  const names = ['sliver', 'fragment', 'chunk', 'gemstone']
-  return isCharacterLevelUpMaterial(item) && names.some((name) => item.name.toLowerCase().includes(name))
+function isCharacterAscensionMaterial(item: Item) {
+  return item.type.includes('Character Ascension Material')
+}
+
+function isCharacterAndWeaponEnhancementMaterial(item: Item) {
+  return item.type.includes('Character and Weapon Enhancement Material')
 }
 
 function itemToDisplay(item: Item): ItemDisplay {
@@ -64,17 +74,31 @@ export const loader = async ({ request }: LoaderArgs) => {
     // rank 3: guide
     // rank 4: philosophies
     // rank 5: crown
-    const talentMaterials = items.filter((item) => isTalentLevelUpMaterial(item))
+    const talentMaterials = items.filter((item) => isCharacterTalentMaterial(item))
+
+    // rank 4: (normal) boss material
+    // rank 5: boss material (weekly)
+    const characterLevelUpMaterials = items.filter((item) => isCharacterLevelUpMaterial(item))
+
+    // rank 2: elemental sliver
+    // rank 3: elemental fragment
+    // rank 4: elemental chunk
+    // rank 5: elemental gemstone
+    const characterAscensionMaterials = items.filter((item) => isCharacterAscensionMaterial(item))
 
     // rank 1: item
-    // rank 2: elemental sliver, item
-    // rank 3: elemental fragment, item
-    // rank 4: elemental chunk, (normal) boss material
-    // rank 5: elemental gemstone, boss material (weekly)
-    const characterMaterials = items.filter((item) => isCharacterLevelUpMaterial(item))
+    // rank 2: item
+    // rank 3: item
+    const characterAndWeaponEnhancementMaterials = items.filter((item) => isCharacterAndWeaponEnhancementMaterial(item))
 
     const localSpecialtyMaterials: ItemDisplay[] = items
-      .filter((item) => !isTalentLevelUpMaterial(item) && !isCharacterLevelUpMaterial(item))
+      .filter(
+        (item) =>
+          !isCharacterTalentMaterial(item) &&
+          !isCharacterLevelUpMaterial(item) &&
+          !isCharacterAscensionMaterial(item) &&
+          !isCharacterAndWeaponEnhancementMaterial(item)
+      )
       .map((item) => itemToDisplay(item))
 
     // TODO: write tests for convoluted and dumb logic.
@@ -88,35 +112,33 @@ export const loader = async ({ request }: LoaderArgs) => {
 
     const crown = talentMaterials.find((m) => m.rank === 5)
 
-    // [non character materials, elemental character materials, rest of character materials]
+    // [local specialties, elemental character materials, char/weapon materials, boss materials]
     const characterMaterialsDisplay: ItemDisplay[] = []
 
     if (localSpecialtyMaterials.length) {
       characterMaterialsDisplay.push(...localSpecialtyMaterials)
     }
 
-    const rootGemMaterial = characterMaterials.find((m) => isElementalAscensionMaterial(m) && m.rank === 2)
+    const rootGemMaterial = characterAscensionMaterials.find((m) => isCharacterAscensionMaterial(m) && m.rank === 2)
     let rootGemMaterialDisplay: ItemDisplay | undefined
 
     if (rootGemMaterial) {
       rootGemMaterialDisplay = itemToDisplay(rootGemMaterial)
-      rootGemMaterialDisplay.details = characterMaterials.filter((m) => isElementalAscensionMaterial(m))
+      rootGemMaterialDisplay.details = characterAscensionMaterials.map(itemToDisplay)
       characterMaterialsDisplay.push(rootGemMaterialDisplay)
     }
 
-    const rootCommonMaterial = characterMaterials.find((m) => !isElementalAscensionMaterial(m) && m.rank === 1)
+    const rootCommonMaterial = characterAndWeaponEnhancementMaterials.find((m) => m.rank === 1)
     let rootCommonMaterialDisplay: ItemDisplay | undefined
 
     if (rootCommonMaterial) {
       rootCommonMaterialDisplay = itemToDisplay(rootCommonMaterial)
-      rootCommonMaterialDisplay.details = characterMaterials.filter(
-        (m) => !isElementalAscensionMaterial(m) && (m.rank === 2 || m.rank === 3)
-      )
+      rootCommonMaterialDisplay.details = characterAndWeaponEnhancementMaterials.map(itemToDisplay)
       characterMaterialsDisplay.push(rootCommonMaterialDisplay)
     }
 
-    const bossMaterials = characterMaterials
-      .filter((m) => !isElementalAscensionMaterial(m) && (m.rank === 4 || m.rank === 5))
+    const bossMaterials = characterLevelUpMaterials
+      .filter((m) => !isCharacterAscensionMaterial(m) && (m.rank === 4 || m.rank === 5))
       .sort((a, b) => a.rank - b.rank)
       .map(itemToDisplay)
 

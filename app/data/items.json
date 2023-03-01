@@ -698,7 +698,7 @@
     {
         "name": "Brilliant Diamond Sliver",
         "description": "Character Ascension material.\\n\"Welcome to this world.\"",
-        "type": "Character Level-Up Material",
+        "type": "Character Ascension Material",
         "recipe": false,
         "mapMark": false,
         "source": [
@@ -716,7 +716,7 @@
     {
         "name": "Brilliant Diamond Fragment",
         "description": "Character Ascension material.\\n\"Welcome to this world.\"",
-        "type": "Character Level-Up Material",
+        "type": "Character Ascension Material",
         "recipe": false,
         "mapMark": false,
         "source": [
@@ -734,7 +734,7 @@
     {
         "name": "Brilliant Diamond Chunk",
         "description": "Character Ascension material.\\n\"Welcome to this world.\"",
-        "type": "Character Level-Up Material",
+        "type": "Character Ascension Material",
         "recipe": false,
         "mapMark": false,
         "source": [
@@ -752,7 +752,7 @@
     {
         "name": "Brilliant Diamond Gemstone",
         "description": "Character Ascension material.\\n\"Welcome to this world.\"",
-        "type": "Character Level-Up Material",
+        "type": "Character Ascension Material",
         "recipe": false,
         "mapMark": false,
         "source": [
@@ -770,7 +770,7 @@
     {
         "name": "Agnidus Agate Sliver",
         "description": "Character Ascension material.",
-        "type": "Character Level-Up Material",
+        "type": "Character Ascension Material",
         "recipe": {
             "50001": {
                 "104121": 1,
@@ -821,7 +821,7 @@
     {
         "name": "Agnidus Agate Fragment",
         "description": "Character Ascension material.\\n\"A pilgrimage for a wish; a battle to earn a name...\"",
-        "type": "Character Level-Up Material",
+        "type": "Character Ascension Material",
         "recipe": {
             "15001": {
                 "104111": 3
@@ -875,7 +875,7 @@
     {
         "name": "Agnidus Agate Chunk",
         "description": "Character Ascension material.\\n\"A pilgrimage for a wish; a battle to earn a name...\\nBurnt to cinders for a dream.\"",
-        "type": "Character Level-Up Material",
+        "type": "Character Ascension Material",
         "recipe": {
             "15002": {
                 "104112": 3
@@ -929,7 +929,7 @@
     {
         "name": "Agnidus Agate Gemstone",
         "description": "Character Ascension material.\\n\"A pilgrimage for a wish; a battle to earn a name...\\nBurnt to cinders for a dream.\\nIf the intention yet remains, achieved ██'s truth he has.\"",
-        "type": "Character Level-Up Material",
+        "type": "Character Ascension Material",
         "recipe": {
             "15003": {
                 "104113": 3
@@ -983,7 +983,7 @@
     {
         "name": "Varunada Lazurite Sliver",
         "description": "Character Ascension material.",
-        "type": "Character Level-Up Material",
+        "type": "Character Ascension Material",
         "recipe": {
             "50025": {
                 "104111": 1,
@@ -1034,7 +1034,7 @@
     {
         "name": "Varunada Lazurite Fragment",
         "description": "Character Ascension material.\\n\"My ideals have no stains.\"",
-        "type": "Character Level-Up Material",
+        "type": "Character Ascension Material",
         "recipe": {
             "15004": {
                 "104121": 3
@@ -1088,7 +1088,7 @@
     {
         "name": "Varunada Lazurite Chunk",
         "description": "Character Ascension material.\\n\"My ideals have no stains.\\nI must correct you. People here bear no sins in the eyes of the gods...\"",
-        "type": "Character Level-Up Material",
+        "type": "Character Ascension Material",
         "recipe": {
             "15005": {
                 "104122": 3
@@ -1142,7 +1142,7 @@
     {
         "name": "Varunada Lazurite Gemstone",
         "description": "Character Ascension material.\\n\"My ideals have no stains.\\nI must correct you. People here bear no sins in the eyes of the gods... Only laws and the Tribunal can judge someone.\\nThey can judge even me. So praise my magnificence and purity.\"",
-        "type": "Character Level-Up Material",
+        "type": "Character Ascension Material",
         "recipe": {
             "15006": {
                 "104123": 3
@@ -1196,7 +1196,7 @@
     {
         "name": "Nagadus Emerald Sliver",
         "description": "Character Ascension material.",
-        "type": "Character Level-Up Material",
+        "type": "Character Ascension Material",
         "recipe": {
             "50049": {
                 "104111": 1,
@@ -1243,7 +1243,7 @@
     {
         "name": "Nagadus Emerald Fragment",
         "description": "Character Ascension material.\\n\"I had a very, very long dream...\"",
-        "type": "Character Level-Up Material",
+        "type": "Character Ascension Material",
         "recipe": {
             "15007": {
                 "104131": 3
@@ -1297,7 +1297,7 @@
     {
         "name": "Nagadus Emerald Chunk",
         "description": "Character Ascension material.\\n\"I had a very, very long dream...\"\\n\"In it, people were holding hands, dancing in a circle, be they sages or fools, dancers or warriors, puppets or statues of gods...\"",
-        "type": "Character Level-Up Material",
+        "type": "Character Ascension Material",
         "recipe": {
             "15008": {
                 "104132": 3
@@ -1351,7 +1351,7 @@
     {
         "name": "Nagadus Emerald Gemstone",
         "description": "Character Ascension material.\\n\"I had a very, very long dream...\"\\n\"In it, people were holding hands, dancing in a circle, be they sages or fools, dancers or warriors, puppets or statues of gods...\"\\n\"That dancing circle embodied everything about the universe. Life has always been the end, while it is wisdom that shall be the means.\"",
-        "type": "Character Level-Up Material",
+        "type": "Character Ascension Material",
         "recipe": {
             "15009": {
                 "104133": 3
@@ -1405,7 +1405,7 @@
     {
         "name": "Vajrada Amethyst Sliver",
         "description": "Character Ascension material.",
-        "type": "Character Level-Up Material",
+        "type": "Character Ascension Material",
         "recipe": {
             "50073": {
                 "104111": 1,
@@ -1460,7 +1460,7 @@
     {
         "name": "Vajrada Amethyst Fragment",
         "description": "Character Ascension material.\\n\"This body is the noblest and most eminent of all in this world.\"",
-        "type": "Character Level-Up Material",
+        "type": "Character Ascension Material",
         "recipe": {
             "15010": {
                 "104141": 3
@@ -1518,7 +1518,7 @@
     {
         "name": "Vajrada Amethyst Chunk",
         "description": "Character Ascension material.\\n\"This body is the noblest and most eminent of all in this world.\\nIt should hold absolute control over this world.\"",
-        "type": "Character Level-Up Material",
+        "type": "Character Ascension Material",
         "recipe": {
             "15011": {
                 "104142": 3
@@ -1576,7 +1576,7 @@
     {
         "name": "Vajrada Amethyst Gemstone",
         "description": "Character Ascension material.\\n\"This body is the noblest and most eminent of all in this world.\\n\"It should hold absolute control over this world.\\n\"It once promised its people a dream: the never-changing 'eternity.'\"",
-        "type": "Character Level-Up Material",
+        "type": "Character Ascension Material",
         "recipe": {
             "15012": {
                 "104143": 3
@@ -1634,7 +1634,7 @@
     {
         "name": "Vayuda Turquoise Sliver",
         "description": "Character Ascension material.",
-        "type": "Character Level-Up Material",
+        "type": "Character Ascension Material",
         "recipe": {
             "50097": {
                 "104111": 1,
@@ -1685,7 +1685,7 @@
     {
         "name": "Vayuda Turquoise Fragment",
         "description": "Character Ascension material.\\n\"Still, the winds change direction.\"",
-        "type": "Character Level-Up Material",
+        "type": "Character Ascension Material",
         "recipe": {
             "15013": {
                 "104151": 3
@@ -1739,7 +1739,7 @@
     {
         "name": "Vayuda Turquoise Chunk",
         "description": "Character Ascension material.\\n\"Still, the winds change direction.\\nSomeday, they will blow towards a brighter future...\"",
-        "type": "Character Level-Up Material",
+        "type": "Character Ascension Material",
         "recipe": {
             "15014": {
                 "104152": 3
@@ -1793,7 +1793,7 @@
     {
         "name": "Vayuda Turquoise Gemstone",
         "description": "Character Ascension material.\\n\"Still, the winds change direction.\\n\"Someday, they will blow towards a brighter future...\\n\"Take my blessings and live leisurely from this day onward.\"",
-        "type": "Character Level-Up Material",
+        "type": "Character Ascension Material",
         "recipe": {
             "15015": {
                 "104153": 3
@@ -1847,7 +1847,7 @@
     {
         "name": "Shivada Jade Sliver",
         "description": "Character Ascension material.",
-        "type": "Character Level-Up Material",
+        "type": "Character Ascension Material",
         "recipe": {
             "50121": {
                 "104111": 1,
@@ -1898,7 +1898,7 @@
     {
         "name": "Shivada Jade Fragment",
         "description": "Character Ascension material.\\n\"Sorry...\"",
-        "type": "Character Level-Up Material",
+        "type": "Character Ascension Material",
         "recipe": {
             "15016": {
                 "104161": 3
@@ -1952,7 +1952,7 @@
     {
         "name": "Shivada Jade Chunk",
         "description": "Character Ascension material.\\n\"Sorry...\"\\n\"...to also have you shoulder the grievances of the world.\"",
-        "type": "Character Level-Up Material",
+        "type": "Character Ascension Material",
         "recipe": {
             "15017": {
                 "104162": 3
@@ -2006,7 +2006,7 @@
     {
         "name": "Shivada Jade Gemstone",
         "description": "Character Ascension material.\\n\"Sorry... to also have you shoulder the grievances of the world.\\n\"Since you could endure my bitter cold, you must have the desire to burn?\\n\"Then, burn away the old world for me.\"",
-        "type": "Character Level-Up Material",
+        "type": "Character Ascension Material",
         "recipe": {
             "15018": {
                 "104163": 3
@@ -2060,7 +2060,7 @@
     {
         "name": "Prithiva Topaz Sliver",
         "description": "Character Ascension material.",
-        "type": "Character Level-Up Material",
+        "type": "Character Ascension Material",
         "recipe": {
             "50145": {
                 "104111": 1,
@@ -2115,7 +2115,7 @@
     {
         "name": "Prithiva Topaz Fragment",
         "description": "Character Ascension material.\\n\"The currencies that flow through this land are my flesh and blood.\"",
-        "type": "Character Level-Up Material",
+        "type": "Character Ascension Material",
         "recipe": {
             "15019": {
                 "104171": 3
@@ -2173,7 +2173,7 @@
     {
         "name": "Prithiva Topaz Chunk",
         "description": "Character Ascension material.\\n\"The currencies that flow through this land are my flesh and blood.\\nFor thus did I become the guarantor of the people's hard work, wisdom, and future.\"",
-        "type": "Character Level-Up Material",
+        "type": "Character Ascension Material",
         "recipe": {
             "15020": {
                 "104172": 3
@@ -2231,7 +2231,7 @@
     {
         "name": "Prithiva Topaz Gemstone",
         "description": "Character Ascension material.\\n\"The currencies that flow through this land are my flesh and blood.\\nFor thus did I become the guarantor of the people's hard work, wisdom, and future.\\nThis is the trust I have placed in them. Betray it, and you taint my blood.\"",
-        "type": "Character Level-Up Material",
+        "type": "Character Ascension Material",
         "recipe": {
             "15021": {
                 "104173": 3
@@ -2289,7 +2289,7 @@
     {
         "name": "Teachings of Freedom",
         "description": "Talent Level-Up material.\\nFreedom is the spirit of the land of the wind.\\nThe freedom to live is one of such. It is the freedom to live freely and healthily without concerns of one's own safety.",
-        "type": "Talent Level-Up Material",
+        "type": "Character Talent Material",
         "recipe": false,
         "mapMark": false,
         "source": [
@@ -2312,7 +2312,7 @@
     {
         "name": "Guide to Freedom",
         "description": "Talent Level-Up material.\\nFreedom is the spirit of the land of the wind.\\nThe freedom of travel is one of such. It is the freedom to traverse the land freely without being obstructed.",
-        "type": "Talent Level-Up Material",
+        "type": "Character Talent Material",
         "recipe": {
             "13001": {
                 "104301": 3
@@ -2343,7 +2343,7 @@
     {
         "name": "Philosophies of Freedom",
         "description": "Talent Level-Up material.\\nFreedom is the spirit of the land of the wind.\\nTo sing is one such freedom. To sing on the land created by the Anemo Archon is to send your heart away with the song on the wind.",
-        "type": "Talent Level-Up Material",
+        "type": "Character Talent Material",
         "recipe": {
             "13002": {
                 "104302": 3
@@ -2374,7 +2374,7 @@
     {
         "name": "Teachings of Resistance",
         "description": "Talent Level-Up material.\\nResistance is the backbone of the land of the wind.\\nThe history of Mondstadt is one of resistances. People rose up to prevent past conflicts from ever being forgotten, like sprouts breaking through the soil, like the eternal wind eroding through stone walls.",
-        "type": "Talent Level-Up Material",
+        "type": "Character Talent Material",
         "recipe": false,
         "mapMark": false,
         "source": [
@@ -2397,7 +2397,7 @@
     {
         "name": "Guide to Resistance",
         "description": "Talent Level-Up material.\\nResistance is the backbone of the city of Wind.\\nThe history of Mondstadt is one of resistances. People rose up to grant the citizens of Mondstadt the freedom they now enjoy, like the Anemo Archon blowing away the snow, or like Vennessa rising up to fight.",
-        "type": "Talent Level-Up Material",
+        "type": "Character Talent Material",
         "recipe": {
             "13003": {
                 "104304": 3
@@ -2428,7 +2428,7 @@
     {
         "name": "Philosophies of Resistance",
         "description": "Talent Level-Up material.\\nResistance is the backbone of the land of the wind.\\nThe history of Mondstadt is one of resistances. People rose up to allow the future Mondstadt's poetry to freely be that of the wind and be spread across the land.",
-        "type": "Talent Level-Up Material",
+        "type": "Character Talent Material",
         "recipe": {
             "13004": {
                 "104305": 3
@@ -2459,7 +2459,7 @@
     {
         "name": "Teachings of Ballad",
         "description": "Talent Level-Up material.\\nPoetry is the soul of the land of the wind.\\nPoetry is the manifestations of beautiful feelings. On a beautiful day, the breezes carry with them poetry that touches the heart of people like the wind caressing the leaves.",
-        "type": "Talent Level-Up Material",
+        "type": "Character Talent Material",
         "recipe": false,
         "mapMark": false,
         "source": [
@@ -2482,7 +2482,7 @@
     {
         "name": "Guide to Ballad",
         "description": "Talent Level-Up material.\\nPoetry is the soul of the land of the wind.\\nPoetry is the manifestations of the will to encourage. In the dark days, the gales in the streets and alleyways whisper words of fury, like the battle drums, like the low rumbling before the storm.",
-        "type": "Talent Level-Up Material",
+        "type": "Character Talent Material",
         "recipe": {
             "13005": {
                 "104307": 3
@@ -2513,7 +2513,7 @@
     {
         "name": "Philosophies of Ballad",
         "description": "Talent Level-Up material.\\nPoetry is the soul of the land of the wind.\\nPoetry is the manifestations of the desire to spread the word. Though nothing is eternal, though nothing will be the same, the wind's poetry will still spread beyond the skies, the land, the seas to every corner of the world.",
-        "type": "Talent Level-Up Material",
+        "type": "Character Talent Material",
         "recipe": {
             "13006": {
                 "104308": 3
@@ -2544,7 +2544,7 @@
     {
         "name": "Teachings of Prosperity",
         "description": "Talent Level-Up material.\\nProsperity is the people's pursuit in the land of Geo.\\nProsperity is the blessing of Liyue, it is the foundation of the great city built by the gods and the people of Liyue, and it is the source of the peace and safety of the land.",
-        "type": "Talent Level-Up Material",
+        "type": "Character Talent Material",
         "recipe": false,
         "mapMark": false,
         "source": [
@@ -2567,7 +2567,7 @@
     {
         "name": "Guide to Prosperity",
         "description": "Talent Level-Up material.\\nProsperity is the people's pursuit in the land of Geo.\\nProsperity is the promise made by Liyue to its children: To repay the hard-working laborers with enough gold to brighten up this land.",
-        "type": "Talent Level-Up Material",
+        "type": "Character Talent Material",
         "recipe": {
             "13007": {
                 "104310": 3
@@ -2598,7 +2598,7 @@
     {
         "name": "Philosophies of Prosperity",
         "description": "Talent Level-Up material.\\nProsperity is the people's pursuit in the land of Geo.\\nProsperity is Liyue's past, present, and future. This prosperity is unmatched and unobtainable by any other nations — it all belongs to Liyue and its inhabitants.",
-        "type": "Talent Level-Up Material",
+        "type": "Character Talent Material",
         "recipe": {
             "13008": {
                 "104311": 3
@@ -2629,7 +2629,7 @@
     {
         "name": "Teachings of Diligence",
         "description": "Talent Level-Up material.\\nIndustriousness is the foundation of the land of Geo.\\nDiligence is having the bravery and the strength to conquer mountains and seas and to pursue gold and prosperity through honest, hard work.",
-        "type": "Talent Level-Up Material",
+        "type": "Character Talent Material",
         "recipe": false,
         "mapMark": false,
         "source": [
@@ -2652,7 +2652,7 @@
     {
         "name": "Guide to Diligence",
         "description": "Talent Level-Up material.\\nIndustriousness is the foundation of the land of Geo.\\nIndustriousness is the catalyst that flows in the blood of the people of Liyue, able to turn rocks into gold. It is what lies behind the greatness of its great commercial port.",
-        "type": "Talent Level-Up Material",
+        "type": "Character Talent Material",
         "recipe": {
             "13009": {
                 "104313": 3
@@ -2683,7 +2683,7 @@
     {
         "name": "Philosophies of Diligence",
         "description": "Talent Level-Up material.\\nIndustriousness is the foundation of the land of Geo.\\nIndustriousness is believing in one's own ability to earn a place in the land of the gods through sweat, wisdom, and power.",
-        "type": "Talent Level-Up Material",
+        "type": "Character Talent Material",
         "recipe": {
             "13010": {
                 "104314": 3
@@ -2714,7 +2714,7 @@
     {
         "name": "Teachings of Gold",
         "description": "Talent Level-Up material.\\nGold is the symbol of the land of Geo.\\nGold is the blood that flows deep within Liyue's veins, the muscle that makes up Liyue's beating heart, and the bones that make Liyue stand proud.",
-        "type": "Talent Level-Up Material",
+        "type": "Character Talent Material",
         "recipe": false,
         "mapMark": false,
         "source": [
@@ -2737,7 +2737,7 @@
     {
         "name": "Guide to Gold",
         "description": "Talent Level-Up material.\\nGold is the symbol of the land of Geo.\\nGold symbolizes conversion. This is the unspoken understanding between Liyue's mountains, land, city, and people. In Liyue, industriousness is converted into gold, and gold into prosperity.",
-        "type": "Talent Level-Up Material",
+        "type": "Character Talent Material",
         "recipe": {
             "13011": {
                 "104316": 3
@@ -2768,7 +2768,7 @@
     {
         "name": "Philosophies of Gold",
         "description": "Talent Level-Up material.\\nGold is the symbol of the land of Geo.\\nGold is the wealth of Liyue, but Liyue's true wealth is the hearts of its people that shine like gold.",
-        "type": "Talent Level-Up Material",
+        "type": "Character Talent Material",
         "recipe": {
             "13012": {
                 "104317": 3
@@ -2799,7 +2799,7 @@
     {
         "name": "Crown of Insight",
         "description": "A precious Talent Level-Up material.\\nOnce a medium for the storage and transfer of wisdom in ancient times. Now, wisdom is found in ancient texts and in profound speech. Nevertheless, this Crown of Insight must still be able to impart some transcendent power and wisdom to its bearer.",
-        "type": "Talent Level-Up Material",
+        "type": "Character Talent Material",
         "recipe": false,
         "mapMark": false,
         "source": [
@@ -2817,7 +2817,7 @@
     {
         "name": "Teachings of Transience",
         "description": "Talent Level-Up material.\\nTransience is the dream of the nation of thunder.\\nFleeting glories are the highest expression of mortal beauty, for are we mortals not like the flashing lightning itself? Like a lovely dream or blossoming spark, we shall leave a gorgeous mark on the eternal night sky.",
-        "type": "Talent Level-Up Material",
+        "type": "Character Talent Material",
         "recipe": false,
         "mapMark": false,
         "source": [
@@ -2840,7 +2840,7 @@
     {
         "name": "Guide to Transience",
         "description": "Talent Level-Up material.\\nTransience is the dream of the nation of thunder.\\nWe find the greatest joys in mortal life in transient dreams, for is life itself not like the shadow of the thunder? Pursue your dreams into the clouds if you wish, and enjoy the unexpected silence of the dim lamp-lit nights.",
-        "type": "Talent Level-Up Material",
+        "type": "Character Talent Material",
         "recipe": {
             "13013": {
                 "104320": 3
@@ -2871,7 +2871,7 @@
     {
         "name": "Philosophies of Transience",
         "description": "Talent Level-Up material.\\nTransience is the dream of the nation of thunder.\\nThe fleeting nature of this mortal world is the essence of beauty, for are our lives in this world not akin to the levin flash? Yet the might of the divine comes suddenly, and before the roar of eternity, who can stand?",
-        "type": "Talent Level-Up Material",
+        "type": "Character Talent Material",
         "recipe": {
             "13014": {
                 "104321": 3
@@ -2902,7 +2902,7 @@
     {
         "name": "Teachings of Elegance",
         "description": "Talent Level-Up material.\\nElegance is the form of the nation of thunder.\\nElegance brooks no flattery, and the elegant are ever noble. They are like the sea eagles who soar on high to contend with the resounding storms. They will not cater to philistine vulgarity, as one would not cast a flower crown into the mud, staining its dignity.",
-        "type": "Talent Level-Up Material",
+        "type": "Character Talent Material",
         "recipe": false,
         "mapMark": false,
         "source": [
@@ -2925,7 +2925,7 @@
     {
         "name": "Guide to Elegance",
         "description": "Talent Level-Up material.\\nElegance is the form of the nation of thunder.\\nElegance shuns arrogance. The elegant are ever humble, and only by discarding vanity and sloth may one see clearly — and is there not beauty and loveliness even in the basest of appearances?",
-        "type": "Talent Level-Up Material",
+        "type": "Character Talent Material",
         "recipe": {
             "13015": {
                 "104323": 3
@@ -2956,7 +2956,7 @@
     {
         "name": "Philosophies of Elegance",
         "description": "Talent Level-Up material.\\nElegance is the form of the nation of thunder.\\nElegance abhors vulgarity, and the elegant ever walk alone. Resisting base evils, unmoved by base loves, never taking refuge in base ignorance — that is how one perceives the chasm between the elegant and the contemptuous.",
-        "type": "Talent Level-Up Material",
+        "type": "Character Talent Material",
         "recipe": {
             "13016": {
                 "104324": 3
@@ -2987,7 +2987,7 @@
     {
         "name": "Teachings of Light",
         "description": "Talent Level-Up material.\\nLight is the yearning of the land of thunder.\\nThe ruler who claims to have perceived all forever aims to hoard celestial glory. But this vision that cannot be shared only leads people to long for it more fiercely, like moths diving into the flame.",
-        "type": "Talent Level-Up Material",
+        "type": "Character Talent Material",
         "recipe": false,
         "mapMark": false,
         "source": [
@@ -3010,7 +3010,7 @@
     {
         "name": "Guide to Light",
         "description": "Talent Level-Up material.\\nLight is the yearning of the land of thunder.\\nThough the sun rays themselves should be blocked by layers upon layers of clouds, there are still those in the thunder god's land who dream of piercing that wrathful sea of lightning to pursue the glory of the divine, fearing not that they shall be cruelly struck down.",
-        "type": "Talent Level-Up Material",
+        "type": "Character Talent Material",
         "recipe": {
             "13017": {
                 "104326": 3
@@ -3041,7 +3041,7 @@
     {
         "name": "Philosophies of Light",
         "description": "Talent Level-Up material.\\nLight is the yearning of the land of thunder.\\nThough they must live forever on the earth, humanity will always reach for the light. Mortals will pursue and surpass, and they will never stop. A sealed eternity may, perhaps, look magnificent, but its essence is death.",
-        "type": "Talent Level-Up Material",
+        "type": "Character Talent Material",
         "recipe": {
             "13018": {
                 "104327": 3
@@ -3327,7 +3327,7 @@
     {
         "name": "Slime Condensate",
         "description": "A thick coating found on slimes. Most commonly seen material in elemental workshops.",
-        "type": "Character Level-Up Material",
+        "type": "Character and Weapon Enhancement Material",
         "recipe": false,
         "mapMark": false,
         "source": [
@@ -3349,7 +3349,7 @@
     {
         "name": "Slime Secretions",
         "description": "Mildly purified slime secretions. Harmful to the skin. Please avoid direct exposure.",
-        "type": "Character Level-Up Material",
+        "type": "Character and Weapon Enhancement Material",
         "recipe": {
             "11001": {
                 "112002": 3
@@ -3379,7 +3379,7 @@
     {
         "name": "Slime Concentrate",
         "description": "Concentrated slime essence. When left alone, it will begin to move on its own.",
-        "type": "Character Level-Up Material",
+        "type": "Character and Weapon Enhancement Material",
         "recipe": {
             "11002": {
                 "112003": 3
@@ -3405,7 +3405,7 @@
     {
         "name": "Damaged Mask",
         "description": "A broken bone mask that once belonged to some hilichurl.\\nNow more broken than complete, it can no longer perform its primary function.",
-        "type": "Character Level-Up Material",
+        "type": "Character and Weapon Enhancement Material",
         "recipe": false,
         "mapMark": false,
         "source": [
@@ -3443,7 +3443,7 @@
     {
         "name": "Stained Mask",
         "description": "A bone mask, covered in unidentifiable stains, that emanates a mysterious odor.\\nYet such is the devotion of hilichurls to masks that they will wear it nonetheless.",
-        "type": "Character Level-Up Material",
+        "type": "Character and Weapon Enhancement Material",
         "recipe": {
             "11003": {
                 "112005": 3
@@ -3489,7 +3489,7 @@
     {
         "name": "Ominous Mask",
         "description": "A glossy bone mask with oil markings painted on it, meant to intimidate enemies.\\nNo one really knows why hilichurls are so fascinated with masks. Some say that it's because they don't want to see their own reflections in the water.",
-        "type": "Character Level-Up Material",
+        "type": "Character and Weapon Enhancement Material",
         "recipe": {
             "11004": {
                 "112006": 3
@@ -3531,7 +3531,7 @@
     {
         "name": "Divining Scroll",
         "description": "A scroll that likely relates to some kind of magic. Exudes an inexplicable but ominous warmth.",
-        "type": "Character Level-Up Material",
+        "type": "Character and Weapon Enhancement Material",
         "recipe": false,
         "mapMark": false,
         "source": [
@@ -3553,7 +3553,7 @@
     {
         "name": "Sealed Scroll",
         "description": "An old scroll lacking in detail and clarity. By following the images on it, some magical creatures can recreate a small part of its magic.",
-        "type": "Character Level-Up Material",
+        "type": "Character and Weapon Enhancement Material",
         "recipe": {
             "11005": {
                 "112008": 3
@@ -3583,7 +3583,7 @@
     {
         "name": "Forbidden Curse Scroll",
         "description": "A scroll inscribed with ancient images. It is said that few can decipher its meaning, and the few scholars that have all went mad.",
-        "type": "Character Level-Up Material",
+        "type": "Character and Weapon Enhancement Material",
         "recipe": {
             "11006": {
                 "112009": 3
@@ -3609,7 +3609,7 @@
     {
         "name": "Firm Arrowhead",
         "description": "A roughly produced arrowhead. Though unimpressive, neither it nor the bow should be underestimated, for even the bravest knight can be felled by an arrow from the rear.",
-        "type": "Character Level-Up Material",
+        "type": "Character and Weapon Enhancement Material",
         "recipe": false,
         "mapMark": false,
         "source": [
@@ -3631,7 +3631,7 @@
     {
         "name": "Sharp Arrowhead",
         "description": "A well-made arrowhead. Sharp enough to penetrate armor with the ease of a rock through the surface of water.",
-        "type": "Character Level-Up Material",
+        "type": "Character and Weapon Enhancement Material",
         "recipe": {
             "11007": {
                 "112011": 3
@@ -3661,7 +3661,7 @@
     {
         "name": "Weathered Arrowhead",
         "description": "An old arrowhead coated in blood. The arrowhead has long since lost its sharpness and thus its use as a weapon.\\nHowever, it represents the pride of a hunter and acts as both an amulet and a medal.",
-        "type": "Character Level-Up Material",
+        "type": "Character and Weapon Enhancement Material",
         "recipe": {
             "11008": {
                 "112012": 3
@@ -3687,7 +3687,7 @@
     {
         "name": "Recruit's Insignia",
         "description": "An insignia to identify the recruits. Makes one wonder about what the ones joining the Fatui's war machine were thinking.",
-        "type": "Character Level-Up Material",
+        "type": "Character and Weapon Enhancement Material",
         "recipe": false,
         "mapMark": false,
         "source": [
@@ -3717,7 +3717,7 @@
     {
         "name": "Sergeant's Insignia",
         "description": "An insignia with a different shape to distinguish the sergeants from new recruits. Perhaps there are complicated emotions behind it.",
-        "type": "Character Level-Up Material",
+        "type": "Character and Weapon Enhancement Material",
         "recipe": {
             "11021": {
                 "112032": 3
@@ -3755,7 +3755,7 @@
     {
         "name": "Lieutenant's Insignia",
         "description": "An insignia to identify officers. The Fatui possess a colossal army, so there must be something extraordinary about the ones who achieved this rank within the group.",
-        "type": "Character Level-Up Material",
+        "type": "Character and Weapon Enhancement Material",
         "recipe": {
             "11022": {
                 "112033": 3
@@ -3789,7 +3789,7 @@
     {
         "name": "Treasure Hoarder Insignia",
         "description": "A signet that proudly represents its owner's position as member of the Treasure Hoarders. The pursuit of treasure knows no bounds. That said... Is being a thief something to be proud of?",
-        "type": "Character Level-Up Material",
+        "type": "Character and Weapon Enhancement Material",
         "recipe": false,
         "mapMark": false,
         "source": [
@@ -3811,7 +3811,7 @@
     {
         "name": "Silver Raven Insignia",
         "description": "A raven insignia used by members of the Treasure Hoarders to identify each other. The Treasure Hoarders ask for no resume. Anyone who has an insatiable desire for treasure and is backed up by an equal amount of courage can become a worthy member.",
-        "type": "Character Level-Up Material",
+        "type": "Character and Weapon Enhancement Material",
         "recipe": {
             "11023": {
                 "112035": 3
@@ -3841,7 +3841,7 @@
     {
         "name": "Golden Raven Insignia",
         "description": "A raven insignia that symbolizes the pride and the guiding principle of the Treasure Hoarders. Whether it's hidden amidst the vastness of the land or in the depths of the seas, as long as there are treasures to be hunted down, the spirit of Treasure Hoarders, who will stop at nothing to acquire them, will never die.",
-        "type": "Character Level-Up Material",
+        "type": "Character and Weapon Enhancement Material",
         "recipe": {
             "11024": {
                 "112036": 3
@@ -3867,7 +3867,7 @@
     {
         "name": "Whopperflower Nectar",
         "description": "Nectar extracted from the stamen of a Whopperflower that contains trace amounts of elemental energy.\\nThe taste of the nectar has a hint of Sweet Flower in it.",
-        "type": "Character Level-Up Material",
+        "type": "Character and Weapon Enhancement Material",
         "recipe": false,
         "mapMark": false,
         "source": [
@@ -3889,7 +3889,7 @@
     {
         "name": "Shimmering Nectar",
         "description": "Nectar that is full of pure elemental energy.\\nScholars generally concur that Whopperflowers are advanced life forms among the elemental plants, but there has yet to be a satisfactory explanation regarding their predatory habits.",
-        "type": "Character Level-Up Material",
+        "type": "Character and Weapon Enhancement Material",
         "recipe": {
             "11025": {
                 "112038": 3
@@ -3919,7 +3919,7 @@
     {
         "name": "Energy Nectar",
         "description": "A thick and sticky honey that is full of energy.\\nThe Whopperflower hunts by tricking its prey, a process it uses to possibly evolve into a more powerful and pure form.",
-        "type": "Character Level-Up Material",
+        "type": "Character and Weapon Enhancement Material",
         "recipe": {
             "11026": {
                 "112039": 3
@@ -3945,7 +3945,7 @@
     {
         "name": "Old Handguard",
         "description": "A battle-worn handguard that was once mounted on an Inazuman blade.\\nFor those adept in the art of the sword, the tsuba is a defense from the edge of an opponent's blade. For beginners, it is a defense made for their own right hand, to protect it from itself.",
-        "type": "Character Level-Up Material",
+        "type": "Character and Weapon Enhancement Material",
         "recipe": false,
         "mapMark": false,
         "source": [
@@ -3967,7 +3967,7 @@
     {
         "name": "Kageuchi Handguard",
         "description": "A handguard mounded upon a sword of some distinction.\\nInazuma has a long tradition of sword-making. When making swords, smiths will often make several different weapons at once, before choosing from among them the \"shinuchi,\" or the best weapon, while the others are known as \"kageuchi.\"",
-        "type": "Character Level-Up Material",
+        "type": "Character and Weapon Enhancement Material",
         "recipe": {
             "11029": {
                 "112044": 3
@@ -3997,7 +3997,7 @@
     {
         "name": "Famed Handguard",
         "description": "An intricately-made handguard that was mounted upon a famed weapon.\\nSome believe that swords have souls and lives of their own, and thus deserve their own names. Those who love their blades will be acknowledged by them in turn. But those who see their swords as friends or even lovers should be warned that this relationship is built on death and bloodshed. The passions of those who dance with their blade amid crimson showers must surely be cooled someday by fickle steel.",
-        "type": "Character Level-Up Material",
+        "type": "Character and Weapon Enhancement Material",
         "recipe": {
             "11030": {
                 "112045": 3
@@ -4023,7 +4023,7 @@
     {
         "name": "Spectral Husk",
         "description": "An energy core that allows the Specters to float. It contains a small amount of elemental energy.\\nMost of the rest has already dispersed.",
-        "type": "Character Level-Up Material",
+        "type": "Character and Weapon Enhancement Material",
         "recipe": false,
         "mapMark": false,
         "source": [
@@ -4045,7 +4045,7 @@
     {
         "name": "Spectral Heart",
         "description": "An energy core that allows the Specters to float.\\nThese elemental life-forms have strange behavioral patterns and will periodically surge in number before disappearing.",
-        "type": "Character Level-Up Material",
+        "type": "Character and Weapon Enhancement Material",
         "recipe": {
             "11035": {
                 "112053": 3
@@ -4075,7 +4075,7 @@
     {
         "name": "Spectral Nucleus",
         "description": "A complete energy core that can sometimes be found after defeating Specters.\\nThere is a debate among those who just have to divide the world into winners and losers: what floats better — a Specter or an Anemo Slime?",
-        "type": "Character Level-Up Material",
+        "type": "Character and Weapon Enhancement Material",
         "recipe": {
             "11036": {
                 "112054": 3
@@ -4101,7 +4101,7 @@
     {
         "name": "Fungal Spores",
         "description": "A small amount of glittering spore powder left behind by Floating Fungi. Seems that a sneeze is all it takes for this powder to vanish without a trace.",
-        "type": "Character Level-Up Material",
+        "type": "Character and Weapon Enhancement Material",
         "recipe": false,
         "mapMark": false,
         "source": [
@@ -4131,7 +4131,7 @@
     {
         "name": "Luminescent Pollen",
         "description": "A small parcel of luminescent Fungal Spore powder, a common medical ingredient in the land of rainforests. Merchants usually sell them in paper packets.",
-        "type": "Character Level-Up Material",
+        "type": "Character and Weapon Enhancement Material",
         "recipe": {
             "11041": {
                 "112059": 3
@@ -4169,7 +4169,7 @@
     {
         "name": "Crystalline Cyst Dust",
         "description": "A huge lump of spore powder collected from a structurally complete spore cyst. Put it in an appropriate environment, and the area might be filled with a thriving aggregation of Floating Fungi later...",
-        "type": "Character Level-Up Material",
+        "type": "Character and Weapon Enhancement Material",
         "recipe": {
             "11042": {
                 "112060": 3
@@ -4203,7 +4203,7 @@
     {
         "name": "Faded Red Satin",
         "description": "A piece of red satin used to cover the eyes. The fabric is slightly torn.\\nMany Eremites tend to cover their eyes with textiles, but the original intention of this practice has long been lost to the sands of time.",
-        "type": "Character Level-Up Material",
+        "type": "Character and Weapon Enhancement Material",
         "recipe": false,
         "mapMark": false,
         "source": [
@@ -4225,7 +4225,7 @@
     {
         "name": "Trimmed Red Silk",
         "description": "A piece of red silk trimmed with simple decorations.\\nA seasoned warrior can detect weaknesses from their foe's eyes and thus take advantage. The Eremites have long since lost a master to serve, and now they have no one to trust but themselves. Word has it that they are more than convinced that all things betray, even their own eyes.",
-        "type": "Character Level-Up Material",
+        "type": "Character and Weapon Enhancement Material",
         "recipe": {
             "11045": {
                 "112065": 3
@@ -4255,7 +4255,7 @@
     {
         "name": "Rich Red Brocade",
         "description": "A piece of red brocade woven with golden thread.\\nThose born in the gilded desert under the sun occasionally sing a song, of which the meaning has been forgotten. They would praise the scorching sun that illuminates the earth as equally as ever and bewail the afterglow at the end of the dusk. Some unfamiliar words recur at the end of the song, which are said to be the names of ancient gods. Legend has it that when the King of the Desert was still alive, his people chose to cover their eyes as they dared not look upon him, whose brilliance was beyond that of the sun.",
-        "type": "Character Level-Up Material",
+        "type": "Character and Weapon Enhancement Material",
         "recipe": {
             "11046": {
                 "112066": 3

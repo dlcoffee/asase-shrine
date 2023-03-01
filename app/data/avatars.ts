@@ -13,6 +13,7 @@ import candace from './avatars/candace.json'
 import chongyun from './avatars/chongyun.json'
 import collei from './avatars/collei.json'
 import cyno from './avatars/cyno.json'
+import dehya from './avatars/dehya.json'
 import diluc from './avatars/diluc.json'
 import diona from './avatars/diona.json'
 import dori from './avatars/dori.json'
@@ -33,6 +34,7 @@ import kujou_sara from './avatars/kujou_sara.json'
 import kuki_shinobu from './avatars/kuki_shinobu.json'
 import layla from './avatars/layla.json'
 import lisa from './avatars/lisa.json'
+import mika from './avatars/mika.json'
 import mona from './avatars/mona.json'
 import nahida from './avatars/nahida.json'
 import nilou from './avatars/nilou.json'
@@ -98,6 +100,7 @@ export const avatarsList: Avatar[] = [
   chongyun,
   collei,
   cyno,
+  dehya,
   diluc,
   diona,
   dori,
@@ -118,6 +121,7 @@ export const avatarsList: Avatar[] = [
   kuki_shinobu,
   layla,
   lisa,
+  mika,
   mona,
   nahida,
   nilou,
