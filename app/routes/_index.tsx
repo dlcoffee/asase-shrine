@@ -70,7 +70,7 @@ export const loader = async (args: LoaderArgs) => {
   }
 
   const entries = Object.values(entryCache)
-  const farmableCache: Record<string, [ItemDisplay, Record<string, AvatarDisplay>]> = {}
+  const farmableCache: Record<string, [ItemDisplay | null, Record<string, AvatarDisplay>]> = {}
 
   for (const entry of entries) {
     const item = entry[0]
@@ -82,15 +82,7 @@ export const loader = async (args: LoaderArgs) => {
     }
 
     if (!farmableCache[key]) {
-      farmableCache[key] = [
-        {
-          _id: 'temp',
-          id: 'temp',
-          name: 'temp',
-          icon: 'temp',
-        },
-        {},
-      ] // initialize
+      farmableCache[key] = [null, {}] // initialize
     }
 
     if (item.rank === 2) {
@@ -115,14 +107,16 @@ export const loader = async (args: LoaderArgs) => {
     }
   }
 
-  const values = Object.values(farmableCache)
+  const farmable: [ItemDisplay, AvatarDisplay[]][] = []
 
-  const farmable = values.map((value) => {
+  for (const value of Object.values(farmableCache)) {
     const item = value[0]
-    const avatars = Object.values(value[1])
 
-    return [item, avatars]
-  }) as unknown as [Item, AvatarDisplay[]] // TODO: fix weird ts error
+    if (item) {
+      const avatars = Object.values(value[1])
+      farmable.push([item, avatars])
+    }
+  }
 
   return json({ farmable })
 }
@@ -142,7 +136,7 @@ const DataListItem = ({ item, avatars }: { item: ItemDisplay; avatars: AvatarDis
     <div className="flex px-2 py-3">
       <dt className="shrink-0 font-medium text-gray-500">
         <Link to={`/m/${item._id}`} key={item.id}>
-          <img src={itemImageSrc} title={item.id} alt={item.name} className="m-2 w-12 rounded-md" />
+          <img src={itemImageSrc} title={item.id} alt={item.name} className="m-1 rounded-md" width="48" height="48" />
         </Link>
       </dt>
       <dd className="mt-1">
@@ -152,7 +146,14 @@ const DataListItem = ({ item, avatars }: { item: ItemDisplay; avatars: AvatarDis
 
             return (
               <Link to={`/a/${avatar.id}`} key={avatar.id}>
-                <img src={avatarImgSrc} title={avatar.id} alt={avatar.name} className="m-2 w-12 rounded-md" />
+                <img
+                  src={avatarImgSrc}
+                  title={avatar.id}
+                  alt={avatar.name}
+                  width="48"
+                  height="48"
+                  className="m-1 rounded-md"
+                />
               </Link>
             )
           })}
@@ -172,7 +173,6 @@ export default function Index() {
 
       <DataList>
         {farmable.map(([item, avatars]) => {
-          // TODO: fix weird ts error
           return <DataListItem key={item.id} item={item} avatars={avatars} />
         })}
       </DataList>

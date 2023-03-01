@@ -139,7 +139,7 @@ export const loader = async ({ request }: LoaderArgs) => {
   return json({ avatars })
 }
 
-export default function MaterialDetails() {
+export default function TrackingIndex() {
   const data = useLoaderData<typeof loader>()
   const { avatars } = data
 
@@ -159,7 +159,14 @@ export default function MaterialDetails() {
             <div key={avatar.id} className="flex border border-emerald-700">
               <div className="shrink-0">
                 <Link to={`/a/${avatar.id}`} key={avatar.id}>
-                  <img src={avatarImgSrc} title={avatar.id} alt={avatar.name} className="m-2 w-12 rounded-md" />
+                  <img
+                    src={avatarImgSrc}
+                    title={avatar.id}
+                    alt={avatar.name}
+                    className="m-1 rounded-md"
+                    width="48"
+                    height="48"
+                  />
                 </Link>
               </div>
 
@@ -173,7 +180,9 @@ export default function MaterialDetails() {
                           src={materialSrcUrl(book)}
                           title={book.id}
                           alt={book.name}
-                          className="m-2 w-12 rounded-md"
+                          className="m-1 rounded-md"
+                          width="48"
+                          height="48"
                         />
                       </Link>
                     )}
@@ -184,7 +193,9 @@ export default function MaterialDetails() {
                           src={materialSrcUrl(crown)}
                           title={crown.id}
                           alt={crown.name}
-                          className="m-2 w-12 rounded-md"
+                          className="m-1 rounded-md"
+                          width="48"
+                          height="48"
                         />
                       </Link>
                     )}
@@ -202,7 +213,9 @@ export default function MaterialDetails() {
                               src={materialSrcUrl(item)}
                               title={item.id}
                               alt={item.name}
-                              className="m-2 w-12 rounded-md"
+                              className="m-1 rounded-md"
+                              width="48"
+                              height="48"
                             />
                           </Link>
                         </div>

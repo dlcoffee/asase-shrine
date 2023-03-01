@@ -18,7 +18,7 @@ export const loader = async ({ request }: LoaderArgs) => {
   return json({ avatars })
 }
 
-export default function MaterialDetails() {
+export default function TrackingNew() {
   const data = useLoaderData<typeof loader>()
   const navigate = useNavigate()
   const [selected, setSelected] = useState<Record<string, boolean>>({})
@@ -35,7 +35,6 @@ export default function MaterialDetails() {
           onClick={() => {
             const ids = Object.keys(selected)
             const search = ids.map((id) => `a=${id}`).join('&')
-            console.log(search)
 
             if (search.length) {
               navigate(`/t?${search}`)
@@ -61,7 +60,14 @@ export default function MaterialDetails() {
                 })
               }}
             >
-              <img src={avatarImgSrc} title={avatar.id} alt={avatar.name} className="m-2 w-12 rounded-md " />
+              <img
+                src={avatarImgSrc}
+                title={avatar.id}
+                alt={avatar.name}
+                className="m-1 rounded-md"
+                width="48"
+                height="48"
+              />
             </div>
           )
         })}
