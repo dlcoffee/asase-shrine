@@ -52,7 +52,7 @@ import sucrose from './avatars/sucrose.json'
 import tartaglia from './avatars/tartaglia.json'
 import thoma from './avatars/thoma.json'
 import tighnari from './avatars/tighnari.json'
-import traveler from './avatars/traveler.json'
+// import traveler from './avatars/traveler.json'
 import traveler_anemo from './avatars/traveler_anemo.json'
 import traveler_dendro from './avatars/traveler_dendro.json'
 import traveler_electro from './avatars/traveler_electro.json'
@@ -78,12 +78,31 @@ interface Fetter {
   native: string
 }
 
+interface Talent {
+  [id: string]: {
+    type: number
+    name: string
+    description: string
+    icon: string
+  }
+}
+
+interface Constellation {
+  [id: string]: {
+    name: string
+    description: string
+    icon: string
+  }
+}
+
 export interface Avatar {
   _id: string | number // traveler has an id string
   id: string
   name: string
   icon: string
   ascension: Record<string, number>
+  talent: Talent
+  constellation: Constellation
   fetter: Fetter
 }
 
@@ -139,7 +158,7 @@ export const avatarsList: Avatar[] = [
   tartaglia,
   thoma,
   tighnari,
-  traveler,
+  // traveler, an exception
   traveler_anemo,
   traveler_dendro,
   traveler_electro,
