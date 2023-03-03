@@ -45,7 +45,7 @@ export default function AvatarDetails() {
           return (
             <div key={talent.name}>
               <p className="my-3 font-bold">{talent.name}</p>
-              <p>{parseDescription(talent.description)}</p>
+              <p className="pb-3">{parseDescription(talent.description)}</p>
             </div>
           )
         })}
