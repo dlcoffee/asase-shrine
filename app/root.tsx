@@ -1,14 +1,18 @@
-import type { MetaFunction, LinksFunction } from '@remix-run/cloudflare'
+import { type V2_MetaFunction, type LinksFunction } from '@remix-run/cloudflare'
 import { Link, Links, LiveReload, Meta, Outlet, Scripts, ScrollRestoration } from '@remix-run/react'
 import stylesheet from '~/tailwind.css'
 
 export const links: LinksFunction = () => [{ rel: 'stylesheet', href: stylesheet }]
 
-export const meta: MetaFunction = () => ({
-  charset: 'utf-8',
-  title: 'Asase Shrine',
-  viewport: 'width=device-width,initial-scale=1',
-})
+export const meta: V2_MetaFunction = () => {
+  return [
+    {
+      charset: 'utf-8',
+      title: 'Asase Shrine',
+      viewport: 'width=device-width,initial-scale=1',
+    },
+  ]
+}
 
 export default function App() {
   return (

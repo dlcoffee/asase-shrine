@@ -1,5 +1,5 @@
 import { useLoaderData } from '@remix-run/react'
-import { type LoaderArgs, json } from '@remix-run/cloudflare'
+import { json, type LoaderArgs, type V2_MetaFunction } from '@remix-run/cloudflare'
 
 import { db } from '~/utils/db.server'
 
@@ -18,7 +18,16 @@ export const loader = async ({ params }: LoaderArgs) => {
     })
   }
 
-  return json({ avatar })
+  const isTraveler = avatar.id.includes('traveler')
+  const element = avatar.id.split('_').at(-1) || ''
+
+  const name = isTraveler ? `${avatar.name} (${titleCase(element)})` : avatar.name
+
+  return json({ avatar: { ...avatar, ...{ name } } })
+}
+
+export const meta: V2_MetaFunction<typeof loader> = ({ data }) => {
+  return [{ title: `${data.avatar.name} | Asase Shrine` }]
 }
 
 function parseDescription(description: string) {
@@ -77,14 +86,9 @@ export default function AvatarDetails() {
   const talents = Object.values(avatarTalent)
   const constellations = Object.values(avatarConstellation)
 
-  const isTraveler = avatar.id.includes('traveler')
-  const element = avatar.id.split('_').at(-1) || ''
-
-  const name = isTraveler ? `${avatar.name} (${titleCase(element)})` : avatar.name
-
   return (
     <div className="mx-auto max-w-lg px-4">
-      <h1 className="pt-4 pb-2 text-3xl font-bold underline">{name}</h1>
+      <h1 className="pt-4 pb-2 text-3xl font-bold underline">{avatar.name}</h1>
       <p className="mb-3">{avatar.fetter.detail}</p>
 
       <h2 className="mb-3 text-xl font-bold tracking-tight">Talents</h2>
