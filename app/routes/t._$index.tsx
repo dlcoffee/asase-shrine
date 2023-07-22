@@ -115,7 +115,7 @@ export const loader = async ({ request }: LoaderArgs) => {
       const today = formatInTimeZone(new Date(), 'America/New_York', 'EEEE').toLowerCase() as Day
 
       const { source } = teachingBook
-      const domains = source.filter((source): source is SourceDomain => source.type === 'domain')
+      const domains = source?.filter((source): source is SourceDomain => source.type === 'domain') || []
 
       for (const domain of domains) {
         const { days } = domain

@@ -31,7 +31,7 @@ export default function MaterialDetails() {
 
       <p className="mt-1 max-w-2xl text-sm text-gray-500">Sources</p>
       <ul>
-        {material.source.map((source) => {
+        {material.source?.map((source) => {
           return <li key={source.name}>{source.name}</li>
         })}
       </ul>
