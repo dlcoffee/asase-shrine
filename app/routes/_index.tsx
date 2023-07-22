@@ -50,12 +50,12 @@ export const loader = async (args: LoaderArgs) => {
     // rank 4: philosophies
     // rank 5: crown
     const talentMaterials = items.filter((item) => {
-      return item.type.includes('Character Talent Material') || item.type.includes('Talent Level-Up Material')
+      return item.type.includes('Character Talent Material')
     })
 
     for (const material of talentMaterials) {
       const { _id, source } = material
-      const domains = source.filter((source): source is SourceDomain => source.type === 'domain')
+      const domains = source?.length ? source.filter((source): source is SourceDomain => source.type === 'domain') : []
 
       for (const domain of domains) {
         const { days } = domain

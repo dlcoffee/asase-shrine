@@ -156,6 +156,14 @@
         ]
     },
     "other": {
+        "costume": [
+            {
+                "name": "Breezy Ode",
+                "description": "Venti's outfit. The clothes of a carefree bard.",
+                "isDefault": true
+            }
+        ],
+        "furnitureId": 368111,
         "nameCard": {
             "id": 210007,
             "name": "Venti: Azure Sky",
@@ -915,10 +923,10 @@
                     "costItems": null,
                     "coinCost": null,
                     "description": [
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:P}",
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param2:F1}s",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:P}",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param2:F1}s",
                         "Hold DMG|{param3:P}",
-                        "CD (hold)|{param4:F1}s",
+                        "Hold CD|{param4:F1}s",
                         "",
                         "",
                         "",
@@ -963,10 +971,10 @@
                     },
                     "coinCost": 12500,
                     "description": [
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:P}",
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param2:F1}s",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:P}",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param2:F1}s",
                         "Hold DMG|{param3:P}",
-                        "CD (hold)|{param4:F1}s",
+                        "Hold CD|{param4:F1}s",
                         "",
                         "",
                         "",
@@ -1011,10 +1019,10 @@
                     },
                     "coinCost": 17500,
                     "description": [
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:P}",
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param2:F1}s",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:P}",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param2:F1}s",
                         "Hold DMG|{param3:P}",
-                        "CD (hold)|{param4:F1}s",
+                        "Hold CD|{param4:F1}s",
                         "",
                         "",
                         "",
@@ -1059,10 +1067,10 @@
                     },
                     "coinCost": 25000,
                     "description": [
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:P}",
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param2:F1}s",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:P}",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param2:F1}s",
                         "Hold DMG|{param3:P}",
-                        "CD (hold)|{param4:F1}s",
+                        "Hold CD|{param4:F1}s",
                         "",
                         "",
                         "",
@@ -1107,10 +1115,10 @@
                     },
                     "coinCost": 30000,
                     "description": [
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:P}",
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param2:F1}s",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:P}",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param2:F1}s",
                         "Hold DMG|{param3:P}",
-                        "CD (hold)|{param4:F1}s",
+                        "Hold CD|{param4:F1}s",
                         "",
                         "",
                         "",
@@ -1155,10 +1163,10 @@
                     },
                     "coinCost": 37500,
                     "description": [
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:P}",
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param2:F1}s",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:P}",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param2:F1}s",
                         "Hold DMG|{param3:P}",
-                        "CD (hold)|{param4:F1}s",
+                        "Hold CD|{param4:F1}s",
                         "",
                         "",
                         "",
@@ -1204,10 +1212,10 @@
                     },
                     "coinCost": 120000,
                     "description": [
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:P}",
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param2:F1}s",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:P}",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param2:F1}s",
                         "Hold DMG|{param3:P}",
-                        "CD (hold)|{param4:F1}s",
+                        "Hold CD|{param4:F1}s",
                         "",
                         "",
                         "",
@@ -1253,10 +1261,10 @@
                     },
                     "coinCost": 260000,
                     "description": [
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:P}",
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param2:F1}s",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:P}",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param2:F1}s",
                         "Hold DMG|{param3:P}",
-                        "CD (hold)|{param4:F1}s",
+                        "Hold CD|{param4:F1}s",
                         "",
                         "",
                         "",
@@ -1302,10 +1310,10 @@
                     },
                     "coinCost": 450000,
                     "description": [
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:P}",
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param2:F1}s",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:P}",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param2:F1}s",
                         "Hold DMG|{param3:P}",
-                        "CD (hold)|{param4:F1}s",
+                        "Hold CD|{param4:F1}s",
                         "",
                         "",
                         "",
@@ -1352,10 +1360,10 @@
                     },
                     "coinCost": 700000,
                     "description": [
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:P}",
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param2:F1}s",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:P}",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param2:F1}s",
                         "Hold DMG|{param3:P}",
-                        "CD (hold)|{param4:F1}s",
+                        "Hold CD|{param4:F1}s",
                         "",
                         "",
                         "",
@@ -1397,10 +1405,10 @@
                     "costItems": null,
                     "coinCost": null,
                     "description": [
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:P}",
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param2:F1}s",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:P}",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param2:F1}s",
                         "Hold DMG|{param3:P}",
-                        "CD (hold)|{param4:F1}s",
+                        "Hold CD|{param4:F1}s",
                         "",
                         "",
                         "",
@@ -1442,10 +1450,10 @@
                     "costItems": null,
                     "coinCost": null,
                     "description": [
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:P}",
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param2:F1}s",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:P}",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param2:F1}s",
                         "Hold DMG|{param3:P}",
-                        "CD (hold)|{param4:F1}s",
+                        "Hold CD|{param4:F1}s",
                         "",
                         "",
                         "",
@@ -1487,10 +1495,10 @@
                     "costItems": null,
                     "coinCost": null,
                     "description": [
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:P}",
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param2:F1}s",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:P}",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param2:F1}s",
                         "Hold DMG|{param3:P}",
-                        "CD (hold)|{param4:F1}s",
+                        "Hold CD|{param4:F1}s",
                         "",
                         "",
                         "",
@@ -1532,10 +1540,10 @@
                     "costItems": null,
                     "coinCost": null,
                     "description": [
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:P}",
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param2:F1}s",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:P}",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param2:F1}s",
                         "Hold DMG|{param3:P}",
-                        "CD (hold)|{param4:F1}s",
+                        "Hold CD|{param4:F1}s",
                         "",
                         "",
                         "",
@@ -1577,10 +1585,10 @@
                     "costItems": null,
                     "coinCost": null,
                     "description": [
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:P}",
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param2:F1}s",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:P}",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param2:F1}s",
                         "Hold DMG|{param3:P}",
-                        "CD (hold)|{param4:F1}s",
+                        "Hold CD|{param4:F1}s",
                         "",
                         "",
                         "",
@@ -2361,31 +2369,49 @@
         "0": {
             "name": "Splitting Gales",
             "description": "Fires 2 additional arrows per <color=#FFD780FF>Aimed Shot</color>, each dealing 33% of the original arrow's DMG.",
+            "extraData": null,
             "icon": "UI_Talent_S_Venti_01"
         },
         "1": {
             "name": "Breeze of Reminiscence",
             "description": "<color=#FFD780FF>Skyward Sonnet</color> decreases opponents' <color=#80FFD7FF>Anemo RES</color> and Physical RES by 12% for 10s.\\nOpponents launched by <color=#FFD780FF>Skyward Sonnet</color> suffer an additional 12% <color=#80FFD7FF>Anemo RES</color> and Physical RES decrease while airborne.",
+            "extraData": null,
             "icon": "UI_Talent_S_Venti_02"
         },
         "2": {
             "name": "Ode to Thousand Winds",
             "description": "Increases the Level of <color=#FFD780FF>Wind's Grand Ode</color> by 3.\\nMaximum upgrade level is 15.",
+            "extraData": {
+                "addTalentExtraLevel": {
+                    "talentType": "AvatarSkill",
+                    "talentIndex": 9,
+                    "extraLevel": 3
+                }
+            },
             "icon": "UI_Talent_U_Venti_02"
         },
         "3": {
             "name": "Hurricane of Freedom",
             "description": "When Venti picks up an Elemental Orb or Particle, he receives a 25% <color=#80FFD7FF>Anemo DMG Bonus</color> for 10s.",
+            "extraData": null,
             "icon": "UI_Talent_S_Venti_03"
         },
         "4": {
             "name": "Concerto dal Cielo",
             "description": "Increases the Level of <color=#FFD780FF>Skyward Sonnet</color> by 3.\\nMaximum upgrade level is 15.",
+            "extraData": {
+                "addTalentExtraLevel": {
+                    "talentType": "AvatarSkill",
+                    "talentIndex": 2,
+                    "extraLevel": 3
+                }
+            },
             "icon": "UI_Talent_U_Venti_01"
         },
         "5": {
             "name": "Storm of Defiance",
             "description": "Targets who take DMG from <color=#FFD780FF>Wind's Grand Ode</color> have their <color=#80FFD7FF>Anemo RES</color> decreased by 20%.\\nIf an Elemental Absorption occurred, then their RES towards the corresponding Element is also decreased by 20%.",
+            "extraData": null,
             "icon": "UI_Talent_S_Venti_04"
         }
     },

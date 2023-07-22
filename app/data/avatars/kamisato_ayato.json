@@ -156,6 +156,14 @@
         ]
     },
     "other": {
+        "costume": [
+            {
+                "name": "Silk Splendor",
+                "description": "Kamisato Ayato's outfit. The kimono itself is made using uncommon fabrics, and its patterning recalls a mountain spring, giving off a feeling of calm and stability that matches its wearer.",
+                "isDefault": true
+            }
+        ],
+        "furnitureId": 368148,
         "nameCard": {
             "id": 210114,
             "name": "Kamisato Ayato: Ripple",
@@ -2361,31 +2369,49 @@
         "0": {
             "name": "Kyouka Fuushi",
             "description": "<color=#FFD780FF>Shunsuiken</color> DMG is increased by 40% against opponents with 50% HP or less.",
+            "extraData": null,
             "icon": "UI_Talent_S_Ayato_01"
         },
         "1": {
             "name": "World Source",
             "description": "<color=#FFD780FF>Namisen</color>'s maximum stack count is increased to 5. When Kamisato Ayato has at least 3 Namisen stacks, his Max HP is increased by 50%.",
+            "extraData": null,
             "icon": "UI_Talent_S_Ayato_02"
         },
         "2": {
             "name": "To Admire the Flowers",
             "description": "Increases the Level of <color=#FFD780FF>Kamisato Art: Kyouka</color> by 3.\\nMaximum upgrade level is 15.",
+            "extraData": {
+                "addTalentExtraLevel": {
+                    "talentType": "AvatarSkill",
+                    "talentIndex": 2,
+                    "extraLevel": 3
+                }
+            },
             "icon": "UI_Talent_U_Ayato_02"
         },
         "3": {
             "name": "Endless Flow",
             "description": "After using <color=#FFD780FF>Kamisato Art: Suiyuu</color>, all nearby party members will have 15% increased Normal Attack SPD for 15s.",
+            "extraData": null,
             "icon": "UI_Talent_S_Ayato_03"
         },
         "4": {
             "name": "Bansui Ichiro",
             "description": "Increases the Level of <color=#FFD780FF>Kamisato Art: Suiyuu</color> by 3.\\nMaximum upgrade level is 15.",
+            "extraData": {
+                "addTalentExtraLevel": {
+                    "talentType": "AvatarSkill",
+                    "talentIndex": 9,
+                    "extraLevel": 3
+                }
+            },
             "icon": "UI_Talent_U_Ayato_01"
         },
         "5": {
             "name": "Boundless Origin",
             "description": "After using <color=#FFD780FF>Kamisato Art: Kyouka</color>, Ayato's next Shunsuiken attack will create 2 extra Shunsuiken strikes when they hit opponents, each one dealing 450% of Ayato's ATK as DMG.\\nBoth these Shunsuiken attacks will not be affected by Namisen.",
+            "extraData": null,
             "icon": "UI_Talent_S_Ayato_04"
         }
     },

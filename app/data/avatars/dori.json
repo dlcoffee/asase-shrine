@@ -156,6 +156,14 @@
         ]
     },
     "other": {
+        "costume": [
+            {
+                "name": "I Love Mora",
+                "description": "Dori's outfit. This outfit almost begs to be further adorned with gems and precious metals, loudly announcing its wearer's love of wealth to the world. And they say that this is the merchant Dori's casual wear... So does this mean that she has clothes even more expensive than this one!?",
+                "isDefault": true
+            }
+        ],
+        "furnitureId": 368154,
         "nameCard": {
             "id": 210126,
             "name": "Dori: Jinni",
@@ -2361,31 +2369,49 @@
         "0": {
             "name": "Additional Investment",
             "description": "The number of After-Sales Service Rounds created by <color=#FFD780FF>Troubleshooter Shots</color> is increased by 1.",
+            "extraData": null,
             "icon": "UI_Talent_S_Dori_01"
         },
         "1": {
             "name": "Special Franchise",
             "description": "When you are in combat and the <color=#FFD780FF>Jinni</color> heals the character it is connected to, it will fire a Jinni Toop from that character's position that deals 50% of Dori's ATK DMG.",
+            "extraData": null,
             "icon": "UI_Talent_S_Dori_02"
         },
         "2": {
             "name": "Wonders Never Cease",
             "description": "Increases the Level of <color=#FFD780FF>Alcazarzaray's Exactitude</color> by 3.\\nMaximum upgrade level is 15.",
+            "extraData": {
+                "addTalentExtraLevel": {
+                    "talentType": "AvatarSkill",
+                    "talentIndex": 9,
+                    "extraLevel": 3
+                }
+            },
             "icon": "UI_Talent_U_Dori_02"
         },
         "3": {
             "name": "Discretionary Supplement",
             "description": "The character connected to the <color=#FFD780FF>Jinni</color> will obtain the following buffs based on their current HP and Energy:\\n·When their HP is lower than 50%, they gain 50% Incoming Healing Bonus.\\n·When their Energy is less than 50%, they gain 30% Energy Recharge.",
+            "extraData": null,
             "icon": "UI_Talent_S_Dori_03"
         },
         "4": {
             "name": "Value for Mora",
             "description": "Increases the Level of <color=#FFD780FF>Spirit-Warding Lamp: Troubleshooter Cannon</color> by 3.\\nMaximum upgrade level is 15.",
+            "extraData": {
+                "addTalentExtraLevel": {
+                    "talentType": "AvatarSkill",
+                    "talentIndex": 2,
+                    "extraLevel": 3
+                }
+            },
             "icon": "UI_Talent_U_Dori_01"
         },
         "5": {
             "name": "Sprinkling Weight",
             "description": "Dori gains the following effects for 3s after using <color=#FFD780FF>Spirit-Warding Lamp: Troubleshooter Cannon</color>:\\n·<color=#FFACFFFF>Electro Infusion</color>.\\n·When Normal Attacks hit opponents, all nearby party members will heal HP equivalent to 4% of Dori's Max HP. This type of healing can occur once every 0.1s.",
+            "extraData": null,
             "icon": "UI_Talent_S_Dori_04"
         }
     },

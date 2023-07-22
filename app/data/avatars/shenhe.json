@@ -156,10 +156,18 @@
         ]
     },
     "other": {
+        "costume": [
+            {
+                "name": "The World's Shackles",
+                "description": "Shenhe's outfit. These elegant garments have accompanied her through long years of training. The red ropes that surround her body are fetters and wards simultaneously.",
+                "isDefault": true
+            }
+        ],
+        "furnitureId": 368145,
         "nameCard": {
             "id": 210107,
             "name": "Shenhe: Comb",
-            "description": "Namecard style.\\nThe early onset of white hair is often correlated to one's sorrows. Since \"comb\" and \"scatter\" are similarly read in Liyue's language, they believe that combing one's hair is the same as scattering one's misfortunes",
+            "description": "Namecard style.\\nThe early onset of white hair is often correlated to one's sorrows. Since \"comb\" and \"scatter\" are similarly read in Liyue's language, they believe that combing one's hair is the same as scattering one's misfortunes.",
             "icon": "UI_NameCardIcon_Shenhe"
         },
         "specialFood": {
@@ -920,7 +928,7 @@
                         "DMG Bonus|{param3:F1P} ATK",
                         "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}/Hold Duration|{param4:F1}s/{param5:F1}s",
                         "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}/Hold Trigger Quota|{param6:I}/{param7:I}",
-                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Click}{LAYOUT_PS#Press} CD|{param8:F1}s",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param8:F1}s",
                         "Hold CD|{param9:F1}s",
                         "",
                         "",
@@ -968,7 +976,7 @@
                         "DMG Bonus|{param3:F1P} ATK",
                         "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}/Hold Duration|{param4:F1}s/{param5:F1}s",
                         "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}/Hold Trigger Quota|{param6:I}/{param7:I}",
-                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Click}{LAYOUT_PS#Press} CD|{param8:F1}s",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param8:F1}s",
                         "Hold CD|{param9:F1}s",
                         "",
                         "",
@@ -1016,7 +1024,7 @@
                         "DMG Bonus|{param3:F1P} ATK",
                         "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}/Hold Duration|{param4:F1}s/{param5:F1}s",
                         "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}/Hold Trigger Quota|{param6:I}/{param7:I}",
-                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Click}{LAYOUT_PS#Press} CD|{param8:F1}s",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param8:F1}s",
                         "Hold CD|{param9:F1}s",
                         "",
                         "",
@@ -1064,7 +1072,7 @@
                         "DMG Bonus|{param3:F1P} ATK",
                         "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}/Hold Duration|{param4:F1}s/{param5:F1}s",
                         "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}/Hold Trigger Quota|{param6:I}/{param7:I}",
-                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Click}{LAYOUT_PS#Press} CD|{param8:F1}s",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param8:F1}s",
                         "Hold CD|{param9:F1}s",
                         "",
                         "",
@@ -1112,7 +1120,7 @@
                         "DMG Bonus|{param3:F1P} ATK",
                         "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}/Hold Duration|{param4:F1}s/{param5:F1}s",
                         "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}/Hold Trigger Quota|{param6:I}/{param7:I}",
-                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Click}{LAYOUT_PS#Press} CD|{param8:F1}s",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param8:F1}s",
                         "Hold CD|{param9:F1}s",
                         "",
                         "",
@@ -1160,7 +1168,7 @@
                         "DMG Bonus|{param3:F1P} ATK",
                         "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}/Hold Duration|{param4:F1}s/{param5:F1}s",
                         "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}/Hold Trigger Quota|{param6:I}/{param7:I}",
-                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Click}{LAYOUT_PS#Press} CD|{param8:F1}s",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param8:F1}s",
                         "Hold CD|{param9:F1}s",
                         "",
                         "",
@@ -1209,7 +1217,7 @@
                         "DMG Bonus|{param3:F1P} ATK",
                         "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}/Hold Duration|{param4:F1}s/{param5:F1}s",
                         "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}/Hold Trigger Quota|{param6:I}/{param7:I}",
-                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Click}{LAYOUT_PS#Press} CD|{param8:F1}s",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param8:F1}s",
                         "Hold CD|{param9:F1}s",
                         "",
                         "",
@@ -1258,7 +1266,7 @@
                         "DMG Bonus|{param3:F1P} ATK",
                         "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}/Hold Duration|{param4:F1}s/{param5:F1}s",
                         "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}/Hold Trigger Quota|{param6:I}/{param7:I}",
-                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Click}{LAYOUT_PS#Press} CD|{param8:F1}s",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param8:F1}s",
                         "Hold CD|{param9:F1}s",
                         "",
                         "",
@@ -1307,7 +1315,7 @@
                         "DMG Bonus|{param3:F1P} ATK",
                         "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}/Hold Duration|{param4:F1}s/{param5:F1}s",
                         "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}/Hold Trigger Quota|{param6:I}/{param7:I}",
-                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Click}{LAYOUT_PS#Press} CD|{param8:F1}s",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param8:F1}s",
                         "Hold CD|{param9:F1}s",
                         "",
                         "",
@@ -1357,7 +1365,7 @@
                         "DMG Bonus|{param3:F1P} ATK",
                         "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}/Hold Duration|{param4:F1}s/{param5:F1}s",
                         "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}/Hold Trigger Quota|{param6:I}/{param7:I}",
-                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Click}{LAYOUT_PS#Press} CD|{param8:F1}s",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param8:F1}s",
                         "Hold CD|{param9:F1}s",
                         "",
                         "",
@@ -1402,7 +1410,7 @@
                         "DMG Bonus|{param3:F1P} ATK",
                         "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}/Hold Duration|{param4:F1}s/{param5:F1}s",
                         "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}/Hold Trigger Quota|{param6:I}/{param7:I}",
-                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Click}{LAYOUT_PS#Press} CD|{param8:F1}s",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param8:F1}s",
                         "Hold CD|{param9:F1}s",
                         "",
                         "",
@@ -1447,7 +1455,7 @@
                         "DMG Bonus|{param3:F1P} ATK",
                         "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}/Hold Duration|{param4:F1}s/{param5:F1}s",
                         "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}/Hold Trigger Quota|{param6:I}/{param7:I}",
-                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Click}{LAYOUT_PS#Press} CD|{param8:F1}s",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param8:F1}s",
                         "Hold CD|{param9:F1}s",
                         "",
                         "",
@@ -1492,7 +1500,7 @@
                         "DMG Bonus|{param3:F1P} ATK",
                         "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}/Hold Duration|{param4:F1}s/{param5:F1}s",
                         "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}/Hold Trigger Quota|{param6:I}/{param7:I}",
-                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Click}{LAYOUT_PS#Press} CD|{param8:F1}s",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param8:F1}s",
                         "Hold CD|{param9:F1}s",
                         "",
                         "",
@@ -1537,7 +1545,7 @@
                         "DMG Bonus|{param3:F1P} ATK",
                         "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}/Hold Duration|{param4:F1}s/{param5:F1}s",
                         "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}/Hold Trigger Quota|{param6:I}/{param7:I}",
-                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Click}{LAYOUT_PS#Press} CD|{param8:F1}s",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param8:F1}s",
                         "Hold CD|{param9:F1}s",
                         "",
                         "",
@@ -1582,7 +1590,7 @@
                         "DMG Bonus|{param3:F1P} ATK",
                         "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}/Hold Duration|{param4:F1}s/{param5:F1}s",
                         "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}/Hold Trigger Quota|{param6:I}/{param7:I}",
-                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Click}{LAYOUT_PS#Press} CD|{param8:F1}s",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param8:F1}s",
                         "Hold CD|{param9:F1}s",
                         "",
                         "",
@@ -2361,31 +2369,49 @@
         "0": {
             "name": "Clarity of Heart",
             "description": "<color=#FFD780FF>Spring Spirit Summoning</color> can be used 1 more time.",
+            "extraData": null,
             "icon": "UI_Talent_S_Shenhe_02"
         },
         "1": {
             "name": "Centered Spirit",
             "description": "<color=#FFD780FF>Divine Maiden's Deliverance</color> lasts for 6 seconds longer. Active characters within the skill's field deal 15% increased <color=#99FFFFFF>Cryo</color> CRIT DMG.",
+            "extraData": null,
             "icon": "UI_Talent_S_Shenhe_01"
         },
         "2": {
             "name": "Seclusion",
             "description": "Increases the Level of <color=#FFD780FF>Spring Spirit Summoning</color> by 3.\\nMaximum upgrade level is 15.",
+            "extraData": {
+                "addTalentExtraLevel": {
+                    "talentType": "AvatarSkill",
+                    "talentIndex": 2,
+                    "extraLevel": 3
+                }
+            },
             "icon": "UI_Talent_U_Shenhe_01"
         },
         "3": {
             "name": "Insight",
             "description": "When characters under the effect of <color=#FFD780FF>Icy Quill</color> applied by Shenhe trigger its DMG Bonus effects, Shenhe will gain a Skyfrost Mantra stack:\\n· When Shenhe uses <color=#FFD780FF>Spring Spirit Summoning</color>, she will consume all stacks of Skyfrost Mantra, increasing the DMG of that Spring Spirit Summoning by 5% for each stack consumed.\\n· Max 50 stacks. Stacks last for 60s.",
+            "extraData": null,
             "icon": "UI_Talent_S_Shenhe_03"
         },
         "4": {
             "name": "Divine Attainment",
             "description": "Increases the Level of <color=#FFD780FF>Divine Maiden's Deliverance</color> by 3.\\nMaximum upgrade level is 15.",
+            "extraData": {
+                "addTalentExtraLevel": {
+                    "talentType": "AvatarSkill",
+                    "talentIndex": 9,
+                    "extraLevel": 3
+                }
+            },
             "icon": "UI_Talent_U_Shenhe_02"
         },
         "5": {
             "name": "Mystical Abandon",
             "description": "When characters trigger <color=#FFD780FF>Icy Quill</color>'s effects using Normal and Charged Attack DMG, it does not count toward the Trigger Quota.",
+            "extraData": null,
             "icon": "UI_Talent_S_Shenhe_04"
         }
     },

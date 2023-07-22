@@ -156,6 +156,14 @@
         ]
     },
     "other": {
+        "costume": [
+            {
+                "name": "The Lioness and the Blazing Sun",
+                "description": "Dehya's outfit. It is said when the lion roars, even the scorching sun will quiver. Though Dehya is long past the age of believing in such stories, it doesn't stop her from gazing upon the sun sinking below the sands, reminiscing about the tales and storytellers of her childhood.",
+                "isDefault": true
+            }
+        ],
+        "furnitureId": 368164,
         "nameCard": {
             "id": 210152,
             "name": "Dehya: Purifying Flame",
@@ -2361,31 +2369,49 @@
         "0": {
             "name": "The Flame Incandescent",
             "description": "Dehya's Max HP is increased by 20%, and she deals bonus DMG based on her Max HP when using the following attacks:\\n·<color=#FFD780FF>Molten Inferno</color>'s DMG will be increased by 3.6% of her Max HP.\\n·<color=#FFD780FF>Leonine Bite</color>'s DMG will be increased by 6% of her Max HP.",
+            "extraData": null,
             "icon": "UI_Talent_S_Dehya_01"
         },
         "1": {
             "name": "The Sand-Blades Glittering",
             "description": "When Dehya uses <color=#FFD780FF>Molten Inferno: Ranging Flame</color>, the duration of the recreated Fiery Sanctum field will be increased by 6s.\\nAdditionally, when a Fiery Sanctum exists on the field, DMG dealt by its next coordinated attack will be increased by 50% when active character(s) within the Fiery Sanctum field are attacked.",
+            "extraData": null,
             "icon": "UI_Talent_S_Dehya_02"
         },
         "2": {
             "name": "A Rage Swift as Fire",
             "description": "Increases the Level of <color=#FFD780FF>Leonine Bite</color> by 3.\\nMaximum upgrade level is 15.",
+            "extraData": {
+                "addTalentExtraLevel": {
+                    "talentType": "AvatarSkill",
+                    "talentIndex": 9,
+                    "extraLevel": 3
+                }
+            },
             "icon": "UI_Talent_U_Dehya_01"
         },
         "3": {
             "name": "An Oath Abiding",
             "description": "When Flame-Mane's Fist and Incineration Drive attacks unleashed during <color=#FFD780FF>Leonine Bite</color> hit opponents, they will restore 1.5 Energy for Dehya and 2.5% of her Max HP. This effect can be triggered once every 0.2s.",
+            "extraData": null,
             "icon": "UI_Talent_S_Dehya_03"
         },
         "4": {
             "name": "The Alpha Unleashed",
             "description": "Increases the Level of <color=#FFD780FF>Molten Inferno</color> by 3.\\nMaximum upgrade level is 15.",
+            "extraData": {
+                "addTalentExtraLevel": {
+                    "talentType": "AvatarSkill",
+                    "talentIndex": 2,
+                    "extraLevel": 3
+                }
+            },
             "icon": "UI_Talent_U_Dehya_02"
         },
         "5": {
             "name": "The Burning Claws Cleaving",
             "description": "The CRIT Rate of <color=#FFD780FF>Leonine Bite</color> is increased by 10%.\\nAdditionally, after a Flame-Mane's Fist attack hits an opponent and deals CRIT Hits during a single Blazing Lioness state, it will cause the CRIT DMG of Leonine Bite to increase by 15% for the rest of Blazing Lioness's duration and extend that duration by 0.5s. This effect can be triggered every 0.2s. The duration can be extended for a maximum of 2s and CRIT DMG can be increased by a maximum of 60% this way.",
+            "extraData": null,
             "icon": "UI_Talent_S_Dehya_04"
         }
     },

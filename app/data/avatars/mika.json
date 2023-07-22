@@ -156,6 +156,14 @@
         ]
     },
     "other": {
+        "costume": [
+            {
+                "name": "Soaring Beacon",
+                "description": "Mika's outfit. This knightly outfit, specially designed for field work, is made using a vast multitude of flexible but tough materials, adding plenty of places for the wearer to store his weapons and tools. Dressed and prepared, fortune is certain to stride alongside the wearer of this outfit with each step into the unknown.",
+                "isDefault": true
+            }
+        ],
+        "furnitureId": 368165,
         "nameCard": {
             "id": 210153,
             "name": "Mika: Index",
@@ -223,7 +231,7 @@
                         0.27615,
                         0.70874,
                         1.12746,
-                        20,
+                        25,
                         0.63932,
                         1.27838,
                         1.59676,
@@ -271,7 +279,7 @@
                         0.29862,
                         0.76643,
                         1.21923,
-                        20,
+                        25,
                         0.69136,
                         1.38243,
                         1.72673,
@@ -319,7 +327,7 @@
                         0.3211,
                         0.82412,
                         1.311,
-                        20,
+                        25,
                         0.7434,
                         1.48649,
                         1.8567,
@@ -367,7 +375,7 @@
                         0.35321,
                         0.90653,
                         1.4421,
-                        20,
+                        25,
                         0.81774,
                         1.63513,
                         2.04237,
@@ -415,7 +423,7 @@
                         0.37569,
                         0.96422,
                         1.53387,
-                        20,
+                        25,
                         0.86978,
                         1.73919,
                         2.17234,
@@ -463,7 +471,7 @@
                         0.40137,
                         1.03015,
                         1.63875,
-                        20,
+                        25,
                         0.92925,
                         1.85811,
                         2.32087,
@@ -512,7 +520,7 @@
                         0.4367,
                         1.1208,
                         1.78296,
-                        20,
+                        25,
                         1.01102,
                         2.02162,
                         2.52511,
@@ -561,7 +569,7 @@
                         0.47202,
                         1.21146,
                         1.92717,
-                        20,
+                        25,
                         1.0928,
                         2.18513,
                         2.72935,
@@ -610,7 +618,7 @@
                         0.50734,
                         1.30211,
                         2.07138,
-                        20,
+                        25,
                         1.17457,
                         2.34865,
                         2.93359,
@@ -660,7 +668,7 @@
                         0.54587,
                         1.401,
                         2.2287,
-                        20,
+                        25,
                         1.26378,
                         2.52702,
                         3.15639,
@@ -705,7 +713,7 @@
                         0.5844,
                         1.4999,
                         2.38602,
-                        20,
+                        25,
                         1.35299,
                         2.7054,
                         3.37919,
@@ -750,7 +758,7 @@
                         0.62293,
                         1.59879,
                         2.54334,
-                        20,
+                        25,
                         1.4422,
                         2.88378,
                         3.602,
@@ -795,7 +803,7 @@
                         0.66147,
                         1.69769,
                         2.70066,
-                        20,
+                        25,
                         1.5314,
                         3.06216,
                         3.8248,
@@ -840,7 +848,7 @@
                         0.7,
                         1.79658,
                         2.85798,
-                        20,
+                        25,
                         1.62061,
                         3.24054,
                         4.04761,
@@ -885,7 +893,7 @@
                         0.73853,
                         1.89548,
                         3.0153,
-                        20,
+                        25,
                         1.70982,
                         3.41892,
                         4.27041,
@@ -2361,31 +2369,49 @@
         "0": {
             "name": "Factor Confluence",
             "description": "The Soulwind state of <color=#FFD780FF>Starfrost Swirl</color> can decrease the healing interval between instances caused by <color=#FFD780FF>Skyfeather Song</color>'s Eagleplume state. This decrease percentage is equal to the ATK SPD increase provided by Soulwind.",
+            "extraData": null,
             "icon": "UI_Talent_S_Mika_01"
         },
         "1": {
             "name": "Companion's Ingress",
             "description": "When <color=#FFD780FF>Starfrost Swirl</color>'s Flowfrost Arrow first hits an opponent, or its Rimestar Flare hits an opponent, 1 Detector stack from Passive Talent \"Suppressive Barrage\" will be generated.\\nYou must have unlocked the Passive Talent \"Suppressive Barrage\" first.",
+            "extraData": null,
             "icon": "UI_Talent_S_Mika_02"
         },
         "2": {
             "name": "Reconnaissance Experience",
             "description": "Increases the Level of <color=#FFD780FF>Skyfeather Song</color> by 3.\\nMaximum upgrade level is 15.",
+            "extraData": {
+                "addTalentExtraLevel": {
+                    "talentType": "AvatarSkill",
+                    "talentIndex": 9,
+                    "extraLevel": 3
+                }
+            },
             "icon": "UI_Talent_U_Mika_01"
         },
         "3": {
             "name": "Sunfrost Encomium",
             "description": "When Mika's own <color=#FFD780FF>Skyfeather Song</color>'s Eagleplume state heals party members, this will restore 3 Energy to Mika. This form of Energy restoration can occur 5 times during the Eagleplume state created by 1 use of Skyfeather Song.",
+            "extraData": null,
             "icon": "UI_Talent_S_Mika_03"
         },
         "4": {
             "name": "Signal Arrow",
             "description": "Increases the Level of <color=#FFD780FF>Starfrost Swirl</color> by 3.\\nMaximum upgrade level is 15.",
+            "extraData": {
+                "addTalentExtraLevel": {
+                    "talentType": "AvatarSkill",
+                    "talentIndex": 2,
+                    "extraLevel": 3
+                }
+            },
             "icon": "UI_Talent_U_Mika_02"
         },
         "5": {
             "name": "Companion's Counsel",
             "description": "The maximum number of Detector stacks that <color=#FFD780FF>Starfrost Swirl</color>'s Soulwind can gain is increased by 1. You need to have unlocked the Passive Talent \"Suppressive Barrage\" first.\\nAdditionally, active characters affected by Soulwind will deal 60% more Physical CRIT DMG.",
+            "extraData": null,
             "icon": "UI_Talent_S_Mika_04"
         }
     },

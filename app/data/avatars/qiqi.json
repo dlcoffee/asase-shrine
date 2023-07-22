@@ -156,6 +156,14 @@
         ]
     },
     "other": {
+        "costume": [
+            {
+                "name": "Summerchill Dreams",
+                "description": "Qiqi's outfit. A herb gatherer's garment that brings her great peace of mind due to the attached talismans.",
+                "isDefault": true
+            }
+        ],
+        "furnitureId": 368123,
         "nameCard": {
             "id": 210019,
             "name": "Qiqi: Cold Storage",
@@ -2361,31 +2369,49 @@
         "0": {
             "name": "Ascetics of Frost",
             "description": "When the Herald of Frost hits an opponent marked by a Fortune-Preserving Talisman, Qiqi regenerates 2 Energy.",
+            "extraData": null,
             "icon": "UI_Talent_S_Qiqi_01"
         },
         "1": {
             "name": "Frozen to the Bone",
             "description": "Qiqi's Normal and Charge Attack DMG against opponents affected by <color=#99FFFFFF>Cryo</color> is increased by 15%.",
+            "extraData": null,
             "icon": "UI_Talent_S_Qiqi_02"
         },
         "2": {
             "name": "Ascendant Praise",
             "description": "Increases the Level of <color=#FFD780FF>Adeptus Art: Preserver of Fortune</color> by 3.\\nMaximum upgrade level is 15.",
+            "extraData": {
+                "addTalentExtraLevel": {
+                    "talentType": "AvatarSkill",
+                    "talentIndex": 9,
+                    "extraLevel": 3
+                }
+            },
             "icon": "UI_Talent_U_Qiqi_01"
         },
         "3": {
             "name": "Divine Suppression",
             "description": "Targets marked by the Fortune-Preserving Talisman have their ATK decreased by 20%.",
+            "extraData": null,
             "icon": "UI_Talent_S_Qiqi_03"
         },
         "4": {
             "name": "Crimson Lotus Bloom",
             "description": "Increases the Level of <color=#FFD780FF>Adeptus Art: Herald of Frost</color> by 3.\\nMaximum upgrade level is 15.",
+            "extraData": {
+                "addTalentExtraLevel": {
+                    "talentType": "AvatarSkill",
+                    "talentIndex": 2,
+                    "extraLevel": 3
+                }
+            },
             "icon": "UI_Talent_U_Qiqi_02"
         },
         "5": {
             "name": "Rite of Resurrection",
             "description": "Using <color=#FFD780FF>Adeptus Art: Preserver of Fortune</color> revives all fallen party members nearby and regenerates 50% of their HP.\\nThis effect can only occur once every 15 mins.",
+            "extraData": null,
             "icon": "UI_Talent_S_Qiqi_04"
         }
     },

@@ -156,6 +156,21 @@
         ]
     },
     "other": {
+        "costume": [
+            {
+                "name": "Gold Leaf and Pearly Jade",
+                "description": "Ningguang's outfit. Intricate embroidery is the hallmark of this graceful dress.",
+                "isDefault": true
+            },
+            {
+                "name": "Orchid's Evening Gown",
+                "description": "Ningguang's formal wear. The long cyan skirt traces her elegant curves, and the butterfly wings at her ankles lend the outfit a touch of light grace.",
+                "storyId": 340002,
+                "icon": "UI_AvatarIcon_NingguangCostumeFloral",
+                "rank": 4
+            }
+        ],
+        "furnitureId": 368116,
         "nameCard": {
             "id": 210038,
             "name": "Ningguang: Phoenix",
@@ -2361,31 +2376,49 @@
         "0": {
             "name": "Piercing Fragments",
             "description": "When a Normal Attack hits, it deals AoE DMG.",
+            "extraData": null,
             "icon": "UI_Talent_S_Ningguang_01"
         },
         "1": {
             "name": "Shock Effect",
             "description": "When <color=#FFD780FF>Jade Screen</color> is shattered, its CD will reset.\\nCan occur once every 6s.",
+            "extraData": null,
             "icon": "UI_Talent_S_Ningguang_05"
         },
         "2": {
             "name": "Majesty Be the Array of Stars",
             "description": "Increases the Level of <color=#FFD780FF>Starshatter</color> by 3.\\nMaximum upgrade level is 15.",
+            "extraData": {
+                "addTalentExtraLevel": {
+                    "talentType": "AvatarSkill",
+                    "talentIndex": 9,
+                    "extraLevel": 3
+                }
+            },
             "icon": "UI_Talent_U_Ningguang_02"
         },
         "3": {
             "name": "Exquisite be the Jade, Outshining All Beneath",
             "description": "<color=#FFD780FF>Jade Screen</color> increases nearby characters' Elemental RES by 10%.",
+            "extraData": null,
             "icon": "UI_Talent_S_Ningguang_03"
         },
         "4": {
             "name": "Invincible Be the Jade Screen",
             "description": "Increases the Level of <color=#FFD780FF>Jade Screen</color> by 3.\\nMaximum upgrade level is 15.",
+            "extraData": {
+                "addTalentExtraLevel": {
+                    "talentType": "AvatarSkill",
+                    "talentIndex": 2,
+                    "extraLevel": 3
+                }
+            },
             "icon": "UI_Talent_U_Ningguang_01"
         },
         "5": {
             "name": "Grandeur Be the Seven Stars",
             "description": "When <color=#FFD780FF>Starshatter</color> is used, Ningguang gains 7 Star Jades.",
+            "extraData": null,
             "icon": "UI_Talent_S_Ningguang_04"
         }
     },

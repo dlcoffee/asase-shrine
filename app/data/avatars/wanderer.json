@@ -156,6 +156,14 @@
         ]
     },
     "other": {
+        "costume": [
+            {
+                "name": "A Wrathful Void",
+                "description": "#{REALNAME[ID(1)]}'s outfit. An ascetic's garb and hat can provide the wanderer some shelter from the rain, but they can do nothing to quell the winds and storms raging within.",
+                "isDefault": true
+            }
+        ],
+        "furnitureId": 368160,
         "nameCard": {
             "id": 210143,
             "name": "Wanderer: Drifter's Ballad",
@@ -2361,31 +2369,49 @@
         "0": {
             "name": "Shoban: Ostentatious Plumage",
             "description": "When in the <color=#FFD780FF>Windfavored</color> state, the Attack SPD of the Wanderer's Kuugo: Fushoudan and Kuugo: Toufukai is increased by 10%.\\nAdditionally, the wind arrows fired by the Passive Talent \"Gales of Reverie\" will deal an additional 25% of his ATK as DMG. You must unlock the Passive Talent \"Gales of Reverie\" first.",
+            "extraData": null,
             "icon": "UI_Talent_S_Wanderer_01"
         },
         "1": {
             "name": "Niban: Isle Amidst White Waves",
             "description": "When in the <color=#FFD780FF>Windfavored</color> state, <color=#FFD780FF>Kyougen: Five Ceremonial Plays</color> will see its DMG increased by 4% per point of difference between the max amount of Kuugoryoku Points contrasted with Kuugoryoku's present capacity when using this skill.\\nThrough this method, you can increase Kyougen: Five Ceremonial Plays's DMG by a maximum of 200%.",
+            "extraData": null,
             "icon": "UI_Talent_S_Wanderer_02"
         },
         "2": {
             "name": "Sanban: Moonflower Kusemai",
             "description": "Increases the Level of <color=#FFD780FF>Kyougen: Five Ceremonial Plays</color> by 3.\\nMaximum upgrade level is 15.",
+            "extraData": {
+                "addTalentExtraLevel": {
+                    "talentType": "AvatarSkill",
+                    "talentIndex": 9,
+                    "extraLevel": 3
+                }
+            },
             "icon": "UI_Talent_U_Wanderer_02"
         },
         "3": {
             "name": "Yonban: Set Adrift into Spring",
             "description": "When casting <color=#FFD780FF>Hanega: Song of the Wind</color>, should the Passive Talent \"Jade-Claimed Flower\" be triggered, the character will gain buffs in correspondence to the contacted Elemental Type(s), and also obtain a random untriggered buff. A maximum of 3 such corresponding elemental buffs can exist simultaneously.\\nYou must unlock the Passive Talent \"Jade-Claimed Flower\" first.",
+            "extraData": null,
             "icon": "UI_Talent_S_Wanderer_03"
         },
         "4": {
             "name": "Matsuban: Ancient Illuminator From Abroad",
             "description": "Increases the Level of <color=#FFD780FF>Hanega: Song of the Wind</color> by 3.\\nMaximum upgrade level is 15.",
+            "extraData": {
+                "addTalentExtraLevel": {
+                    "talentType": "AvatarSkill",
+                    "talentIndex": 2,
+                    "extraLevel": 3
+                }
+            },
             "icon": "UI_Talent_U_Wanderer_01"
         },
         "5": {
             "name": "Shugen: The Curtains' Melancholic Sway",
             "description": "When the Wanderer actively hits an opponent with Kuugo: Fushoudan while in the <color=#FFD780FF>Windfavored</color> state, the following effects will occur:\\n·Deals an additional instance of Kuugo: Fushoudan at the position hit, dealing 40% of the attack's original DMG. This DMG will be considered Normal Attack DMG.\\n·When the Wanderer falls below 40 Kuugoryoku Points, restores 4 Points to him. Kuugoryoku Points can be restored in this manner once every 0.2s. This restoration can occur up to 5 times within one Windfavored duration.",
+            "extraData": null,
             "icon": "UI_Talent_S_Wanderer_04"
         }
     },

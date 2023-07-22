@@ -156,6 +156,21 @@
         ]
     },
     "other": {
+        "costume": [
+            {
+                "name": "Flawless Radiance",
+                "description": "Kamisato Ayaka's outfit. This kimono features an armor-coated skirt, displaying the nobility and resilience of the Shirasagi Himegimi.",
+                "isDefault": true
+            },
+            {
+                "name": "Springbloom Missive",
+                "description": "Ayaka's travel outfit. Its design is based on the Fontaine dresses depicted in light novel illustrations and seems to serve as a window into the lifestyle of proper ladies who live in that nation.",
+                "storyId": 340010,
+                "icon": "UI_AvatarIcon_AyakaCostumeFruhling",
+                "rank": 4
+            }
+        ],
+        "furnitureId": 368137,
         "nameCard": {
             "id": 210081,
             "name": "Kamisato Ayaka: Folding Fan",
@@ -2416,31 +2431,49 @@
         "0": {
             "name": "Snowswept Sakura",
             "description": "When Kamisato Ayaka's Normal or Charged Attacks deal <color=#99FFFFFF>Cryo DMG</color> to opponents, it has a 50% chance of decreasing the CD of <color=#FFD780FF>Kamisato Art: Hyouka</color> by 0.3s. This effect can occur once every 0.1s.",
+            "extraData": null,
             "icon": "UI_Talent_S_Ayaka_01"
         },
         "1": {
             "name": "Blizzard Blade Seki no To",
             "description": "When casting <color=#FFD780FF>Kamisato Art: Soumetsu</color>, unleashes 2 smaller additional Frostflake Seki no To, each dealing 20% of the original storm's DMG.",
+            "extraData": null,
             "icon": "UI_Talent_S_Ayaka_02"
         },
         "2": {
             "name": "Frostbloom Kamifubuki",
             "description": "Increases the Level of <color=#FFD780FF>Kamisato Art: Soumetsu</color> by 3.\\nMaximum upgrade level is 15.",
+            "extraData": {
+                "addTalentExtraLevel": {
+                    "talentType": "AvatarSkill",
+                    "talentIndex": 9,
+                    "extraLevel": 3
+                }
+            },
             "icon": "UI_Talent_U_Ayaka_02"
         },
         "3": {
             "name": "Ebb and Flow",
             "description": "Opponents damaged by <color=#FFD780FF>Kamisato Art: Soumetsu</color>'s Frostflake Seki no To will have their DEF decreased by 30% for 6s.",
+            "extraData": null,
             "icon": "UI_Talent_S_Ayaka_03"
         },
         "4": {
             "name": "Blossom Cloud Irutsuki",
             "description": "Increases the Level of <color=#FFD780FF>Kamisato Art: Hyouka</color> by 3.\\nMaximum upgrade level is 15.",
+            "extraData": {
+                "addTalentExtraLevel": {
+                    "talentType": "AvatarSkill",
+                    "talentIndex": 2,
+                    "extraLevel": 3
+                }
+            },
             "icon": "UI_Talent_U_Ayaka_01"
         },
         "5": {
             "name": "Dance of Suigetsu",
             "description": "Kamisato Ayaka gains Usurahi Butou every 10s, increasing her Charged Attack DMG by 298%. This buff will be cleared 0.5s after Ayaka's Charged ATK hits an opponent, after which the timer for this ability will restart.",
+            "extraData": null,
             "icon": "UI_Talent_S_Ayaka_04"
         }
     },

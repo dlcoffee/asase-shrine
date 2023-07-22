@@ -156,6 +156,14 @@
         ]
     },
     "other": {
+        "costume": [
+            {
+                "name": "Warrior of Flame",
+                "description": "Thoma's outfit. He cropped the pieces of this light suit of armor till only the thigh and arm guards were left, allowing him to comfortably attend to all matters in and out of combat.",
+                "isDefault": true
+            }
+        ],
+        "furnitureId": 368142,
         "nameCard": {
             "id": 210101,
             "name": "Thoma: Blazing Guard",
@@ -2361,31 +2369,49 @@
         "0": {
             "name": "A Comrade's Duty",
             "description": "When a character protected by Thoma's own <color=#FFD780FF>Blazing Barrier</color> (Thoma excluded) is attacked, Thoma's own <color=#FFD780FF>Blazing Blessing</color> CD is decreased by 3s, while his own <color=#FFD780FF>Crimson Ooyoroi</color>'s CD is decreased by 3s.\\nThis effect can be triggered once every 20s.",
+            "extraData": null,
             "icon": "UI_Talent_S_Tohma_01"
         },
         "1": {
             "name": "A Subordinate's Skills",
             "description": "<color=#FFD780FF>Crimson Ooyoroi</color>'s duration is increased by 3s.",
+            "extraData": null,
             "icon": "UI_Talent_S_Tohma_02"
         },
         "2": {
             "name": "Fortified Resolve",
             "description": "Increases the Level of <color=#FFD780FF>Blazing Blessing</color> by 3.\\nMaximum upgrade level is 15.",
+            "extraData": {
+                "addTalentExtraLevel": {
+                    "talentType": "AvatarSkill",
+                    "talentIndex": 2,
+                    "extraLevel": 3
+                }
+            },
             "icon": "UI_Talent_U_Tohma_01"
         },
         "3": {
             "name": "Long-Term Planning",
             "description": "After using <color=#FFD780FF>Crimson Ooyoroi</color>, 15 Energy will be restored to Thoma.",
+            "extraData": null,
             "icon": "UI_Talent_S_Tohma_03"
         },
         "4": {
             "name": "Raging Wildfire",
             "description": "Increases the Level of <color=#FFD780FF>Crimson Ooyoroi</color> by 3.\\nMaximum upgrade level is 15.",
+            "extraData": {
+                "addTalentExtraLevel": {
+                    "talentType": "AvatarSkill",
+                    "talentIndex": 9,
+                    "extraLevel": 3
+                }
+            },
             "icon": "UI_Talent_U_Tohma_02"
         },
         "5": {
             "name": "Burning Heart",
             "description": "When a <color=#FFD780FF>Blazing Barrier</color> is obtained or refreshed, the DMG dealt by all party members' Normal, Charged, and Plunging Attacks is increased by 15% for 6s.",
+            "extraData": null,
             "icon": "UI_Talent_S_Tohma_04"
         }
     },

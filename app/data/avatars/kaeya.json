@@ -156,6 +156,21 @@
         ]
     },
     "other": {
+        "costume": [
+            {
+                "name": "Icy Featherflight",
+                "description": "Kaeya's outfit. Fashionable clothes festooned with a fur collar.",
+                "isDefault": true
+            },
+            {
+                "name": "Sailwind Shadow",
+                "description": "Kaeya's outfit from his role as the \"Dagger Bandit\" in the play. Though flamboyant and designed to be as eye-catching as possible, it isn't difficult to put on, though it does take some time to get all the accessories and daggers sorted.",
+                "storyId": 340013,
+                "icon": "UI_AvatarIcon_KaeyaCostumeDancer",
+                "rank": 4
+            }
+        ],
+        "furnitureId": 368107,
         "nameCard": {
             "id": 210010,
             "name": "Kaeya: Pavo Ocellus",
@@ -2361,31 +2376,49 @@
         "0": {
             "name": "Excellent Blood",
             "description": "The CRIT Rate of Kaeya's Normal and Charge Attacks against opponents affected by <color=#99FFFFFF>Cryo</color> is increased by 15%.",
+            "extraData": null,
             "icon": "UI_Talent_S_Kaeya_01"
         },
         "1": {
             "name": "Never-Ending Performance",
             "description": "While <color=#FFD780FF>Glacial Waltz</color> is in effect, for each opponent defeated, its duration is increased by 2.5s, up to a maximum of 15s.",
+            "extraData": null,
             "icon": "UI_Talent_S_Kaeya_02"
         },
         "2": {
             "name": "Dance of Frost",
             "description": "Increases the Level of <color=#FFD780FF>Frostgnaw</color> by 3.\\nMaximum upgrade level is 15.",
+            "extraData": {
+                "addTalentExtraLevel": {
+                    "talentType": "AvatarSkill",
+                    "talentIndex": 2,
+                    "extraLevel": 3
+                }
+            },
             "icon": "UI_Talent_U_Kaeya_01"
         },
         "3": {
             "name": "Frozen Kiss",
             "description": "Triggers automatically when Kaeya's HP falls below 20%:\\nCreates a shield that absorbs damage equal to 30% of Kaeya's Max HP. Lasts for 20s.\\nThis shield absorbs <color=#99FFFFFF>Cryo DMG</color> with 250% efficiency.\\nCan only occur once every 60s.",
+            "extraData": null,
             "icon": "UI_Talent_S_Kaeya_03"
         },
         "4": {
             "name": "Frostbiting Embrace",
             "description": "Increases the Level of <color=#FFD780FF>Glacial Waltz</color> by 3.\\nMaximum upgrade level is 15.",
+            "extraData": {
+                "addTalentExtraLevel": {
+                    "talentType": "AvatarSkill",
+                    "talentIndex": 9,
+                    "extraLevel": 3
+                }
+            },
             "icon": "UI_Talent_U_Kaeya_02"
         },
         "5": {
             "name": "Glacial Whirlwind",
             "description": "<color=#FFD780FF>Glacial Waltz</color> will generate 1 additional icicle, and will regenerate 15 Energy when cast.",
+            "extraData": null,
             "icon": "UI_Talent_S_Kaeya_04"
         }
     },

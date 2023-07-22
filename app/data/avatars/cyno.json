@@ -156,6 +156,14 @@
         ]
     },
     "other": {
+        "costume": [
+            {
+                "name": "Heart of the Scales",
+                "description": "Cyno's outfit. This garb displays the General Mahamatra's dignity and the just principles he sticks by. It was a rather complicated piece to commission due to Cyno's request for the custom-made head ornaments and requires regular maintenance.",
+                "isDefault": true
+            }
+        ],
+        "furnitureId": 368156,
         "nameCard": {
             "id": 210134,
             "name": "Cyno: Silence",
@@ -2361,31 +2369,49 @@
         "0": {
             "name": "Ordinance: Unceasing Vigil",
             "description": "After using <color=#FFD780FF>Sacred Rite: Wolf's Swiftness</color>, Cyno's Normal Attack SPD will be increased by 20% for 10s. If the Judication effect of his Passive Talent Featherfall Judgment is triggered during <color=#FFD780FF>Secret Rite: Chasmic Soulfarer</color>, the duration of this increase will be refreshed.\\nYou need to unlock the Passive Talent \"Featherfall Judgment.\"",
+            "extraData": null,
             "icon": "UI_Talent_S_Cyno_01"
         },
         "1": {
             "name": "Ceremony: Homecoming of Spirits",
             "description": "When Cyno's Normal Attacks hit opponents, his <color=#FFACFFFF>Electro DMG Bonus</color> will increase by 10% for 4s. This effect can be triggered once every 0.1s. Max 5 stacks.",
+            "extraData": null,
             "icon": "UI_Talent_S_Cyno_02"
         },
         "2": {
             "name": "Precept: Lawful Enforcer",
             "description": "Increases the Level of <color=#FFD780FF>Sacred Rite: Wolf's Swiftness</color> by 3.\\nMaximum upgrade level is 15.",
+            "extraData": {
+                "addTalentExtraLevel": {
+                    "talentType": "AvatarSkill",
+                    "talentIndex": 9,
+                    "extraLevel": 3
+                }
+            },
             "icon": "UI_Talent_U_Cyno_01"
         },
         "3": {
             "name": "Austerity: Forbidding Guard",
             "description": "When Cyno is in the Pactsworn Pathclearer state triggered by <color=#FFD780FF>Sacred Rite: Wolf's Swiftness</color>, after he triggers Electro-Charged, Superconduct, Overloaded, Quicken, Aggravate, Hyperbloom, or an Electro Swirl reaction, he will restore 3 Elemental Energy for all nearby party members (except himself.)\\nThis effect can occur 5 times within one use of <color=#FFD780FF>Sacred Rite: Wolf's Swiftness</color>.",
+            "extraData": null,
             "icon": "UI_Talent_S_Cyno_03"
         },
         "4": {
             "name": "Funerary Rite: The Passing of Starlight",
             "description": "Increases the Level of <color=#FFD780FF>Secret Rite: Chasmic Soulfarer</color> by 3.\\nMaximum upgrade level is 15.",
+            "extraData": {
+                "addTalentExtraLevel": {
+                    "talentType": "AvatarSkill",
+                    "talentIndex": 2,
+                    "extraLevel": 3
+                }
+            },
             "icon": "UI_Talent_U_Cyno_02"
         },
         "5": {
             "name": "Raiment: Just Scales",
             "description": "After using <color=#FFD780FF>Sacred Rite: Wolf's Swiftness</color> or triggering the Judication effect of the Passive Talent \"Featherfall Judgment,\" Cyno will gain 4 stacks of the \"Day of the Jackal\" effect. When he hits opponents with Normal Attacks, he will consume 1 stack of \"Day of the Jackal\" to fire off one Duststalker Bolt.\\n\"Day of the Jackal\" lasts for 8s. Max 8 stacks. It will be canceled once Pactsworn Pathclearer ends.\\nA maximum of 1 Duststalker Bolt can be unleashed this way every 0.4s.\\nYou must first unlock the Passive Talent \"Featherfall Judgment.\"",
+            "extraData": null,
             "icon": "UI_Talent_S_Cyno_04"
         }
     },

@@ -156,9 +156,17 @@
         ]
     },
     "other": {
+        "costume": [
+            {
+                "name": "Desert and Night",
+                "description": "Candace's outfit. No matter where she goes, the golden sands and the nights of her homeland that adorn her clothes go together with her.",
+                "isDefault": true
+            }
+        ],
+        "furnitureId": 368157,
         "nameCard": {
             "id": 210135,
-            "name": "Candace: Grey Heron",
+            "name": "Candace: Gray Heron",
             "description": "Namecard style.\\nThe burning winds of the past ruffle the heron's feathers, but the bird has eyes only for the morning star at first light.",
             "icon": "UI_NameCardIcon_Candace"
         },
@@ -918,8 +926,8 @@
                         "Shield DMG Absorption|{param1:F1P} Max HP+{param2:I}",
                         "Basic DMG|{param3:F1P} Max HP",
                         "Charged Up DMG|{param4:F1P} Max HP",
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param5:F1}s",
-                        "Holding CD|{param6:F1}s",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param5:F1}s",
+                        "Hold CD|{param6:F1}s",
                         "",
                         "",
                         "",
@@ -966,8 +974,8 @@
                         "Shield DMG Absorption|{param1:F1P} Max HP+{param2:I}",
                         "Basic DMG|{param3:F1P} Max HP",
                         "Charged Up DMG|{param4:F1P} Max HP",
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param5:F1}s",
-                        "Holding CD|{param6:F1}s",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param5:F1}s",
+                        "Hold CD|{param6:F1}s",
                         "",
                         "",
                         "",
@@ -1014,8 +1022,8 @@
                         "Shield DMG Absorption|{param1:F1P} Max HP+{param2:I}",
                         "Basic DMG|{param3:F1P} Max HP",
                         "Charged Up DMG|{param4:F1P} Max HP",
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param5:F1}s",
-                        "Holding CD|{param6:F1}s",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param5:F1}s",
+                        "Hold CD|{param6:F1}s",
                         "",
                         "",
                         "",
@@ -1062,8 +1070,8 @@
                         "Shield DMG Absorption|{param1:F1P} Max HP+{param2:I}",
                         "Basic DMG|{param3:F1P} Max HP",
                         "Charged Up DMG|{param4:F1P} Max HP",
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param5:F1}s",
-                        "Holding CD|{param6:F1}s",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param5:F1}s",
+                        "Hold CD|{param6:F1}s",
                         "",
                         "",
                         "",
@@ -1110,8 +1118,8 @@
                         "Shield DMG Absorption|{param1:F1P} Max HP+{param2:I}",
                         "Basic DMG|{param3:F1P} Max HP",
                         "Charged Up DMG|{param4:F1P} Max HP",
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param5:F1}s",
-                        "Holding CD|{param6:F1}s",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param5:F1}s",
+                        "Hold CD|{param6:F1}s",
                         "",
                         "",
                         "",
@@ -1158,8 +1166,8 @@
                         "Shield DMG Absorption|{param1:F1P} Max HP+{param2:I}",
                         "Basic DMG|{param3:F1P} Max HP",
                         "Charged Up DMG|{param4:F1P} Max HP",
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param5:F1}s",
-                        "Holding CD|{param6:F1}s",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param5:F1}s",
+                        "Hold CD|{param6:F1}s",
                         "",
                         "",
                         "",
@@ -1207,8 +1215,8 @@
                         "Shield DMG Absorption|{param1:F1P} Max HP+{param2:I}",
                         "Basic DMG|{param3:F1P} Max HP",
                         "Charged Up DMG|{param4:F1P} Max HP",
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param5:F1}s",
-                        "Holding CD|{param6:F1}s",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param5:F1}s",
+                        "Hold CD|{param6:F1}s",
                         "",
                         "",
                         "",
@@ -1256,8 +1264,8 @@
                         "Shield DMG Absorption|{param1:F1P} Max HP+{param2:I}",
                         "Basic DMG|{param3:F1P} Max HP",
                         "Charged Up DMG|{param4:F1P} Max HP",
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param5:F1}s",
-                        "Holding CD|{param6:F1}s",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param5:F1}s",
+                        "Hold CD|{param6:F1}s",
                         "",
                         "",
                         "",
@@ -1305,8 +1313,8 @@
                         "Shield DMG Absorption|{param1:F1P} Max HP+{param2:I}",
                         "Basic DMG|{param3:F1P} Max HP",
                         "Charged Up DMG|{param4:F1P} Max HP",
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param5:F1}s",
-                        "Holding CD|{param6:F1}s",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param5:F1}s",
+                        "Hold CD|{param6:F1}s",
                         "",
                         "",
                         "",
@@ -1355,8 +1363,8 @@
                         "Shield DMG Absorption|{param1:F1P} Max HP+{param2:I}",
                         "Basic DMG|{param3:F1P} Max HP",
                         "Charged Up DMG|{param4:F1P} Max HP",
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param5:F1}s",
-                        "Holding CD|{param6:F1}s",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param5:F1}s",
+                        "Hold CD|{param6:F1}s",
                         "",
                         "",
                         "",
@@ -1400,8 +1408,8 @@
                         "Shield DMG Absorption|{param1:F1P} Max HP+{param2:I}",
                         "Basic DMG|{param3:F1P} Max HP",
                         "Charged Up DMG|{param4:F1P} Max HP",
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param5:F1}s",
-                        "Holding CD|{param6:F1}s",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param5:F1}s",
+                        "Hold CD|{param6:F1}s",
                         "",
                         "",
                         "",
@@ -1445,8 +1453,8 @@
                         "Shield DMG Absorption|{param1:F1P} Max HP+{param2:I}",
                         "Basic DMG|{param3:F1P} Max HP",
                         "Charged Up DMG|{param4:F1P} Max HP",
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param5:F1}s",
-                        "Holding CD|{param6:F1}s",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param5:F1}s",
+                        "Hold CD|{param6:F1}s",
                         "",
                         "",
                         "",
@@ -1490,8 +1498,8 @@
                         "Shield DMG Absorption|{param1:F1P} Max HP+{param2:I}",
                         "Basic DMG|{param3:F1P} Max HP",
                         "Charged Up DMG|{param4:F1P} Max HP",
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param5:F1}s",
-                        "Holding CD|{param6:F1}s",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param5:F1}s",
+                        "Hold CD|{param6:F1}s",
                         "",
                         "",
                         "",
@@ -1535,8 +1543,8 @@
                         "Shield DMG Absorption|{param1:F1P} Max HP+{param2:I}",
                         "Basic DMG|{param3:F1P} Max HP",
                         "Charged Up DMG|{param4:F1P} Max HP",
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param5:F1}s",
-                        "Holding CD|{param6:F1}s",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param5:F1}s",
+                        "Hold CD|{param6:F1}s",
                         "",
                         "",
                         "",
@@ -1580,8 +1588,8 @@
                         "Shield DMG Absorption|{param1:F1P} Max HP+{param2:I}",
                         "Basic DMG|{param3:F1P} Max HP",
                         "Charged Up DMG|{param4:F1P} Max HP",
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param5:F1}s",
-                        "Holding CD|{param6:F1}s",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param5:F1}s",
+                        "Hold CD|{param6:F1}s",
                         "",
                         "",
                         "",
@@ -2361,31 +2369,49 @@
         "0": {
             "name": "Returning Heiress of the Scarlet Sands",
             "description": "The duration of Prayer of the Crimson Crown effect triggered by <color=#FFD780FF>Sacred Rite: Wagtail's Tide</color> is increased by 3s.",
+            "extraData": null,
             "icon": "UI_Talent_S_Candace_01"
         },
         "1": {
             "name": "Moon-Piercing Brilliance",
             "description": "When <color=#FFD780FF>Sacred Rite: Heron's Sanctum</color> hits opponents, Candace's Max HP will be increased by 20% for 15s.",
+            "extraData": null,
             "icon": "UI_Talent_S_Candace_02"
         },
         "2": {
             "name": "Hunter's Supplication",
             "description": "Increases the Level of <color=#FFD780FF>Sacred Rite: Wagtail's Tide</color> by 3.\\nMaximum upgrade level is 15.",
+            "extraData": {
+                "addTalentExtraLevel": {
+                    "talentType": "AvatarSkill",
+                    "talentIndex": 9,
+                    "extraLevel": 3
+                }
+            },
             "icon": "UI_Talent_U_Candace_01"
         },
         "3": {
             "name": "Sentinel Oath",
             "description": "Shortens the Hold CD of <color=#FFD780FF>Sacred Rite: Heron's Sanctum</color> to be the same as that of the Tapping CD.",
+            "extraData": null,
             "icon": "UI_Talent_S_Candace_03"
         },
         "4": {
             "name": "Heterochromatic Gaze",
             "description": "Increases the Level of <color=#FFD780FF>Sacred Rite: Heron's Sanctum</color> by 3.\\nMaximum upgrade level is 15.",
+            "extraData": {
+                "addTalentExtraLevel": {
+                    "talentType": "AvatarSkill",
+                    "talentIndex": 2,
+                    "extraLevel": 3
+                }
+            },
             "icon": "UI_Talent_U_Candace_02"
         },
         "5": {
             "name": "The Overflow",
             "description": "When characters (excluding Candace herself) affected by the Prayer of the Crimson Crown caused by <color=#FFD780FF>Sacred Rite: Wagtail's Tide</color> deal Elemental DMG to opponents using Normal Attacks, an attack wave will be unleashed that deals <color=#80C0FFFF>AoE Hydro DMG</color> equal to 15% of Candace's Max HP.\\nThis effect can trigger once every 2.3s and is considered Elemental Burst DMG.",
+            "extraData": null,
             "icon": "UI_Talent_S_Candace_04"
         }
     },

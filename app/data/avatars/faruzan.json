@@ -156,6 +156,14 @@
         ]
     },
     "other": {
+        "costume": [
+            {
+                "name": "Pristine Elegance",
+                "description": "Faruzan's outfit. The relatively plain yet elegant style represents her unfaltering purity. This style was very popular in the Akademiya a hundred years ago, but has now become an uncommon sight.",
+                "isDefault": true
+            }
+        ],
+        "furnitureId": 368161,
         "nameCard": {
             "id": 210144,
             "name": "Faruzan: Sealed Secret",
@@ -2347,7 +2355,7 @@
         "5": {
             "type": 2,
             "name": "Lost Wisdom of the Seven Caverns",
-            "description": "When characters affected by <color=#FFD780FF>The Wind's Secret Ways</color>' Prayerful Wind's Gift deal <color=#80FFD7FF>Anemo DMG</color> using Normal, Charged, Plunging Attacks, Elemental Skills, or Elemental Bursts to opponents, they will gain the Hurricane Guard effect: This DMG will be increased based on 32% of Faruzan's Base ATK. 1 instance of Hurricane Guard can occur once every 0.8s. This DMG Bonus will be cleared after Prayerful Wind's Benefit expires or after the effect is triggered once.",
+            "description": "When characters affected by <color=#FFD780FF>The Wind's Secret Ways</color>' Prayerful Wind's Benefit deal <color=#80FFD7FF>Anemo DMG</color> using Normal, Charged, Plunging Attacks, Elemental Skills, or Elemental Bursts to opponents, they will gain the Hurricane Guard effect: This DMG will be increased based on 32% of Faruzan's Base ATK. 1 instance of Hurricane Guard can occur once every 0.8s. This DMG Bonus will be cleared after Prayerful Wind's Benefit expires or after the effect is triggered once.",
             "icon": "UI_Talent_S_Faruzan_06"
         },
         "6": {
@@ -2361,31 +2369,49 @@
         "0": {
             "name": "Truth by Any Means",
             "description": "Faruzan can fire off a maximum of 2 Hurricane Arrows using fully charged Aimed Shots while under the effect of a single Manifest Gale created by <color=#FFD780FF>Wind Realm of Nasamjnin</color>.",
+            "extraData": null,
             "icon": "UI_Talent_S_Faruzan_01"
         },
         "1": {
             "name": "Overzealous Intellect",
             "description": "The duration of the Dazzling Polyhedron created by <color=#FFD780FF>The Wind's Secret Ways</color> is increased by 6s.",
+            "extraData": null,
             "icon": "UI_Talent_S_Faruzan_02"
         },
         "2": {
             "name": "Spirit-Orchard Stroll",
             "description": "Increases the Level of <color=#FFD780FF>Wind Realm of Nasamjnin</color> by 3.\\nMaximum upgrade level is 15.",
+            "extraData": {
+                "addTalentExtraLevel": {
+                    "talentType": "AvatarSkill",
+                    "talentIndex": 2,
+                    "extraLevel": 3
+                }
+            },
             "icon": "UI_Talent_U_Faruzan_01"
         },
         "3": {
             "name": "Divine Comprehension",
             "description": "The vortex created by <color=#FFD780FF>Pressurized Collapses</color> will restore Energy to Faruzan based on the number of opponents hit: If it hits 1 opponent, it will restore 2 Energy for Faruzan. Each additional opponent hit will restore 0.5 more Energy for Faruzan.\\nA maximum of 4 Energy can be restored to her per vortex.",
+            "extraData": null,
             "icon": "UI_Talent_S_Faruzan_03"
         },
         "4": {
             "name": "Wonderland of Rumination",
             "description": "Increases the Level of <color=#FFD780FF>The Wind's Secret Ways</color> by 3.\\nMaximum upgrade level is 15.",
+            "extraData": {
+                "addTalentExtraLevel": {
+                    "talentType": "AvatarSkill",
+                    "talentIndex": 9,
+                    "extraLevel": 3
+                }
+            },
             "icon": "UI_Talent_U_Faruzan_02"
         },
         "5": {
             "name": "The Wondrous Path of Truth",
             "description": "Characters affected by <color=#FFD780FF>The Wind's Secret Ways</color>' Prayerful Wind's Benefit have 40% increased CRIT DMG when they deal <color=#80FFD7FF>Anemo DMG</color>. When the active character deals DMG while affected by Prayerful Wind's Benefit, they will apply Pressurized Collapse to the opponent damaged. This effect can be triggered once every 3s. This CD is shared between all party members.",
+            "extraData": null,
             "icon": "UI_Talent_S_Faruzan_04"
         }
     },

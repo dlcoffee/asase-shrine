@@ -156,6 +156,14 @@
         ]
     },
     "other": {
+        "costume": [
+            {
+                "name": "Miko's Instruction",
+                "description": "Yae Miko's outfit. A shrine maiden uniform that declares her lofty position as the Guuji of the Grand Narukami Shrine to all. May the lovely sight of her in that dress remain forever, just as the Sacred Sakura emblazoned upon her pure white skirt, which will never wilt away.",
+                "isDefault": true
+            }
+        ],
+        "furnitureId": 368147,
         "nameCard": {
             "id": 210112,
             "name": "Yae Miko: Kitsune Dreaming",
@@ -2361,31 +2369,49 @@
         "0": {
             "name": "Yakan Offering",
             "description": "Each time <color=#FFD780FF>Great Secret Art: Tenko Kenshin</color> activates a Tenko Thunderbolt, Yae Miko will restore 8 Elemental Energy for herself.",
+            "extraData": null,
             "icon": "UI_Talent_S_Yae_01"
         },
         "1": {
             "name": "Fox's Mooncall",
             "description": "<color=#FFD780FF>Sesshou Sakura</color> start at Level 2 when created, their max level is increased to 4, and their attack range is increased by 60%.",
+            "extraData": null,
             "icon": "UI_Talent_S_Yae_02"
         },
         "2": {
             "name": "The Seven Glamours",
             "description": "Increases the Level of <color=#FFD780FF>Yakan Evocation: Sesshou Sakura</color> by 3.\\nMaximum upgrade level is 15.",
+            "extraData": {
+                "addTalentExtraLevel": {
+                    "talentType": "AvatarSkill",
+                    "talentIndex": 2,
+                    "extraLevel": 3
+                }
+            },
             "icon": "UI_Talent_U_Yae_01"
         },
         "3": {
             "name": "Sakura Channeling",
             "description": "When <color=#FFD780FF>Sesshou Sakura</color> lightning hits opponents, the <color=#FFACFFFF>Electro DMG Bonus</color> of all nearby party members is increased by 20% for 5s.",
+            "extraData": null,
             "icon": "UI_Talent_S_Yae_03"
         },
         "4": {
             "name": "Mischievous Teasing",
             "description": "Increases the Level of <color=#FFD780FF>Great Secret Art: Tenko Kenshin</color> by 3.\\nMaximum upgrade level is 15.",
+            "extraData": {
+                "addTalentExtraLevel": {
+                    "talentType": "AvatarSkill",
+                    "talentIndex": 9,
+                    "extraLevel": 3
+                }
+            },
             "icon": "UI_Talent_U_Yae_02"
         },
         "5": {
             "name": "Forbidden Art: Daisesshou",
             "description": "<color=#FFD780FF>The Sesshou Sakura's</color> attacks will ignore 60% of the opponents' DEF.",
+            "extraData": null,
             "icon": "UI_Talent_S_Yae_04"
         }
     },

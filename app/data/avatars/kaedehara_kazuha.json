@@ -156,6 +156,14 @@
         ]
     },
     "other": {
+        "costume": [
+            {
+                "name": "Falling Leaves",
+                "description": "Kaedehara Kazuha's outfit. The maple leaf patterns are the hallmark of this wandering samurai's clothes.",
+                "isDefault": true
+            }
+        ],
+        "furnitureId": 368101,
         "nameCard": {
             "id": 210073,
             "name": "Kaedehara Kazuha: Autumn Maple-Viewing",
@@ -2361,31 +2369,49 @@
         "0": {
             "name": "Scarlet Hills",
             "description": "Decreases <color=#FFD780FF>Chihayaburu</color>'s CD by 10%.\\nUsing <color=#FFD780FF>Kazuha Slash</color> resets the CD of <color=#FFD780FF>Chihayaburu</color>.",
+            "extraData": null,
             "icon": "UI_Talent_S_Kazuha_01"
         },
         "1": {
             "name": "Yamaarashi Tailwind",
             "description": "The Autumn Whirlwind field created by <color=#FFD780FF>Kazuha Slash</color> has the following effects:\\n· Increases Kaedehara Kazuha's own Elemental Mastery by 200 for its duration.\\n· Increases the Elemental Mastery of characters within the field by 200.\\n\\nThe Elemental Mastery-increasing effects of this Constellation do not stack.",
+            "extraData": null,
             "icon": "UI_Talent_S_Kazuha_02"
         },
         "2": {
             "name": "Maple Monogatari",
             "description": "Increases the Level of <color=#FFD780FF>Chihayaburu</color> by 3.\\nMaximum upgrade level is 15.",
+            "extraData": {
+                "addTalentExtraLevel": {
+                    "talentType": "AvatarSkill",
+                    "talentIndex": 2,
+                    "extraLevel": 3
+                }
+            },
             "icon": "UI_Talent_U_Kazuha_01"
         },
         "3": {
             "name": "Oozora Genpou",
             "description": "#When Kaedehara Kazuha's Energy is lower than 45, he obtains the following effects:\\n·{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Pressing}{LAYOUT_PS#Pressing} or Holding <color=#FFD780FF>Chihayaburu</color> regenerates 3 or 4 Energy for Kaedehara Kazuha, respectively.\\n·When gliding, Kaedehara Kazuha regenerates 2 Energy per second.",
+            "extraData": null,
             "icon": "UI_Talent_S_Kazuha_03"
         },
         "4": {
             "name": "Wisdom of Bansei",
             "description": "Increases the Level of <color=#FFD780FF>Kazuha Slash</color> by 3.\\nMaximum upgrade level is 15.",
+            "extraData": {
+                "addTalentExtraLevel": {
+                    "talentType": "AvatarSkill",
+                    "talentIndex": 9,
+                    "extraLevel": 3
+                }
+            },
             "icon": "UI_Talent_U_Kazuha_02"
         },
         "5": {
             "name": "Crimson Momiji",
             "description": "After using <color=#FFD780FF>Chihayaburu</color> or <color=#FFD780FF>Kazuha Slash</color>, Kaedehara Kazuha gains an <color=#80FFD7FF>Anemo Infusion</color> for 5s. Additionally, each point of Elemental Mastery will increase the DMG dealt by Kaedehara Kazuha's Normal, Charged, and Plunging Attacks by 0.2%.",
+            "extraData": null,
             "icon": "UI_Talent_S_Kazuha_04"
         }
     },

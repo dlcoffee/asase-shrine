@@ -156,6 +156,14 @@
         ]
     },
     "other": {
+        "costume": [
+            {
+                "name": "Mini Mujina",
+                "description": "Sayu's outfit. Marvelous attire designed after the mysterious animal known as the Mujina.",
+                "isDefault": true
+            }
+        ],
+        "furnitureId": 368136,
         "nameCard": {
             "id": 210083,
             "name": "Sayu: Muji-Muji Daruma",
@@ -916,7 +924,7 @@
                     "coinCost": null,
                     "description": [
                         "Fuufuu Windwheel DMG|{param1:F1P}",
-                        "#Fuufuu Whirlwind Kick {LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param3:F1P}",
+                        "#Fuufuu Whirlwind Kick {LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param3:F1P}",
                         "Fuufuu Whirlwind Kick Hold DMG|{param4:F1P}",
                         "Fuufuu Windwheel Elemental DMG|{param2:F1P}",
                         "Fuufuu Whirlwind Kick Elemental DMG|{param5:F1P}",
@@ -964,7 +972,7 @@
                     "coinCost": 12500,
                     "description": [
                         "Fuufuu Windwheel DMG|{param1:F1P}",
-                        "#Fuufuu Whirlwind Kick {LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param3:F1P}",
+                        "#Fuufuu Whirlwind Kick {LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param3:F1P}",
                         "Fuufuu Whirlwind Kick Hold DMG|{param4:F1P}",
                         "Fuufuu Windwheel Elemental DMG|{param2:F1P}",
                         "Fuufuu Whirlwind Kick Elemental DMG|{param5:F1P}",
@@ -1012,7 +1020,7 @@
                     "coinCost": 17500,
                     "description": [
                         "Fuufuu Windwheel DMG|{param1:F1P}",
-                        "#Fuufuu Whirlwind Kick {LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param3:F1P}",
+                        "#Fuufuu Whirlwind Kick {LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param3:F1P}",
                         "Fuufuu Whirlwind Kick Hold DMG|{param4:F1P}",
                         "Fuufuu Windwheel Elemental DMG|{param2:F1P}",
                         "Fuufuu Whirlwind Kick Elemental DMG|{param5:F1P}",
@@ -1060,7 +1068,7 @@
                     "coinCost": 25000,
                     "description": [
                         "Fuufuu Windwheel DMG|{param1:F1P}",
-                        "#Fuufuu Whirlwind Kick {LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param3:F1P}",
+                        "#Fuufuu Whirlwind Kick {LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param3:F1P}",
                         "Fuufuu Whirlwind Kick Hold DMG|{param4:F1P}",
                         "Fuufuu Windwheel Elemental DMG|{param2:F1P}",
                         "Fuufuu Whirlwind Kick Elemental DMG|{param5:F1P}",
@@ -1108,7 +1116,7 @@
                     "coinCost": 30000,
                     "description": [
                         "Fuufuu Windwheel DMG|{param1:F1P}",
-                        "#Fuufuu Whirlwind Kick {LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param3:F1P}",
+                        "#Fuufuu Whirlwind Kick {LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param3:F1P}",
                         "Fuufuu Whirlwind Kick Hold DMG|{param4:F1P}",
                         "Fuufuu Windwheel Elemental DMG|{param2:F1P}",
                         "Fuufuu Whirlwind Kick Elemental DMG|{param5:F1P}",
@@ -1156,7 +1164,7 @@
                     "coinCost": 37500,
                     "description": [
                         "Fuufuu Windwheel DMG|{param1:F1P}",
-                        "#Fuufuu Whirlwind Kick {LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param3:F1P}",
+                        "#Fuufuu Whirlwind Kick {LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param3:F1P}",
                         "Fuufuu Whirlwind Kick Hold DMG|{param4:F1P}",
                         "Fuufuu Windwheel Elemental DMG|{param2:F1P}",
                         "Fuufuu Whirlwind Kick Elemental DMG|{param5:F1P}",
@@ -1205,7 +1213,7 @@
                     "coinCost": 120000,
                     "description": [
                         "Fuufuu Windwheel DMG|{param1:F1P}",
-                        "#Fuufuu Whirlwind Kick {LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param3:F1P}",
+                        "#Fuufuu Whirlwind Kick {LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param3:F1P}",
                         "Fuufuu Whirlwind Kick Hold DMG|{param4:F1P}",
                         "Fuufuu Windwheel Elemental DMG|{param2:F1P}",
                         "Fuufuu Whirlwind Kick Elemental DMG|{param5:F1P}",
@@ -1254,7 +1262,7 @@
                     "coinCost": 260000,
                     "description": [
                         "Fuufuu Windwheel DMG|{param1:F1P}",
-                        "#Fuufuu Whirlwind Kick {LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param3:F1P}",
+                        "#Fuufuu Whirlwind Kick {LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param3:F1P}",
                         "Fuufuu Whirlwind Kick Hold DMG|{param4:F1P}",
                         "Fuufuu Windwheel Elemental DMG|{param2:F1P}",
                         "Fuufuu Whirlwind Kick Elemental DMG|{param5:F1P}",
@@ -1303,7 +1311,7 @@
                     "coinCost": 450000,
                     "description": [
                         "Fuufuu Windwheel DMG|{param1:F1P}",
-                        "#Fuufuu Whirlwind Kick {LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param3:F1P}",
+                        "#Fuufuu Whirlwind Kick {LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param3:F1P}",
                         "Fuufuu Whirlwind Kick Hold DMG|{param4:F1P}",
                         "Fuufuu Windwheel Elemental DMG|{param2:F1P}",
                         "Fuufuu Whirlwind Kick Elemental DMG|{param5:F1P}",
@@ -1353,7 +1361,7 @@
                     "coinCost": 700000,
                     "description": [
                         "Fuufuu Windwheel DMG|{param1:F1P}",
-                        "#Fuufuu Whirlwind Kick {LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param3:F1P}",
+                        "#Fuufuu Whirlwind Kick {LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param3:F1P}",
                         "Fuufuu Whirlwind Kick Hold DMG|{param4:F1P}",
                         "Fuufuu Windwheel Elemental DMG|{param2:F1P}",
                         "Fuufuu Whirlwind Kick Elemental DMG|{param5:F1P}",
@@ -1398,7 +1406,7 @@
                     "coinCost": null,
                     "description": [
                         "Fuufuu Windwheel DMG|{param1:F1P}",
-                        "#Fuufuu Whirlwind Kick {LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param3:F1P}",
+                        "#Fuufuu Whirlwind Kick {LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param3:F1P}",
                         "Fuufuu Whirlwind Kick Hold DMG|{param4:F1P}",
                         "Fuufuu Windwheel Elemental DMG|{param2:F1P}",
                         "Fuufuu Whirlwind Kick Elemental DMG|{param5:F1P}",
@@ -1443,7 +1451,7 @@
                     "coinCost": null,
                     "description": [
                         "Fuufuu Windwheel DMG|{param1:F1P}",
-                        "#Fuufuu Whirlwind Kick {LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param3:F1P}",
+                        "#Fuufuu Whirlwind Kick {LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param3:F1P}",
                         "Fuufuu Whirlwind Kick Hold DMG|{param4:F1P}",
                         "Fuufuu Windwheel Elemental DMG|{param2:F1P}",
                         "Fuufuu Whirlwind Kick Elemental DMG|{param5:F1P}",
@@ -1488,7 +1496,7 @@
                     "coinCost": null,
                     "description": [
                         "Fuufuu Windwheel DMG|{param1:F1P}",
-                        "#Fuufuu Whirlwind Kick {LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param3:F1P}",
+                        "#Fuufuu Whirlwind Kick {LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param3:F1P}",
                         "Fuufuu Whirlwind Kick Hold DMG|{param4:F1P}",
                         "Fuufuu Windwheel Elemental DMG|{param2:F1P}",
                         "Fuufuu Whirlwind Kick Elemental DMG|{param5:F1P}",
@@ -1533,7 +1541,7 @@
                     "coinCost": null,
                     "description": [
                         "Fuufuu Windwheel DMG|{param1:F1P}",
-                        "#Fuufuu Whirlwind Kick {LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param3:F1P}",
+                        "#Fuufuu Whirlwind Kick {LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param3:F1P}",
                         "Fuufuu Whirlwind Kick Hold DMG|{param4:F1P}",
                         "Fuufuu Windwheel Elemental DMG|{param2:F1P}",
                         "Fuufuu Whirlwind Kick Elemental DMG|{param5:F1P}",
@@ -1578,7 +1586,7 @@
                     "coinCost": null,
                     "description": [
                         "Fuufuu Windwheel DMG|{param1:F1P}",
-                        "#Fuufuu Whirlwind Kick {LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param3:F1P}",
+                        "#Fuufuu Whirlwind Kick {LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param3:F1P}",
                         "Fuufuu Whirlwind Kick Hold DMG|{param4:F1P}",
                         "Fuufuu Windwheel Elemental DMG|{param2:F1P}",
                         "Fuufuu Whirlwind Kick Elemental DMG|{param5:F1P}",
@@ -2361,31 +2369,49 @@
         "0": {
             "name": "Multi-Task no Jutsu",
             "description": "The Muji-Muji Daruma created by <color=#FFD780FF>Yoohoo Art: Mujina Flurry</color> will ignore HP limits and can simultaneously attack nearby opponents and heal characters.",
+            "extraData": null,
             "icon": "UI_Talent_S_Sayu_01"
         },
         "1": {
             "name": "Egress Prep",
             "description": "#<color=#FFD780FF>Yoohoo Art: Fuuin Dash</color> gains the following effects:\\n·DMG of Fuufuu Whirlwind Kick in {LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} Mode increased by 3.3%.\\n·Every 0.5s in the Fuufuu Windwheel state will increase the DMG of this Fuufuu Whirlwind Kick by 3.3%. The maximum DMG increase possible through this method is 66%.",
+            "extraData": null,
             "icon": "UI_Talent_S_Sayu_02"
         },
         "2": {
             "name": "Eh, the Bunshin Can Handle It",
             "description": "Increases the Level of <color=#FFD780FF>Yoohoo Art: Mujina Flurry</color> by 3.\\nMaximum upgrade level is 15.",
+            "extraData": {
+                "addTalentExtraLevel": {
+                    "talentType": "AvatarSkill",
+                    "talentIndex": 9,
+                    "extraLevel": 3
+                }
+            },
             "icon": "UI_Talent_U_Sayu_02"
         },
         "3": {
             "name": "Skiving: New and Improved",
             "description": "Sayu recovers 1.2 Energy when she triggers a Swirl reaction.\\nThis effect occurs once every 2s.",
+            "extraData": null,
             "icon": "UI_Talent_S_Sayu_03"
         },
         "4": {
             "name": "Speed Comes First",
             "description": "Increases the Level of <color=#FFD780FF>Yoohoo Art: Fuuin Dash</color> by 3.\\nMaximum upgrade level is 15.",
+            "extraData": {
+                "addTalentExtraLevel": {
+                    "talentType": "AvatarSkill",
+                    "talentIndex": 2,
+                    "extraLevel": 3
+                }
+            },
             "icon": "UI_Talent_U_Sayu_01"
         },
         "5": {
             "name": "Sleep O'Clock",
             "description": "The Muji-Muji Daruma created by Sayu's <color=#FFD780FF>Yoohoo Art: Mujina Flurry</color> will now also benefit from her Elemental Mastery. Each point of Sayu's Elemental Mastery will produce the following effects:\\n·Increases the damage dealt by the Muji-Muji Daruma's attacks by 0.2% ATK. A maximum DMG increase of 400% ATK can be gained via this method.\\n·Increases the HP restored by the Muji-Muji Daruma by 3. A maximum of 6,000 additional HP can be restored in this manner.",
+            "extraData": null,
             "icon": "UI_Talent_S_Sayu_04"
         }
     },

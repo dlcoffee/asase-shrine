@@ -156,6 +156,14 @@
         ]
     },
     "other": {
+        "costume": [
+            {
+                "name": "Solemn Purity",
+                "description": "Kujou Sara's outfit. Prim and proper, it is a garment worthy of an Archon's devout servant.",
+                "isDefault": true
+            }
+        ],
+        "furnitureId": 368140,
         "nameCard": {
             "id": 210094,
             "name": "Kujou Sara: Tengu",
@@ -2361,31 +2369,49 @@
         "0": {
             "name": "Crow's Eye",
             "description": "When Tengu Juurai grant characters ATK Bonuses or hits opponents, the CD of <color=#FFD780FF>Tengu Stormcall</color> is decreased by 1s.\\nThis effect can be triggered once every 3s.",
+            "extraData": null,
             "icon": "UI_Talent_S_Sara_05"
         },
         "1": {
             "name": "Dark Wings",
             "description": "Unleashing <color=#FFD780FF>Tengu Stormcall</color> will leave a weaker Crowfeather at Kujou Sara's original position that will deal 30% of its original DMG.",
+            "extraData": null,
             "icon": "UI_Talent_S_Sara_02"
         },
         "2": {
             "name": "The War Within",
             "description": "Increases the Level of <color=#FFD780FF>Subjugation: Koukou Sendou</color> by 3.\\nMaximum upgrade level is 15.",
+            "extraData": {
+                "addTalentExtraLevel": {
+                    "talentType": "AvatarSkill",
+                    "talentIndex": 9,
+                    "extraLevel": 3
+                }
+            },
             "icon": "UI_Talent_U_Sara_02"
         },
         "3": {
             "name": "Conclusive Proof",
             "description": "The number of Tengu Juurai: Stormcluster released by <color=#FFD780FF>Subjugation: Koukou Sendou</color> is increased to 6.",
+            "extraData": null,
             "icon": "UI_Talent_S_Sara_03"
         },
         "4": {
             "name": "Spellsinger",
             "description": "Increases the Level of <color=#FFD780FF>Tengu Stormcall</color> by 3.\\nMaximum upgrade level is 15.",
+            "extraData": {
+                "addTalentExtraLevel": {
+                    "talentType": "AvatarSkill",
+                    "talentIndex": 2,
+                    "extraLevel": 3
+                }
+            },
             "icon": "UI_Talent_U_Sara_01"
         },
         "5": {
             "name": "Sin of Pride",
             "description": "The <color=#FFACFFFF>Electro DMG</color> of characters who have had their ATK increased by Tengu Juurai has its Crit DMG increased by 60%.",
+            "extraData": null,
             "icon": "UI_Talent_S_Sara_04"
         }
     },

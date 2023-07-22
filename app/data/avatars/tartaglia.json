@@ -156,6 +156,14 @@
         ]
     },
     "other": {
+        "costume": [
+            {
+                "name": "Blades of Glory",
+                "description": "Tartaglia's outfit. Illustrious attire that signifies Childe's position as the eleventh Fatui Harbinger.",
+                "isDefault": true
+            }
+        ],
+        "furnitureId": 368121,
         "nameCard": {
             "id": 210046,
             "name": "Childe: Foul Legacy",
@@ -2361,31 +2369,49 @@
         "0": {
             "name": "Foul Legacy: Tide Withholder",
             "description": "Decreases the CD of <color=#FFD780FF>Foul Legacy: Raging Tide</color> by 20%",
+            "extraData": null,
             "icon": "UI_Talent_S_Tartaglia_01"
         },
         "1": {
             "name": "Foul Legacy: Understream",
             "description": "When opponents affected by Riptide are defeated, Tartaglia regenerates 4 Elemental Energy.",
+            "extraData": null,
             "icon": "UI_Talent_S_Tartaglia_02"
         },
         "2": {
             "name": "Abyssal Mayhem: Vortex of Turmoil",
             "description": "Increases the Level of <color=#FFD780FF>Foul Legacy: Raging Tide</color> by 3.\\nMaximum upgrade level is 15.",
+            "extraData": {
+                "addTalentExtraLevel": {
+                    "talentType": "AvatarSkill",
+                    "talentIndex": 2,
+                    "extraLevel": 3
+                }
+            },
             "icon": "UI_Talent_U_Tartaglia_01"
         },
         "3": {
             "name": "Abyssal Mayhem: Hydrospout",
             "description": "If Tartaglia is in <color=#FFD780FF>Foul Legacy: Raging Tide</color>'s Melee Stance, triggers Riptide Slash against opponents on the field affected by Riptide every 4s, otherwise, triggers Riptide Flash.\\nRiptide Slashes and Riptide Flashes triggered by this Constellation effect are not subject to the time intervals that would typically apply to these two Riptide effects, nor do they have any effect on those time intervals.",
+            "extraData": null,
             "icon": "UI_Talent_S_Tartaglia_05"
         },
         "4": {
             "name": "Havoc: Formless Blade",
             "description": "Increases the Level of <color=#FFD780FF>Havoc: Obliteration</color> by 3.\\nMaximum upgrade level is 15.",
+            "extraData": {
+                "addTalentExtraLevel": {
+                    "talentType": "AvatarSkill",
+                    "talentIndex": 9,
+                    "extraLevel": 3
+                }
+            },
             "icon": "UI_Talent_U_Tartaglia_02"
         },
         "5": {
             "name": "Havoc: Annihilation",
             "description": "When <color=#FFD780FF>Havoc: Obliteration</color> is cast in Melee Stance, the CD of <color=#FFD780FF>Foul Legacy: Raging Tide</color> is reset.\\nThis effect will only take place once Tartaglia returns to his Ranged Stance.",
+            "extraData": null,
             "icon": "UI_Talent_S_Tartaglia_04"
         }
     },

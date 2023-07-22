@@ -156,6 +156,14 @@
         ]
     },
     "other": {
+        "costume": [
+            {
+                "name": "Sparkling Coralbone",
+                "description": "Sangonomiya Kokomi's outfit. A noble's dress decorated with little precious objects produced in Watatsumi Island.",
+                "isDefault": true
+            }
+        ],
+        "furnitureId": 368139,
         "nameCard": {
             "id": 210093,
             "name": "Sangonomiya Kokomi: The Deep",
@@ -2340,7 +2348,7 @@
         },
         "4": {
             "type": 2,
-            "name": "Tamanooya's Casket",
+            "name": "Tamakushi Casket",
             "description": "If Sangonomiya Kokomi's own Bake-Kurage is on the field when she uses <color=#FFD780FF>Nereid's Ascension</color>, the Bake-Kurage's duration will be refreshed.",
             "icon": "UI_Talent_S_Kokomi_05"
         },
@@ -2367,31 +2375,49 @@
         "0": {
             "name": "At Water's Edge",
             "description": "While donning the Ceremonial Garment created by <color=#FFD780FF>Nereid's Ascension</color>, the final Normal Attack in Sangonomiya Kokomi's combo will unleash a swimming fish to deal 30% of her Max HP as <color=#80C0FFFF>Hydro DMG</color>.\\nThis DMG is not considered Normal Attack DMG.",
+            "extraData": null,
             "icon": "UI_Talent_S_Kokomi_01"
         },
         "1": {
             "name": "The Clouds Like Waves Rippling",
             "description": "Sangonomiya Kokomi gains the following Healing Bonuses with regard to characters with 50% or less HP via the following methods:\\n·<color=#FFD780FF>Kurage's Oath</color> Bake-Kurage: 4.5% of Kokomi's Max HP.\\n·<color=#FFD780FF>Nereid's Ascension</color> Normal and Charged Attacks: 0.6% of Kokomi's Max HP.",
+            "extraData": null,
             "icon": "UI_Talent_S_Kokomi_02"
         },
         "2": {
             "name": "The Moon, A Ship O'er the Seas",
             "description": "Increases the Level of <color=#FFD780FF>Nereid's Ascension</color> by 3.\\nMaximum upgrade level is 15.",
+            "extraData": {
+                "addTalentExtraLevel": {
+                    "talentType": "AvatarSkill",
+                    "talentIndex": 9,
+                    "extraLevel": 3
+                }
+            },
             "icon": "UI_Talent_U_Kokomi_02"
         },
         "3": {
             "name": "The Moon Overlooks the Waters",
             "description": "While donning the Ceremonial Garment created by <color=#FFD780FF>Nereid's Ascension</color>, Sangonomiya Kokomi's Normal Attack SPD is increased by 10%, and Normal Attacks that hit opponents will restore 0.8 Energy for her.\\nThis effect can occur once every 0.2s.",
+            "extraData": null,
             "icon": "UI_Talent_S_Kokomi_03"
         },
         "4": {
             "name": "All Streams Flow to the Sea",
             "description": "Increases the Level of <color=#FFD780FF>Kurage's Oath</color> by 3.\\nMaximum upgrade level is 15.",
+            "extraData": {
+                "addTalentExtraLevel": {
+                    "talentType": "AvatarSkill",
+                    "talentIndex": 2,
+                    "extraLevel": 3
+                }
+            },
             "icon": "UI_Talent_U_Kokomi_01"
         },
         "5": {
             "name": "Sango Isshin",
             "description": "While donning the Ceremonial Garment created by <color=#FFD780FF>Nereid's Ascension</color>, Sangonomiya Kokomi gains a 40% <color=#80C0FFFF>Hydro DMG Bonus</color> for 4s when her Normal and Charged Attacks heal, or would heal, any party member with 80% or more HP.",
+            "extraData": null,
             "icon": "UI_Talent_S_Kokomi_04"
         }
     },

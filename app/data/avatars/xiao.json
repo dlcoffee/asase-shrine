@@ -156,6 +156,14 @@
         ]
     },
     "other": {
+        "costume": [
+            {
+                "name": "Endurer of Eons",
+                "description": "Xiao's outfit. Classical battle-wear fit for a thousand years of evil-conquering.",
+                "isDefault": true
+            }
+        ],
+        "furnitureId": 368115,
         "nameCard": {
             "id": 210058,
             "name": "Xiao: Mask",
@@ -2361,31 +2369,49 @@
         "0": {
             "name": "Dissolution Eon: Destroyer of Worlds",
             "description": "Increases <color=#FFD780FF>Lemniscatic Wind Cycling</color>'s charges by 1.",
+            "extraData": null,
             "icon": "UI_Talent_S_Xiao_01"
         },
         "1": {
             "name": "Annihilation Eon: Blossom of Kaleidos",
             "description": "When in the party and not on the field, Xiao's Energy Recharge is increased by 25%.",
+            "extraData": null,
             "icon": "UI_Talent_S_Xiao_02"
         },
         "2": {
             "name": "Conqueror of Evil: Wrath Deity",
             "description": "Increases the Level of <color=#FFD780FF>Lemniscatic Wind Cycling</color> by 3.\\nMaximum upgrade level is 15.",
+            "extraData": {
+                "addTalentExtraLevel": {
+                    "talentType": "AvatarSkill",
+                    "talentIndex": 2,
+                    "extraLevel": 3
+                }
+            },
             "icon": "UI_Talent_U_Xiao_01"
         },
         "3": {
             "name": "Transcension: Extinction of Suffering",
             "description": "When Xiao's HP falls below 50%, he gains a 100% DEF Bonus.",
+            "extraData": null,
             "icon": "UI_Talent_S_Xiao_03"
         },
         "4": {
             "name": "Evolution Eon: Origin of Ignorance",
             "description": "Increases the Level of <color=#FFD780FF>Bane of All Evil</color> by 3.\\nMaximum upgrade level is 15.",
+            "extraData": {
+                "addTalentExtraLevel": {
+                    "talentType": "AvatarSkill",
+                    "talentIndex": 9,
+                    "extraLevel": 3
+                }
+            },
             "icon": "UI_Talent_U_Xiao_02"
         },
         "5": {
             "name": "Conqueror of Evil: Guardian Yaksha",
             "description": "While under the effects of <color=#FFD780FF>Bane of All Evil</color>, hitting at least 2 opponents with Xiao's Plunging Attack will immediately grant him 1 charge of <color=#FFD780FF>Lemniscatic Wind Cycling</color>, and for the next 1s, he may use Lemniscatic Wind Cycling while ignoring its CD.",
+            "extraData": null,
             "icon": "UI_Talent_S_Xiao_04"
         }
     },

@@ -156,6 +156,21 @@
         ]
     },
     "other": {
+        "costume": [
+            {
+                "name": "5-Star Outrider",
+                "description": "Amber's outfit. An Outrider's uniform made for maximum mobility.",
+                "isDefault": true
+            },
+            {
+                "name": "100% Outrider",
+                "description": "Amber's outfit. This is a more formal — but no less cool — version of the Outrider's uniform!",
+                "storyId": 340007,
+                "icon": "UI_AvatarIcon_AmborCostumeWic",
+                "rank": 4
+            }
+        ],
+        "furnitureId": 368110,
         "nameCard": {
             "id": 210003,
             "name": "Amber: Bunny",
@@ -2361,31 +2376,37 @@
         "0": {
             "name": "One Arrow to Rule Them All",
             "description": "Fires 2 arrows per <color=#FFD780FF>Aimed Shot</color>. The second arrow deals 20% of the first arrow's DMG.",
+            "extraData": null,
             "icon": "UI_Talent_S_Ambor_01"
         },
         "1": {
             "name": "Bunny Triggered",
             "description": "Baron Bunny, new and improved! Hitting Baron Bunny's foot with a fully-charged Aimed Shot manually detonates it.\\nExplosion via manual detonation deals 200% additional DMG.",
+            "extraData": null,
             "icon": "UI_Talent_S_Ambor_02"
         },
         "2": {
             "name": "It Burns!",
             "description": "Increases the Level of <color=#FFD780FF>Fiery Rain</color> by 3.\\nMaximum upgrade level is 15.",
+            "extraData": null,
             "icon": "UI_Talent_U_Ambor_02"
         },
         "3": {
             "name": "It's Not Just Any Doll...",
             "description": "Decreases <color=#FFD780FF>Explosive Puppet</color>'s CD by 20%. Adds 1 additional charge.",
+            "extraData": null,
             "icon": "UI_Talent_S_Ambor_03"
         },
         "4": {
             "name": "It's Baron Bunny!",
             "description": "Increases the Level of <color=#FFD780FF>Explosive Puppet</color> by 3.\\nMaximum upgrade level is 15.",
+            "extraData": null,
             "icon": "UI_Talent_U_Ambor_01"
         },
         "5": {
             "name": "Wildfire",
             "description": "<color=#FFD780FF>Fiery Rain</color> increases all party members' Movement SPD by 15% and ATK by 15% for 10s.",
+            "extraData": null,
             "icon": "UI_Talent_S_Ambor_04"
         }
     },

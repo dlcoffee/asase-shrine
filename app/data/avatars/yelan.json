@@ -156,6 +156,14 @@
         ]
     },
     "other": {
+        "costume": [
+            {
+                "name": "The Waning Point",
+                "description": "Yelan's outfit. It has lurked alongside its wearer in the shadows over many a year, to the point where the outfit almost has a mysterious temper of its own, like an orchid blooming at midnight.",
+                "isDefault": true
+            }
+        ],
+        "furnitureId": 368149,
         "nameCard": {
             "id": 210119,
             "name": "Yelan: Throw",
@@ -2361,31 +2369,49 @@
         "0": {
             "name": "Enter the Plotters",
             "description": "<color=#FFD780FF>Lingering Lifeline</color> gains 1 additional charge.",
+            "extraData": null,
             "icon": "UI_Talent_S_Yelan_01"
         },
         "1": {
             "name": "Taking All Comers",
             "description": "When <color=#FFD780FF>Exquisite Throw</color> conducts a coordinated attack, it will fire an additional water arrow that will deal 14% of Yelan's Max HP as Hydro DMG.\\nThis effect can trigger once every 1.8s.",
+            "extraData": null,
             "icon": "UI_Talent_S_Yelan_02"
         },
         "2": {
             "name": "Beware the Trickster's Dice",
             "description": "Increases the Level of <color=#FFD780FF>Depth-Clarion Dice</color> by 3.\\nMaximum upgrade level is 15.",
+            "extraData": {
+                "addTalentExtraLevel": {
+                    "talentType": "AvatarSkill",
+                    "talentIndex": 9,
+                    "extraLevel": 3
+                }
+            },
             "icon": "UI_Talent_U_Yelan_01"
         },
         "3": {
             "name": "Bait-and-Switch",
             "description": "Increases all party members' Max HP by 10% for 25s for every opponent marked by <color=#FFD780FF>Lifeline</color> when the Lifeline explodes. A maximum increase of 40% Max HP can be attained in this manner.",
+            "extraData": null,
             "icon": "UI_Talent_S_Yelan_03"
         },
         "4": {
             "name": "Dealer's Sleight",
             "description": "Increases the Level of <color=#FFD780FF>Lingering Lifeline</color> by 3.\\nMaximum upgrade level is 15.",
+            "extraData": {
+                "addTalentExtraLevel": {
+                    "talentType": "AvatarSkill",
+                    "talentIndex": 2,
+                    "extraLevel": 3
+                }
+            },
             "icon": "UI_Talent_U_Yelan_02"
         },
         "5": {
             "name": "Winner Takes All",
             "description": "After using <color=#FFD780FF>Depth-Clarion Dice</color>, Yelan will enter the Mastermind state.\\nIn this state, all of Yelan's Normal Attacks will be special Breakthrough Barbs. These Breakthrough Barbs will have similar abilities to normal ones and the DMG dealt will be considered Charged Attack DMG, dealing 156% of a normal Breakthrough Barb's DMG.\\n\\nThe Mastermind state lasts 20s and will be cleared after Yelan fires 5 arrows.",
+            "extraData": null,
             "icon": "UI_Talent_S_Yelan_04"
         }
     },

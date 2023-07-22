@@ -156,6 +156,14 @@
         ]
     },
     "other": {
+        "costume": [
+            {
+                "name": "Plum Blossom Bouquet",
+                "description": "Hu Tao's outfit. The daily work clothes of the Wangsheng Funeral Parlor's director.",
+                "isDefault": true
+            }
+        ],
+        "furnitureId": 368133,
         "nameCard": {
             "id": 210059,
             "name": "Hu Tao: Spirit Soother",
@@ -2360,32 +2368,50 @@
     "constellation": {
         "0": {
             "name": "Crimson Bouquet",
-            "description": "While in a <color=#FFD780FF>Paramita Papilio</color> state activated by <color=#FFD780FF>Guide to Afterlife</color>, Hu Tao's Charge Attacks do not consume Stamina.",
+            "description": "While in a <color=#FFD780FF>Paramita Papilio</color> state activated by <color=#FFD780FF>Guide to Afterlife</color>, Hu Tao's Charged Attacks do not consume Stamina.",
+            "extraData": null,
             "icon": "UI_Talent_S_Hutao_03"
         },
         "1": {
             "name": "Ominous Rainfall",
             "description": "Increases the <color=#FFD780FF>Blood Blossom</color> DMG by an amount equal to 10% of Hu Tao's Max HP at the time the effect is applied.\\nAdditionally, <color=#FFD780FF>Spirit Soother</color> will also apply the <color=#FFD780FF>Blood Blossom</color> effect.",
+            "extraData": null,
             "icon": "UI_Talent_S_Hutao_01"
         },
         "2": {
             "name": "Lingering Carmine",
             "description": "Increases the Level of <color=#FFD780FF>Guide to Afterlife</color> by 3.\\nMaximum upgrade level is 15.",
+            "extraData": {
+                "addTalentExtraLevel": {
+                    "talentType": "AvatarSkill",
+                    "talentIndex": 2,
+                    "extraLevel": 3
+                }
+            },
             "icon": "UI_Talent_U_Hutao_01"
         },
         "3": {
             "name": "Garden of Eternal Rest",
             "description": "Upon defeating an enemy affected by a <color=#FFD780FF>Blood Blossom</color> that Hu Tao applied herself, all nearby allies in the party (excluding Hu Tao herself) will have their CRIT Rate increased by 12% for 15s.",
+            "extraData": null,
             "icon": "UI_Talent_S_Hutao_02"
         },
         "4": {
             "name": "Floral Incense",
             "description": "Increases the Level of <color=#FFD780FF>Spirit Soother</color> by 3.\\nMaximum upgrade level is 15.",
+            "extraData": {
+                "addTalentExtraLevel": {
+                    "talentType": "AvatarSkill",
+                    "talentIndex": 9,
+                    "extraLevel": 3
+                }
+            },
             "icon": "UI_Talent_U_Hutao_02"
         },
         "5": {
             "name": "Butterfly's Embrace",
             "description": "Triggers when Hu Tao's HP drops below 25%, or when she suffers a lethal strike:\\nHu Tao will not fall as a result of the DMG sustained. Additionally, for the next 10s, her All Elemental and Physical RES is increased by 200%, her CRIT Rate is increased by 100%, and her resistance to interruption is greatly increased.\\nThis effect triggers automatically when Hu Tao has 1 HP left.\\nCan only occur once every 60s.",
+            "extraData": null,
             "icon": "UI_Talent_S_Hutao_04"
         }
     },

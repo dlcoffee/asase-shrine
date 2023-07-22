@@ -156,6 +156,21 @@
         ]
     },
     "other": {
+        "costume": [
+            {
+                "name": "Purple Rose",
+                "description": "Lisa's outfit. A slim-fit dress adorned with roses that displays a young lady's elegance.",
+                "isDefault": true
+            },
+            {
+                "name": "A Sobriquet Under Shade",
+                "description": "An outfit Lisa had someone commission for her when she revisited Sumeru. A perfect blend of practicality and elegance, the dress bears a resemblance to Lisa's old uniform from her Akademiya days.",
+                "storyId": 340011,
+                "icon": "UI_AvatarIcon_LisaCostumeStudentin",
+                "rank": 4
+            }
+        ],
+        "furnitureId": 368105,
         "nameCard": {
             "id": 210011,
             "name": "Lisa: Tempus Fugit",
@@ -2361,31 +2376,49 @@
         "0": {
             "name": "Infinite Circuit",
             "description": "Lisa regenerates 2 Energy for every opponent hit while holding <color=#FFD780FF>Violet Arc</color>.\\nA maximum of 10 Energy can be regenerated in this manner at any one time.",
+            "extraData": null,
             "icon": "UI_Talent_S_Lisa_01"
         },
         "1": {
             "name": "Electromagnetic Field",
             "description": "Holding <color=#FFD780FF>Violet Arc</color> has the following effects:\\n·Increases DEF by 25%.\\n·Increases Lisa's resistance to interruption.",
+            "extraData": null,
             "icon": "UI_Talent_S_Lisa_02"
         },
         "2": {
             "name": "Resonant Thunder",
             "description": "Increases the Level of <color=#FFD780FF>Lightning Rose</color> by 3.\\nMaximum upgrade level is 15.",
+            "extraData": {
+                "addTalentExtraLevel": {
+                    "talentType": "AvatarSkill",
+                    "talentIndex": 9,
+                    "extraLevel": 3
+                }
+            },
             "icon": "UI_Talent_U_Lisa_02"
         },
         "3": {
             "name": "Plasma Eruption",
             "description": "<color=#FFD780FF>Lightning Rose</color> now unleashes 1-3 lightning bolts when it attacks.",
+            "extraData": null,
             "icon": "UI_Talent_S_Lisa_03"
         },
         "4": {
             "name": "Electrocute",
             "description": "Increases the Level of <color=#FFD780FF>Violet Arc</color> by 3.\\nMaximum upgrade level is 15.",
+            "extraData": {
+                "addTalentExtraLevel": {
+                    "talentType": "AvatarSkill",
+                    "talentIndex": 2,
+                    "extraLevel": 3
+                }
+            },
             "icon": "UI_Talent_U_Lisa_01"
         },
         "5": {
             "name": "Pulsating Witch",
             "description": "When Lisa takes the field, she applies 3 stacks of <color=#FFD780FF>Violet Arc</color>'s Conductive status onto nearby opponents.\\nThis effect can only occur once every 5s.",
+            "extraData": null,
             "icon": "UI_Talent_S_Lisa_04"
         }
     },
