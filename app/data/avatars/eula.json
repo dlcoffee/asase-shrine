@@ -156,6 +156,14 @@
         ]
     },
     "other": {
+        "costume": [
+            {
+                "name": "Wavecrest Waltz",
+                "description": "Eula's outfit. Consummate elegance shines through in this neat and smart knight's uniform.",
+                "isDefault": true
+            }
+        ],
+        "furnitureId": 368103,
         "nameCard": {
             "id": 210070,
             "name": "Eula: Ice-Sealed",
@@ -915,7 +923,7 @@
                     "costItems": null,
                     "coinCost": null,
                     "description": [
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:P}",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:P}",
                         "Hold DMG|{param2:P}",
                         "Icewhirl Brand DMG|{param3:P}",
                         "DEF Bonus|{param9:P} Per Stack",
@@ -923,8 +931,8 @@
                         "Physical RES Decrease|{param4:P}",
                         "Cryo RES Decrease|{param5:P}",
                         "RES Decrease Duration|{param6:F1}s",
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param7:F1}s",
-                        "CD (hold)|{param8:F1}s",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param7:F1}s",
+                        "Hold CD|{param8:F1}s",
                         "",
                         "",
                         "",
@@ -963,7 +971,7 @@
                     },
                     "coinCost": 12500,
                     "description": [
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:P}",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:P}",
                         "Hold DMG|{param2:P}",
                         "Icewhirl Brand DMG|{param3:P}",
                         "DEF Bonus|{param9:P} Per Stack",
@@ -971,8 +979,8 @@
                         "Physical RES Decrease|{param4:P}",
                         "Cryo RES Decrease|{param5:P}",
                         "RES Decrease Duration|{param6:F1}s",
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param7:F1}s",
-                        "CD (hold)|{param8:F1}s",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param7:F1}s",
+                        "Hold CD|{param8:F1}s",
                         "",
                         "",
                         "",
@@ -1011,7 +1019,7 @@
                     },
                     "coinCost": 17500,
                     "description": [
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:P}",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:P}",
                         "Hold DMG|{param2:P}",
                         "Icewhirl Brand DMG|{param3:P}",
                         "DEF Bonus|{param9:P} Per Stack",
@@ -1019,8 +1027,8 @@
                         "Physical RES Decrease|{param4:P}",
                         "Cryo RES Decrease|{param5:P}",
                         "RES Decrease Duration|{param6:F1}s",
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param7:F1}s",
-                        "CD (hold)|{param8:F1}s",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param7:F1}s",
+                        "Hold CD|{param8:F1}s",
                         "",
                         "",
                         "",
@@ -1059,7 +1067,7 @@
                     },
                     "coinCost": 25000,
                     "description": [
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:P}",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:P}",
                         "Hold DMG|{param2:P}",
                         "Icewhirl Brand DMG|{param3:P}",
                         "DEF Bonus|{param9:P} Per Stack",
@@ -1067,8 +1075,8 @@
                         "Physical RES Decrease|{param4:P}",
                         "Cryo RES Decrease|{param5:P}",
                         "RES Decrease Duration|{param6:F1}s",
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param7:F1}s",
-                        "CD (hold)|{param8:F1}s",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param7:F1}s",
+                        "Hold CD|{param8:F1}s",
                         "",
                         "",
                         "",
@@ -1107,7 +1115,7 @@
                     },
                     "coinCost": 30000,
                     "description": [
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:P}",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:P}",
                         "Hold DMG|{param2:P}",
                         "Icewhirl Brand DMG|{param3:P}",
                         "DEF Bonus|{param9:P} Per Stack",
@@ -1115,8 +1123,8 @@
                         "Physical RES Decrease|{param4:P}",
                         "Cryo RES Decrease|{param5:P}",
                         "RES Decrease Duration|{param6:F1}s",
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param7:F1}s",
-                        "CD (hold)|{param8:F1}s",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param7:F1}s",
+                        "Hold CD|{param8:F1}s",
                         "",
                         "",
                         "",
@@ -1155,7 +1163,7 @@
                     },
                     "coinCost": 37500,
                     "description": [
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:P}",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:P}",
                         "Hold DMG|{param2:P}",
                         "Icewhirl Brand DMG|{param3:P}",
                         "DEF Bonus|{param9:P} Per Stack",
@@ -1163,8 +1171,8 @@
                         "Physical RES Decrease|{param4:P}",
                         "Cryo RES Decrease|{param5:P}",
                         "RES Decrease Duration|{param6:F1}s",
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param7:F1}s",
-                        "CD (hold)|{param8:F1}s",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param7:F1}s",
+                        "Hold CD|{param8:F1}s",
                         "",
                         "",
                         "",
@@ -1204,7 +1212,7 @@
                     },
                     "coinCost": 120000,
                     "description": [
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:P}",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:P}",
                         "Hold DMG|{param2:P}",
                         "Icewhirl Brand DMG|{param3:P}",
                         "DEF Bonus|{param9:P} Per Stack",
@@ -1212,8 +1220,8 @@
                         "Physical RES Decrease|{param4:P}",
                         "Cryo RES Decrease|{param5:P}",
                         "RES Decrease Duration|{param6:F1}s",
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param7:F1}s",
-                        "CD (hold)|{param8:F1}s",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param7:F1}s",
+                        "Hold CD|{param8:F1}s",
                         "",
                         "",
                         "",
@@ -1253,7 +1261,7 @@
                     },
                     "coinCost": 260000,
                     "description": [
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:P}",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:P}",
                         "Hold DMG|{param2:P}",
                         "Icewhirl Brand DMG|{param3:P}",
                         "DEF Bonus|{param9:P} Per Stack",
@@ -1261,8 +1269,8 @@
                         "Physical RES Decrease|{param4:P}",
                         "Cryo RES Decrease|{param5:P}",
                         "RES Decrease Duration|{param6:F1}s",
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param7:F1}s",
-                        "CD (hold)|{param8:F1}s",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param7:F1}s",
+                        "Hold CD|{param8:F1}s",
                         "",
                         "",
                         "",
@@ -1302,7 +1310,7 @@
                     },
                     "coinCost": 450000,
                     "description": [
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:P}",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:P}",
                         "Hold DMG|{param2:P}",
                         "Icewhirl Brand DMG|{param3:P}",
                         "DEF Bonus|{param9:P} Per Stack",
@@ -1310,8 +1318,8 @@
                         "Physical RES Decrease|{param4:P}",
                         "Cryo RES Decrease|{param5:P}",
                         "RES Decrease Duration|{param6:F1}s",
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param7:F1}s",
-                        "CD (hold)|{param8:F1}s",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param7:F1}s",
+                        "Hold CD|{param8:F1}s",
                         "",
                         "",
                         "",
@@ -1352,7 +1360,7 @@
                     },
                     "coinCost": 700000,
                     "description": [
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:P}",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:P}",
                         "Hold DMG|{param2:P}",
                         "Icewhirl Brand DMG|{param3:P}",
                         "DEF Bonus|{param9:P} Per Stack",
@@ -1360,8 +1368,8 @@
                         "Physical RES Decrease|{param4:P}",
                         "Cryo RES Decrease|{param5:P}",
                         "RES Decrease Duration|{param6:F1}s",
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param7:F1}s",
-                        "CD (hold)|{param8:F1}s",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param7:F1}s",
+                        "Hold CD|{param8:F1}s",
                         "",
                         "",
                         "",
@@ -1397,7 +1405,7 @@
                     "costItems": null,
                     "coinCost": null,
                     "description": [
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:P}",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:P}",
                         "Hold DMG|{param2:P}",
                         "Icewhirl Brand DMG|{param3:P}",
                         "DEF Bonus|{param9:P} Per Stack",
@@ -1405,8 +1413,8 @@
                         "Physical RES Decrease|{param4:P}",
                         "Cryo RES Decrease|{param5:P}",
                         "RES Decrease Duration|{param6:F1}s",
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param7:F1}s",
-                        "CD (hold)|{param8:F1}s",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param7:F1}s",
+                        "Hold CD|{param8:F1}s",
                         "",
                         "",
                         "",
@@ -1442,7 +1450,7 @@
                     "costItems": null,
                     "coinCost": null,
                     "description": [
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:P}",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:P}",
                         "Hold DMG|{param2:P}",
                         "Icewhirl Brand DMG|{param3:P}",
                         "DEF Bonus|{param9:P} Per Stack",
@@ -1450,8 +1458,8 @@
                         "Physical RES Decrease|{param4:P}",
                         "Cryo RES Decrease|{param5:P}",
                         "RES Decrease Duration|{param6:F1}s",
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param7:F1}s",
-                        "CD (hold)|{param8:F1}s",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param7:F1}s",
+                        "Hold CD|{param8:F1}s",
                         "",
                         "",
                         "",
@@ -1487,7 +1495,7 @@
                     "costItems": null,
                     "coinCost": null,
                     "description": [
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:P}",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:P}",
                         "Hold DMG|{param2:P}",
                         "Icewhirl Brand DMG|{param3:P}",
                         "DEF Bonus|{param9:P} Per Stack",
@@ -1495,8 +1503,8 @@
                         "Physical RES Decrease|{param4:P}",
                         "Cryo RES Decrease|{param5:P}",
                         "RES Decrease Duration|{param6:F1}s",
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param7:F1}s",
-                        "CD (hold)|{param8:F1}s",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param7:F1}s",
+                        "Hold CD|{param8:F1}s",
                         "",
                         "",
                         "",
@@ -1532,7 +1540,7 @@
                     "costItems": null,
                     "coinCost": null,
                     "description": [
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:P}",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:P}",
                         "Hold DMG|{param2:P}",
                         "Icewhirl Brand DMG|{param3:P}",
                         "DEF Bonus|{param9:P} Per Stack",
@@ -1540,8 +1548,8 @@
                         "Physical RES Decrease|{param4:P}",
                         "Cryo RES Decrease|{param5:P}",
                         "RES Decrease Duration|{param6:F1}s",
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param7:F1}s",
-                        "CD (hold)|{param8:F1}s",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param7:F1}s",
+                        "Hold CD|{param8:F1}s",
                         "",
                         "",
                         "",
@@ -1577,7 +1585,7 @@
                     "costItems": null,
                     "coinCost": null,
                     "description": [
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:P}",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:P}",
                         "Hold DMG|{param2:P}",
                         "Icewhirl Brand DMG|{param3:P}",
                         "DEF Bonus|{param9:P} Per Stack",
@@ -1585,8 +1593,8 @@
                         "Physical RES Decrease|{param4:P}",
                         "Cryo RES Decrease|{param5:P}",
                         "RES Decrease Duration|{param6:F1}s",
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param7:F1}s",
-                        "CD (hold)|{param8:F1}s",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param7:F1}s",
+                        "Hold CD|{param8:F1}s",
                         "",
                         "",
                         "",
@@ -2361,31 +2369,49 @@
         "0": {
             "name": "Tidal Illusion",
             "description": "Every time <color=#FFD780FF>Icetide Vortex</color>'s Grimheart stacks are consumed, Eula's Physical DMG is increased by 30% for 6s.\\nEach stack consumed will increase the duration of this effect by 6s up to a maximum of 18s.",
+            "extraData": null,
             "icon": "UI_Talent_S_Eula_02"
         },
         "1": {
             "name": "Lady of Seafoam",
             "description": "#Decreases the CD of <color=#FFD780FF>Icetide Vortex</color>'s Holding Mode, rendering it identical to {LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD.",
+            "extraData": null,
             "icon": "UI_Talent_S_Eula_01"
         },
         "2": {
             "name": "Lawrence Pedigree",
             "description": "Increases the Level of <color=#FFD780FF>Glacial Illumination</color> by 3.\\nMaximum upgrade level is 15.",
+            "extraData": {
+                "addTalentExtraLevel": {
+                    "talentType": "AvatarSkill",
+                    "talentIndex": 9,
+                    "extraLevel": 3
+                }
+            },
             "icon": "UI_Talent_U_Eula_01"
         },
         "3": {
             "name": "The Obstinacy of One's Inferiors",
             "description": "Lightfall Swords deal 25% increased DMG against opponents with less than 50% HP.",
+            "extraData": null,
             "icon": "UI_Talent_S_Eula_03"
         },
         "4": {
             "name": "Chivalric Quality",
             "description": "Increases the Level of <color=#FFD780FF>Icetide Vortex</color> by 3.\\nMaximum upgrade level is 15.",
+            "extraData": {
+                "addTalentExtraLevel": {
+                    "talentType": "AvatarSkill",
+                    "talentIndex": 2,
+                    "extraLevel": 3
+                }
+            },
             "icon": "UI_Talent_U_Eula_02"
         },
         "5": {
             "name": "Noble Obligation",
             "description": "Lightfall Swords created by <color=#FFD780FF>Glacial Illumination</color> start with 5 stacks of energy. Normal Attacks, Elemental Skills, and Elemental Bursts have a 50% chance to grant the Lightfall Sword an additional stack of energy.",
+            "extraData": null,
             "icon": "UI_Talent_S_Eula_04"
         }
     },

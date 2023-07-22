@@ -156,6 +156,21 @@
         ]
     },
     "other": {
+        "costume": [
+            {
+                "name": "Darknight Blaze",
+                "description": "Diluc's outfit. A smart and tasteful suit fit for a nobleman.",
+                "isDefault": true
+            },
+            {
+                "name": "Red Dead of Night",
+                "description": "One of the outfits Diluc wears during covert actions, it resembles a flame dancing in the shadows. The crimson red traces it leaves behind at the edges of the enemy's vision will scar their nightmares forever.",
+                "storyId": 340004,
+                "icon": "UI_AvatarIcon_DilucCostumeFlamme",
+                "rank": 5
+            }
+        ],
+        "furnitureId": 368108,
         "nameCard": {
             "id": 210005,
             "name": "Diluc: Flames",
@@ -2361,31 +2376,37 @@
         "0": {
             "name": "Conviction",
             "description": "Diluc deals 15% more DMG to opponents whose HP is above 50%.",
+            "extraData": null,
             "icon": "UI_Talent_S_Diluc_01"
         },
         "1": {
             "name": "Searing Ember",
             "description": "When Diluc takes DMG, his ATK increases by 10% and his ATK SPD increases by 5%. Lasts for 10s.\\nThis effect can stack up to 3 times and can only occur once every 1.5s.",
+            "extraData": null,
             "icon": "UI_Talent_S_Diluc_02"
         },
         "2": {
             "name": "Fire and Steel",
             "description": "Increases the Level of <color=#FFD780FF>Searing Onslaught</color> by 3.\\nMaximum upgrade level is 15.",
+            "extraData": null,
             "icon": "UI_Talent_U_Diluc_01"
         },
         "3": {
             "name": "Flowing Flame",
             "description": "Casting <color=#FFD780FF>Searing Onslaught</color> in rhythm greatly increases damage dealt.\\n2s after casting <color=#FFD780FF>Searing Onslaught</color>, casting the next Searing Onslaught in the combo deals 40% additional DMG. This effect lasts for 2s.",
+            "extraData": null,
             "icon": "UI_Talent_S_Diluc_03"
         },
         "4": {
             "name": "Phoenix, Harbinger of Dawn",
             "description": "Increases the Level of <color=#FFD780FF>Dawn</color> by 3.\\nMaximum upgrade level is 15.",
+            "extraData": null,
             "icon": "UI_Talent_U_Diluc_02"
         },
         "5": {
             "name": "Flaming Sword, Nemesis of the Dark",
             "description": "After casting <color=#FFD780FF>Searing Onslaught</color>, the next 2 Normal Attacks within the next 6s will have their DMG and ATK SPD increased by 30%.\\nAdditionally, Searing Onslaught will not interrupt the Normal Attack combo.",
+            "extraData": null,
             "icon": "UI_Talent_S_Diluc_04"
         }
     },

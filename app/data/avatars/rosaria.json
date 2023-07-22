@@ -156,6 +156,21 @@
         ]
     },
     "other": {
+        "costume": [
+            {
+                "name": "Executor's Thorns",
+                "description": "Rosaria's outfit. Rosaria has heavily modified this particular Church of Favonius uniform.",
+                "isDefault": true
+            },
+            {
+                "name": "To the Church's Free Spirit",
+                "description": "Rosaria's outfit. This seems to have been custom-made for her by the Church.",
+                "storyId": 340009,
+                "icon": "UI_AvatarIcon_RosariaCostumeWic",
+                "rank": 4
+            }
+        ],
+        "furnitureId": 368132,
         "nameCard": {
             "id": 210063,
             "name": "Rosaria: Indenture",
@@ -2361,31 +2376,49 @@
         "0": {
             "name": "Unholy Revelation",
             "description": "When Rosaria deals a CRIT Hit, her ATK SPD increases by 10% and her Normal Attack DMG increases by 10% for 4s.",
+            "extraData": null,
             "icon": "UI_Talent_S_Rosaria_01"
         },
         "1": {
             "name": "Land Without Promise",
             "description": "The duration of the Ice Lance created by <color=#FFD780FF>Rites of Termination</color> is increased by 4s.",
+            "extraData": null,
             "icon": "UI_Talent_S_Rosaria_02"
         },
         "2": {
             "name": "The Wages of Sin",
             "description": "Increases the Level of <color=#FFD780FF>Ravaging Confession</color> by 3.\\nMaximum upgrade level is 15.",
+            "extraData": {
+                "addTalentExtraLevel": {
+                    "talentType": "AvatarSkill",
+                    "talentIndex": 2,
+                    "extraLevel": 3
+                }
+            },
             "icon": "UI_Talent_U_Rosaria_01"
         },
         "3": {
             "name": "Painful Grace",
             "description": "<color=#FFD780FF>Ravaging Confession</color>'s CRIT Hits regenerate 5 Energy for Rosaria.\\nCan only be triggered once each time Ravaging Confession is cast.",
+            "extraData": null,
             "icon": "UI_Talent_S_Rosaria_03"
         },
         "4": {
             "name": "Last Rites",
             "description": "Increases the Level of <color=#FFD780FF>Rites of Termination</color> by 3.\\nMaximum upgrade level is 15.",
+            "extraData": {
+                "addTalentExtraLevel": {
+                    "talentType": "AvatarSkill",
+                    "talentIndex": 9,
+                    "extraLevel": 3
+                }
+            },
             "icon": "UI_Talent_U_Rosaria_02"
         },
         "5": {
             "name": "Divine Retribution",
             "description": "<color=#FFD780FF>Rites of Termination</color>'s attack decreases opponents' Physical RES by 20% for 10s.",
+            "extraData": null,
             "icon": "UI_Talent_S_Rosaria_04"
         }
     },

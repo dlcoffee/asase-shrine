@@ -156,6 +156,14 @@
         ]
     },
     "other": {
+        "costume": [
+            {
+                "name": "Mistcloud Stage",
+                "description": "Yun Jin's outfit. It was made by skilled tailors from the Feiyun Commerce Guild. Yun Jin fell in love with it at first sight, and it is now her favorite set of casual wear.",
+                "isDefault": true
+            }
+        ],
+        "furnitureId": 368146,
         "nameCard": {
             "id": 210108,
             "name": "Yun Jin: Rhyme",
@@ -2361,31 +2369,49 @@
         "0": {
             "name": "Thespian Gallop",
             "description": "<color=#FFD780FF>Opening Flourish's</color> CD is decreased by 18%.",
+            "extraData": null,
             "icon": "UI_Talent_S_Yunjin_01"
         },
         "1": {
             "name": "Myriad Mise-En-Scène",
             "description": "After <color=#FFD780FF>Cliffbreaker's Banner</color> is unleashed, all nearby party members' Normal Attack DMG is increased by 15% for 12s.",
+            "extraData": null,
             "icon": "UI_Talent_S_Yunjin_02"
         },
         "2": {
             "name": "Seafaring General",
             "description": "Increases the Level of <color=#FFD780FF>Cliffbreaker's Banner</color> by 3.\\nMaximum upgrade level is 15.",
+            "extraData": {
+                "addTalentExtraLevel": {
+                    "talentType": "AvatarSkill",
+                    "talentIndex": 9,
+                    "extraLevel": 3
+                }
+            },
             "icon": "UI_Talent_U_Yunjin_01"
         },
         "3": {
             "name": "Flower and a Fighter",
             "description": "When Yun Jin triggers the Crystallize Reaction, her DEF is increased by 20% for 12s.",
+            "extraData": null,
             "icon": "UI_Talent_S_Yunjin_03"
         },
         "4": {
             "name": "Famed Throughout the Land",
             "description": "Increases the Level of <color=#FFD780FF>Opening Flourish</color> by 3.\\nMaximum upgrade level is 15.",
+            "extraData": {
+                "addTalentExtraLevel": {
+                    "talentType": "AvatarSkill",
+                    "talentIndex": 2,
+                    "extraLevel": 3
+                }
+            },
             "icon": "UI_Talent_U_Yunjin_02"
         },
         "5": {
             "name": "Decorous Harmony",
             "description": "Characters under the effects of the <color=#FFD780FF>Flying Cloud Flag Formation</color> have their Normal ATK SPD increased by 12%.",
+            "extraData": null,
             "icon": "UI_Talent_S_Yunjin_04"
         }
     },

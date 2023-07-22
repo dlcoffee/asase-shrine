@@ -156,6 +156,14 @@
         ]
     },
     "other": {
+        "costume": [
+            {
+                "name": "Cherubic Osmanthus",
+                "description": "Yaoyao's outfit. A lovely, short jacket Yaoyao's parents made for her. As the little girl travels safely between Qingce Village and Liyue Harbor, this jacket, along with the adeptal bells her master gave her, always keeps her company.",
+                "isDefault": true
+            }
+        ],
+        "furnitureId": 368162,
         "nameCard": {
             "id": 210148,
             "name": "Yaoyao: Yuegui",
@@ -2361,31 +2369,49 @@
         "0": {
             "name": "Adeptus' Tutelage",
             "description": "When <color=#FFD780FF>White Jade Radishes</color> explode, active characters within their AoE will gain 15% <color=#99FF88FF>Dendro DMG Bonus</color> for 8s and have 15 Stamina restored to them. This form of Stamina Restoration can only be triggered every 5s.",
+            "extraData": null,
             "icon": "UI_Talent_S_Yaoyao_01"
         },
         "1": {
             "name": "Innocent",
             "description": "While affected by the Adeptal Legacy state caused by <color=#FFD780FF>Moonjade Descent</color>, if White Jade Radish explosions hit opponents, 3 Energy will be restored to Yaoyao. This form of Energy regeneration can occur once every 0.8s.",
+            "extraData": null,
             "icon": "UI_Talent_S_Yaoyao_02"
         },
         "2": {
             "name": "Loyal and Kind",
             "description": "Increases the Level of <color=#FFD780FF>Raphanus Sky Cluster</color> by 3.\\nMaximum upgrade level is 15.",
+            "extraData": {
+                "addTalentExtraLevel": {
+                    "talentType": "AvatarSkill",
+                    "talentIndex": 2,
+                    "extraLevel": 3
+                }
+            },
             "icon": "UI_Talent_U_Yaoyao_01"
         },
         "3": {
             "name": "Winsome",
             "description": "After using <color=#FFD780FF>Raphanus Sky Cluster</color> or <color=#FFD780FF>Moonjade Descent</color>, Yaoyao's Elemental Mastery will be increased based on 0.3% of her Max HP for 8s. The maximum Elemental Mastery she can gain this way is 120.",
+            "extraData": null,
             "icon": "UI_Talent_S_Yaoyao_03"
         },
         "4": {
             "name": "Compassionate",
             "description": "Increases the Level of <color=#FFD780FF>Moonjade Descent</color> by 3.\\nMaximum upgrade level is 15.",
+            "extraData": {
+                "addTalentExtraLevel": {
+                    "talentType": "AvatarSkill",
+                    "talentIndex": 9,
+                    "extraLevel": 3
+                }
+            },
             "icon": "UI_Talent_U_Yaoyao_02"
         },
         "5": {
             "name": "Beneficent",
             "description": "For every 2 White Jade Radishes <color=#FFD780FF>Yuegui: Throwing Mode</color> throws out, the next throw will also release a Mega Radish that will have a larger AoE than the standard White Jade Radish and have the following effects upon exploding:\\n·Deals <color=#99FF88FF>AoE Dendro DMG</color> based on 75% of Yaoyao's ATK.\\n·Restores HP for the active character based on 7.5% of Yaoyao's Max HP.\\n\\nEvery Yuegui: Throwing Mode can throw out a maximum of 2 Mega Radishes.",
+            "extraData": null,
             "icon": "UI_Talent_S_Yaoyao_04"
         }
     },

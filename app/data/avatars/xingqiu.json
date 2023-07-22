@@ -156,6 +156,14 @@
         ]
     },
     "other": {
+        "costume": [
+            {
+                "name": "Azure Silk",
+                "description": "Xingqiu's outfit. Fine robes woven from the high-quality silk sold by the Feiyun Commerce Guild.",
+                "isDefault": true
+            }
+        ],
+        "furnitureId": 368114,
         "nameCard": {
             "id": 210018,
             "name": "Xingqiu: Rainbow",
@@ -2361,31 +2369,49 @@
         "0": {
             "name": "The Scent Remained",
             "description": "Increases the maximum number of Rain Swords by 1.",
+            "extraData": null,
             "icon": "UI_Talent_S_Xingqiu_01"
         },
         "1": {
             "name": "Rainbow Upon the Azure Sky",
             "description": "Extends the duration of <color=#FFD780FF>Guhua Sword: Raincutter</color> by 3s.\\nDecreases the <color=#80C0FFFF>Hydro RES</color> of opponents hit by sword rain attacks by 15% for 4s.",
+            "extraData": null,
             "icon": "UI_Talent_S_Xingqiu_02"
         },
         "2": {
             "name": "Weaver of Verses",
             "description": "Increases the Level of <color=#FFD780FF>Guhua Sword: Raincutter</color> by 3.\\nMaximum upgrade level is 15.",
+            "extraData": {
+                "addTalentExtraLevel": {
+                    "talentType": "AvatarSkill",
+                    "talentIndex": 9,
+                    "extraLevel": 3
+                }
+            },
             "icon": "UI_Talent_U_Xingqiu_01"
         },
         "3": {
             "name": "Evilsoother",
             "description": "Throughout the duration of <color=#FFD780FF>Guhua Sword: Raincutter</color>, the DMG dealt by <color=#FFD780FF>Guhua Sword: Fatal Rainscreen</color> is increased by 50%.",
+            "extraData": null,
             "icon": "UI_Talent_S_Xingqiu_03"
         },
         "4": {
             "name": "Embrace of Rain",
             "description": "Increases the Level of <color=#FFD780FF>Guhua Sword: Fatal Rainscreen</color> by 3.\\nMaximum upgrade level is 15.",
+            "extraData": {
+                "addTalentExtraLevel": {
+                    "talentType": "AvatarSkill",
+                    "talentIndex": 2,
+                    "extraLevel": 3
+                }
+            },
             "icon": "UI_Talent_U_Xingqiu_02"
         },
         "5": {
             "name": "Hence, Call Them My Own Verses",
             "description": "Activating 2 of <color=#FFD780FF>Guhua Sword: Raincutter</color>'s sword rain attacks greatly enhances the third sword rain attack. On hit, the third sword rain attack also regenerates 3 Energy for Xingqiu.",
+            "extraData": null,
             "icon": "UI_Talent_S_Xingqiu_04"
         }
     },

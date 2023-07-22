@@ -17,7 +17,7 @@
         "constellation": "Vulpes Zerda",
         "native": "Gandharva Ville",
         "cv": {
-            "EN": "Elliot Gindi",
+            "EN": "Zachary Gordon",
             "CHS": "莫然",
             "JP": "小林沙苗",
             "KR": "Jung Ui-taek"
@@ -156,6 +156,14 @@
         ]
     },
     "other": {
+        "costume": [
+            {
+                "name": "Woodland Song",
+                "description": "Tighnari's outfit. Clad in the colors of wood, tree, and flower, Tighnari is surrounded at all times by natural life, determined even in fashion sense to put the \"forest\" in \"Forest Watcher.\"",
+                "isDefault": true
+            }
+        ],
+        "furnitureId": 368152,
         "nameCard": {
             "id": 210124,
             "name": "Tighnari: Dew-Kissed",
@@ -2361,31 +2369,49 @@
         "0": {
             "name": "Beginnings Determined at the Roots",
             "description": "Tighnari's Charged Attack CRIT Rate is increased by 15%.",
+            "extraData": null,
             "icon": "UI_Talent_S_Tighnari_01"
         },
         "1": {
             "name": "Origins Known From the Stem",
             "description": "When there are opponents within the Vijnana-Khanda Field created by <color=#FFD780FF>Vijnana-Phala Mine</color>, Tighnari gains 20% <color=#99FF88FF>Dendro DMG Bonus</color>.\\nThe effect will last up to 6s if the field's duration ends or if it no longer has opponents within it.",
+            "extraData": null,
             "icon": "UI_Talent_S_Tighnari_02"
         },
         "2": {
             "name": "Fortunes Read Amongst the Branches",
             "description": "Increases the Level of <color=#FFD780FF>Fashioner's Tanglevine Shaft</color> by 3.\\nMaximum upgrade level is 15.",
+            "extraData": {
+                "addTalentExtraLevel": {
+                    "talentType": "AvatarSkill",
+                    "talentIndex": 9,
+                    "extraLevel": 3
+                }
+            },
             "icon": "UI_Talent_U_Tighnari_01"
         },
         "3": {
             "name": "Withering Glimpsed in the Leaves",
             "description": "When <color=#FFD780FF>Fashioner's Tanglevine Shaft</color> is unleashed, all nearby party members gain 60 Elemental Mastery for 8s. If the Fashioner's Tanglevine Shaft triggers a Burning, Bloom, Quicken, or Spread reaction, their Elemental Mastery will be further increased by 60. This latter case will also refresh the buff state's duration.",
+            "extraData": null,
             "icon": "UI_Talent_S_Tighnari_03"
         },
         "4": {
             "name": "Comprehension Amidst the Flowers",
             "description": "Increases the Level of <color=#FFD780FF>Vijnana-Phala Mine</color> by 3.\\nMaximum upgrade level is 15.",
+            "extraData": {
+                "addTalentExtraLevel": {
+                    "talentType": "AvatarSkill",
+                    "talentIndex": 2,
+                    "extraLevel": 3
+                }
+            },
             "icon": "UI_Talent_U_Tighnari_02"
         },
         "5": {
             "name": "Karma Adjudged From the Leaden Fruit",
             "description": "<color=#FFD780FF>Wreath Arrow</color>'s charging time is decreased by 0.9s, and will produce 1 additional Clusterbloom Arrow upon hit. This arrow deals 150% of Tighnari's ATK as DMG.",
+            "extraData": null,
             "icon": "UI_Talent_S_Tighnari_04"
         }
     },

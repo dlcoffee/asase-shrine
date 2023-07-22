@@ -156,6 +156,14 @@
         ]
     },
     "other": {
+        "costume": [
+            {
+                "name": "Fortune's Favor",
+                "description": "Bennett's outfit. An old adventurer's uniform that has been patched and sewn up in various places.",
+                "isDefault": true
+            }
+        ],
+        "furnitureId": 368120,
         "nameCard": {
             "id": 210016,
             "name": "Bennett: Recognition",
@@ -915,7 +923,7 @@
                     "costItems": null,
                     "coinCost": null,
                     "description": [
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:P}",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:P}",
                         "Charge Level 1 DMG|{param2:F1P}+{param3:F1P}",
                         "Charge Level 2 DMG|{param4:F1P}+{param5:F1P}",
                         "Explosion DMG|{param6:P}",
@@ -963,7 +971,7 @@
                     },
                     "coinCost": 12500,
                     "description": [
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:P}",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:P}",
                         "Charge Level 1 DMG|{param2:F1P}+{param3:F1P}",
                         "Charge Level 2 DMG|{param4:F1P}+{param5:P}",
                         "Explosion DMG|{param6:P}",
@@ -1011,7 +1019,7 @@
                     },
                     "coinCost": 17500,
                     "description": [
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:P}",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:P}",
                         "Charge Level 1 DMG|{param2:F1P}+{param3:P}",
                         "Charge Level 2 DMG|{param4:P}+{param5:P}",
                         "Explosion DMG|{param6:P}",
@@ -1059,7 +1067,7 @@
                     },
                     "coinCost": 25000,
                     "description": [
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:P}",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:P}",
                         "Charge Level 1 DMG|{param2:P}+{param3:P}",
                         "Charge Level 2 DMG|{param4:P}+{param5:P}",
                         "Explosion DMG|{param6:P}",
@@ -1107,7 +1115,7 @@
                     },
                     "coinCost": 30000,
                     "description": [
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:P}",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:P}",
                         "Charge Level 1 DMG|{param2:P}+{param3:P}",
                         "Charge Level 2 DMG|{param4:P}+{param5:P}",
                         "Explosion DMG|{param6:P}",
@@ -1155,7 +1163,7 @@
                     },
                     "coinCost": 37500,
                     "description": [
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:P}",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:P}",
                         "Charge Level 1 DMG|{param2:P}+{param3:P}",
                         "Charge Level 2 DMG|{param4:P}+{param5:P}",
                         "Explosion DMG|{param6:P}",
@@ -1204,7 +1212,7 @@
                     },
                     "coinCost": 120000,
                     "description": [
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:P}",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:P}",
                         "Charge Level 1 DMG|{param2:P}+{param3:P}",
                         "Charge Level 2 DMG|{param4:P}+{param5:P}",
                         "Explosion DMG|{param6:P}",
@@ -1253,7 +1261,7 @@
                     },
                     "coinCost": 260000,
                     "description": [
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:P}",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:P}",
                         "Charge Level 1 DMG|{param2:P}+{param3:P}",
                         "Charge Level 2 DMG|{param4:P}+{param5:P}",
                         "Explosion DMG|{param6:P}",
@@ -1302,7 +1310,7 @@
                     },
                     "coinCost": 450000,
                     "description": [
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:P}",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:P}",
                         "Charge Level 1 DMG|{param2:P}+{param3:P}",
                         "Charge Level 2 DMG|{param4:P}+{param5:P}",
                         "Explosion DMG|{param6:P}",
@@ -1352,7 +1360,7 @@
                     },
                     "coinCost": 700000,
                     "description": [
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:P}",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:P}",
                         "Charge Level 1 DMG|{param2:P}+{param3:P}",
                         "Charge Level 2 DMG|{param4:P}+{param5:P}",
                         "Explosion DMG|{param6:P}",
@@ -1397,7 +1405,7 @@
                     "costItems": null,
                     "coinCost": null,
                     "description": [
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:P}",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:P}",
                         "Charge Level 1 DMG|{param2:P}+{param3:P}",
                         "Charge Level 2 DMG|{param4:P}+{param5:P}",
                         "Explosion DMG|{param6:P}",
@@ -1442,7 +1450,7 @@
                     "costItems": null,
                     "coinCost": null,
                     "description": [
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:P}",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:P}",
                         "Charge Level 1 DMG|{param2:P}+{param3:P}",
                         "Charge Level 2 DMG|{param4:P}+{param5:P}",
                         "Explosion DMG|{param6:P}",
@@ -1487,7 +1495,7 @@
                     "costItems": null,
                     "coinCost": null,
                     "description": [
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:P}",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:P}",
                         "Charge Level 1 DMG|{param2:P}+{param3:P}",
                         "Charge Level 2 DMG|{param4:P}+{param5:P}",
                         "Explosion DMG|{param6:P}",
@@ -1532,7 +1540,7 @@
                     "costItems": null,
                     "coinCost": null,
                     "description": [
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:P}",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:P}",
                         "Charge Level 1 DMG|{param2:P}+{param3:P}",
                         "Charge Level 2 DMG|{param4:P}+{param5:P}",
                         "Explosion DMG|{param6:P}",
@@ -1577,7 +1585,7 @@
                     "costItems": null,
                     "coinCost": null,
                     "description": [
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:P}",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:P}",
                         "Charge Level 1 DMG|{param2:P}+{param3:P}",
                         "Charge Level 2 DMG|{param4:P}+{param5:P}",
                         "Explosion DMG|{param6:P}",
@@ -2361,31 +2369,49 @@
         "0": {
             "name": "Grand Expectation",
             "description": "<color=#FFD780FF>Fantastic Voyage</color>'s ATK increase no longer has an HP restriction, and gains an additional 20% of Bennett's Base ATK.",
+            "extraData": null,
             "icon": "UI_Talent_S_Bennett_01"
         },
         "1": {
             "name": "Impasse Conqueror",
             "description": "When Bennett's HP falls below 70%, his Energy Recharge is increased by 30%.",
+            "extraData": null,
             "icon": "UI_Talent_S_Bennett_02"
         },
         "2": {
             "name": "Unstoppable Fervor",
             "description": "Increases the Level of <color=#FFD780FF>Passion Overload</color> by 3.\\nMaximum upgrade level is 15.",
+            "extraData": {
+                "addTalentExtraLevel": {
+                    "talentType": "AvatarSkill",
+                    "talentIndex": 2,
+                    "extraLevel": 3
+                }
+            },
             "icon": "UI_Talent_U_Bennett_01"
         },
         "3": {
             "name": "Unexpected Odyssey",
             "description": "Using a Normal Attack as the second attack of <color=#FFD780FF>Passion Overload</color>'s Charge Level 1 will perform a follow-up attack.\\nThis additional attack does 135% of the second attack's DMG.",
+            "extraData": null,
             "icon": "UI_Talent_S_Bennett_03"
         },
         "4": {
             "name": "True Explorer",
             "description": "Increases the Level of <color=#FFD780FF>Fantastic Voyage</color> by 3.\\nMaximum upgrade level is 15.",
+            "extraData": {
+                "addTalentExtraLevel": {
+                    "talentType": "AvatarSkill",
+                    "talentIndex": 9,
+                    "extraLevel": 3
+                }
+            },
             "icon": "UI_Talent_U_Bennett_02"
         },
         "5": {
             "name": "Fire Ventures With Me",
             "description": "Sword, Claymore, or Polearm-wielding characters inside <color=#FFD780FF>Fantastic Voyage</color>'s radius gain a 15% <color=#FF9999FF>Pyro DMG Bonus</color> and their weapons are infused with <color=#FF9999FF>Pyro</color>.",
+            "extraData": null,
             "icon": "UI_Talent_S_Bennett_04"
         }
     },

@@ -156,6 +156,21 @@
         ]
     },
     "other": {
+        "costume": [
+            {
+                "name": "Shooting Spark",
+                "description": "Klee's outfit. A set of clothing for an energetic child that even comes with a matching leather backpack.",
+                "isDefault": true
+            },
+            {
+                "name": "Blossoming Starlight",
+                "description": "An exquisite outfit Klee wears only for the most important performances. The colors are brilliant, like a cake adorned with cream flowers and crowned with scarlet candles. With it comes happiness and smiles that will fill your adventures.",
+                "storyId": 340012,
+                "icon": "UI_AvatarIcon_KleeCostumeWitch",
+                "rank": 4
+            }
+        ],
+        "furnitureId": 368117,
         "nameCard": {
             "id": 210004,
             "name": "Klee: Explosive",
@@ -2361,31 +2376,49 @@
         "0": {
             "name": "Chained Reactions",
             "description": "Attacks and Skills have a certain chance to summon sparks that bombard opponents, dealing DMG equal to 120% of <color=#FFD780FF>Sparks 'n' Splash</color>'s DMG.",
+            "extraData": null,
             "icon": "UI_Talent_S_Klee_01"
         },
         "1": {
             "name": "Explosive Frags",
             "description": "Being hit by <color=#FFD780FF>Jumpy Dumpty</color>'s mines decreases opponents' DEF by 23% for 10s.",
+            "extraData": null,
             "icon": "UI_Talent_S_Klee_02"
         },
         "2": {
             "name": "Exquisite Compound",
             "description": "Increases the Level of <color=#FFD780FF>Jumpy Dumpty</color> by 3.\\nMaximum upgrade level is 15.",
+            "extraData": {
+                "addTalentExtraLevel": {
+                    "talentType": "AvatarSkill",
+                    "talentIndex": 2,
+                    "extraLevel": 3
+                }
+            },
             "icon": "UI_Talent_U_Klee_01"
         },
         "3": {
             "name": "Sparkly Explosion",
             "description": "If Klee leaves the field during the duration of <color=#FFD780FF>Sparks 'n' Splash</color>, her departure triggers an explosion that deals 555% of her ATK as <color=#FF9999FF>AoE Pyro DMG</color>.",
+            "extraData": null,
             "icon": "UI_Talent_S_Klee_03"
         },
         "4": {
             "name": "Nova Burst",
             "description": "Increases the Level of <color=#FFD780FF>Sparks 'n' Splash</color> by 3.\\nMaximum upgrade level is 15.",
+            "extraData": {
+                "addTalentExtraLevel": {
+                    "talentType": "AvatarSkill",
+                    "talentIndex": 9,
+                    "extraLevel": 3
+                }
+            },
             "icon": "UI_Talent_U_Klee_02"
         },
         "5": {
             "name": "Blazing Delight",
             "description": "While under the effects of <color=#FFD780FF>Sparks 'n' Splash</color>, Klee will regenerate 3 Energy for all members of the party (excluding Klee) every 3s.\\nWhen <color=#FFD780FF>Sparks 'n' Splash</color> is used, all party members will gain a 10% <color=#FF9999FF>Pyro DMG Bonus</color> for 25s.",
+            "extraData": null,
             "icon": "UI_Talent_S_Klee_04"
         }
     },

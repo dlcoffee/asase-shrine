@@ -61,6 +61,7 @@ const avatarsToImport = [
   { id: 10000058 },
   { id: 10000066 },
   { id: 10000060 },
+  { id: 10000061, name: 'kirara' },
   { id: 10000065 },
   { id: 10000059 },
   { id: 10000069 },
@@ -77,6 +78,11 @@ const avatarsToImport = [
   { id: 10000077, name: 'yaoyao' },
   { id: 10000079, name: 'dehya' },
   { id: 10000080, name: 'mika' },
+  { id: 10000081, name: 'kaveh' },
+  { id: 10000082, name: 'baizhu' },
+  { id: 10000083, name: 'lynette' },
+  { id: 10000084, name: 'lyney' },
+  { id: 10000085, name: 'freminet' },
 ]
 
 function nameToId(str) {

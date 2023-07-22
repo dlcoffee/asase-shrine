@@ -156,6 +156,14 @@
         ]
     },
     "other": {
+        "costume": [
+            {
+                "name": "Golden Rule",
+                "description": "Yanfei's outfit. The dress that the legal adviser Yanfei wears when she heads out to visit clients.",
+                "isDefault": true
+            }
+        ],
+        "furnitureId": 368102,
         "nameCard": {
             "id": 210069,
             "name": "Yanfei: Impartial",
@@ -2341,7 +2349,7 @@
         "4": {
             "type": 2,
             "name": "Proviso",
-            "description": "When Yanfei consumes Scarlet Seals by using a Charged Attack, each Scarlet Seal will increase Yanfei's <color=#FF9999FF>Pyro DMG Bonus</color> by 5%. This effects lasts for 6s. When a Charged Attack is used again during the effect's duration, it will dispel the previous effect.",
+            "description": "When Yanfei consumes Scarlet Seals by using a Charged Attack, each Scarlet Seal will increase Yanfei's <color=#FF9999FF>Pyro DMG Bonus</color> by 5%. This effect lasts for 6s. When a Charged Attack is used again during the effect's duration, it will dispel the previous effect.",
             "icon": "UI_Talent_S_Feiyan_05"
         },
         "5": {
@@ -2361,31 +2369,49 @@
         "0": {
             "name": "The Law Knows No Kindness",
             "description": "When Yanfei uses her Charged Attack, each existing Scarlet Seal additionally reduces the stamina cost of this Charged Attack by 10% and increases resistance against interruption during its release.",
+            "extraData": null,
             "icon": "UI_Talent_S_Feiyan_01"
         },
         "1": {
             "name": "Right of Final Interpretation",
             "description": "Increases Yanfei's Charged Attack CRIT Rate by 20% against enemies below 50% HP.",
+            "extraData": null,
             "icon": "UI_Talent_S_Feiyan_02"
         },
         "2": {
             "name": "Samadhi Fire-Forged",
             "description": "Increases the Level of <color=#FFD780FF>Signed Edict</color> by 3.\\nMaximum upgrade level is 15.",
+            "extraData": {
+                "addTalentExtraLevel": {
+                    "talentType": "AvatarSkill",
+                    "talentIndex": 2,
+                    "extraLevel": 3
+                }
+            },
             "icon": "UI_Talent_U_Feiyan_01"
         },
         "3": {
             "name": "Supreme Amnesty",
             "description": "When <color=#FFD780FF>Done Deal</color> is used:\\nCreates a shield that absorbs up to 45% of Yanfei's Max HP for 15s.\\nThis shield absorbs <color=#FF9999FF>Pyro DMG</color> 250% more effectively.",
+            "extraData": null,
             "icon": "UI_Talent_S_Feiyan_03"
         },
         "4": {
             "name": "Abiding Affidavit",
             "description": "Increases the Level of <color=#FFD780FF>Done Deal</color> by 3.\\nMaximum upgrade level is 15.",
+            "extraData": {
+                "addTalentExtraLevel": {
+                    "talentType": "AvatarSkill",
+                    "talentIndex": 9,
+                    "extraLevel": 3
+                }
+            },
             "icon": "UI_Talent_U_Feiyan_02"
         },
         "5": {
             "name": "Extra Clause",
             "description": "Increases the maximum number of Scarlet Seals by 1.",
+            "extraData": null,
             "icon": "UI_Talent_S_Feiyan_04"
         }
     },

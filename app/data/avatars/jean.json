@@ -156,6 +156,28 @@
         ]
     },
     "other": {
+        "costume": [
+            {
+                "name": "Favonian Devotion",
+                "description": "Jean's outfit. Neat and smart clothing that emphasizes her chivalry.",
+                "isDefault": true
+            },
+            {
+                "name": "Sea Breeze Dandelion",
+                "description": "Jean's summer wear. Light and cool, but no less elegant for it. The perfect choice for a trip to the seaside.",
+                "storyId": 340001,
+                "icon": "UI_AvatarIcon_QinCostumeSea",
+                "rank": 4
+            },
+            {
+                "name": "Gunnhildr's Legacy",
+                "description": "Jean's outfit. This classic knight's ceremonial outfit is suited to all manner of occasions.",
+                "storyId": 340006,
+                "icon": "UI_AvatarIcon_QinCostumeWic",
+                "rank": 4
+            }
+        ],
+        "furnitureId": 368104,
         "nameCard": {
             "id": 210008,
             "name": "Jean: The Winds' Course",
@@ -2361,31 +2383,37 @@
         "0": {
             "name": "Spiraling Tempest",
             "description": "Increases the pulling speed of <color=#FFD780FF>Gale Blade</color> after holding for more than 1s, and increases the DMG dealt by 40%.",
+            "extraData": null,
             "icon": "UI_Talent_S_Qin_01"
         },
         "1": {
             "name": "People's Aegis",
             "description": "When Jean picks up an Elemental Orb/Particle, all party members have their Movement SPD and ATK SPD increased by 15% for 15s.",
+            "extraData": null,
             "icon": "UI_Talent_S_Qin_02"
         },
         "2": {
             "name": "When the West Wind Arises",
             "description": "Increases the Level of <color=#FFD780FF>Dandelion Breeze</color> by 3.\\nMaximum upgrade level is 15.",
+            "extraData": null,
             "icon": "UI_Talent_U_Qin_02"
         },
         "3": {
             "name": "Lands of Dandelion",
             "description": "Within the Field created by <color=#FFD780FF>Dandelion Breeze</color>, all opponents have their <color=#80FFD7FF>Anemo RES</color> decreased by 40%.",
+            "extraData": null,
             "icon": "UI_Talent_S_Qin_03"
         },
         "4": {
             "name": "Outbursting Gust",
             "description": "Increases the Level of <color=#FFD780FF>Gale Blade</color> by 3.\\nMaximum upgrade level is 15.",
+            "extraData": null,
             "icon": "UI_Talent_U_Qin_01"
         },
         "5": {
             "name": "Lion's Fang, Fair Protector of Mondstadt",
             "description": "Incoming DMG is decreased by 35% within the Field created by <color=#FFD780FF>Dandelion Breeze</color>. Upon leaving the Dandelion Field, this effect lasts for 3 attacks or 10s.",
+            "extraData": null,
             "icon": "UI_Talent_S_Qin_04"
         }
     },

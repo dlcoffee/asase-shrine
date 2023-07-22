@@ -156,6 +156,14 @@
         ]
     },
     "other": {
+        "costume": [
+            {
+                "name": "Hermit of Mortal Life",
+                "description": "Zhongli's outfit. This is the leisurewear of choice for Zhongli, the Wangsheng Funeral Parlor's consultant.",
+                "isDefault": true
+            }
+        ],
+        "furnitureId": 368118,
         "nameCard": {
             "id": 210044,
             "name": "Zhongli: Planet Befall",
@@ -916,12 +924,12 @@
                     "coinCost": null,
                     "description": [
                         "Stone Stele/Resonance DMG|{param1:F1P}/{param2:F1P}",
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param3:F1}s",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param3:F1}s",
                         "Hold DMG|{param4:P}",
                         "Shield Base Absorption|{param5:I}",
                         "Additional Shield Absorption|{param6:F1P} Max HP",
                         "Shield Duration|{param7:F1}s",
-                        "CD (hold)|{param8:F1}s",
+                        "Hold CD|{param8:F1}s",
                         "",
                         "",
                         "",
@@ -964,12 +972,12 @@
                     "coinCost": 12500,
                     "description": [
                         "Stone Stele/Resonance DMG|{param1:F1P}/{param2:F1P}",
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param3:F1}s",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param3:F1}s",
                         "Hold DMG|{param4:P}",
                         "Shield Base Absorption|{param5:I}",
                         "Additional Shield Absorption|{param6:F1P} Max HP",
                         "Shield Duration|{param7:F1}s",
-                        "CD (hold)|{param8:F1}s",
+                        "Hold CD|{param8:F1}s",
                         "",
                         "",
                         "",
@@ -1012,12 +1020,12 @@
                     "coinCost": 17500,
                     "description": [
                         "Stone Stele/Resonance DMG|{param1:F1P}/{param2:F1P}",
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param3:F1}s",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param3:F1}s",
                         "Hold DMG|{param4:P}",
                         "Shield Base Absorption|{param5:I}",
                         "Additional Shield Absorption|{param6:F1P} Max HP",
                         "Shield Duration|{param7:F1}s",
-                        "CD (hold)|{param8:F1}s",
+                        "Hold CD|{param8:F1}s",
                         "",
                         "",
                         "",
@@ -1060,12 +1068,12 @@
                     "coinCost": 25000,
                     "description": [
                         "Stone Stele/Resonance DMG|{param1:F1P}/{param2:F1P}",
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param3:F1}s",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param3:F1}s",
                         "Hold DMG|{param4:P}",
                         "Shield Base Absorption|{param5:I}",
                         "Additional Shield Absorption|{param6:F1P} Max HP",
                         "Shield Duration|{param7:F1}s",
-                        "CD (hold)|{param8:F1}s",
+                        "Hold CD|{param8:F1}s",
                         "",
                         "",
                         "",
@@ -1108,12 +1116,12 @@
                     "coinCost": 30000,
                     "description": [
                         "Stone Stele/Resonance DMG|{param1:F1P}/{param2:F1P}",
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param3:F1}s",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param3:F1}s",
                         "Hold DMG|{param4:P}",
                         "Shield Base Absorption|{param5:I}",
                         "Additional Shield Absorption|{param6:F1P} Max HP",
                         "Shield Duration|{param7:F1}s",
-                        "CD (hold)|{param8:F1}s",
+                        "Hold CD|{param8:F1}s",
                         "",
                         "",
                         "",
@@ -1156,12 +1164,12 @@
                     "coinCost": 37500,
                     "description": [
                         "Stone Stele/Resonance DMG|{param1:F1P}/{param2:F1P}",
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param3:F1}s",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param3:F1}s",
                         "Hold DMG|{param4:P}",
                         "Shield Base Absorption|{param5:I}",
                         "Additional Shield Absorption|{param6:F1P} Max HP",
                         "Shield Duration|{param7:F1}s",
-                        "CD (hold)|{param8:F1}s",
+                        "Hold CD|{param8:F1}s",
                         "",
                         "",
                         "",
@@ -1205,12 +1213,12 @@
                     "coinCost": 120000,
                     "description": [
                         "Stone Stele/Resonance DMG|{param1:F1P}/{param2:F1P}",
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param3:F1}s",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param3:F1}s",
                         "Hold DMG|{param4:P}",
                         "Shield Base Absorption|{param5:I}",
                         "Additional Shield Absorption|{param6:F1P} Max HP",
                         "Shield Duration|{param7:F1}s",
-                        "CD (hold)|{param8:F1}s",
+                        "Hold CD|{param8:F1}s",
                         "",
                         "",
                         "",
@@ -1254,12 +1262,12 @@
                     "coinCost": 260000,
                     "description": [
                         "Stone Stele/Resonance DMG|{param1:F1P}/{param2:F1P}",
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param3:F1}s",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param3:F1}s",
                         "Hold DMG|{param4:P}",
                         "Shield Base Absorption|{param5:I}",
                         "Additional Shield Absorption|{param6:F1P} Max HP",
                         "Shield Duration|{param7:F1}s",
-                        "CD (hold)|{param8:F1}s",
+                        "Hold CD|{param8:F1}s",
                         "",
                         "",
                         "",
@@ -1303,12 +1311,12 @@
                     "coinCost": 450000,
                     "description": [
                         "Stone Stele/Resonance DMG|{param1:F1P}/{param2:F1P}",
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param3:F1}s",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param3:F1}s",
                         "Hold DMG|{param4:P}",
                         "Shield Base Absorption|{param5:I}",
                         "Additional Shield Absorption|{param6:F1P} Max HP",
                         "Shield Duration|{param7:F1}s",
-                        "CD (hold)|{param8:F1}s",
+                        "Hold CD|{param8:F1}s",
                         "",
                         "",
                         "",
@@ -1353,12 +1361,12 @@
                     "coinCost": 700000,
                     "description": [
                         "Stone Stele/Resonance DMG|{param1:F1P}/{param2:F1P}",
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param3:F1}s",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param3:F1}s",
                         "Hold DMG|{param4:P}",
                         "Shield Base Absorption|{param5:I}",
                         "Additional Shield Absorption|{param6:F1P} Max HP",
                         "Shield Duration|{param7:F1}s",
-                        "CD (hold)|{param8:F1}s",
+                        "Hold CD|{param8:F1}s",
                         "",
                         "",
                         "",
@@ -1398,12 +1406,12 @@
                     "coinCost": null,
                     "description": [
                         "Stone Stele/Resonance DMG|{param1:F1P}/{param2:F1P}",
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param3:F1}s",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param3:F1}s",
                         "Hold DMG|{param4:P}",
                         "Shield Base Absorption|{param5:I}",
                         "Additional Shield Absorption|{param6:F1P} Max HP",
                         "Shield Duration|{param7:F1}s",
-                        "CD (hold)|{param8:F1}s",
+                        "Hold CD|{param8:F1}s",
                         "",
                         "",
                         "",
@@ -1443,12 +1451,12 @@
                     "coinCost": null,
                     "description": [
                         "Stone Stele/Resonance DMG|{param1:F1P}/{param2:F1P}",
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param3:F1}s",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param3:F1}s",
                         "Hold DMG|{param4:P}",
                         "Shield Base Absorption|{param5:I}",
                         "Additional Shield Absorption|{param6:F1P} Max HP",
                         "Shield Duration|{param7:F1}s",
-                        "CD (hold)|{param8:F1}s",
+                        "Hold CD|{param8:F1}s",
                         "",
                         "",
                         "",
@@ -1488,12 +1496,12 @@
                     "coinCost": null,
                     "description": [
                         "Stone Stele/Resonance DMG|{param1:F1P}/{param2:F1P}",
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param3:F1}s",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param3:F1}s",
                         "Hold DMG|{param4:P}",
                         "Shield Base Absorption|{param5:I}",
                         "Additional Shield Absorption|{param6:F1P} Max HP",
                         "Shield Duration|{param7:F1}s",
-                        "CD (hold)|{param8:F1}s",
+                        "Hold CD|{param8:F1}s",
                         "",
                         "",
                         "",
@@ -1533,12 +1541,12 @@
                     "coinCost": null,
                     "description": [
                         "Stone Stele/Resonance DMG|{param1:F1P}/{param2:F1P}",
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param3:F1}s",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param3:F1}s",
                         "Hold DMG|{param4:P}",
                         "Shield Base Absorption|{param5:I}",
                         "Additional Shield Absorption|{param6:F1P} Max HP",
                         "Shield Duration|{param7:F1}s",
-                        "CD (hold)|{param8:F1}s",
+                        "Hold CD|{param8:F1}s",
                         "",
                         "",
                         "",
@@ -1578,12 +1586,12 @@
                     "coinCost": null,
                     "description": [
                         "Stone Stele/Resonance DMG|{param1:F1P}/{param2:F1P}",
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param3:F1}s",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param3:F1}s",
                         "Hold DMG|{param4:P}",
                         "Shield Base Absorption|{param5:I}",
                         "Additional Shield Absorption|{param6:F1P} Max HP",
                         "Shield Duration|{param7:F1}s",
-                        "CD (hold)|{param8:F1}s",
+                        "Hold CD|{param8:F1}s",
                         "",
                         "",
                         "",
@@ -2361,31 +2369,49 @@
         "0": {
             "name": "Rock, the Backbone of Earth",
             "description": "Increases the maximum number of Stone Steles created by <color=#FFD780FF>Dominus Lapidis</color> that may exist simultaneously to 2.",
+            "extraData": null,
             "icon": "UI_Talent_S_Zhongli_01"
         },
         "1": {
             "name": "Stone, the Cradle of Jade",
             "description": "<color=#FFD780FF>Planet Befall</color> grants nearby characters on the field a Jade Shield when it descends.",
+            "extraData": null,
             "icon": "UI_Talent_S_Zhongli_02"
         },
         "2": {
             "name": "Jade, Shimmering through Darkness",
             "description": "Increases the Level of <color=#FFD780FF>Dominus Lapidis</color> by 3.\\nMaximum upgrade level is 15.",
+            "extraData": {
+                "addTalentExtraLevel": {
+                    "talentType": "AvatarSkill",
+                    "talentIndex": 2,
+                    "extraLevel": 3
+                }
+            },
             "icon": "UI_Talent_U_Zhongli_01"
         },
         "3": {
             "name": "Topaz, Unbreakable and Fearless",
             "description": "Increases <color=#FFD780FF>Planet Befall</color>'s AoE by 20% and increases the duration of Planet Befall's Petrification effect by 2s.",
+            "extraData": null,
             "icon": "UI_Talent_S_Zhongli_03"
         },
         "4": {
             "name": "Lazuli, Herald of the Order",
             "description": "Increases the Level of <color=#FFD780FF>Planet Befall</color> by 3.\\nMaximum upgrade level is 15.",
+            "extraData": {
+                "addTalentExtraLevel": {
+                    "talentType": "AvatarSkill",
+                    "talentIndex": 9,
+                    "extraLevel": 3
+                }
+            },
             "icon": "UI_Talent_U_Zhongli_02"
         },
         "5": {
             "name": "Chrysos, Bounty of Dominator",
             "description": "When the Jade Shield takes DMG, 40% of that incoming DMG is converted to HP for the current character.\\nA single instance of regeneration cannot exceed 8% of that character's Max HP.",
+            "extraData": null,
             "icon": "UI_Talent_S_Zhongli_04"
         }
     },

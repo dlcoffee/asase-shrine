@@ -156,6 +156,14 @@
         ]
     },
     "other": {
+        "costume": [
+            {
+                "name": "Eccentric Oni",
+                "description": "Itto's outfit. It has an uncommon air of awesomeness about it, and the oni mask worn at the hip is quite imposing indeed — certainly enough to reduce even the naughtiest child of Hanamizaka to terrified tears.",
+                "isDefault": true
+            }
+        ],
+        "furnitureId": 368144,
         "nameCard": {
             "id": 210105,
             "name": "Itto: Oni Face",
@@ -2361,31 +2369,49 @@
         "0": {
             "name": "Stay a While and Listen Up",
             "description": "After using <color=#FFD780FF>Royal Descent: Behold, Itto the Evil!</color>, Arataki Itto gains 2 stacks of Superlative Superstrength. After 1s, Itto will gain 1 stack of Superlative Superstrength every 0.5s for 1.5s.",
+            "extraData": null,
             "icon": "UI_Talent_S_Itto_01"
         },
         "1": {
             "name": "Gather 'Round, It's a Brawl!",
             "description": "After using <color=#FFD780FF>Royal Descent: Behold, Itto the Evil!</color>, each party member whose Element is <color=#FFE699FF>Geo</color> will decrease that skill's CD by 1.5s and restore 6 Energy to Arataki Itto.\\nCD can be decreased by up to 4.5s in this manner. Max 18 Energy can be restored in this manner.",
+            "extraData": null,
             "icon": "UI_Talent_S_Itto_02"
         },
         "2": {
             "name": "Horns Lowered, Coming Through",
             "description": "Increases the Level of <color=#FFD780FF>Masatsu Zetsugi: Akaushi Burst!</color> by 3.\\nMaximum upgrade level is 15.",
+            "extraData": {
+                "addTalentExtraLevel": {
+                    "talentType": "AvatarSkill",
+                    "talentIndex": 2,
+                    "extraLevel": 3
+                }
+            },
             "icon": "UI_Talent_U_Itto_01"
         },
         "3": {
             "name": "Jailhouse Bread and Butter",
             "description": "When the Raging Oni King state caused by <color=#FFD780FF>Royal Descent: Behold, Itto the Evil!</color> ends, all nearby party members gain 20% DEF and 20% ATK for 10s.",
+            "extraData": null,
             "icon": "UI_Talent_S_Itto_03"
         },
         "4": {
             "name": "10 Years of Hanamizaka Fame",
             "description": "Increases the Level of <color=#FFD780FF>Royal Descent: Behold, Itto the Evil!</color> by 3.\\nMaximum upgrade level is 15.",
+            "extraData": {
+                "addTalentExtraLevel": {
+                    "talentType": "AvatarSkill",
+                    "talentIndex": 9,
+                    "extraLevel": 3
+                }
+            },
             "icon": "UI_Talent_U_Itto_02"
         },
         "5": {
             "name": "Arataki Itto, Present!",
             "description": "Arataki Itto's Charged Attacks deal +70% Crit DMG. Additionally, when he uses Arataki Kesagiri, he has a 50% chance to not consume stacks of Superlative Superstrength.",
+            "extraData": null,
             "icon": "UI_Talent_S_Itto_04"
         }
     },

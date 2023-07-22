@@ -156,6 +156,21 @@
         ]
     },
     "other": {
+        "costume": [
+            {
+                "name": "Innocent Longing",
+                "description": "Barbara's outfit. A Deaconess's uniform from the Church of Favonius with a unique Barbara streak running through it.",
+                "isDefault": true
+            },
+            {
+                "name": "Summertime Sparkle",
+                "description": "Barbara's beach attire. This pretty skirt brims with summer vitality and carries with it a cool ocean breeze.",
+                "storyId": 340000,
+                "icon": "UI_AvatarIcon_BarbaraCostumeSummertime",
+                "rank": 4
+            }
+        ],
+        "furnitureId": 368106,
         "nameCard": {
             "id": 210009,
             "name": "Barbara: Flow",
@@ -2361,31 +2376,49 @@
         "0": {
             "name": "Gleeful Songs",
             "description": "Barbara regenerates 1 Energy every 10s.",
+            "extraData": null,
             "icon": "UI_Talent_S_Barbara_01"
         },
         "1": {
             "name": "Vitality Burst",
             "description": "Decreases the CD of <color=#FFD780FF>Let the Show Begin♪</color> by 15%.\\nDuring the ability's duration, your active character gains a 15% <color=#80C0FFFF>Hydro DMG Bonus</color>.",
+            "extraData": null,
             "icon": "UI_Talent_S_Barbara_02"
         },
         "2": {
             "name": "Star of Tomorrow",
             "description": "Increases the Level of <color=#FFD780FF>Shining Miracle♪</color> by 3.\\nMaximum upgrade level is 15.",
+            "extraData": {
+                "addTalentExtraLevel": {
+                    "talentType": "AvatarSkill",
+                    "talentIndex": 9,
+                    "extraLevel": 3
+                }
+            },
             "icon": "UI_Talent_U_Barbara_02"
         },
         "3": {
             "name": "Attentiveness Be My Power",
             "description": "Every opponent Barbara hits with her Charged Attack regenerates 1 Energy for her.\\nA maximum of 5 energy can be regenerated in this manner with any one Charged Attack.",
+            "extraData": null,
             "icon": "UI_Talent_S_Barbara_03"
         },
         "4": {
             "name": "The Purest Companionship",
             "description": "Increases the Level of <color=#FFD780FF>Let the Show Begin♪</color> by 3.\\nMaximum upgrade level is 15.",
+            "extraData": {
+                "addTalentExtraLevel": {
+                    "talentType": "AvatarSkill",
+                    "talentIndex": 2,
+                    "extraLevel": 3
+                }
+            },
             "icon": "UI_Talent_U_Barbara_01"
         },
         "5": {
             "name": "Dedicating Everything to You",
             "description": "When Barbara is in the party but not on the field, and one of your own party members falls:\\n·Automatically revives the fallen character.\\n·Fully restores the revived character's HP to 100%.\\nThis effect can only occur once every 15 mins.",
+            "extraData": null,
             "icon": "UI_Talent_S_Barbara_04"
         }
     },

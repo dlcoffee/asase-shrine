@@ -156,6 +156,14 @@
         ]
     },
     "other": {
+        "costume": [
+            {
+                "name": "Ardent Soul",
+                "description": "Xinyan's outfit. A rocker's stage costume adorned with spikes.",
+                "isDefault": true
+            }
+        ],
+        "furnitureId": 368131,
         "nameCard": {
             "id": 210045,
             "name": "Xinyan: Song's End",
@@ -2361,31 +2369,49 @@
         "0": {
             "name": "Fatal Acceleration",
             "description": "Upon scoring a CRIT Hit, increases ATK SPD of Xinyan's Normal and Charged Attacks by 12% for 5s.\\nCan only occur once every 5s.",
+            "extraData": null,
             "icon": "UI_Talent_S_Xinyan_01"
         },
         "1": {
             "name": "Impromptu Opening",
             "description": "<color=#FFD780FF>Riff Revolution</color>'s Physical DMG has its CRIT Rate increased by 100%, and will form a shield at Shield Level 3: Rave when cast.",
+            "extraData": null,
             "icon": "UI_Talent_S_Xinyan_02"
         },
         "2": {
             "name": "Double-Stop",
             "description": "Increases the Level of <color=#FFD780FF>Sweeping Fervor</color> by 3.\\nMaximum upgrade level is 15.",
+            "extraData": {
+                "addTalentExtraLevel": {
+                    "talentType": "AvatarSkill",
+                    "talentIndex": 2,
+                    "extraLevel": 3
+                }
+            },
             "icon": "UI_Talent_U_Xinyan_01"
         },
         "3": {
             "name": "Wildfire Rhythm",
             "description": "<color=#FFD780FF>Sweeping Fervor</color>'s swing DMG decreases opponent's Physical RES by 15% for 12s.",
+            "extraData": null,
             "icon": "UI_Talent_S_Xinyan_03"
         },
         "4": {
             "name": "Screamin' for an Encore",
             "description": "Increases the Level of <color=#FFD780FF>Riff Revolution</color> by 3.\\nMaximum upgrade level is 15.",
+            "extraData": {
+                "addTalentExtraLevel": {
+                    "talentType": "AvatarSkill",
+                    "talentIndex": 9,
+                    "extraLevel": 3
+                }
+            },
             "icon": "UI_Talent_U_Xinyan_02"
         },
         "5": {
             "name": "Rockin' in a Flaming World",
             "description": "Decreases the Stamina Consumption of Xinyan's Charged Attacks by 30%. Additionally, Xinyan's Charged Attacks gain an ATK Bonus equal to 50% of her DEF.",
+            "extraData": null,
             "icon": "UI_Talent_S_Xinyan_04"
         }
     },

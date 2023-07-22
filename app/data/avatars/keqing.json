@@ -156,6 +156,21 @@
         ]
     },
     "other": {
+        "costume": [
+            {
+                "name": "Piercing Thunderbolt",
+                "description": "Keqing's outfit. A formidable-looking dress made using luxurious materials.",
+                "isDefault": true
+            },
+            {
+                "name": "Opulent Splendor",
+                "description": "Keqing's formal wear. Amidst the beautiful dawn of the Lantern Rite, the threads weaved by days of hard work intertwine into a light yet magnificent appearance.",
+                "storyId": 340003,
+                "icon": "UI_AvatarIcon_KeqingCostumeFeather",
+                "rank": 4
+            }
+        ],
+        "furnitureId": 368129,
         "nameCard": {
             "id": 210020,
             "name": "Keqing: Lightning Stiletto",
@@ -2361,31 +2376,49 @@
         "0": {
             "name": "Thundering Might",
             "description": "Recasting <color=#FFD780FF>Stellar Restoration</color> while a Lightning Stiletto is present causes Keqing to deal 50% of her ATK as <color=#FFACFFFF>AoE Electro DMG</color> at the start point and terminus of her Blink.",
+            "extraData": null,
             "icon": "UI_Talent_S_Keqing_01"
         },
         "1": {
             "name": "Keen Extraction",
             "description": "When Keqing's Normal and Charged Attacks hit opponents affected by <color=#FFACFFFF>Electro</color>, they have a 50% chance of producing an Elemental Particle.\\nThis effect can only occur once every 5s.",
+            "extraData": null,
             "icon": "UI_Talent_S_Keqing_02"
         },
         "2": {
             "name": "Foreseen Reformation",
             "description": "Increases the Level of <color=#FFD780FF>Starward Sword</color> by 3.\\nMaximum upgrade level is 15.",
+            "extraData": {
+                "addTalentExtraLevel": {
+                    "talentType": "AvatarSkill",
+                    "talentIndex": 9,
+                    "extraLevel": 3
+                }
+            },
             "icon": "UI_Talent_U_Keqing_01"
         },
         "3": {
             "name": "Attunement",
             "description": "For 10s after Keqing triggers an <color=#FFACFFFF>Electro-related Elemental Reaction</color>, her ATK is increased by 25%.",
+            "extraData": null,
             "icon": "UI_Talent_S_Keqing_03"
         },
         "4": {
             "name": "Beckoning Stars",
             "description": "Increases the Level of <color=#FFD780FF>Stellar Restoration</color> by 3.\\nMaximum upgrade level is 15.",
+            "extraData": {
+                "addTalentExtraLevel": {
+                    "talentType": "AvatarSkill",
+                    "talentIndex": 2,
+                    "extraLevel": 3
+                }
+            },
             "icon": "UI_Talent_U_Keqing_02"
         },
         "5": {
             "name": "Tenacious Star",
             "description": "When initiating a Normal Attack, a Charged Attack, Elemental Skill or Elemental Burst, Keqing gains a 6% <color=#FFACFFFF>Electro DMG Bonus</color> for 8s.\\nEffects triggered by Normal Attacks, Charged Attacks, Elemental Skills and Elemental Bursts are considered independent entities.",
+            "extraData": null,
             "icon": "UI_Talent_S_Keqing_04"
         }
     },

@@ -156,6 +156,14 @@
         ]
     },
     "other": {
+        "costume": [
+            {
+                "name": "For All Knowledge, a Verse",
+                "description": "Nahida's outfit. Only the oracles that interpret knowledge may robe the God of Wisdom, and so even the smallest ornament is viewed by believers as holy writ.",
+                "isDefault": true
+            }
+        ],
+        "furnitureId": 368158,
         "nameCard": {
             "id": 210140,
             "name": "Nahida: Crescent",
@@ -915,12 +923,12 @@
                     "costItems": null,
                     "coinCost": null,
                     "description": [
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:F1P}",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:F1P}",
                         "Hold DMG|{param2:F1P}",
                         "Tri-Karma Purification DMG|{param3:F1P} ATK+{param4:F1P} Elemental Mastery",
                         "Tri-Karma Purification Trigger Interval|{param5:F1}s",
                         "Seed of Skandha Duration|{param6:F1}s",
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param7:F1}s",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param7:F1}s",
                         "Hold CD|{param8:F1}s",
                         "",
                         "",
@@ -963,12 +971,12 @@
                     },
                     "coinCost": 12500,
                     "description": [
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:F1P}",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:F1P}",
                         "Hold DMG|{param2:F1P}",
                         "Tri-Karma Purification DMG|{param3:F1P} ATK+{param4:F1P} Elemental Mastery",
                         "Tri-Karma Purification Trigger Interval|{param5:F1}s",
                         "Seed of Skandha Duration|{param6:F1}s",
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param7:F1}s",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param7:F1}s",
                         "Hold CD|{param8:F1}s",
                         "",
                         "",
@@ -1011,12 +1019,12 @@
                     },
                     "coinCost": 17500,
                     "description": [
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:F1P}",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:F1P}",
                         "Hold DMG|{param2:F1P}",
                         "Tri-Karma Purification DMG|{param3:F1P} ATK+{param4:F1P} Elemental Mastery",
                         "Tri-Karma Purification Trigger Interval|{param5:F1}s",
                         "Seed of Skandha Duration|{param6:F1}s",
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param7:F1}s",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param7:F1}s",
                         "Hold CD|{param8:F1}s",
                         "",
                         "",
@@ -1059,12 +1067,12 @@
                     },
                     "coinCost": 25000,
                     "description": [
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:F1P}",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:F1P}",
                         "Hold DMG|{param2:F1P}",
                         "Tri-Karma Purification DMG|{param3:F1P} ATK+{param4:F1P} Elemental Mastery",
                         "Tri-Karma Purification Trigger Interval|{param5:F1}s",
                         "Seed of Skandha Duration|{param6:F1}s",
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param7:F1}s",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param7:F1}s",
                         "Hold CD|{param8:F1}s",
                         "",
                         "",
@@ -1107,12 +1115,12 @@
                     },
                     "coinCost": 30000,
                     "description": [
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:F1P}",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:F1P}",
                         "Hold DMG|{param2:F1P}",
                         "Tri-Karma Purification DMG|{param3:F1P} ATK+{param4:F1P} Elemental Mastery",
                         "Tri-Karma Purification Trigger Interval|{param5:F1}s",
                         "Seed of Skandha Duration|{param6:F1}s",
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param7:F1}s",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param7:F1}s",
                         "Hold CD|{param8:F1}s",
                         "",
                         "",
@@ -1155,12 +1163,12 @@
                     },
                     "coinCost": 37500,
                     "description": [
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:F1P}",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:F1P}",
                         "Hold DMG|{param2:F1P}",
                         "Tri-Karma Purification DMG|{param3:F1P} ATK+{param4:F1P} Elemental Mastery",
                         "Tri-Karma Purification Trigger Interval|{param5:F1}s",
                         "Seed of Skandha Duration|{param6:F1}s",
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param7:F1}s",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param7:F1}s",
                         "Hold CD|{param8:F1}s",
                         "",
                         "",
@@ -1204,12 +1212,12 @@
                     },
                     "coinCost": 120000,
                     "description": [
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:F1P}",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:F1P}",
                         "Hold DMG|{param2:F1P}",
                         "Tri-Karma Purification DMG|{param3:F1P} ATK+{param4:F1P} Elemental Mastery",
                         "Tri-Karma Purification Trigger Interval|{param5:F1}s",
                         "Seed of Skandha Duration|{param6:F1}s",
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param7:F1}s",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param7:F1}s",
                         "Hold CD|{param8:F1}s",
                         "",
                         "",
@@ -1253,12 +1261,12 @@
                     },
                     "coinCost": 260000,
                     "description": [
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:F1P}",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:F1P}",
                         "Hold DMG|{param2:F1P}",
                         "Tri-Karma Purification DMG|{param3:F1P} ATK+{param4:F1P} Elemental Mastery",
                         "Tri-Karma Purification Trigger Interval|{param5:F1}s",
                         "Seed of Skandha Duration|{param6:F1}s",
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param7:F1}s",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param7:F1}s",
                         "Hold CD|{param8:F1}s",
                         "",
                         "",
@@ -1302,12 +1310,12 @@
                     },
                     "coinCost": 450000,
                     "description": [
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:F1P}",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:F1P}",
                         "Hold DMG|{param2:F1P}",
                         "Tri-Karma Purification DMG|{param3:F1P} ATK+{param4:F1P} Elemental Mastery",
                         "Tri-Karma Purification Trigger Interval|{param5:F1}s",
                         "Seed of Skandha Duration|{param6:F1}s",
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param7:F1}s",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param7:F1}s",
                         "Hold CD|{param8:F1}s",
                         "",
                         "",
@@ -1352,12 +1360,12 @@
                     },
                     "coinCost": 700000,
                     "description": [
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:F1P}",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:F1P}",
                         "Hold DMG|{param2:F1P}",
                         "Tri-Karma Purification DMG|{param3:F1P} ATK+{param4:F1P} Elemental Mastery",
                         "Tri-Karma Purification Trigger Interval|{param5:F1}s",
                         "Seed of Skandha Duration|{param6:F1}s",
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param7:F1}s",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param7:F1}s",
                         "Hold CD|{param8:F1}s",
                         "",
                         "",
@@ -1397,12 +1405,12 @@
                     "costItems": null,
                     "coinCost": null,
                     "description": [
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:F1P}",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:F1P}",
                         "Hold DMG|{param2:F1P}",
                         "Tri-Karma Purification DMG|{param3:F1P} ATK+{param4:F1P} Elemental Mastery",
                         "Tri-Karma Purification Trigger Interval|{param5:F1}s",
                         "Seed of Skandha Duration|{param6:F1}s",
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param7:F1}s",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param7:F1}s",
                         "Hold CD|{param8:F1}s",
                         "",
                         "",
@@ -1442,12 +1450,12 @@
                     "costItems": null,
                     "coinCost": null,
                     "description": [
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:F1P}",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:F1P}",
                         "Hold DMG|{param2:F1P}",
                         "Tri-Karma Purification DMG|{param3:F1P} ATK+{param4:F1P} Elemental Mastery",
                         "Tri-Karma Purification Trigger Interval|{param5:F1}s",
                         "Seed of Skandha Duration|{param6:F1}s",
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param7:F1}s",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param7:F1}s",
                         "Hold CD|{param8:F1}s",
                         "",
                         "",
@@ -1487,12 +1495,12 @@
                     "costItems": null,
                     "coinCost": null,
                     "description": [
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:F1P}",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:F1P}",
                         "Hold DMG|{param2:F1P}",
                         "Tri-Karma Purification DMG|{param3:F1P} ATK+{param4:F1P} Elemental Mastery",
                         "Tri-Karma Purification Trigger Interval|{param5:F1}s",
                         "Seed of Skandha Duration|{param6:F1}s",
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param7:F1}s",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param7:F1}s",
                         "Hold CD|{param8:F1}s",
                         "",
                         "",
@@ -1532,12 +1540,12 @@
                     "costItems": null,
                     "coinCost": null,
                     "description": [
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:F1P}",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:F1P}",
                         "Hold DMG|{param2:F1P}",
                         "Tri-Karma Purification DMG|{param3:F1P} ATK+{param4:F1P} Elemental Mastery",
                         "Tri-Karma Purification Trigger Interval|{param5:F1}s",
                         "Seed of Skandha Duration|{param6:F1}s",
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param7:F1}s",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param7:F1}s",
                         "Hold CD|{param8:F1}s",
                         "",
                         "",
@@ -1577,12 +1585,12 @@
                     "costItems": null,
                     "coinCost": null,
                     "description": [
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:F1P}",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:F1P}",
                         "Hold DMG|{param2:F1P}",
                         "Tri-Karma Purification DMG|{param3:F1P} ATK+{param4:F1P} Elemental Mastery",
                         "Tri-Karma Purification Trigger Interval|{param5:F1}s",
                         "Seed of Skandha Duration|{param6:F1}s",
-                        "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param7:F1}s",
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param7:F1}s",
                         "Hold CD|{param8:F1}s",
                         "",
                         "",
@@ -2361,31 +2369,49 @@
         "0": {
             "name": "The Seed of Stored Knowledge",
             "description": "When the <color=#FFD780FF>Shrine of Maya</color> is unleashed and the Elemental Types of the party members are being tabulated, the count will add 1 to the number of Pyro, Electro, and Hydro characters respectively.",
+            "extraData": null,
             "icon": "UI_Talent_S_Nahida_01"
         },
         "1": {
             "name": "The Root of All Fullness",
             "description": "Opponents that are marked by <color=#FFD780FF>Seeds of Skandha</color> applied by Nahida herself will be affected by the following effects:\\n·Burning, Bloom, Hyperbloom, and Burgeon Reaction DMG they receive can score CRIT Hits. CRIT Rate and CRIT DMG are fixed at 20% and 100% respectively.\\n·Within 8s of being affected by Quicken, Aggravate, Spread, DEF is decreased by 30%.",
+            "extraData": null,
             "icon": "UI_Talent_S_Nahida_02"
         },
         "2": {
             "name": "The Shoot of Conscious Attainment",
             "description": "Increases the Level of <color=#FFD780FF>All Schemes to Know</color> by 3.\\nMaximum upgrade level is 15.",
+            "extraData": {
+                "addTalentExtraLevel": {
+                    "talentType": "AvatarSkill",
+                    "talentIndex": 2,
+                    "extraLevel": 3
+                }
+            },
             "icon": "UI_Talent_U_Nahida_01"
         },
         "3": {
             "name": "The Stem of Manifest Inference",
             "description": "When 1/2/3/4 (or more) nearby opponents are affected by <color=#FFD780FF>All Schemes to Know</color>'s Seeds of Skandha, Nahida's Elemental Mastery will be increased by 100/120/140/160.",
+            "extraData": null,
             "icon": "UI_Talent_S_Nahida_03"
         },
         "4": {
             "name": "The Leaves of Enlightening Speech",
             "description": "Increases the Level of <color=#FFD780FF>Illusory Heart</color> by 3.\\nMaximum upgrade level is 15.",
+            "extraData": {
+                "addTalentExtraLevel": {
+                    "talentType": "AvatarSkill",
+                    "talentIndex": 9,
+                    "extraLevel": 3
+                }
+            },
             "icon": "UI_Talent_U_Nahida_02"
         },
         "5": {
             "name": "The Fruit of Reason's Culmination",
             "description": "When Nahida hits an opponent affected by <color=#FFD780FF>All Schemes to Know</color>'s Seeds of Skandha with Normal or Charged Attacks after unleashing <color=#FFD780FF>Illusory Heart</color>, she will use Tri-Karma Purification: Karmic Oblivion on this opponent and all connected opponents, dealing <color=#99FF88FF>Dendro DMG</color> based on 200% of Nahida's ATK and 400% of her Elemental Mastery.\\nDMG dealt by Tri-Karma Purification: Karmic Oblivion is considered Elemental Skill DMG and can be triggered once every 0.2s.\\nThis effect can last up to 10s and will be removed after Nahida has unleashed 6 instances of Tri-Karma Purification: Karmic Oblivion.",
+            "extraData": null,
             "icon": "UI_Talent_S_Nahida_04"
         }
     },

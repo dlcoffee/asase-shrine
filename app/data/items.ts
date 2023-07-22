@@ -30,7 +30,7 @@ export interface Item {
   name: string
   icon: string
   type: string
-  source: Source[]
+  source: Source[] | null
   rank: 1 | 2 | 3 | 4 | 5
   recipe: false | Recipe
 }

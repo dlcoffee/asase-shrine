@@ -678,6 +678,28 @@
         "id": "sand_grease_pupa"
     },
     {
+        "name": "Mourning Flower",
+        "description": "Crimson flowers that bloom on ancient battlefields. They can even flourish in the depths of the desert. Their drooping flowers seem to be in mourning for heroes long past.",
+        "type": "Local Specialty (Sumeru)",
+        "recipe": false,
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Found in the deserts of Sumeru",
+                "type": "single"
+            },
+            {
+                "name": "Recommendation: Found in the Asipattravana Swamp",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_101223",
+        "rank": 1,
+        "route": "Mourning Flower",
+        "_id": "101223",
+        "id": "mourning_flower"
+    },
+    {
         "name": "Scarab",
         "description": "A tenacious beetle that finds repose within the vast ocean of desert sand. The golden pattern on such beetles' shells hints at some deep relationship between them and the ancient ruins that dot the desert.",
         "type": "Local Specialty (Sumeru)",
@@ -694,6 +716,75 @@
         "route": "Scarab",
         "_id": "101225",
         "id": "scarab"
+    },
+    {
+        "name": "Romaritime Flower",
+        "description": "An ethereal and elegant blue flower. Its tender petals are elastic and water-absorbent, making it the ideal raw material for various daily necessities.",
+        "type": "Local Specialty (Fontaine)",
+        "recipe": false,
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Found in the wild",
+                "type": "single"
+            },
+            {
+                "name": "Recommendation: Found in Salacia Plain",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_101233",
+        "rank": 1,
+        "route": "Romaritime Flower",
+        "beta": true,
+        "_id": "101233",
+        "id": "romaritime_flower"
+    },
+    {
+        "name": "Lumidouce Bell",
+        "description": "A serene and tranquil violet flower. It has a light, soft, and lasting scent and is often used for making luxurious perfumes.",
+        "type": "Local Specialty (Fontaine)",
+        "recipe": false,
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Found in the wild",
+                "type": "single"
+            },
+            {
+                "name": "Found in the north of the Court of Fontaine",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_101235",
+        "rank": 1,
+        "route": "Lumidouce Bell",
+        "beta": true,
+        "_id": "101235",
+        "id": "lumidouce_bell"
+    },
+    {
+        "name": "Rainbow Rose",
+        "description": "A delicate and tender pink flower. Despite the name, Rainbow Roses are essentially more akin to Lilies.",
+        "type": "Local Specialty (Fontaine)",
+        "recipe": false,
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Found in the wild",
+                "type": "single"
+            },
+            {
+                "name": "Recommendation: Found in Beryl Region",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_101236",
+        "rank": 1,
+        "route": "Rainbow Rose",
+        "beta": true,
+        "_id": "101236",
+        "id": "rainbow_rose"
     },
     {
         "name": "Brilliant Diamond Sliver",
@@ -773,28 +864,64 @@
         "type": "Character Ascension Material",
         "recipe": {
             "50001": {
-                "104121": 1,
-                "104201": 1
+                "104121": {
+                    "icon": "UI_ItemIcon_104121",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 1
+                }
             },
             "50002": {
-                "104131": 1,
-                "104201": 1
+                "104131": {
+                    "icon": "UI_ItemIcon_104131",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 1
+                }
             },
             "50003": {
-                "104141": 1,
-                "104201": 1
+                "104141": {
+                    "icon": "UI_ItemIcon_104141",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 1
+                }
             },
             "50004": {
-                "104151": 1,
-                "104201": 1
+                "104151": {
+                    "icon": "UI_ItemIcon_104151",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 1
+                }
             },
             "50005": {
-                "104161": 1,
-                "104201": 1
+                "104161": {
+                    "icon": "UI_ItemIcon_104161",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 1
+                }
             },
             "50006": {
-                "104171": 1,
-                "104201": 1
+                "104171": {
+                    "icon": "UI_ItemIcon_104171",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 1
+                }
             }
         },
         "mapMark": false,
@@ -824,31 +951,70 @@
         "type": "Character Ascension Material",
         "recipe": {
             "15001": {
-                "104111": 3
+                "104111": {
+                    "icon": "UI_ItemIcon_104111",
+                    "count": 3
+                }
             },
             "50007": {
-                "104122": 1,
-                "104201": 3
+                "104122": {
+                    "icon": "UI_ItemIcon_104122",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 3
+                }
             },
             "50008": {
-                "104132": 1,
-                "104201": 3
+                "104132": {
+                    "icon": "UI_ItemIcon_104132",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 3
+                }
             },
             "50009": {
-                "104142": 1,
-                "104201": 3
+                "104142": {
+                    "icon": "UI_ItemIcon_104142",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 3
+                }
             },
             "50010": {
-                "104152": 1,
-                "104201": 3
+                "104152": {
+                    "icon": "UI_ItemIcon_104152",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 3
+                }
             },
             "50011": {
-                "104162": 1,
-                "104201": 3
+                "104162": {
+                    "icon": "UI_ItemIcon_104162",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 3
+                }
             },
             "50012": {
-                "104172": 1,
-                "104201": 3
+                "104172": {
+                    "icon": "UI_ItemIcon_104172",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 3
+                }
             }
         },
         "mapMark": false,
@@ -878,31 +1044,70 @@
         "type": "Character Ascension Material",
         "recipe": {
             "15002": {
-                "104112": 3
+                "104112": {
+                    "icon": "UI_ItemIcon_104112",
+                    "count": 3
+                }
             },
             "50013": {
-                "104123": 1,
-                "104201": 9
+                "104123": {
+                    "icon": "UI_ItemIcon_104123",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 9
+                }
             },
             "50014": {
-                "104133": 1,
-                "104201": 9
+                "104133": {
+                    "icon": "UI_ItemIcon_104133",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 9
+                }
             },
             "50015": {
-                "104143": 1,
-                "104201": 9
+                "104143": {
+                    "icon": "UI_ItemIcon_104143",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 9
+                }
             },
             "50016": {
-                "104153": 1,
-                "104201": 9
+                "104153": {
+                    "icon": "UI_ItemIcon_104153",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 9
+                }
             },
             "50017": {
-                "104163": 1,
-                "104201": 9
+                "104163": {
+                    "icon": "UI_ItemIcon_104163",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 9
+                }
             },
             "50018": {
-                "104173": 1,
-                "104201": 9
+                "104173": {
+                    "icon": "UI_ItemIcon_104173",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 9
+                }
             }
         },
         "mapMark": false,
@@ -932,31 +1137,70 @@
         "type": "Character Ascension Material",
         "recipe": {
             "15003": {
-                "104113": 3
+                "104113": {
+                    "icon": "UI_ItemIcon_104113",
+                    "count": 3
+                }
             },
             "50019": {
-                "104124": 1,
-                "104201": 27
+                "104124": {
+                    "icon": "UI_ItemIcon_104124",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 27
+                }
             },
             "50020": {
-                "104134": 1,
-                "104201": 27
+                "104134": {
+                    "icon": "UI_ItemIcon_104134",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 27
+                }
             },
             "50021": {
-                "104144": 1,
-                "104201": 27
+                "104144": {
+                    "icon": "UI_ItemIcon_104144",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 27
+                }
             },
             "50022": {
-                "104154": 1,
-                "104201": 27
+                "104154": {
+                    "icon": "UI_ItemIcon_104154",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 27
+                }
             },
             "50023": {
-                "104164": 1,
-                "104201": 27
+                "104164": {
+                    "icon": "UI_ItemIcon_104164",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 27
+                }
             },
             "50024": {
-                "104174": 1,
-                "104201": 27
+                "104174": {
+                    "icon": "UI_ItemIcon_104174",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 27
+                }
             }
         },
         "mapMark": false,
@@ -986,28 +1230,64 @@
         "type": "Character Ascension Material",
         "recipe": {
             "50025": {
-                "104111": 1,
-                "104201": 1
+                "104111": {
+                    "icon": "UI_ItemIcon_104111",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 1
+                }
             },
             "50026": {
-                "104131": 1,
-                "104201": 1
+                "104131": {
+                    "icon": "UI_ItemIcon_104131",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 1
+                }
             },
             "50027": {
-                "104141": 1,
-                "104201": 1
+                "104141": {
+                    "icon": "UI_ItemIcon_104141",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 1
+                }
             },
             "50028": {
-                "104151": 1,
-                "104201": 1
+                "104151": {
+                    "icon": "UI_ItemIcon_104151",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 1
+                }
             },
             "50029": {
-                "104161": 1,
-                "104201": 1
+                "104161": {
+                    "icon": "UI_ItemIcon_104161",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 1
+                }
             },
             "50030": {
-                "104171": 1,
-                "104201": 1
+                "104171": {
+                    "icon": "UI_ItemIcon_104171",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 1
+                }
             }
         },
         "mapMark": false,
@@ -1037,31 +1317,70 @@
         "type": "Character Ascension Material",
         "recipe": {
             "15004": {
-                "104121": 3
+                "104121": {
+                    "icon": "UI_ItemIcon_104121",
+                    "count": 3
+                }
             },
             "50031": {
-                "104112": 1,
-                "104201": 3
+                "104112": {
+                    "icon": "UI_ItemIcon_104112",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 3
+                }
             },
             "50032": {
-                "104132": 1,
-                "104201": 3
+                "104132": {
+                    "icon": "UI_ItemIcon_104132",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 3
+                }
             },
             "50033": {
-                "104142": 1,
-                "104201": 3
+                "104142": {
+                    "icon": "UI_ItemIcon_104142",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 3
+                }
             },
             "50034": {
-                "104152": 1,
-                "104201": 3
+                "104152": {
+                    "icon": "UI_ItemIcon_104152",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 3
+                }
             },
             "50035": {
-                "104162": 1,
-                "104201": 3
+                "104162": {
+                    "icon": "UI_ItemIcon_104162",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 3
+                }
             },
             "50036": {
-                "104172": 1,
-                "104201": 3
+                "104172": {
+                    "icon": "UI_ItemIcon_104172",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 3
+                }
             }
         },
         "mapMark": false,
@@ -1091,31 +1410,70 @@
         "type": "Character Ascension Material",
         "recipe": {
             "15005": {
-                "104122": 3
+                "104122": {
+                    "icon": "UI_ItemIcon_104122",
+                    "count": 3
+                }
             },
             "50037": {
-                "104113": 1,
-                "104201": 9
+                "104113": {
+                    "icon": "UI_ItemIcon_104113",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 9
+                }
             },
             "50038": {
-                "104133": 1,
-                "104201": 9
+                "104133": {
+                    "icon": "UI_ItemIcon_104133",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 9
+                }
             },
             "50039": {
-                "104143": 1,
-                "104201": 9
+                "104143": {
+                    "icon": "UI_ItemIcon_104143",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 9
+                }
             },
             "50040": {
-                "104153": 1,
-                "104201": 9
+                "104153": {
+                    "icon": "UI_ItemIcon_104153",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 9
+                }
             },
             "50041": {
-                "104163": 1,
-                "104201": 9
+                "104163": {
+                    "icon": "UI_ItemIcon_104163",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 9
+                }
             },
             "50042": {
-                "104173": 1,
-                "104201": 9
+                "104173": {
+                    "icon": "UI_ItemIcon_104173",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 9
+                }
             }
         },
         "mapMark": false,
@@ -1145,31 +1503,70 @@
         "type": "Character Ascension Material",
         "recipe": {
             "15006": {
-                "104123": 3
+                "104123": {
+                    "icon": "UI_ItemIcon_104123",
+                    "count": 3
+                }
             },
             "50043": {
-                "104114": 1,
-                "104201": 27
+                "104114": {
+                    "icon": "UI_ItemIcon_104114",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 27
+                }
             },
             "50044": {
-                "104134": 1,
-                "104201": 27
+                "104134": {
+                    "icon": "UI_ItemIcon_104134",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 27
+                }
             },
             "50045": {
-                "104144": 1,
-                "104201": 27
+                "104144": {
+                    "icon": "UI_ItemIcon_104144",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 27
+                }
             },
             "50046": {
-                "104154": 1,
-                "104201": 27
+                "104154": {
+                    "icon": "UI_ItemIcon_104154",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 27
+                }
             },
             "50047": {
-                "104164": 1,
-                "104201": 27
+                "104164": {
+                    "icon": "UI_ItemIcon_104164",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 27
+                }
             },
             "50048": {
-                "104174": 1,
-                "104201": 27
+                "104174": {
+                    "icon": "UI_ItemIcon_104174",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 27
+                }
             }
         },
         "mapMark": false,
@@ -1199,28 +1596,64 @@
         "type": "Character Ascension Material",
         "recipe": {
             "50049": {
-                "104111": 1,
-                "104201": 1
+                "104111": {
+                    "icon": "UI_ItemIcon_104111",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 1
+                }
             },
             "50050": {
-                "104121": 1,
-                "104201": 1
+                "104121": {
+                    "icon": "UI_ItemIcon_104121",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 1
+                }
             },
             "50051": {
-                "104141": 1,
-                "104201": 1
+                "104141": {
+                    "icon": "UI_ItemIcon_104141",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 1
+                }
             },
             "50052": {
-                "104151": 1,
-                "104201": 1
+                "104151": {
+                    "icon": "UI_ItemIcon_104151",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 1
+                }
             },
             "50053": {
-                "104161": 1,
-                "104201": 1
+                "104161": {
+                    "icon": "UI_ItemIcon_104161",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 1
+                }
             },
             "50054": {
-                "104171": 1,
-                "104201": 1
+                "104171": {
+                    "icon": "UI_ItemIcon_104171",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 1
+                }
             }
         },
         "mapMark": false,
@@ -1246,31 +1679,70 @@
         "type": "Character Ascension Material",
         "recipe": {
             "15007": {
-                "104131": 3
+                "104131": {
+                    "icon": "UI_ItemIcon_104131",
+                    "count": 3
+                }
             },
             "50055": {
-                "104112": 1,
-                "104201": 3
+                "104112": {
+                    "icon": "UI_ItemIcon_104112",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 3
+                }
             },
             "50056": {
-                "104122": 1,
-                "104201": 3
+                "104122": {
+                    "icon": "UI_ItemIcon_104122",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 3
+                }
             },
             "50057": {
-                "104142": 1,
-                "104201": 3
+                "104142": {
+                    "icon": "UI_ItemIcon_104142",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 3
+                }
             },
             "50058": {
-                "104152": 1,
-                "104201": 3
+                "104152": {
+                    "icon": "UI_ItemIcon_104152",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 3
+                }
             },
             "50059": {
-                "104162": 1,
-                "104201": 3
+                "104162": {
+                    "icon": "UI_ItemIcon_104162",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 3
+                }
             },
             "50060": {
-                "104172": 1,
-                "104201": 3
+                "104172": {
+                    "icon": "UI_ItemIcon_104172",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 3
+                }
             }
         },
         "mapMark": false,
@@ -1300,31 +1772,70 @@
         "type": "Character Ascension Material",
         "recipe": {
             "15008": {
-                "104132": 3
+                "104132": {
+                    "icon": "UI_ItemIcon_104132",
+                    "count": 3
+                }
             },
             "50061": {
-                "104113": 1,
-                "104201": 9
+                "104113": {
+                    "icon": "UI_ItemIcon_104113",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 9
+                }
             },
             "50062": {
-                "104123": 1,
-                "104201": 9
+                "104123": {
+                    "icon": "UI_ItemIcon_104123",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 9
+                }
             },
             "50063": {
-                "104143": 1,
-                "104201": 9
+                "104143": {
+                    "icon": "UI_ItemIcon_104143",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 9
+                }
             },
             "50064": {
-                "104153": 1,
-                "104201": 9
+                "104153": {
+                    "icon": "UI_ItemIcon_104153",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 9
+                }
             },
             "50065": {
-                "104163": 1,
-                "104201": 9
+                "104163": {
+                    "icon": "UI_ItemIcon_104163",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 9
+                }
             },
             "50066": {
-                "104173": 1,
-                "104201": 9
+                "104173": {
+                    "icon": "UI_ItemIcon_104173",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 9
+                }
             }
         },
         "mapMark": false,
@@ -1354,31 +1865,70 @@
         "type": "Character Ascension Material",
         "recipe": {
             "15009": {
-                "104133": 3
+                "104133": {
+                    "icon": "UI_ItemIcon_104133",
+                    "count": 3
+                }
             },
             "50067": {
-                "104114": 1,
-                "104201": 27
+                "104114": {
+                    "icon": "UI_ItemIcon_104114",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 27
+                }
             },
             "50068": {
-                "104124": 1,
-                "104201": 27
+                "104124": {
+                    "icon": "UI_ItemIcon_104124",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 27
+                }
             },
             "50069": {
-                "104144": 1,
-                "104201": 27
+                "104144": {
+                    "icon": "UI_ItemIcon_104144",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 27
+                }
             },
             "50070": {
-                "104154": 1,
-                "104201": 27
+                "104154": {
+                    "icon": "UI_ItemIcon_104154",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 27
+                }
             },
             "50071": {
-                "104164": 1,
-                "104201": 27
+                "104164": {
+                    "icon": "UI_ItemIcon_104164",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 27
+                }
             },
             "50072": {
-                "104174": 1,
-                "104201": 27
+                "104174": {
+                    "icon": "UI_ItemIcon_104174",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 27
+                }
             }
         },
         "mapMark": false,
@@ -1408,28 +1958,64 @@
         "type": "Character Ascension Material",
         "recipe": {
             "50073": {
-                "104111": 1,
-                "104201": 1
+                "104111": {
+                    "icon": "UI_ItemIcon_104111",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 1
+                }
             },
             "50074": {
-                "104121": 1,
-                "104201": 1
+                "104121": {
+                    "icon": "UI_ItemIcon_104121",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 1
+                }
             },
             "50075": {
-                "104131": 1,
-                "104201": 1
+                "104131": {
+                    "icon": "UI_ItemIcon_104131",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 1
+                }
             },
             "50076": {
-                "104151": 1,
-                "104201": 1
+                "104151": {
+                    "icon": "UI_ItemIcon_104151",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 1
+                }
             },
             "50077": {
-                "104161": 1,
-                "104201": 1
+                "104161": {
+                    "icon": "UI_ItemIcon_104161",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 1
+                }
             },
             "50078": {
-                "104171": 1,
-                "104201": 1
+                "104171": {
+                    "icon": "UI_ItemIcon_104171",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 1
+                }
             }
         },
         "mapMark": false,
@@ -1439,7 +2025,7 @@
                 "type": "single"
             },
             {
-                "name": "Dropped by Thunder Manifestation",
+                "name": "Dropped by Thunder Manifestations",
                 "type": "single"
             },
             {
@@ -1463,31 +2049,70 @@
         "type": "Character Ascension Material",
         "recipe": {
             "15010": {
-                "104141": 3
+                "104141": {
+                    "icon": "UI_ItemIcon_104141",
+                    "count": 3
+                }
             },
             "50079": {
-                "104112": 1,
-                "104201": 3
+                "104112": {
+                    "icon": "UI_ItemIcon_104112",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 3
+                }
             },
             "50080": {
-                "104122": 1,
-                "104201": 3
+                "104122": {
+                    "icon": "UI_ItemIcon_104122",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 3
+                }
             },
             "50081": {
-                "104132": 1,
-                "104201": 3
+                "104132": {
+                    "icon": "UI_ItemIcon_104132",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 3
+                }
             },
             "50082": {
-                "104152": 1,
-                "104201": 3
+                "104152": {
+                    "icon": "UI_ItemIcon_104152",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 3
+                }
             },
             "50083": {
-                "104162": 1,
-                "104201": 3
+                "104162": {
+                    "icon": "UI_ItemIcon_104162",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 3
+                }
             },
             "50084": {
-                "104172": 1,
-                "104201": 3
+                "104172": {
+                    "icon": "UI_ItemIcon_104172",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 3
+                }
             }
         },
         "mapMark": false,
@@ -1521,31 +2146,70 @@
         "type": "Character Ascension Material",
         "recipe": {
             "15011": {
-                "104142": 3
+                "104142": {
+                    "icon": "UI_ItemIcon_104142",
+                    "count": 3
+                }
             },
             "50085": {
-                "104113": 1,
-                "104201": 9
+                "104113": {
+                    "icon": "UI_ItemIcon_104113",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 9
+                }
             },
             "50086": {
-                "104123": 1,
-                "104201": 9
+                "104123": {
+                    "icon": "UI_ItemIcon_104123",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 9
+                }
             },
             "50087": {
-                "104133": 1,
-                "104201": 9
+                "104133": {
+                    "icon": "UI_ItemIcon_104133",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 9
+                }
             },
             "50088": {
-                "104153": 1,
-                "104201": 9
+                "104153": {
+                    "icon": "UI_ItemIcon_104153",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 9
+                }
             },
             "50089": {
-                "104163": 1,
-                "104201": 9
+                "104163": {
+                    "icon": "UI_ItemIcon_104163",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 9
+                }
             },
             "50090": {
-                "104173": 1,
-                "104201": 9
+                "104173": {
+                    "icon": "UI_ItemIcon_104173",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 9
+                }
             }
         },
         "mapMark": false,
@@ -1579,31 +2243,70 @@
         "type": "Character Ascension Material",
         "recipe": {
             "15012": {
-                "104143": 3
+                "104143": {
+                    "icon": "UI_ItemIcon_104143",
+                    "count": 3
+                }
             },
             "50091": {
-                "104114": 1,
-                "104201": 27
+                "104114": {
+                    "icon": "UI_ItemIcon_104114",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 27
+                }
             },
             "50092": {
-                "104124": 1,
-                "104201": 27
+                "104124": {
+                    "icon": "UI_ItemIcon_104124",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 27
+                }
             },
             "50093": {
-                "104134": 1,
-                "104201": 27
+                "104134": {
+                    "icon": "UI_ItemIcon_104134",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 27
+                }
             },
             "50094": {
-                "104154": 1,
-                "104201": 27
+                "104154": {
+                    "icon": "UI_ItemIcon_104154",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 27
+                }
             },
             "50095": {
-                "104164": 1,
-                "104201": 27
+                "104164": {
+                    "icon": "UI_ItemIcon_104164",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 27
+                }
             },
             "50096": {
-                "104174": 1,
-                "104201": 27
+                "104174": {
+                    "icon": "UI_ItemIcon_104174",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 27
+                }
             }
         },
         "mapMark": false,
@@ -1637,28 +2340,64 @@
         "type": "Character Ascension Material",
         "recipe": {
             "50097": {
-                "104111": 1,
-                "104201": 1
+                "104111": {
+                    "icon": "UI_ItemIcon_104111",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 1
+                }
             },
             "50098": {
-                "104121": 1,
-                "104201": 1
+                "104121": {
+                    "icon": "UI_ItemIcon_104121",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 1
+                }
             },
             "50099": {
-                "104131": 1,
-                "104201": 1
+                "104131": {
+                    "icon": "UI_ItemIcon_104131",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 1
+                }
             },
             "50100": {
-                "104141": 1,
-                "104201": 1
+                "104141": {
+                    "icon": "UI_ItemIcon_104141",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 1
+                }
             },
             "50101": {
-                "104161": 1,
-                "104201": 1
+                "104161": {
+                    "icon": "UI_ItemIcon_104161",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 1
+                }
             },
             "50102": {
-                "104171": 1,
-                "104201": 1
+                "104171": {
+                    "icon": "UI_ItemIcon_104171",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 1
+                }
             }
         },
         "mapMark": false,
@@ -1688,31 +2427,70 @@
         "type": "Character Ascension Material",
         "recipe": {
             "15013": {
-                "104151": 3
+                "104151": {
+                    "icon": "UI_ItemIcon_104151",
+                    "count": 3
+                }
             },
             "50103": {
-                "104112": 1,
-                "104201": 3
+                "104112": {
+                    "icon": "UI_ItemIcon_104112",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 3
+                }
             },
             "50104": {
-                "104122": 1,
-                "104201": 3
+                "104122": {
+                    "icon": "UI_ItemIcon_104122",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 3
+                }
             },
             "50105": {
-                "104132": 1,
-                "104201": 3
+                "104132": {
+                    "icon": "UI_ItemIcon_104132",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 3
+                }
             },
             "50106": {
-                "104142": 1,
-                "104201": 3
+                "104142": {
+                    "icon": "UI_ItemIcon_104142",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 3
+                }
             },
             "50107": {
-                "104162": 1,
-                "104201": 3
+                "104162": {
+                    "icon": "UI_ItemIcon_104162",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 3
+                }
             },
             "50108": {
-                "104172": 1,
-                "104201": 3
+                "104172": {
+                    "icon": "UI_ItemIcon_104172",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 3
+                }
             }
         },
         "mapMark": false,
@@ -1742,31 +2520,70 @@
         "type": "Character Ascension Material",
         "recipe": {
             "15014": {
-                "104152": 3
+                "104152": {
+                    "icon": "UI_ItemIcon_104152",
+                    "count": 3
+                }
             },
             "50109": {
-                "104113": 1,
-                "104201": 9
+                "104113": {
+                    "icon": "UI_ItemIcon_104113",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 9
+                }
             },
             "50110": {
-                "104123": 1,
-                "104201": 9
+                "104123": {
+                    "icon": "UI_ItemIcon_104123",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 9
+                }
             },
             "50111": {
-                "104133": 1,
-                "104201": 9
+                "104133": {
+                    "icon": "UI_ItemIcon_104133",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 9
+                }
             },
             "50112": {
-                "104143": 1,
-                "104201": 9
+                "104143": {
+                    "icon": "UI_ItemIcon_104143",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 9
+                }
             },
             "50113": {
-                "104163": 1,
-                "104201": 9
+                "104163": {
+                    "icon": "UI_ItemIcon_104163",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 9
+                }
             },
             "50114": {
-                "104173": 1,
-                "104201": 9
+                "104173": {
+                    "icon": "UI_ItemIcon_104173",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 9
+                }
             }
         },
         "mapMark": false,
@@ -1796,31 +2613,70 @@
         "type": "Character Ascension Material",
         "recipe": {
             "15015": {
-                "104153": 3
+                "104153": {
+                    "icon": "UI_ItemIcon_104153",
+                    "count": 3
+                }
             },
             "50115": {
-                "104114": 1,
-                "104201": 27
+                "104114": {
+                    "icon": "UI_ItemIcon_104114",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 27
+                }
             },
             "50116": {
-                "104124": 1,
-                "104201": 27
+                "104124": {
+                    "icon": "UI_ItemIcon_104124",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 27
+                }
             },
             "50117": {
-                "104134": 1,
-                "104201": 27
+                "104134": {
+                    "icon": "UI_ItemIcon_104134",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 27
+                }
             },
             "50118": {
-                "104144": 1,
-                "104201": 27
+                "104144": {
+                    "icon": "UI_ItemIcon_104144",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 27
+                }
             },
             "50119": {
-                "104164": 1,
-                "104201": 27
+                "104164": {
+                    "icon": "UI_ItemIcon_104164",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 27
+                }
             },
             "50120": {
-                "104174": 1,
-                "104201": 27
+                "104174": {
+                    "icon": "UI_ItemIcon_104174",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 27
+                }
             }
         },
         "mapMark": false,
@@ -1850,34 +2706,70 @@
         "type": "Character Ascension Material",
         "recipe": {
             "50121": {
-                "104111": 1,
-                "104201": 1
+                "104111": {
+                    "icon": "UI_ItemIcon_104111",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 1
+                }
             },
             "50122": {
-                "104121": 1,
-                "104201": 1
+                "104121": {
+                    "icon": "UI_ItemIcon_104121",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 1
+                }
             },
             "50123": {
-                "104131": 1,
-                "104201": 1
+                "104131": {
+                    "icon": "UI_ItemIcon_104131",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 1
+                }
             },
             "50124": {
-                "104141": 1,
-                "104201": 1
+                "104141": {
+                    "icon": "UI_ItemIcon_104141",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 1
+                }
             },
             "50125": {
-                "104151": 1,
-                "104201": 1
+                "104151": {
+                    "icon": "UI_ItemIcon_104151",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 1
+                }
             },
             "50126": {
-                "104171": 1,
-                "104201": 1
+                "104171": {
+                    "icon": "UI_ItemIcon_104171",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 1
+                }
             }
         },
         "mapMark": false,
         "source": [
             {
-                "name": "Dropped by Cryo Regisvines.",
+                "name": "Dropped by Cryo Regisvines",
                 "type": "single"
             },
             {
@@ -1901,31 +2793,70 @@
         "type": "Character Ascension Material",
         "recipe": {
             "15016": {
-                "104161": 3
+                "104161": {
+                    "icon": "UI_ItemIcon_104161",
+                    "count": 3
+                }
             },
             "50127": {
-                "104112": 1,
-                "104201": 3
+                "104112": {
+                    "icon": "UI_ItemIcon_104112",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 3
+                }
             },
             "50128": {
-                "104122": 1,
-                "104201": 3
+                "104122": {
+                    "icon": "UI_ItemIcon_104122",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 3
+                }
             },
             "50129": {
-                "104132": 1,
-                "104201": 3
+                "104132": {
+                    "icon": "UI_ItemIcon_104132",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 3
+                }
             },
             "50130": {
-                "104142": 1,
-                "104201": 3
+                "104142": {
+                    "icon": "UI_ItemIcon_104142",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 3
+                }
             },
             "50131": {
-                "104152": 1,
-                "104201": 3
+                "104152": {
+                    "icon": "UI_ItemIcon_104152",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 3
+                }
             },
             "50132": {
-                "104172": 1,
-                "104201": 3
+                "104172": {
+                    "icon": "UI_ItemIcon_104172",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 3
+                }
             }
         },
         "mapMark": false,
@@ -1955,31 +2886,70 @@
         "type": "Character Ascension Material",
         "recipe": {
             "15017": {
-                "104162": 3
+                "104162": {
+                    "icon": "UI_ItemIcon_104162",
+                    "count": 3
+                }
             },
             "50133": {
-                "104113": 1,
-                "104201": 9
+                "104113": {
+                    "icon": "UI_ItemIcon_104113",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 9
+                }
             },
             "50134": {
-                "104123": 1,
-                "104201": 9
+                "104123": {
+                    "icon": "UI_ItemIcon_104123",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 9
+                }
             },
             "50135": {
-                "104133": 1,
-                "104201": 9
+                "104133": {
+                    "icon": "UI_ItemIcon_104133",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 9
+                }
             },
             "50136": {
-                "104143": 1,
-                "104201": 9
+                "104143": {
+                    "icon": "UI_ItemIcon_104143",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 9
+                }
             },
             "50137": {
-                "104153": 1,
-                "104201": 9
+                "104153": {
+                    "icon": "UI_ItemIcon_104153",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 9
+                }
             },
             "50138": {
-                "104173": 1,
-                "104201": 9
+                "104173": {
+                    "icon": "UI_ItemIcon_104173",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 9
+                }
             }
         },
         "mapMark": false,
@@ -2009,31 +2979,70 @@
         "type": "Character Ascension Material",
         "recipe": {
             "15018": {
-                "104163": 3
+                "104163": {
+                    "icon": "UI_ItemIcon_104163",
+                    "count": 3
+                }
             },
             "50139": {
-                "104114": 1,
-                "104201": 27
+                "104114": {
+                    "icon": "UI_ItemIcon_104114",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 27
+                }
             },
             "50140": {
-                "104124": 1,
-                "104201": 27
+                "104124": {
+                    "icon": "UI_ItemIcon_104124",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 27
+                }
             },
             "50141": {
-                "104134": 1,
-                "104201": 27
+                "104134": {
+                    "icon": "UI_ItemIcon_104134",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 27
+                }
             },
             "50142": {
-                "104144": 1,
-                "104201": 27
+                "104144": {
+                    "icon": "UI_ItemIcon_104144",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 27
+                }
             },
             "50143": {
-                "104154": 1,
-                "104201": 27
+                "104154": {
+                    "icon": "UI_ItemIcon_104154",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 27
+                }
             },
             "50144": {
-                "104174": 1,
-                "104201": 27
+                "104174": {
+                    "icon": "UI_ItemIcon_104174",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 27
+                }
             }
         },
         "mapMark": false,
@@ -2063,28 +3072,64 @@
         "type": "Character Ascension Material",
         "recipe": {
             "50145": {
-                "104111": 1,
-                "104201": 1
+                "104111": {
+                    "icon": "UI_ItemIcon_104111",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 1
+                }
             },
             "50146": {
-                "104121": 1,
-                "104201": 1
+                "104121": {
+                    "icon": "UI_ItemIcon_104121",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 1
+                }
             },
             "50147": {
-                "104131": 1,
-                "104201": 1
+                "104131": {
+                    "icon": "UI_ItemIcon_104131",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 1
+                }
             },
             "50148": {
-                "104141": 1,
-                "104201": 1
+                "104141": {
+                    "icon": "UI_ItemIcon_104141",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 1
+                }
             },
             "50149": {
-                "104151": 1,
-                "104201": 1
+                "104151": {
+                    "icon": "UI_ItemIcon_104151",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 1
+                }
             },
             "50150": {
-                "104161": 1,
-                "104201": 1
+                "104161": {
+                    "icon": "UI_ItemIcon_104161",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 1
+                }
             }
         },
         "mapMark": false,
@@ -2118,31 +3163,70 @@
         "type": "Character Ascension Material",
         "recipe": {
             "15019": {
-                "104171": 3
+                "104171": {
+                    "icon": "UI_ItemIcon_104171",
+                    "count": 3
+                }
             },
             "50151": {
-                "104112": 1,
-                "104201": 3
+                "104112": {
+                    "icon": "UI_ItemIcon_104112",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 3
+                }
             },
             "50152": {
-                "104122": 1,
-                "104201": 3
+                "104122": {
+                    "icon": "UI_ItemIcon_104122",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 3
+                }
             },
             "50153": {
-                "104132": 1,
-                "104201": 3
+                "104132": {
+                    "icon": "UI_ItemIcon_104132",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 3
+                }
             },
             "50154": {
-                "104142": 1,
-                "104201": 3
+                "104142": {
+                    "icon": "UI_ItemIcon_104142",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 3
+                }
             },
             "50155": {
-                "104152": 1,
-                "104201": 3
+                "104152": {
+                    "icon": "UI_ItemIcon_104152",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 3
+                }
             },
             "50156": {
-                "104162": 1,
-                "104201": 3
+                "104162": {
+                    "icon": "UI_ItemIcon_104162",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 3
+                }
             }
         },
         "mapMark": false,
@@ -2176,31 +3260,70 @@
         "type": "Character Ascension Material",
         "recipe": {
             "15020": {
-                "104172": 3
+                "104172": {
+                    "icon": "UI_ItemIcon_104172",
+                    "count": 3
+                }
             },
             "50157": {
-                "104113": 1,
-                "104201": 9
+                "104113": {
+                    "icon": "UI_ItemIcon_104113",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 9
+                }
             },
             "50158": {
-                "104123": 1,
-                "104201": 9
+                "104123": {
+                    "icon": "UI_ItemIcon_104123",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 9
+                }
             },
             "50159": {
-                "104133": 1,
-                "104201": 9
+                "104133": {
+                    "icon": "UI_ItemIcon_104133",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 9
+                }
             },
             "50160": {
-                "104143": 1,
-                "104201": 9
+                "104143": {
+                    "icon": "UI_ItemIcon_104143",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 9
+                }
             },
             "50161": {
-                "104153": 1,
-                "104201": 9
+                "104153": {
+                    "icon": "UI_ItemIcon_104153",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 9
+                }
             },
             "50162": {
-                "104163": 1,
-                "104201": 9
+                "104163": {
+                    "icon": "UI_ItemIcon_104163",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 9
+                }
             }
         },
         "mapMark": false,
@@ -2234,31 +3357,70 @@
         "type": "Character Ascension Material",
         "recipe": {
             "15021": {
-                "104173": 3
+                "104173": {
+                    "icon": "UI_ItemIcon_104173",
+                    "count": 3
+                }
             },
             "50163": {
-                "104114": 1,
-                "104201": 27
+                "104114": {
+                    "icon": "UI_ItemIcon_104114",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 27
+                }
             },
             "50164": {
-                "104124": 1,
-                "104201": 27
+                "104124": {
+                    "icon": "UI_ItemIcon_104124",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 27
+                }
             },
             "50165": {
-                "104134": 1,
-                "104201": 27
+                "104134": {
+                    "icon": "UI_ItemIcon_104134",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 27
+                }
             },
             "50166": {
-                "104144": 1,
-                "104201": 27
+                "104144": {
+                    "icon": "UI_ItemIcon_104144",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 27
+                }
             },
             "50167": {
-                "104154": 1,
-                "104201": 27
+                "104154": {
+                    "icon": "UI_ItemIcon_104154",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 27
+                }
             },
             "50168": {
-                "104164": 1,
-                "104201": 27
+                "104164": {
+                    "icon": "UI_ItemIcon_104164",
+                    "count": 1
+                },
+                "104201": {
+                    "icon": "UI_ItemIcon_104201",
+                    "count": 27
+                }
             }
         },
         "mapMark": false,
@@ -2315,7 +3477,10 @@
         "type": "Character Talent Material",
         "recipe": {
             "13001": {
-                "104301": 3
+                "104301": {
+                    "icon": "UI_ItemIcon_104301",
+                    "count": 3
+                }
             }
         },
         "mapMark": false,
@@ -2346,7 +3511,10 @@
         "type": "Character Talent Material",
         "recipe": {
             "13002": {
-                "104302": 3
+                "104302": {
+                    "icon": "UI_ItemIcon_104302",
+                    "count": 3
+                }
             }
         },
         "mapMark": false,
@@ -2400,7 +3568,10 @@
         "type": "Character Talent Material",
         "recipe": {
             "13003": {
-                "104304": 3
+                "104304": {
+                    "icon": "UI_ItemIcon_104304",
+                    "count": 3
+                }
             }
         },
         "mapMark": false,
@@ -2431,7 +3602,10 @@
         "type": "Character Talent Material",
         "recipe": {
             "13004": {
-                "104305": 3
+                "104305": {
+                    "icon": "UI_ItemIcon_104305",
+                    "count": 3
+                }
             }
         },
         "mapMark": false,
@@ -2485,7 +3659,10 @@
         "type": "Character Talent Material",
         "recipe": {
             "13005": {
-                "104307": 3
+                "104307": {
+                    "icon": "UI_ItemIcon_104307",
+                    "count": 3
+                }
             }
         },
         "mapMark": false,
@@ -2516,7 +3693,10 @@
         "type": "Character Talent Material",
         "recipe": {
             "13006": {
-                "104308": 3
+                "104308": {
+                    "icon": "UI_ItemIcon_104308",
+                    "count": 3
+                }
             }
         },
         "mapMark": false,
@@ -2570,7 +3750,10 @@
         "type": "Character Talent Material",
         "recipe": {
             "13007": {
-                "104310": 3
+                "104310": {
+                    "icon": "UI_ItemIcon_104310",
+                    "count": 3
+                }
             }
         },
         "mapMark": false,
@@ -2601,7 +3784,10 @@
         "type": "Character Talent Material",
         "recipe": {
             "13008": {
-                "104311": 3
+                "104311": {
+                    "icon": "UI_ItemIcon_104311",
+                    "count": 3
+                }
             }
         },
         "mapMark": false,
@@ -2655,7 +3841,10 @@
         "type": "Character Talent Material",
         "recipe": {
             "13009": {
-                "104313": 3
+                "104313": {
+                    "icon": "UI_ItemIcon_104313",
+                    "count": 3
+                }
             }
         },
         "mapMark": false,
@@ -2686,7 +3875,10 @@
         "type": "Character Talent Material",
         "recipe": {
             "13010": {
-                "104314": 3
+                "104314": {
+                    "icon": "UI_ItemIcon_104314",
+                    "count": 3
+                }
             }
         },
         "mapMark": false,
@@ -2740,7 +3932,10 @@
         "type": "Character Talent Material",
         "recipe": {
             "13011": {
-                "104316": 3
+                "104316": {
+                    "icon": "UI_ItemIcon_104316",
+                    "count": 3
+                }
             }
         },
         "mapMark": false,
@@ -2771,7 +3966,10 @@
         "type": "Character Talent Material",
         "recipe": {
             "13012": {
-                "104317": 3
+                "104317": {
+                    "icon": "UI_ItemIcon_104317",
+                    "count": 3
+                }
             }
         },
         "mapMark": false,
@@ -2843,7 +4041,10 @@
         "type": "Character Talent Material",
         "recipe": {
             "13013": {
-                "104320": 3
+                "104320": {
+                    "icon": "UI_ItemIcon_104320",
+                    "count": 3
+                }
             }
         },
         "mapMark": false,
@@ -2874,7 +4075,10 @@
         "type": "Character Talent Material",
         "recipe": {
             "13014": {
-                "104321": 3
+                "104321": {
+                    "icon": "UI_ItemIcon_104321",
+                    "count": 3
+                }
             }
         },
         "mapMark": false,
@@ -2928,7 +4132,10 @@
         "type": "Character Talent Material",
         "recipe": {
             "13015": {
-                "104323": 3
+                "104323": {
+                    "icon": "UI_ItemIcon_104323",
+                    "count": 3
+                }
             }
         },
         "mapMark": false,
@@ -2959,7 +4166,10 @@
         "type": "Character Talent Material",
         "recipe": {
             "13016": {
-                "104324": 3
+                "104324": {
+                    "icon": "UI_ItemIcon_104324",
+                    "count": 3
+                }
             }
         },
         "mapMark": false,
@@ -3013,7 +4223,10 @@
         "type": "Character Talent Material",
         "recipe": {
             "13017": {
-                "104326": 3
+                "104326": {
+                    "icon": "UI_ItemIcon_104326",
+                    "count": 3
+                }
             }
         },
         "mapMark": false,
@@ -3044,7 +4257,10 @@
         "type": "Character Talent Material",
         "recipe": {
             "13018": {
-                "104327": 3
+                "104327": {
+                    "icon": "UI_ItemIcon_104327",
+                    "count": 3
+                }
             }
         },
         "mapMark": false,
@@ -3072,7 +4288,7 @@
     {
         "name": "Teachings of Admonition",
         "description": "Talent Level-Up material.\\nAdmonition is the branches of the nation of wisdom.\\nAdmonition comes from a pure heart. Only sensible words of goodwill can express profound wisdom and free the sprout of knowledge from the shackles of arrogance.",
-        "type": "Talent Level-Up Materials",
+        "type": "Character Talent Material",
         "recipe": false,
         "mapMark": false,
         "source": [
@@ -3095,10 +4311,13 @@
     {
         "name": "Guide to Admonition",
         "description": "Talent Level-Up material.\\nAdmonition is the branches of the nation of wisdom.\\nAdmonition is paired with wise thinking. Careful deliberation affords humble words a clarity that convinces the wise and enlightens the foolish. Such words allow wisdom to flow like an unobstructed river.",
-        "type": "Talent Level-Up Materials",
+        "type": "Character Talent Material",
         "recipe": {
             "13019": {
-                "104329": 3
+                "104329": {
+                    "icon": "UI_ItemIcon_104329",
+                    "count": 3
+                }
             }
         },
         "mapMark": false,
@@ -3126,10 +4345,13 @@
     {
         "name": "Philosophies of Admonition",
         "description": "Talent Level-Up material.\\nAdmonition is the branches of the nation of wisdom.\\nAdmonition is completed by good deeds. What is done confers real meaning upon what is said. When one's mind, words, and deeds are aligned, their nourishment shall guarantee the fruition of wisdom's tree.",
-        "type": "Talent Level-Up Materials",
+        "type": "Character Talent Material",
         "recipe": {
             "13020": {
-                "104330": 3
+                "104330": {
+                    "icon": "UI_ItemIcon_104330",
+                    "count": 3
+                }
             }
         },
         "mapMark": false,
@@ -3157,7 +4379,7 @@
     {
         "name": "Teachings of Ingenuity",
         "description": "Talent Level-Up material.\\nIngenuity is the leaf-veins of the nation of wisdom.\\nIngenuity springs forth from benevolent consideration. They say that \"a poisonous tree bears no kind fruit.\" Similarly, ingenious nascent ideas are always born from determined and benign minds, for only they are worthy bearers of wisdom.",
-        "type": "Talent Level-Up Materials",
+        "type": "Character Talent Material",
         "recipe": false,
         "mapMark": false,
         "source": [
@@ -3180,10 +4402,13 @@
     {
         "name": "Guide to Ingenuity",
         "description": "Talent Level-Up material.\\nIngenuity is the leaf-veins of the nation of wisdom. Ingenuity sets words of integrity on the right path. One who thinks out of goodwill and in a clever and careful fashion never deviates from the path of boons. Yet one who thinks with contempt and malice shall taint their words with despicable colors.",
-        "type": "Talent Level-Up Materials",
+        "type": "Character Talent Material",
         "recipe": {
             "13021": {
-                "104332": 3
+                "104332": {
+                    "icon": "UI_ItemIcon_104332",
+                    "count": 3
+                }
             }
         },
         "mapMark": false,
@@ -3211,10 +4436,13 @@
     {
         "name": "Philosophies of Ingenuity",
         "description": "Talent Level-Up material.\\nIngenuity is the leaf-veins of the nation of wisdom.\\nIngenuity is completed by harmonious conduct. What is done completes what is thought. Wisdom blooms where the mind, words, and practice converge.",
-        "type": "Talent Level-Up Materials",
+        "type": "Character Talent Material",
         "recipe": {
             "13022": {
-                "104333": 3
+                "104333": {
+                    "icon": "UI_ItemIcon_104333",
+                    "count": 3
+                }
             }
         },
         "mapMark": false,
@@ -3242,7 +4470,7 @@
     {
         "name": "Teachings of Praxis",
         "description": "Talent Level-Up material.\\nPraxes are the roots of the nation of wisdom.\\nPraxes stem from an unwavering will. All wisdom is manifested through the unyielding pursuit of goodness. Where goodness is not practiced, ingenuity and eloquence wither.",
-        "type": "Talent Level-Up Materials",
+        "type": "Character Talent Material",
         "recipe": false,
         "mapMark": false,
         "source": [
@@ -3265,10 +4493,13 @@
     {
         "name": "Guide to Praxis",
         "description": "Talent Level-Up material.\\nPraxes are the roots of the nation of wisdom.\\nPraxes validate words of honesty. Though one speaks and acts out of goodwill, one has not yet obtained wisdom. Wisdom, born from action, is a signet pressed upon honest words.",
-        "type": "Talent Level-Up Materials",
+        "type": "Character Talent Material",
         "recipe": {
             "13023": {
-                "104335": 3
+                "104335": {
+                    "icon": "UI_ItemIcon_104335",
+                    "count": 3
+                }
             }
         },
         "mapMark": false,
@@ -3296,10 +4527,13 @@
     {
         "name": "Philosophies of Praxis",
         "description": "Talent Level-Up material.\\nPraxes are the roots of the nation of wisdom.\\nPraxes bring forth the fruit of wisdom. Practice grants itself meaning, and it is only by treading a path that unites action, speech, and thought that the wise may reach perfection.",
-        "type": "Talent Level-Up Materials",
+        "type": "Character Talent Material",
         "recipe": {
             "13024": {
-                "104336": 3
+                "104336": {
+                    "icon": "UI_ItemIcon_104336",
+                    "count": 3
+                }
             }
         },
         "mapMark": false,
@@ -3323,6 +4557,204 @@
         "route": "Philosophies of Praxis",
         "_id": "104337",
         "id": "philosophies_of_praxis"
+    },
+    {
+        "name": "Teachings of Fairness",
+        "description": "",
+        "type": "Character Talent Material",
+        "recipe": false,
+        "mapMark": false,
+        "source": null,
+        "icon": "UI_ItemIcon_104338",
+        "rank": 2,
+        "route": "Teachings of Fairness",
+        "beta": true,
+        "_id": "104338",
+        "id": "teachings_of_fairness"
+    },
+    {
+        "name": "Guide to Fairness",
+        "description": "",
+        "type": "Character Talent Material",
+        "recipe": {
+            "13025": {
+                "104338": {
+                    "icon": "UI_ItemIcon_104338",
+                    "count": 3
+                }
+            }
+        },
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Crafted",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_104339",
+        "rank": 3,
+        "route": "Guide to Fairness",
+        "beta": true,
+        "_id": "104339",
+        "id": "guide_to_fairness"
+    },
+    {
+        "name": "Philosophies of Fairness",
+        "description": "",
+        "type": "Character Talent Material",
+        "recipe": {
+            "13026": {
+                "104339": {
+                    "icon": "UI_ItemIcon_104339",
+                    "count": 3
+                }
+            }
+        },
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Crafted",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_104340",
+        "rank": 4,
+        "route": "Philosophies of Fairness",
+        "beta": true,
+        "_id": "104340",
+        "id": "philosophies_of_fairness"
+    },
+    {
+        "name": "Teachings of Justice",
+        "description": "",
+        "type": "Character Talent Material",
+        "recipe": false,
+        "mapMark": false,
+        "source": null,
+        "icon": "UI_ItemIcon_104341",
+        "rank": 2,
+        "route": "Teachings of Justice",
+        "beta": true,
+        "_id": "104341",
+        "id": "teachings_of_justice"
+    },
+    {
+        "name": "Guide to Justice",
+        "description": "",
+        "type": "Character Talent Material",
+        "recipe": {
+            "13027": {
+                "104341": {
+                    "icon": "UI_ItemIcon_104341",
+                    "count": 3
+                }
+            }
+        },
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Crafted",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_104342",
+        "rank": 3,
+        "route": "Guide to Justice",
+        "beta": true,
+        "_id": "104342",
+        "id": "guide_to_justice"
+    },
+    {
+        "name": "Philosophies of Justice",
+        "description": "",
+        "type": "Character Talent Material",
+        "recipe": {
+            "13028": {
+                "104342": {
+                    "icon": "UI_ItemIcon_104342",
+                    "count": 3
+                }
+            }
+        },
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Crafted",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_104343",
+        "rank": 4,
+        "route": "Philosophies of Justice",
+        "beta": true,
+        "_id": "104343",
+        "id": "philosophies_of_justice"
+    },
+    {
+        "name": "Teachings of Order",
+        "description": "",
+        "type": "Character Talent Material",
+        "recipe": false,
+        "mapMark": false,
+        "source": null,
+        "icon": "UI_ItemIcon_104344",
+        "rank": 2,
+        "route": "Teachings of Order",
+        "beta": true,
+        "_id": "104344",
+        "id": "teachings_of_order"
+    },
+    {
+        "name": "Guide to Order",
+        "description": "",
+        "type": "Character Talent Material",
+        "recipe": {
+            "13029": {
+                "104344": {
+                    "icon": "UI_ItemIcon_104344",
+                    "count": 3
+                }
+            }
+        },
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Crafted",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_104345",
+        "rank": 3,
+        "route": "Guide to Order",
+        "beta": true,
+        "_id": "104345",
+        "id": "guide_to_order"
+    },
+    {
+        "name": "Philosophies of Order",
+        "description": "",
+        "type": "Character Talent Material",
+        "recipe": {
+            "13030": {
+                "104345": {
+                    "icon": "UI_ItemIcon_104345",
+                    "count": 3
+                }
+            }
+        },
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Crafted",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_104346",
+        "rank": 4,
+        "route": "Philosophies of Order",
+        "beta": true,
+        "_id": "104346",
+        "id": "philosophies_of_order"
     },
     {
         "name": "Slime Condensate",
@@ -3352,7 +4784,10 @@
         "type": "Character and Weapon Enhancement Material",
         "recipe": {
             "11001": {
-                "112002": 3
+                "112002": {
+                    "icon": "UI_ItemIcon_112002",
+                    "count": 3
+                }
             }
         },
         "mapMark": false,
@@ -3382,7 +4817,10 @@
         "type": "Character and Weapon Enhancement Material",
         "recipe": {
             "11002": {
-                "112003": 3
+                "112003": {
+                    "icon": "UI_ItemIcon_112003",
+                    "count": 3
+                }
             }
         },
         "mapMark": false,
@@ -3446,7 +4884,10 @@
         "type": "Character and Weapon Enhancement Material",
         "recipe": {
             "11003": {
-                "112005": 3
+                "112005": {
+                    "icon": "UI_ItemIcon_112005",
+                    "count": 3
+                }
             }
         },
         "mapMark": false,
@@ -3492,7 +4933,10 @@
         "type": "Character and Weapon Enhancement Material",
         "recipe": {
             "11004": {
-                "112006": 3
+                "112006": {
+                    "icon": "UI_ItemIcon_112006",
+                    "count": 3
+                }
             }
         },
         "mapMark": false,
@@ -3556,7 +5000,10 @@
         "type": "Character and Weapon Enhancement Material",
         "recipe": {
             "11005": {
-                "112008": 3
+                "112008": {
+                    "icon": "UI_ItemIcon_112008",
+                    "count": 3
+                }
             }
         },
         "mapMark": false,
@@ -3586,7 +5033,10 @@
         "type": "Character and Weapon Enhancement Material",
         "recipe": {
             "11006": {
-                "112009": 3
+                "112009": {
+                    "icon": "UI_ItemIcon_112009",
+                    "count": 3
+                }
             }
         },
         "mapMark": false,
@@ -3634,7 +5084,10 @@
         "type": "Character and Weapon Enhancement Material",
         "recipe": {
             "11007": {
-                "112011": 3
+                "112011": {
+                    "icon": "UI_ItemIcon_112011",
+                    "count": 3
+                }
             }
         },
         "mapMark": false,
@@ -3664,7 +5117,10 @@
         "type": "Character and Weapon Enhancement Material",
         "recipe": {
             "11008": {
-                "112012": 3
+                "112012": {
+                    "icon": "UI_ItemIcon_112012",
+                    "count": 3
+                }
             }
         },
         "mapMark": false,
@@ -3720,7 +5176,10 @@
         "type": "Character and Weapon Enhancement Material",
         "recipe": {
             "11021": {
-                "112032": 3
+                "112032": {
+                    "icon": "UI_ItemIcon_112032",
+                    "count": 3
+                }
             }
         },
         "mapMark": false,
@@ -3758,7 +5217,10 @@
         "type": "Character and Weapon Enhancement Material",
         "recipe": {
             "11022": {
-                "112033": 3
+                "112033": {
+                    "icon": "UI_ItemIcon_112033",
+                    "count": 3
+                }
             }
         },
         "mapMark": false,
@@ -3814,7 +5276,10 @@
         "type": "Character and Weapon Enhancement Material",
         "recipe": {
             "11023": {
-                "112035": 3
+                "112035": {
+                    "icon": "UI_ItemIcon_112035",
+                    "count": 3
+                }
             }
         },
         "mapMark": false,
@@ -3844,7 +5309,10 @@
         "type": "Character and Weapon Enhancement Material",
         "recipe": {
             "11024": {
-                "112036": 3
+                "112036": {
+                    "icon": "UI_ItemIcon_112036",
+                    "count": 3
+                }
             }
         },
         "mapMark": false,
@@ -3892,7 +5360,10 @@
         "type": "Character and Weapon Enhancement Material",
         "recipe": {
             "11025": {
-                "112038": 3
+                "112038": {
+                    "icon": "UI_ItemIcon_112038",
+                    "count": 3
+                }
             }
         },
         "mapMark": false,
@@ -3922,7 +5393,10 @@
         "type": "Character and Weapon Enhancement Material",
         "recipe": {
             "11026": {
-                "112039": 3
+                "112039": {
+                    "icon": "UI_ItemIcon_112039",
+                    "count": 3
+                }
             }
         },
         "mapMark": false,
@@ -3970,7 +5444,10 @@
         "type": "Character and Weapon Enhancement Material",
         "recipe": {
             "11029": {
-                "112044": 3
+                "112044": {
+                    "icon": "UI_ItemIcon_112044",
+                    "count": 3
+                }
             }
         },
         "mapMark": false,
@@ -4000,7 +5477,10 @@
         "type": "Character and Weapon Enhancement Material",
         "recipe": {
             "11030": {
-                "112045": 3
+                "112045": {
+                    "icon": "UI_ItemIcon_112045",
+                    "count": 3
+                }
             }
         },
         "mapMark": false,
@@ -4048,7 +5528,10 @@
         "type": "Character and Weapon Enhancement Material",
         "recipe": {
             "11035": {
-                "112053": 3
+                "112053": {
+                    "icon": "UI_ItemIcon_112053",
+                    "count": 3
+                }
             }
         },
         "mapMark": false,
@@ -4078,7 +5561,10 @@
         "type": "Character and Weapon Enhancement Material",
         "recipe": {
             "11036": {
-                "112054": 3
+                "112054": {
+                    "icon": "UI_ItemIcon_112054",
+                    "count": 3
+                }
             }
         },
         "mapMark": false,
@@ -4134,7 +5620,10 @@
         "type": "Character and Weapon Enhancement Material",
         "recipe": {
             "11041": {
-                "112059": 3
+                "112059": {
+                    "icon": "UI_ItemIcon_112059",
+                    "count": 3
+                }
             }
         },
         "mapMark": false,
@@ -4172,7 +5661,10 @@
         "type": "Character and Weapon Enhancement Material",
         "recipe": {
             "11042": {
-                "112060": 3
+                "112060": {
+                    "icon": "UI_ItemIcon_112060",
+                    "count": 3
+                }
             }
         },
         "mapMark": false,
@@ -4228,7 +5720,10 @@
         "type": "Character and Weapon Enhancement Material",
         "recipe": {
             "11045": {
-                "112065": 3
+                "112065": {
+                    "icon": "UI_ItemIcon_112065",
+                    "count": 3
+                }
             }
         },
         "mapMark": false,
@@ -4258,7 +5753,10 @@
         "type": "Character and Weapon Enhancement Material",
         "recipe": {
             "11046": {
-                "112066": 3
+                "112066": {
+                    "icon": "UI_ItemIcon_112066",
+                    "count": 3
+                }
             }
         },
         "mapMark": false,
@@ -4277,6 +5775,180 @@
         "route": "Rich Red Brocade",
         "_id": "112067",
         "id": "rich_red_brocade"
+    },
+    {
+        "name": "Transoceanic Pearl",
+        "description": "A small crystal obtained from a defeated Fontemer Aberrant.\\nFontemer Aberrants arise from Fontaine's seas. They are believed to be a unique life form born from the mysterious energy in the water.",
+        "type": "Character and Weapon Enhancement Material",
+        "recipe": false,
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Dropped by Fontemer Aberrants",
+                "type": "single"
+            },
+            {
+                "name": "Stardust Exchange",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_112080",
+        "rank": 1,
+        "route": "Transoceanic Pearl",
+        "beta": true,
+        "_id": "112080",
+        "id": "transoceanic_pearl"
+    },
+    {
+        "name": "Transoceanic Chunk",
+        "description": "A crystal obtained from a defeated Fontemer Aberrant.\\nIt gives off a somewhat mysterious energy.\\nAlthough many legends speak of great life forms residing in remote seas beyond human reach, ordinary oceans can hardly compare to the vibrant seas of Fontaine.",
+        "type": "Character and Weapon Enhancement Material",
+        "recipe": {
+            "11201": {
+                "112080": {
+                    "icon": "UI_ItemIcon_112080",
+                    "count": 3
+                }
+            }
+        },
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Crafted",
+                "type": "single"
+            },
+            {
+                "name": "Dropped by Lv. 40+ Fontemer Aberrants",
+                "type": "single"
+            },
+            {
+                "name": "Stardust Exchange",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_112081",
+        "rank": 2,
+        "route": "Transoceanic Chunk",
+        "beta": true,
+        "_id": "112081",
+        "id": "transoceanic_chunk"
+    },
+    {
+        "name": "Kaleidoscopic Crystal",
+        "description": "A large crystal obtained from a defeated Fontemer Aberrant.\\nIt contains a mysterious energy.\\nAll rivers and seas originate in Fontaine, but the water loses all its unique properties once it flows outside Fontaine's borders.",
+        "type": "Character and Weapon Enhancement Material",
+        "recipe": {
+            "11202": {
+                "112081": {
+                    "icon": "UI_ItemIcon_112081",
+                    "count": 3
+                }
+            }
+        },
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Crafted",
+                "type": "single"
+            },
+            {
+                "name": "Dropped by Lv. 60+ Fontemer Aberrants",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_112082",
+        "rank": 3,
+        "route": "Kaleidoscopic Crystal",
+        "beta": true,
+        "_id": "112082",
+        "id": "kaleidoscopic_crystal"
+    },
+    {
+        "name": "Meshing Gear",
+        "description": "Clockwork meka's gear.\\nIt is a crucial part of the meka's transmission structure. The whole system will malfunction if this gear is absent.",
+        "type": "Character and Weapon Enhancement Material",
+        "recipe": false,
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Dropped by Clockwork Meka",
+                "type": "single"
+            },
+            {
+                "name": "Stardust Exchange",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_112083",
+        "rank": 1,
+        "route": "Meshing Gear",
+        "beta": true,
+        "_id": "112083",
+        "id": "meshing_gear"
+    },
+    {
+        "name": "Mechanical Spur Gear",
+        "description": "Clockwork meka's gear.\\nAlthough many breakthroughs have been made in the kinematics of clockwork meka, its dynamics research has not seen any major advancement beyond the framework laid down by Alain Guillotin four hundred years ago.",
+        "type": "Character and Weapon Enhancement Material",
+        "recipe": {
+            "11203": {
+                "112083": {
+                    "icon": "UI_ItemIcon_112083",
+                    "count": 3
+                }
+            }
+        },
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Crafted",
+                "type": "single"
+            },
+            {
+                "name": "Dropped by Lv. 40+ Clockwork Meka",
+                "type": "single"
+            },
+            {
+                "name": "Stardust Exchange",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_112084",
+        "rank": 2,
+        "route": "Mechanical Spur Gear",
+        "beta": true,
+        "_id": "112084",
+        "id": "mechanical_spur_gear"
+    },
+    {
+        "name": "Novel Dynamic Gear",
+        "description": "Clockwork meka's gear.\\nPrecision processing and advancement of material science are the keys to clockwork meka's development in Fontaine. With the help of advanced equipment, any engineer is capable of making a meka that outshines \"Master Clockmaker\" Alain Guillotin's creation.",
+        "type": "Character and Weapon Enhancement Material",
+        "recipe": {
+            "11204": {
+                "112084": {
+                    "icon": "UI_ItemIcon_112084",
+                    "count": 3
+                }
+            }
+        },
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Crafted",
+                "type": "single"
+            },
+            {
+                "name": "Dropped by Lv. 60+ Clockwork Meka",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_112085",
+        "rank": 3,
+        "route": "Novel Dynamic Gear",
+        "beta": true,
+        "_id": "112085",
+        "id": "novel_dynamic_gear"
     },
     {
         "name": "Hurricane Seed",
@@ -4320,12 +5992,24 @@
         "type": "Character Level-Up Material",
         "recipe": {
             "60001": {
-                "113004": 1,
-                "113021": 1
+                "113004": {
+                    "icon": "UI_ItemIcon_113004",
+                    "count": 1
+                },
+                "113021": {
+                    "icon": "UI_ItemIcon_113021",
+                    "count": 1
+                }
             },
             "60002": {
-                "113005": 1,
-                "113021": 1
+                "113005": {
+                    "icon": "UI_ItemIcon_113005",
+                    "count": 1
+                },
+                "113021": {
+                    "icon": "UI_ItemIcon_113021",
+                    "count": 1
+                }
             }
         },
         "mapMark": false,
@@ -4347,12 +6031,24 @@
         "type": "Character Level-Up Material",
         "recipe": {
             "60003": {
-                "113003": 1,
-                "113021": 1
+                "113003": {
+                    "icon": "UI_ItemIcon_113003",
+                    "count": 1
+                },
+                "113021": {
+                    "icon": "UI_ItemIcon_113021",
+                    "count": 1
+                }
             },
             "60004": {
-                "113005": 1,
-                "113021": 1
+                "113005": {
+                    "icon": "UI_ItemIcon_113005",
+                    "count": 1
+                },
+                "113021": {
+                    "icon": "UI_ItemIcon_113021",
+                    "count": 1
+                }
             }
         },
         "mapMark": false,
@@ -4374,12 +6070,24 @@
         "type": "Character Level-Up Material",
         "recipe": {
             "60005": {
-                "113003": 1,
-                "113021": 1
+                "113003": {
+                    "icon": "UI_ItemIcon_113003",
+                    "count": 1
+                },
+                "113021": {
+                    "icon": "UI_ItemIcon_113021",
+                    "count": 1
+                }
             },
             "60006": {
-                "113004": 1,
-                "113021": 1
+                "113004": {
+                    "icon": "UI_ItemIcon_113004",
+                    "count": 1
+                },
+                "113021": {
+                    "icon": "UI_ItemIcon_113021",
+                    "count": 1
+                }
             }
         },
         "mapMark": false,
@@ -4401,12 +6109,24 @@
         "type": "Character Level-Up Material",
         "recipe": {
             "60101": {
-                "113007": 1,
-                "113021": 1
+                "113007": {
+                    "icon": "UI_ItemIcon_113007",
+                    "count": 1
+                },
+                "113021": {
+                    "icon": "UI_ItemIcon_113021",
+                    "count": 1
+                }
             },
             "60102": {
-                "113008": 1,
-                "113021": 1
+                "113008": {
+                    "icon": "UI_ItemIcon_113008",
+                    "count": 1
+                },
+                "113021": {
+                    "icon": "UI_ItemIcon_113021",
+                    "count": 1
+                }
             }
         },
         "mapMark": false,
@@ -4428,12 +6148,24 @@
         "type": "Character Level-Up Material",
         "recipe": {
             "60103": {
-                "113006": 1,
-                "113021": 1
+                "113006": {
+                    "icon": "UI_ItemIcon_113006",
+                    "count": 1
+                },
+                "113021": {
+                    "icon": "UI_ItemIcon_113021",
+                    "count": 1
+                }
             },
             "60104": {
-                "113008": 1,
-                "113021": 1
+                "113008": {
+                    "icon": "UI_ItemIcon_113008",
+                    "count": 1
+                },
+                "113021": {
+                    "icon": "UI_ItemIcon_113021",
+                    "count": 1
+                }
             }
         },
         "mapMark": false,
@@ -4455,12 +6187,24 @@
         "type": "Character Level-Up Material",
         "recipe": {
             "60105": {
-                "113006": 1,
-                "113021": 1
+                "113006": {
+                    "icon": "UI_ItemIcon_113006",
+                    "count": 1
+                },
+                "113021": {
+                    "icon": "UI_ItemIcon_113021",
+                    "count": 1
+                }
             },
             "60106": {
-                "113007": 1,
-                "113021": 1
+                "113007": {
+                    "icon": "UI_ItemIcon_113007",
+                    "count": 1
+                },
+                "113021": {
+                    "icon": "UI_ItemIcon_113021",
+                    "count": 1
+                }
             }
         },
         "mapMark": false,
@@ -4554,12 +6298,24 @@
         "type": "Character Level-Up Material",
         "recipe": {
             "60201": {
-                "113014": 1,
-                "113021": 1
+                "113014": {
+                    "icon": "UI_ItemIcon_113014",
+                    "count": 1
+                },
+                "113021": {
+                    "icon": "UI_ItemIcon_113021",
+                    "count": 1
+                }
             },
             "60202": {
-                "113015": 1,
-                "113021": 1
+                "113015": {
+                    "icon": "UI_ItemIcon_113015",
+                    "count": 1
+                },
+                "113021": {
+                    "icon": "UI_ItemIcon_113021",
+                    "count": 1
+                }
             }
         },
         "mapMark": false,
@@ -4581,12 +6337,24 @@
         "type": "Character Level-Up Material",
         "recipe": {
             "60203": {
-                "113013": 1,
-                "113021": 1
+                "113013": {
+                    "icon": "UI_ItemIcon_113013",
+                    "count": 1
+                },
+                "113021": {
+                    "icon": "UI_ItemIcon_113021",
+                    "count": 1
+                }
             },
             "60204": {
-                "113015": 1,
-                "113021": 1
+                "113015": {
+                    "icon": "UI_ItemIcon_113015",
+                    "count": 1
+                },
+                "113021": {
+                    "icon": "UI_ItemIcon_113021",
+                    "count": 1
+                }
             }
         },
         "mapMark": false,
@@ -4608,12 +6376,24 @@
         "type": "Character Level-Up Material",
         "recipe": {
             "60205": {
-                "113013": 1,
-                "113021": 1
+                "113013": {
+                    "icon": "UI_ItemIcon_113013",
+                    "count": 1
+                },
+                "113021": {
+                    "icon": "UI_ItemIcon_113021",
+                    "count": 1
+                }
             },
             "60206": {
-                "113014": 1,
-                "113021": 1
+                "113014": {
+                    "icon": "UI_ItemIcon_113014",
+                    "count": 1
+                },
+                "113021": {
+                    "icon": "UI_ItemIcon_113021",
+                    "count": 1
+                }
             }
         },
         "mapMark": false,
@@ -4653,12 +6433,24 @@
         "type": "Character Level-Up Material",
         "recipe": {
             "60301": {
-                "113018": 1,
-                "113021": 1
+                "113018": {
+                    "icon": "UI_ItemIcon_113018",
+                    "count": 1
+                },
+                "113021": {
+                    "icon": "UI_ItemIcon_113021",
+                    "count": 1
+                }
             },
             "60302": {
-                "113019": 1,
-                "113021": 1
+                "113019": {
+                    "icon": "UI_ItemIcon_113019",
+                    "count": 1
+                },
+                "113021": {
+                    "icon": "UI_ItemIcon_113021",
+                    "count": 1
+                }
             }
         },
         "mapMark": false,
@@ -4680,12 +6472,24 @@
         "type": "Character Level-Up Material",
         "recipe": {
             "60303": {
-                "113017": 1,
-                "113021": 1
+                "113017": {
+                    "icon": "UI_ItemIcon_113017",
+                    "count": 1
+                },
+                "113021": {
+                    "icon": "UI_ItemIcon_113021",
+                    "count": 1
+                }
             },
             "60304": {
-                "113019": 1,
-                "113021": 1
+                "113019": {
+                    "icon": "UI_ItemIcon_113019",
+                    "count": 1
+                },
+                "113021": {
+                    "icon": "UI_ItemIcon_113021",
+                    "count": 1
+                }
             }
         },
         "mapMark": false,
@@ -4707,12 +6511,24 @@
         "type": "Character Level-Up Material",
         "recipe": {
             "60305": {
-                "113017": 1,
-                "113021": 1
+                "113017": {
+                    "icon": "UI_ItemIcon_113017",
+                    "count": 1
+                },
+                "113021": {
+                    "icon": "UI_ItemIcon_113021",
+                    "count": 1
+                }
             },
             "60306": {
-                "113018": 1,
-                "113021": 1
+                "113018": {
+                    "icon": "UI_ItemIcon_113018",
+                    "count": 1
+                },
+                "113021": {
+                    "icon": "UI_ItemIcon_113021",
+                    "count": 1
+                }
             }
         },
         "mapMark": false,
@@ -4806,12 +6622,24 @@
         "type": "Character Level-Up Material",
         "recipe": {
             "60401": {
-                "113021": 1,
-                "113026": 1
+                "113021": {
+                    "icon": "UI_ItemIcon_113021",
+                    "count": 1
+                },
+                "113026": {
+                    "icon": "UI_ItemIcon_113026",
+                    "count": 1
+                }
             },
             "60402": {
-                "113021": 1,
-                "113027": 1
+                "113021": {
+                    "icon": "UI_ItemIcon_113021",
+                    "count": 1
+                },
+                "113027": {
+                    "icon": "UI_ItemIcon_113027",
+                    "count": 1
+                }
             }
         },
         "mapMark": false,
@@ -4833,12 +6661,24 @@
         "type": "Character Level-Up Material",
         "recipe": {
             "60403": {
-                "113021": 1,
-                "113025": 1
+                "113021": {
+                    "icon": "UI_ItemIcon_113021",
+                    "count": 1
+                },
+                "113025": {
+                    "icon": "UI_ItemIcon_113025",
+                    "count": 1
+                }
             },
             "60404": {
-                "113021": 1,
-                "113027": 1
+                "113021": {
+                    "icon": "UI_ItemIcon_113021",
+                    "count": 1
+                },
+                "113027": {
+                    "icon": "UI_ItemIcon_113027",
+                    "count": 1
+                }
             }
         },
         "mapMark": false,
@@ -4860,12 +6700,24 @@
         "type": "Character Level-Up Material",
         "recipe": {
             "60405": {
-                "113021": 1,
-                "113025": 1
+                "113021": {
+                    "icon": "UI_ItemIcon_113021",
+                    "count": 1
+                },
+                "113025": {
+                    "icon": "UI_ItemIcon_113025",
+                    "count": 1
+                }
             },
             "60406": {
-                "113021": 1,
-                "113026": 1
+                "113021": {
+                    "icon": "UI_ItemIcon_113021",
+                    "count": 1
+                },
+                "113026": {
+                    "icon": "UI_ItemIcon_113026",
+                    "count": 1
+                }
             }
         },
         "mapMark": false,
@@ -4959,12 +6811,24 @@
         "type": "Character Level-Up Material",
         "recipe": {
             "60501": {
-                "113021": 1,
-                "113033": 1
+                "113021": {
+                    "icon": "UI_ItemIcon_113021",
+                    "count": 1
+                },
+                "113033": {
+                    "icon": "UI_ItemIcon_113033",
+                    "count": 1
+                }
             },
             "60502": {
-                "113021": 1,
-                "113034": 1
+                "113021": {
+                    "icon": "UI_ItemIcon_113021",
+                    "count": 1
+                },
+                "113034": {
+                    "icon": "UI_ItemIcon_113034",
+                    "count": 1
+                }
             }
         },
         "mapMark": false,
@@ -4986,12 +6850,24 @@
         "type": "Character Level-Up Material",
         "recipe": {
             "60503": {
-                "113021": 1,
-                "113032": 1
+                "113021": {
+                    "icon": "UI_ItemIcon_113021",
+                    "count": 1
+                },
+                "113032": {
+                    "icon": "UI_ItemIcon_113032",
+                    "count": 1
+                }
             },
             "60504": {
-                "113021": 1,
-                "113034": 1
+                "113021": {
+                    "icon": "UI_ItemIcon_113021",
+                    "count": 1
+                },
+                "113034": {
+                    "icon": "UI_ItemIcon_113034",
+                    "count": 1
+                }
             }
         },
         "mapMark": false,
@@ -5013,12 +6889,24 @@
         "type": "Character Level-Up Material",
         "recipe": {
             "60505": {
-                "113021": 1,
-                "113032": 1
+                "113021": {
+                    "icon": "UI_ItemIcon_113021",
+                    "count": 1
+                },
+                "113032": {
+                    "icon": "UI_ItemIcon_113032",
+                    "count": 1
+                }
             },
             "60506": {
-                "113021": 1,
-                "113033": 1
+                "113021": {
+                    "icon": "UI_ItemIcon_113021",
+                    "count": 1
+                },
+                "113033": {
+                    "icon": "UI_ItemIcon_113033",
+                    "count": 1
+                }
             }
         },
         "mapMark": false,
@@ -5148,12 +7036,24 @@
         "type": "Character Level-Up Material",
         "recipe": {
             "60601": {
-                "113021": 1,
-                "113042": 1
+                "113021": {
+                    "icon": "UI_ItemIcon_113021",
+                    "count": 1
+                },
+                "113042": {
+                    "icon": "UI_ItemIcon_113042",
+                    "count": 1
+                }
             },
             "60602": {
-                "113021": 1,
-                "113043": 1
+                "113021": {
+                    "icon": "UI_ItemIcon_113021",
+                    "count": 1
+                },
+                "113043": {
+                    "icon": "UI_ItemIcon_113043",
+                    "count": 1
+                }
             }
         },
         "mapMark": false,
@@ -5175,12 +7075,24 @@
         "type": "Character Level-Up Material",
         "recipe": {
             "60603": {
-                "113021": 1,
-                "113041": 1
+                "113021": {
+                    "icon": "UI_ItemIcon_113021",
+                    "count": 1
+                },
+                "113041": {
+                    "icon": "UI_ItemIcon_113041",
+                    "count": 1
+                }
             },
             "60604": {
-                "113021": 1,
-                "113043": 1
+                "113021": {
+                    "icon": "UI_ItemIcon_113021",
+                    "count": 1
+                },
+                "113043": {
+                    "icon": "UI_ItemIcon_113043",
+                    "count": 1
+                }
             }
         },
         "mapMark": false,
@@ -5202,12 +7114,24 @@
         "type": "Character Level-Up Material",
         "recipe": {
             "60605": {
-                "113021": 1,
-                "113041": 1
+                "113021": {
+                    "icon": "UI_ItemIcon_113021",
+                    "count": 1
+                },
+                "113041": {
+                    "icon": "UI_ItemIcon_113041",
+                    "count": 1
+                }
             },
             "60606": {
-                "113021": 1,
-                "113042": 1
+                "113021": {
+                    "icon": "UI_ItemIcon_113021",
+                    "count": 1
+                },
+                "113042": {
+                    "icon": "UI_ItemIcon_113042",
+                    "count": 1
+                }
             }
         },
         "mapMark": false,
@@ -5240,5 +7164,197 @@
         "route": "Pseudo-Stamens",
         "_id": "113044",
         "id": "pseudo-stamens"
+    },
+    {
+        "name": "Evergloom Ring",
+        "description": "A mystical weapon obtained after defeating the Four-Armed Envoy of dark tidings.\\nRings are shaped like passageways, which is why arcane formations that are meant to produce some mystical effect are often ring-shaped. Such rings are perhaps gateways intended to guide the universe itself.",
+        "type": "Character Level-Up Material",
+        "recipe": false,
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Dropped by Lv. 30+ Iniquitous Baptists",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_113045",
+        "rank": 4,
+        "route": "Evergloom Ring",
+        "_id": "113045",
+        "id": "evergloom_ring"
+    },
+    {
+        "name": "Worldspan Fern",
+        "description": "A fern taken from the oasis within Apep's body.\\nAt the dawn of time, the world belonged to the dragons. There, the ferns were the first to sprout in the lush verdant world of Apep's court.\\nIn the ages after, these ferns would become trees, vines, roots, and leaves, blanketing the world with their touch. But Apep still remembers the first frond as it stretched freely toward the sky, making a sound so delicate as to go unheard.",
+        "type": "Character Level-Up Material",
+        "recipe": {
+            "60701": {
+                "113021": {
+                    "icon": "UI_ItemIcon_113021",
+                    "count": 1
+                },
+                "113047": {
+                    "icon": "UI_ItemIcon_113047",
+                    "count": 1
+                }
+            },
+            "60702": {
+                "113021": {
+                    "icon": "UI_ItemIcon_113021",
+                    "count": 1
+                },
+                "113048": {
+                    "icon": "UI_ItemIcon_113048",
+                    "count": 1
+                }
+            }
+        },
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Lv. 70+ Guardian of Apep's Oasis Challenge Reward",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_113046",
+        "rank": 5,
+        "route": "Worldspan Fern",
+        "_id": "113046",
+        "id": "worldspan_fern"
+    },
+    {
+        "name": "Primordial Greenbloom",
+        "description": "A primordial flower procured from the oasis within Apep.\\nWith the passing of eons, flowers grew in fragrance and volume, and they gained a collection of titles as numerous as the stars in the night sky.\\nHowever, this first flower to bloom never bore any name. For the dragons of old, even if a rose lost its name, it would not lose its scent. Naming things is but how lesser, ephemeral beings understand the world. Life is not constrained by words, and will always grow and evolve.",
+        "type": "Character Level-Up Material",
+        "recipe": {
+            "60703": {
+                "113021": {
+                    "icon": "UI_ItemIcon_113021",
+                    "count": 1
+                },
+                "113046": {
+                    "icon": "UI_ItemIcon_113046",
+                    "count": 1
+                }
+            },
+            "60704": {
+                "113021": {
+                    "icon": "UI_ItemIcon_113021",
+                    "count": 1
+                },
+                "113048": {
+                    "icon": "UI_ItemIcon_113048",
+                    "count": 1
+                }
+            }
+        },
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Lv. 70+ Guardian of Apep's Oasis Challenge Reward",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_113047",
+        "rank": 5,
+        "route": "Primordial Greenbloom",
+        "_id": "113047",
+        "id": "primordial_greenbloom"
+    },
+    {
+        "name": "Everamber",
+        "description": "A piece of amber taken from the oasis within Apep. Inside the amber, a small, long-extinct insect remains frozen in time.\\nTo the tree, it was circumstance that led this little life to be wreathed within its amber. But for said life, this was fate.\\nFollowing the heaven-sent disaster, wood, vines, roots, and all manner of flora withered and turned to dust. A great many life forms disappeared.\\nBut in the stillness of amber, a nameless insect endures in this otherworldly oasis, reaching a future that no others of its kind could.",
+        "type": "Character Level-Up Material",
+        "recipe": {
+            "60705": {
+                "113021": {
+                    "icon": "UI_ItemIcon_113021",
+                    "count": 1
+                },
+                "113046": {
+                    "icon": "UI_ItemIcon_113046",
+                    "count": 1
+                }
+            },
+            "60706": {
+                "113021": {
+                    "icon": "UI_ItemIcon_113021",
+                    "count": 1
+                },
+                "113047": {
+                    "icon": "UI_ItemIcon_113047",
+                    "count": 1
+                }
+            }
+        },
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Lv. 70+ Guardian of Apep's Oasis Challenge Reward",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_113048",
+        "rank": 5,
+        "route": "Everamber",
+        "_id": "113048",
+        "id": "everamber"
+    },
+    {
+        "name": "Novel Spare Clockwork Component — Coppelia",
+        "description": "A spare clockwork component belonging to Coppelia. It powers this clockwork dancer.\\nAccording to its creator's design, the story of the clockwork dancer with delicate joints ends at a merry moment. Coppelia will send whoever attempts to disturb that moment to a chapter of misfortune with her superb combat skills.",
+        "type": "Character Level-Up Material",
+        "recipe": false,
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Dropped by Lv. 30+ \"Icewind Suites\"",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_113049",
+        "rank": 4,
+        "route": "Novel Spare Clockwork Component — Coppelia",
+        "beta": true,
+        "_id": "113049",
+        "id": "novel_spare_clockwork_component_—_coppelia"
+    },
+    {
+        "name": "Novel Spare Clockwork Component — Coppelius",
+        "description": "A spare clockwork component belonging to Coppelius. It powers this clockwork dancer.\\nThe clockwork dancer whirls to a platinum tune, performing an unending waltz of icewind. Coppelius's dance will not stop. He will continue whirling till the bell tolls.",
+        "type": "Character Level-Up Material",
+        "recipe": false,
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Dropped by Lv. 30+ \"Icewind Suites\"",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_113050",
+        "rank": 4,
+        "route": "Novel Spare Clockwork Component — Coppelius",
+        "beta": true,
+        "_id": "113050",
+        "id": "novel_spare_clockwork_component_—_coppelius"
+    },
+    {
+        "name": "Emperor's Resolution",
+        "description": "The war hammer of the Emperor of Fire and Iron. The mighty crab has crushed countless foes with this giant claw. Be it clockwork meka, other Fontemer Aberrants, or hunters with ill-placed curiosity — all have yielded under its power.\\nFontemer Aberrants are different from human beings in that the concepts of aristocracy or inheritance are entirely foreign to them. None of them are born superior. One that survives deadly predators and adversities is able to accumulate infinite power as it keeps hunting and feeding over centuries. Such a creature is often referred to as an overlord for the fear it inspires.",
+        "type": "Character Level-Up Material",
+        "recipe": false,
+        "mapMark": false,
+        "source": [
+            {
+                "name": "Dropped by Lv. 30+ Emperor of Fire and Iron",
+                "type": "single"
+            }
+        ],
+        "icon": "UI_ItemIcon_113051",
+        "rank": 4,
+        "route": "Emperor's Resolution",
+        "beta": true,
+        "_id": "113051",
+        "id": "emperor's_resolution"
     }
 ]

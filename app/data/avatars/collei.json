@@ -156,6 +156,14 @@
         ]
     },
     "other": {
+        "costume": [
+            {
+                "name": "A New Leaf",
+                "description": "Collei's outfit. Now that she no longer needs to remain bundled in a thick cloak, she is free to emerge like a newly-sprouted leaf and welcome every lovely sunrise.",
+                "isDefault": true
+            }
+        ],
+        "furnitureId": 368153,
         "nameCard": {
             "id": 210125,
             "name": "Collei: Good Virtue",
@@ -2361,31 +2369,49 @@
         "0": {
             "name": "Deepwood Patrol",
             "description": "When in the party and not on the field, Collei's Energy Recharge is increased by 20%.",
+            "extraData": null,
             "icon": "UI_Talent_S_Collei_01"
         },
         "1": {
             "name": "Through Hill and Copse",
             "description": "The Passive Talent Floral Sidewinder is changed to this:\\nThe <color=#FFD780FF>Floral Ring</color> will grant the character the Sprout effect from Floral Sidewinder upon return, dealing 40% of Collei's ATK as <color=#99FF88FF>Dendro DMG</color> to nearby opponents for 3s.\\nFrom the moment of using <color=#FFD780FF>Floral Brush</color> to the moment when this instance of Sprout effect ends, if any of your party members triggers Burning, Quicken, Aggravate, Spread, Bloom, Hyperbloom, or Burgeon reactions, the Sprout effect will be extended by 3s.\\nThe Sprout effect can only be extended this way once. If another Sprout effect is triggered during its initial duration, the initial effect will be removed. DMG dealt by Sprout is considered Elemental Skill DMG.\\nRequires you to have unlocked the Floral Sidewinder Passive Talent.",
+            "extraData": null,
             "icon": "UI_Talent_S_Collei_02"
         },
         "2": {
             "name": "Scent of Summer",
             "description": "Increases the Level of <color=#FFD780FF>Floral Brush</color> by 3.\\nMaximum upgrade level is 15.",
+            "extraData": {
+                "addTalentExtraLevel": {
+                    "talentType": "AvatarSkill",
+                    "talentIndex": 2,
+                    "extraLevel": 3
+                }
+            },
             "icon": "UI_Talent_U_Collei_02"
         },
         "3": {
             "name": "Gift of the Woods",
             "description": "Using <color=#FFD780FF>Trump-Card Kitty</color> will increase all nearby characters' Elemental Mastery by 60 for 12s (not including Collei herself).",
+            "extraData": null,
             "icon": "UI_Talent_S_Collei_03"
         },
         "4": {
             "name": "All Embers",
             "description": "Increases the Level of <color=#FFD780FF>Trump-Card Kitty</color> by 3.\\nMaximum upgrade level is 15.",
+            "extraData": {
+                "addTalentExtraLevel": {
+                    "talentType": "AvatarSkill",
+                    "talentIndex": 9,
+                    "extraLevel": 3
+                }
+            },
             "icon": "UI_Talent_U_Collei_01"
         },
         "5": {
             "name": "Forest of Falling Arrows",
             "description": "When the <color=#FFD780FF>Floral Ring</color> hits, it will create a miniature Cuilein-Anbar that will deal 200% of Collei's ATK as <color=#99FF88FF>Dendro DMG</color>.\\nEach <color=#FFD780FF>Floral Brush</color> can only create one such miniature Cuilein-Anbar.",
+            "extraData": null,
             "icon": "UI_Talent_S_Collei_04"
         }
     },

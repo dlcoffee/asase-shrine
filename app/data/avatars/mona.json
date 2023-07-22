@@ -156,6 +156,21 @@
         ]
     },
     "other": {
+        "costume": [
+            {
+                "name": "Flowing Fate",
+                "description": "Mona's outfit. A light astrologist's outfit that does away with superfluous fabric to provide top quality at an affordable price.",
+                "isDefault": true
+            },
+            {
+                "name": "Pact of Stars and Moon",
+                "description": "Mona's outfit. A costume made specifically to encompass the astrological concept of \"the destined moment,\" thanks to the 30% discount ticket she got from the celestial globe refund.",
+                "storyId": 340008,
+                "icon": "UI_AvatarIcon_MonaCostumeWic",
+                "rank": 4
+            }
+        ],
+        "furnitureId": 368128,
         "nameCard": {
             "id": 210015,
             "name": "Mona: Starry Sky",
@@ -2416,31 +2431,37 @@
         "0": {
             "name": "Prophecy of Submersion",
             "description": "When any of your own party members hits an opponent affected by an Omen, the effects of <color=#80C0FFFF>Hydro-related Elemental Reactions</color> are enhanced for 8s:\\n·Electro-Charged DMG increases by 15%.\\n·Vaporize DMG increases by 15%.\\n·Hydro Swirl DMG increases by 15%.\\n·Frozen duration is extended by 15%.",
+            "extraData": null,
             "icon": "UI_Talent_S_Mona_01"
         },
         "1": {
             "name": "Lunar Chain",
             "description": "When a Normal Attack hits, there is a 20% chance that it will be automatically followed by a Charged Attack.\\nThis effect can only occur once every 5s.",
+            "extraData": null,
             "icon": "UI_Talent_S_Mona_02"
         },
         "2": {
             "name": "Restless Revolution",
             "description": "Increases the Level of <color=#FFD780FF>Stellaris Phantasm</color> by 3.\\nMaximum upgrade level is 15.",
+            "extraData": null,
             "icon": "UI_Talent_U_Mona_01"
         },
         "3": {
             "name": "Prophecy of Oblivion",
             "description": "When any party member attacks an opponent affected by an Omen, their CRIT Rate is increased by 15%.",
+            "extraData": null,
             "icon": "UI_Talent_S_Mona_03"
         },
         "4": {
             "name": "Mockery of Fortuna",
             "description": "Increases the Level of <color=#FFD780FF>Mirror Reflection of Doom</color> by 3.\\nMaximum upgrade level is 15.",
+            "extraData": null,
             "icon": "UI_Talent_U_Mona_02"
         },
         "5": {
             "name": "Rhetorics of Calamitas",
             "description": "Upon entering <color=#FFD780FF>Illusory Torrent</color>, Mona gains a 60% increase to the DMG of her next Charged Attack per second of movement.\\nA maximum DMG Bonus of 180% can be achieved in this manner. The effect lasts for no more than 8s.",
+            "extraData": null,
             "icon": "UI_Talent_S_Mona_04"
         }
     },

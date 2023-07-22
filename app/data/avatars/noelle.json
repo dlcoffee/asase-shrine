@@ -156,6 +156,14 @@
         ]
     },
     "other": {
+        "costume": [
+            {
+                "name": "Armored Rose",
+                "description": "Noelle's outfit. Heavy clothing made of durable velvet and metal plates.",
+                "isDefault": true
+            }
+        ],
+        "furnitureId": 368122,
         "nameCard": {
             "id": 210014,
             "name": "Noelle: Protector",
@@ -2361,31 +2369,37 @@
         "0": {
             "name": "I Got Your Back",
             "description": "While <color=#FFD780FF>Sweeping Time</color> and <color=#FFD780FF>Breastplate</color> are both in effect, the chance of Breastplate's healing effects activating is increased to 100%.",
+            "extraData": null,
             "icon": "UI_Talent_S_Noel_01"
         },
         "1": {
             "name": "Combat Maid",
             "description": "Decreases the Stamina Consumption of Noelle's Charged Attacks by 20% and increases her Charged Attack DMG by 15%.",
+            "extraData": null,
             "icon": "UI_Talent_S_Noel_02"
         },
         "2": {
             "name": "Invulnerable Maid",
             "description": "Increases the Level of <color=#FFD780FF>Breastplate</color> by 3.\\nMaximum upgrade level is 15.",
+            "extraData": null,
             "icon": "UI_Talent_U_Noel_01"
         },
         "3": {
             "name": "To Be Cleaned",
-            "description": "When <color=#FFD780FF>Breastplate</color>'s duration expires or it is destroyed by DMG, it will deal 400% ATK of <color=#FFE699FF>Geo DMG</color> to surrounding opponents.",
+            "description": "When <color=#FFD780FF>Breastplate</color>'s duration expires or it is destroyed by DMG, it will deal 400% of Noelle's ATK as <color=#FFE699FF>Geo DMG</color> to surrounding opponents.",
+            "extraData": null,
             "icon": "UI_Talent_S_Noel_03"
         },
         "4": {
             "name": "Favonius Sweeper Master",
             "description": "Increases the Level of <color=#FFD780FF>Sweeping Time</color> by 3.\\nMaximum upgrade level is 15.",
+            "extraData": null,
             "icon": "UI_Talent_U_Noel_02"
         },
         "5": {
             "name": "Must Be Spotless",
             "description": "<color=#FFD780FF>Sweeping Time</color> increases Noelle's ATK by an additional 50% of her DEF.\\nAdditionally, every opponent defeated during the skill's duration adds 1s to the duration, up to 10s.",
+            "extraData": null,
             "icon": "UI_Talent_S_Noel_04"
         }
     },

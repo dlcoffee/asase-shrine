@@ -7,6 +7,7 @@ import aloy from './avatars/aloy.json'
 import amber from './avatars/amber.json'
 import arataki_itto from './avatars/arataki_itto.json'
 import barbara from './avatars/barbara.json'
+import baizu from './avatars/baizhu.json'
 import beidou from './avatars/beidou.json'
 import bennett from './avatars/bennett.json'
 import candace from './avatars/candace.json'
@@ -20,6 +21,7 @@ import dori from './avatars/dori.json'
 import eula from './avatars/eula.json'
 import faruzan from './avatars/faruzan.json'
 import fischl from './avatars/fischl.json'
+import freminet from './avatars/freminet.json'
 import ganyu from './avatars/ganyu.json'
 import gorou from './avatars/gorou.json'
 import hu_tao from './avatars/hu_tao.json'
@@ -28,12 +30,16 @@ import kaedehara_kazuha from './avatars/kaedehara_kazuha.json'
 import kaeya from './avatars/kaeya.json'
 import kamisato_ayaka from './avatars/kamisato_ayaka.json'
 import kamisato_ayato from './avatars/kamisato_ayato.json'
+import kaveh from './avatars/kaveh.json'
 import keqing from './avatars/keqing.json'
+import kirara from './avatars/kirara.json'
 import klee from './avatars/klee.json'
 import kujou_sara from './avatars/kujou_sara.json'
 import kuki_shinobu from './avatars/kuki_shinobu.json'
 import layla from './avatars/layla.json'
 import lisa from './avatars/lisa.json'
+import lynette from './avatars/lynette.json'
+import lyney from './avatars/lyney.json'
 import mika from './avatars/mika.json'
 import mona from './avatars/mona.json'
 import nahida from './avatars/nahida.json'
@@ -112,6 +118,7 @@ export const avatarsList: Avatar[] = [
   aloy,
   amber,
   arataki_itto,
+  baizu,
   barbara,
   beidou,
   bennett,
@@ -126,6 +133,7 @@ export const avatarsList: Avatar[] = [
   eula,
   faruzan,
   fischl,
+  freminet,
   ganyu,
   gorou,
   hu_tao,
@@ -134,12 +142,16 @@ export const avatarsList: Avatar[] = [
   kaeya,
   kamisato_ayaka,
   kamisato_ayato,
+  kaveh,
   keqing,
+  kirara,
   klee,
   kujou_sara,
   kuki_shinobu,
   layla,
   lisa,
+  lynette,
+  lyney,
   mika,
   mona,
   nahida,
