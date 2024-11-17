@@ -1,0 +1,2774 @@
+{
+    "id": "kinich",
+    "rank": 5,
+    "name": "Kinich",
+    "element": "Grass",
+    "weaponType": "WEAPON_CLAYMORE",
+    "region": "NATLAN",
+    "specialProp": "FIGHT_PROP_CRITICAL_HURT",
+    "bodyType": "BOY",
+    "icon": "UI_AvatarIcon_Kinich",
+    "birthday": [
+        11,
+        11
+    ],
+    "release": 1726585200,
+    "route": "Kinich",
+    "fetter": {
+        "title": "Turnfire Hunt",
+        "detail": "A Huitztlan Saurian Hunter skilled at counting costs.",
+        "constellation": "Chimaera Alebriius",
+        "native": "Huitztlan",
+        "cv": {
+            "EN": "John Patneaude & Abby Espiritu",
+            "CHS": "斑马 & 弭洋",
+            "JP": "杉山紀彰 & 竹内順子",
+            "KR": "Kang Seong-woo & Park Li-na"
+        }
+    },
+    "upgrade": {
+        "prop": [
+            {
+                "propType": "FIGHT_PROP_BASE_HP",
+                "initValue": 1000.98602,
+                "type": "GROW_CURVE_HP_S5"
+            },
+            {
+                "propType": "FIGHT_PROP_BASE_ATTACK",
+                "initValue": 25.8818,
+                "type": "GROW_CURVE_ATTACK_S5"
+            },
+            {
+                "propType": "FIGHT_PROP_BASE_DEFENSE",
+                "initValue": 62.40269,
+                "type": "GROW_CURVE_HP_S5"
+            }
+        ],
+        "promote": [
+            {
+                "unlockMaxLevel": 20,
+                "promoteLevel": 0
+            },
+            {
+                "promoteLevel": 1,
+                "costItems": {
+                    "101250": 3,
+                    "104131": 1,
+                    "112101": 3
+                },
+                "unlockMaxLevel": 40,
+                "addProps": {
+                    "FIGHT_PROP_BASE_HP": 858.255,
+                    "FIGHT_PROP_BASE_DEFENSE": 53.5059,
+                    "FIGHT_PROP_BASE_ATTACK": 22.18968,
+                    "FIGHT_PROP_CRITICAL_HURT": 0
+                },
+                "requiredPlayerLevel": 15,
+                "coinCost": 20000
+            },
+            {
+                "promoteLevel": 2,
+                "costItems": {
+                    "101250": 10,
+                    "104132": 3,
+                    "112101": 15,
+                    "113065": 2
+                },
+                "unlockMaxLevel": 50,
+                "addProps": {
+                    "FIGHT_PROP_BASE_HP": 1468.06775,
+                    "FIGHT_PROP_BASE_DEFENSE": 91.52325,
+                    "FIGHT_PROP_BASE_ATTACK": 37.95604,
+                    "FIGHT_PROP_CRITICAL_HURT": 0.096
+                },
+                "requiredPlayerLevel": 25,
+                "coinCost": 40000
+            },
+            {
+                "promoteLevel": 3,
+                "costItems": {
+                    "101250": 20,
+                    "104132": 6,
+                    "112102": 12,
+                    "113065": 4
+                },
+                "unlockMaxLevel": 60,
+                "addProps": {
+                    "FIGHT_PROP_BASE_HP": 2281.15137,
+                    "FIGHT_PROP_BASE_DEFENSE": 142.21304,
+                    "FIGHT_PROP_BASE_ATTACK": 58.97784,
+                    "FIGHT_PROP_CRITICAL_HURT": 0.192
+                },
+                "requiredPlayerLevel": 30,
+                "coinCost": 60000
+            },
+            {
+                "promoteLevel": 4,
+                "costItems": {
+                    "101250": 30,
+                    "104133": 3,
+                    "112102": 18,
+                    "113065": 8
+                },
+                "unlockMaxLevel": 70,
+                "addProps": {
+                    "FIGHT_PROP_BASE_HP": 2890.96411,
+                    "FIGHT_PROP_BASE_DEFENSE": 180.23039,
+                    "FIGHT_PROP_BASE_ATTACK": 74.74419,
+                    "FIGHT_PROP_CRITICAL_HURT": 0.192
+                },
+                "requiredPlayerLevel": 35,
+                "coinCost": 80000
+            },
+            {
+                "promoteLevel": 5,
+                "costItems": {
+                    "101250": 45,
+                    "104133": 6,
+                    "112103": 12,
+                    "113065": 12
+                },
+                "unlockMaxLevel": 80,
+                "addProps": {
+                    "FIGHT_PROP_BASE_HP": 3500.77686,
+                    "FIGHT_PROP_BASE_DEFENSE": 218.24776,
+                    "FIGHT_PROP_BASE_ATTACK": 90.51054,
+                    "FIGHT_PROP_CRITICAL_HURT": 0.288
+                },
+                "requiredPlayerLevel": 40,
+                "coinCost": 100000
+            },
+            {
+                "promoteLevel": 6,
+                "costItems": {
+                    "101250": 60,
+                    "104134": 6,
+                    "112103": 24,
+                    "113065": 20
+                },
+                "unlockMaxLevel": 90,
+                "addProps": {
+                    "FIGHT_PROP_BASE_HP": 4110.58984,
+                    "FIGHT_PROP_BASE_DEFENSE": 256.26511,
+                    "FIGHT_PROP_BASE_ATTACK": 106.2769,
+                    "FIGHT_PROP_CRITICAL_HURT": 0.384
+                },
+                "requiredPlayerLevel": 50,
+                "coinCost": 120000
+            }
+        ]
+    },
+    "other": {
+        "costume": [
+            {
+                "name": "Eight-Bit Artistry",
+                "description": "Kinich's outfit. Colorful patches are arrayed across his clothes with great patterned precision, just as Saurian Hunters have their own principles.",
+                "isDefault": true
+            }
+        ],
+        "furnitureId": 368187,
+        "nameCard": {
+            "id": 210208,
+            "name": "Kinich: Ajaw",
+            "description": "Namecard style.\\nAt first glance, you might think that the Almighty Dragonlord, K'uhul Ajaw had finally succeeded in turning the puny Kinich into a vessel of his will. Sadly, though, this is just the way namecards are named.",
+            "icon": "UI_NameCardIcon_Kinich"
+        },
+        "specialFood": {
+            "id": 108745,
+            "name": "Saurian Hunter's Reward",
+            "rank": 3,
+            "effectIcon": "UI_Buff_Item_Atk_CritRate",
+            "icon": "UI_ItemIcon_108745"
+        }
+    },
+    "ascension": {
+        "101250": 1,
+        "104131": 2,
+        "104132": 3,
+        "104133": 4,
+        "104134": 5,
+        "104319": 5,
+        "104350": 2,
+        "104351": 3,
+        "104352": 4,
+        "112101": 1,
+        "112102": 2,
+        "112103": 3,
+        "113062": 5,
+        "113065": 4
+    },
+    "items": {
+        "202": {
+            "name": "Mora",
+            "rank": 3,
+            "icon": "UI_ItemIcon_202"
+        },
+        "101250": {
+            "name": "Saurian Claw Succulent",
+            "rank": 1,
+            "icon": "UI_ItemIcon_101250"
+        },
+        "104001": {
+            "name": "Wanderer's Advice",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104001"
+        },
+        "104002": {
+            "name": "Adventurer's Experience",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104002"
+        },
+        "104003": {
+            "name": "Hero's Wit",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104003"
+        },
+        "104131": {
+            "name": "Nagadus Emerald Sliver",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104131"
+        },
+        "104132": {
+            "name": "Nagadus Emerald Fragment",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104132"
+        },
+        "104133": {
+            "name": "Nagadus Emerald Chunk",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104133"
+        },
+        "104134": {
+            "name": "Nagadus Emerald Gemstone",
+            "rank": 5,
+            "icon": "UI_ItemIcon_104134"
+        },
+        "104319": {
+            "name": "Crown of Insight",
+            "rank": 5,
+            "icon": "UI_ItemIcon_104319"
+        },
+        "104350": {
+            "name": "Teachings of Kindling",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104350"
+        },
+        "104351": {
+            "name": "Guide to Kindling",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104351"
+        },
+        "104352": {
+            "name": "Philosophies of Kindling",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104352"
+        },
+        "112101": {
+            "name": "Juvenile Fang",
+            "rank": 1,
+            "icon": "UI_ItemIcon_112101"
+        },
+        "112102": {
+            "name": "Seasoned Fang",
+            "rank": 2,
+            "icon": "UI_ItemIcon_112102"
+        },
+        "112103": {
+            "name": "Tyrant's Fang",
+            "rank": 3,
+            "icon": "UI_ItemIcon_112103"
+        },
+        "113062": {
+            "name": "Denial and Judgment",
+            "rank": 5,
+            "icon": "UI_ItemIcon_113062"
+        },
+        "113065": {
+            "name": "Overripe Flamegranate",
+            "rank": 4,
+            "icon": "UI_ItemIcon_113065"
+        }
+    },
+    "talent": {
+        "0": {
+            "type": 0,
+            "name": "Normal Attack: Nightsun Style",
+            "description": "<color=#FFD780FF>Normal Attack</color>\\nPerforms up to 3 rapid strikes.\\nAfter using his Elemental Skill \"Canopy Hunter: Riding High\"'s mid-air swing, he can perform a Normal Attack in mid-air before landing.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nConsumes a certain amount of Stamina to spin and throw his Claymore forward to attack opponents.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+            "icon": "Skill_A_04",
+            "promote": {
+                "1": {
+                    "level": 1,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}",
+                        "Mid-Air Normal Attack DMG|{param9:F1P}",
+                        "Charged Attack DMG|{param4:F1P}×3",
+                        "Charged Attack Stamina Cost|{param5:F1}",
+                        "Plunge DMG|{param6:F1P}",
+                        "Low/High Plunge DMG|{param7:P}/{param8:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.98986,
+                        0.82904,
+                        1.23496,
+                        0.48418,
+                        50,
+                        0.74588,
+                        1.49144,
+                        1.86289,
+                        1.677,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "2": {
+                    "level": 2,
+                    "costItems": {
+                        "104350": 3,
+                        "112101": 6
+                    },
+                    "coinCost": 12500,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}",
+                        "Mid-Air Normal Attack DMG|{param9:F1P}",
+                        "Charged Attack DMG|{param4:F1P}×3",
+                        "Charged Attack Stamina Cost|{param5:F1}",
+                        "Plunge DMG|{param6:F1P}",
+                        "Low/High Plunge DMG|{param7:P}/{param8:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.07043,
+                        0.89652,
+                        1.33548,
+                        0.52359,
+                        50,
+                        0.80659,
+                        1.61284,
+                        2.01452,
+                        1.8135,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "3": {
+                    "level": 3,
+                    "costItems": {
+                        "104351": 2,
+                        "112102": 3
+                    },
+                    "coinCost": 17500,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}",
+                        "Mid-Air Normal Attack DMG|{param9:F1P}",
+                        "Charged Attack DMG|{param4:F1P}×3",
+                        "Charged Attack Stamina Cost|{param5:F1}",
+                        "Plunge DMG|{param6:F1P}",
+                        "Low/High Plunge DMG|{param7:P}/{param8:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.151,
+                        0.964,
+                        1.436,
+                        0.563,
+                        50,
+                        0.8673,
+                        1.73423,
+                        2.16615,
+                        1.95,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "4": {
+                    "level": 4,
+                    "costItems": {
+                        "104351": 4,
+                        "112102": 4
+                    },
+                    "coinCost": 25000,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}",
+                        "Mid-Air Normal Attack DMG|{param9:F1P}",
+                        "Charged Attack DMG|{param4:F1P}×3",
+                        "Charged Attack Stamina Cost|{param5:F1}",
+                        "Plunge DMG|{param6:F1P}",
+                        "Low/High Plunge DMG|{param7:P}/{param8:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.2661,
+                        1.0604,
+                        1.5796,
+                        0.6193,
+                        50,
+                        0.95403,
+                        1.90766,
+                        2.38277,
+                        2.145,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "5": {
+                    "level": 5,
+                    "costItems": {
+                        "104351": 6,
+                        "112102": 6
+                    },
+                    "coinCost": 30000,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}",
+                        "Mid-Air Normal Attack DMG|{param9:F1P}",
+                        "Charged Attack DMG|{param4:F1P}×3",
+                        "Charged Attack Stamina Cost|{param5:F1}",
+                        "Plunge DMG|{param6:F1P}",
+                        "Low/High Plunge DMG|{param7:P}/{param8:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.34667,
+                        1.12788,
+                        1.68012,
+                        0.65871,
+                        50,
+                        1.01474,
+                        2.02905,
+                        2.5344,
+                        2.2815,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "6": {
+                    "level": 6,
+                    "costItems": {
+                        "104351": 9,
+                        "112102": 9
+                    },
+                    "coinCost": 37500,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}",
+                        "Mid-Air Normal Attack DMG|{param9:F1P}",
+                        "Charged Attack DMG|{param4:F1P}×3",
+                        "Charged Attack Stamina Cost|{param5:F1}",
+                        "Plunge DMG|{param6:F1P}",
+                        "Low/High Plunge DMG|{param7:P}/{param8:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.43875,
+                        1.205,
+                        1.795,
+                        0.70375,
+                        50,
+                        1.08413,
+                        2.16779,
+                        2.70769,
+                        2.4375,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "7": {
+                    "level": 7,
+                    "costItems": {
+                        "104352": 4,
+                        "112103": 4,
+                        "113062": 1
+                    },
+                    "coinCost": 120000,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}",
+                        "Mid-Air Normal Attack DMG|{param9:F1P}",
+                        "Charged Attack DMG|{param4:F1P}×3",
+                        "Charged Attack Stamina Cost|{param5:F1}",
+                        "Plunge DMG|{param6:F1P}",
+                        "Low/High Plunge DMG|{param7:P}/{param8:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.56536,
+                        1.31104,
+                        1.95296,
+                        0.76568,
+                        50,
+                        1.17953,
+                        2.35856,
+                        2.94596,
+                        2.652,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "8": {
+                    "level": 8,
+                    "costItems": {
+                        "104352": 6,
+                        "112103": 6,
+                        "113062": 1
+                    },
+                    "coinCost": 260000,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}",
+                        "Mid-Air Normal Attack DMG|{param9:F1P}",
+                        "Charged Attack DMG|{param4:F1P}×3",
+                        "Charged Attack Stamina Cost|{param5:F1}",
+                        "Plunge DMG|{param6:F1P}",
+                        "Low/High Plunge DMG|{param7:P}/{param8:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.69197,
+                        1.41708,
+                        2.11092,
+                        0.82761,
+                        50,
+                        1.27493,
+                        2.54932,
+                        3.18424,
+                        2.8665,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "9": {
+                    "level": 9,
+                    "costItems": {
+                        "104352": 12,
+                        "112103": 9,
+                        "113062": 2
+                    },
+                    "coinCost": 450000,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}",
+                        "Mid-Air Normal Attack DMG|{param9:F1P}",
+                        "Charged Attack DMG|{param4:F1P}×3",
+                        "Charged Attack Stamina Cost|{param5:F1}",
+                        "Plunge DMG|{param6:F1P}",
+                        "Low/High Plunge DMG|{param7:P}/{param8:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.81858,
+                        1.52312,
+                        2.26888,
+                        0.88954,
+                        50,
+                        1.37033,
+                        2.74009,
+                        3.42252,
+                        3.081,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "10": {
+                    "level": 10,
+                    "costItems": {
+                        "104319": 1,
+                        "104352": 16,
+                        "112103": 12,
+                        "113062": 2
+                    },
+                    "coinCost": 700000,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}",
+                        "Mid-Air Normal Attack DMG|{param9:F1P}",
+                        "Charged Attack DMG|{param4:F1P}×3",
+                        "Charged Attack Stamina Cost|{param5:F1}",
+                        "Plunge DMG|{param6:F1P}",
+                        "Low/High Plunge DMG|{param7:P}/{param8:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.9567,
+                        1.6388,
+                        2.4412,
+                        0.9571,
+                        50,
+                        1.47441,
+                        2.94819,
+                        3.68246,
+                        3.315,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "11": {
+                    "level": 11,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}",
+                        "Mid-Air Normal Attack DMG|{param9:F1P}",
+                        "Charged Attack DMG|{param4:F1P}×3",
+                        "Charged Attack Stamina Cost|{param5:F1}",
+                        "Plunge DMG|{param6:F1P}",
+                        "Low/High Plunge DMG|{param7:P}/{param8:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        2.09482,
+                        1.75448,
+                        2.61352,
+                        1.02466,
+                        50,
+                        1.57849,
+                        3.1563,
+                        3.94239,
+                        3.549,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "12": {
+                    "level": 12,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}",
+                        "Mid-Air Normal Attack DMG|{param9:F1P}",
+                        "Charged Attack DMG|{param4:F1P}×3",
+                        "Charged Attack Stamina Cost|{param5:F1}",
+                        "Plunge DMG|{param6:F1P}",
+                        "Low/High Plunge DMG|{param7:P}/{param8:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        2.23294,
+                        1.87016,
+                        2.78584,
+                        1.09222,
+                        50,
+                        1.68256,
+                        3.36441,
+                        4.20233,
+                        3.783,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "13": {
+                    "level": 13,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}",
+                        "Mid-Air Normal Attack DMG|{param9:F1P}",
+                        "Charged Attack DMG|{param4:F1P}×3",
+                        "Charged Attack Stamina Cost|{param5:F1}",
+                        "Plunge DMG|{param6:F1P}",
+                        "Low/High Plunge DMG|{param7:P}/{param8:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        2.37106,
+                        1.98584,
+                        2.95816,
+                        1.15978,
+                        50,
+                        1.78664,
+                        3.57252,
+                        4.46227,
+                        4.017,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "14": {
+                    "level": 14,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}",
+                        "Mid-Air Normal Attack DMG|{param9:F1P}",
+                        "Charged Attack DMG|{param4:F1P}×3",
+                        "Charged Attack Stamina Cost|{param5:F1}",
+                        "Plunge DMG|{param6:F1P}",
+                        "Low/High Plunge DMG|{param7:P}/{param8:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        2.50918,
+                        2.10152,
+                        3.13048,
+                        1.22734,
+                        50,
+                        1.89071,
+                        3.78063,
+                        4.72221,
+                        4.251,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "15": {
+                    "level": 15,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}",
+                        "Mid-Air Normal Attack DMG|{param9:F1P}",
+                        "Charged Attack DMG|{param4:F1P}×3",
+                        "Charged Attack Stamina Cost|{param5:F1}",
+                        "Plunge DMG|{param6:F1P}",
+                        "Low/High Plunge DMG|{param7:P}/{param8:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        2.6473,
+                        2.2172,
+                        3.3028,
+                        1.2949,
+                        50,
+                        1.99479,
+                        3.98873,
+                        4.98214,
+                        4.485,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            "cooldown": 0,
+            "cost": 0,
+            "linkedConstellations": null,
+            "advancedProps": [
+                {
+                    "name": "Normal Attack 1-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": "5",
+                            "text": "Normal Attack"
+                        },
+                        "type": {
+                            "span": "5",
+                            "text": "2.5s/3 Hits"
+                        }
+                    },
+                    "interruptionResistance": "131",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": true
+                },
+                {
+                    "name": "Normal Attack 2-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "117",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "400",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": true
+                },
+                {
+                    "name": "Normal Attack 3-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "160",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "400",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": true
+                },
+                {
+                    "name": "Mid-Air Normal Attack",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "100",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Charged Attack",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "40",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "0",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": true
+                },
+                {
+                    "name": "Plunging Attack Collision",
+                    "elementalGaugeTheory": "0U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "35",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Low Plunge",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "150",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "800",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": true
+                },
+                {
+                    "name": "High Plunge",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "200",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "0",
+                        "verticalForce": "800"
+                    },
+                    "bluntAttack": true
+                }
+            ]
+        },
+        "1": {
+            "type": 0,
+            "name": "Canopy Hunter: Riding High",
+            "description": "Kinich uses his big-game hunting skills to either move swiftly or attack his opponent.\\nWhen there is an opponent or object that can be attacked nearby, he will attach a grappling hook to the target and enter Nightsoul's Blessing with 0 Nightsoul points. If neither is nearby, he fires a grappling hook forward and swings in mid-air, and this Skill's CD is decreased by 60%.\\nThis skill can be Held to release. When it is Held, Kinich can aim the grappling hook.\\n\\n<color=#FFD780FF>Nightsoul's Blessing: Kinich</color>\\nKinich's Nightsoul's Blessing lasts 10s and generates 2 Nightsoul points every second.\\nIn this state, Kinich will hook onto a nearby opponent and perform a variable attack:\\n·When using a Normal Attack, Kinich will fire Loop Shots as he loops around the grappled target based on his current movement direction, dealing Nightsoul-aligned <color=#99FF88FF>Dendro DMG</color> and generating 3 Nightsoul points. Loop Shot DMG is considered Elemental Skill DMG.\\n·When Nightsoul points are at max, he can use the Elemental Skill \"Scalespiker Cannon\": Consume all Nightsoul points to deal Nightsoul-aligned <color=#99FF88FF>Dendro DMG</color>. When \"Scalespiker Cannon\" is Held, Kinich can aim this shot. After firing the Cannon, Kinich will try to grapple to its target.\\nWhile in Nightsoul's Blessing, after grappling an opponent or firing \"Scalespiker Cannon,\" a Blind Spot will be generated next to the opponent. When Kinich enters this Blind Spot, it will disappear and he will generate 4 Nightsoul points.\\nIf the grapple connection should snap due to exceeding the maximum distance or some other reason, using a Normal Attack will establish a new connection with a nearby opponent before performing Loop Shots.\\n\\n<i>\"All things come with a cost. I suggest you make a suitable offer... What? No, I don't do installments.\"</i>",
+            "icon": "Skill_S_Kinich_01",
+            "promote": {
+                "1": {
+                    "level": 1,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Loop Shot DMG|{param1:F1P}×2",
+                        "Scalespiker Cannon DMG|{param2:F1P}",
+                        "Nightsoul Point Limit|{param4:F1}",
+                        "CD|{param3:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.5728,
+                        6.8744,
+                        18,
+                        20,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "2": {
+                    "level": 2,
+                    "costItems": {
+                        "104350": 3,
+                        "112101": 6
+                    },
+                    "coinCost": 12500,
+                    "description": [
+                        "Loop Shot DMG|{param1:F1P}×2",
+                        "Scalespiker Cannon DMG|{param2:F1P}",
+                        "Nightsoul Point Limit|{param4:F1}",
+                        "CD|{param3:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.61576,
+                        7.38998,
+                        18,
+                        20,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "3": {
+                    "level": 3,
+                    "costItems": {
+                        "104351": 2,
+                        "112102": 3
+                    },
+                    "coinCost": 17500,
+                    "description": [
+                        "Loop Shot DMG|{param1:F1P}×2",
+                        "Scalespiker Cannon DMG|{param2:F1P}",
+                        "Nightsoul Point Limit|{param4:F1}",
+                        "CD|{param3:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.65872,
+                        7.90556,
+                        18,
+                        20,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "4": {
+                    "level": 4,
+                    "costItems": {
+                        "104351": 4,
+                        "112102": 4
+                    },
+                    "coinCost": 25000,
+                    "description": [
+                        "Loop Shot DMG|{param1:F1P}×2",
+                        "Scalespiker Cannon DMG|{param2:F1P}",
+                        "Nightsoul Point Limit|{param4:F1}",
+                        "CD|{param3:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.716,
+                        8.593,
+                        18,
+                        20,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "5": {
+                    "level": 5,
+                    "costItems": {
+                        "104351": 6,
+                        "112102": 6
+                    },
+                    "coinCost": 30000,
+                    "description": [
+                        "Loop Shot DMG|{param1:F1P}×2",
+                        "Scalespiker Cannon DMG|{param2:F1P}",
+                        "Nightsoul Point Limit|{param4:F1}",
+                        "CD|{param3:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.75896,
+                        9.10858,
+                        18,
+                        20,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "6": {
+                    "level": 6,
+                    "costItems": {
+                        "104351": 9,
+                        "112102": 9
+                    },
+                    "coinCost": 37500,
+                    "description": [
+                        "Loop Shot DMG|{param1:F1P}×2",
+                        "Scalespiker Cannon DMG|{param2:F1P}",
+                        "Nightsoul Point Limit|{param4:F1}",
+                        "CD|{param3:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.80192,
+                        9.62416,
+                        18,
+                        20,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "7": {
+                    "level": 7,
+                    "costItems": {
+                        "104352": 4,
+                        "112103": 4,
+                        "113062": 1
+                    },
+                    "coinCost": 120000,
+                    "description": [
+                        "Loop Shot DMG|{param1:F1P}×2",
+                        "Scalespiker Cannon DMG|{param2:F1P}",
+                        "Nightsoul Point Limit|{param4:F1}",
+                        "CD|{param3:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.8592,
+                        10.3116,
+                        18,
+                        20,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "8": {
+                    "level": 8,
+                    "costItems": {
+                        "104352": 6,
+                        "112103": 6,
+                        "113062": 1
+                    },
+                    "coinCost": 260000,
+                    "description": [
+                        "Loop Shot DMG|{param1:F1P}×2",
+                        "Scalespiker Cannon DMG|{param2:F1P}",
+                        "Nightsoul Point Limit|{param4:F1}",
+                        "CD|{param3:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.91648,
+                        10.99904,
+                        18,
+                        20,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "9": {
+                    "level": 9,
+                    "costItems": {
+                        "104352": 12,
+                        "112103": 9,
+                        "113062": 2
+                    },
+                    "coinCost": 450000,
+                    "description": [
+                        "Loop Shot DMG|{param1:F1P}×2",
+                        "Scalespiker Cannon DMG|{param2:F1P}",
+                        "Nightsoul Point Limit|{param4:F1}",
+                        "CD|{param3:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.97376,
+                        11.68648,
+                        18,
+                        20,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "10": {
+                    "level": 10,
+                    "costItems": {
+                        "104319": 1,
+                        "104352": 16,
+                        "112103": 12,
+                        "113062": 2
+                    },
+                    "coinCost": 700000,
+                    "description": [
+                        "Loop Shot DMG|{param1:F1P}×2",
+                        "Scalespiker Cannon DMG|{param2:F1P}",
+                        "Nightsoul Point Limit|{param4:F1}",
+                        "CD|{param3:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.03104,
+                        12.37392,
+                        18,
+                        20,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "11": {
+                    "level": 11,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Loop Shot DMG|{param1:F1P}×2",
+                        "Scalespiker Cannon DMG|{param2:F1P}",
+                        "Nightsoul Point Limit|{param4:F1}",
+                        "CD|{param3:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.08832,
+                        13.06136,
+                        18,
+                        20,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "12": {
+                    "level": 12,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Loop Shot DMG|{param1:F1P}×2",
+                        "Scalespiker Cannon DMG|{param2:F1P}",
+                        "Nightsoul Point Limit|{param4:F1}",
+                        "CD|{param3:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.1456,
+                        13.7488,
+                        18,
+                        20,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "13": {
+                    "level": 13,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Loop Shot DMG|{param1:F1P}×2",
+                        "Scalespiker Cannon DMG|{param2:F1P}",
+                        "Nightsoul Point Limit|{param4:F1}",
+                        "CD|{param3:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.2172,
+                        14.6081,
+                        18,
+                        20,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "14": {
+                    "level": 14,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Loop Shot DMG|{param1:F1P}×2",
+                        "Scalespiker Cannon DMG|{param2:F1P}",
+                        "Nightsoul Point Limit|{param4:F1}",
+                        "CD|{param3:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.2888,
+                        15.4674,
+                        18,
+                        20,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "15": {
+                    "level": 15,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Loop Shot DMG|{param1:F1P}×2",
+                        "Scalespiker Cannon DMG|{param2:F1P}",
+                        "Nightsoul Point Limit|{param4:F1}",
+                        "CD|{param3:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.3604,
+                        16.3267,
+                        18,
+                        20,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            "cooldown": 18,
+            "cost": 0,
+            "linkedConstellations": {
+                "isLevelIncluded": true,
+                "prop": [
+                    {
+                        "id": 0,
+                        "type": "normal"
+                    },
+                    {
+                        "id": 2,
+                        "type": "level"
+                    }
+                ]
+            },
+            "advancedProps": [
+                {
+                    "name": "Loop Shot DMG",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": null,
+                            "text": "Loop Shot"
+                        },
+                        "type": {
+                            "span": null,
+                            "text": "2s"
+                        }
+                    },
+                    "interruptionResistance": "25",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Scalespiker Cannon DMG",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": null,
+                            "text": "Scalespiker Cannon"
+                        },
+                        "type": {
+                            "span": null,
+                            "text": "1.2s"
+                        }
+                    },
+                    "interruptionResistance": "100",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                }
+            ]
+        },
+        "3": {
+            "type": 1,
+            "name": "Hail to the Almighty Dragonlord",
+            "description": "Unleashes the power of the Almighty Dragonlord, K'uhul Ajaw (on a limited, conditional, restricted, contractual, partial, temporary basis), dealing Nightsoul-aligned <color=#99FF88FF>AoE Dendro DMG</color>. Ajaw will unleash his Dragon Breath at intervals, dealing Nightsoul-aligned <color=#99FF88FF>AoE Dendro DMG</color>.\\nIf Kinich is in Nightsoul's Blessing when this is used, this Blessing's duration is extended by 1.7s.\\n\\n<i>\"Yes, yes! You stand before K'uhul Ajaw the Almighty Dragonlord! Come forward, then! Kneel, and kiss our feet!\"</i>",
+            "icon": "Skill_E_Kinich_01",
+            "promote": {
+                "1": {
+                    "level": 1,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Skill DMG|{param1:F1P}",
+                        "Dragon Breath DMG|{param2:F1P}",
+                        "Duration|{param3:F1}s",
+                        "CD|{param4:F1}s",
+                        "Energy Cost|{param5:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.34,
+                        1.20736,
+                        15,
+                        18,
+                        70,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "2": {
+                    "level": 2,
+                    "costItems": {
+                        "104350": 3,
+                        "112101": 6
+                    },
+                    "coinCost": 12500,
+                    "description": [
+                        "Skill DMG|{param1:F1P}",
+                        "Dragon Breath DMG|{param2:F1P}",
+                        "Duration|{param3:F1}s",
+                        "CD|{param4:F1}s",
+                        "Energy Cost|{param5:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.4405,
+                        1.29791,
+                        15,
+                        18,
+                        70,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "3": {
+                    "level": 3,
+                    "costItems": {
+                        "104351": 2,
+                        "112102": 3
+                    },
+                    "coinCost": 17500,
+                    "description": [
+                        "Skill DMG|{param1:F1P}",
+                        "Dragon Breath DMG|{param2:F1P}",
+                        "Duration|{param3:F1}s",
+                        "CD|{param4:F1}s",
+                        "Energy Cost|{param5:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.541,
+                        1.38846,
+                        15,
+                        18,
+                        70,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "4": {
+                    "level": 4,
+                    "costItems": {
+                        "104351": 4,
+                        "112102": 4
+                    },
+                    "coinCost": 25000,
+                    "description": [
+                        "Skill DMG|{param1:F1P}",
+                        "Dragon Breath DMG|{param2:F1P}",
+                        "Duration|{param3:F1}s",
+                        "CD|{param4:F1}s",
+                        "Energy Cost|{param5:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.675,
+                        1.5092,
+                        15,
+                        18,
+                        70,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "5": {
+                    "level": 5,
+                    "costItems": {
+                        "104351": 6,
+                        "112102": 6
+                    },
+                    "coinCost": 30000,
+                    "description": [
+                        "Skill DMG|{param1:F1P}",
+                        "Dragon Breath DMG|{param2:F1P}",
+                        "Duration|{param3:F1}s",
+                        "CD|{param4:F1}s",
+                        "Energy Cost|{param5:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.7755,
+                        1.59975,
+                        15,
+                        18,
+                        70,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "6": {
+                    "level": 6,
+                    "costItems": {
+                        "104351": 9,
+                        "112102": 9
+                    },
+                    "coinCost": 37500,
+                    "description": [
+                        "Skill DMG|{param1:F1P}",
+                        "Dragon Breath DMG|{param2:F1P}",
+                        "Duration|{param3:F1}s",
+                        "CD|{param4:F1}s",
+                        "Energy Cost|{param5:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.876,
+                        1.6903,
+                        15,
+                        18,
+                        70,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "7": {
+                    "level": 7,
+                    "costItems": {
+                        "104352": 4,
+                        "112103": 4,
+                        "113062": 1
+                    },
+                    "coinCost": 120000,
+                    "description": [
+                        "Skill DMG|{param1:F1P}",
+                        "Dragon Breath DMG|{param2:F1P}",
+                        "Duration|{param3:F1}s",
+                        "CD|{param4:F1}s",
+                        "Energy Cost|{param5:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        2.01,
+                        1.81104,
+                        15,
+                        18,
+                        70,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "8": {
+                    "level": 8,
+                    "costItems": {
+                        "104352": 6,
+                        "112103": 6,
+                        "113062": 1
+                    },
+                    "coinCost": 260000,
+                    "description": [
+                        "Skill DMG|{param1:F1P}",
+                        "Dragon Breath DMG|{param2:F1P}",
+                        "Duration|{param3:F1}s",
+                        "CD|{param4:F1}s",
+                        "Energy Cost|{param5:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        2.144,
+                        1.93178,
+                        15,
+                        18,
+                        70,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "9": {
+                    "level": 9,
+                    "costItems": {
+                        "104352": 12,
+                        "112103": 9,
+                        "113062": 2
+                    },
+                    "coinCost": 450000,
+                    "description": [
+                        "Skill DMG|{param1:F1P}",
+                        "Dragon Breath DMG|{param2:F1P}",
+                        "Duration|{param3:F1}s",
+                        "CD|{param4:F1}s",
+                        "Energy Cost|{param5:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        2.278,
+                        2.05251,
+                        15,
+                        18,
+                        70,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "10": {
+                    "level": 10,
+                    "costItems": {
+                        "104319": 1,
+                        "104352": 16,
+                        "112103": 12,
+                        "113062": 2
+                    },
+                    "coinCost": 700000,
+                    "description": [
+                        "Skill DMG|{param1:F1P}",
+                        "Dragon Breath DMG|{param2:F1P}",
+                        "Duration|{param3:F1}s",
+                        "CD|{param4:F1}s",
+                        "Energy Cost|{param5:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        2.412,
+                        2.17325,
+                        15,
+                        18,
+                        70,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "11": {
+                    "level": 11,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Skill DMG|{param1:F1P}",
+                        "Dragon Breath DMG|{param2:F1P}",
+                        "Duration|{param3:F1}s",
+                        "CD|{param4:F1}s",
+                        "Energy Cost|{param5:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        2.546,
+                        2.29398,
+                        15,
+                        18,
+                        70,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "12": {
+                    "level": 12,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Skill DMG|{param1:F1P}",
+                        "Dragon Breath DMG|{param2:F1P}",
+                        "Duration|{param3:F1}s",
+                        "CD|{param4:F1}s",
+                        "Energy Cost|{param5:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        2.68,
+                        2.41472,
+                        15,
+                        18,
+                        70,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "13": {
+                    "level": 13,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Skill DMG|{param1:F1P}",
+                        "Dragon Breath DMG|{param2:F1P}",
+                        "Duration|{param3:F1}s",
+                        "CD|{param4:F1}s",
+                        "Energy Cost|{param5:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        2.8475,
+                        2.56564,
+                        15,
+                        18,
+                        70,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "14": {
+                    "level": 14,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Skill DMG|{param1:F1P}",
+                        "Dragon Breath DMG|{param2:F1P}",
+                        "Duration|{param3:F1}s",
+                        "CD|{param4:F1}s",
+                        "Energy Cost|{param5:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        3.015,
+                        2.71656,
+                        15,
+                        18,
+                        70,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "15": {
+                    "level": 15,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Skill DMG|{param1:F1P}",
+                        "Dragon Breath DMG|{param2:F1P}",
+                        "Duration|{param3:F1}s",
+                        "CD|{param4:F1}s",
+                        "Energy Cost|{param5:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        3.1825,
+                        2.86748,
+                        15,
+                        18,
+                        70,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            "cooldown": 18,
+            "cost": 70,
+            "linkedConstellations": {
+                "isLevelIncluded": true,
+                "prop": [
+                    {
+                        "id": 3,
+                        "type": "normal"
+                    },
+                    {
+                        "id": 4,
+                        "type": "level"
+                    }
+                ]
+            },
+            "advancedProps": [
+                {
+                    "name": "Skill DMG",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": "2",
+                            "text": "Elemental Burst"
+                        },
+                        "type": {
+                            "span": "2",
+                            "text": "2.5s/3 Hits"
+                        }
+                    },
+                    "interruptionResistance": "35",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Dragon Breath DMG",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "35",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                }
+            ]
+        },
+        "4": {
+            "type": 2,
+            "name": "The Price of Desolation",
+            "description": "When Kinich is in Nightsoul's Blessing state, opponents hit by his Elemental Skill will enter the Desolation state, and when affected by Burning or Burgeon reaction DMG, they will restore 7 Nightsoul points to him. Nightsoul points can be gained this way once every 0.8s. The Desolation state will persist until this instance of Kinich's Nightsoul's Blessing state ends.",
+            "icon": "UI_Talent_S_Kinich_05",
+            "linkedConstellations": null
+        },
+        "5": {
+            "type": 2,
+            "name": "Flame Spirit Pact",
+            "description": "After a nearby party member triggers a Nightsoul Burst, Kinich will gain 1 stack of Hunter's Experience that lasts 15s. Max 2 stacks. When Kinich uses <color=#FFD780FF>Canopy Hunter: Riding High</color>'s Scalespiker Cannon, all stacks of Hunter's Experience will be consumed, with each stack consumed increasing the DMG dealt by this Cannon shot by 320% of Kinich's ATK.",
+            "icon": "UI_Talent_S_Kinich_06",
+            "linkedConstellations": {
+                "isLevelIncluded": false,
+                "prop": [
+                    {
+                        "id": 5,
+                        "type": "normal"
+                    }
+                ]
+            }
+        },
+        "6": {
+            "type": 2,
+            "name": "Night Realm's Gift: Repaid in Full",
+            "description": "When Kinich is in the air following <color=#FFD780FF>Canopy Hunter: Riding High</color>'s mid-air swing, he can consume 10 Phlogiston points to perform another mid-air swing.\\nWhile in an area with Phlogiston Mechanics within Natlan, he can use Nightsoul Transmission: Kinich. When the current active character is sprinting, in movement states that result from specific Talents, or in the air, when you switch to Kinich: Kinich will perform one of the following actions depending on the conditions met:\\n·When facing a Coilgrass Sigil that can be interacted with: He will fire a grappling hook towards it to move;\\n·When there are nearby opponents and you are in combat: Kinich will use Canopy Hunter: Riding High in the direction of the opponents;\\nOtherwise, Kinich will fire a grappling hook and swing, prioritizing valid Coilgrass Sigils as grapple targets.\\nNightsoul Transmission can be triggered once every 10s by your own party.\\n\\nWhen interacting with Coilgrass Sigils and other items that Yumkasaurs can interact with, \"Canopy Hunter: Riding High\" will be converted to \"Yumkasaur Mimesis,\" which causes interactions with such items to follow rules applicable to Yumkasaurs, and which will not put Canopy Hunter: Riding High on CD.",
+            "icon": "UI_Talent_S_Kinich_08",
+            "linkedConstellations": null
+        },
+        "8": {
+            "type": 2,
+            "name": "Swift Envoy",
+            "description": "While in an area with Phlogiston Mechanics within Natlan, interacting with some harvestable items will increase your own party members' Movement SPD by 15% for 10s. Additionally, the location of nearby <color=#FFD780FF>resources unique to Natlan</color> will appear on your mini-map.",
+            "icon": "UI_Talent_S_Kachina_08",
+            "linkedConstellations": null
+        }
+    },
+    "constellation": {
+        "0": {
+            "id": 0,
+            "name": "Parrot's Beak",
+            "description": "After Kinich lands from <color=#FFD780FF>Canopy Hunter: Riding High</color>'s mid-air swing, his Movement SPD will increase by 30% for 6s.\\nAdditionally, Scalespiker Cannon's CRIT DMG is increased by 100%.",
+            "extraData": null,
+            "icon": "UI_Talent_S_Kinich_01"
+        },
+        "1": {
+            "id": 1,
+            "name": "Tiger Beetle's Palm",
+            "description": "When Kinich's Elemental Skill hits an opponent, it will decrease their <color=#99FF88FF>Dendro RES</color> by 30% for 6s.\\nAdditionally, the first Scalespiker Cannon Kinich fires after entering Nightsoul's Blessing has increased AoE, and its DMG increases by 100%.",
+            "extraData": null,
+            "icon": "UI_Talent_S_Kinich_02"
+        },
+        "2": {
+            "id": 2,
+            "name": "Protosuchian's Claw",
+            "description": "Increases the Level of <color=#FFD780FF>Canopy Hunter: Riding High</color> by 3.\\nMaximum upgrade level is 15.",
+            "extraData": {
+                "addTalentExtraLevel": {
+                    "talentType": "AvatarSkill",
+                    "talentIndex": 2,
+                    "extraLevel": 3
+                }
+            },
+            "icon": "UI_Talent_U_Kinich_01"
+        },
+        "3": {
+            "id": 3,
+            "name": "Hummingbird's Feather",
+            "description": "When in Nightsoul's Blessing, Kinich will restore 5 Energy after using his Loop Shots or after unleashing the Scalespiker Cannon. Energy can be regenerated this way once every 2.8s.\\nAdditionally, <color=#FFD780FF>Hail to the Almighty Dragonlord</color> deals 70% more DMG.",
+            "extraData": null,
+            "icon": "UI_Talent_S_Kinich_03"
+        },
+        "4": {
+            "id": 4,
+            "name": "Howler Monkey's Tail",
+            "description": "Increases the Level of <color=#FFD780FF>Hail to the Almighty Dragonlord</color> by 3.\\nMaximum upgrade level is 15.",
+            "extraData": {
+                "addTalentExtraLevel": {
+                    "talentType": "AvatarSkill",
+                    "talentIndex": 9,
+                    "extraLevel": 3
+                }
+            },
+            "icon": "UI_Talent_U_Kinich_02"
+        },
+        "5": {
+            "id": 5,
+            "name": "Auspicious Beast's Shape",
+            "description": "After Scalespiker Cannon hits an opponent, it will bounce between opponents once, dealing 700% of Kinich's ATK as <color=#99FF88FF>Dendro DMG</color>.\\nIf this Scalespiker Cannon triggers the buffs that Passive Talent \"Flame Spirit Pact\" or the Constellation \"Tiger Beetle's Palm\" grant to the Cannon, the bouncing attack will also obtain the relevant buffs.",
+            "extraData": null,
+            "icon": "UI_Talent_S_Kinich_04",
+            "advancedProps": [
+                {
+                    "name": "Scalespiker Cannon Bounce",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": null,
+                            "text": "Scalespiker Cannon"
+                        },
+                        "type": {
+                            "span": null,
+                            "text": "1.2s"
+                        }
+                    },
+                    "interruptionResistance": "100",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                }
+            ]
+        }
+    },
+    "_id": 10000101
+}

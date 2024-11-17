@@ -1,0 +1,2710 @@
+{
+    "id": "gaming",
+    "rank": 4,
+    "name": "Gaming",
+    "element": "Fire",
+    "weaponType": "WEAPON_CLAYMORE",
+    "region": "LIYUE",
+    "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
+    "bodyType": "BOY",
+    "icon": "UI_AvatarIcon_Gaming",
+    "birthday": [
+        12,
+        22
+    ],
+    "release": 1706565600,
+    "route": "Gaming",
+    "fetter": {
+        "title": "Leonine Vanguard",
+        "detail": "Guard of the Sword and Strongbox Secure Transport Agency, and the head of the \"Mighty Mythical Beasts\" Wushou troupe.",
+        "constellation": "Leo Expergiscens",
+        "native": "Sword and Strongbox Secure Transport Agency",
+        "cv": {
+            "EN": "Caleb Yen",
+            "CHS": "谢莹",
+            "JP": "小松昌平",
+            "KR": "Kim Yoon-gi"
+        }
+    },
+    "upgrade": {
+        "prop": [
+            {
+                "propType": "FIGHT_PROP_BASE_HP",
+                "initValue": 957.38055,
+                "type": "GROW_CURVE_HP_S4"
+            },
+            {
+                "propType": "FIGHT_PROP_BASE_ATTACK",
+                "initValue": 25.28736,
+                "type": "GROW_CURVE_ATTACK_S4"
+            },
+            {
+                "propType": "FIGHT_PROP_BASE_DEFENSE",
+                "initValue": 58.94175,
+                "type": "GROW_CURVE_HP_S4"
+            }
+        ],
+        "promote": [
+            {
+                "unlockMaxLevel": 20,
+                "promoteLevel": 0
+            },
+            {
+                "promoteLevel": 1,
+                "costItems": {
+                    "100033": 3,
+                    "104111": 1,
+                    "112002": 3
+                },
+                "unlockMaxLevel": 40,
+                "addProps": {
+                    "FIGHT_PROP_BASE_HP": 715.21228,
+                    "FIGHT_PROP_BASE_DEFENSE": 44.0325,
+                    "FIGHT_PROP_BASE_ATTACK": 18.8914,
+                    "FIGHT_PROP_ATTACK_PERCENT": 0
+                },
+                "requiredPlayerLevel": 15,
+                "coinCost": 20000
+            },
+            {
+                "promoteLevel": 2,
+                "costItems": {
+                    "100033": 10,
+                    "104112": 3,
+                    "112002": 15,
+                    "113051": 2
+                },
+                "unlockMaxLevel": 50,
+                "addProps": {
+                    "FIGHT_PROP_BASE_HP": 1223.3894,
+                    "FIGHT_PROP_BASE_DEFENSE": 75.31875,
+                    "FIGHT_PROP_BASE_ATTACK": 32.31423,
+                    "FIGHT_PROP_ATTACK_PERCENT": 0.06
+                },
+                "requiredPlayerLevel": 25,
+                "coinCost": 40000
+            },
+            {
+                "promoteLevel": 3,
+                "costItems": {
+                    "100033": 20,
+                    "104112": 6,
+                    "112003": 12,
+                    "113051": 4
+                },
+                "unlockMaxLevel": 60,
+                "addProps": {
+                    "FIGHT_PROP_BASE_HP": 1900.95898,
+                    "FIGHT_PROP_BASE_DEFENSE": 117.03375,
+                    "FIGHT_PROP_BASE_ATTACK": 50.21134,
+                    "FIGHT_PROP_ATTACK_PERCENT": 0.12
+                },
+                "requiredPlayerLevel": 30,
+                "coinCost": 60000
+            },
+            {
+                "promoteLevel": 4,
+                "costItems": {
+                    "100033": 30,
+                    "104113": 3,
+                    "112003": 18,
+                    "113051": 8
+                },
+                "unlockMaxLevel": 70,
+                "addProps": {
+                    "FIGHT_PROP_BASE_HP": 2409.13623,
+                    "FIGHT_PROP_BASE_DEFENSE": 148.32001,
+                    "FIGHT_PROP_BASE_ATTACK": 63.63417,
+                    "FIGHT_PROP_ATTACK_PERCENT": 0.12
+                },
+                "requiredPlayerLevel": 35,
+                "coinCost": 80000
+            },
+            {
+                "promoteLevel": 5,
+                "costItems": {
+                    "100033": 45,
+                    "104113": 6,
+                    "112004": 12,
+                    "113051": 12
+                },
+                "unlockMaxLevel": 80,
+                "addProps": {
+                    "FIGHT_PROP_BASE_HP": 2917.31323,
+                    "FIGHT_PROP_BASE_DEFENSE": 179.60625,
+                    "FIGHT_PROP_BASE_ATTACK": 77.05701,
+                    "FIGHT_PROP_ATTACK_PERCENT": 0.18
+                },
+                "requiredPlayerLevel": 40,
+                "coinCost": 100000
+            },
+            {
+                "promoteLevel": 6,
+                "costItems": {
+                    "100033": 60,
+                    "104114": 6,
+                    "112004": 24,
+                    "113051": 20
+                },
+                "unlockMaxLevel": 90,
+                "addProps": {
+                    "FIGHT_PROP_BASE_HP": 3425.49048,
+                    "FIGHT_PROP_BASE_DEFENSE": 210.8925,
+                    "FIGHT_PROP_BASE_ATTACK": 90.47984,
+                    "FIGHT_PROP_ATTACK_PERCENT": 0.24
+                },
+                "requiredPlayerLevel": 50,
+                "coinCost": 120000
+            }
+        ]
+    },
+    "other": {
+        "costume": [
+            {
+                "name": "Ranging Rainbow",
+                "description": "Gaming's outfit. There's no need for a fancy getup when going out. A few plain layers, comfortable shoes, and voila, you're on solid footing!",
+                "isDefault": true
+            }
+        ],
+        "furnitureId": 368178,
+        "nameCard": {
+            "id": 210188,
+            "name": "Gaming: Man Chai",
+            "description": "Namecard style.\\n\"Don't stop believing, Man Chai. One day, we'll soar high, with nary a patched hole in our trousers.\"",
+            "icon": "UI_NameCardIcon_Gaming"
+        },
+        "specialFood": {
+            "id": 108664,
+            "name": "Yummy Yum Cha",
+            "rank": 1,
+            "effectIcon": "UI_Buff_Item_Recovery_HpAddAll",
+            "icon": "UI_ItemIcon_108664"
+        }
+    },
+    "ascension": {
+        "100033": 1,
+        "104111": 2,
+        "104112": 3,
+        "104113": 4,
+        "104114": 5,
+        "104310": 2,
+        "104311": 3,
+        "104312": 4,
+        "104319": 5,
+        "112002": 1,
+        "112003": 2,
+        "112004": 3,
+        "113051": 4,
+        "113056": 5
+    },
+    "items": {
+        "202": {
+            "name": "Mora",
+            "rank": 3,
+            "icon": "UI_ItemIcon_202"
+        },
+        "100033": {
+            "name": "Starconch",
+            "rank": 1,
+            "icon": "UI_ItemIcon_100033"
+        },
+        "104001": {
+            "name": "Wanderer's Advice",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104001"
+        },
+        "104002": {
+            "name": "Adventurer's Experience",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104002"
+        },
+        "104003": {
+            "name": "Hero's Wit",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104003"
+        },
+        "104111": {
+            "name": "Agnidus Agate Sliver",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104111"
+        },
+        "104112": {
+            "name": "Agnidus Agate Fragment",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104112"
+        },
+        "104113": {
+            "name": "Agnidus Agate Chunk",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104113"
+        },
+        "104114": {
+            "name": "Agnidus Agate Gemstone",
+            "rank": 5,
+            "icon": "UI_ItemIcon_104114"
+        },
+        "104310": {
+            "name": "Teachings of Prosperity",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104310"
+        },
+        "104311": {
+            "name": "Guide to Prosperity",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104311"
+        },
+        "104312": {
+            "name": "Philosophies of Prosperity",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104312"
+        },
+        "104319": {
+            "name": "Crown of Insight",
+            "rank": 5,
+            "icon": "UI_ItemIcon_104319"
+        },
+        "112002": {
+            "name": "Slime Condensate",
+            "rank": 1,
+            "icon": "UI_ItemIcon_112002"
+        },
+        "112003": {
+            "name": "Slime Secretions",
+            "rank": 2,
+            "icon": "UI_ItemIcon_112003"
+        },
+        "112004": {
+            "name": "Slime Concentrate",
+            "rank": 3,
+            "icon": "UI_ItemIcon_112004"
+        },
+        "113051": {
+            "name": "Emperor's Resolution",
+            "rank": 4,
+            "icon": "UI_ItemIcon_113051"
+        },
+        "113056": {
+            "name": "Lightless Mass",
+            "rank": 5,
+            "icon": "UI_ItemIcon_113056"
+        }
+    },
+    "talent": {
+        "0": {
+            "type": 0,
+            "name": "Normal Attack: Stellar Rend",
+            "description": "<color=#FFD780FF>Normal Attack</color>\\nPerforms up to 4 consecutive strikes.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nDrains Stamina over time to perform continuous spinning attacks against all nearby opponents.\\nAt the end of the sequence, performs a more powerful slash. \\n\\n<color=#FFD780FF>Plunging Attack</color>\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+            "icon": "Skill_A_04",
+            "promote": {
+                "1": {
+                    "level": 1,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}",
+                        "4-Hit DMG|{param4:F1P}",
+                        "Charged Attack Cyclic DMG|{param5:F1P}",
+                        "Charged Attack Final DMG|{param6:P}",
+                        "Charged Attack Stamina Cost|{param7:F1}/s",
+                        "Max Duration|{param8:F1}s",
+                        "Plunge DMG|{param9:F1P}",
+                        "Low/High Plunge DMG|{param10:P}/{param11:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.83856,
+                        0.79044,
+                        1.06646,
+                        1.27949,
+                        0.62522,
+                        1.1309,
+                        40,
+                        5,
+                        0.64146,
+                        1.28264,
+                        1.60208,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "2": {
+                    "level": 2,
+                    "costItems": {
+                        "104310": 3,
+                        "112002": 6
+                    },
+                    "coinCost": 12500,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}",
+                        "4-Hit DMG|{param4:F1P}",
+                        "Charged Attack Cyclic DMG|{param5:F1P}",
+                        "Charged Attack Final DMG|{param6:P}",
+                        "Charged Attack Stamina Cost|{param7:F1}/s",
+                        "Max Duration|{param8:F1}s",
+                        "Plunge DMG|{param9:F1P}",
+                        "Low/High Plunge DMG|{param10:P}/{param11:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.90681,
+                        0.85478,
+                        1.15326,
+                        1.38364,
+                        0.67611,
+                        1.22295,
+                        40,
+                        5,
+                        0.69367,
+                        1.38704,
+                        1.73249,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "3": {
+                    "level": 3,
+                    "costItems": {
+                        "104311": 2,
+                        "112003": 3
+                    },
+                    "coinCost": 17500,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}",
+                        "4-Hit DMG|{param4:F1P}",
+                        "Charged Attack Cyclic DMG|{param5:F1P}",
+                        "Charged Attack Final DMG|{param6:P}",
+                        "Charged Attack Stamina Cost|{param7:F1}/s",
+                        "Max Duration|{param8:F1}s",
+                        "Plunge DMG|{param9:F1P}",
+                        "Low/High Plunge DMG|{param10:P}/{param11:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.97507,
+                        0.91912,
+                        1.24007,
+                        1.48778,
+                        0.727,
+                        1.315,
+                        40,
+                        5,
+                        0.74588,
+                        1.49144,
+                        1.86289,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "4": {
+                    "level": 4,
+                    "costItems": {
+                        "104311": 4,
+                        "112003": 4
+                    },
+                    "coinCost": 25000,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}",
+                        "4-Hit DMG|{param4:F1P}",
+                        "Charged Attack Cyclic DMG|{param5:F1P}",
+                        "Charged Attack Final DMG|{param6:P}",
+                        "Charged Attack Stamina Cost|{param7:F1}/s",
+                        "Max Duration|{param8:F1}s",
+                        "Plunge DMG|{param9:F1P}",
+                        "Low/High Plunge DMG|{param10:P}/{param11:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.07258,
+                        1.01103,
+                        1.36408,
+                        1.63656,
+                        0.7997,
+                        1.4465,
+                        40,
+                        5,
+                        0.82047,
+                        1.64058,
+                        2.04918,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "5": {
+                    "level": 5,
+                    "costItems": {
+                        "104311": 6,
+                        "112003": 6
+                    },
+                    "coinCost": 30000,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}",
+                        "4-Hit DMG|{param4:F1P}",
+                        "Charged Attack Cyclic DMG|{param5:F1P}",
+                        "Charged Attack Final DMG|{param6:P}",
+                        "Charged Attack Stamina Cost|{param7:F1}/s",
+                        "Max Duration|{param8:F1}s",
+                        "Plunge DMG|{param9:F1P}",
+                        "Low/High Plunge DMG|{param10:P}/{param11:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.14083,
+                        1.07537,
+                        1.45088,
+                        1.7407,
+                        0.85059,
+                        1.53855,
+                        40,
+                        5,
+                        0.87268,
+                        1.74498,
+                        2.17958,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "6": {
+                    "level": 6,
+                    "costItems": {
+                        "104311": 9,
+                        "112003": 9
+                    },
+                    "coinCost": 37500,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}",
+                        "4-Hit DMG|{param4:F1P}",
+                        "Charged Attack Cyclic DMG|{param5:F1P}",
+                        "Charged Attack Final DMG|{param6:P}",
+                        "Charged Attack Stamina Cost|{param7:F1}/s",
+                        "Max Duration|{param8:F1}s",
+                        "Plunge DMG|{param9:F1P}",
+                        "Low/High Plunge DMG|{param10:P}/{param11:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.21884,
+                        1.1489,
+                        1.55009,
+                        1.85972,
+                        0.90875,
+                        1.64375,
+                        40,
+                        5,
+                        0.93235,
+                        1.8643,
+                        2.32861,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "7": {
+                    "level": 7,
+                    "costItems": {
+                        "104312": 4,
+                        "112004": 4,
+                        "113056": 1
+                    },
+                    "coinCost": 120000,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}",
+                        "4-Hit DMG|{param4:F1P}",
+                        "Charged Attack Cyclic DMG|{param5:F1P}",
+                        "Charged Attack Final DMG|{param6:P}",
+                        "Charged Attack Stamina Cost|{param7:F1}/s",
+                        "Max Duration|{param8:F1}s",
+                        "Plunge DMG|{param9:F1P}",
+                        "Low/High Plunge DMG|{param10:P}/{param11:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.32609,
+                        1.25,
+                        1.68649,
+                        2.02338,
+                        0.98872,
+                        1.7884,
+                        40,
+                        5,
+                        1.0144,
+                        2.02836,
+                        2.53353,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "8": {
+                    "level": 8,
+                    "costItems": {
+                        "104312": 6,
+                        "112004": 6,
+                        "113056": 1
+                    },
+                    "coinCost": 260000,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}",
+                        "4-Hit DMG|{param4:F1P}",
+                        "Charged Attack Cyclic DMG|{param5:F1P}",
+                        "Charged Attack Final DMG|{param6:P}",
+                        "Charged Attack Stamina Cost|{param7:F1}/s",
+                        "Max Duration|{param8:F1}s",
+                        "Plunge DMG|{param9:F1P}",
+                        "Low/High Plunge DMG|{param10:P}/{param11:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.43335,
+                        1.35111,
+                        1.8229,
+                        2.18704,
+                        1.06869,
+                        1.93305,
+                        40,
+                        5,
+                        1.09644,
+                        2.19242,
+                        2.73845,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "9": {
+                    "level": 9,
+                    "costItems": {
+                        "104312": 12,
+                        "112004": 9,
+                        "113056": 2
+                    },
+                    "coinCost": 450000,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}",
+                        "4-Hit DMG|{param4:F1P}",
+                        "Charged Attack Cyclic DMG|{param5:F1P}",
+                        "Charged Attack Final DMG|{param6:P}",
+                        "Charged Attack Stamina Cost|{param7:F1}/s",
+                        "Max Duration|{param8:F1}s",
+                        "Plunge DMG|{param9:F1P}",
+                        "Low/High Plunge DMG|{param10:P}/{param11:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.54061,
+                        1.45221,
+                        1.95931,
+                        2.35069,
+                        1.14866,
+                        2.0777,
+                        40,
+                        5,
+                        1.17849,
+                        2.35648,
+                        2.94337,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "10": {
+                    "level": 10,
+                    "costItems": {
+                        "104312": 16,
+                        "104319": 1,
+                        "112004": 12,
+                        "113056": 2
+                    },
+                    "coinCost": 700000,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}",
+                        "4-Hit DMG|{param4:F1P}",
+                        "Charged Attack Cyclic DMG|{param5:F1P}",
+                        "Charged Attack Final DMG|{param6:P}",
+                        "Charged Attack Stamina Cost|{param7:F1}/s",
+                        "Max Duration|{param8:F1}s",
+                        "Plunge DMG|{param9:F1P}",
+                        "Low/High Plunge DMG|{param10:P}/{param11:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.65762,
+                        1.5625,
+                        2.10812,
+                        2.52923,
+                        1.2359,
+                        2.2355,
+                        40,
+                        5,
+                        1.268,
+                        2.53545,
+                        3.16691,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "11": {
+                    "level": 11,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}",
+                        "4-Hit DMG|{param4:F1P}",
+                        "Charged Attack Cyclic DMG|{param5:F1P}",
+                        "Charged Attack Final DMG|{param6:P}",
+                        "Charged Attack Stamina Cost|{param7:F1}/s",
+                        "Max Duration|{param8:F1}s",
+                        "Plunge DMG|{param9:F1P}",
+                        "Low/High Plunge DMG|{param10:P}/{param11:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.77463,
+                        1.6728,
+                        2.25693,
+                        2.70776,
+                        1.32314,
+                        2.3933,
+                        40,
+                        5,
+                        1.3575,
+                        2.71442,
+                        3.39046,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "12": {
+                    "level": 12,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}",
+                        "4-Hit DMG|{param4:F1P}",
+                        "Charged Attack Cyclic DMG|{param5:F1P}",
+                        "Charged Attack Final DMG|{param6:P}",
+                        "Charged Attack Stamina Cost|{param7:F1}/s",
+                        "Max Duration|{param8:F1}s",
+                        "Plunge DMG|{param9:F1P}",
+                        "Low/High Plunge DMG|{param10:P}/{param11:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.89164,
+                        1.78309,
+                        2.40574,
+                        2.88629,
+                        1.41038,
+                        2.5511,
+                        40,
+                        5,
+                        1.44701,
+                        2.89339,
+                        3.61401,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "13": {
+                    "level": 13,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}",
+                        "4-Hit DMG|{param4:F1P}",
+                        "Charged Attack Cyclic DMG|{param5:F1P}",
+                        "Charged Attack Final DMG|{param6:P}",
+                        "Charged Attack Stamina Cost|{param7:F1}/s",
+                        "Max Duration|{param8:F1}s",
+                        "Plunge DMG|{param9:F1P}",
+                        "Low/High Plunge DMG|{param10:P}/{param11:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        2.00864,
+                        1.89339,
+                        2.55454,
+                        3.06483,
+                        1.49762,
+                        2.7089,
+                        40,
+                        5,
+                        1.53651,
+                        3.07237,
+                        3.83755,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "14": {
+                    "level": 14,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}",
+                        "4-Hit DMG|{param4:F1P}",
+                        "Charged Attack Cyclic DMG|{param5:F1P}",
+                        "Charged Attack Final DMG|{param6:P}",
+                        "Charged Attack Stamina Cost|{param7:F1}/s",
+                        "Max Duration|{param8:F1}s",
+                        "Plunge DMG|{param9:F1P}",
+                        "Low/High Plunge DMG|{param10:P}/{param11:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        2.12565,
+                        2.00368,
+                        2.70335,
+                        3.24336,
+                        1.58486,
+                        2.8667,
+                        40,
+                        5,
+                        1.62602,
+                        3.25134,
+                        4.0611,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "15": {
+                    "level": 15,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}",
+                        "4-Hit DMG|{param4:F1P}",
+                        "Charged Attack Cyclic DMG|{param5:F1P}",
+                        "Charged Attack Final DMG|{param6:P}",
+                        "Charged Attack Stamina Cost|{param7:F1}/s",
+                        "Max Duration|{param8:F1}s",
+                        "Plunge DMG|{param9:F1P}",
+                        "Low/High Plunge DMG|{param10:P}/{param11:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        2.24266,
+                        2.11398,
+                        2.85216,
+                        3.42189,
+                        1.6721,
+                        3.0245,
+                        40,
+                        5,
+                        1.71552,
+                        3.43031,
+                        4.28465,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            "cooldown": 0,
+            "cost": 0,
+            "linkedConstellations": null,
+            "advancedProps": [
+                {
+                    "name": "Normal Attack 1-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": "6",
+                            "text": "Normal Attack"
+                        },
+                        "type": {
+                            "span": "6",
+                            "text": "2.5s/3 Hits"
+                        }
+                    },
+                    "interruptionResistance": "112.133",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": true
+                },
+                {
+                    "name": "Normal Attack 2-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "105.699",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "400",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": true
+                },
+                {
+                    "name": "Normal Attack 3-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "142.608",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "400",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": true
+                },
+                {
+                    "name": "Normal Attack 4-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "171.095",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "480",
+                        "verticalForce": "600"
+                    },
+                    "bluntAttack": true
+                },
+                {
+                    "name": "Charged Attack Cyclic",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "60",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": true
+                },
+                {
+                    "name": "Charged Attack Final Slash",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "120",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "480",
+                        "verticalForce": "600"
+                    },
+                    "bluntAttack": true
+                },
+                {
+                    "name": "Plunging Attack Collision",
+                    "elementalGaugeTheory": "0U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "35",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Low Plunge",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "150",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "800",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": true
+                },
+                {
+                    "name": "High Plunge",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "200",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "0",
+                        "verticalForce": "800"
+                    },
+                    "bluntAttack": true
+                }
+            ]
+        },
+        "1": {
+            "type": 0,
+            "name": "Bestial Ascent",
+            "description": "Pounces forward using the Wushou arts, leaping high into the air after coming into contact with a target or surface.\\nAfter Gaming has used Bestial Ascent to rise into the air, if he immediately uses a Plunging Attack, he will use the especially powerful Plunging Attack: Charmed Cloudstrider instead.\\n\\n<color=#FFD780FF>Plunging Attack: Charmed Cloudstrider</color>\\nThe DMG from Plunging Attacks caused by Bestial Ascent is converted to <color=#FF9999FF>Pyro DMG</color> that cannot be overridden by other elemental infusions. Upon landing, Gaming will consume a fixed amount of HP. Gaming's HP cannot be reduced below 10% by this method.\\nCharmed Cloudstrider DMG is considered Plunging Attack DMG.\\n\\n<i>\"Auspicious beasts leap high to pluck the greens — that symbolizes good fortune and knowing how to make some serious green, y'know — so may we all rise to new heights, one step at a time!\"</i>",
+            "icon": "Skill_S_Gaming_01",
+            "promote": {
+                "1": {
+                    "level": 1,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Plunging Attack: Charmed Cloudstrider DMG|{param1:F1P}",
+                        "HP Cost|{param2:F1P} Max HP",
+                        "CD|{param3:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        2.304,
+                        0.15,
+                        6,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "2": {
+                    "level": 2,
+                    "costItems": {
+                        "104310": 3,
+                        "112002": 6
+                    },
+                    "coinCost": 12500,
+                    "description": [
+                        "Plunging Attack: Charmed Cloudstrider DMG|{param1:F1P}",
+                        "HP Cost|{param2:F1P} Max HP",
+                        "CD|{param3:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        2.4768,
+                        0.15,
+                        6,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "3": {
+                    "level": 3,
+                    "costItems": {
+                        "104311": 2,
+                        "112003": 3
+                    },
+                    "coinCost": 17500,
+                    "description": [
+                        "Plunging Attack: Charmed Cloudstrider DMG|{param1:F1P}",
+                        "HP Cost|{param2:F1P} Max HP",
+                        "CD|{param3:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        2.6496,
+                        0.15,
+                        6,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "4": {
+                    "level": 4,
+                    "costItems": {
+                        "104311": 4,
+                        "112003": 4
+                    },
+                    "coinCost": 25000,
+                    "description": [
+                        "Plunging Attack: Charmed Cloudstrider DMG|{param1:F1P}",
+                        "HP Cost|{param2:F1P} Max HP",
+                        "CD|{param3:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        2.88,
+                        0.15,
+                        6,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "5": {
+                    "level": 5,
+                    "costItems": {
+                        "104311": 6,
+                        "112003": 6
+                    },
+                    "coinCost": 30000,
+                    "description": [
+                        "Plunging Attack: Charmed Cloudstrider DMG|{param1:F1P}",
+                        "HP Cost|{param2:F1P} Max HP",
+                        "CD|{param3:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        3.0528,
+                        0.15,
+                        6,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "6": {
+                    "level": 6,
+                    "costItems": {
+                        "104311": 9,
+                        "112003": 9
+                    },
+                    "coinCost": 37500,
+                    "description": [
+                        "Plunging Attack: Charmed Cloudstrider DMG|{param1:F1P}",
+                        "HP Cost|{param2:F1P} Max HP",
+                        "CD|{param3:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        3.2256,
+                        0.15,
+                        6,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "7": {
+                    "level": 7,
+                    "costItems": {
+                        "104312": 4,
+                        "112004": 4,
+                        "113056": 1
+                    },
+                    "coinCost": 120000,
+                    "description": [
+                        "Plunging Attack: Charmed Cloudstrider DMG|{param1:F1P}",
+                        "HP Cost|{param2:F1P} Max HP",
+                        "CD|{param3:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        3.456,
+                        0.15,
+                        6,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "8": {
+                    "level": 8,
+                    "costItems": {
+                        "104312": 6,
+                        "112004": 6,
+                        "113056": 1
+                    },
+                    "coinCost": 260000,
+                    "description": [
+                        "Plunging Attack: Charmed Cloudstrider DMG|{param1:F1P}",
+                        "HP Cost|{param2:F1P} Max HP",
+                        "CD|{param3:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        3.6864,
+                        0.15,
+                        6,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "9": {
+                    "level": 9,
+                    "costItems": {
+                        "104312": 12,
+                        "112004": 9,
+                        "113056": 2
+                    },
+                    "coinCost": 450000,
+                    "description": [
+                        "Plunging Attack: Charmed Cloudstrider DMG|{param1:F1P}",
+                        "HP Cost|{param2:F1P} Max HP",
+                        "CD|{param3:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        3.9168,
+                        0.15,
+                        6,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "10": {
+                    "level": 10,
+                    "costItems": {
+                        "104312": 16,
+                        "104319": 1,
+                        "112004": 12,
+                        "113056": 2
+                    },
+                    "coinCost": 700000,
+                    "description": [
+                        "Plunging Attack: Charmed Cloudstrider DMG|{param1:F1P}",
+                        "HP Cost|{param2:F1P} Max HP",
+                        "CD|{param3:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        4.1472,
+                        0.15,
+                        6,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "11": {
+                    "level": 11,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Plunging Attack: Charmed Cloudstrider DMG|{param1:F1P}",
+                        "HP Cost|{param2:F1P} Max HP",
+                        "CD|{param3:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        4.3776,
+                        0.15,
+                        6,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "12": {
+                    "level": 12,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Plunging Attack: Charmed Cloudstrider DMG|{param1:F1P}",
+                        "HP Cost|{param2:F1P} Max HP",
+                        "CD|{param3:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        4.608,
+                        0.15,
+                        6,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "13": {
+                    "level": 13,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Plunging Attack: Charmed Cloudstrider DMG|{param1:F1P}",
+                        "HP Cost|{param2:F1P} Max HP",
+                        "CD|{param3:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        4.896,
+                        0.15,
+                        6,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "14": {
+                    "level": 14,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Plunging Attack: Charmed Cloudstrider DMG|{param1:F1P}",
+                        "HP Cost|{param2:F1P} Max HP",
+                        "CD|{param3:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        5.184,
+                        0.15,
+                        6,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "15": {
+                    "level": 15,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Plunging Attack: Charmed Cloudstrider DMG|{param1:F1P}",
+                        "HP Cost|{param2:F1P} Max HP",
+                        "CD|{param3:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        5.472,
+                        0.15,
+                        6,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            "cooldown": 6,
+            "cost": 0,
+            "linkedConstellations": {
+                "isLevelIncluded": true,
+                "prop": [
+                    {
+                        "id": 2,
+                        "type": "level"
+                    },
+                    {
+                        "id": 3,
+                        "type": "normal"
+                    },
+                    {
+                        "id": 5,
+                        "type": "normal"
+                    }
+                ]
+            },
+            "advancedProps": [
+                {
+                    "name": "Charmed Cloudstrider DMG",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "150",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "0",
+                        "verticalForce": "800"
+                    },
+                    "bluntAttack": true
+                }
+            ]
+        },
+        "3": {
+            "type": 1,
+            "name": "Suanni's Gilded Dance",
+            "description": "Gaming enters Wushou Stance, briefly applying <color=#FF9999FF>Pyro</color> to him, recovering a fixed amount of HP, and summons his companion, the Suanni Man Chai, to smash into his target, dealing <color=#FF9999FF>AoE Pyro DMG</color>.\\nAfter bashing its target, Man Chai will roll to a nearby location before moving towards Gaming. When it links up with Gaming, Man Chai will leave the field and reset the CD for Gaming's Elemental Skill, Bestial Ascent.\\nWhile Wushou Stance is active, his resistance to interruption is increased, and when Gaming lands with Charmed Cloudstrider attack or completes the forward pounce attack from Bestial Ascent with over 50% HP, he will summon Man Chai again.\\nEach Gaming can only have 1 Man Chai on the field simultaneously.\\nThis effect will be canceled once Gaming leaves the field.\\n\\n<i>\"The gilded Suanni spits out fortune like a fireworks show! Hey, now that's what's called prosperity, when business is really 'booming'!\"</i>",
+            "icon": "Skill_E_Gaming_01",
+            "promote": {
+                "1": {
+                    "level": 1,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Suanni Man Chai Smash DMG|{param1:F1P}",
+                        "Skill Healing|{param2:F1P} Max HP",
+                        "Wushou Stance Duration|{param3:F1}s",
+                        "CD|{param4:F1}s",
+                        "Energy Cost|{param5:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        3.704,
+                        0.3,
+                        12,
+                        15,
+                        60,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "2": {
+                    "level": 2,
+                    "costItems": {
+                        "104310": 3,
+                        "112002": 6
+                    },
+                    "coinCost": 12500,
+                    "description": [
+                        "Suanni Man Chai Smash DMG|{param1:F1P}",
+                        "Skill Healing|{param2:F1P} Max HP",
+                        "Wushou Stance Duration|{param3:F1}s",
+                        "CD|{param4:F1}s",
+                        "Energy Cost|{param5:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        3.9818,
+                        0.3,
+                        12,
+                        15,
+                        60,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "3": {
+                    "level": 3,
+                    "costItems": {
+                        "104311": 2,
+                        "112003": 3
+                    },
+                    "coinCost": 17500,
+                    "description": [
+                        "Suanni Man Chai Smash DMG|{param1:F1P}",
+                        "Skill Healing|{param2:F1P} Max HP",
+                        "Wushou Stance Duration|{param3:F1}s",
+                        "CD|{param4:F1}s",
+                        "Energy Cost|{param5:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        4.2596,
+                        0.3,
+                        12,
+                        15,
+                        60,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "4": {
+                    "level": 4,
+                    "costItems": {
+                        "104311": 4,
+                        "112003": 4
+                    },
+                    "coinCost": 25000,
+                    "description": [
+                        "Suanni Man Chai Smash DMG|{param1:F1P}",
+                        "Skill Healing|{param2:F1P} Max HP",
+                        "Wushou Stance Duration|{param3:F1}s",
+                        "CD|{param4:F1}s",
+                        "Energy Cost|{param5:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        4.63,
+                        0.3,
+                        12,
+                        15,
+                        60,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "5": {
+                    "level": 5,
+                    "costItems": {
+                        "104311": 6,
+                        "112003": 6
+                    },
+                    "coinCost": 30000,
+                    "description": [
+                        "Suanni Man Chai Smash DMG|{param1:F1P}",
+                        "Skill Healing|{param2:F1P} Max HP",
+                        "Wushou Stance Duration|{param3:F1}s",
+                        "CD|{param4:F1}s",
+                        "Energy Cost|{param5:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        4.9078,
+                        0.3,
+                        12,
+                        15,
+                        60,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "6": {
+                    "level": 6,
+                    "costItems": {
+                        "104311": 9,
+                        "112003": 9
+                    },
+                    "coinCost": 37500,
+                    "description": [
+                        "Suanni Man Chai Smash DMG|{param1:F1P}",
+                        "Skill Healing|{param2:F1P} Max HP",
+                        "Wushou Stance Duration|{param3:F1}s",
+                        "CD|{param4:F1}s",
+                        "Energy Cost|{param5:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        5.1856,
+                        0.3,
+                        12,
+                        15,
+                        60,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "7": {
+                    "level": 7,
+                    "costItems": {
+                        "104312": 4,
+                        "112004": 4,
+                        "113056": 1
+                    },
+                    "coinCost": 120000,
+                    "description": [
+                        "Suanni Man Chai Smash DMG|{param1:F1P}",
+                        "Skill Healing|{param2:F1P} Max HP",
+                        "Wushou Stance Duration|{param3:F1}s",
+                        "CD|{param4:F1}s",
+                        "Energy Cost|{param5:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        5.556,
+                        0.3,
+                        12,
+                        15,
+                        60,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "8": {
+                    "level": 8,
+                    "costItems": {
+                        "104312": 6,
+                        "112004": 6,
+                        "113056": 1
+                    },
+                    "coinCost": 260000,
+                    "description": [
+                        "Suanni Man Chai Smash DMG|{param1:F1P}",
+                        "Skill Healing|{param2:F1P} Max HP",
+                        "Wushou Stance Duration|{param3:F1}s",
+                        "CD|{param4:F1}s",
+                        "Energy Cost|{param5:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        5.9264,
+                        0.3,
+                        12,
+                        15,
+                        60,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "9": {
+                    "level": 9,
+                    "costItems": {
+                        "104312": 12,
+                        "112004": 9,
+                        "113056": 2
+                    },
+                    "coinCost": 450000,
+                    "description": [
+                        "Suanni Man Chai Smash DMG|{param1:F1P}",
+                        "Skill Healing|{param2:F1P} Max HP",
+                        "Wushou Stance Duration|{param3:F1}s",
+                        "CD|{param4:F1}s",
+                        "Energy Cost|{param5:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        6.2968,
+                        0.3,
+                        12,
+                        15,
+                        60,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "10": {
+                    "level": 10,
+                    "costItems": {
+                        "104312": 16,
+                        "104319": 1,
+                        "112004": 12,
+                        "113056": 2
+                    },
+                    "coinCost": 700000,
+                    "description": [
+                        "Suanni Man Chai Smash DMG|{param1:F1P}",
+                        "Skill Healing|{param2:F1P} Max HP",
+                        "Wushou Stance Duration|{param3:F1}s",
+                        "CD|{param4:F1}s",
+                        "Energy Cost|{param5:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        6.6672,
+                        0.3,
+                        12,
+                        15,
+                        60,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "11": {
+                    "level": 11,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Suanni Man Chai Smash DMG|{param1:F1P}",
+                        "Skill Healing|{param2:F1P} Max HP",
+                        "Wushou Stance Duration|{param3:F1}s",
+                        "CD|{param4:F1}s",
+                        "Energy Cost|{param5:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        7.0376,
+                        0.3,
+                        12,
+                        15,
+                        60,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "12": {
+                    "level": 12,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Suanni Man Chai Smash DMG|{param1:F1P}",
+                        "Skill Healing|{param2:F1P} Max HP",
+                        "Wushou Stance Duration|{param3:F1}s",
+                        "CD|{param4:F1}s",
+                        "Energy Cost|{param5:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        7.408,
+                        0.3,
+                        12,
+                        15,
+                        60,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "13": {
+                    "level": 13,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Suanni Man Chai Smash DMG|{param1:F1P}",
+                        "Skill Healing|{param2:F1P} Max HP",
+                        "Wushou Stance Duration|{param3:F1}s",
+                        "CD|{param4:F1}s",
+                        "Energy Cost|{param5:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        7.871,
+                        0.3,
+                        12,
+                        15,
+                        60,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "14": {
+                    "level": 14,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Suanni Man Chai Smash DMG|{param1:F1P}",
+                        "Skill Healing|{param2:F1P} Max HP",
+                        "Wushou Stance Duration|{param3:F1}s",
+                        "CD|{param4:F1}s",
+                        "Energy Cost|{param5:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        8.334,
+                        0.3,
+                        12,
+                        15,
+                        60,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "15": {
+                    "level": 15,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Suanni Man Chai Smash DMG|{param1:F1P}",
+                        "Skill Healing|{param2:F1P} Max HP",
+                        "Wushou Stance Duration|{param3:F1}s",
+                        "CD|{param4:F1}s",
+                        "Energy Cost|{param5:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        8.797,
+                        0.3,
+                        12,
+                        15,
+                        60,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            "cooldown": 15,
+            "cost": 60,
+            "linkedConstellations": {
+                "isLevelIncluded": true,
+                "prop": [
+                    {
+                        "id": 0,
+                        "type": "normal"
+                    },
+                    {
+                        "id": 4,
+                        "type": "level"
+                    }
+                ]
+            },
+            "advancedProps": [
+                {
+                    "name": "Suanni Man Chai Smash DMG",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": null,
+                            "text": "Elemental Burst"
+                        },
+                        "type": {
+                            "span": null,
+                            "text": "2.5s/3 Hits"
+                        }
+                    },
+                    "interruptionResistance": "200",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "0",
+                        "verticalForce": "600"
+                    },
+                    "bluntAttack": false
+                }
+            ]
+        },
+        "4": {
+            "type": 2,
+            "name": "Dance of Amity",
+            "description": "After <color=#FFD780FF>Bestial Ascent</color>'s Plunging Attack: Charmed Cloudstrider hits an opponent, Gaming will regain 1.5% of his Max HP once every 0.2s for 0.8s.",
+            "icon": "UI_Talent_S_Gaming_05",
+            "linkedConstellations": null
+        },
+        "5": {
+            "type": 2,
+            "name": "Air of Prosperity",
+            "description": "When Gaming has less than 50% HP, he will receive a 20% Incoming Healing Bonus. When Gaming has 50% HP or more, Plunging Attack: Charmed Cloudstrider will deal 20% more DMG.",
+            "icon": "UI_Talent_S_Gaming_06",
+            "linkedConstellations": null
+        },
+        "6": {
+            "type": 2,
+            "name": "The Striding Beast",
+            "description": "During the day (06:00 – 18:00), your party members gain the Swift Stride effect: Movement SPD increased by 10%.\\nDoes not take effect in Domains, Trounce Domains, or Spiral Abyss. Swift Stride does not stack.",
+            "icon": "UI_Talent_S_Dehya_07",
+            "linkedConstellations": null
+        }
+    },
+    "constellation": {
+        "0": {
+            "id": 0,
+            "name": "Bringer of Blessing",
+            "description": "When the Suanni Man Chai from <color=#FFD780FF>Suanni's Gilded Dance</color> meets back up with Gaming, it will heal 15% of Gaming's HP.",
+            "extraData": null,
+            "icon": "UI_Talent_S_Gaming_01"
+        },
+        "1": {
+            "id": 1,
+            "name": "Plum Blossoms Underfoot",
+            "description": "When Gaming receives healing and this instance of healing overflows, his ATK will be increased by 20% for 5s.",
+            "extraData": null,
+            "icon": "UI_Talent_S_Gaming_02"
+        },
+        "2": {
+            "id": 2,
+            "name": "Awakening Spirit",
+            "description": "Increases the Level of <color=#FFD780FF>Bestial Ascent</color> by 3.\\nMaximum upgrade level is 15.",
+            "extraData": {
+                "addTalentExtraLevel": {
+                    "talentType": "AvatarSkill",
+                    "talentIndex": 2,
+                    "extraLevel": 3
+                }
+            },
+            "icon": "UI_Talent_U_Gaming_01"
+        },
+        "3": {
+            "id": 3,
+            "name": "Soar Across Mountains",
+            "description": "When <color=#FFD780FF>Bestial Ascent</color>'s Plunging Attack: Charmed Cloudstrider hits an opponent, it will restore 2 Energy to Gaming. This effect can be triggered once every 0.2s.",
+            "extraData": null,
+            "icon": "UI_Talent_S_Gaming_03"
+        },
+        "4": {
+            "id": 4,
+            "name": "Evil-Daunting Roar",
+            "description": "Increases the Level of <color=#FFD780FF>Suanni's Gilded Dance</color> by 3.\\nMaximum upgrade level is 15.",
+            "extraData": {
+                "addTalentExtraLevel": {
+                    "talentType": "AvatarSkill",
+                    "talentIndex": 9,
+                    "extraLevel": 3
+                }
+            },
+            "icon": "UI_Talent_U_Gaming_02"
+        },
+        "5": {
+            "id": 5,
+            "name": "To Tame All Beasts",
+            "description": "<color=#FFD780FF>Bestial Ascent</color>'s Plunging Attack: Charmed Cloudstrider CRIT Rate increased by 20% and CRIT DMG increased by 40%, and its attack radius will be increased.",
+            "extraData": null,
+            "icon": "UI_Talent_S_Gaming_04"
+        }
+    },
+    "_id": 10000092
+}

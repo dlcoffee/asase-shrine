@@ -1,0 +1,2897 @@
+{
+    "id": "clorinde",
+    "rank": 5,
+    "name": "Clorinde",
+    "element": "Electric",
+    "weaponType": "WEAPON_SWORD_ONE_HAND",
+    "region": "FONTAINE",
+    "specialProp": "FIGHT_PROP_CRITICAL",
+    "bodyType": "LADY",
+    "icon": "UI_AvatarIcon_Clorinde",
+    "birthday": [
+        9,
+        20
+    ],
+    "release": 1717448400,
+    "route": "Clorinde",
+    "fetter": {
+        "title": "Candlebearer, Shadowhunter",
+        "detail": "An undefeated Champion Duelist. Sword in hand, she defends justice in the Court of Fontaine.",
+        "constellation": "Rapperia",
+        "native": "Trial Court",
+        "cv": {
+            "EN": "Crystal Lee",
+            "CHS": "赵涵雨",
+            "JP": "石川由依",
+            "KR": "Shin Na-ri"
+        }
+    },
+    "upgrade": {
+        "prop": [
+            {
+                "propType": "FIGHT_PROP_BASE_HP",
+                "initValue": 1008.61255,
+                "type": "GROW_CURVE_HP_S5"
+            },
+            {
+                "propType": "FIGHT_PROP_BASE_ATTACK",
+                "initValue": 26.2542,
+                "type": "GROW_CURVE_ATTACK_S5"
+            },
+            {
+                "propType": "FIGHT_PROP_BASE_DEFENSE",
+                "initValue": 61.0266,
+                "type": "GROW_CURVE_HP_S5"
+            }
+        ],
+        "promote": [
+            {
+                "unlockMaxLevel": 20,
+                "promoteLevel": 0
+            },
+            {
+                "promoteLevel": 1,
+                "costItems": {
+                    "101237": 3,
+                    "104141": 1,
+                    "112080": 3
+                },
+                "unlockMaxLevel": 40,
+                "addProps": {
+                    "FIGHT_PROP_BASE_HP": 864.79407,
+                    "FIGHT_PROP_BASE_DEFENSE": 52.326,
+                    "FIGHT_PROP_BASE_ATTACK": 22.50896,
+                    "FIGHT_PROP_CRITICAL": 0
+                },
+                "requiredPlayerLevel": 15,
+                "coinCost": 20000
+            },
+            {
+                "promoteLevel": 2,
+                "costItems": {
+                    "101237": 10,
+                    "104142": 3,
+                    "112080": 15,
+                    "113053": 2
+                },
+                "unlockMaxLevel": 50,
+                "addProps": {
+                    "FIGHT_PROP_BASE_HP": 1479.25305,
+                    "FIGHT_PROP_BASE_DEFENSE": 89.505,
+                    "FIGHT_PROP_BASE_ATTACK": 38.50217,
+                    "FIGHT_PROP_CRITICAL": 0.048
+                },
+                "requiredPlayerLevel": 25,
+                "coinCost": 40000
+            },
+            {
+                "promoteLevel": 3,
+                "costItems": {
+                    "101237": 20,
+                    "104142": 6,
+                    "112081": 12,
+                    "113053": 4
+                },
+                "unlockMaxLevel": 60,
+                "addProps": {
+                    "FIGHT_PROP_BASE_HP": 2298.53149,
+                    "FIGHT_PROP_BASE_DEFENSE": 139.077,
+                    "FIGHT_PROP_BASE_ATTACK": 59.82644,
+                    "FIGHT_PROP_CRITICAL": 0.096
+                },
+                "requiredPlayerLevel": 30,
+                "coinCost": 60000
+            },
+            {
+                "promoteLevel": 4,
+                "costItems": {
+                    "101237": 30,
+                    "104143": 3,
+                    "112081": 18,
+                    "113053": 8
+                },
+                "unlockMaxLevel": 70,
+                "addProps": {
+                    "FIGHT_PROP_BASE_HP": 2912.99048,
+                    "FIGHT_PROP_BASE_DEFENSE": 176.256,
+                    "FIGHT_PROP_BASE_ATTACK": 75.81965,
+                    "FIGHT_PROP_CRITICAL": 0.096
+                },
+                "requiredPlayerLevel": 35,
+                "coinCost": 80000
+            },
+            {
+                "promoteLevel": 5,
+                "costItems": {
+                    "101237": 45,
+                    "104143": 6,
+                    "112082": 12,
+                    "113053": 12
+                },
+                "unlockMaxLevel": 80,
+                "addProps": {
+                    "FIGHT_PROP_BASE_HP": 3527.44946,
+                    "FIGHT_PROP_BASE_DEFENSE": 213.435,
+                    "FIGHT_PROP_BASE_ATTACK": 91.81286,
+                    "FIGHT_PROP_CRITICAL": 0.144
+                },
+                "requiredPlayerLevel": 40,
+                "coinCost": 100000
+            },
+            {
+                "promoteLevel": 6,
+                "costItems": {
+                    "101237": 60,
+                    "104144": 6,
+                    "112082": 24,
+                    "113053": 20
+                },
+                "unlockMaxLevel": 90,
+                "addProps": {
+                    "FIGHT_PROP_BASE_HP": 4141.9082,
+                    "FIGHT_PROP_BASE_DEFENSE": 250.614,
+                    "FIGHT_PROP_BASE_ATTACK": 107.80606,
+                    "FIGHT_PROP_CRITICAL": 0.192
+                },
+                "requiredPlayerLevel": 50,
+                "coinCost": 120000
+            }
+        ]
+    },
+    "other": {
+        "costume": [
+            {
+                "name": "Sword of Honor",
+                "description": "Clorinde's outfit. Without the strength to enforce their authority, the dignity of the law and the order of justice start to seem fragile indeed. And Clorinde in her work uniform is the ultimate guarantor.",
+                "isDefault": true
+            }
+        ],
+        "furnitureId": 368184,
+        "nameCard": {
+            "id": 210200,
+            "name": "Clorinde: Roleplay",
+            "description": "Namecard style.\\nDedicated Game Masters at the Tabletop Troupe will sometimes switch hats to indicate their change in role. Hmm, in that case, does Clorinde—\\nForget about it! She doesn't even take that hat off when swimming.",
+            "icon": "UI_NameCardIcon_Clorinde"
+        },
+        "specialFood": {
+            "id": 108678,
+            "name": "\"Tagged and Bagged\"",
+            "rank": 2,
+            "effectIcon": "UI_Buff_Item_Other_SPAdd",
+            "icon": "UI_ItemIcon_108678"
+        }
+    },
+    "ascension": {
+        "101237": 1,
+        "104141": 2,
+        "104142": 3,
+        "104143": 4,
+        "104144": 5,
+        "104319": 5,
+        "104341": 2,
+        "104342": 3,
+        "104343": 4,
+        "112080": 1,
+        "112081": 2,
+        "112082": 3,
+        "113048": 5,
+        "113053": 4
+    },
+    "items": {
+        "202": {
+            "name": "Mora",
+            "rank": 3,
+            "icon": "UI_ItemIcon_202"
+        },
+        "101237": {
+            "name": "Lumitoile",
+            "rank": 1,
+            "icon": "UI_ItemIcon_101237"
+        },
+        "104001": {
+            "name": "Wanderer's Advice",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104001"
+        },
+        "104002": {
+            "name": "Adventurer's Experience",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104002"
+        },
+        "104003": {
+            "name": "Hero's Wit",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104003"
+        },
+        "104141": {
+            "name": "Vajrada Amethyst Sliver",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104141"
+        },
+        "104142": {
+            "name": "Vajrada Amethyst Fragment",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104142"
+        },
+        "104143": {
+            "name": "Vajrada Amethyst Chunk",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104143"
+        },
+        "104144": {
+            "name": "Vajrada Amethyst Gemstone",
+            "rank": 5,
+            "icon": "UI_ItemIcon_104144"
+        },
+        "104319": {
+            "name": "Crown of Insight",
+            "rank": 5,
+            "icon": "UI_ItemIcon_104319"
+        },
+        "104341": {
+            "name": "Teachings of Justice",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104341"
+        },
+        "104342": {
+            "name": "Guide to Justice",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104342"
+        },
+        "104343": {
+            "name": "Philosophies of Justice",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104343"
+        },
+        "112080": {
+            "name": "Transoceanic Pearl",
+            "rank": 1,
+            "icon": "UI_ItemIcon_112080"
+        },
+        "112081": {
+            "name": "Transoceanic Chunk",
+            "rank": 2,
+            "icon": "UI_ItemIcon_112081"
+        },
+        "112082": {
+            "name": "Xenochromatic Crystal",
+            "rank": 3,
+            "icon": "UI_ItemIcon_112082"
+        },
+        "113048": {
+            "name": "Everamber",
+            "rank": 5,
+            "icon": "UI_ItemIcon_113048"
+        },
+        "113053": {
+            "name": "Fontemer Unihorn",
+            "rank": 4,
+            "icon": "UI_ItemIcon_113053"
+        }
+    },
+    "talent": {
+        "0": {
+            "type": 0,
+            "name": "Normal Attack: Oath of Hunting Shadows",
+            "description": "<color=#FFD780FF>Normal Attack</color>\\nPerforms up to 5 rapid strikes.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nConsumes a certain amount of Stamina and fires Suppressing Shots in a fan pattern with her pistolet.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+            "icon": "Skill_A_01",
+            "promote": {
+                "1": {
+                    "level": 1,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}+{param4:F1P}",
+                        "4-Hit DMG|{param5:F1P}+{param6:F1P}+{param7:F1P}",
+                        "5-Hit DMG|{param10:F1P}",
+                        "Charged Attack DMG|{param11:F1P}",
+                        "Charged Attack Stamina Cost|{param12:F1}",
+                        "Plunge DMG|{param13:F1P}",
+                        "Low/High Plunge DMG|{param14:P}/{param15:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.5406,
+                        0.51628,
+                        0.34185,
+                        0.34185,
+                        0.23134,
+                        0.23134,
+                        0.23134,
+                        0,
+                        0,
+                        0.9001,
+                        1.2814,
+                        20,
+                        0.63932,
+                        1.27838,
+                        1.59676,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "2": {
+                    "level": 2,
+                    "costItems": {
+                        "104341": 3,
+                        "112080": 6
+                    },
+                    "coinCost": 12500,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}+{param4:F1P}",
+                        "4-Hit DMG|{param5:F1P}+{param6:F1P}+{param7:F1P}",
+                        "5-Hit DMG|{param10:F1P}",
+                        "Charged Attack DMG|{param11:F1P}",
+                        "Charged Attack Stamina Cost|{param12:F1}",
+                        "Plunge DMG|{param13:F1P}",
+                        "Low/High Plunge DMG|{param14:P}/{param15:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.5846,
+                        0.55831,
+                        0.36968,
+                        0.36968,
+                        0.25017,
+                        0.25017,
+                        0.25017,
+                        0,
+                        0,
+                        0.97337,
+                        1.3857,
+                        20,
+                        0.69136,
+                        1.38243,
+                        1.72673,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "3": {
+                    "level": 3,
+                    "costItems": {
+                        "104342": 2,
+                        "112081": 3
+                    },
+                    "coinCost": 17500,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}+{param4:F1P}",
+                        "4-Hit DMG|{param5:F1P}+{param6:F1P}+{param7:F1P}",
+                        "5-Hit DMG|{param10:F1P}",
+                        "Charged Attack DMG|{param11:F1P}",
+                        "Charged Attack Stamina Cost|{param12:F1}",
+                        "Plunge DMG|{param13:F1P}",
+                        "Low/High Plunge DMG|{param14:P}/{param15:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.6286,
+                        0.60033,
+                        0.3975,
+                        0.3975,
+                        0.269,
+                        0.269,
+                        0.269,
+                        0,
+                        0,
+                        1.04663,
+                        1.49,
+                        20,
+                        0.7434,
+                        1.48649,
+                        1.8567,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "4": {
+                    "level": 4,
+                    "costItems": {
+                        "104342": 4,
+                        "112081": 4
+                    },
+                    "coinCost": 25000,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}+{param4:F1P}",
+                        "4-Hit DMG|{param5:F1P}+{param6:F1P}+{param7:F1P}",
+                        "5-Hit DMG|{param10:F1P}",
+                        "Charged Attack DMG|{param11:F1P}",
+                        "Charged Attack Stamina Cost|{param12:F1}",
+                        "Plunge DMG|{param13:F1P}",
+                        "Low/High Plunge DMG|{param14:P}/{param15:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.69146,
+                        0.66036,
+                        0.43725,
+                        0.43725,
+                        0.2959,
+                        0.2959,
+                        0.2959,
+                        0,
+                        0,
+                        1.15129,
+                        1.639,
+                        20,
+                        0.81774,
+                        1.63513,
+                        2.04237,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "5": {
+                    "level": 5,
+                    "costItems": {
+                        "104342": 6,
+                        "112081": 6
+                    },
+                    "coinCost": 30000,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}+{param4:F1P}",
+                        "4-Hit DMG|{param5:F1P}+{param6:F1P}+{param7:F1P}",
+                        "5-Hit DMG|{param10:F1P}",
+                        "Charged Attack DMG|{param11:F1P}",
+                        "Charged Attack Stamina Cost|{param12:F1}",
+                        "Plunge DMG|{param13:F1P}",
+                        "Low/High Plunge DMG|{param14:P}/{param15:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.73546,
+                        0.70239,
+                        0.46507,
+                        0.46507,
+                        0.31473,
+                        0.31473,
+                        0.31473,
+                        0,
+                        0,
+                        1.22456,
+                        1.7433,
+                        20,
+                        0.86978,
+                        1.73919,
+                        2.17234,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "6": {
+                    "level": 6,
+                    "costItems": {
+                        "104342": 9,
+                        "112081": 9
+                    },
+                    "coinCost": 37500,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}+{param4:F1P}",
+                        "4-Hit DMG|{param5:F1P}+{param6:F1P}+{param7:F1P}",
+                        "5-Hit DMG|{param10:F1P}",
+                        "Charged Attack DMG|{param11:F1P}",
+                        "Charged Attack Stamina Cost|{param12:F1}",
+                        "Plunge DMG|{param13:F1P}",
+                        "Low/High Plunge DMG|{param14:P}/{param15:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.78575,
+                        0.75041,
+                        0.49687,
+                        0.49687,
+                        0.33625,
+                        0.33625,
+                        0.33625,
+                        0,
+                        0,
+                        1.30829,
+                        1.8625,
+                        20,
+                        0.92925,
+                        1.85811,
+                        2.32087,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "7": {
+                    "level": 7,
+                    "costItems": {
+                        "104343": 4,
+                        "112082": 4,
+                        "113048": 1
+                    },
+                    "coinCost": 120000,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}+{param4:F1P}",
+                        "4-Hit DMG|{param5:F1P}+{param6:F1P}+{param7:F1P}",
+                        "5-Hit DMG|{param10:F1P}",
+                        "Charged Attack DMG|{param11:F1P}",
+                        "Charged Attack Stamina Cost|{param12:F1}",
+                        "Plunge DMG|{param13:F1P}",
+                        "Low/High Plunge DMG|{param14:P}/{param15:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.8549,
+                        0.81645,
+                        0.5406,
+                        0.5406,
+                        0.36584,
+                        0.36584,
+                        0.36584,
+                        0,
+                        0,
+                        1.42342,
+                        2.0264,
+                        20,
+                        1.01102,
+                        2.02162,
+                        2.52511,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "8": {
+                    "level": 8,
+                    "costItems": {
+                        "104343": 6,
+                        "112082": 6,
+                        "113048": 1
+                    },
+                    "coinCost": 260000,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}+{param4:F1P}",
+                        "4-Hit DMG|{param5:F1P}+{param6:F1P}+{param7:F1P}",
+                        "5-Hit DMG|{param10:F1P}",
+                        "Charged Attack DMG|{param11:F1P}",
+                        "Charged Attack Stamina Cost|{param12:F1}",
+                        "Plunge DMG|{param13:F1P}",
+                        "Low/High Plunge DMG|{param14:P}/{param15:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.92404,
+                        0.88248,
+                        0.58433,
+                        0.58433,
+                        0.39543,
+                        0.39543,
+                        0.39543,
+                        0,
+                        0,
+                        1.53855,
+                        2.1903,
+                        20,
+                        1.0928,
+                        2.18513,
+                        2.72935,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "9": {
+                    "level": 9,
+                    "costItems": {
+                        "104343": 12,
+                        "112082": 9,
+                        "113048": 2
+                    },
+                    "coinCost": 450000,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}+{param4:F1P}",
+                        "4-Hit DMG|{param5:F1P}+{param6:F1P}+{param7:F1P}",
+                        "5-Hit DMG|{param10:F1P}",
+                        "Charged Attack DMG|{param11:F1P}",
+                        "Charged Attack Stamina Cost|{param12:F1}",
+                        "Plunge DMG|{param13:F1P}",
+                        "Low/High Plunge DMG|{param14:P}/{param15:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.99319,
+                        0.94852,
+                        0.62805,
+                        0.62805,
+                        0.42502,
+                        0.42502,
+                        0.42502,
+                        0,
+                        0,
+                        1.65367,
+                        2.3542,
+                        20,
+                        1.17457,
+                        2.34865,
+                        2.93359,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "10": {
+                    "level": 10,
+                    "costItems": {
+                        "104319": 1,
+                        "104343": 16,
+                        "112082": 12,
+                        "113048": 2
+                    },
+                    "coinCost": 700000,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}+{param4:F1P}",
+                        "4-Hit DMG|{param5:F1P}+{param6:F1P}+{param7:F1P}",
+                        "5-Hit DMG|{param10:F1P}",
+                        "Charged Attack DMG|{param11:F1P}",
+                        "Charged Attack Stamina Cost|{param12:F1}",
+                        "Plunge DMG|{param13:F1P}",
+                        "Low/High Plunge DMG|{param14:P}/{param15:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.06862,
+                        1.02056,
+                        0.67575,
+                        0.67575,
+                        0.4573,
+                        0.4573,
+                        0.4573,
+                        0,
+                        0,
+                        1.77927,
+                        2.533,
+                        20,
+                        1.26378,
+                        2.52702,
+                        3.15639,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "11": {
+                    "level": 11,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}+{param4:F1P}",
+                        "4-Hit DMG|{param5:F1P}+{param6:F1P}+{param7:F1P}",
+                        "5-Hit DMG|{param10:F1P}",
+                        "Charged Attack DMG|{param11:F1P}",
+                        "Charged Attack Stamina Cost|{param12:F1}",
+                        "Plunge DMG|{param13:F1P}",
+                        "Low/High Plunge DMG|{param14:P}/{param15:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.14405,
+                        1.0926,
+                        0.72345,
+                        0.72345,
+                        0.48958,
+                        0.48958,
+                        0.48958,
+                        0,
+                        0,
+                        1.90487,
+                        2.7118,
+                        20,
+                        1.35299,
+                        2.7054,
+                        3.37919,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "12": {
+                    "level": 12,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}+{param4:F1P}",
+                        "4-Hit DMG|{param5:F1P}+{param6:F1P}+{param7:F1P}",
+                        "5-Hit DMG|{param10:F1P}",
+                        "Charged Attack DMG|{param11:F1P}",
+                        "Charged Attack Stamina Cost|{param12:F1}",
+                        "Plunge DMG|{param13:F1P}",
+                        "Low/High Plunge DMG|{param14:P}/{param15:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.21948,
+                        1.16464,
+                        0.77115,
+                        0.77115,
+                        0.52186,
+                        0.52186,
+                        0.52186,
+                        0,
+                        0,
+                        2.03046,
+                        2.8906,
+                        20,
+                        1.4422,
+                        2.88378,
+                        3.602,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "13": {
+                    "level": 13,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}+{param4:F1P}",
+                        "4-Hit DMG|{param5:F1P}+{param6:F1P}+{param7:F1P}",
+                        "5-Hit DMG|{param10:F1P}",
+                        "Charged Attack DMG|{param11:F1P}",
+                        "Charged Attack Stamina Cost|{param12:F1}",
+                        "Plunge DMG|{param13:F1P}",
+                        "Low/High Plunge DMG|{param14:P}/{param15:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.29492,
+                        1.23668,
+                        0.81885,
+                        0.81885,
+                        0.55414,
+                        0.55414,
+                        0.55414,
+                        0,
+                        0,
+                        2.15606,
+                        3.0694,
+                        20,
+                        1.5314,
+                        3.06216,
+                        3.8248,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "14": {
+                    "level": 14,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}+{param4:F1P}",
+                        "4-Hit DMG|{param5:F1P}+{param6:F1P}+{param7:F1P}",
+                        "5-Hit DMG|{param10:F1P}",
+                        "Charged Attack DMG|{param11:F1P}",
+                        "Charged Attack Stamina Cost|{param12:F1}",
+                        "Plunge DMG|{param13:F1P}",
+                        "Low/High Plunge DMG|{param14:P}/{param15:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.37035,
+                        1.30872,
+                        0.86655,
+                        0.86655,
+                        0.58642,
+                        0.58642,
+                        0.58642,
+                        0,
+                        0,
+                        2.28165,
+                        3.2482,
+                        20,
+                        1.62061,
+                        3.24054,
+                        4.04761,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "15": {
+                    "level": 15,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}+{param4:F1P}",
+                        "4-Hit DMG|{param5:F1P}+{param6:F1P}+{param7:F1P}",
+                        "5-Hit DMG|{param10:F1P}",
+                        "Charged Attack DMG|{param11:F1P}",
+                        "Charged Attack Stamina Cost|{param12:F1}",
+                        "Plunge DMG|{param13:F1P}",
+                        "Low/High Plunge DMG|{param14:P}/{param15:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.44578,
+                        1.38076,
+                        0.91425,
+                        0.91425,
+                        0.6187,
+                        0.6187,
+                        0.6187,
+                        0,
+                        0,
+                        2.40725,
+                        3.427,
+                        20,
+                        1.70982,
+                        3.41892,
+                        4.27041,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            "cooldown": 0,
+            "cost": 0,
+            "linkedConstellations": null,
+            "advancedProps": [
+                {
+                    "name": "Normal Attack 1-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": "9",
+                            "text": "Normal Attack"
+                        },
+                        "type": {
+                            "span": "9",
+                            "text": "2.5s/3 Hits"
+                        }
+                    },
+                    "interruptionResistance": "56.6",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 2-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "54",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 3-Hit A",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "35.8",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "300",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 3-Hit B",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "35.8",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "300",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 4-Hit A",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "24.234",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 4-Hit B",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "24.234",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 4-Hit C",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "24.234",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 5-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "94.2",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "480",
+                        "verticalForce": "600"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Charged Attack",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "120",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "250",
+                        "verticalForce": "650"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Plunging Attack Collision",
+                    "elementalGaugeTheory": "0U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "25",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Low Plunge",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "100",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "800",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": true
+                },
+                {
+                    "name": "High Plunge",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "150",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "0",
+                        "verticalForce": "800"
+                    },
+                    "bluntAttack": true
+                }
+            ]
+        },
+        "1": {
+            "type": 0,
+            "name": "Hunter's Vigil",
+            "description": "Preparing her pistolet, she enters the \"Night Vigil\" state, using steel and shot together. In this state, Clorinde's Normal Attacks will be transformed into \"Swift Hunt\" pistolet attacks, and the DMG dealt is converted into <color=#FFACFFFF>Electro DMG</color> that cannot be overridden by infusions, and she will be unable to use Charged Attacks. Using her Elemental Skill will transform it into \"Impale the Night\": Perform a lunging attack, dealing <color=#FFACFFFF>Electro DMG</color>. The DMG done through the aforementioned method is considered Normal Attack DMG.\\n\\n<color=#FFD780FF>Swift Hunt</color>\\n· When her Bond of Life is equal to or greater than 100% of her max HP: Performs a pistolet shot.\\n· When her Bond of Life is less than 100%, firing her pistolet will grant her Bond of Life, with the amount gained based on her max HP. The shots she fires can pierce opponents, and DMG dealt to opponents in their path is increased.\\n\\n<color=#FFD780FF>Impale the Night</color>\\nThe current percentage value of Clorinde's Bond of Life determines its effect:\\n· When the Bond of Life value is 0%, perform a normal lunging strike;\\n· When the Bond of Life value is less than 100% of her max HP, Clorinde is healed based on the Bond of Life value, and the AoE of the lunging attack and the DMG dealt is increased;\\n· When the value of the Bond of Life is equal to or greater than 100% of her max HP, use Impale the Night: Pact. The healing multiplier is increased, and the AoE and DMG dealt by the lunge is increased even further.\\n\\nIn addition, when Clorinde is in the Night Vigil state, healing effects other than Impale the Night will not take effect and will instead be converted into a Bond of Life that is a percentage of the healing that would have been received.\\n\\nClorinde will exit the \"Night Vigil\" state when she leaves the field.\\n\\n<color=#FFD780FF>Arkhe: Ousia</color>\\nPeriodically, when Clorinde's Swift Hunt shots strike opponents, she will summon a Surging Blade at the position hit that deals Ousia-aligned <color=#FFACFFFF>Electro DMG</color>.\\n\\n<i>Though the evil that lurked in the shadows of the night had been purged across thousands of years, a shadow that the light could not reach clouded human hearts.\\nEven now, the warning left by the Golden Hunter is etched into her memory: Those of the Night Vigil, carrying aloft lit candles against the blackness, have greater need still to remain vigilant. Be not corrupted by the cold dark.</i>",
+            "icon": "Skill_S_Clorinde_01",
+            "promote": {
+                "1": {
+                    "level": 1,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Swift Hunt DMG|{param1:F1P}/{param2:F1P}",
+                        "Swift Hunt Bond of Life Gain|{param3:F1P} Max HP",
+                        "Impale the Night DMG|{param4:F1P}/{param5:F1P}/{param7:F1P}×3",
+                        "Impale the Night Healing|0%/{param6:F1P}/{param8:F1P} Bond of Life",
+                        "Bond of Life Conversion|{param9:P} Healing",
+                        "Surging Blade DMG|{param10:F1P}",
+                        "Surging Blade Interval|{param11:F1}s",
+                        "Night Vigil Duration|{param12:F1}s",
+                        "CD|{param13:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.26763,
+                        0.38786,
+                        0.35,
+                        0.32972,
+                        0.43963,
+                        1.04,
+                        0.25112,
+                        1.1,
+                        0.8,
+                        0.432,
+                        10,
+                        7.5,
+                        16,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "2": {
+                    "level": 2,
+                    "costItems": {
+                        "104341": 3,
+                        "112080": 6
+                    },
+                    "coinCost": 12500,
+                    "description": [
+                        "Swift Hunt DMG|{param1:F1P}/{param2:F1P}",
+                        "Swift Hunt Bond of Life Gain|{param3:F1P} Max HP",
+                        "Impale the Night DMG|{param4:F1P}/{param5:F1P}/{param7:F1P}×3",
+                        "Impale the Night Healing|0%/{param6:F1P}/{param8:F1P} Bond of Life",
+                        "Bond of Life Conversion|{param9:P} Healing",
+                        "Surging Blade DMG|{param10:F1P}",
+                        "Surging Blade Interval|{param11:F1}s",
+                        "Night Vigil Duration|{param12:F1}s",
+                        "CD|{param13:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.28942,
+                        0.41943,
+                        0.35,
+                        0.35656,
+                        0.47542,
+                        1.04,
+                        0.27156,
+                        1.1,
+                        0.8,
+                        0.4644,
+                        10,
+                        7.5,
+                        16,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "3": {
+                    "level": 3,
+                    "costItems": {
+                        "104342": 2,
+                        "112081": 3
+                    },
+                    "coinCost": 17500,
+                    "description": [
+                        "Swift Hunt DMG|{param1:F1P}/{param2:F1P}",
+                        "Swift Hunt Bond of Life Gain|{param3:F1P} Max HP",
+                        "Impale the Night DMG|{param4:F1P}/{param5:F1P}/{param7:F1P}×3",
+                        "Impale the Night Healing|0%/{param6:F1P}/{param8:F1P} Bond of Life",
+                        "Bond of Life Conversion|{param9:P} Healing",
+                        "Surging Blade DMG|{param10:F1P}",
+                        "Surging Blade Interval|{param11:F1}s",
+                        "Night Vigil Duration|{param12:F1}s",
+                        "CD|{param13:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.3112,
+                        0.451,
+                        0.35,
+                        0.3834,
+                        0.5112,
+                        1.04,
+                        0.292,
+                        1.1,
+                        0.8,
+                        0.4968,
+                        10,
+                        7.5,
+                        16,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "4": {
+                    "level": 4,
+                    "costItems": {
+                        "104342": 4,
+                        "112081": 4
+                    },
+                    "coinCost": 25000,
+                    "description": [
+                        "Swift Hunt DMG|{param1:F1P}/{param2:F1P}",
+                        "Swift Hunt Bond of Life Gain|{param3:F1P} Max HP",
+                        "Impale the Night DMG|{param4:F1P}/{param5:F1P}/{param7:F1P}×3",
+                        "Impale the Night Healing|0%/{param6:F1P}/{param8:F1P} Bond of Life",
+                        "Bond of Life Conversion|{param9:P} Healing",
+                        "Surging Blade DMG|{param10:F1P}",
+                        "Surging Blade Interval|{param11:F1}s",
+                        "Night Vigil Duration|{param12:F1}s",
+                        "CD|{param13:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.34232,
+                        0.4961,
+                        0.35,
+                        0.42174,
+                        0.56232,
+                        1.04,
+                        0.3212,
+                        1.1,
+                        0.8,
+                        0.54,
+                        10,
+                        7.5,
+                        16,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "5": {
+                    "level": 5,
+                    "costItems": {
+                        "104342": 6,
+                        "112081": 6
+                    },
+                    "coinCost": 30000,
+                    "description": [
+                        "Swift Hunt DMG|{param1:F1P}/{param2:F1P}",
+                        "Swift Hunt Bond of Life Gain|{param3:F1P} Max HP",
+                        "Impale the Night DMG|{param4:F1P}/{param5:F1P}/{param7:F1P}×3",
+                        "Impale the Night Healing|0%/{param6:F1P}/{param8:F1P} Bond of Life",
+                        "Bond of Life Conversion|{param9:P} Healing",
+                        "Surging Blade DMG|{param10:F1P}",
+                        "Surging Blade Interval|{param11:F1}s",
+                        "Night Vigil Duration|{param12:F1}s",
+                        "CD|{param13:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.3641,
+                        0.52767,
+                        0.35,
+                        0.44858,
+                        0.5981,
+                        1.04,
+                        0.34164,
+                        1.1,
+                        0.8,
+                        0.5724,
+                        10,
+                        7.5,
+                        16,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "6": {
+                    "level": 6,
+                    "costItems": {
+                        "104342": 9,
+                        "112081": 9
+                    },
+                    "coinCost": 37500,
+                    "description": [
+                        "Swift Hunt DMG|{param1:F1P}/{param2:F1P}",
+                        "Swift Hunt Bond of Life Gain|{param3:F1P} Max HP",
+                        "Impale the Night DMG|{param4:F1P}/{param5:F1P}/{param7:F1P}×3",
+                        "Impale the Night Healing|0%/{param6:F1P}/{param8:F1P} Bond of Life",
+                        "Bond of Life Conversion|{param9:P} Healing",
+                        "Surging Blade DMG|{param10:F1P}",
+                        "Surging Blade Interval|{param11:F1}s",
+                        "Night Vigil Duration|{param12:F1}s",
+                        "CD|{param13:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.389,
+                        0.56375,
+                        0.35,
+                        0.47925,
+                        0.639,
+                        1.04,
+                        0.365,
+                        1.1,
+                        0.8,
+                        0.6048,
+                        10,
+                        7.5,
+                        16,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "7": {
+                    "level": 7,
+                    "costItems": {
+                        "104343": 4,
+                        "112082": 4,
+                        "113048": 1
+                    },
+                    "coinCost": 120000,
+                    "description": [
+                        "Swift Hunt DMG|{param1:F1P}/{param2:F1P}",
+                        "Swift Hunt Bond of Life Gain|{param3:F1P} Max HP",
+                        "Impale the Night DMG|{param4:F1P}/{param5:F1P}/{param7:F1P}×3",
+                        "Impale the Night Healing|0%/{param6:F1P}/{param8:F1P} Bond of Life",
+                        "Bond of Life Conversion|{param9:P} Healing",
+                        "Surging Blade DMG|{param10:F1P}",
+                        "Surging Blade Interval|{param11:F1}s",
+                        "Night Vigil Duration|{param12:F1}s",
+                        "CD|{param13:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.42323,
+                        0.61336,
+                        0.35,
+                        0.52142,
+                        0.69523,
+                        1.04,
+                        0.39712,
+                        1.1,
+                        0.8,
+                        0.648,
+                        10,
+                        7.5,
+                        16,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "8": {
+                    "level": 8,
+                    "costItems": {
+                        "104343": 6,
+                        "112082": 6,
+                        "113048": 1
+                    },
+                    "coinCost": 260000,
+                    "description": [
+                        "Swift Hunt DMG|{param1:F1P}/{param2:F1P}",
+                        "Swift Hunt Bond of Life Gain|{param3:F1P} Max HP",
+                        "Impale the Night DMG|{param4:F1P}/{param5:F1P}/{param7:F1P}×3",
+                        "Impale the Night Healing|0%/{param6:F1P}/{param8:F1P} Bond of Life",
+                        "Bond of Life Conversion|{param9:P} Healing",
+                        "Surging Blade DMG|{param10:F1P}",
+                        "Surging Blade Interval|{param11:F1}s",
+                        "Night Vigil Duration|{param12:F1}s",
+                        "CD|{param13:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.45746,
+                        0.66297,
+                        0.35,
+                        0.5636,
+                        0.75146,
+                        1.04,
+                        0.42924,
+                        1.1,
+                        0.8,
+                        0.6912,
+                        10,
+                        7.5,
+                        16,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "9": {
+                    "level": 9,
+                    "costItems": {
+                        "104343": 12,
+                        "112082": 9,
+                        "113048": 2
+                    },
+                    "coinCost": 450000,
+                    "description": [
+                        "Swift Hunt DMG|{param1:F1P}/{param2:F1P}",
+                        "Swift Hunt Bond of Life Gain|{param3:F1P} Max HP",
+                        "Impale the Night DMG|{param4:F1P}/{param5:F1P}/{param7:F1P}×3",
+                        "Impale the Night Healing|0%/{param6:F1P}/{param8:F1P} Bond of Life",
+                        "Bond of Life Conversion|{param9:P} Healing",
+                        "Surging Blade DMG|{param10:F1P}",
+                        "Surging Blade Interval|{param11:F1}s",
+                        "Night Vigil Duration|{param12:F1}s",
+                        "CD|{param13:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.4917,
+                        0.71258,
+                        0.35,
+                        0.60577,
+                        0.8077,
+                        1.04,
+                        0.46136,
+                        1.1,
+                        0.8,
+                        0.7344,
+                        10,
+                        7.5,
+                        16,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "10": {
+                    "level": 10,
+                    "costItems": {
+                        "104319": 1,
+                        "104343": 16,
+                        "112082": 12,
+                        "113048": 2
+                    },
+                    "coinCost": 700000,
+                    "description": [
+                        "Swift Hunt DMG|{param1:F1P}/{param2:F1P}",
+                        "Swift Hunt Bond of Life Gain|{param3:F1P} Max HP",
+                        "Impale the Night DMG|{param4:F1P}/{param5:F1P}/{param7:F1P}×3",
+                        "Impale the Night Healing|0%/{param6:F1P}/{param8:F1P} Bond of Life",
+                        "Bond of Life Conversion|{param9:P} Healing",
+                        "Surging Blade DMG|{param10:F1P}",
+                        "Surging Blade Interval|{param11:F1}s",
+                        "Night Vigil Duration|{param12:F1}s",
+                        "CD|{param13:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.52904,
+                        0.7667,
+                        0.35,
+                        0.65178,
+                        0.86904,
+                        1.04,
+                        0.4964,
+                        1.1,
+                        0.8,
+                        0.7776,
+                        10,
+                        7.5,
+                        16,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "11": {
+                    "level": 11,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Swift Hunt DMG|{param1:F1P}/{param2:F1P}",
+                        "Swift Hunt Bond of Life Gain|{param3:F1P} Max HP",
+                        "Impale the Night DMG|{param4:F1P}/{param5:F1P}/{param7:F1P}×3",
+                        "Impale the Night Healing|0%/{param6:F1P}/{param8:F1P} Bond of Life",
+                        "Bond of Life Conversion|{param9:P} Healing",
+                        "Surging Blade DMG|{param10:F1P}",
+                        "Surging Blade Interval|{param11:F1}s",
+                        "Night Vigil Duration|{param12:F1}s",
+                        "CD|{param13:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.56638,
+                        0.82082,
+                        0.35,
+                        0.69779,
+                        0.93038,
+                        1.04,
+                        0.53144,
+                        1.1,
+                        0.8,
+                        0.8208,
+                        10,
+                        7.5,
+                        16,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "12": {
+                    "level": 12,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Swift Hunt DMG|{param1:F1P}/{param2:F1P}",
+                        "Swift Hunt Bond of Life Gain|{param3:F1P} Max HP",
+                        "Impale the Night DMG|{param4:F1P}/{param5:F1P}/{param7:F1P}×3",
+                        "Impale the Night Healing|0%/{param6:F1P}/{param8:F1P} Bond of Life",
+                        "Bond of Life Conversion|{param9:P} Healing",
+                        "Surging Blade DMG|{param10:F1P}",
+                        "Surging Blade Interval|{param11:F1}s",
+                        "Night Vigil Duration|{param12:F1}s",
+                        "CD|{param13:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.60373,
+                        0.87494,
+                        0.35,
+                        0.7438,
+                        0.99173,
+                        1.04,
+                        0.56648,
+                        1.1,
+                        0.8,
+                        0.864,
+                        10,
+                        7.5,
+                        16,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "13": {
+                    "level": 13,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Swift Hunt DMG|{param1:F1P}/{param2:F1P}",
+                        "Swift Hunt Bond of Life Gain|{param3:F1P} Max HP",
+                        "Impale the Night DMG|{param4:F1P}/{param5:F1P}/{param7:F1P}×3",
+                        "Impale the Night Healing|0%/{param6:F1P}/{param8:F1P} Bond of Life",
+                        "Bond of Life Conversion|{param9:P} Healing",
+                        "Surging Blade DMG|{param10:F1P}",
+                        "Surging Blade Interval|{param11:F1}s",
+                        "Night Vigil Duration|{param12:F1}s",
+                        "CD|{param13:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.64107,
+                        0.92906,
+                        0.35,
+                        0.7898,
+                        1.05307,
+                        1.04,
+                        0.60152,
+                        1.1,
+                        0.8,
+                        0.918,
+                        10,
+                        7.5,
+                        16,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "14": {
+                    "level": 14,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Swift Hunt DMG|{param1:F1P}/{param2:F1P}",
+                        "Swift Hunt Bond of Life Gain|{param3:F1P} Max HP",
+                        "Impale the Night DMG|{param4:F1P}/{param5:F1P}/{param7:F1P}×3",
+                        "Impale the Night Healing|0%/{param6:F1P}/{param8:F1P} Bond of Life",
+                        "Bond of Life Conversion|{param9:P} Healing",
+                        "Surging Blade DMG|{param10:F1P}",
+                        "Surging Blade Interval|{param11:F1}s",
+                        "Night Vigil Duration|{param12:F1}s",
+                        "CD|{param13:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.67842,
+                        0.98318,
+                        0.35,
+                        0.83581,
+                        1.11442,
+                        1.04,
+                        0.63656,
+                        1.1,
+                        0.8,
+                        0.972,
+                        10,
+                        7.5,
+                        16,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "15": {
+                    "level": 15,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Swift Hunt DMG|{param1:F1P}/{param2:F1P}",
+                        "Swift Hunt Bond of Life Gain|{param3:F1P} Max HP",
+                        "Impale the Night DMG|{param4:F1P}/{param5:F1P}/{param7:F1P}×3",
+                        "Impale the Night Healing|0%/{param6:F1P}/{param8:F1P} Bond of Life",
+                        "Bond of Life Conversion|{param9:P} Healing",
+                        "Surging Blade DMG|{param10:F1P}",
+                        "Surging Blade Interval|{param11:F1}s",
+                        "Night Vigil Duration|{param12:F1}s",
+                        "CD|{param13:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.71576,
+                        1.0373,
+                        0.35,
+                        0.88182,
+                        1.17576,
+                        1.04,
+                        0.6716,
+                        1.1,
+                        0.8,
+                        1.026,
+                        10,
+                        7.5,
+                        16,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            "cooldown": 16,
+            "cost": 0,
+            "linkedConstellations": {
+                "isLevelIncluded": true,
+                "prop": [
+                    {
+                        "id": 0,
+                        "type": "normal"
+                    },
+                    {
+                        "id": 2,
+                        "type": "level"
+                    },
+                    {
+                        "id": 5,
+                        "type": "normal"
+                    }
+                ]
+            },
+            "advancedProps": [
+                {
+                    "name": "Swift Hunt Lv. 1",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": "7",
+                            "text": "Normal Attack"
+                        },
+                        "type": {
+                            "span": "7",
+                            "text": "2.5s/3 Hits"
+                        }
+                    },
+                    "interruptionResistance": "25",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Swift Hunt Lv. 2",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "35",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Impale the Night Lv. 1",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "25",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Impale the Night Lv. 2",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "25",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "300",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Impale the Night Lv. 3 A",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "25",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Impale the Night Lv. 3 B",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "25",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Impale the Night Lv. 3 C",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "25",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "300",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Surging Blade DMG",
+                    "elementalGaugeTheory": "0U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "20",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                }
+            ]
+        },
+        "3": {
+            "type": 1,
+            "name": "Last Lightfall",
+            "description": "Grants herself a Bond of Life based upon her own max HP before swiftly evading and striking with saber and sidearm as one, dealing <color=#FFACFFFF>AoE Electro DMG</color>.\\n\\n<i>It is said the legacy of the ancient art of resisting non-human beings with but a mortal body can be traced back to the Lochknights who resisted the Remurian Empire.\\nBe that as it may, so long as one can find a way to control the level of force used, it's not as if it cannot be used in duels against ordinary opponents.</i>",
+            "icon": "Skill_E_Clorinde_01",
+            "promote": {
+                "1": {
+                    "level": 1,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Skill DMG|{param1:F1P}×5",
+                        "Bond of Life Gain|{param2:F1P} Max HP",
+                        "CD|{param3:F1}s",
+                        "Energy Cost|{param4:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.2688,
+                        0.66,
+                        15,
+                        60,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "2": {
+                    "level": 2,
+                    "costItems": {
+                        "104341": 3,
+                        "112080": 6
+                    },
+                    "coinCost": 12500,
+                    "description": [
+                        "Skill DMG|{param1:F1P}×5",
+                        "Bond of Life Gain|{param2:F1P} Max HP",
+                        "CD|{param3:F1}s",
+                        "Energy Cost|{param4:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.36396,
+                        0.72,
+                        15,
+                        60,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "3": {
+                    "level": 3,
+                    "costItems": {
+                        "104342": 2,
+                        "112081": 3
+                    },
+                    "coinCost": 17500,
+                    "description": [
+                        "Skill DMG|{param1:F1P}×5",
+                        "Bond of Life Gain|{param2:F1P} Max HP",
+                        "CD|{param3:F1}s",
+                        "Energy Cost|{param4:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.45912,
+                        0.78,
+                        15,
+                        60,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "4": {
+                    "level": 4,
+                    "costItems": {
+                        "104342": 4,
+                        "112081": 4
+                    },
+                    "coinCost": 25000,
+                    "description": [
+                        "Skill DMG|{param1:F1P}×5",
+                        "Bond of Life Gain|{param2:F1P} Max HP",
+                        "CD|{param3:F1}s",
+                        "Energy Cost|{param4:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.586,
+                        0.84,
+                        15,
+                        60,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "5": {
+                    "level": 5,
+                    "costItems": {
+                        "104342": 6,
+                        "112081": 6
+                    },
+                    "coinCost": 30000,
+                    "description": [
+                        "Skill DMG|{param1:F1P}×5",
+                        "Bond of Life Gain|{param2:F1P} Max HP",
+                        "CD|{param3:F1}s",
+                        "Energy Cost|{param4:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.68116,
+                        0.9,
+                        15,
+                        60,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "6": {
+                    "level": 6,
+                    "costItems": {
+                        "104342": 9,
+                        "112081": 9
+                    },
+                    "coinCost": 37500,
+                    "description": [
+                        "Skill DMG|{param1:F1P}×5",
+                        "Bond of Life Gain|{param2:F1P} Max HP",
+                        "CD|{param3:F1}s",
+                        "Energy Cost|{param4:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.77632,
+                        0.96,
+                        15,
+                        60,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "7": {
+                    "level": 7,
+                    "costItems": {
+                        "104343": 4,
+                        "112082": 4,
+                        "113048": 1
+                    },
+                    "coinCost": 120000,
+                    "description": [
+                        "Skill DMG|{param1:F1P}×5",
+                        "Bond of Life Gain|{param2:F1P} Max HP",
+                        "CD|{param3:F1}s",
+                        "Energy Cost|{param4:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.9032,
+                        1.02,
+                        15,
+                        60,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "8": {
+                    "level": 8,
+                    "costItems": {
+                        "104343": 6,
+                        "112082": 6,
+                        "113048": 1
+                    },
+                    "coinCost": 260000,
+                    "description": [
+                        "Skill DMG|{param1:F1P}×5",
+                        "Bond of Life Gain|{param2:F1P} Max HP",
+                        "CD|{param3:F1}s",
+                        "Energy Cost|{param4:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        2.03008,
+                        1.08,
+                        15,
+                        60,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "9": {
+                    "level": 9,
+                    "costItems": {
+                        "104343": 12,
+                        "112082": 9,
+                        "113048": 2
+                    },
+                    "coinCost": 450000,
+                    "description": [
+                        "Skill DMG|{param1:F1P}×5",
+                        "Bond of Life Gain|{param2:F1P} Max HP",
+                        "CD|{param3:F1}s",
+                        "Energy Cost|{param4:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        2.15696,
+                        1.14,
+                        15,
+                        60,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "10": {
+                    "level": 10,
+                    "costItems": {
+                        "104319": 1,
+                        "104343": 16,
+                        "112082": 12,
+                        "113048": 2
+                    },
+                    "coinCost": 700000,
+                    "description": [
+                        "Skill DMG|{param1:F1P}×5",
+                        "Bond of Life Gain|{param2:F1P} Max HP",
+                        "CD|{param3:F1}s",
+                        "Energy Cost|{param4:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        2.28384,
+                        1.2,
+                        15,
+                        60,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "11": {
+                    "level": 11,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Skill DMG|{param1:F1P}×5",
+                        "Bond of Life Gain|{param2:F1P} Max HP",
+                        "CD|{param3:F1}s",
+                        "Energy Cost|{param4:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        2.41072,
+                        1.26,
+                        15,
+                        60,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "12": {
+                    "level": 12,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Skill DMG|{param1:F1P}×5",
+                        "Bond of Life Gain|{param2:F1P} Max HP",
+                        "CD|{param3:F1}s",
+                        "Energy Cost|{param4:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        2.5376,
+                        1.32,
+                        15,
+                        60,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "13": {
+                    "level": 13,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Skill DMG|{param1:F1P}×5",
+                        "Bond of Life Gain|{param2:F1P} Max HP",
+                        "CD|{param3:F1}s",
+                        "Energy Cost|{param4:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        2.6962,
+                        1.38,
+                        15,
+                        60,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "14": {
+                    "level": 14,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Skill DMG|{param1:F1P}×5",
+                        "Bond of Life Gain|{param2:F1P} Max HP",
+                        "CD|{param3:F1}s",
+                        "Energy Cost|{param4:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        2.8548,
+                        1.44,
+                        15,
+                        60,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "15": {
+                    "level": 15,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Skill DMG|{param1:F1P}×5",
+                        "Bond of Life Gain|{param2:F1P} Max HP",
+                        "CD|{param3:F1}s",
+                        "Energy Cost|{param4:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        3.0134,
+                        1.5,
+                        15,
+                        60,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            "cooldown": 15,
+            "cost": 60,
+            "linkedConstellations": {
+                "isLevelIncluded": true,
+                "prop": [
+                    {
+                        "id": 1,
+                        "type": "normal"
+                    },
+                    {
+                        "id": 3,
+                        "type": "normal"
+                    },
+                    {
+                        "id": 4,
+                        "type": "level"
+                    }
+                ]
+            },
+            "advancedProps": [
+                {
+                    "name": "Skill DMG",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": null,
+                            "text": "Elemental Burst"
+                        },
+                        "type": {
+                            "span": null,
+                            "text": "2.5s/3 Hits"
+                        }
+                    },
+                    "interruptionResistance": "50",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                }
+            ]
+        },
+        "4": {
+            "type": 2,
+            "name": "Dark-Shattering Flame",
+            "description": "After a nearby party member triggers an <color=#FFACFFFF>Electro-related reaction</color> against an opponent, <color=#FFACFFFF>Electro DMG</color> dealt by Clorinde's Normal Attacks and <color=#FFD780FF>Last Lightfall</color> will be increased by 20% of Clorinde's ATK for 15s. Max 3 stacks. Each stack is counted independently. The Maximum DMG increase achievable this way for the above attacks is 1,800.",
+            "icon": "UI_Talent_S_Clorinde_05",
+            "linkedConstellations": {
+                "isLevelIncluded": false,
+                "prop": [
+                    {
+                        "id": 1,
+                        "type": "normal"
+                    }
+                ]
+            }
+        },
+        "5": {
+            "type": 2,
+            "name": "Lawful Remuneration",
+            "description": "If Clorinde's Bond of Life is equal to or greater than 100% of her Max HP, her CRIT Rate will increase by 10% for 15s whenever her Bond of Life value increases or decreases. Max 2 stacks. Each stack is counted independently.\\nAdditionally, <color=#FFD780FF>Hunter's Vigil</color>'s Night Vigil state is buffed: While it is active, the percent of healing converted to Bond of Life increases to 100%.",
+            "icon": "UI_Talent_S_Clorinde_06",
+            "linkedConstellations": null
+        },
+        "6": {
+            "type": 2,
+            "name": "Night Vigil's Harvest",
+            "description": "Displays the location of nearby <color=#FFD780FF>resources unique to Fontaine</color> on the mini-map.",
+            "icon": "UI_Talent_S_Liney_07",
+            "linkedConstellations": null
+        }
+    },
+    "constellation": {
+        "0": {
+            "id": 0,
+            "name": "\"From This Day, I Pass the Candle's Shadow-Veil\"",
+            "description": "While <color=#FFD780FF>Hunter's Vigil</color>'s Night Vigil state is active, when <color=#FFACFFFF>Electro DMG</color> from Clorinde's Normal Attacks hit opponents, they will trigger 2 coordinated attacks from a Nightvigil Shade summoned near the hit opponent, each dealing 30% of Clorinde's ATK as <color=#FFACFFFF>Electro DMG</color>.\\nThis effect can occur once every 1.2s. DMG dealt this way is considered Normal Attack DMG.",
+            "extraData": null,
+            "icon": "UI_Talent_S_Clorinde_01",
+            "advancedProps": [
+                {
+                    "name": "Coordinated Attack",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": null,
+                            "text": "C1/C6"
+                        },
+                        "type": {
+                            "span": null,
+                            "text": "1s"
+                        }
+                    },
+                    "interruptionResistance": "25",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                }
+            ]
+        },
+        "1": {
+            "id": 1,
+            "name": "\"Now, As We Face the Perils of the Long Night\"",
+            "description": "Enhance the Passive Talent \"Dark-Shattering Flame\": After a nearby party member triggers an <color=#FFACFFFF>Electro-related reaction</color> against an opponent, <color=#FFACFFFF>Electro DMG</color> dealt by Clorinde's Normal Attacks and <color=#FFD780FF>Last Lightfall</color> will be increased by 30% of Clorinde's ATK for 15s. Max 3 stacks. Each stack is counted independently. When you have 3 stacks, Clorinde's interruption resistance will be increased. The Maximum DMG increase achievable this way for the above attacks is 2,700.\\nYou must first unlock the Passive Talent \"Dark-Shattering Flame.\"",
+            "extraData": null,
+            "icon": "UI_Talent_S_Clorinde_02"
+        },
+        "2": {
+            "id": 2,
+            "name": "\"I Pledge to Remember the Oath of Daylight\"",
+            "description": "Increases the Level of <color=#FFD780FF>Hunter's Vigil</color> by 3.\\nMaximum upgrade level is 15.",
+            "extraData": {
+                "addTalentExtraLevel": {
+                    "talentType": "AvatarSkill",
+                    "talentIndex": 2,
+                    "extraLevel": 3
+                }
+            },
+            "icon": "UI_Talent_U_Clorinde_02"
+        },
+        "3": {
+            "id": 3,
+            "name": "\"To Enshrine Tears, Life, and Love\"",
+            "description": "When <color=#FFD780FF>Last Lightfall</color> deals DMG to opponent(s), DMG dealt is increased based on Clorinde's Bond of Life percentage. Every 1% of her current Bond of Life will increase <color=#FFD780FF>Last Lightfall</color> DMG by 2%. The maximum <color=#FFD780FF>Last Lightfall</color> DMG increase achievable this way is 200%.",
+            "extraData": null,
+            "icon": "UI_Talent_S_Clorinde_03"
+        },
+        "4": {
+            "id": 4,
+            "name": "\"Holding Dawn's Coming as My Votive\"",
+            "description": "Increases the Level of <color=#FFD780FF>Last Lightfall</color> by 3.\\nMaximum upgrade level is 15.",
+            "extraData": {
+                "addTalentExtraLevel": {
+                    "talentType": "AvatarSkill",
+                    "talentIndex": 9,
+                    "extraLevel": 3
+                }
+            },
+            "icon": "UI_Talent_U_Clorinde_01"
+        },
+        "5": {
+            "id": 5,
+            "name": "\"And So Shall I Never Despair\"",
+            "description": "For 12s after <color=#FFD780FF>Hunter's Vigil</color> is used, Clorinde's CRIT Rate will be increased by 10%, and her CRIT DMG by 70%.\\nAdditionally, while Night Vigil is active, a Glimbright Shade will appear under specific circumstances, executing an attack that deals 200% of Clorinde's ATK as <color=#FFACFFFF>Electro DMG</color>. DMG dealt this way is considered Normal Attack DMG.\\nThe Glimbright Shade will appear under the following circumstances:\\n· When Clorinde is about to be hit by an attack.\\n· When Clorinde uses Impale the Night: Pact.\\n1 Glimbright Shade can be summoned in the aforementioned ways every 1s. 6 Shades can be summoned per single Night Vigil duration.\\nIn addition, while Night Vigil is active, the DMG Clorinde receives is decreased by 80% and her interruption resistance is increased. This effect will disappear after the Night Vigil state ends or 1s after she summons 6 Glimbright Shades.",
+            "extraData": null,
+            "icon": "UI_Talent_S_Clorinde_04",
+            "advancedProps": [
+                {
+                    "name": "Glimbright Shade",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": null,
+                            "text": "C1/C6"
+                        },
+                        "type": {
+                            "span": null,
+                            "text": "1s"
+                        }
+                    },
+                    "interruptionResistance": "75",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                }
+            ]
+        }
+    },
+    "_id": 10000098
+}

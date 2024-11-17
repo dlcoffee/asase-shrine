@@ -1,0 +1,2748 @@
+{
+    "id": "kachina",
+    "rank": 4,
+    "name": "Kachina",
+    "element": "Rock",
+    "weaponType": "WEAPON_POLE",
+    "region": "NATLAN",
+    "specialProp": "FIGHT_PROP_ROCK_ADD_HURT",
+    "bodyType": "LOLI",
+    "icon": "UI_AvatarIcon_Kachina",
+    "birthday": [
+        4,
+        22
+    ],
+    "release": 1724706000,
+    "route": "Kachina",
+    "fetter": {
+        "title": "Mottled Gold Yet Unsmelted",
+        "detail": "A young warrior of the Nanatzcayan, given the Ancient Name of \"Uthabiti.\" Kind-hearted and insatiably persistent, she grows stronger and more capable with each setback she faces.",
+        "constellation": "Ochotona Princeps",
+        "native": "Nanatzcayan",
+        "cv": {
+            "EN": "Kristen McGuire",
+            "CHS": "静宸",
+            "JP": "久保ユリカ",
+            "KR": "Son Sun-young"
+        }
+    },
+    "upgrade": {
+        "prop": [
+            {
+                "propType": "FIGHT_PROP_BASE_HP",
+                "initValue": 989.29321,
+                "type": "GROW_CURVE_HP_S4"
+            },
+            {
+                "propType": "FIGHT_PROP_BASE_ATTACK",
+                "initValue": 18.16416,
+                "type": "GROW_CURVE_ATTACK_S4"
+            },
+            {
+                "propType": "FIGHT_PROP_BASE_DEFENSE",
+                "initValue": 66.43822,
+                "type": "GROW_CURVE_HP_S4"
+            }
+        ],
+        "promote": [
+            {
+                "unlockMaxLevel": 20,
+                "promoteLevel": 0
+            },
+            {
+                "promoteLevel": 1,
+                "costItems": {
+                    "101249": 3,
+                    "104171": 1,
+                    "112104": 3
+                },
+                "unlockMaxLevel": 40,
+                "addProps": {
+                    "FIGHT_PROP_BASE_HP": 739.05267,
+                    "FIGHT_PROP_BASE_DEFENSE": 49.63275,
+                    "FIGHT_PROP_BASE_ATTACK": 13.56988,
+                    "FIGHT_PROP_ROCK_ADD_HURT": 0
+                },
+                "requiredPlayerLevel": 15,
+                "coinCost": 20000
+            },
+            {
+                "promoteLevel": 2,
+                "costItems": {
+                    "101249": 10,
+                    "104172": 3,
+                    "112104": 15,
+                    "113065": 2
+                },
+                "unlockMaxLevel": 50,
+                "addProps": {
+                    "FIGHT_PROP_BASE_HP": 1264.16907,
+                    "FIGHT_PROP_BASE_DEFENSE": 84.89812,
+                    "FIGHT_PROP_BASE_ATTACK": 23.21163,
+                    "FIGHT_PROP_ROCK_ADD_HURT": 0.06
+                },
+                "requiredPlayerLevel": 25,
+                "coinCost": 40000
+            },
+            {
+                "promoteLevel": 3,
+                "costItems": {
+                    "101249": 20,
+                    "104172": 6,
+                    "112105": 12,
+                    "113065": 4
+                },
+                "unlockMaxLevel": 60,
+                "addProps": {
+                    "FIGHT_PROP_BASE_HP": 1964.32422,
+                    "FIGHT_PROP_BASE_DEFENSE": 131.91862,
+                    "FIGHT_PROP_BASE_ATTACK": 36.0673,
+                    "FIGHT_PROP_ROCK_ADD_HURT": 0.12
+                },
+                "requiredPlayerLevel": 30,
+                "coinCost": 60000
+            },
+            {
+                "promoteLevel": 4,
+                "costItems": {
+                    "101249": 30,
+                    "104173": 3,
+                    "112105": 18,
+                    "113065": 8
+                },
+                "unlockMaxLevel": 70,
+                "addProps": {
+                    "FIGHT_PROP_BASE_HP": 2489.44067,
+                    "FIGHT_PROP_BASE_DEFENSE": 167.18401,
+                    "FIGHT_PROP_BASE_ATTACK": 45.70906,
+                    "FIGHT_PROP_ROCK_ADD_HURT": 0.12
+                },
+                "requiredPlayerLevel": 35,
+                "coinCost": 80000
+            },
+            {
+                "promoteLevel": 5,
+                "costItems": {
+                    "101249": 45,
+                    "104173": 6,
+                    "112106": 12,
+                    "113065": 12
+                },
+                "unlockMaxLevel": 80,
+                "addProps": {
+                    "FIGHT_PROP_BASE_HP": 3014.55713,
+                    "FIGHT_PROP_BASE_DEFENSE": 202.44937,
+                    "FIGHT_PROP_BASE_ATTACK": 55.35081,
+                    "FIGHT_PROP_ROCK_ADD_HURT": 0.18
+                },
+                "requiredPlayerLevel": 40,
+                "coinCost": 100000
+            },
+            {
+                "promoteLevel": 6,
+                "costItems": {
+                    "101249": 60,
+                    "104174": 6,
+                    "112106": 24,
+                    "113065": 20
+                },
+                "unlockMaxLevel": 90,
+                "addProps": {
+                    "FIGHT_PROP_BASE_HP": 3539.67334,
+                    "FIGHT_PROP_BASE_DEFENSE": 237.71475,
+                    "FIGHT_PROP_BASE_ATTACK": 64.99256,
+                    "FIGHT_PROP_ROCK_ADD_HURT": 0.24
+                },
+                "requiredPlayerLevel": 50,
+                "coinCost": 120000
+            }
+        ]
+    },
+    "other": {
+        "costume": [
+            {
+                "name": "Tawny Peaks, Spired Rock",
+                "description": "Kachina's outfit. Sturdy gloves, check, wear-resistant boots, check — \"Uthabiti\" Kachina is ready to face the challenges ahead!",
+                "isDefault": true
+            }
+        ],
+        "furnitureId": 368186,
+        "nameCard": {
+            "id": 210210,
+            "name": "Kachina: Twirly",
+            "description": "Namecard style.\\nThe upper half of the Turbo Twirly is very stable, but if the lower half gets stuck, there's a high chance you'll end up with one very dizzy rider.",
+            "icon": "UI_NameCardIcon_Kachina"
+        },
+        "specialFood": {
+            "id": 108747,
+            "name": "Impeccably Organized",
+            "rank": 2,
+            "effectIcon": "UI_Buff_Item_Recovery_HpAddAll",
+            "icon": "UI_ItemIcon_108747"
+        }
+    },
+    "ascension": {
+        "101249": 1,
+        "104171": 2,
+        "104172": 3,
+        "104173": 4,
+        "104174": 5,
+        "104319": 5,
+        "104353": 2,
+        "104354": 3,
+        "104355": 4,
+        "112104": 1,
+        "112105": 2,
+        "112106": 3,
+        "113060": 5,
+        "113065": 4
+    },
+    "items": {
+        "202": {
+            "name": "Mora",
+            "rank": 3,
+            "icon": "UI_ItemIcon_202"
+        },
+        "101249": {
+            "name": "Quenepa Berry",
+            "rank": 1,
+            "icon": "UI_ItemIcon_101249"
+        },
+        "104001": {
+            "name": "Wanderer's Advice",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104001"
+        },
+        "104002": {
+            "name": "Adventurer's Experience",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104002"
+        },
+        "104003": {
+            "name": "Hero's Wit",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104003"
+        },
+        "104171": {
+            "name": "Prithiva Topaz Sliver",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104171"
+        },
+        "104172": {
+            "name": "Prithiva Topaz Fragment",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104172"
+        },
+        "104173": {
+            "name": "Prithiva Topaz Chunk",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104173"
+        },
+        "104174": {
+            "name": "Prithiva Topaz Gemstone",
+            "rank": 5,
+            "icon": "UI_ItemIcon_104174"
+        },
+        "104319": {
+            "name": "Crown of Insight",
+            "rank": 5,
+            "icon": "UI_ItemIcon_104319"
+        },
+        "104353": {
+            "name": "Teachings of Conflict",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104353"
+        },
+        "104354": {
+            "name": "Guide to Conflict",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104354"
+        },
+        "104355": {
+            "name": "Philosophies of Conflict",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104355"
+        },
+        "112104": {
+            "name": "Sentry's Wooden Whistle",
+            "rank": 1,
+            "icon": "UI_ItemIcon_112104"
+        },
+        "112105": {
+            "name": "Warrior's Metal Whistle",
+            "rank": 2,
+            "icon": "UI_ItemIcon_112105"
+        },
+        "112106": {
+            "name": "Saurian-Crowned Warrior's Golden Whistle",
+            "rank": 3,
+            "icon": "UI_ItemIcon_112106"
+        },
+        "113060": {
+            "name": "Fading Candle",
+            "rank": 5,
+            "icon": "UI_ItemIcon_113060"
+        },
+        "113065": {
+            "name": "Overripe Flamegranate",
+            "rank": 4,
+            "icon": "UI_ItemIcon_113065"
+        }
+    },
+    "talent": {
+        "0": {
+            "type": 0,
+            "name": "Normal Attack: Cragbiter",
+            "description": "<color=#FFD780FF>Normal Attack</color>\\nPerforms up to 4 consecutive spear strikes.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nConsumes a certain amount of Stamina to lunge forward, dealing damage to opponents along the way.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+            "icon": "Skill_A_03",
+            "promote": {
+                "1": {
+                    "level": 1,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}+{param3:F1P}",
+                        "3-Hit DMG|{param4:F1P}",
+                        "4-Hit DMG|{param5:F1P}",
+                        "Charged Attack DMG|{param6:F1P}",
+                        "Charged Attack Stamina Cost|{param7:F1}",
+                        "Plunge DMG|{param8:F1P}",
+                        "Low/High Plunge DMG|{param9:P}/{param10:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.49398,
+                        0.27569,
+                        0.30632,
+                        0.70427,
+                        0.77436,
+                        1.1266,
+                        25,
+                        0.63932,
+                        1.27838,
+                        1.59676,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "2": {
+                    "level": 2,
+                    "costItems": {
+                        "104353": 3,
+                        "112104": 6
+                    },
+                    "coinCost": 12500,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}+{param3:F1P}",
+                        "3-Hit DMG|{param4:F1P}",
+                        "4-Hit DMG|{param5:F1P}",
+                        "Charged Attack DMG|{param6:F1P}",
+                        "Charged Attack Stamina Cost|{param7:F1}",
+                        "Plunge DMG|{param8:F1P}",
+                        "Low/High Plunge DMG|{param9:P}/{param10:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.53419,
+                        0.29813,
+                        0.33126,
+                        0.7616,
+                        0.83739,
+                        1.2183,
+                        25,
+                        0.69136,
+                        1.38243,
+                        1.72673,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "3": {
+                    "level": 3,
+                    "costItems": {
+                        "104354": 2,
+                        "112105": 3
+                    },
+                    "coinCost": 17500,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}+{param3:F1P}",
+                        "3-Hit DMG|{param4:F1P}",
+                        "4-Hit DMG|{param5:F1P}",
+                        "Charged Attack DMG|{param6:F1P}",
+                        "Charged Attack Stamina Cost|{param7:F1}",
+                        "Plunge DMG|{param8:F1P}",
+                        "Low/High Plunge DMG|{param9:P}/{param10:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.5744,
+                        0.32057,
+                        0.35619,
+                        0.81892,
+                        0.90042,
+                        1.31,
+                        25,
+                        0.7434,
+                        1.48649,
+                        1.8567,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "4": {
+                    "level": 4,
+                    "costItems": {
+                        "104354": 4,
+                        "112105": 4
+                    },
+                    "coinCost": 25000,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}+{param3:F1P}",
+                        "3-Hit DMG|{param4:F1P}",
+                        "4-Hit DMG|{param5:F1P}",
+                        "Charged Attack DMG|{param6:F1P}",
+                        "Charged Attack Stamina Cost|{param7:F1}",
+                        "Plunge DMG|{param8:F1P}",
+                        "Low/High Plunge DMG|{param9:P}/{param10:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.63184,
+                        0.35263,
+                        0.39181,
+                        0.90081,
+                        0.99046,
+                        1.441,
+                        25,
+                        0.81774,
+                        1.63513,
+                        2.04237,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "5": {
+                    "level": 5,
+                    "costItems": {
+                        "104354": 6,
+                        "112105": 6
+                    },
+                    "coinCost": 30000,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}+{param3:F1P}",
+                        "3-Hit DMG|{param4:F1P}",
+                        "4-Hit DMG|{param5:F1P}",
+                        "Charged Attack DMG|{param6:F1P}",
+                        "Charged Attack Stamina Cost|{param7:F1}",
+                        "Plunge DMG|{param8:F1P}",
+                        "Low/High Plunge DMG|{param9:P}/{param10:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.67205,
+                        0.37507,
+                        0.41674,
+                        0.95814,
+                        1.05349,
+                        1.5327,
+                        25,
+                        0.86978,
+                        1.73919,
+                        2.17234,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "6": {
+                    "level": 6,
+                    "costItems": {
+                        "104354": 9,
+                        "112105": 9
+                    },
+                    "coinCost": 37500,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}+{param3:F1P}",
+                        "3-Hit DMG|{param4:F1P}",
+                        "4-Hit DMG|{param5:F1P}",
+                        "Charged Attack DMG|{param6:F1P}",
+                        "Charged Attack Stamina Cost|{param7:F1}",
+                        "Plunge DMG|{param8:F1P}",
+                        "Low/High Plunge DMG|{param9:P}/{param10:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.718,
+                        0.40071,
+                        0.44524,
+                        1.02365,
+                        1.12552,
+                        1.6375,
+                        25,
+                        0.92925,
+                        1.85811,
+                        2.32087,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "7": {
+                    "level": 7,
+                    "costItems": {
+                        "104355": 4,
+                        "112106": 4,
+                        "113060": 1
+                    },
+                    "coinCost": 120000,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}+{param3:F1P}",
+                        "3-Hit DMG|{param4:F1P}",
+                        "4-Hit DMG|{param5:F1P}",
+                        "Charged Attack DMG|{param6:F1P}",
+                        "Charged Attack Stamina Cost|{param7:F1}",
+                        "Plunge DMG|{param8:F1P}",
+                        "Low/High Plunge DMG|{param9:P}/{param10:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.78118,
+                        0.43597,
+                        0.48442,
+                        1.11373,
+                        1.22457,
+                        1.7816,
+                        25,
+                        1.01102,
+                        2.02162,
+                        2.52511,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "8": {
+                    "level": 8,
+                    "costItems": {
+                        "104355": 6,
+                        "112106": 6,
+                        "113060": 1
+                    },
+                    "coinCost": 260000,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}+{param3:F1P}",
+                        "3-Hit DMG|{param4:F1P}",
+                        "4-Hit DMG|{param5:F1P}",
+                        "Charged Attack DMG|{param6:F1P}",
+                        "Charged Attack Stamina Cost|{param7:F1}",
+                        "Plunge DMG|{param8:F1P}",
+                        "Low/High Plunge DMG|{param9:P}/{param10:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.84437,
+                        0.47124,
+                        0.5236,
+                        1.20381,
+                        1.32362,
+                        1.9257,
+                        25,
+                        1.0928,
+                        2.18513,
+                        2.72935,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "9": {
+                    "level": 9,
+                    "costItems": {
+                        "104355": 12,
+                        "112106": 9,
+                        "113060": 2
+                    },
+                    "coinCost": 450000,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}+{param3:F1P}",
+                        "3-Hit DMG|{param4:F1P}",
+                        "4-Hit DMG|{param5:F1P}",
+                        "Charged Attack DMG|{param6:F1P}",
+                        "Charged Attack Stamina Cost|{param7:F1}",
+                        "Plunge DMG|{param8:F1P}",
+                        "Low/High Plunge DMG|{param9:P}/{param10:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.90755,
+                        0.5065,
+                        0.56278,
+                        1.29389,
+                        1.42266,
+                        2.0698,
+                        25,
+                        1.17457,
+                        2.34865,
+                        2.93359,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "10": {
+                    "level": 10,
+                    "costItems": {
+                        "104319": 1,
+                        "104355": 16,
+                        "112106": 12,
+                        "113060": 2
+                    },
+                    "coinCost": 700000,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}+{param3:F1P}",
+                        "3-Hit DMG|{param4:F1P}",
+                        "4-Hit DMG|{param5:F1P}",
+                        "Charged Attack DMG|{param6:F1P}",
+                        "Charged Attack Stamina Cost|{param7:F1}",
+                        "Plunge DMG|{param8:F1P}",
+                        "Low/High Plunge DMG|{param9:P}/{param10:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.97648,
+                        0.54497,
+                        0.60552,
+                        1.39216,
+                        1.53071,
+                        2.227,
+                        25,
+                        1.26378,
+                        2.52702,
+                        3.15639,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "11": {
+                    "level": 11,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}+{param3:F1P}",
+                        "3-Hit DMG|{param4:F1P}",
+                        "4-Hit DMG|{param5:F1P}",
+                        "Charged Attack DMG|{param6:F1P}",
+                        "Charged Attack Stamina Cost|{param7:F1}",
+                        "Plunge DMG|{param8:F1P}",
+                        "Low/High Plunge DMG|{param9:P}/{param10:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.04541,
+                        0.58344,
+                        0.64827,
+                        1.49043,
+                        1.63876,
+                        2.3842,
+                        25,
+                        1.35299,
+                        2.7054,
+                        3.37919,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "12": {
+                    "level": 12,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}+{param3:F1P}",
+                        "3-Hit DMG|{param4:F1P}",
+                        "4-Hit DMG|{param5:F1P}",
+                        "Charged Attack DMG|{param6:F1P}",
+                        "Charged Attack Stamina Cost|{param7:F1}",
+                        "Plunge DMG|{param8:F1P}",
+                        "Low/High Plunge DMG|{param9:P}/{param10:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.11434,
+                        0.62191,
+                        0.69101,
+                        1.5887,
+                        1.74681,
+                        2.5414,
+                        25,
+                        1.4422,
+                        2.88378,
+                        3.602,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "13": {
+                    "level": 13,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}+{param3:F1P}",
+                        "3-Hit DMG|{param4:F1P}",
+                        "4-Hit DMG|{param5:F1P}",
+                        "Charged Attack DMG|{param6:F1P}",
+                        "Charged Attack Stamina Cost|{param7:F1}",
+                        "Plunge DMG|{param8:F1P}",
+                        "Low/High Plunge DMG|{param9:P}/{param10:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.18326,
+                        0.66037,
+                        0.73375,
+                        1.68698,
+                        1.85486,
+                        2.6986,
+                        25,
+                        1.5314,
+                        3.06216,
+                        3.8248,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "14": {
+                    "level": 14,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}+{param3:F1P}",
+                        "3-Hit DMG|{param4:F1P}",
+                        "4-Hit DMG|{param5:F1P}",
+                        "Charged Attack DMG|{param6:F1P}",
+                        "Charged Attack Stamina Cost|{param7:F1}",
+                        "Plunge DMG|{param8:F1P}",
+                        "Low/High Plunge DMG|{param9:P}/{param10:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.25219,
+                        0.69884,
+                        0.77649,
+                        1.78525,
+                        1.96292,
+                        2.8558,
+                        25,
+                        1.62061,
+                        3.24054,
+                        4.04761,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "15": {
+                    "level": 15,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}+{param3:F1P}",
+                        "3-Hit DMG|{param4:F1P}",
+                        "4-Hit DMG|{param5:F1P}",
+                        "Charged Attack DMG|{param6:F1P}",
+                        "Charged Attack Stamina Cost|{param7:F1}",
+                        "Plunge DMG|{param8:F1P}",
+                        "Low/High Plunge DMG|{param9:P}/{param10:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.32112,
+                        0.73731,
+                        0.81924,
+                        1.88352,
+                        2.07097,
+                        3.013,
+                        25,
+                        1.70982,
+                        3.41892,
+                        4.27041,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            "cooldown": 0,
+            "cost": 0,
+            "linkedConstellations": null,
+            "advancedProps": [
+                {
+                    "name": "Normal Attack 1-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": "5",
+                            "text": "Normal Attack"
+                        },
+                        "type": {
+                            "span": "5",
+                            "text": "2.5s/3 Hits"
+                        }
+                    },
+                    "interruptionResistance": "45.95",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 2-Hit A",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "25.64",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 2-Hit B",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "28.49",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 3-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "65.51",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 4-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "72.03",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "800",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Charged Attack",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": null,
+                            "text": "Charged Attack"
+                        },
+                        "type": {
+                            "span": null,
+                            "text": "0.5s"
+                        }
+                    },
+                    "interruptionResistance": "120",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "480",
+                        "verticalForce": "600"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Plunging Attack Collision",
+                    "elementalGaugeTheory": "0U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "25",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Low Plunge",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "100",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "800",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": true
+                },
+                {
+                    "name": "High Plunge",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "150",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "0",
+                        "verticalForce": "800"
+                    },
+                    "bluntAttack": true
+                }
+            ]
+        },
+        "1": {
+            "type": 0,
+            "name": "Go, Go Turbo Twirly!",
+            "description": "Fight alongside the turbo trusty Turbo Twirly!\\nSummons Turbo Twirly. When the skill is Held and released, Kachina will summon and ride Turbo Twirly.\\nAfter the Skill is used, Kachina will gain 60 Nightsoul points and enter the Nightsoul's Blessing state.\\n\\n<color=#FFD780FF>Nightsoul's Blessing: Kachina</color>\\nTurbo Twirly's various actions consume Kachina's Nightsoul points.\\nThe Nightsoul's Blessing state will end when these points have been depleted.\\n\\n<color=#FFD780FF>Turbo Twirly</color>\\nCan exist independently or be ridden and operated by Kachina. When Turbo Twirly is present, Kachina's Elemental Skill, \"Go, Go Turbo Twirly!\", will change to an option to Mount/Dismount Turbo Twirly.\\n·When present independent of Kachina, it will slam the ground at intervals, dealing Nightsoul-aligned <color=#FFE699FF>AoE Geo DMG</color> based on Kachina's DEF.\\n·When Kachina is riding Turbo Twirly, she can control it to move and climb swiftly, and use Normal Attacks to slam the ground, dealing Nightsoul-aligned <color=#FFE699FF>AoE Geo DMG</color> based on Kachina's DEF.\\n\\nTurbo Twirly will disappear once Kachina's Nightsoul's Blessing state ends, and it is considered a Geo Construct. Only 1 Turbo Twirly created by Kachina herself can exist on the field at any one time.\\n\\n<i>Turbo Twirly only looks like a top — it is, in fact, a drill that can split even the strongest rock asunder!</i>",
+            "icon": "Skill_S_Kachina_01",
+            "promote": {
+                "1": {
+                    "level": 1,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Turbo Twirly Mounted DMG|{param1:F1P} DEF",
+                        "Turbo Twirly Independent DMG|{param2:F1P} DEF",
+                        "Nightsoul Point Limit|{param3:F1}",
+                        "CD|{param4:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.8776,
+                        0.6376,
+                        60,
+                        20,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "2": {
+                    "level": 2,
+                    "costItems": {
+                        "104353": 3,
+                        "112104": 6
+                    },
+                    "coinCost": 12500,
+                    "description": [
+                        "Turbo Twirly Mounted DMG|{param1:F1P} DEF",
+                        "Turbo Twirly Independent DMG|{param2:F1P} DEF",
+                        "Nightsoul Point Limit|{param3:F1}",
+                        "CD|{param4:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.94342,
+                        0.68542,
+                        60,
+                        20,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "3": {
+                    "level": 3,
+                    "costItems": {
+                        "104354": 2,
+                        "112105": 3
+                    },
+                    "coinCost": 17500,
+                    "description": [
+                        "Turbo Twirly Mounted DMG|{param1:F1P} DEF",
+                        "Turbo Twirly Independent DMG|{param2:F1P} DEF",
+                        "Nightsoul Point Limit|{param3:F1}",
+                        "CD|{param4:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.00924,
+                        0.73324,
+                        60,
+                        20,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "4": {
+                    "level": 4,
+                    "costItems": {
+                        "104354": 4,
+                        "112105": 4
+                    },
+                    "coinCost": 25000,
+                    "description": [
+                        "Turbo Twirly Mounted DMG|{param1:F1P} DEF",
+                        "Turbo Twirly Independent DMG|{param2:F1P} DEF",
+                        "Nightsoul Point Limit|{param3:F1}",
+                        "CD|{param4:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.097,
+                        0.797,
+                        60,
+                        20,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "5": {
+                    "level": 5,
+                    "costItems": {
+                        "104354": 6,
+                        "112105": 6
+                    },
+                    "coinCost": 30000,
+                    "description": [
+                        "Turbo Twirly Mounted DMG|{param1:F1P} DEF",
+                        "Turbo Twirly Independent DMG|{param2:F1P} DEF",
+                        "Nightsoul Point Limit|{param3:F1}",
+                        "CD|{param4:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.16282,
+                        0.84482,
+                        60,
+                        20,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "6": {
+                    "level": 6,
+                    "costItems": {
+                        "104354": 9,
+                        "112105": 9
+                    },
+                    "coinCost": 37500,
+                    "description": [
+                        "Turbo Twirly Mounted DMG|{param1:F1P} DEF",
+                        "Turbo Twirly Independent DMG|{param2:F1P} DEF",
+                        "Nightsoul Point Limit|{param3:F1}",
+                        "CD|{param4:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.22864,
+                        0.89264,
+                        60,
+                        20,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "7": {
+                    "level": 7,
+                    "costItems": {
+                        "104355": 4,
+                        "112106": 4,
+                        "113060": 1
+                    },
+                    "coinCost": 120000,
+                    "description": [
+                        "Turbo Twirly Mounted DMG|{param1:F1P} DEF",
+                        "Turbo Twirly Independent DMG|{param2:F1P} DEF",
+                        "Nightsoul Point Limit|{param3:F1}",
+                        "CD|{param4:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.3164,
+                        0.9564,
+                        60,
+                        20,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "8": {
+                    "level": 8,
+                    "costItems": {
+                        "104355": 6,
+                        "112106": 6,
+                        "113060": 1
+                    },
+                    "coinCost": 260000,
+                    "description": [
+                        "Turbo Twirly Mounted DMG|{param1:F1P} DEF",
+                        "Turbo Twirly Independent DMG|{param2:F1P} DEF",
+                        "Nightsoul Point Limit|{param3:F1}",
+                        "CD|{param4:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.40416,
+                        1.02016,
+                        60,
+                        20,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "9": {
+                    "level": 9,
+                    "costItems": {
+                        "104355": 12,
+                        "112106": 9,
+                        "113060": 2
+                    },
+                    "coinCost": 450000,
+                    "description": [
+                        "Turbo Twirly Mounted DMG|{param1:F1P} DEF",
+                        "Turbo Twirly Independent DMG|{param2:F1P} DEF",
+                        "Nightsoul Point Limit|{param3:F1}",
+                        "CD|{param4:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.49192,
+                        1.08392,
+                        60,
+                        20,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "10": {
+                    "level": 10,
+                    "costItems": {
+                        "104319": 1,
+                        "104355": 16,
+                        "112106": 12,
+                        "113060": 2
+                    },
+                    "coinCost": 700000,
+                    "description": [
+                        "Turbo Twirly Mounted DMG|{param1:F1P} DEF",
+                        "Turbo Twirly Independent DMG|{param2:F1P} DEF",
+                        "Nightsoul Point Limit|{param3:F1}",
+                        "CD|{param4:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.57968,
+                        1.14768,
+                        60,
+                        20,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "11": {
+                    "level": 11,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Turbo Twirly Mounted DMG|{param1:F1P} DEF",
+                        "Turbo Twirly Independent DMG|{param2:F1P} DEF",
+                        "Nightsoul Point Limit|{param3:F1}",
+                        "CD|{param4:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.66744,
+                        1.21144,
+                        60,
+                        20,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "12": {
+                    "level": 12,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Turbo Twirly Mounted DMG|{param1:F1P} DEF",
+                        "Turbo Twirly Independent DMG|{param2:F1P} DEF",
+                        "Nightsoul Point Limit|{param3:F1}",
+                        "CD|{param4:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.7552,
+                        1.2752,
+                        60,
+                        20,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "13": {
+                    "level": 13,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Turbo Twirly Mounted DMG|{param1:F1P} DEF",
+                        "Turbo Twirly Independent DMG|{param2:F1P} DEF",
+                        "Nightsoul Point Limit|{param3:F1}",
+                        "CD|{param4:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.8649,
+                        1.3549,
+                        60,
+                        20,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "14": {
+                    "level": 14,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Turbo Twirly Mounted DMG|{param1:F1P} DEF",
+                        "Turbo Twirly Independent DMG|{param2:F1P} DEF",
+                        "Nightsoul Point Limit|{param3:F1}",
+                        "CD|{param4:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.9746,
+                        1.4346,
+                        60,
+                        20,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "15": {
+                    "level": 15,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Turbo Twirly Mounted DMG|{param1:F1P} DEF",
+                        "Turbo Twirly Independent DMG|{param2:F1P} DEF",
+                        "Nightsoul Point Limit|{param3:F1}",
+                        "CD|{param4:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        2.0843,
+                        1.5143,
+                        60,
+                        20,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            "cooldown": 20,
+            "cost": 0,
+            "linkedConstellations": {
+                "isLevelIncluded": true,
+                "prop": [
+                    {
+                        "id": 2,
+                        "type": "level"
+                    }
+                ]
+            },
+            "advancedProps": [
+                {
+                    "name": "Turbo Twirly Mounted DMG",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": "2",
+                            "text": "Elemental Skill"
+                        },
+                        "type": {
+                            "span": "2",
+                            "text": "2.5s/3 Hits"
+                        }
+                    },
+                    "interruptionResistance": "100",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "20",
+                        "verticalForce": "600"
+                    },
+                    "bluntAttack": true
+                },
+                {
+                    "name": "Turbo Twirly Independent DMG",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "75",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "100",
+                        "verticalForce": "600"
+                    },
+                    "bluntAttack": true
+                }
+            ]
+        },
+        "3": {
+            "type": 1,
+            "name": "Time to Get Serious!",
+            "description": "Striking the ground, Kachina deals <color=#FFE699FF>AoE Geo DMG</color> based on her DEF and creates a Turbo Drill Field.\\nThe Field increases Turbo Twirly's attack AoE and its Movement SPD when Kachina is riding it.\\n\\nIf Kachina's own Turbo Twirly is present when this is used, the Turbo Twirly will be summoned to her side.\\n\\n<i>Just as nervous performers might imagine audience members as wooden puppets, Kachina imagines that her opponents are the loveliest of gem-bearing ores — the kind you'd be proud to bring home and hoard.</i>",
+            "icon": "Skill_E_Kachina_01",
+            "promote": {
+                "1": {
+                    "level": 1,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Skill DMG|{param1:F1P} DEF",
+                        "Field Duration|{param2:F1}s",
+                        "CD|{param3:F1}s",
+                        "Energy Cost|{param4:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        3.80567,
+                        12,
+                        18,
+                        70,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "2": {
+                    "level": 2,
+                    "costItems": {
+                        "104353": 3,
+                        "112104": 6
+                    },
+                    "coinCost": 12500,
+                    "description": [
+                        "Skill DMG|{param1:F1P} DEF",
+                        "Field Duration|{param2:F1}s",
+                        "CD|{param3:F1}s",
+                        "Energy Cost|{param4:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        4.1366,
+                        12,
+                        18,
+                        70,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "3": {
+                    "level": 3,
+                    "costItems": {
+                        "104354": 2,
+                        "112105": 3
+                    },
+                    "coinCost": 17500,
+                    "description": [
+                        "Skill DMG|{param1:F1P} DEF",
+                        "Field Duration|{param2:F1}s",
+                        "CD|{param3:F1}s",
+                        "Energy Cost|{param4:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        4.4252,
+                        12,
+                        18,
+                        70,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "4": {
+                    "level": 4,
+                    "costItems": {
+                        "104354": 4,
+                        "112105": 4
+                    },
+                    "coinCost": 25000,
+                    "description": [
+                        "Skill DMG|{param1:F1P} DEF",
+                        "Field Duration|{param2:F1}s",
+                        "CD|{param3:F1}s",
+                        "Energy Cost|{param4:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        4.81,
+                        12,
+                        18,
+                        70,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "5": {
+                    "level": 5,
+                    "costItems": {
+                        "104354": 6,
+                        "112105": 6
+                    },
+                    "coinCost": 30000,
+                    "description": [
+                        "Skill DMG|{param1:F1P} DEF",
+                        "Field Duration|{param2:F1}s",
+                        "CD|{param3:F1}s",
+                        "Energy Cost|{param4:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        5.0986,
+                        12,
+                        18,
+                        70,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "6": {
+                    "level": 6,
+                    "costItems": {
+                        "104354": 9,
+                        "112105": 9
+                    },
+                    "coinCost": 37500,
+                    "description": [
+                        "Skill DMG|{param1:F1P} DEF",
+                        "Field Duration|{param2:F1}s",
+                        "CD|{param3:F1}s",
+                        "Energy Cost|{param4:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        5.3872,
+                        12,
+                        18,
+                        70,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "7": {
+                    "level": 7,
+                    "costItems": {
+                        "104355": 4,
+                        "112106": 4,
+                        "113060": 1
+                    },
+                    "coinCost": 120000,
+                    "description": [
+                        "Skill DMG|{param1:F1P} DEF",
+                        "Field Duration|{param2:F1}s",
+                        "CD|{param3:F1}s",
+                        "Energy Cost|{param4:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        5.772,
+                        12,
+                        18,
+                        70,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "8": {
+                    "level": 8,
+                    "costItems": {
+                        "104355": 6,
+                        "112106": 6,
+                        "113060": 1
+                    },
+                    "coinCost": 260000,
+                    "description": [
+                        "Skill DMG|{param1:F1P} DEF",
+                        "Field Duration|{param2:F1}s",
+                        "CD|{param3:F1}s",
+                        "Energy Cost|{param4:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        6.1568,
+                        12,
+                        18,
+                        70,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "9": {
+                    "level": 9,
+                    "costItems": {
+                        "104355": 12,
+                        "112106": 9,
+                        "113060": 2
+                    },
+                    "coinCost": 450000,
+                    "description": [
+                        "Skill DMG|{param1:F1P} DEF",
+                        "Field Duration|{param2:F1}s",
+                        "CD|{param3:F1}s",
+                        "Energy Cost|{param4:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        6.5416,
+                        12,
+                        18,
+                        70,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "10": {
+                    "level": 10,
+                    "costItems": {
+                        "104319": 1,
+                        "104355": 16,
+                        "112106": 12,
+                        "113060": 2
+                    },
+                    "coinCost": 700000,
+                    "description": [
+                        "Skill DMG|{param1:F1P} DEF",
+                        "Field Duration|{param2:F1}s",
+                        "CD|{param3:F1}s",
+                        "Energy Cost|{param4:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        6.9264,
+                        12,
+                        18,
+                        70,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "11": {
+                    "level": 11,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Skill DMG|{param1:F1P} DEF",
+                        "Field Duration|{param2:F1}s",
+                        "CD|{param3:F1}s",
+                        "Energy Cost|{param4:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        7.3112,
+                        12,
+                        18,
+                        70,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "12": {
+                    "level": 12,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Skill DMG|{param1:F1P} DEF",
+                        "Field Duration|{param2:F1}s",
+                        "CD|{param3:F1}s",
+                        "Energy Cost|{param4:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        7.696,
+                        12,
+                        18,
+                        70,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "13": {
+                    "level": 13,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Skill DMG|{param1:F1P} DEF",
+                        "Field Duration|{param2:F1}s",
+                        "CD|{param3:F1}s",
+                        "Energy Cost|{param4:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        8.177,
+                        12,
+                        18,
+                        70,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "14": {
+                    "level": 14,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Skill DMG|{param1:F1P} DEF",
+                        "Field Duration|{param2:F1}s",
+                        "CD|{param3:F1}s",
+                        "Energy Cost|{param4:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        8.658,
+                        12,
+                        18,
+                        70,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "15": {
+                    "level": 15,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Skill DMG|{param1:F1P} DEF",
+                        "Field Duration|{param2:F1}s",
+                        "CD|{param3:F1}s",
+                        "Energy Cost|{param4:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        9.139,
+                        12,
+                        18,
+                        70,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            "cooldown": 18,
+            "cost": 70,
+            "linkedConstellations": {
+                "isLevelIncluded": true,
+                "prop": [
+                    {
+                        "id": 1,
+                        "type": "normal"
+                    },
+                    {
+                        "id": 3,
+                        "type": "normal"
+                    },
+                    {
+                        "id": 4,
+                        "type": "level"
+                    }
+                ]
+            },
+            "advancedProps": [
+                {
+                    "name": "Skill DMG",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "150",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "100",
+                        "verticalForce": "700"
+                    },
+                    "bluntAttack": true
+                }
+            ]
+        },
+        "4": {
+            "type": 2,
+            "name": "Mountain Echoes",
+            "description": "After nearby party members trigger a Nightsoul Burst, Kachina's <color=#FFE699FF>Geo DMG Bonus</color> increases by 20% for 12s.",
+            "icon": "UI_Talent_S_Kachina_05",
+            "linkedConstellations": null
+        },
+        "5": {
+            "type": 2,
+            "name": "The Weight of Stone",
+            "description": "<color=#FFD780FF>Turbo Twirly</color>'s DMG is increased by 20% of Kachina's DEF.",
+            "icon": "UI_Talent_S_Kachina_06",
+            "linkedConstellations": null
+        },
+        "6": {
+            "type": 2,
+            "name": "Night Realm's Gift: Heart of Unity",
+            "description": "After her Nightsoul points are depleted, Kachina will switch to consuming Phlogiston to maintain her Nightsoul's Blessing.\\nWhile in an area with Phlogiston Mechanics within Natlan, she can use Nightsoul Transmission: Kachina. When the active character is currently sprinting, climbing, in a movement mode caused by certain Talents, or at a certain height in the air, the following will trigger when switching to Kachina: Kachina will enter the Nightsoul's Blessing state and ride <color=#FFD780FF>Turbo Twirly</color> when taking the field while gaining 30 Nightsoul points. Nightsoul Transmission can be triggered once every 10s by your own team.\\n\\nAdditionally, while in Natlan, Kachina will consume 90% less Stamina when climbing while riding <color=#FFD780FF>Turbo Twirly</color>.",
+            "icon": "UI_Talent_S_Kachina_07",
+            "linkedConstellations": null
+        },
+        "8": {
+            "type": 2,
+            "name": "Boon of Crystal Flame",
+            "description": "While in an area with Phlogiston Mechanics within Natlan, 20 Stamina will be restored when interacting with some harvestable items. Additionally, the location of nearby <color=#FFD780FF>resources unique to Natlan</color> will appear on your mini-map.",
+            "icon": "UI_Talent_S_Kachina_08",
+            "linkedConstellations": null
+        }
+    },
+    "constellation": {
+        "0": {
+            "id": 0,
+            "name": "Shards Are Gems Too",
+            "description": "When Kachina mounts or dismounts <color=#FFD780FF>Turbo Twirly</color>, she will absorb nearby Elemental Shards created by Crystallize.\\nAdditionally, when a party member picks up such a Shard, 3 Energy will be restored to Kachina. Energy can be restored this way once every 5s.",
+            "extraData": null,
+            "icon": "UI_Talent_S_Kachina_01"
+        },
+        "1": {
+            "id": 1,
+            "name": "Never Leave Home Without... Turbo Twirly",
+            "description": "When Kachina uses <color=#FFD780FF>\"Time to Get Serious!\"</color>, she will regain 20 Nightsoul points. If there is no <color=#FFD780FF>Turbo Twirly</color> belonging to her on the field, she will enter Nightsoul's Blessing and summon one.",
+            "extraData": null,
+            "icon": "UI_Talent_S_Kachina_02"
+        },
+        "2": {
+            "id": 2,
+            "name": "Improved Stabilizer",
+            "description": "Increases the Level of <color=#FFD780FF>Go, Go Turbo Twirly!</color> by 3.\\nMaximum upgrade level is 15.",
+            "extraData": {
+                "addTalentExtraLevel": {
+                    "talentType": "AvatarSkill",
+                    "talentIndex": 2,
+                    "extraLevel": 3
+                }
+            },
+            "icon": "UI_Talent_U_Kachina_01"
+        },
+        "3": {
+            "id": 3,
+            "name": "More Foes, More Caution",
+            "description": "When there are 1/2/3/4 (or more) opponents within the Turbo Drill Field created by <color=#FFD780FF>\"Time to Get Serious!\"</color>, the active character within the field gains 8%/12%/16%/20% increased DEF.",
+            "extraData": null,
+            "icon": "UI_Talent_S_Kachina_03"
+        },
+        "4": {
+            "id": 4,
+            "name": "All I've Collected Till Now",
+            "description": "Increases the Level of <color=#FFD780FF>Time to Get Serious!</color> by 3.\\nMaximum upgrade level is 15.",
+            "extraData": {
+                "addTalentExtraLevel": {
+                    "talentType": "AvatarSkill",
+                    "talentIndex": 9,
+                    "extraLevel": 3
+                }
+            },
+            "icon": "UI_Talent_U_Kachina_02"
+        },
+        "5": {
+            "id": 5,
+            "name": "This Time, I've Gotta Win",
+            "description": "When your active character's Shield is replaced or destroyed for any reason, Kachina will deal 200% of her DEF as <color=#FFE699FF>AoE Geo DMG</color>. This effect can be triggered once every 5s.",
+            "extraData": null,
+            "icon": "UI_Talent_S_Kachina_04",
+            "advancedProps": [
+                {
+                    "name": "Geo DMG",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "100",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "20",
+                        "verticalForce": "600"
+                    },
+                    "bluntAttack": true
+                }
+            ]
+        }
+    },
+    "_id": 10000100
+}

@@ -1538,6 +1538,48 @@
         "id": "mourning_flower"
     },
     {
+        "name": "Trishiraite",
+        "description": "A splendorous stone that can be found in the depths of desolate mountains, seemingly formed from congealed elemental energy.",
+        "type": "Local Specialty (Sumeru)",
+        "recipe": null,
+        "storyId": null,
+        "mapMark": [
+            "o468"
+        ],
+        "source": [
+            {
+                "name": "Found in the deserts of Sumeru",
+                "type": "single"
+            },
+            {
+                "name": "Recommendation: Found in Temir Mountains",
+                "type": "single"
+            },
+            {
+                "name": "Go to collect",
+                "type": "single"
+            }
+        ],
+        "additions": {
+            "requiredBy": {
+                "avatar": [
+                    {
+                        "id": 10000097,
+                        "name": "Sethos",
+                        "rank": 4,
+                        "icon": "UI_AvatarIcon_Sethos"
+                    }
+                ]
+            },
+            "droppedBy": null
+        },
+        "icon": "UI_ItemIcon_101224",
+        "rank": 1,
+        "route": "Trishiraite",
+        "_id": "101224",
+        "id": "trishiraite"
+    },
+    {
         "name": "Scarab",
         "description": "A tenacious beetle that finds repose within the vast ocean of desert sand. The golden pattern on such beetles' shells hints at some deep relationship between them and the ancient ruins that dot the desert.",
         "type": "Local Specialty (Sumeru)",
@@ -1574,6 +1616,44 @@
         "route": "Scarab",
         "_id": "101225",
         "id": "scarab"
+    },
+    {
+        "name": "Beryl Conch",
+        "description": "A conch-like structure that gives off a faint glow. Despite the name, it is not a shell but something condensed from pure elemental energy.",
+        "type": "Local Specialty (Fontaine)",
+        "recipe": null,
+        "storyId": null,
+        "mapMark": [
+            "o500"
+        ],
+        "source": [
+            {
+                "name": "Recommendation: Found in Salacia Plain",
+                "type": "single"
+            },
+            {
+                "name": "Go to collect",
+                "type": "single"
+            }
+        ],
+        "additions": {
+            "requiredBy": {
+                "avatar": [
+                    {
+                        "id": 10000088,
+                        "name": "Charlotte",
+                        "rank": 4,
+                        "icon": "UI_AvatarIcon_Charlotte"
+                    }
+                ]
+            },
+            "droppedBy": null
+        },
+        "icon": "UI_ItemIcon_101232",
+        "rank": 1,
+        "route": "Beryl Conch",
+        "_id": "101232",
+        "id": "beryl_conch"
     },
     {
         "name": "Romaritime Flower",
@@ -1706,6 +1786,376 @@
         "route": "Rainbow Rose",
         "_id": "101236",
         "id": "rainbow_rose"
+    },
+    {
+        "name": "Lumitoile",
+        "description": "A soft-bodied animal that emits a gentle light. Often found climbing the walls of buildings near the water or underwater.",
+        "type": "Local Specialty (Fontaine)",
+        "recipe": null,
+        "storyId": null,
+        "mapMark": [
+            "o545"
+        ],
+        "source": [
+            {
+                "name": "Recommendation: Found in Liffey Region",
+                "type": "single"
+            },
+            {
+                "name": "Go to collect",
+                "type": "single"
+            }
+        ],
+        "additions": {
+            "requiredBy": {
+                "avatar": [
+                    {
+                        "id": 10000087,
+                        "name": "Neuvillette",
+                        "rank": 5,
+                        "icon": "UI_AvatarIcon_Neuvillette"
+                    },
+                    {
+                        "id": 10000098,
+                        "name": "Clorinde",
+                        "rank": 5,
+                        "icon": "UI_AvatarIcon_Clorinde"
+                    }
+                ]
+            },
+            "droppedBy": null
+        },
+        "icon": "UI_ItemIcon_101237",
+        "rank": 1,
+        "route": "Lumitoile",
+        "_id": "101237",
+        "id": "lumitoile"
+    },
+    {
+        "name": "Lakelight Lily",
+        "description": "A clear and clean azure flower, it is born where Water Veins come together. It has a simple, cool, and elegant fragrance, pungent and refreshing yet gentle.",
+        "type": "Local Specialty (Fontaine)",
+        "recipe": null,
+        "storyId": null,
+        "mapMark": [
+            "o548"
+        ],
+        "source": [
+            {
+                "name": "Recommendation: Found in Erinnyes Forest",
+                "type": "single"
+            },
+            {
+                "name": "Go to collect",
+                "type": "single"
+            }
+        ],
+        "additions": {
+            "requiredBy": {
+                "avatar": [
+                    {
+                        "id": 10000089,
+                        "name": "Furina",
+                        "rank": 5,
+                        "icon": "UI_AvatarIcon_Furina"
+                    },
+                    {
+                        "id": 10000099,
+                        "name": "Emilie",
+                        "rank": 5,
+                        "icon": "UI_AvatarIcon_Emilie"
+                    }
+                ]
+            },
+            "droppedBy": null
+        },
+        "icon": "UI_ItemIcon_101238",
+        "rank": 1,
+        "route": "Lakelight Lily",
+        "_id": "101238",
+        "id": "lakelight_lily"
+    },
+    {
+        "name": "Subdetection Unit",
+        "description": "Detection units produced by Fontaine Research Institute using new models of artificed components. Its original purpose was monitoring all kinds of environmental data.",
+        "type": "Local Specialty (Fontaine)",
+        "recipe": null,
+        "storyId": null,
+        "mapMark": [
+            "o546"
+        ],
+        "source": [
+            {
+                "name": "Recommendation: Found in Fontaine Research Institute of Kinetic Energy Engineering Region",
+                "type": "single"
+            },
+            {
+                "name": "Go to collect",
+                "type": "single"
+            }
+        ],
+        "additions": {
+            "requiredBy": {
+                "avatar": [
+                    {
+                        "id": 10000086,
+                        "name": "Wriothesley",
+                        "rank": 5,
+                        "icon": "UI_AvatarIcon_Wriothesley"
+                    }
+                ]
+            },
+            "droppedBy": null
+        },
+        "icon": "UI_ItemIcon_101239",
+        "rank": 1,
+        "route": "Subdetection Unit",
+        "_id": "101239",
+        "id": "subdetection_unit"
+    },
+    {
+        "name": "Spring of the First Dewdrop",
+        "description": "A limpid drop of dew floating amidst the waters of Morte Region. It is different from other pure water bodies, as though it is a conglomeration of even more pure and primordial Elemental Energy.",
+        "type": "Local Specialty (Fontaine)",
+        "recipe": null,
+        "storyId": null,
+        "mapMark": [
+            "o549"
+        ],
+        "source": [
+            {
+                "name": "Recommendation: Found underwater in Morte Region",
+                "type": "single"
+            },
+            {
+                "name": "Go to collect",
+                "type": "single"
+            }
+        ],
+        "additions": {
+            "requiredBy": {
+                "avatar": [
+                    {
+                        "id": 10000091,
+                        "name": "Navia",
+                        "rank": 5,
+                        "icon": "UI_AvatarIcon_Navia"
+                    }
+                ]
+            },
+            "droppedBy": null
+        },
+        "icon": "UI_ItemIcon_101240",
+        "rank": 1,
+        "route": "Spring of the First Dewdrop",
+        "_id": "101240",
+        "id": "spring_of_the_first_dewdrop"
+    },
+    {
+        "name": "Clearwater Jade",
+        "description": "Jade from Chenyu Vale. Named for its cool, refreshing touch, that is much like clear water.",
+        "type": "Local Specialty (Liyue)",
+        "recipe": null,
+        "storyId": null,
+        "mapMark": [
+            "o566"
+        ],
+        "source": [
+            {
+                "name": "Found in the wild",
+                "type": "single"
+            },
+            {
+                "name": "Recommendation: Found in Chenyu Vale: Southern Mountain",
+                "type": "single"
+            },
+            {
+                "name": "Go to collect",
+                "type": "single"
+            }
+        ],
+        "additions": {
+            "requiredBy": {
+                "avatar": [
+                    {
+                        "id": 10000093,
+                        "name": "Xianyun",
+                        "rank": 5,
+                        "icon": "UI_AvatarIcon_Liuyun"
+                    }
+                ]
+            },
+            "droppedBy": null
+        },
+        "icon": "UI_ItemIcon_101241",
+        "rank": 1,
+        "route": "Clearwater Jade",
+        "_id": "101241",
+        "id": "clearwater_jade"
+    },
+    {
+        "name": "Sprayfeather Gill",
+        "description": "A special feather-shaped species that grows by the seaside. It looks kind of like a seagrass but is in truth a soft-bodied aquatic coral with a unique shape.",
+        "type": "Local Specialty (Natlan)",
+        "recipe": null,
+        "storyId": null,
+        "mapMark": [
+            "o611"
+        ],
+        "source": [
+            {
+                "name": "Recommendation: Found in Toyac Springs",
+                "type": "single"
+            },
+            {
+                "name": "Recommendation: Found near the \"People of the Springs\"",
+                "type": "single"
+            },
+            {
+                "name": "Go to collect",
+                "type": "single"
+            }
+        ],
+        "additions": {
+            "requiredBy": {
+                "avatar": [
+                    {
+                        "id": 10000102,
+                        "name": "Mualani",
+                        "rank": 5,
+                        "icon": "UI_AvatarIcon_Mualani"
+                    }
+                ]
+            },
+            "droppedBy": null
+        },
+        "icon": "UI_ItemIcon_101247",
+        "rank": 1,
+        "route": "Sprayfeather Gill",
+        "_id": "101247",
+        "id": "sprayfeather_gill"
+    },
+    {
+        "name": "Brilliant Chrysanthemum",
+        "description": "A flower with a shape like floating wings. Its petals sway in an unbelievably relaxed, serene manner as they are caressed by the wind.",
+        "type": "Local Specialty (Natlan)",
+        "recipe": null,
+        "storyId": null,
+        "mapMark": [
+            "o615"
+        ],
+        "source": [
+            {
+                "name": "Recommendation: Found on Huitztli Hill",
+                "type": "single"
+            },
+            {
+                "name": "Recommendation: Found near the Stadium of the Sacred Flame",
+                "type": "single"
+            },
+            {
+                "name": "Go to collect",
+                "type": "single"
+            }
+        ],
+        "additions": {
+            "requiredBy": {
+                "avatar": [
+                    {
+                        "id": 10000103,
+                        "name": "Xilonen",
+                        "rank": 5,
+                        "icon": "UI_AvatarIcon_Xilonen"
+                    }
+                ]
+            },
+            "droppedBy": null
+        },
+        "icon": "UI_ItemIcon_101248",
+        "rank": 1,
+        "route": "Brilliant Chrysanthemum",
+        "_id": "101248",
+        "id": "brilliant_chrysanthemum"
+    },
+    {
+        "name": "Quenepa Berry",
+        "description": "Bluish, juicy berries that grow in large amounts near the Scions of the Canopy. Their shape is similar to that of Flamegranates.",
+        "type": "Local Specialty (Natlan)",
+        "recipe": null,
+        "storyId": null,
+        "mapMark": [
+            "o614"
+        ],
+        "source": [
+            {
+                "name": "Recommendation: Found on Coatepec Mountain",
+                "type": "single"
+            },
+            {
+                "name": "Recommendation: Found below the \"Scions of the Canopy\"",
+                "type": "single"
+            },
+            {
+                "name": "Go to collect",
+                "type": "single"
+            }
+        ],
+        "additions": {
+            "requiredBy": {
+                "avatar": [
+                    {
+                        "id": 10000100,
+                        "name": "Kachina",
+                        "rank": 4,
+                        "icon": "UI_AvatarIcon_Kachina"
+                    }
+                ]
+            },
+            "droppedBy": null
+        },
+        "icon": "UI_ItemIcon_101249",
+        "rank": 1,
+        "route": "Quenepa Berry",
+        "_id": "101249",
+        "id": "quenepa_berry"
+    },
+    {
+        "name": "Saurian Claw Succulent",
+        "description": "A succulent shaped like the paw of a great animal.",
+        "type": "Local Specialty (Natlan)",
+        "recipe": null,
+        "storyId": null,
+        "mapMark": [
+            "o613"
+        ],
+        "source": [
+            {
+                "name": "Recommendation: Found in the Sulfurous Veins",
+                "type": "single"
+            },
+            {
+                "name": "Go to collect",
+                "type": "single"
+            }
+        ],
+        "additions": {
+            "requiredBy": {
+                "avatar": [
+                    {
+                        "id": 10000101,
+                        "name": "Kinich",
+                        "rank": 5,
+                        "icon": "UI_AvatarIcon_Kinich"
+                    }
+                ]
+            },
+            "droppedBy": null
+        },
+        "icon": "UI_ItemIcon_101250",
+        "rank": 1,
+        "route": "Saurian Claw Succulent",
+        "_id": "101250",
+        "id": "saurian_claw_succulent"
     },
     {
         "name": "Brilliant Diamond Sliver",
@@ -13267,6 +13717,423 @@
         "id": "philosophies_of_order"
     },
     {
+        "name": "Teachings of Contention",
+        "description": "Talent Level-Up material.\\nContention is the principle by which all is weighed in the Nation of Pyro.\\nWhat defines strength, and what weakness? Only victory and defeat. The results of a contest are more convincing than any words.",
+        "type": "Character Talent Material",
+        "recipe": null,
+        "storyId": null,
+        "mapMark": null,
+        "source": [
+            {
+                "name": "Exchanged in the Gift Shop",
+                "type": "single"
+            },
+            {
+                "name": "Domain of Mastery: Sublime Turning",
+                "type": "domain",
+                "days": [
+                    "monday",
+                    "thursday",
+                    "sunday"
+                ]
+            }
+        ],
+        "additions": {
+            "requiredBy": {
+                "avatar": [
+                    {
+                        "id": 10000102,
+                        "name": "Mualani",
+                        "rank": 5,
+                        "icon": "UI_AvatarIcon_Mualani"
+                    }
+                ]
+            },
+            "droppedBy": null
+        },
+        "icon": "UI_ItemIcon_104347",
+        "rank": 2,
+        "route": "Teachings of Contention",
+        "_id": "104347",
+        "id": "teachings_of_contention"
+    },
+    {
+        "name": "Guide to Contention",
+        "description": "Talent Level-Up material.\\nContention is the principle by which all is weighed in the Nation of Pyro.\\nThough humans cannot fly at the speed of winged beasts, nor match the flexibility of slimes, yet still, they have their own unique strengths. Sometimes, understanding both why and how to compete is the key to knowing oneself.",
+        "type": "Character Talent Material",
+        "recipe": {
+            "13031": {
+                "104347": {
+                    "name": "Teachings of Contention",
+                    "icon": "UI_ItemIcon_104347",
+                    "rank": 2,
+                    "count": 3
+                }
+            }
+        },
+        "storyId": null,
+        "mapMark": null,
+        "source": [
+            {
+                "name": "Domain of Mastery: Sublime Turning",
+                "type": "domain",
+                "days": [
+                    "monday",
+                    "thursday",
+                    "sunday"
+                ]
+            }
+        ],
+        "additions": {
+            "requiredBy": {
+                "avatar": [
+                    {
+                        "id": 10000102,
+                        "name": "Mualani",
+                        "rank": 5,
+                        "icon": "UI_AvatarIcon_Mualani"
+                    }
+                ]
+            },
+            "droppedBy": null
+        },
+        "icon": "UI_ItemIcon_104348",
+        "rank": 3,
+        "route": "Guide to Contention",
+        "_id": "104348",
+        "id": "guide_to_contention"
+    },
+    {
+        "name": "Philosophies of Contention",
+        "description": "Talent Level-Up material.\\nContention is the principle by which all is weighed in the Nation of Pyro.\\nIts purpose is to make yourself stronger. After the outcome of a competition has been decided, the victor gains the confidence to be sure of their direction, while the loser gains insights on how they must become stronger. Beyond winning or losing, this is the true meaning of contention.",
+        "type": "Character Talent Material",
+        "recipe": {
+            "13032": {
+                "104348": {
+                    "name": "Guide to Contention",
+                    "icon": "UI_ItemIcon_104348",
+                    "rank": 3,
+                    "count": 3
+                }
+            }
+        },
+        "storyId": null,
+        "mapMark": null,
+        "source": [
+            {
+                "name": "Domain of Mastery: Sublime Turning",
+                "type": "domain",
+                "days": [
+                    "monday",
+                    "thursday",
+                    "sunday"
+                ]
+            }
+        ],
+        "additions": {
+            "requiredBy": {
+                "avatar": [
+                    {
+                        "id": 10000102,
+                        "name": "Mualani",
+                        "rank": 5,
+                        "icon": "UI_AvatarIcon_Mualani"
+                    }
+                ]
+            },
+            "droppedBy": null
+        },
+        "icon": "UI_ItemIcon_104349",
+        "rank": 4,
+        "route": "Philosophies of Contention",
+        "_id": "104349",
+        "id": "philosophies_of_contention"
+    },
+    {
+        "name": "Teachings of Kindling",
+        "description": "Talent Level-Up material.\\nOffering up kindling is the established rule of the Nation of Pyro.\\nFor something gained, something must be given. If you wish to obtain something, you must first pay the corresponding price, just like the offerings that should be made as kindling in the process of incineration.",
+        "type": "Character Talent Material",
+        "recipe": null,
+        "storyId": null,
+        "mapMark": null,
+        "source": [
+            {
+                "name": "Exchanged in the Gift Shop",
+                "type": "single"
+            },
+            {
+                "name": "Domain of Mastery: Myriad Illusions",
+                "type": "domain",
+                "days": [
+                    "tuesday",
+                    "friday",
+                    "sunday"
+                ]
+            }
+        ],
+        "additions": {
+            "requiredBy": {
+                "avatar": [
+                    {
+                        "id": 10000101,
+                        "name": "Kinich",
+                        "rank": 5,
+                        "icon": "UI_AvatarIcon_Kinich"
+                    },
+                    {
+                        "id": 10000103,
+                        "name": "Xilonen",
+                        "rank": 5,
+                        "icon": "UI_AvatarIcon_Xilonen"
+                    }
+                ]
+            },
+            "droppedBy": null
+        },
+        "icon": "UI_ItemIcon_104350",
+        "rank": 2,
+        "route": "Teachings of Kindling",
+        "_id": "104350",
+        "id": "teachings_of_kindling"
+    },
+    {
+        "name": "Guide to Kindling",
+        "description": "Talent Level-Up material.\\nOffering up kindling is the established rule of the Nation of Pyro.\\nTo acquire a certain amount of something, one must first pay the corresponding price. Sometimes, you may end up paying too much to obtain something; while other times, you may pay too little, and lose it as a result. Understanding how to strike this balance between giving and receiving is one of the meanings of offering kindling.",
+        "type": "Character Talent Material",
+        "recipe": {
+            "13033": {
+                "104350": {
+                    "name": "Teachings of Kindling",
+                    "icon": "UI_ItemIcon_104350",
+                    "rank": 2,
+                    "count": 3
+                }
+            }
+        },
+        "storyId": null,
+        "mapMark": null,
+        "source": [
+            {
+                "name": "Domain of Mastery: Myriad Illusions",
+                "type": "domain",
+                "days": [
+                    "tuesday",
+                    "friday",
+                    "sunday"
+                ]
+            }
+        ],
+        "additions": {
+            "requiredBy": {
+                "avatar": [
+                    {
+                        "id": 10000101,
+                        "name": "Kinich",
+                        "rank": 5,
+                        "icon": "UI_AvatarIcon_Kinich"
+                    },
+                    {
+                        "id": 10000103,
+                        "name": 2515292882,
+                        "rank": 5,
+                        "icon": "UI_AvatarIcon_Xilonen"
+                    }
+                ]
+            },
+            "droppedBy": null
+        },
+        "icon": "UI_ItemIcon_104351",
+        "rank": 3,
+        "route": "Guide to Kindling",
+        "_id": "104351",
+        "id": "guide_to_kindling"
+    },
+    {
+        "name": "Philosophies of Kindling",
+        "description": "Talent Level-Up material.\\nOffering up kindling is the established rule of the Nation of Pyro.\\nWhat is meant by offering kindling is to offer up a sacrifice before one obtains something, though it does not always guarantee a response or return. Its true meaning lies in paying a price without expecting a reward — for in the end, the day when the fruits will be reaped is sure to come.",
+        "type": "Character Talent Material",
+        "recipe": {
+            "13034": {
+                "104351": {
+                    "name": "Guide to Kindling",
+                    "icon": "UI_ItemIcon_104351",
+                    "rank": 3,
+                    "count": 3
+                }
+            }
+        },
+        "storyId": null,
+        "mapMark": null,
+        "source": [
+            {
+                "name": "Domain of Mastery: Myriad Illusions",
+                "type": "domain",
+                "days": [
+                    "tuesday",
+                    "friday",
+                    "sunday"
+                ]
+            }
+        ],
+        "additions": {
+            "requiredBy": {
+                "avatar": [
+                    {
+                        "id": 10000101,
+                        "name": "Kinich",
+                        "rank": 5,
+                        "icon": "UI_AvatarIcon_Kinich"
+                    },
+                    {
+                        "id": 10000103,
+                        "name": 2515292882,
+                        "rank": 5,
+                        "icon": "UI_AvatarIcon_Xilonen"
+                    }
+                ]
+            },
+            "droppedBy": null
+        },
+        "icon": "UI_ItemIcon_104352",
+        "rank": 4,
+        "route": "Philosophies of Kindling",
+        "_id": "104352",
+        "id": "philosophies_of_kindling"
+    },
+    {
+        "name": "Teachings of Conflict",
+        "description": "Talent Level-Up material.\\nConflict is considered reason in the Nation of Pyro.\\nRather than avoiding conflict, one should face confrontations head-on. Once the outcome has been made manifest, the path forward should be determined accordingly.",
+        "type": "Character Talent Material",
+        "recipe": null,
+        "storyId": null,
+        "mapMark": null,
+        "source": [
+            {
+                "name": "Exchanged in the Gift Shop",
+                "type": "single"
+            },
+            {
+                "name": "Domain of Mastery: Return",
+                "type": "domain",
+                "days": [
+                    "wednesday",
+                    "saturday",
+                    "sunday"
+                ]
+            }
+        ],
+        "additions": {
+            "requiredBy": {
+                "avatar": [
+                    {
+                        "id": 10000100,
+                        "name": "Kachina",
+                        "rank": 4,
+                        "icon": "UI_AvatarIcon_Kachina"
+                    }
+                ]
+            },
+            "droppedBy": null
+        },
+        "icon": "UI_ItemIcon_104353",
+        "rank": 2,
+        "route": "Teachings of Conflict",
+        "_id": "104353",
+        "id": "teachings_of_conflict"
+    },
+    {
+        "name": "Guide to Conflict",
+        "description": "Talent Level-Up material.\\nConflict is considered reason in the Nation of Pyro.\\nConflicts can always be resolved by greater powers. This fact means that they can always be managed, as opposed to developing into something uncontrollable. Conflict is also a kind of limitation, preventing people from endless shirking of responsibilities without weighing the costs. It demands that participants settle their scores decisively and efficiently.",
+        "type": "Character Talent Material",
+        "recipe": {
+            "13035": {
+                "104353": {
+                    "name": "Teachings of Conflict",
+                    "icon": "UI_ItemIcon_104353",
+                    "rank": 2,
+                    "count": 3
+                }
+            }
+        },
+        "storyId": null,
+        "mapMark": null,
+        "source": [
+            {
+                "name": "Domain of Mastery: Return",
+                "type": "domain",
+                "days": [
+                    "wednesday",
+                    "saturday",
+                    "sunday"
+                ]
+            }
+        ],
+        "additions": {
+            "requiredBy": {
+                "avatar": [
+                    {
+                        "id": 10000100,
+                        "name": "Kachina",
+                        "rank": 4,
+                        "icon": "UI_AvatarIcon_Kachina"
+                    }
+                ]
+            },
+            "droppedBy": null
+        },
+        "icon": "UI_ItemIcon_104354",
+        "rank": 3,
+        "route": "Guide to Conflict",
+        "_id": "104354",
+        "id": "guide_to_conflict"
+    },
+    {
+        "name": "Philosophies of Conflict",
+        "description": "Talent Level-Up material.\\nConflict is considered reason in the Nation of Pyro.\\nThe premise of conflict is that all parties involved must confront their own desires with the utmost sincerity. Only then, amid the fight or debate, can they remain mindful of what they wish to achieve and stay true to their original objectives.",
+        "type": "Character Talent Material",
+        "recipe": {
+            "13036": {
+                "104354": {
+                    "name": "Guide to Conflict",
+                    "icon": "UI_ItemIcon_104354",
+                    "rank": 3,
+                    "count": 3
+                }
+            }
+        },
+        "storyId": null,
+        "mapMark": null,
+        "source": [
+            {
+                "name": "Domain of Mastery: Return",
+                "type": "domain",
+                "days": [
+                    "wednesday",
+                    "saturday",
+                    "sunday"
+                ]
+            }
+        ],
+        "additions": {
+            "requiredBy": {
+                "avatar": [
+                    {
+                        "id": 10000100,
+                        "name": "Kachina",
+                        "rank": 4,
+                        "icon": "UI_AvatarIcon_Kachina"
+                    }
+                ]
+            },
+            "droppedBy": null
+        },
+        "icon": "UI_ItemIcon_104355",
+        "rank": 4,
+        "route": "Philosophies of Conflict",
+        "_id": "104355",
+        "id": "philosophies_of_conflict"
+    },
+    {
         "name": "Slime Condensate",
         "description": "A thick coating found on slimes. Most commonly seen material in elemental workshops.",
         "type": "Character and Weapon Enhancement Material",
@@ -21909,6 +22776,799 @@
         "id": "artificed_dynamic_gear"
     },
     {
+        "name": "Juvenile Fang",
+        "description": "A tooth that fell from a Natlan Saurian.\\nIt looks like it belonged to a juvenile creature. If there was a way to determine the age of its previous owner, perhaps it would show that they had not yet roamed the world for long.",
+        "type": "Character and Weapon Enhancement Material",
+        "recipe": null,
+        "storyId": null,
+        "mapMark": null,
+        "source": [
+            {
+                "name": "Dropped by Natlan Saurians",
+                "type": "single"
+            },
+            {
+                "name": "Stardust Exchange",
+                "type": "single"
+            }
+        ],
+        "additions": {
+            "requiredBy": {
+                "avatar": [
+                    {
+                        "id": 10000101,
+                        "name": "Kinich",
+                        "rank": 5,
+                        "icon": "UI_AvatarIcon_Kinich"
+                    }
+                ],
+                "weapon": [
+                    {
+                        "id": 11431,
+                        "name": "Flute of Ezpitzal",
+                        "rank": 4,
+                        "icon": "UI_EquipIcon_Sword_Isikhulu"
+                    },
+                    {
+                        "id": 12430,
+                        "name": "Fruitful Hook",
+                        "rank": 4,
+                        "icon": "UI_EquipIcon_Claymore_Umpakati"
+                    },
+                    {
+                        "id": 14427,
+                        "name": "Ash-Graven Drinking Horn",
+                        "rank": 4,
+                        "icon": "UI_EquipIcon_Catalyst_ConchSprayer"
+                    },
+                    {
+                        "id": 15431,
+                        "name": "Chain Breaker",
+                        "rank": 4,
+                        "icon": "UI_EquipIcon_Bow_Isikhulu"
+                    },
+                    {
+                        "id": 11516,
+                        "name": "Peak Patrol Song",
+                        "rank": 5,
+                        "icon": "UI_EquipIcon_Sword_XochitlsTube"
+                    },
+                    {
+                        "id": 14516,
+                        "name": "Surf's Up",
+                        "rank": 5,
+                        "icon": "UI_EquipIcon_Catalyst_MechaPufferfish"
+                    }
+                ]
+            },
+            "droppedBy": [
+                {
+                    "id": 26200101,
+                    "name": "Tepetlisaur Whelp",
+                    "icon": "UI_MonsterIcon_Natsaurus_Drillhead_Small"
+                },
+                {
+                    "id": 26200201,
+                    "name": "Tepetlisaurus",
+                    "icon": "UI_MonsterIcon_Natsaurus_Drillhead_Normal"
+                },
+                {
+                    "id": 26210101,
+                    "name": "Koholasaur Whelp",
+                    "icon": "UI_MonsterIcon_Natsaurus_Mosasaurus_Small"
+                },
+                {
+                    "id": 26210201,
+                    "name": "Koholasaurus",
+                    "icon": "UI_MonsterIcon_Natsaurus_Mosasaurus_Normal"
+                },
+                {
+                    "id": 26220101,
+                    "name": "Yumkasaur Whelp",
+                    "icon": "UI_MonsterIcon_Natsaurus_Hookwalker_Small"
+                },
+                {
+                    "id": 26220201,
+                    "name": "Yumkasaurus",
+                    "icon": "UI_MonsterIcon_Natsaurus_Hookwalker_Normal"
+                }
+            ]
+        },
+        "icon": "UI_ItemIcon_112101",
+        "rank": 1,
+        "route": "Juvenile Fang",
+        "_id": "112101",
+        "id": "juvenile_fang"
+    },
+    {
+        "name": "Seasoned Fang",
+        "description": "A sturdy tooth that fell from a Natlan Saurian.\\nWear and tear bear witness to the experiences and battles of its previous owner. Among the many Saurians of Natlan, one with such a tooth must have been considered a formidable warrior indeed.",
+        "type": "Character and Weapon Enhancement Material",
+        "recipe": {
+            "11205": {
+                "112101": {
+                    "name": "Juvenile Fang",
+                    "icon": "UI_ItemIcon_112101",
+                    "rank": 1,
+                    "count": 3
+                }
+            }
+        },
+        "storyId": null,
+        "mapMark": null,
+        "source": [
+            {
+                "name": "Dropped by Lv. 40+ Natlan Saurians",
+                "type": "single"
+            },
+            {
+                "name": "Stardust Exchange",
+                "type": "single"
+            }
+        ],
+        "additions": {
+            "requiredBy": {
+                "avatar": [
+                    {
+                        "id": 10000101,
+                        "name": "Kinich",
+                        "rank": 5,
+                        "icon": "UI_AvatarIcon_Kinich"
+                    }
+                ],
+                "weapon": [
+                    {
+                        "id": 11431,
+                        "name": "Flute of Ezpitzal",
+                        "rank": 4,
+                        "icon": "UI_EquipIcon_Sword_Isikhulu"
+                    },
+                    {
+                        "id": 12430,
+                        "name": "Fruitful Hook",
+                        "rank": 4,
+                        "icon": "UI_EquipIcon_Claymore_Umpakati"
+                    },
+                    {
+                        "id": 14427,
+                        "name": "Ash-Graven Drinking Horn",
+                        "rank": 4,
+                        "icon": "UI_EquipIcon_Catalyst_ConchSprayer"
+                    },
+                    {
+                        "id": 15431,
+                        "name": "Chain Breaker",
+                        "rank": 4,
+                        "icon": "UI_EquipIcon_Bow_Isikhulu"
+                    },
+                    {
+                        "id": 11516,
+                        "name": "Peak Patrol Song",
+                        "rank": 5,
+                        "icon": "UI_EquipIcon_Sword_XochitlsTube"
+                    },
+                    {
+                        "id": 14516,
+                        "name": "Surf's Up",
+                        "rank": 5,
+                        "icon": "UI_EquipIcon_Catalyst_MechaPufferfish"
+                    }
+                ]
+            },
+            "droppedBy": [
+                {
+                    "id": 26200101,
+                    "name": "Tepetlisaur Whelp",
+                    "icon": "UI_MonsterIcon_Natsaurus_Drillhead_Small"
+                },
+                {
+                    "id": 26200201,
+                    "name": "Tepetlisaurus",
+                    "icon": "UI_MonsterIcon_Natsaurus_Drillhead_Normal"
+                },
+                {
+                    "id": 26210101,
+                    "name": "Koholasaur Whelp",
+                    "icon": "UI_MonsterIcon_Natsaurus_Mosasaurus_Small"
+                },
+                {
+                    "id": 26210201,
+                    "name": "Koholasaurus",
+                    "icon": "UI_MonsterIcon_Natsaurus_Mosasaurus_Normal"
+                },
+                {
+                    "id": 26220101,
+                    "name": "Yumkasaur Whelp",
+                    "icon": "UI_MonsterIcon_Natsaurus_Hookwalker_Small"
+                },
+                {
+                    "id": 26220201,
+                    "name": "Yumkasaurus",
+                    "icon": "UI_MonsterIcon_Natsaurus_Hookwalker_Normal"
+                }
+            ]
+        },
+        "icon": "UI_ItemIcon_112102",
+        "rank": 2,
+        "route": "Seasoned Fang",
+        "_id": "112102",
+        "id": "seasoned_fang"
+    },
+    {
+        "name": "Tyrant's Fang",
+        "description": "A sharp tooth that fell from a mighty Natlan Saurian.\\nIts serrated edge and fearsome shape attest to the ferocity of its owner in battle. Among the many Saurians of Natlan, one with such a tooth must have been a ruthless tyrant indeed.",
+        "type": "Character and Weapon Enhancement Material",
+        "recipe": {
+            "11206": {
+                "112102": {
+                    "name": "Seasoned Fang",
+                    "icon": "UI_ItemIcon_112102",
+                    "rank": 2,
+                    "count": 3
+                }
+            }
+        },
+        "storyId": null,
+        "mapMark": null,
+        "source": [
+            {
+                "name": "Dropped by Lv. 60+ Natlan Saurians",
+                "type": "single"
+            }
+        ],
+        "additions": {
+            "requiredBy": {
+                "avatar": [
+                    {
+                        "id": 10000101,
+                        "name": "Kinich",
+                        "rank": 5,
+                        "icon": "UI_AvatarIcon_Kinich"
+                    }
+                ],
+                "weapon": [
+                    {
+                        "id": 11431,
+                        "name": "Flute of Ezpitzal",
+                        "rank": 4,
+                        "icon": "UI_EquipIcon_Sword_Isikhulu"
+                    },
+                    {
+                        "id": 12430,
+                        "name": "Fruitful Hook",
+                        "rank": 4,
+                        "icon": "UI_EquipIcon_Claymore_Umpakati"
+                    },
+                    {
+                        "id": 14427,
+                        "name": "Ash-Graven Drinking Horn",
+                        "rank": 4,
+                        "icon": "UI_EquipIcon_Catalyst_ConchSprayer"
+                    },
+                    {
+                        "id": 15431,
+                        "name": "Chain Breaker",
+                        "rank": 4,
+                        "icon": "UI_EquipIcon_Bow_Isikhulu"
+                    },
+                    {
+                        "id": 11516,
+                        "name": "Peak Patrol Song",
+                        "rank": 5,
+                        "icon": "UI_EquipIcon_Sword_XochitlsTube"
+                    },
+                    {
+                        "id": 14516,
+                        "name": "Surf's Up",
+                        "rank": 5,
+                        "icon": "UI_EquipIcon_Catalyst_MechaPufferfish"
+                    }
+                ]
+            },
+            "droppedBy": [
+                {
+                    "id": 26200101,
+                    "name": "Tepetlisaur Whelp",
+                    "icon": "UI_MonsterIcon_Natsaurus_Drillhead_Small"
+                },
+                {
+                    "id": 26200201,
+                    "name": "Tepetlisaurus",
+                    "icon": "UI_MonsterIcon_Natsaurus_Drillhead_Normal"
+                },
+                {
+                    "id": 26210101,
+                    "name": "Koholasaur Whelp",
+                    "icon": "UI_MonsterIcon_Natsaurus_Mosasaurus_Small"
+                },
+                {
+                    "id": 26210201,
+                    "name": "Koholasaurus",
+                    "icon": "UI_MonsterIcon_Natsaurus_Mosasaurus_Normal"
+                },
+                {
+                    "id": 26220101,
+                    "name": "Yumkasaur Whelp",
+                    "icon": "UI_MonsterIcon_Natsaurus_Hookwalker_Small"
+                },
+                {
+                    "id": 26220201,
+                    "name": "Yumkasaurus",
+                    "icon": "UI_MonsterIcon_Natsaurus_Hookwalker_Normal"
+                }
+            ]
+        },
+        "icon": "UI_ItemIcon_112103",
+        "rank": 3,
+        "route": "Tyrant's Fang",
+        "_id": "112103",
+        "id": "tyrant's_fang"
+    },
+    {
+        "name": "Sentry's Wooden Whistle",
+        "description": "The symbol of a Natlan tribal sentry.\\nWarriors are not born as warriors. They must first acquire the skills of combat by learning under the tutelage of those who have already done so. This is the origin of the trainee position of sentry.",
+        "type": "Character and Weapon Enhancement Material",
+        "recipe": null,
+        "storyId": null,
+        "mapMark": null,
+        "source": [
+            {
+                "name": "Dropped by Sauroform Tribal Warriors",
+                "type": "single"
+            },
+            {
+                "name": "Stardust Exchange",
+                "type": "single"
+            }
+        ],
+        "additions": {
+            "requiredBy": {
+                "avatar": [
+                    {
+                        "id": 10000100,
+                        "name": "Kachina",
+                        "rank": 4,
+                        "icon": "UI_AvatarIcon_Kachina"
+                    },
+                    {
+                        "id": 10000102,
+                        "name": "Mualani",
+                        "rank": 5,
+                        "icon": "UI_AvatarIcon_Mualani"
+                    },
+                    {
+                        "id": 10000103,
+                        "name": "Xilonen",
+                        "rank": 5,
+                        "icon": "UI_AvatarIcon_Xilonen"
+                    }
+                ],
+                "weapon": [
+                    {
+                        "id": 11430,
+                        "name": "Sturdy Bone",
+                        "rank": 4,
+                        "icon": "UI_EquipIcon_Sword_Umpakati"
+                    },
+                    {
+                        "id": 12431,
+                        "name": "Earth Shaker",
+                        "rank": 4,
+                        "icon": "UI_EquipIcon_Claymore_Isikhulu"
+                    },
+                    {
+                        "id": 13431,
+                        "name": "Footprint of the Rainbow",
+                        "rank": 4,
+                        "icon": "UI_EquipIcon_Pole_Isikhulu"
+                    },
+                    {
+                        "id": 12513,
+                        "name": "Fang of the Mountain King",
+                        "rank": 5,
+                        "icon": "UI_EquipIcon_Claymore_EmeraldSword"
+                    }
+                ]
+            },
+            "droppedBy": [
+                {
+                    "id": 25501101,
+                    "name": "Forged Sand Interrogator",
+                    "icon": "UI_MonsterIcon_Human_Female_NoWeapon_Drillhead"
+                },
+                {
+                    "id": 25504101,
+                    "name": "Forged Sand Shieldbreaker",
+                    "icon": "UI_MonsterIcon_Human_MuscleMan_Claymore_Drillhead"
+                },
+                {
+                    "id": 25505101,
+                    "name": "Forged Sand Javelineer",
+                    "icon": "UI_MonsterIcon_Human_Fat_NoWeapon_Drillhead"
+                },
+                {
+                    "id": 25501201,
+                    "name": "Swiftstep Seeker",
+                    "icon": "UI_MonsterIcon_Human_Female_Sword_Hookwalker"
+                },
+                {
+                    "id": 25502101,
+                    "name": "Swiftstep Storm Scout",
+                    "icon": "UI_MonsterIcon_Human_Male_Sword_Hookwalker"
+                },
+                {
+                    "id": 25503101,
+                    "name": "Swiftstep Armed Courier",
+                    "icon": "UI_MonsterIcon_Human_Male_Claymore_Hookwalker"
+                },
+                {
+                    "id": 25500101,
+                    "name": "Flowing Blade Skirmisher",
+                    "icon": "UI_MonsterIcon_Human_Female_NoWeapon_Mosasaurus"
+                },
+                {
+                    "id": 25502201,
+                    "name": "Flowing Blade Grease-Saw",
+                    "icon": "UI_MonsterIcon_Human_Male_Sword_Mosasaurus"
+                },
+                {
+                    "id": 25505201,
+                    "name": "Flowing Blade Harpoon-Thrower",
+                    "icon": "UI_MonsterIcon_Human_Fat_NoWeapon_Mosasaurus"
+                },
+                {
+                    "id": 25510101,
+                    "name": "Tepetlisaurus Warrior: Shard Striker",
+                    "icon": "UI_MonsterIcon_Tribalwarrior_Powermaul_Drillhead"
+                },
+                {
+                    "id": 25510201,
+                    "name": "Tepetlisaurus Warrior: Rockbreaker Blade",
+                    "icon": "UI_MonsterIcon_Tribalwarrior_Chainsword_Drillhead"
+                },
+                {
+                    "id": 25510301,
+                    "name": "Yumkasaurus Warrior: Whirling Leaves",
+                    "icon": "UI_MonsterIcon_Tribalwarrior_Chainsword_Hookwalker"
+                },
+                {
+                    "id": 25510401,
+                    "name": "Yumkasaurus Warrior: Flowing Skyfire",
+                    "icon": "UI_MonsterIcon_Tribalwarrior_Launcher_Hookwalker"
+                },
+                {
+                    "id": 25510501,
+                    "name": "Koholasaurus Warrior: Waveshuttler",
+                    "icon": "UI_MonsterIcon_Tribalwarrior_Slingshot_Mosasaurus"
+                },
+                {
+                    "id": 25510601,
+                    "name": "Koholasaurus Warrior: Reefsplitter",
+                    "icon": "UI_MonsterIcon_Tribalwarrior_Launcher_Mosasaurus"
+                }
+            ]
+        },
+        "icon": "UI_ItemIcon_112104",
+        "rank": 1,
+        "route": "Sentry's Wooden Whistle",
+        "_id": "112104",
+        "id": "sentry's_wooden_whistle"
+    },
+    {
+        "name": "Warrior's Metal Whistle",
+        "description": "The symbol of a Natlan tribal warrior.\\nA metal whistle that is given to individuals who have been officially recognized as tribal warriors. It is used to communicate and alert others to danger by those that patrol the tribe's vicinity. This is a duty that falls upon the warriors of the tribe.",
+        "type": "Character and Weapon Enhancement Material",
+        "recipe": {
+            "11207": {
+                "112104": {
+                    "name": "Sentry's Wooden Whistle",
+                    "icon": "UI_ItemIcon_112104",
+                    "rank": 1,
+                    "count": 3
+                }
+            }
+        },
+        "storyId": null,
+        "mapMark": null,
+        "source": [
+            {
+                "name": "Dropped by Lv. 40+ Sauroform Tribal Warriors",
+                "type": "single"
+            },
+            {
+                "name": "Stardust Exchange",
+                "type": "single"
+            }
+        ],
+        "additions": {
+            "requiredBy": {
+                "avatar": [
+                    {
+                        "id": 10000100,
+                        "name": "Kachina",
+                        "rank": 4,
+                        "icon": "UI_AvatarIcon_Kachina"
+                    },
+                    {
+                        "id": 10000102,
+                        "name": "Mualani",
+                        "rank": 5,
+                        "icon": "UI_AvatarIcon_Mualani"
+                    },
+                    {
+                        "id": 10000103,
+                        "name": "Xilonen",
+                        "rank": 5,
+                        "icon": "UI_AvatarIcon_Xilonen"
+                    }
+                ],
+                "weapon": [
+                    {
+                        "id": 11430,
+                        "name": "Sturdy Bone",
+                        "rank": 4,
+                        "icon": "UI_EquipIcon_Sword_Umpakati"
+                    },
+                    {
+                        "id": 12431,
+                        "name": "Earth Shaker",
+                        "rank": 4,
+                        "icon": "UI_EquipIcon_Claymore_Isikhulu"
+                    },
+                    {
+                        "id": 13431,
+                        "name": "Footprint of the Rainbow",
+                        "rank": 4,
+                        "icon": "UI_EquipIcon_Pole_Isikhulu"
+                    },
+                    {
+                        "id": 12513,
+                        "name": "Fang of the Mountain King",
+                        "rank": 5,
+                        "icon": "UI_EquipIcon_Claymore_EmeraldSword"
+                    }
+                ]
+            },
+            "droppedBy": [
+                {
+                    "id": 25501101,
+                    "name": "Forged Sand Interrogator",
+                    "icon": "UI_MonsterIcon_Human_Female_NoWeapon_Drillhead"
+                },
+                {
+                    "id": 25504101,
+                    "name": "Forged Sand Shieldbreaker",
+                    "icon": "UI_MonsterIcon_Human_MuscleMan_Claymore_Drillhead"
+                },
+                {
+                    "id": 25505101,
+                    "name": "Forged Sand Javelineer",
+                    "icon": "UI_MonsterIcon_Human_Fat_NoWeapon_Drillhead"
+                },
+                {
+                    "id": 25501201,
+                    "name": "Swiftstep Seeker",
+                    "icon": "UI_MonsterIcon_Human_Female_Sword_Hookwalker"
+                },
+                {
+                    "id": 25502101,
+                    "name": "Swiftstep Storm Scout",
+                    "icon": "UI_MonsterIcon_Human_Male_Sword_Hookwalker"
+                },
+                {
+                    "id": 25503101,
+                    "name": "Swiftstep Armed Courier",
+                    "icon": "UI_MonsterIcon_Human_Male_Claymore_Hookwalker"
+                },
+                {
+                    "id": 25500101,
+                    "name": "Flowing Blade Skirmisher",
+                    "icon": "UI_MonsterIcon_Human_Female_NoWeapon_Mosasaurus"
+                },
+                {
+                    "id": 25502201,
+                    "name": "Flowing Blade Grease-Saw",
+                    "icon": "UI_MonsterIcon_Human_Male_Sword_Mosasaurus"
+                },
+                {
+                    "id": 25505201,
+                    "name": "Flowing Blade Harpoon-Thrower",
+                    "icon": "UI_MonsterIcon_Human_Fat_NoWeapon_Mosasaurus"
+                },
+                {
+                    "id": 25510101,
+                    "name": "Tepetlisaurus Warrior: Shard Striker",
+                    "icon": "UI_MonsterIcon_Tribalwarrior_Powermaul_Drillhead"
+                },
+                {
+                    "id": 25510201,
+                    "name": "Tepetlisaurus Warrior: Rockbreaker Blade",
+                    "icon": "UI_MonsterIcon_Tribalwarrior_Chainsword_Drillhead"
+                },
+                {
+                    "id": 25510301,
+                    "name": "Yumkasaurus Warrior: Whirling Leaves",
+                    "icon": "UI_MonsterIcon_Tribalwarrior_Chainsword_Hookwalker"
+                },
+                {
+                    "id": 25510401,
+                    "name": "Yumkasaurus Warrior: Flowing Skyfire",
+                    "icon": "UI_MonsterIcon_Tribalwarrior_Launcher_Hookwalker"
+                },
+                {
+                    "id": 25510501,
+                    "name": "Koholasaurus Warrior: Waveshuttler",
+                    "icon": "UI_MonsterIcon_Tribalwarrior_Slingshot_Mosasaurus"
+                },
+                {
+                    "id": 25510601,
+                    "name": "Koholasaurus Warrior: Reefsplitter",
+                    "icon": "UI_MonsterIcon_Tribalwarrior_Launcher_Mosasaurus"
+                }
+            ]
+        },
+        "icon": "UI_ItemIcon_112105",
+        "rank": 2,
+        "route": "Warrior's Metal Whistle",
+        "_id": "112105",
+        "id": "warrior's_metal_whistle"
+    },
+    {
+        "name": "Saurian-Crowned Warrior's Golden Whistle",
+        "description": "Among Natlan's tribes, this is the symbol of a mighty, Saurian-Crowned warrior.\\nA golden whistle that is bestowed only upon those who have won great honor for the tribe and shown valor of the highest order. Its symbolic significance now outweighs its practical use, for a Saurian-Crowned warrior is able to handle most crises alone.",
+        "type": "Character and Weapon Enhancement Material",
+        "recipe": {
+            "11208": {
+                "112105": {
+                    "name": "Warrior's Metal Whistle",
+                    "icon": "UI_ItemIcon_112105",
+                    "rank": 2,
+                    "count": 3
+                }
+            }
+        },
+        "storyId": null,
+        "mapMark": null,
+        "source": [
+            {
+                "name": "Dropped by Lv. 60+ Sauroform Tribal Warriors",
+                "type": "single"
+            }
+        ],
+        "additions": {
+            "requiredBy": {
+                "avatar": [
+                    {
+                        "id": 10000100,
+                        "name": "Kachina",
+                        "rank": 4,
+                        "icon": "UI_AvatarIcon_Kachina"
+                    },
+                    {
+                        "id": 10000102,
+                        "name": "Mualani",
+                        "rank": 5,
+                        "icon": "UI_AvatarIcon_Mualani"
+                    },
+                    {
+                        "id": 10000103,
+                        "name": "Xilonen",
+                        "rank": 5,
+                        "icon": "UI_AvatarIcon_Xilonen"
+                    }
+                ],
+                "weapon": [
+                    {
+                        "id": 11430,
+                        "name": "Sturdy Bone",
+                        "rank": 4,
+                        "icon": "UI_EquipIcon_Sword_Umpakati"
+                    },
+                    {
+                        "id": 12431,
+                        "name": "Earth Shaker",
+                        "rank": 4,
+                        "icon": "UI_EquipIcon_Claymore_Isikhulu"
+                    },
+                    {
+                        "id": 13431,
+                        "name": "Footprint of the Rainbow",
+                        "rank": 4,
+                        "icon": "UI_EquipIcon_Pole_Isikhulu"
+                    },
+                    {
+                        "id": 12513,
+                        "name": "Fang of the Mountain King",
+                        "rank": 5,
+                        "icon": "UI_EquipIcon_Claymore_EmeraldSword"
+                    }
+                ]
+            },
+            "droppedBy": [
+                {
+                    "id": 25501101,
+                    "name": "Forged Sand Interrogator",
+                    "icon": "UI_MonsterIcon_Human_Female_NoWeapon_Drillhead"
+                },
+                {
+                    "id": 25504101,
+                    "name": "Forged Sand Shieldbreaker",
+                    "icon": "UI_MonsterIcon_Human_MuscleMan_Claymore_Drillhead"
+                },
+                {
+                    "id": 25505101,
+                    "name": "Forged Sand Javelineer",
+                    "icon": "UI_MonsterIcon_Human_Fat_NoWeapon_Drillhead"
+                },
+                {
+                    "id": 25501201,
+                    "name": "Swiftstep Seeker",
+                    "icon": "UI_MonsterIcon_Human_Female_Sword_Hookwalker"
+                },
+                {
+                    "id": 25502101,
+                    "name": "Swiftstep Storm Scout",
+                    "icon": "UI_MonsterIcon_Human_Male_Sword_Hookwalker"
+                },
+                {
+                    "id": 25503101,
+                    "name": "Swiftstep Armed Courier",
+                    "icon": "UI_MonsterIcon_Human_Male_Claymore_Hookwalker"
+                },
+                {
+                    "id": 25500101,
+                    "name": "Flowing Blade Skirmisher",
+                    "icon": "UI_MonsterIcon_Human_Female_NoWeapon_Mosasaurus"
+                },
+                {
+                    "id": 25502201,
+                    "name": "Flowing Blade Grease-Saw",
+                    "icon": "UI_MonsterIcon_Human_Male_Sword_Mosasaurus"
+                },
+                {
+                    "id": 25505201,
+                    "name": "Flowing Blade Harpoon-Thrower",
+                    "icon": "UI_MonsterIcon_Human_Fat_NoWeapon_Mosasaurus"
+                },
+                {
+                    "id": 25510101,
+                    "name": "Tepetlisaurus Warrior: Shard Striker",
+                    "icon": "UI_MonsterIcon_Tribalwarrior_Powermaul_Drillhead"
+                },
+                {
+                    "id": 25510201,
+                    "name": "Tepetlisaurus Warrior: Rockbreaker Blade",
+                    "icon": "UI_MonsterIcon_Tribalwarrior_Chainsword_Drillhead"
+                },
+                {
+                    "id": 25510301,
+                    "name": "Yumkasaurus Warrior: Whirling Leaves",
+                    "icon": "UI_MonsterIcon_Tribalwarrior_Chainsword_Hookwalker"
+                },
+                {
+                    "id": 25510401,
+                    "name": "Yumkasaurus Warrior: Flowing Skyfire",
+                    "icon": "UI_MonsterIcon_Tribalwarrior_Launcher_Hookwalker"
+                },
+                {
+                    "id": 25510501,
+                    "name": "Koholasaurus Warrior: Waveshuttler",
+                    "icon": "UI_MonsterIcon_Tribalwarrior_Slingshot_Mosasaurus"
+                },
+                {
+                    "id": 25510601,
+                    "name": "Koholasaurus Warrior: Reefsplitter",
+                    "icon": "UI_MonsterIcon_Tribalwarrior_Launcher_Mosasaurus"
+                }
+            ]
+        },
+        "icon": "UI_ItemIcon_112106",
+        "rank": 3,
+        "route": "Saurian-Crowned Warrior's Golden Whistle",
+        "_id": "112106",
+        "id": "saurian-crowned_warrior's_golden_whistle"
+    },
+    {
         "name": "Hurricane Seed",
         "description": "The imploded form of an Anemo Hypostasis upon its defeat.\\nContains the essence of Anemo energy.\\nIt is said that the power to create hurricanes resides within its seemingly fragile body. This butterfly of pure Anemo energy must surely be waiting for the day when it can conjure up storms once again.",
         "type": "Character Level-Up Material",
@@ -25163,5 +26823,795 @@
         "route": "Emperor's Resolution",
         "_id": "113051",
         "id": "emperor's_resolution"
+    },
+    {
+        "name": "\"Tourbillon Device\"",
+        "description": "The core component of the Experimental Field Generator.\\nA precision-machined mechanical component that counteracts the effects of gravity via high-speed rotation. The revolution speed is so fast that it is almost impossible to capture with the naked eye.\\nThroughout its long history, the Fontaine Research Institute of Kinetic Energy Engineering has always warred against a flood that once washed countless lives away, and may yet cover the earth and sky one day far in the future, searching for a means to survive.\\nArkhium, with its immense energetic potential and power to shatter the shackles of the earth, was once considered the key to the gate of salvation.",
+        "type": "Character Level-Up Material",
+        "recipe": null,
+        "storyId": null,
+        "mapMark": null,
+        "source": [
+            {
+                "name": "Dropped by Lv. 30+ Experimental Field Generators",
+                "type": "single"
+            }
+        ],
+        "additions": {
+            "requiredBy": {
+                "avatar": [
+                    {
+                        "id": 10000086,
+                        "name": "Wriothesley",
+                        "rank": 5,
+                        "icon": "UI_AvatarIcon_Wriothesley"
+                    },
+                    {
+                        "id": 10000088,
+                        "name": "Charlotte",
+                        "rank": 4,
+                        "icon": "UI_AvatarIcon_Charlotte"
+                    }
+                ]
+            },
+            "droppedBy": [
+                {
+                    "id": 24080101,
+                    "name": "Experimental Field Generator",
+                    "icon": "UI_MonsterIcon_MachinaIustitia_Gravitas"
+                }
+            ]
+        },
+        "icon": "UI_ItemIcon_113052",
+        "rank": 4,
+        "route": "\"Tourbillon Device\"",
+        "_id": "113052",
+        "id": "\"tourbillon_device\""
+    },
+    {
+        "name": "Fontemer Unihorn",
+        "description": "The electricity-emitting section of the Millennial Pearl Seahorse, and its regalia, the symbol of its surpassing might — now snapped off amidst a clash against a mighty challenger.\\nAs the greatest predator that can arise from seahorses, this being's evolutionary journey is not the same as that experienced by other Fontemer Aberrants. It did not start from a base form before growing larger and stronger, but instead grew limbs and a horn that have no place on an ordinary seahorse. Even its musculature and skeleton have changed. It really seems to resemble a fantastical beast from legends of yore more than its original shape. In the imaginations of poets and authors, even seahorses can frolick upon the earth.",
+        "type": "Character Level-Up Material",
+        "recipe": null,
+        "storyId": null,
+        "mapMark": null,
+        "source": [
+            {
+                "name": "Dropped by Lv. 30+ Millennial Pearl Seahorses",
+                "type": "single"
+            }
+        ],
+        "additions": {
+            "requiredBy": {
+                "avatar": [
+                    {
+                        "id": 10000087,
+                        "name": "Neuvillette",
+                        "rank": 5,
+                        "icon": "UI_AvatarIcon_Neuvillette"
+                    },
+                    {
+                        "id": 10000090,
+                        "name": "Chevreuse",
+                        "rank": 4,
+                        "icon": "UI_AvatarIcon_Chevreuse"
+                    },
+                    {
+                        "id": 10000098,
+                        "name": "Clorinde",
+                        "rank": 5,
+                        "icon": "UI_AvatarIcon_Clorinde"
+                    }
+                ]
+            },
+            "droppedBy": [
+                {
+                    "id": 26180101,
+                    "name": "Millennial Pearl Seahorse",
+                    "icon": "UI_MonsterIcon_SeaHorse_Primo_Electric"
+                }
+            ]
+        },
+        "icon": "UI_ItemIcon_113053",
+        "rank": 4,
+        "route": "Fontemer Unihorn",
+        "_id": "113053",
+        "id": "fontemer_unihorn"
+    },
+    {
+        "name": "Lightless Silk String",
+        "description": "A slender strand that somehow ended up entangled on your weapon while fighting the All-Devouring Narwhal.\\nIn ancient Fontaine, some thought that Fortuna, which ruled the world, was woven from countless fibers, like the strings of a harp. Strings that resonate with the majestic music would bring happiness to all, while discord would destroy the fabric of the universe.",
+        "type": "Character Level-Up Material",
+        "recipe": {
+            "60801": {
+                "113021": {
+                    "name": "Dream Solvent",
+                    "icon": "UI_ItemIcon_113021",
+                    "rank": 4,
+                    "count": 1
+                },
+                "113055": {
+                    "name": "Lightless Eye of the Maelstrom",
+                    "icon": "UI_ItemIcon_113055",
+                    "rank": 5,
+                    "count": 1
+                }
+            },
+            "60802": {
+                "113021": {
+                    "name": "Dream Solvent",
+                    "icon": "UI_ItemIcon_113021",
+                    "rank": 4,
+                    "count": 1
+                },
+                "113056": {
+                    "name": "Lightless Mass",
+                    "icon": "UI_ItemIcon_113056",
+                    "rank": 5,
+                    "count": 1
+                }
+            }
+        },
+        "storyId": null,
+        "mapMark": null,
+        "source": [
+            {
+                "name": "Lv. 70+ All-Devouring Narwhal Challenge Reward",
+                "type": "single"
+            }
+        ],
+        "additions": {
+            "requiredBy": {
+                "avatar": [
+                    {
+                        "id": 10000088,
+                        "name": "Charlotte",
+                        "rank": 4,
+                        "icon": "UI_AvatarIcon_Charlotte"
+                    },
+                    {
+                        "id": 10000091,
+                        "name": "Navia",
+                        "rank": 5,
+                        "icon": "UI_AvatarIcon_Navia"
+                    },
+                    {
+                        "id": 10000094,
+                        "name": "Chiori",
+                        "rank": 5,
+                        "icon": "UI_AvatarIcon_Chiori"
+                    }
+                ]
+            },
+            "droppedBy": [
+                {
+                    "id": 29090101,
+                    "name": "All-Devouring Narwhal",
+                    "icon": "UI_MonsterIcon_Ptahur_Devourer"
+                }
+            ]
+        },
+        "icon": "UI_ItemIcon_113054",
+        "rank": 5,
+        "route": "Lightless Silk String",
+        "_id": "113054",
+        "id": "lightless_silk_string"
+    },
+    {
+        "name": "Lightless Eye of the Maelstrom",
+        "description": "A strange \"substance\" obtained from fighting against the All-Devouring Narwhal. Its actual weight far exceeds what would be expected given its size.\\nEverything gathers around heavy objects, just as gold attracts more than iron, or the ground more than in the breeze blowing above. Just as light cannot escape from the vortex of darkness, cause and effect is attached to fate, perhaps irreversibly so.",
+        "type": "Character Level-Up Material",
+        "recipe": {
+            "60803": {
+                "113021": {
+                    "name": "Dream Solvent",
+                    "icon": "UI_ItemIcon_113021",
+                    "rank": 4,
+                    "count": 1
+                },
+                "113054": {
+                    "name": "Lightless Silk String",
+                    "icon": "UI_ItemIcon_113054",
+                    "rank": 5,
+                    "count": 1
+                }
+            },
+            "60804": {
+                "113021": {
+                    "name": "Dream Solvent",
+                    "icon": "UI_ItemIcon_113021",
+                    "rank": 4,
+                    "count": 1
+                },
+                "113056": {
+                    "name": "Lightless Mass",
+                    "icon": "UI_ItemIcon_113056",
+                    "rank": 5,
+                    "count": 1
+                }
+            }
+        },
+        "storyId": null,
+        "mapMark": null,
+        "source": [
+            {
+                "name": "Lv. 70+ All-Devouring Narwhal Challenge Reward",
+                "type": "single"
+            }
+        ],
+        "additions": {
+            "requiredBy": {
+                "avatar": [
+                    {
+                        "id": 10000090,
+                        "name": "Chevreuse",
+                        "rank": 4,
+                        "icon": "UI_AvatarIcon_Chevreuse"
+                    },
+                    {
+                        "id": 10000093,
+                        "name": "Xianyun",
+                        "rank": 5,
+                        "icon": "UI_AvatarIcon_Liuyun"
+                    },
+                    {
+                        "id": 10000095,
+                        "name": "Sigewinne",
+                        "rank": 5,
+                        "icon": "UI_AvatarIcon_Sigewinne"
+                    }
+                ]
+            },
+            "droppedBy": [
+                {
+                    "id": 29090101,
+                    "name": "All-Devouring Narwhal",
+                    "icon": "UI_MonsterIcon_Ptahur_Devourer"
+                }
+            ]
+        },
+        "icon": "UI_ItemIcon_113055",
+        "rank": 5,
+        "route": "Lightless Eye of the Maelstrom",
+        "_id": "113055",
+        "id": "lightless_eye_of_the_maelstrom"
+    },
+    {
+        "name": "Lightless Mass",
+        "description": "A fragment produced from the intense battle against the All-Devouring Narwhal.\\nThe universe is a dark and cold place.\\nBut look carefully. Inside are always faint glimmers of light, like pearls gleaming from within the sand, splinters of diamond sprinkled over asphalt, lights lancing through the fog on a misty night, and sparks that ignite the brightest blazes.",
+        "type": "Character Level-Up Material",
+        "recipe": {
+            "60805": {
+                "113021": {
+                    "name": "Dream Solvent",
+                    "icon": "UI_ItemIcon_113021",
+                    "rank": 4,
+                    "count": 1
+                },
+                "113054": {
+                    "name": "Lightless Silk String",
+                    "icon": "UI_ItemIcon_113054",
+                    "rank": 5,
+                    "count": 1
+                }
+            },
+            "60806": {
+                "113021": {
+                    "name": "Dream Solvent",
+                    "icon": "UI_ItemIcon_113021",
+                    "rank": 4,
+                    "count": 1
+                },
+                "113055": {
+                    "name": "Lightless Eye of the Maelstrom",
+                    "icon": "UI_ItemIcon_113055",
+                    "rank": 5,
+                    "count": 1
+                }
+            }
+        },
+        "storyId": null,
+        "mapMark": null,
+        "source": [
+            {
+                "name": "Lv. 70+ All-Devouring Narwhal Challenge Reward",
+                "type": "single"
+            }
+        ],
+        "additions": {
+            "requiredBy": {
+                "avatar": [
+                    {
+                        "id": 10000089,
+                        "name": "Furina",
+                        "rank": 5,
+                        "icon": "UI_AvatarIcon_Furina"
+                    },
+                    {
+                        "id": 10000092,
+                        "name": "Gaming",
+                        "rank": 4,
+                        "icon": "UI_AvatarIcon_Gaming"
+                    },
+                    {
+                        "id": 10000102,
+                        "name": "Mualani",
+                        "rank": 5,
+                        "icon": "UI_AvatarIcon_Mualani"
+                    }
+                ]
+            },
+            "droppedBy": [
+                {
+                    "id": 29090101,
+                    "name": "All-Devouring Narwhal",
+                    "icon": "UI_MonsterIcon_Ptahur_Devourer"
+                }
+            ]
+        },
+        "icon": "UI_ItemIcon_113056",
+        "rank": 5,
+        "route": "Lightless Mass",
+        "_id": "113056",
+        "id": "lightless_mass"
+    },
+    {
+        "name": "Water That Failed To Transcend",
+        "description": "The only remnants of Hydro Tulpas after their parts are dispersed.\\nThis substance is very similar to the crystals extracted from the bodies of Fontemer Aberrants, but they contain a lot of tiny impurities, like the bubbles in glass crafted by clumsy craftsmen.",
+        "type": "Character Level-Up Material",
+        "recipe": null,
+        "storyId": null,
+        "mapMark": null,
+        "source": [
+            {
+                "name": "Dropped by Lv. 30+ Hydro Tulpas",
+                "type": "single"
+            }
+        ],
+        "additions": {
+            "requiredBy": {
+                "avatar": [
+                    {
+                        "id": 10000089,
+                        "name": "Furina",
+                        "rank": 5,
+                        "icon": "UI_AvatarIcon_Furina"
+                    },
+                    {
+                        "id": 10000095,
+                        "name": "Sigewinne",
+                        "rank": 5,
+                        "icon": "UI_AvatarIcon_Sigewinne"
+                    }
+                ]
+            },
+            "droppedBy": [
+                {
+                    "id": 20051201,
+                    "name": "Hydro Tulpa",
+                    "icon": "UI_MonsterIcon_Narcissusborn_Normal_01"
+                }
+            ]
+        },
+        "icon": "UI_ItemIcon_113057",
+        "rank": 4,
+        "route": "Water That Failed To Transcend",
+        "_id": "113057",
+        "id": "water_that_failed_to_transcend"
+    },
+    {
+        "name": "Cloudseam Scale",
+        "description": "Cold and solid scales from a Solitary Suanni. They retain pure adeptal energy even after falling off and cannot be damaged by ordinary weapons.\\nOrdinary beasts can sometimes be affected by errant adeptal energy and become more powerful than usual. However, a suanni's adeptal energy originates from within themselves, which is why their leader is often regarded as equal to adepti.",
+        "type": "Character Level-Up Material",
+        "recipe": null,
+        "storyId": null,
+        "mapMark": null,
+        "source": [
+            {
+                "name": "Dropped by Lv. 30+ Solitary Suanni",
+                "type": "single"
+            }
+        ],
+        "additions": {
+            "requiredBy": {
+                "avatar": [
+                    {
+                        "id": 10000093,
+                        "name": "Xianyun",
+                        "rank": 5,
+                        "icon": "UI_AvatarIcon_Liuyun"
+                    },
+                    {
+                        "id": 10000097,
+                        "name": "Sethos",
+                        "rank": 4,
+                        "icon": "UI_AvatarIcon_Sethos"
+                    }
+                ]
+            },
+            "droppedBy": [
+                {
+                    "id": 26190101,
+                    "name": "Solitary Suanni",
+                    "icon": "UI_MonsterIcon_Hermit"
+                }
+            ]
+        },
+        "icon": "UI_ItemIcon_113058",
+        "rank": 4,
+        "route": "Cloudseam Scale",
+        "_id": "113058",
+        "id": "cloudseam_scale"
+    },
+    {
+        "name": "Fragment of a Golden Melody",
+        "description": "A golden fragment that fell from the centaur golem's chest. Putting the tune inscribed upon the shattered rubble back together, it appears to be a small sliver of a grander musical movement.\\nPeople once believed that the song of eternal happiness and harmony would resound throughout the world till the end of all destinies. But harmonies can be changed. When the rebellious God King fell from his throne, the imperishable capital was reduced to refuse and rubble — for whom, then, shall the lyre in the hands of a legion-less commander play?",
+        "type": "Character Level-Up Material",
+        "recipe": null,
+        "storyId": null,
+        "mapMark": null,
+        "source": [
+            {
+                "name": "Dropped by Lv. 30+ Legatus Golems",
+                "type": "single"
+            }
+        ],
+        "additions": {
+            "requiredBy": {
+                "avatar": [
+                    {
+                        "id": 10000096,
+                        "name": "Arlecchino",
+                        "rank": 5,
+                        "icon": "UI_AvatarIcon_Arlecchino"
+                    },
+                    {
+                        "id": 10000099,
+                        "name": "Emilie",
+                        "rank": 5,
+                        "icon": "UI_AvatarIcon_Emilie"
+                    }
+                ]
+            },
+            "droppedBy": [
+                {
+                    "id": 26140101,
+                    "name": "Legatus Golem",
+                    "icon": "UI_MonsterIcon_Golem_Centaur"
+                }
+            ]
+        },
+        "icon": "UI_ItemIcon_113059",
+        "rank": 4,
+        "route": "Fragment of a Golden Melody",
+        "_id": "113059",
+        "id": "fragment_of_a_golden_melody"
+    },
+    {
+        "name": "Fading Candle",
+        "description": "A candle that you picked up in the ruins after completing the duel against The Knave.\\nLegends passed down claim that when the candle's flame flickers in the hands of sinners, the light may become shadows, making footsteps faint and masking fatal intent.\\nYou cannot tell what material this is made of, and it weeps no wax after burning, releasing only black ash that scatters into the wind, drifting towards the distant unknown.",
+        "type": "Character Level-Up Material",
+        "recipe": {
+            "60901": {
+                "113021": {
+                    "name": "Dream Solvent",
+                    "icon": "UI_ItemIcon_113021",
+                    "rank": 4,
+                    "count": 1
+                },
+                "113061": {
+                    "name": "Silken Feather",
+                    "icon": "UI_ItemIcon_113061",
+                    "rank": 5,
+                    "count": 1
+                }
+            },
+            "60902": {
+                "113021": {
+                    "name": "Dream Solvent",
+                    "icon": "UI_ItemIcon_113021",
+                    "rank": 4,
+                    "count": 1
+                },
+                "113062": {
+                    "name": "Denial and Judgment",
+                    "icon": "UI_ItemIcon_113062",
+                    "rank": 5,
+                    "count": 1
+                }
+            }
+        },
+        "storyId": null,
+        "mapMark": null,
+        "source": [
+            {
+                "name": "Lv. 70+ The Knave Challenge Reward",
+                "type": "single"
+            }
+        ],
+        "additions": {
+            "requiredBy": {
+                "avatar": [
+                    {
+                        "id": 10000096,
+                        "name": "Arlecchino",
+                        "rank": 5,
+                        "icon": "UI_AvatarIcon_Arlecchino"
+                    },
+                    {
+                        "id": 10000100,
+                        "name": "Kachina",
+                        "rank": 4,
+                        "icon": "UI_AvatarIcon_Kachina"
+                    }
+                ]
+            },
+            "droppedBy": [
+                {
+                    "id": 29091001,
+                    "name": "The Knave",
+                    "icon": "UI_MonsterIcon_Nihil"
+                }
+            ]
+        },
+        "icon": "UI_ItemIcon_113060",
+        "rank": 5,
+        "route": "Fading Candle",
+        "_id": "113060",
+        "id": "fading_candle"
+    },
+    {
+        "name": "Silken Feather",
+        "description": "A crystal that you picked up in the ruins after completing the duel against The Knave.\\nThe already-cooled blood and fire still maintain the shape of a feather, that is framed with solidified sleek black threads.\\nBefore their thoughts have matured, young children are reliant on the meticulous care of their parents, just as fledglings need the aegis of an adult wing.\\nIt is to fulfill such wishes that \"Father\" wove dangerous spider-silk into a facsimile of feathers, that she might grant her family some warmth.",
+        "type": "Character Level-Up Material",
+        "recipe": {
+            "60903": {
+                "113021": {
+                    "name": "Dream Solvent",
+                    "icon": "UI_ItemIcon_113021",
+                    "rank": 4,
+                    "count": 1
+                },
+                "113060": {
+                    "name": "Fading Candle",
+                    "icon": "UI_ItemIcon_113060",
+                    "rank": 5,
+                    "count": 1
+                }
+            },
+            "60904": {
+                "113021": {
+                    "name": "Dream Solvent",
+                    "icon": "UI_ItemIcon_113021",
+                    "rank": 4,
+                    "count": 1
+                },
+                "113062": {
+                    "name": "Denial and Judgment",
+                    "icon": "UI_ItemIcon_113062",
+                    "rank": 5,
+                    "count": 1
+                }
+            }
+        },
+        "storyId": null,
+        "mapMark": null,
+        "source": [
+            {
+                "name": "Lv. 70+ The Knave Challenge Reward",
+                "type": "single"
+            }
+        ],
+        "additions": {
+            "requiredBy": {
+                "avatar": [
+                    {
+                        "id": 10000099,
+                        "name": "Emilie",
+                        "rank": 5,
+                        "icon": "UI_AvatarIcon_Emilie"
+                    }
+                ]
+            },
+            "droppedBy": [
+                {
+                    "id": 29091001,
+                    "name": "The Knave",
+                    "icon": "UI_MonsterIcon_Nihil"
+                }
+            ]
+        },
+        "icon": "UI_ItemIcon_113061",
+        "rank": 5,
+        "route": "Silken Feather",
+        "_id": "113061",
+        "id": "silken_feather"
+    },
+    {
+        "name": "Denial and Judgment",
+        "description": "An earring that you picked up in the ruins after completing the duel against The Knave.\\nThe red symbol upon it resembles the image in her eyes, a declaration and a rejection alike.\\nThe orphaned live lives filled with suffering from childhood — this she sees and keeps in her heart.\\nAs fate casts an examining eye on humanity, so too will humans cast judgment upon fate.",
+        "type": "Character Level-Up Material",
+        "recipe": {
+            "60905": {
+                "113021": {
+                    "name": "Dream Solvent",
+                    "icon": "UI_ItemIcon_113021",
+                    "rank": 4,
+                    "count": 1
+                },
+                "113060": {
+                    "name": "Fading Candle",
+                    "icon": "UI_ItemIcon_113060",
+                    "rank": 5,
+                    "count": 1
+                }
+            },
+            "60906": {
+                "113021": {
+                    "name": "Dream Solvent",
+                    "icon": "UI_ItemIcon_113021",
+                    "rank": 4,
+                    "count": 1
+                },
+                "113061": {
+                    "name": "Silken Feather",
+                    "icon": "UI_ItemIcon_113061",
+                    "rank": 5,
+                    "count": 1
+                }
+            }
+        },
+        "storyId": null,
+        "mapMark": null,
+        "source": [
+            {
+                "name": "Lv. 70+ The Knave Challenge Reward",
+                "type": "single"
+            }
+        ],
+        "additions": {
+            "requiredBy": {
+                "avatar": [
+                    {
+                        "id": 10000101,
+                        "name": "Kinich",
+                        "rank": 5,
+                        "icon": "UI_AvatarIcon_Kinich"
+                    }
+                ]
+            },
+            "droppedBy": [
+                {
+                    "id": 29091001,
+                    "name": "The Knave",
+                    "icon": "UI_MonsterIcon_Nihil"
+                }
+            ]
+        },
+        "icon": "UI_ItemIcon_113062",
+        "rank": 5,
+        "route": "Denial and Judgment",
+        "_id": "113062",
+        "id": "denial_and_judgment"
+    },
+    {
+        "name": "Mark of the Binding Blessing",
+        "description": "A horn fragment obtained after defeating the Goldflame Qucusaur Tyrant.\\nA strange mark known as the \"Flamelord's Blessing\" extends out across its surface. Saurians that bear this mark are said to wield an ancient power of terrible potency. Yet given their slighter statures, this power is too great a burden for the Saurians of the present day to bear. As such, it has been the cause of much calamity, and many tragedies have stemmed from the uncontrollable power it has unleashed.",
+        "type": "Character Level-Up Material",
+        "recipe": null,
+        "storyId": null,
+        "mapMark": null,
+        "source": [
+            {
+                "name": "Dropped by Lv. 30+ Goldflame Qucusaur Tyrant",
+                "type": "single"
+            }
+        ],
+        "additions": {
+            "requiredBy": {
+                "avatar": [
+                    {
+                        "id": 10000102,
+                        "name": "Mualani",
+                        "rank": 5,
+                        "icon": "UI_AvatarIcon_Mualani"
+                    }
+                ]
+            },
+            "droppedBy": [
+                {
+                    "id": 26230301,
+                    "name": "Goldflame Qucusaur Tyrant",
+                    "icon": "UI_MonsterIcon_Natsaurus_Flamingo_Primo"
+                }
+            ]
+        },
+        "icon": "UI_ItemIcon_113064",
+        "rank": 4,
+        "route": "Mark of the Binding Blessing",
+        "_id": "113064",
+        "id": "mark_of_the_binding_blessing"
+    },
+    {
+        "name": "Overripe Flamegranate",
+        "description": "A strange Flamegranate obtained after defeating the Gluttonous Yumkasaur Mountain King.\\nNormally, Flamegranates that keep growing once they have already ripened simply fall into the mud and rot. But Flamegranates that have fallen from the Mountain King's mane, perhaps owing to the unique internal temperature conditions, exhibit a rarely-seen \"Overripe\" state. Flamegranates in this state are stable, phlogiston-packed, brightly colored, and possess a rich and highly distinctive flavor.",
+        "type": "Character Level-Up Material",
+        "recipe": null,
+        "storyId": null,
+        "mapMark": null,
+        "source": [
+            {
+                "name": "Dropped by Lv. 30+ Gluttonous Yumkasaur Mountain King",
+                "type": "single"
+            }
+        ],
+        "additions": {
+            "requiredBy": {
+                "avatar": [
+                    {
+                        "id": 10000100,
+                        "name": "Kachina",
+                        "rank": 4,
+                        "icon": "UI_AvatarIcon_Kachina"
+                    },
+                    {
+                        "id": 10000101,
+                        "name": "Kinich",
+                        "rank": 5,
+                        "icon": "UI_AvatarIcon_Kinich"
+                    }
+                ]
+            },
+            "droppedBy": [
+                {
+                    "id": 26220301,
+                    "name": "Gluttonous Yumkasaur Mountain King",
+                    "icon": "UI_MonsterIcon_Natsaurus_Hookwalker_Primo"
+                }
+            ]
+        },
+        "icon": "UI_ItemIcon_113065",
+        "rank": 4,
+        "route": "Overripe Flamegranate",
+        "_id": "113065",
+        "id": "overripe_flamegranate"
+    },
+    {
+        "name": "Gold-Inscribed Secret Source Core",
+        "description": "This is a core component that separated from the body of a Secret Source Automaton: Configuration Device that lost its ability to move after being defeated.\\nSome say that the cores that power all the Secret Source Automatons are actually the same kind of device, and that they simply carry different information, as attested to by the fact that the golden patterns on them are different. At first, the many commands were only added to the circuits to aid in its smooth running, but it seems that all the superimposition and layering of orders onto one another has wound up creating a rudimentary artificial intelligence.",
+        "type": "Character Level-Up Material",
+        "recipe": null,
+        "storyId": null,
+        "mapMark": null,
+        "source": [
+            {
+                "name": "Dropped by Lv. 30+ Secret Source Automaton: Configuration Device",
+                "type": "single"
+            }
+        ],
+        "additions": {
+            "requiredBy": {
+                "avatar": [
+                    {
+                        "id": 10000103,
+                        "name": "Xilonen",
+                        "rank": 5,
+                        "icon": "UI_AvatarIcon_Xilonen"
+                    }
+                ]
+            },
+            "droppedBy": [
+                {
+                    "id": 24090201,
+                    "name": "Secret Source Automaton: Configuration Device",
+                    "icon": "UI_MonsterIcon_DragonClaw"
+                }
+            ]
+        },
+        "icon": "UI_ItemIcon_113066",
+        "rank": 4,
+        "route": "Gold-Inscribed Secret Source Core",
+        "_id": "113066",
+        "id": "gold-inscribed_secret_source_core"
     }
 ]

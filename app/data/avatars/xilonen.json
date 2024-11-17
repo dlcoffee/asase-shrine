@@ -1,0 +1,2775 @@
+{
+    "id": "xilonen",
+    "rank": 5,
+    "name": "Xilonen",
+    "element": "Rock",
+    "weaponType": "WEAPON_SWORD_ONE_HAND",
+    "region": "NATLAN",
+    "specialProp": "FIGHT_PROP_DEFENSE_PERCENT",
+    "bodyType": "LADY",
+    "icon": "UI_AvatarIcon_Xilonen",
+    "birthday": [
+        3,
+        13
+    ],
+    "release": 1728334800,
+    "route": "Xilonen",
+    "fetter": {
+        "title": "Ardent Flames Forge the Soul",
+        "detail": "A Name Engraver of the Nanatzcayan, she is especially skilled at finding a good balance between the heavy responsibilities of her job and living well.",
+        "constellation": "Panthera Ocelota",
+        "native": "Nanatzcayan",
+        "cv": {
+            "EN": "Beth Curry",
+            "CHS": "弭洋",
+            "JP": "ファイルーズあい",
+            "KR": "Kim I-an"
+        }
+    },
+    "upgrade": {
+        "prop": [
+            {
+                "propType": "FIGHT_PROP_BASE_HP",
+                "initValue": 965.71313,
+                "type": "GROW_CURVE_HP_S5"
+            },
+            {
+                "propType": "FIGHT_PROP_BASE_ATTACK",
+                "initValue": 21.413,
+                "type": "GROW_CURVE_ATTACK_S5"
+            },
+            {
+                "propType": "FIGHT_PROP_BASE_DEFENSE",
+                "initValue": 72.3943,
+                "type": "GROW_CURVE_HP_S5"
+            }
+        ],
+        "promote": [
+            {
+                "unlockMaxLevel": 20,
+                "promoteLevel": 0
+            },
+            {
+                "promoteLevel": 1,
+                "costItems": {
+                    "101248": 3,
+                    "104171": 1,
+                    "112104": 3
+                },
+                "unlockMaxLevel": 40,
+                "addProps": {
+                    "FIGHT_PROP_BASE_HP": 828.01172,
+                    "FIGHT_PROP_BASE_DEFENSE": 62.073,
+                    "FIGHT_PROP_BASE_ATTACK": 18.35837,
+                    "FIGHT_PROP_DEFENSE_PERCENT": 0
+                },
+                "requiredPlayerLevel": 15,
+                "coinCost": 20000
+            },
+            {
+                "promoteLevel": 2,
+                "costItems": {
+                    "101248": 10,
+                    "104172": 3,
+                    "112104": 15,
+                    "113066": 2
+                },
+                "unlockMaxLevel": 50,
+                "addProps": {
+                    "FIGHT_PROP_BASE_HP": 1416.33582,
+                    "FIGHT_PROP_BASE_DEFENSE": 106.1775,
+                    "FIGHT_PROP_BASE_ATTACK": 31.40248,
+                    "FIGHT_PROP_DEFENSE_PERCENT": 0.09
+                },
+                "requiredPlayerLevel": 25,
+                "coinCost": 40000
+            },
+            {
+                "promoteLevel": 3,
+                "costItems": {
+                    "101248": 20,
+                    "104172": 6,
+                    "112105": 12,
+                    "113066": 4
+                },
+                "unlockMaxLevel": 60,
+                "addProps": {
+                    "FIGHT_PROP_BASE_HP": 2200.76807,
+                    "FIGHT_PROP_BASE_DEFENSE": 164.98351,
+                    "FIGHT_PROP_BASE_ATTACK": 48.79462,
+                    "FIGHT_PROP_DEFENSE_PERCENT": 0.18
+                },
+                "requiredPlayerLevel": 30,
+                "coinCost": 60000
+            },
+            {
+                "promoteLevel": 4,
+                "costItems": {
+                    "101248": 30,
+                    "104173": 3,
+                    "112105": 18,
+                    "113066": 8
+                },
+                "unlockMaxLevel": 70,
+                "addProps": {
+                    "FIGHT_PROP_BASE_HP": 2789.09204,
+                    "FIGHT_PROP_BASE_DEFENSE": 209.088,
+                    "FIGHT_PROP_BASE_ATTACK": 61.83872,
+                    "FIGHT_PROP_DEFENSE_PERCENT": 0.18
+                },
+                "requiredPlayerLevel": 35,
+                "coinCost": 80000
+            },
+            {
+                "promoteLevel": 5,
+                "costItems": {
+                    "101248": 45,
+                    "104173": 6,
+                    "112106": 12,
+                    "113066": 12
+                },
+                "unlockMaxLevel": 80,
+                "addProps": {
+                    "FIGHT_PROP_BASE_HP": 3377.41626,
+                    "FIGHT_PROP_BASE_DEFENSE": 253.1925,
+                    "FIGHT_PROP_BASE_ATTACK": 74.88283,
+                    "FIGHT_PROP_DEFENSE_PERCENT": 0.27
+                },
+                "requiredPlayerLevel": 40,
+                "coinCost": 100000
+            },
+            {
+                "promoteLevel": 6,
+                "costItems": {
+                    "101248": 60,
+                    "104174": 6,
+                    "112106": 24,
+                    "113066": 20
+                },
+                "unlockMaxLevel": 90,
+                "addProps": {
+                    "FIGHT_PROP_BASE_HP": 3965.74023,
+                    "FIGHT_PROP_BASE_DEFENSE": 297.297,
+                    "FIGHT_PROP_BASE_ATTACK": 87.92693,
+                    "FIGHT_PROP_DEFENSE_PERCENT": 0.36
+                },
+                "requiredPlayerLevel": 50,
+                "coinCost": 120000
+            }
+        ]
+    },
+    "other": {
+        "costume": [
+            {
+                "name": "Gold-Draped Gorge",
+                "description": "Xilonen's outfit. Her usual get-up, which consists of a brilliant golden coat paired with short, no-nonsense inner garments. When she's working, Xilonen normally takes off her coat before getting down to business. When she puts it back on, you can be fairly certain that she's about to take a break.",
+                "isDefault": true
+            }
+        ],
+        "furnitureId": 368189,
+        "nameCard": {
+            "id": 210219,
+            "name": "Xilonen: Cue Point",
+            "description": "Namecard style.\\nRight on cue, the mountains echo with the rhythm of Xilonen's forge-hammer. When the final echo fades, she has already long ceased her toil and found a sunlit spot for her afternoon nap.",
+            "icon": "UI_NameCardIcon_Xilonen"
+        },
+        "specialFood": {
+            "id": 108760,
+            "name": "Fruit-Flavored Milk Candies",
+            "rank": 3,
+            "effectIcon": "UI_Buff_Item_Other_SPAdd",
+            "icon": "UI_ItemIcon_108760"
+        }
+    },
+    "ascension": {
+        "101248": 1,
+        "104171": 2,
+        "104172": 3,
+        "104173": 4,
+        "104174": 5,
+        "104319": 5,
+        "104350": 2,
+        "104351": 3,
+        "104352": 4,
+        "112104": 1,
+        "112105": 2,
+        "112106": 3,
+        "113042": 5,
+        "113066": 4
+    },
+    "items": {
+        "202": {
+            "name": "Mora",
+            "rank": 3,
+            "icon": "UI_ItemIcon_202"
+        },
+        "101248": {
+            "name": "Brilliant Chrysanthemum",
+            "rank": 1,
+            "icon": "UI_ItemIcon_101248"
+        },
+        "104001": {
+            "name": "Wanderer's Advice",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104001"
+        },
+        "104002": {
+            "name": "Adventurer's Experience",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104002"
+        },
+        "104003": {
+            "name": "Hero's Wit",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104003"
+        },
+        "104171": {
+            "name": "Prithiva Topaz Sliver",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104171"
+        },
+        "104172": {
+            "name": "Prithiva Topaz Fragment",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104172"
+        },
+        "104173": {
+            "name": "Prithiva Topaz Chunk",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104173"
+        },
+        "104174": {
+            "name": "Prithiva Topaz Gemstone",
+            "rank": 5,
+            "icon": "UI_ItemIcon_104174"
+        },
+        "104319": {
+            "name": "Crown of Insight",
+            "rank": 5,
+            "icon": "UI_ItemIcon_104319"
+        },
+        "104350": {
+            "name": "Teachings of Kindling",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104350"
+        },
+        "104351": {
+            "name": "Guide to Kindling",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104351"
+        },
+        "104352": {
+            "name": "Philosophies of Kindling",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104352"
+        },
+        "112104": {
+            "name": "Sentry's Wooden Whistle",
+            "rank": 1,
+            "icon": "UI_ItemIcon_112104"
+        },
+        "112105": {
+            "name": "Warrior's Metal Whistle",
+            "rank": 2,
+            "icon": "UI_ItemIcon_112105"
+        },
+        "112106": {
+            "name": "Saurian-Crowned Warrior's Golden Whistle",
+            "rank": 3,
+            "icon": "UI_ItemIcon_112106"
+        },
+        "113042": {
+            "name": "Mirror of Mushin",
+            "rank": 5,
+            "icon": "UI_ItemIcon_113042"
+        },
+        "113066": {
+            "name": "Gold-Inscribed Secret Source Core",
+            "rank": 4,
+            "icon": "UI_ItemIcon_113066"
+        }
+    },
+    "talent": {
+        "0": {
+            "type": 0,
+            "name": "Normal Attack: Ehecatl's Roar",
+            "description": "<color=#FFD780FF>Normal Attack</color>\\nPerforms up to 3 rapid strikes.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nConsumes a fixed amount of Stamina and performs a forward kick.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact, both based on Xilonen's DEF.\\n\\n<color=#FFD780FF>Nightsoul's Blessing: Blade Roller</color>\\nWhen in the Nightsoul's Blessing state, Xilonen will enter the Blade Roller mode. While in this mode, Xilonen's Normal Attacks will allow her to perform up to 4 kicks using her roller blades, and she will be unable to use Charged Attacks.\\nWhen her Normal and Plunging Attacks are used in this mode, they will switch to being based on her DEF, and Xilonen will deal Nightsoul-aligned <color=#FFE699FF>Geo DMG</color> that cannot be overridden.",
+            "icon": "Skill_A_01",
+            "promote": {
+                "1": {
+                    "level": 1,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}+{param3:F1P}",
+                        "3-Hit DMG|{param4:F1P}",
+                        "Charged Attack DMG|{param5:F1P}",
+                        "Charged Attack Stamina Cost|{param6:F1}",
+                        "Plunge DMG|{param7:F1P} DEF",
+                        "Low/High Plunge DMG|{param8:F1P} DEF/{param9:F1P} DEF",
+                        "Blade Roller 1-Hit DMG|{param10:F1P} DEF",
+                        "Blade Roller 2-Hit DMG|{param11:F1P} DEF",
+                        "Blade Roller 3-Hit DMG|{param12:F1P} DEF",
+                        "Blade Roller 4-Hit DMG|{param13:F1P} DEF",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.51792,
+                        0.27374,
+                        0.27374,
+                        0.72949,
+                        0.91332,
+                        20,
+                        0.63932,
+                        1.27838,
+                        1.59676,
+                        0.56022,
+                        0.55048,
+                        0.65816,
+                        0.86027,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "2": {
+                    "level": 2,
+                    "costItems": {
+                        "104350": 3,
+                        "112104": 6
+                    },
+                    "coinCost": 12500,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}+{param3:F1P}",
+                        "3-Hit DMG|{param4:F1P}",
+                        "Charged Attack DMG|{param5:F1P}",
+                        "Charged Attack Stamina Cost|{param6:F1}",
+                        "Plunge DMG|{param7:F1P} DEF",
+                        "Low/High Plunge DMG|{param8:F1P} DEF/{param9:F1P} DEF",
+                        "Blade Roller 1-Hit DMG|{param10:F1P} DEF",
+                        "Blade Roller 2-Hit DMG|{param11:F1P} DEF",
+                        "Blade Roller 3-Hit DMG|{param12:F1P} DEF",
+                        "Blade Roller 4-Hit DMG|{param13:F1P} DEF",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.56007,
+                        0.29602,
+                        0.29602,
+                        0.78887,
+                        0.98766,
+                        20,
+                        0.69136,
+                        1.38243,
+                        1.72673,
+                        0.60582,
+                        0.59528,
+                        0.71173,
+                        0.9303,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "3": {
+                    "level": 3,
+                    "costItems": {
+                        "104351": 2,
+                        "112105": 3
+                    },
+                    "coinCost": 17500,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}+{param3:F1P}",
+                        "3-Hit DMG|{param4:F1P}",
+                        "Charged Attack DMG|{param5:F1P}",
+                        "Charged Attack Stamina Cost|{param6:F1}",
+                        "Plunge DMG|{param7:F1P} DEF",
+                        "Low/High Plunge DMG|{param8:F1P} DEF/{param9:F1P} DEF",
+                        "Blade Roller 1-Hit DMG|{param10:F1P} DEF",
+                        "Blade Roller 2-Hit DMG|{param11:F1P} DEF",
+                        "Blade Roller 3-Hit DMG|{param12:F1P} DEF",
+                        "Blade Roller 4-Hit DMG|{param13:F1P} DEF",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.60223,
+                        0.3183,
+                        0.3183,
+                        0.84825,
+                        1.062,
+                        20,
+                        0.7434,
+                        1.48649,
+                        1.8567,
+                        0.65142,
+                        0.64009,
+                        0.7653,
+                        1.00032,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "4": {
+                    "level": 4,
+                    "costItems": {
+                        "104351": 4,
+                        "112105": 4
+                    },
+                    "coinCost": 25000,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}+{param3:F1P}",
+                        "3-Hit DMG|{param4:F1P}",
+                        "Charged Attack DMG|{param5:F1P}",
+                        "Charged Attack Stamina Cost|{param6:F1}",
+                        "Plunge DMG|{param7:F1P} DEF",
+                        "Low/High Plunge DMG|{param8:F1P} DEF/{param9:F1P} DEF",
+                        "Blade Roller 1-Hit DMG|{param10:F1P} DEF",
+                        "Blade Roller 2-Hit DMG|{param11:F1P} DEF",
+                        "Blade Roller 3-Hit DMG|{param12:F1P} DEF",
+                        "Blade Roller 4-Hit DMG|{param13:F1P} DEF",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.66245,
+                        0.35013,
+                        0.35013,
+                        0.93308,
+                        1.1682,
+                        20,
+                        0.81774,
+                        1.63513,
+                        2.04237,
+                        0.71656,
+                        0.7041,
+                        0.84183,
+                        1.10035,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "5": {
+                    "level": 5,
+                    "costItems": {
+                        "104351": 6,
+                        "112105": 6
+                    },
+                    "coinCost": 30000,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}+{param3:F1P}",
+                        "3-Hit DMG|{param4:F1P}",
+                        "Charged Attack DMG|{param5:F1P}",
+                        "Charged Attack Stamina Cost|{param6:F1}",
+                        "Plunge DMG|{param7:F1P} DEF",
+                        "Low/High Plunge DMG|{param8:F1P} DEF/{param9:F1P} DEF",
+                        "Blade Roller 1-Hit DMG|{param10:F1P} DEF",
+                        "Blade Roller 2-Hit DMG|{param11:F1P} DEF",
+                        "Blade Roller 3-Hit DMG|{param12:F1P} DEF",
+                        "Blade Roller 4-Hit DMG|{param13:F1P} DEF",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.70461,
+                        0.37241,
+                        0.37241,
+                        0.99245,
+                        1.24254,
+                        20,
+                        0.86978,
+                        1.73919,
+                        2.17234,
+                        0.76216,
+                        0.74891,
+                        0.8954,
+                        1.17037,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "6": {
+                    "level": 6,
+                    "costItems": {
+                        "104351": 9,
+                        "112105": 9
+                    },
+                    "coinCost": 37500,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}+{param3:F1P}",
+                        "3-Hit DMG|{param4:F1P}",
+                        "Charged Attack DMG|{param5:F1P}",
+                        "Charged Attack Stamina Cost|{param6:F1}",
+                        "Plunge DMG|{param7:F1P} DEF",
+                        "Low/High Plunge DMG|{param8:F1P} DEF/{param9:F1P} DEF",
+                        "Blade Roller 1-Hit DMG|{param10:F1P} DEF",
+                        "Blade Roller 2-Hit DMG|{param11:F1P} DEF",
+                        "Blade Roller 3-Hit DMG|{param12:F1P} DEF",
+                        "Blade Roller 4-Hit DMG|{param13:F1P} DEF",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.75279,
+                        0.39788,
+                        0.39788,
+                        1.06031,
+                        1.3275,
+                        20,
+                        0.92925,
+                        1.85811,
+                        2.32087,
+                        0.81428,
+                        0.80011,
+                        0.95662,
+                        1.2504,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "7": {
+                    "level": 7,
+                    "costItems": {
+                        "104352": 4,
+                        "112106": 4,
+                        "113042": 1
+                    },
+                    "coinCost": 120000,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}+{param3:F1P}",
+                        "3-Hit DMG|{param4:F1P}",
+                        "Charged Attack DMG|{param5:F1P}",
+                        "Charged Attack Stamina Cost|{param6:F1}",
+                        "Plunge DMG|{param7:F1P} DEF",
+                        "Low/High Plunge DMG|{param8:F1P} DEF/{param9:F1P} DEF",
+                        "Blade Roller 1-Hit DMG|{param10:F1P} DEF",
+                        "Blade Roller 2-Hit DMG|{param11:F1P} DEF",
+                        "Blade Roller 3-Hit DMG|{param12:F1P} DEF",
+                        "Blade Roller 4-Hit DMG|{param13:F1P} DEF",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.81903,
+                        0.43289,
+                        0.43289,
+                        1.15362,
+                        1.44432,
+                        20,
+                        1.01102,
+                        2.02162,
+                        2.52511,
+                        0.88593,
+                        0.87052,
+                        1.04081,
+                        1.36044,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "8": {
+                    "level": 8,
+                    "costItems": {
+                        "104352": 6,
+                        "112106": 6,
+                        "113042": 1
+                    },
+                    "coinCost": 260000,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}+{param3:F1P}",
+                        "3-Hit DMG|{param4:F1P}",
+                        "Charged Attack DMG|{param5:F1P}",
+                        "Charged Attack Stamina Cost|{param6:F1}",
+                        "Plunge DMG|{param7:F1P} DEF",
+                        "Low/High Plunge DMG|{param8:F1P} DEF/{param9:F1P} DEF",
+                        "Blade Roller 1-Hit DMG|{param10:F1P} DEF",
+                        "Blade Roller 2-Hit DMG|{param11:F1P} DEF",
+                        "Blade Roller 3-Hit DMG|{param12:F1P} DEF",
+                        "Blade Roller 4-Hit DMG|{param13:F1P} DEF",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.88528,
+                        0.4679,
+                        0.4679,
+                        1.24693,
+                        1.56114,
+                        20,
+                        1.0928,
+                        2.18513,
+                        2.72935,
+                        0.95759,
+                        0.94093,
+                        1.12499,
+                        1.47047,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "9": {
+                    "level": 9,
+                    "costItems": {
+                        "104352": 12,
+                        "112106": 9,
+                        "113042": 2
+                    },
+                    "coinCost": 450000,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}+{param3:F1P}",
+                        "3-Hit DMG|{param4:F1P}",
+                        "Charged Attack DMG|{param5:F1P}",
+                        "Charged Attack Stamina Cost|{param6:F1}",
+                        "Plunge DMG|{param7:F1P} DEF",
+                        "Low/High Plunge DMG|{param8:F1P} DEF/{param9:F1P} DEF",
+                        "Blade Roller 1-Hit DMG|{param10:F1P} DEF",
+                        "Blade Roller 2-Hit DMG|{param11:F1P} DEF",
+                        "Blade Roller 3-Hit DMG|{param12:F1P} DEF",
+                        "Blade Roller 4-Hit DMG|{param13:F1P} DEF",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.95152,
+                        0.50291,
+                        0.50291,
+                        1.34023,
+                        1.67796,
+                        20,
+                        1.17457,
+                        2.34865,
+                        2.93359,
+                        1.02924,
+                        1.01134,
+                        1.20917,
+                        1.58051,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "10": {
+                    "level": 10,
+                    "costItems": {
+                        "104319": 1,
+                        "104352": 16,
+                        "112106": 12,
+                        "113042": 2
+                    },
+                    "coinCost": 700000,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}+{param3:F1P}",
+                        "3-Hit DMG|{param4:F1P}",
+                        "Charged Attack DMG|{param5:F1P}",
+                        "Charged Attack Stamina Cost|{param6:F1}",
+                        "Plunge DMG|{param7:F1P} DEF",
+                        "Low/High Plunge DMG|{param8:F1P} DEF/{param9:F1P} DEF",
+                        "Blade Roller 1-Hit DMG|{param10:F1P} DEF",
+                        "Blade Roller 2-Hit DMG|{param11:F1P} DEF",
+                        "Blade Roller 3-Hit DMG|{param12:F1P} DEF",
+                        "Blade Roller 4-Hit DMG|{param13:F1P} DEF",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.02379,
+                        0.54111,
+                        0.54111,
+                        1.44202,
+                        1.8054,
+                        20,
+                        1.26378,
+                        2.52702,
+                        3.15639,
+                        1.10741,
+                        1.08815,
+                        1.30101,
+                        1.70054,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "11": {
+                    "level": 11,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}+{param3:F1P}",
+                        "3-Hit DMG|{param4:F1P}",
+                        "Charged Attack DMG|{param5:F1P}",
+                        "Charged Attack Stamina Cost|{param6:F1}",
+                        "Plunge DMG|{param7:F1P} DEF",
+                        "Low/High Plunge DMG|{param8:F1P} DEF/{param9:F1P} DEF",
+                        "Blade Roller 1-Hit DMG|{param10:F1P} DEF",
+                        "Blade Roller 2-Hit DMG|{param11:F1P} DEF",
+                        "Blade Roller 3-Hit DMG|{param12:F1P} DEF",
+                        "Blade Roller 4-Hit DMG|{param13:F1P} DEF",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.09606,
+                        0.57931,
+                        0.57931,
+                        1.54382,
+                        1.93284,
+                        20,
+                        1.35299,
+                        2.7054,
+                        3.37919,
+                        1.18558,
+                        1.16496,
+                        1.39285,
+                        1.82058,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "12": {
+                    "level": 12,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}+{param3:F1P}",
+                        "3-Hit DMG|{param4:F1P}",
+                        "Charged Attack DMG|{param5:F1P}",
+                        "Charged Attack Stamina Cost|{param6:F1}",
+                        "Plunge DMG|{param7:F1P} DEF",
+                        "Low/High Plunge DMG|{param8:F1P} DEF/{param9:F1P} DEF",
+                        "Blade Roller 1-Hit DMG|{param10:F1P} DEF",
+                        "Blade Roller 2-Hit DMG|{param11:F1P} DEF",
+                        "Blade Roller 3-Hit DMG|{param12:F1P} DEF",
+                        "Blade Roller 4-Hit DMG|{param13:F1P} DEF",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.16833,
+                        0.6175,
+                        0.6175,
+                        1.6456,
+                        2.06028,
+                        20,
+                        1.4422,
+                        2.88378,
+                        3.602,
+                        1.26375,
+                        1.24178,
+                        1.48468,
+                        1.94062,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "13": {
+                    "level": 13,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}+{param3:F1P}",
+                        "3-Hit DMG|{param4:F1P}",
+                        "Charged Attack DMG|{param5:F1P}",
+                        "Charged Attack Stamina Cost|{param6:F1}",
+                        "Plunge DMG|{param7:F1P} DEF",
+                        "Low/High Plunge DMG|{param8:F1P} DEF/{param9:F1P} DEF",
+                        "Blade Roller 1-Hit DMG|{param10:F1P} DEF",
+                        "Blade Roller 2-Hit DMG|{param11:F1P} DEF",
+                        "Blade Roller 3-Hit DMG|{param12:F1P} DEF",
+                        "Blade Roller 4-Hit DMG|{param13:F1P} DEF",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.24059,
+                        0.6557,
+                        0.6557,
+                        1.7474,
+                        2.18772,
+                        20,
+                        1.5314,
+                        3.06216,
+                        3.8248,
+                        1.34193,
+                        1.31859,
+                        1.57652,
+                        2.06066,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "14": {
+                    "level": 14,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}+{param3:F1P}",
+                        "3-Hit DMG|{param4:F1P}",
+                        "Charged Attack DMG|{param5:F1P}",
+                        "Charged Attack Stamina Cost|{param6:F1}",
+                        "Plunge DMG|{param7:F1P} DEF",
+                        "Low/High Plunge DMG|{param8:F1P} DEF/{param9:F1P} DEF",
+                        "Blade Roller 1-Hit DMG|{param10:F1P} DEF",
+                        "Blade Roller 2-Hit DMG|{param11:F1P} DEF",
+                        "Blade Roller 3-Hit DMG|{param12:F1P} DEF",
+                        "Blade Roller 4-Hit DMG|{param13:F1P} DEF",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.31286,
+                        0.69389,
+                        0.69389,
+                        1.84918,
+                        2.31516,
+                        20,
+                        1.62061,
+                        3.24054,
+                        4.04761,
+                        1.4201,
+                        1.3954,
+                        1.66835,
+                        2.1807,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "15": {
+                    "level": 15,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}+{param3:F1P}",
+                        "3-Hit DMG|{param4:F1P}",
+                        "Charged Attack DMG|{param5:F1P}",
+                        "Charged Attack Stamina Cost|{param6:F1}",
+                        "Plunge DMG|{param7:F1P} DEF",
+                        "Low/High Plunge DMG|{param8:F1P} DEF/{param9:F1P} DEF",
+                        "Blade Roller 1-Hit DMG|{param10:F1P} DEF",
+                        "Blade Roller 2-Hit DMG|{param11:F1P} DEF",
+                        "Blade Roller 3-Hit DMG|{param12:F1P} DEF",
+                        "Blade Roller 4-Hit DMG|{param13:F1P} DEF",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.38513,
+                        0.73209,
+                        0.73209,
+                        1.95097,
+                        2.4426,
+                        20,
+                        1.70982,
+                        3.41892,
+                        4.27041,
+                        1.49827,
+                        1.47221,
+                        1.76019,
+                        2.30074,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            "cooldown": 0,
+            "cost": 0,
+            "linkedConstellations": null,
+            "advancedProps": [
+                {
+                    "name": "Normal Attack 1-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": "5",
+                            "text": "Normal Attack"
+                        },
+                        "type": {
+                            "span": "5",
+                            "text": "2.5s/3 Hits"
+                        }
+                    },
+                    "interruptionResistance": "62.5",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 2-Hit A",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "31.9",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 2-Hit B",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "31.9",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 3-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "86.7",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Charged Attack",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "120",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": true
+                },
+                {
+                    "name": "Blade Roller 1-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": "4",
+                            "text": "Blade Roller"
+                        },
+                        "type": {
+                            "span": "4",
+                            "text": "2.5s/3 Hits"
+                        }
+                    },
+                    "interruptionResistance": "52.8",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": true
+                },
+                {
+                    "name": "Blade Roller 2-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "52",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": true
+                },
+                {
+                    "name": "Blade Roller 3-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "62.1",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": true
+                },
+                {
+                    "name": "Blade Roller 4-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "81.1",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "480",
+                        "verticalForce": "600"
+                    },
+                    "bluntAttack": true
+                },
+                {
+                    "name": "Plunging Attack Collision",
+                    "elementalGaugeTheory": "0U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "25",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Low Plunge",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "100",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "800",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": true
+                },
+                {
+                    "name": "High Plunge",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "150",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "0",
+                        "verticalForce": "800"
+                    },
+                    "bluntAttack": true
+                }
+            ]
+        },
+        "1": {
+            "type": 0,
+            "name": "Yohual's Scratch",
+            "description": "Let the rhythms of passion resound throughout the land! Xilonen switches to high-speed combat blading gear and rushes forward a certain distance before dealing Nightsoul-aligned <color=#FFE699FF>Geo DMG</color> based on her DEF.\\nAfter using this, Xilonen will gain 45 Nightsoul points and enter the Nightsoul's Blessing state. In this state, she will shift to the Blade Roller mode.\\n\\n<color=#FFD780FF>Source Samples</color>\\nXilonen has 3 Samplers with her that can generate different Soundscapes based on her other party members' Elemental Types, decreasing nearby opponents' corresponding Elemental RES while active.\\nThe initial recorded Source Sample within each Sampler will be <color=#FFE699FF>Geo</color>, and for each party member who is <color=#FF9999FF>Pyro</color>/<color=#80C0FFFF>Hydro</color>/<color=#99FFFFFF>Cryo</color>/<color=#FFACFFFF>Electro</color>, 1 <color=#FFE699FF>Geo</color> Sample will change to that corresponding Element.\\nWhile Xilonen is in the Nightsoul's Blessing state, the <color=#FFE699FF>Geo</color> Source Sample she carries will always be active. After unlocking her Passive Talent, \"Netotiliztli's Echoes,\" Xilonen can trigger said Passive Talent's effects to regenerate Nightsoul points for herself. When her Nightsoul points hit the maximum, she will consume all her Nightsoul points and activate the 3 Source Samples she has on hand for 15s.\\nWhen the Source Samples are active, nearby opponents' corresponding Elemental RES will decrease. Source Sample effects of the same Elemental Type cannot stack. Xilonen can trigger these effects even when off-field.\\n\\n<color=#FFD780FF>Nightsoul's Blessing: Xilonen</color>\\nContinuously consume Nightsoul points. When these points are depleted or if used again, this Nightsoul's Blessing state will end. This state has the following traits:\\n·Switches to the Blade Roller mode, increasing Xilonen's Movement SPD and climbing speed, and she can perform high-speed leaps in Ocelot Form while climbing.\\n·Xilonen's Nightsoul's Blessing has the following restrictions: When in this state, Xilonen's Nightsoul points have a 9s time limit. After this limit passes, her Nightsoul points will immediately expire.\\n\\nAfter Xilonen's Nightsoul points have expired while she is in the Nightsoul's Blessing state, she will no longer be able to generate Nightsoul points via the Passive Talent \"Netotiliztli's Echoes.\"\\n\\n<i>In some ways, gem-craft and music-mixing share similar principles: Filtering out impurities and retaining only the most radiant things.\\nXilonen isn't picky about the two, however. She enjoys both immensely, after all!</i>",
+            "icon": "Skill_S_Xilonen_01",
+            "promote": {
+                "1": {
+                    "level": 1,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Rush DMG|{param1:F1P} DEF",
+                        "Elemental RES Decrease|{param2:F1P}",
+                        "Source Sample Activation Duration|{param3:F1}s",
+                        "Nightsoul Point Time Limit|{param4:F1}s",
+                        "Nightsoul Point Limit|{param5:F1}",
+                        "CD|{param6:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.792,
+                        0.09,
+                        15,
+                        9,
+                        90,
+                        7,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "2": {
+                    "level": 2,
+                    "costItems": {
+                        "104350": 3,
+                        "112104": 6
+                    },
+                    "coinCost": 12500,
+                    "description": [
+                        "Rush DMG|{param1:F1P} DEF",
+                        "Elemental RES Decrease|{param2:F1P}",
+                        "Source Sample Activation Duration|{param3:F1}s",
+                        "Nightsoul Point Time Limit|{param4:F1}s",
+                        "Nightsoul Point Limit|{param5:F1}",
+                        "CD|{param6:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.9264,
+                        0.12,
+                        15,
+                        9,
+                        90,
+                        7,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "3": {
+                    "level": 3,
+                    "costItems": {
+                        "104351": 2,
+                        "112105": 3
+                    },
+                    "coinCost": 17500,
+                    "description": [
+                        "Rush DMG|{param1:F1P} DEF",
+                        "Elemental RES Decrease|{param2:F1P}",
+                        "Source Sample Activation Duration|{param3:F1}s",
+                        "Nightsoul Point Time Limit|{param4:F1}s",
+                        "Nightsoul Point Limit|{param5:F1}",
+                        "CD|{param6:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        2.0608,
+                        0.15,
+                        15,
+                        9,
+                        90,
+                        7,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "4": {
+                    "level": 4,
+                    "costItems": {
+                        "104351": 4,
+                        "112105": 4
+                    },
+                    "coinCost": 25000,
+                    "description": [
+                        "Rush DMG|{param1:F1P} DEF",
+                        "Elemental RES Decrease|{param2:F1P}",
+                        "Source Sample Activation Duration|{param3:F1}s",
+                        "Nightsoul Point Time Limit|{param4:F1}s",
+                        "Nightsoul Point Limit|{param5:F1}",
+                        "CD|{param6:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        2.24,
+                        0.18,
+                        15,
+                        9,
+                        90,
+                        7,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "5": {
+                    "level": 5,
+                    "costItems": {
+                        "104351": 6,
+                        "112105": 6
+                    },
+                    "coinCost": 30000,
+                    "description": [
+                        "Rush DMG|{param1:F1P} DEF",
+                        "Elemental RES Decrease|{param2:F1P}",
+                        "Source Sample Activation Duration|{param3:F1}s",
+                        "Nightsoul Point Time Limit|{param4:F1}s",
+                        "Nightsoul Point Limit|{param5:F1}",
+                        "CD|{param6:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        2.3744,
+                        0.21,
+                        15,
+                        9,
+                        90,
+                        7,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "6": {
+                    "level": 6,
+                    "costItems": {
+                        "104351": 9,
+                        "112105": 9
+                    },
+                    "coinCost": 37500,
+                    "description": [
+                        "Rush DMG|{param1:F1P} DEF",
+                        "Elemental RES Decrease|{param2:F1P}",
+                        "Source Sample Activation Duration|{param3:F1}s",
+                        "Nightsoul Point Time Limit|{param4:F1}s",
+                        "Nightsoul Point Limit|{param5:F1}",
+                        "CD|{param6:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        2.5088,
+                        0.24,
+                        15,
+                        9,
+                        90,
+                        7,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "7": {
+                    "level": 7,
+                    "costItems": {
+                        "104352": 4,
+                        "112106": 4,
+                        "113042": 1
+                    },
+                    "coinCost": 120000,
+                    "description": [
+                        "Rush DMG|{param1:F1P} DEF",
+                        "Elemental RES Decrease|{param2:F1P}",
+                        "Source Sample Activation Duration|{param3:F1}s",
+                        "Nightsoul Point Time Limit|{param4:F1}s",
+                        "Nightsoul Point Limit|{param5:F1}",
+                        "CD|{param6:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        2.688,
+                        0.27,
+                        15,
+                        9,
+                        90,
+                        7,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "8": {
+                    "level": 8,
+                    "costItems": {
+                        "104352": 6,
+                        "112106": 6,
+                        "113042": 1
+                    },
+                    "coinCost": 260000,
+                    "description": [
+                        "Rush DMG|{param1:F1P} DEF",
+                        "Elemental RES Decrease|{param2:F1P}",
+                        "Source Sample Activation Duration|{param3:F1}s",
+                        "Nightsoul Point Time Limit|{param4:F1}s",
+                        "Nightsoul Point Limit|{param5:F1}",
+                        "CD|{param6:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        2.8672,
+                        0.3,
+                        15,
+                        9,
+                        90,
+                        7,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "9": {
+                    "level": 9,
+                    "costItems": {
+                        "104352": 12,
+                        "112106": 9,
+                        "113042": 2
+                    },
+                    "coinCost": 450000,
+                    "description": [
+                        "Rush DMG|{param1:F1P} DEF",
+                        "Elemental RES Decrease|{param2:F1P}",
+                        "Source Sample Activation Duration|{param3:F1}s",
+                        "Nightsoul Point Time Limit|{param4:F1}s",
+                        "Nightsoul Point Limit|{param5:F1}",
+                        "CD|{param6:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        3.0464,
+                        0.33,
+                        15,
+                        9,
+                        90,
+                        7,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "10": {
+                    "level": 10,
+                    "costItems": {
+                        "104319": 1,
+                        "104352": 16,
+                        "112106": 12,
+                        "113042": 2
+                    },
+                    "coinCost": 700000,
+                    "description": [
+                        "Rush DMG|{param1:F1P} DEF",
+                        "Elemental RES Decrease|{param2:F1P}",
+                        "Source Sample Activation Duration|{param3:F1}s",
+                        "Nightsoul Point Time Limit|{param4:F1}s",
+                        "Nightsoul Point Limit|{param5:F1}",
+                        "CD|{param6:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        3.2256,
+                        0.36,
+                        15,
+                        9,
+                        90,
+                        7,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "11": {
+                    "level": 11,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Rush DMG|{param1:F1P} DEF",
+                        "Elemental RES Decrease|{param2:F1P}",
+                        "Source Sample Activation Duration|{param3:F1}s",
+                        "Nightsoul Point Time Limit|{param4:F1}s",
+                        "Nightsoul Point Limit|{param5:F1}",
+                        "CD|{param6:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        3.4048,
+                        0.39,
+                        15,
+                        9,
+                        90,
+                        7,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "12": {
+                    "level": 12,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Rush DMG|{param1:F1P} DEF",
+                        "Elemental RES Decrease|{param2:F1P}",
+                        "Source Sample Activation Duration|{param3:F1}s",
+                        "Nightsoul Point Time Limit|{param4:F1}s",
+                        "Nightsoul Point Limit|{param5:F1}",
+                        "CD|{param6:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        3.584,
+                        0.42,
+                        15,
+                        9,
+                        90,
+                        7,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "13": {
+                    "level": 13,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Rush DMG|{param1:F1P} DEF",
+                        "Elemental RES Decrease|{param2:F1P}",
+                        "Source Sample Activation Duration|{param3:F1}s",
+                        "Nightsoul Point Time Limit|{param4:F1}s",
+                        "Nightsoul Point Limit|{param5:F1}",
+                        "CD|{param6:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        3.808,
+                        0.45,
+                        15,
+                        9,
+                        90,
+                        7,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "14": {
+                    "level": 14,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Rush DMG|{param1:F1P} DEF",
+                        "Elemental RES Decrease|{param2:F1P}",
+                        "Source Sample Activation Duration|{param3:F1}s",
+                        "Nightsoul Point Time Limit|{param4:F1}s",
+                        "Nightsoul Point Limit|{param5:F1}",
+                        "CD|{param6:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        4.032,
+                        0.48,
+                        15,
+                        9,
+                        90,
+                        7,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "15": {
+                    "level": 15,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Rush DMG|{param1:F1P} DEF",
+                        "Elemental RES Decrease|{param2:F1P}",
+                        "Source Sample Activation Duration|{param3:F1}s",
+                        "Nightsoul Point Time Limit|{param4:F1}s",
+                        "Nightsoul Point Limit|{param5:F1}",
+                        "CD|{param6:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        4.256,
+                        0.51,
+                        15,
+                        9,
+                        90,
+                        7,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            "cooldown": 7,
+            "cost": 0,
+            "linkedConstellations": {
+                "isLevelIncluded": true,
+                "prop": [
+                    {
+                        "id": 2,
+                        "type": "level"
+                    },
+                    {
+                        "id": 3,
+                        "type": "normal"
+                    }
+                ]
+            },
+            "advancedProps": [
+                {
+                    "name": "Rush DMG",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": null,
+                            "text": "Elemental Skill"
+                        },
+                        "type": {
+                            "span": null,
+                            "text": "2.5s/3 Hits"
+                        }
+                    },
+                    "interruptionResistance": "100",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                }
+            ]
+        },
+        "3": {
+            "type": 1,
+            "name": "Ocelotlicue Point!",
+            "description": "Activates the Phlogiston Stereo DJ Controller (Portable) at full power, dealing Nightsoul-aligned <color=#FFE699FF>AoE Geo DMG</color> based on Xilonen's DEF.\\n\\nAdditionally, she will trigger the following effects based on her different Source Samples:\\n·If she has at least 2 Source Samples that have had their Elemental Types changed, Xilonen will play an Ebullient rhythm, healing nearby active characters at intervals based on her DEF.\\n·If she has fewer than 2 Source Samples that have had their Elemental Types changed, Xilonen will start up an Ardent rhythm, which will play two additional beats that deal Nightsoul-aligned <color=#FFE699FF>AoE Geo DMG</color> based on her DEF.\\n\\n<i>\"Alright, time for a time-out!\"\\n\"It's cool, I recorded those beats just now. Let's see what we get when we mix our rhythms!\"</i>",
+            "icon": "Skill_E_Xilonen_01",
+            "promote": {
+                "1": {
+                    "level": 1,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Skill DMG|{param1:F1P} DEF",
+                        "Continuous Healing|{param2:F1P} DEF+{param3:I}",
+                        "Ebullient Rhythm Duration|{param4:F1}s",
+                        "Follow-Up Beat DMG|{param5:F1P} DEF",
+                        "CD|{param6:F1}s",
+                        "Energy Cost|{param7:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        2.8128,
+                        1.04,
+                        500.73764,
+                        12,
+                        2.8128,
+                        15,
+                        60,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "2": {
+                    "level": 2,
+                    "costItems": {
+                        "104350": 3,
+                        "112104": 6
+                    },
+                    "coinCost": 12500,
+                    "description": [
+                        "Skill DMG|{param1:F1P} DEF",
+                        "Continuous Healing|{param2:F1P} DEF+{param3:I}",
+                        "Ebullient Rhythm Duration|{param4:F1}s",
+                        "Follow-Up Beat DMG|{param5:F1P} DEF",
+                        "CD|{param6:F1}s",
+                        "Energy Cost|{param7:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        3.02376,
+                        1.118,
+                        550.81836,
+                        12,
+                        3.02376,
+                        15,
+                        60,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "3": {
+                    "level": 3,
+                    "costItems": {
+                        "104351": 2,
+                        "112105": 3
+                    },
+                    "coinCost": 17500,
+                    "description": [
+                        "Skill DMG|{param1:F1P} DEF",
+                        "Continuous Healing|{param2:F1P} DEF+{param3:I}",
+                        "Ebullient Rhythm Duration|{param4:F1}s",
+                        "Follow-Up Beat DMG|{param5:F1P} DEF",
+                        "CD|{param6:F1}s",
+                        "Energy Cost|{param7:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        3.23472,
+                        1.196,
+                        605.07251,
+                        12,
+                        3.23472,
+                        15,
+                        60,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "4": {
+                    "level": 4,
+                    "costItems": {
+                        "104351": 4,
+                        "112105": 4
+                    },
+                    "coinCost": 25000,
+                    "description": [
+                        "Skill DMG|{param1:F1P} DEF",
+                        "Continuous Healing|{param2:F1P} DEF+{param3:I}",
+                        "Ebullient Rhythm Duration|{param4:F1}s",
+                        "Follow-Up Beat DMG|{param5:F1P} DEF",
+                        "CD|{param6:F1}s",
+                        "Energy Cost|{param7:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        3.516,
+                        1.3,
+                        663.5,
+                        12,
+                        3.516,
+                        15,
+                        60,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "5": {
+                    "level": 5,
+                    "costItems": {
+                        "104351": 6,
+                        "112105": 6
+                    },
+                    "coinCost": 30000,
+                    "description": [
+                        "Skill DMG|{param1:F1P} DEF",
+                        "Continuous Healing|{param2:F1P} DEF+{param3:I}",
+                        "Ebullient Rhythm Duration|{param4:F1}s",
+                        "Follow-Up Beat DMG|{param5:F1P} DEF",
+                        "CD|{param6:F1}s",
+                        "Energy Cost|{param7:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        3.72696,
+                        1.378,
+                        726.10089,
+                        12,
+                        3.72696,
+                        15,
+                        60,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "6": {
+                    "level": 6,
+                    "costItems": {
+                        "104351": 9,
+                        "112105": 9
+                    },
+                    "coinCost": 37500,
+                    "description": [
+                        "Skill DMG|{param1:F1P} DEF",
+                        "Continuous Healing|{param2:F1P} DEF+{param3:I}",
+                        "Ebullient Rhythm Duration|{param4:F1}s",
+                        "Follow-Up Beat DMG|{param5:F1P} DEF",
+                        "CD|{param6:F1}s",
+                        "Energy Cost|{param7:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        3.93792,
+                        1.456,
+                        792.87518,
+                        12,
+                        3.93792,
+                        15,
+                        60,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "7": {
+                    "level": 7,
+                    "costItems": {
+                        "104352": 4,
+                        "112106": 4,
+                        "113042": 1
+                    },
+                    "coinCost": 120000,
+                    "description": [
+                        "Skill DMG|{param1:F1P} DEF",
+                        "Continuous Healing|{param2:F1P} DEF+{param3:I}",
+                        "Ebullient Rhythm Duration|{param4:F1}s",
+                        "Follow-Up Beat DMG|{param5:F1P} DEF",
+                        "CD|{param6:F1}s",
+                        "Energy Cost|{param7:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        4.2192,
+                        1.56,
+                        863.82288,
+                        12,
+                        4.2192,
+                        15,
+                        60,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "8": {
+                    "level": 8,
+                    "costItems": {
+                        "104352": 6,
+                        "112106": 6,
+                        "113042": 1
+                    },
+                    "coinCost": 260000,
+                    "description": [
+                        "Skill DMG|{param1:F1P} DEF",
+                        "Continuous Healing|{param2:F1P} DEF+{param3:I}",
+                        "Ebullient Rhythm Duration|{param4:F1}s",
+                        "Follow-Up Beat DMG|{param5:F1P} DEF",
+                        "CD|{param6:F1}s",
+                        "Energy Cost|{param7:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        4.50048,
+                        1.664,
+                        938.94397,
+                        12,
+                        4.50048,
+                        15,
+                        60,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "9": {
+                    "level": 9,
+                    "costItems": {
+                        "104352": 12,
+                        "112106": 9,
+                        "113042": 2
+                    },
+                    "coinCost": 450000,
+                    "description": [
+                        "Skill DMG|{param1:F1P} DEF",
+                        "Continuous Healing|{param2:F1P} DEF+{param3:I}",
+                        "Ebullient Rhythm Duration|{param4:F1}s",
+                        "Follow-Up Beat DMG|{param5:F1P} DEF",
+                        "CD|{param6:F1}s",
+                        "Energy Cost|{param7:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        4.78176,
+                        1.768,
+                        1018.23846,
+                        12,
+                        4.78176,
+                        15,
+                        60,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "10": {
+                    "level": 10,
+                    "costItems": {
+                        "104319": 1,
+                        "104352": 16,
+                        "112106": 12,
+                        "113042": 2
+                    },
+                    "coinCost": 700000,
+                    "description": [
+                        "Skill DMG|{param1:F1P} DEF",
+                        "Continuous Healing|{param2:F1P} DEF+{param3:I}",
+                        "Ebullient Rhythm Duration|{param4:F1}s",
+                        "Follow-Up Beat DMG|{param5:F1P} DEF",
+                        "CD|{param6:F1}s",
+                        "Energy Cost|{param7:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        5.06304,
+                        1.872,
+                        1101.7063,
+                        12,
+                        5.06304,
+                        15,
+                        60,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "11": {
+                    "level": 11,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Skill DMG|{param1:F1P} DEF",
+                        "Continuous Healing|{param2:F1P} DEF+{param3:I}",
+                        "Ebullient Rhythm Duration|{param4:F1}s",
+                        "Follow-Up Beat DMG|{param5:F1P} DEF",
+                        "CD|{param6:F1}s",
+                        "Energy Cost|{param7:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        5.34432,
+                        1.976,
+                        1189.34766,
+                        12,
+                        5.34432,
+                        15,
+                        60,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "12": {
+                    "level": 12,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Skill DMG|{param1:F1P} DEF",
+                        "Continuous Healing|{param2:F1P} DEF+{param3:I}",
+                        "Ebullient Rhythm Duration|{param4:F1}s",
+                        "Follow-Up Beat DMG|{param5:F1P} DEF",
+                        "CD|{param6:F1}s",
+                        "Energy Cost|{param7:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        5.6256,
+                        2.08,
+                        1281.16223,
+                        12,
+                        5.6256,
+                        15,
+                        60,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "13": {
+                    "level": 13,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Skill DMG|{param1:F1P} DEF",
+                        "Continuous Healing|{param2:F1P} DEF+{param3:I}",
+                        "Ebullient Rhythm Duration|{param4:F1}s",
+                        "Follow-Up Beat DMG|{param5:F1P} DEF",
+                        "CD|{param6:F1}s",
+                        "Energy Cost|{param7:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        5.9772,
+                        2.21,
+                        1377.15027,
+                        12,
+                        5.9772,
+                        15,
+                        60,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "14": {
+                    "level": 14,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Skill DMG|{param1:F1P} DEF",
+                        "Continuous Healing|{param2:F1P} DEF+{param3:I}",
+                        "Ebullient Rhythm Duration|{param4:F1}s",
+                        "Follow-Up Beat DMG|{param5:F1P} DEF",
+                        "CD|{param6:F1}s",
+                        "Energy Cost|{param7:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        6.3288,
+                        2.34,
+                        1477.31177,
+                        12,
+                        6.3288,
+                        15,
+                        60,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "15": {
+                    "level": 15,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Skill DMG|{param1:F1P} DEF",
+                        "Continuous Healing|{param2:F1P} DEF+{param3:I}",
+                        "Ebullient Rhythm Duration|{param4:F1}s",
+                        "Follow-Up Beat DMG|{param5:F1P} DEF",
+                        "CD|{param6:F1}s",
+                        "Energy Cost|{param7:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        6.6804,
+                        2.47,
+                        1581.64661,
+                        12,
+                        6.6804,
+                        15,
+                        60,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            "cooldown": 15,
+            "cost": 60,
+            "linkedConstellations": {
+                "isLevelIncluded": true,
+                "prop": [
+                    {
+                        "id": 4,
+                        "type": "level"
+                    }
+                ]
+            },
+            "advancedProps": [
+                {
+                    "name": "Skill DMG",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": "2",
+                            "text": "Elemental Burst"
+                        },
+                        "type": {
+                            "span": "2",
+                            "text": "2.5s/3 Hits"
+                        }
+                    },
+                    "interruptionResistance": "75",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": true
+                },
+                {
+                    "name": "Follow-Up Beat DMG",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "75",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": true
+                }
+            ]
+        },
+        "4": {
+            "type": 2,
+            "name": "Netotiliztli's Echoes",
+            "description": "While in the Nightsoul's Blessing state:\\n·If Xilonen has at least 2 Source Samples that have had their Elemental Types changed, she gains 35 Nightsoul points when her Normal or Plunging Attacks hit opponents. Can be triggered once every 0.1s.\\n·If Xilonen has fewer than 2 Source Samples that have had their Elemental Types changed, her Normal and Plunging Attacks deal 30% increased DMG.",
+            "icon": "UI_Talent_S_Xilonen_05",
+            "linkedConstellations": null
+        },
+        "5": {
+            "type": 2,
+            "name": "Portable Armored Sheath",
+            "description": "While in the Nightsoul's Blessing state, when Xilonen's Nightsoul points reach the maximum, she will trigger an effect equal to that of her Nightsoul Burst. This effect can be triggered once every 14s.\\nAdditionally, when nearby party members trigger a Nightsoul Burst, Xilonen's DEF is increased by 20% for 15s.",
+            "icon": "UI_Talent_S_Xilonen_06",
+            "linkedConstellations": null
+        },
+        "6": {
+            "type": 2,
+            "name": "Night Realm's Gift: Blessing of Forge-Fire",
+            "description": "After her Nightsoul points are fully depleted, Xilonen will switch to consuming Phlogiston to maintain her Nightsoul's Blessing.\\nWhile in an area with Phlogiston Mechanics within Natlan, she can use Nightsoul Transmission: Xilonen. When the active character is currently sprinting, climbing, in a movement mode caused by certain Talents, or at a certain height in the air, the following will trigger when switching to Xilonen: Xilonen will enter the Nightsoul's Blessing state and gain 20 Nightsoul points. In this situation, Xilonen's Nightsoul points have a 4s time limit, after which her Nightsoul points will immediately expire. After she uses <color=#FFD780FF>Yohual's Scratch</color> within this time limit, her Nightsoul point time limit will be extended by 9s. Nightsoul Transmission can be triggered once every 10s by your own team.\\n\\nAdditionally, while in Natlan, Xilonen will not consume Stamina when climbing while in the Nightsoul's Blessing state.",
+            "icon": "UI_Talent_S_Xilonen_07",
+            "linkedConstellations": null
+        },
+        "8": {
+            "type": 2,
+            "name": "Tour of Tepeilhuitl",
+            "description": "Triggering Nightsoul Transmission restores 15 Phlogiston.",
+            "icon": "UI_Talent_S_Xilonen_08",
+            "linkedConstellations": null
+        }
+    },
+    "constellation": {
+        "0": {
+            "id": 0,
+            "name": "Sabbatical Phrase",
+            "description": "Xilonen's Nightsoul point and Phlogiston consumption in her Nightsoul's Blessing state is decreased by 30%, and her Nightsoul point time limit is extended by 45%.\\nAdditionally, when Xilonen's Source Samples are active, she can also increase nearby active characters' interruption resistance.",
+            "extraData": null,
+            "icon": "UI_Talent_S_Xilonen_01"
+        },
+        "1": {
+            "id": 1,
+            "name": "Chiucue Mix",
+            "description": "Xilonen's <color=#FFE699FF>Geo</color> Source Samples will always remain active. Additionally, when her Source Samples activate, all nearby party members will gain effects corresponding to the active Source Sample that matches their Elemental Type:\\n·<color=#FFE699FF>Geo</color>: DMG dealt +50%.\\n·<color=#FF9999FF>Pyro</color>: ATK +45%.\\n·<color=#80C0FFFF>Hydro</color>: Max HP +45%.\\n·<color=#99FFFFFF>Cryo</color>: CRIT DMG +60%.\\n·<color=#FFACFFFF>Electro</color>: Restore 25 Energy, decrease Elemental Burst CD by 6s.",
+            "extraData": null,
+            "icon": "UI_Talent_S_Xilonen_02"
+        },
+        "2": {
+            "id": 2,
+            "name": "Tonalpohualli's Loop",
+            "description": "Increases the Level of <color=#FFD780FF>Yohual's Scratch</color> by 3.\\nMaximum upgrade level is 15.",
+            "extraData": {
+                "addTalentExtraLevel": {
+                    "talentType": "AvatarSkill",
+                    "talentIndex": 2,
+                    "extraLevel": 3
+                }
+            },
+            "icon": "UI_Talent_U_Xilonen_01"
+        },
+        "3": {
+            "id": 3,
+            "name": "Suchitl's Trance",
+            "description": "After Xilonen uses <color=#FFD780FF>Yohual's Scratch</color>, she will grant all nearby party members the Blooming Blessing effect for 15s.\\nCharacters with Blooming Blessing deal 65% of Xilonen's DEF as increased Normal, Charged, and Plunging Attack DMG. This effect will be removed after triggering 6 times or when the duration ends.\\nWhen you hit more than one opponent, trigger counts will be consumed based on the number of opponents hit. The counts for each party member with Blooming Blessing are counted independently.",
+            "extraData": null,
+            "icon": "UI_Talent_S_Xilonen_03"
+        },
+        "4": {
+            "id": 4,
+            "name": "Tlaltecuhtli's Crossfade",
+            "description": "Increases the Level of <color=#FFD780FF>Ocelotlicue Point!</color> by 3.\\nMaximum upgrade level is 15.",
+            "extraData": {
+                "addTalentExtraLevel": {
+                    "talentType": "AvatarSkill",
+                    "talentIndex": 9,
+                    "extraLevel": 3
+                }
+            },
+            "icon": "UI_Talent_U_Xilonen_02"
+        },
+        "5": {
+            "id": 5,
+            "name": "Imperishable Night Carnival",
+            "description": "When Xilonen is in the Nightsoul's Blessing state, when she sprints, leaps, or uses Normal or Plunging Attacks, she will gain Imperishable Night's Blessing, ignoring the limitations of her Nightsoul's Blessing state and increasing the DMG dealt by her Normal and Plunging Attacks for 5s.\\nDuring this time:\\n·Her Nightsoul's Blessing time limit countdown will be paused. Xilonen's Nightsoul points, Phlogiston, and Stamina will not decrease, and when her Nightsoul points reach the maximum, her Nightsoul's Blessing state will not end either.\\n·Xilonen deals 300% of her DEF as increased Normal and Plunging Attack DMG while in the Nightsoul's Blessing state.\\n·She heals nearby party members for 120% of her DEF every 1.5s.\\nShe can gain 1 Imperishable Night's Blessing once every 15s.",
+            "extraData": null,
+            "icon": "UI_Talent_S_Xilonen_04"
+        }
+    },
+    "_id": 10000103
+}

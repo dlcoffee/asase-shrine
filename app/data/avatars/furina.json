@@ -1,0 +1,2780 @@
+{
+    "id": "furina",
+    "rank": 5,
+    "name": "Furina",
+    "element": "Water",
+    "weaponType": "WEAPON_SWORD_ONE_HAND",
+    "region": "FONTAINE",
+    "specialProp": "FIGHT_PROP_CRITICAL",
+    "bodyType": "GIRL",
+    "icon": "UI_AvatarIcon_Furina",
+    "birthday": [
+        10,
+        13
+    ],
+    "release": 1699308000,
+    "route": "Furina",
+    "fetter": {
+        "title": "Endless Solo of Solitude",
+        "detail": "The absolute focus of the stage of judgment, until the final applause sounds.",
+        "constellation": "Animula Choragi",
+        "native": "Court of Fontaine",
+        "cv": {
+            "EN": "Amber Lee Connors",
+            "CHS": "钱琛",
+            "JP": "水瀬いのり",
+            "KR": "Kim Ha-young"
+        }
+    },
+    "upgrade": {
+        "prop": [
+            {
+                "propType": "FIGHT_PROP_BASE_HP",
+                "initValue": 1191.65002,
+                "type": "GROW_CURVE_HP_S5"
+            },
+            {
+                "propType": "FIGHT_PROP_BASE_ATTACK",
+                "initValue": 18.9924,
+                "type": "GROW_CURVE_ATTACK_S5"
+            },
+            {
+                "propType": "FIGHT_PROP_BASE_DEFENSE",
+                "initValue": 54.14615,
+                "type": "GROW_CURVE_HP_S5"
+            }
+        ],
+        "promote": [
+            {
+                "unlockMaxLevel": 20,
+                "promoteLevel": 0
+            },
+            {
+                "promoteLevel": 1,
+                "costItems": {
+                    "101238": 3,
+                    "104121": 1,
+                    "112038": 3
+                },
+                "unlockMaxLevel": 40,
+                "addProps": {
+                    "FIGHT_PROP_BASE_HP": 1021.73212,
+                    "FIGHT_PROP_BASE_DEFENSE": 46.4265,
+                    "FIGHT_PROP_BASE_ATTACK": 16.28308,
+                    "FIGHT_PROP_CRITICAL": 0
+                },
+                "requiredPlayerLevel": 15,
+                "coinCost": 20000
+            },
+            {
+                "promoteLevel": 2,
+                "costItems": {
+                    "101238": 10,
+                    "104122": 3,
+                    "112038": 15,
+                    "113057": 2
+                },
+                "unlockMaxLevel": 50,
+                "addProps": {
+                    "FIGHT_PROP_BASE_HP": 1747.69971,
+                    "FIGHT_PROP_BASE_DEFENSE": 79.41375,
+                    "FIGHT_PROP_BASE_ATTACK": 27.85263,
+                    "FIGHT_PROP_CRITICAL": 0.048
+                },
+                "requiredPlayerLevel": 25,
+                "coinCost": 40000
+            },
+            {
+                "promoteLevel": 3,
+                "costItems": {
+                    "101238": 20,
+                    "104122": 6,
+                    "112039": 12,
+                    "113057": 4
+                },
+                "unlockMaxLevel": 60,
+                "addProps": {
+                    "FIGHT_PROP_BASE_HP": 2715.65649,
+                    "FIGHT_PROP_BASE_DEFENSE": 123.39675,
+                    "FIGHT_PROP_BASE_ATTACK": 43.2787,
+                    "FIGHT_PROP_CRITICAL": 0.096
+                },
+                "requiredPlayerLevel": 30,
+                "coinCost": 60000
+            },
+            {
+                "promoteLevel": 4,
+                "costItems": {
+                    "101238": 30,
+                    "104123": 3,
+                    "112039": 18,
+                    "113057": 8
+                },
+                "unlockMaxLevel": 70,
+                "addProps": {
+                    "FIGHT_PROP_BASE_HP": 3441.62402,
+                    "FIGHT_PROP_BASE_DEFENSE": 156.384,
+                    "FIGHT_PROP_BASE_ATTACK": 54.84826,
+                    "FIGHT_PROP_CRITICAL": 0.096
+                },
+                "requiredPlayerLevel": 35,
+                "coinCost": 80000
+            },
+            {
+                "promoteLevel": 5,
+                "costItems": {
+                    "101238": 45,
+                    "104123": 6,
+                    "112040": 12,
+                    "113057": 12
+                },
+                "unlockMaxLevel": 80,
+                "addProps": {
+                    "FIGHT_PROP_BASE_HP": 4167.5918,
+                    "FIGHT_PROP_BASE_DEFENSE": 189.37125,
+                    "FIGHT_PROP_BASE_ATTACK": 66.41781,
+                    "FIGHT_PROP_CRITICAL": 0.144
+                },
+                "requiredPlayerLevel": 40,
+                "coinCost": 100000
+            },
+            {
+                "promoteLevel": 6,
+                "costItems": {
+                    "101238": 60,
+                    "104124": 6,
+                    "112040": 24,
+                    "113057": 20
+                },
+                "unlockMaxLevel": 90,
+                "addProps": {
+                    "FIGHT_PROP_BASE_HP": 4893.55908,
+                    "FIGHT_PROP_BASE_DEFENSE": 222.35851,
+                    "FIGHT_PROP_BASE_ATTACK": 77.98737,
+                    "FIGHT_PROP_CRITICAL": 0.192
+                },
+                "requiredPlayerLevel": 50,
+                "coinCost": 120000
+            }
+        ]
+    },
+    "other": {
+        "costume": [
+            {
+                "name": "Coronated Prima Donna",
+                "description": "Furina's outfit. When the curtain rises, the star of the show is meant to shine bright on the stage, and even gorgeous costumes adorned with diamonds pale in comparison to her own dazzling brilliance.",
+                "isDefault": true
+            }
+        ],
+        "furnitureId": 368175,
+        "nameCard": {
+            "id": 210180,
+            "name": "Furina: Banquet",
+            "description": "Namecard style.\\nCan one person eat every cake? If they eat one per day, they should be able to enjoy cake for a week or so, right? But will the cakes stay fresh that long? Hmm... Well, don't worry, because there will be friends coming to eat the cakes together.",
+            "icon": "UI_NameCardIcon_Furina"
+        },
+        "specialFood": {
+            "id": 108611,
+            "name": "\"Pour la Justice\"",
+            "rank": 3,
+            "effectIcon": "UI_Buff_Item_Def_Add",
+            "icon": "UI_ItemIcon_108611"
+        }
+    },
+    "ascension": {
+        "101238": 1,
+        "104121": 2,
+        "104122": 3,
+        "104123": 4,
+        "104124": 5,
+        "104319": 5,
+        "104341": 2,
+        "104342": 3,
+        "104343": 4,
+        "112038": 1,
+        "112039": 2,
+        "112040": 3,
+        "113056": 5,
+        "113057": 4
+    },
+    "items": {
+        "202": {
+            "name": "Mora",
+            "rank": 3,
+            "icon": "UI_ItemIcon_202"
+        },
+        "101238": {
+            "name": "Lakelight Lily",
+            "rank": 1,
+            "icon": "UI_ItemIcon_101238"
+        },
+        "104001": {
+            "name": "Wanderer's Advice",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104001"
+        },
+        "104002": {
+            "name": "Adventurer's Experience",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104002"
+        },
+        "104003": {
+            "name": "Hero's Wit",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104003"
+        },
+        "104121": {
+            "name": "Varunada Lazurite Sliver",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104121"
+        },
+        "104122": {
+            "name": "Varunada Lazurite Fragment",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104122"
+        },
+        "104123": {
+            "name": "Varunada Lazurite Chunk",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104123"
+        },
+        "104124": {
+            "name": "Varunada Lazurite Gemstone",
+            "rank": 5,
+            "icon": "UI_ItemIcon_104124"
+        },
+        "104319": {
+            "name": "Crown of Insight",
+            "rank": 5,
+            "icon": "UI_ItemIcon_104319"
+        },
+        "104341": {
+            "name": "Teachings of Justice",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104341"
+        },
+        "104342": {
+            "name": "Guide to Justice",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104342"
+        },
+        "104343": {
+            "name": "Philosophies of Justice",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104343"
+        },
+        "112038": {
+            "name": "Whopperflower Nectar",
+            "rank": 1,
+            "icon": "UI_ItemIcon_112038"
+        },
+        "112039": {
+            "name": "Shimmering Nectar",
+            "rank": 2,
+            "icon": "UI_ItemIcon_112039"
+        },
+        "112040": {
+            "name": "Energy Nectar",
+            "rank": 3,
+            "icon": "UI_ItemIcon_112040"
+        },
+        "113056": {
+            "name": "Lightless Mass",
+            "rank": 5,
+            "icon": "UI_ItemIcon_113056"
+        },
+        "113057": {
+            "name": "Water That Failed To Transcend",
+            "rank": 4,
+            "icon": "UI_ItemIcon_113057"
+        }
+    },
+    "talent": {
+        "0": {
+            "type": 0,
+            "name": "Normal Attack: Soloist's Solicitation",
+            "description": "<color=#FFD780FF>Normal Attack</color>\\nPerforms up to 4 consecutive strikes.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nConsumes a certain amount of Stamina to unleash a solo dance, dealing Physical DMG to nearby opponents and changing her Arkhe alignment. If Salon Members or the Singer of Many Waters summoned by her Elemental Skill \"Salon Solitaire\" is present, their lineup will switch in response.\\n\\n<color=#FFD780FF>Arkhe: Seats Sacred and Secular</color>\\nAt intervals, when Furina's Normal Attacks hit, a Spiritbreath Thorn or a Surging Blade will descend based on her current Arkhe alignment, dealing Pneuma- or Ousia-aligned <color=#80C0FFFF>Hydro DMG</color>.\\nWhen Furina takes the field, her starting Arkhe alignment will be Ousia.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+            "icon": "Skill_A_01",
+            "promote": {
+                "1": {
+                    "level": 1,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}",
+                        "4-Hit DMG|{param4:F1P}",
+                        "Charged Attack DMG|{param5:F1P}",
+                        "Charged Attack Stamina Cost|{param6:F1}",
+                        "Plunge DMG|{param7:F1P}",
+                        "Low/High Plunge DMG|{param8:P}/{param9:P}",
+                        "Spiritbreath Thorn/Surging Blade DMG|{param10:F1P}",
+                        "Spiritbreath Thorn/Surging Blade DMG Interval|{param11:I}s/{param12:I}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.48386,
+                        0.43729,
+                        0.5512,
+                        0.73298,
+                        0.74218,
+                        20,
+                        0.63932,
+                        1.27838,
+                        1.59676,
+                        0.0946,
+                        6,
+                        6,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "2": {
+                    "level": 2,
+                    "costItems": {
+                        "104341": 3,
+                        "112038": 6
+                    },
+                    "coinCost": 12500,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}",
+                        "4-Hit DMG|{param4:F1P}",
+                        "Charged Attack DMG|{param5:F1P}",
+                        "Charged Attack Stamina Cost|{param6:F1}",
+                        "Plunge DMG|{param7:F1P}",
+                        "Low/High Plunge DMG|{param8:P}/{param9:P}",
+                        "Spiritbreath Thorn/Surging Blade DMG|{param10:F1P}",
+                        "Spiritbreath Thorn/Surging Blade DMG Interval|{param11:I}s/{param12:I}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.52325,
+                        0.47289,
+                        0.59606,
+                        0.79264,
+                        0.80259,
+                        20,
+                        0.69136,
+                        1.38243,
+                        1.72673,
+                        0.1023,
+                        6,
+                        6,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "3": {
+                    "level": 3,
+                    "costItems": {
+                        "104342": 2,
+                        "112039": 3
+                    },
+                    "coinCost": 17500,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}",
+                        "4-Hit DMG|{param4:F1P}",
+                        "Charged Attack DMG|{param5:F1P}",
+                        "Charged Attack Stamina Cost|{param6:F1}",
+                        "Plunge DMG|{param7:F1P}",
+                        "Low/High Plunge DMG|{param8:P}/{param9:P}",
+                        "Spiritbreath Thorn/Surging Blade DMG|{param10:F1P}",
+                        "Spiritbreath Thorn/Surging Blade DMG Interval|{param11:I}s/{param12:I}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.56263,
+                        0.50848,
+                        0.64093,
+                        0.8523,
+                        0.863,
+                        20,
+                        0.7434,
+                        1.48649,
+                        1.8567,
+                        0.11,
+                        6,
+                        6,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "4": {
+                    "level": 4,
+                    "costItems": {
+                        "104342": 4,
+                        "112039": 4
+                    },
+                    "coinCost": 25000,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}",
+                        "4-Hit DMG|{param4:F1P}",
+                        "Charged Attack DMG|{param5:F1P}",
+                        "Charged Attack Stamina Cost|{param6:F1}",
+                        "Plunge DMG|{param7:F1P}",
+                        "Low/High Plunge DMG|{param8:P}/{param9:P}",
+                        "Spiritbreath Thorn/Surging Blade DMG|{param10:F1P}",
+                        "Spiritbreath Thorn/Surging Blade DMG Interval|{param11:I}s/{param12:I}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.61889,
+                        0.55933,
+                        0.70502,
+                        0.93753,
+                        0.9493,
+                        20,
+                        0.81774,
+                        1.63513,
+                        2.04237,
+                        0.121,
+                        6,
+                        6,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "5": {
+                    "level": 5,
+                    "costItems": {
+                        "104342": 6,
+                        "112039": 6
+                    },
+                    "coinCost": 30000,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}",
+                        "4-Hit DMG|{param4:F1P}",
+                        "Charged Attack DMG|{param5:F1P}",
+                        "Charged Attack Stamina Cost|{param6:F1}",
+                        "Plunge DMG|{param7:F1P}",
+                        "Low/High Plunge DMG|{param8:P}/{param9:P}",
+                        "Spiritbreath Thorn/Surging Blade DMG|{param10:F1P}",
+                        "Spiritbreath Thorn/Surging Blade DMG Interval|{param11:I}s/{param12:I}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.65828,
+                        0.59492,
+                        0.74989,
+                        0.99719,
+                        1.00971,
+                        20,
+                        0.86978,
+                        1.73919,
+                        2.17234,
+                        0.1287,
+                        6,
+                        6,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "6": {
+                    "level": 6,
+                    "costItems": {
+                        "104342": 9,
+                        "112039": 9
+                    },
+                    "coinCost": 37500,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}",
+                        "4-Hit DMG|{param4:F1P}",
+                        "Charged Attack DMG|{param5:F1P}",
+                        "Charged Attack Stamina Cost|{param6:F1}",
+                        "Plunge DMG|{param7:F1P}",
+                        "Low/High Plunge DMG|{param8:P}/{param9:P}",
+                        "Spiritbreath Thorn/Surging Blade DMG|{param10:F1P}",
+                        "Spiritbreath Thorn/Surging Blade DMG Interval|{param11:I}s/{param12:I}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.70329,
+                        0.6356,
+                        0.80116,
+                        1.06537,
+                        1.07875,
+                        20,
+                        0.92925,
+                        1.85811,
+                        2.32087,
+                        0.1375,
+                        6,
+                        6,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "7": {
+                    "level": 7,
+                    "costItems": {
+                        "104343": 4,
+                        "112040": 4,
+                        "113056": 1
+                    },
+                    "coinCost": 120000,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}",
+                        "4-Hit DMG|{param4:F1P}",
+                        "Charged Attack DMG|{param5:F1P}",
+                        "Charged Attack Stamina Cost|{param6:F1}",
+                        "Plunge DMG|{param7:F1P}",
+                        "Low/High Plunge DMG|{param8:P}/{param9:P}",
+                        "Spiritbreath Thorn/Surging Blade DMG|{param10:F1P}",
+                        "Spiritbreath Thorn/Surging Blade DMG Interval|{param11:I}s/{param12:I}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.76518,
+                        0.69153,
+                        0.87167,
+                        1.15913,
+                        1.17368,
+                        20,
+                        1.01102,
+                        2.02162,
+                        2.52511,
+                        0.1496,
+                        6,
+                        6,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "8": {
+                    "level": 8,
+                    "costItems": {
+                        "104343": 6,
+                        "112040": 6,
+                        "113056": 1
+                    },
+                    "coinCost": 260000,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}",
+                        "4-Hit DMG|{param4:F1P}",
+                        "Charged Attack DMG|{param5:F1P}",
+                        "Charged Attack Stamina Cost|{param6:F1}",
+                        "Plunge DMG|{param7:F1P}",
+                        "Low/High Plunge DMG|{param8:P}/{param9:P}",
+                        "Spiritbreath Thorn/Surging Blade DMG|{param10:F1P}",
+                        "Spiritbreath Thorn/Surging Blade DMG Interval|{param11:I}s/{param12:I}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.82707,
+                        0.74747,
+                        0.94217,
+                        1.25288,
+                        1.26861,
+                        20,
+                        1.0928,
+                        2.18513,
+                        2.72935,
+                        0.1617,
+                        6,
+                        6,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "9": {
+                    "level": 9,
+                    "costItems": {
+                        "104343": 12,
+                        "112040": 9,
+                        "113056": 2
+                    },
+                    "coinCost": 450000,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}",
+                        "4-Hit DMG|{param4:F1P}",
+                        "Charged Attack DMG|{param5:F1P}",
+                        "Charged Attack Stamina Cost|{param6:F1}",
+                        "Plunge DMG|{param7:F1P}",
+                        "Low/High Plunge DMG|{param8:P}/{param9:P}",
+                        "Spiritbreath Thorn/Surging Blade DMG|{param10:F1P}",
+                        "Spiritbreath Thorn/Surging Blade DMG Interval|{param11:I}s/{param12:I}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.88895,
+                        0.8034,
+                        1.01267,
+                        1.34663,
+                        1.36354,
+                        20,
+                        1.17457,
+                        2.34865,
+                        2.93359,
+                        0.1738,
+                        6,
+                        6,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "10": {
+                    "level": 10,
+                    "costItems": {
+                        "104319": 1,
+                        "104343": 16,
+                        "112040": 12,
+                        "113056": 2
+                    },
+                    "coinCost": 700000,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}",
+                        "4-Hit DMG|{param4:F1P}",
+                        "Charged Attack DMG|{param5:F1P}",
+                        "Charged Attack Stamina Cost|{param6:F1}",
+                        "Plunge DMG|{param7:F1P}",
+                        "Low/High Plunge DMG|{param8:P}/{param9:P}",
+                        "Spiritbreath Thorn/Surging Blade DMG|{param10:F1P}",
+                        "Spiritbreath Thorn/Surging Blade DMG Interval|{param11:I}s/{param12:I}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.95647,
+                        0.86442,
+                        1.08958,
+                        1.44891,
+                        1.4671,
+                        20,
+                        1.26378,
+                        2.52702,
+                        3.15639,
+                        0.187,
+                        6,
+                        6,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "11": {
+                    "level": 11,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}",
+                        "4-Hit DMG|{param4:F1P}",
+                        "Charged Attack DMG|{param5:F1P}",
+                        "Charged Attack Stamina Cost|{param6:F1}",
+                        "Plunge DMG|{param7:F1P}",
+                        "Low/High Plunge DMG|{param8:P}/{param9:P}",
+                        "Spiritbreath Thorn/Surging Blade DMG|{param10:F1P}",
+                        "Spiritbreath Thorn/Surging Blade DMG Interval|{param11:I}s/{param12:I}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.02399,
+                        0.92543,
+                        1.16649,
+                        1.55119,
+                        1.57066,
+                        20,
+                        1.35299,
+                        2.7054,
+                        3.37919,
+                        0.2002,
+                        6,
+                        6,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "12": {
+                    "level": 12,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}",
+                        "4-Hit DMG|{param4:F1P}",
+                        "Charged Attack DMG|{param5:F1P}",
+                        "Charged Attack Stamina Cost|{param6:F1}",
+                        "Plunge DMG|{param7:F1P}",
+                        "Low/High Plunge DMG|{param8:P}/{param9:P}",
+                        "Spiritbreath Thorn/Surging Blade DMG|{param10:F1P}",
+                        "Spiritbreath Thorn/Surging Blade DMG Interval|{param11:I}s/{param12:I}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.0915,
+                        0.98645,
+                        1.2434,
+                        1.65346,
+                        1.67422,
+                        20,
+                        1.4422,
+                        2.88378,
+                        3.602,
+                        0.2134,
+                        6,
+                        6,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "13": {
+                    "level": 13,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}",
+                        "4-Hit DMG|{param4:F1P}",
+                        "Charged Attack DMG|{param5:F1P}",
+                        "Charged Attack Stamina Cost|{param6:F1}",
+                        "Plunge DMG|{param7:F1P}",
+                        "Low/High Plunge DMG|{param8:P}/{param9:P}",
+                        "Spiritbreath Thorn/Surging Blade DMG|{param10:F1P}",
+                        "Spiritbreath Thorn/Surging Blade DMG Interval|{param11:I}s/{param12:I}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.15902,
+                        1.04747,
+                        1.32032,
+                        1.75574,
+                        1.77778,
+                        20,
+                        1.5314,
+                        3.06216,
+                        3.8248,
+                        0.2266,
+                        6,
+                        6,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "14": {
+                    "level": 14,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}",
+                        "4-Hit DMG|{param4:F1P}",
+                        "Charged Attack DMG|{param5:F1P}",
+                        "Charged Attack Stamina Cost|{param6:F1}",
+                        "Plunge DMG|{param7:F1P}",
+                        "Low/High Plunge DMG|{param8:P}/{param9:P}",
+                        "Spiritbreath Thorn/Surging Blade DMG|{param10:F1P}",
+                        "Spiritbreath Thorn/Surging Blade DMG Interval|{param11:I}s/{param12:I}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.22653,
+                        1.10849,
+                        1.39723,
+                        1.85801,
+                        1.88134,
+                        20,
+                        1.62061,
+                        3.24054,
+                        4.04761,
+                        0.2398,
+                        6,
+                        6,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "15": {
+                    "level": 15,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}",
+                        "4-Hit DMG|{param4:F1P}",
+                        "Charged Attack DMG|{param5:F1P}",
+                        "Charged Attack Stamina Cost|{param6:F1}",
+                        "Plunge DMG|{param7:F1P}",
+                        "Low/High Plunge DMG|{param8:P}/{param9:P}",
+                        "Spiritbreath Thorn/Surging Blade DMG|{param10:F1P}",
+                        "Spiritbreath Thorn/Surging Blade DMG Interval|{param11:I}s/{param12:I}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.29405,
+                        1.1695,
+                        1.47414,
+                        1.96029,
+                        1.9849,
+                        20,
+                        1.70982,
+                        3.41892,
+                        4.27041,
+                        0.253,
+                        6,
+                        6,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            "cooldown": 0,
+            "cost": 0,
+            "linkedConstellations": null,
+            "advancedProps": [
+                {
+                    "name": "Normal Attack 1-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": "4",
+                            "text": "Normal Attack"
+                        },
+                        "type": {
+                            "span": "4",
+                            "text": "2.5s/3 Hits"
+                        }
+                    },
+                    "interruptionResistance": "50.5548",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 2-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "48.4344",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 3-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "57.1707",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "0",
+                        "verticalForce": "450"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 4-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "79.6608",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "480",
+                        "verticalForce": "600"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Charged Attack",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": null,
+                            "text": "Charged Attack"
+                        },
+                        "type": {
+                            "span": null,
+                            "text": "2.5s/3 Hits"
+                        }
+                    },
+                    "interruptionResistance": "120",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "480",
+                        "verticalForce": "600"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Spiritbreath Thorn DMG",
+                    "elementalGaugeTheory": "0U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "20",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Surging Blade DMG",
+                    "elementalGaugeTheory": "0U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "20",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Plunging Attack Collision",
+                    "elementalGaugeTheory": "0U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "25",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Low Plunge",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "100",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "800",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": true
+                },
+                {
+                    "name": "High Plunge",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "150",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "0",
+                        "verticalForce": "800"
+                    },
+                    "bluntAttack": true
+                }
+            ]
+        },
+        "1": {
+            "type": 0,
+            "name": "Salon Solitaire",
+            "description": "Invites the guests of the Salon Solitaire to come forth and aid in Furina's performance. Will summon either the Salon Members or the Singer of Many Waters based on Furina's current <color=#FFD780FF>Arkhe alignment</color>.\\n\\n<color=#FFD780FF>Ousia</color>\\nFoaming bubbles like celebrants shall dance, dealing <color=#80C0FFFF>AoE Hydro DMG</color> based on Furina's Max HP and summoning 3 Salon Members: the Ball Octopus-shaped Gentilhomme Usher, the Bubbly Seahorse-shaped Surintendante Chevalmarin, and the Armored Crab-shaped Mademoiselle Crabaletta.\\nThey will attack nearby opponents at intervals, prioritizing the target of the active character, dealing <color=#80C0FFFF>Hydro</color> DMG based on Max HP.\\nWhen they attack, if character(s) with more than 50% HP are nearby, the Members will increase their current attack's power based on the number of such characters, and consume said characters' HP. If 1/2/3/4 (or more) characters meet these requirements, the Members' attacks will deal 110%/120%/130%/140% of their original DMG.\\n\\n<color=#FFD780FF>Pneuma</color>\\nSummons the Singer of Many Waters, who will heal nearby active character(s) based on Max HP at intervals.\\n\\nThe Salon Members and Singer of Many Waters share a duration, and when Furina uses her Charged Attack to change the guest type, the new guests will inherit the remaining duration.\\nWhile the Salon Members or the Singer of Many Waters is on the field, Furina can move on the water's surface.\\n\\n<i>A fixed roster of regulars frequent Furina's Salon Solitaire. At other times, Mademoiselle Crabaletta, Surintendante Chevalmarin, and Gentilhomme Usher shall visit, and on gloomy Wednesdays, it is the singer who comes by.</i>",
+            "icon": "Skill_S_Furina_01",
+            "promote": {
+                "1": {
+                    "level": 1,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Ousia Bubble DMG|{param1:F1P} Max HP",
+                        "Duration|{param2:F1}s",
+                        "Gentilhomme Usher DMG|{param3:F2P} Max HP",
+                        "Surintendante Chevalmarin DMG|{param4:F2P} Max HP",
+                        "Mademoiselle Crabaletta DMG|{param5:F2P} Max HP",
+                        "Gentilhomme Usher HP Consumption|{param6:F1P} Max HP",
+                        "Surintendante Chevalmarin HP Consumption|{param7:F1P} Max HP",
+                        "Mademoiselle Crabaletta HP Consumption|{param8:F1P} Max HP",
+                        "Singer of Many Waters Healing|{param9:F2P} Max HP+{param10:I}",
+                        "CD|{param11:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.07864,
+                        30,
+                        0.0596,
+                        0.03232,
+                        0.08288,
+                        0.024,
+                        0.016,
+                        0.036,
+                        0.048,
+                        462.22531,
+                        20,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "2": {
+                    "level": 2,
+                    "costItems": {
+                        "104341": 3,
+                        "112038": 6
+                    },
+                    "coinCost": 12500,
+                    "description": [
+                        "Ousia Bubble DMG|{param1:F1P} Max HP",
+                        "Duration|{param2:F1}s",
+                        "Gentilhomme Usher DMG|{param3:F2P} Max HP",
+                        "Surintendante Chevalmarin DMG|{param4:F2P} Max HP",
+                        "Mademoiselle Crabaletta DMG|{param5:F2P} Max HP",
+                        "Gentilhomme Usher HP Consumption|{param6:F1P} Max HP",
+                        "Surintendante Chevalmarin HP Consumption|{param7:F1P} Max HP",
+                        "Mademoiselle Crabaletta HP Consumption|{param8:F1P} Max HP",
+                        "Singer of Many Waters Healing|{param9:F2P} Max HP+{param10:I}",
+                        "CD|{param11:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.08454,
+                        30,
+                        0.06407,
+                        0.03474,
+                        0.0891,
+                        0.024,
+                        0.016,
+                        0.036,
+                        0.0516,
+                        508.45425,
+                        20,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "3": {
+                    "level": 3,
+                    "costItems": {
+                        "104342": 2,
+                        "112039": 3
+                    },
+                    "coinCost": 17500,
+                    "description": [
+                        "Ousia Bubble DMG|{param1:F1P} Max HP",
+                        "Duration|{param2:F1}s",
+                        "Gentilhomme Usher DMG|{param3:F2P} Max HP",
+                        "Surintendante Chevalmarin DMG|{param4:F2P} Max HP",
+                        "Mademoiselle Crabaletta DMG|{param5:F2P} Max HP",
+                        "Gentilhomme Usher HP Consumption|{param6:F1P} Max HP",
+                        "Surintendante Chevalmarin HP Consumption|{param7:F1P} Max HP",
+                        "Mademoiselle Crabaletta HP Consumption|{param8:F1P} Max HP",
+                        "Singer of Many Waters Healing|{param9:F2P} Max HP+{param10:I}",
+                        "CD|{param11:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.09044,
+                        30,
+                        0.06854,
+                        0.03717,
+                        0.09531,
+                        0.024,
+                        0.016,
+                        0.036,
+                        0.0552,
+                        558.53564,
+                        20,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "4": {
+                    "level": 4,
+                    "costItems": {
+                        "104342": 4,
+                        "112039": 4
+                    },
+                    "coinCost": 25000,
+                    "description": [
+                        "Ousia Bubble DMG|{param1:F1P} Max HP",
+                        "Duration|{param2:F1}s",
+                        "Gentilhomme Usher DMG|{param3:F2P} Max HP",
+                        "Surintendante Chevalmarin DMG|{param4:F2P} Max HP",
+                        "Mademoiselle Crabaletta DMG|{param5:F2P} Max HP",
+                        "Gentilhomme Usher HP Consumption|{param6:F1P} Max HP",
+                        "Surintendante Chevalmarin HP Consumption|{param7:F1P} Max HP",
+                        "Mademoiselle Crabaletta HP Consumption|{param8:F1P} Max HP",
+                        "Singer of Many Waters Healing|{param9:F2P} Max HP+{param10:I}",
+                        "CD|{param11:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.0983,
+                        30,
+                        0.0745,
+                        0.0404,
+                        0.1036,
+                        0.024,
+                        0.016,
+                        0.036,
+                        0.06,
+                        612.46942,
+                        20,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "5": {
+                    "level": 5,
+                    "costItems": {
+                        "104342": 6,
+                        "112039": 6
+                    },
+                    "coinCost": 30000,
+                    "description": [
+                        "Ousia Bubble DMG|{param1:F1P} Max HP",
+                        "Duration|{param2:F1}s",
+                        "Gentilhomme Usher DMG|{param3:F2P} Max HP",
+                        "Surintendante Chevalmarin DMG|{param4:F2P} Max HP",
+                        "Mademoiselle Crabaletta DMG|{param5:F2P} Max HP",
+                        "Gentilhomme Usher HP Consumption|{param6:F1P} Max HP",
+                        "Surintendante Chevalmarin HP Consumption|{param7:F1P} Max HP",
+                        "Mademoiselle Crabaletta HP Consumption|{param8:F1P} Max HP",
+                        "Singer of Many Waters Healing|{param9:F2P} Max HP+{param10:I}",
+                        "CD|{param11:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.1042,
+                        30,
+                        0.07897,
+                        0.04282,
+                        0.10982,
+                        0.024,
+                        0.016,
+                        0.036,
+                        0.0636,
+                        670.25562,
+                        20,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "6": {
+                    "level": 6,
+                    "costItems": {
+                        "104342": 9,
+                        "112039": 9
+                    },
+                    "coinCost": 37500,
+                    "description": [
+                        "Ousia Bubble DMG|{param1:F1P} Max HP",
+                        "Duration|{param2:F1}s",
+                        "Gentilhomme Usher DMG|{param3:F2P} Max HP",
+                        "Surintendante Chevalmarin DMG|{param4:F2P} Max HP",
+                        "Mademoiselle Crabaletta DMG|{param5:F2P} Max HP",
+                        "Gentilhomme Usher HP Consumption|{param6:F1P} Max HP",
+                        "Surintendante Chevalmarin HP Consumption|{param7:F1P} Max HP",
+                        "Mademoiselle Crabaletta HP Consumption|{param8:F1P} Max HP",
+                        "Singer of Many Waters Healing|{param9:F2P} Max HP+{param10:I}",
+                        "CD|{param11:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.1101,
+                        30,
+                        0.08344,
+                        0.04525,
+                        0.11603,
+                        0.024,
+                        0.016,
+                        0.036,
+                        0.0672,
+                        731.89423,
+                        20,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "7": {
+                    "level": 7,
+                    "costItems": {
+                        "104343": 4,
+                        "112040": 4,
+                        "113056": 1
+                    },
+                    "coinCost": 120000,
+                    "description": [
+                        "Ousia Bubble DMG|{param1:F1P} Max HP",
+                        "Duration|{param2:F1}s",
+                        "Gentilhomme Usher DMG|{param3:F2P} Max HP",
+                        "Surintendante Chevalmarin DMG|{param4:F2P} Max HP",
+                        "Mademoiselle Crabaletta DMG|{param5:F2P} Max HP",
+                        "Gentilhomme Usher HP Consumption|{param6:F1P} Max HP",
+                        "Surintendante Chevalmarin HP Consumption|{param7:F1P} Max HP",
+                        "Mademoiselle Crabaletta HP Consumption|{param8:F1P} Max HP",
+                        "Singer of Many Waters Healing|{param9:F2P} Max HP+{param10:I}",
+                        "CD|{param11:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.11796,
+                        30,
+                        0.0894,
+                        0.04848,
+                        0.12432,
+                        0.024,
+                        0.016,
+                        0.036,
+                        0.072,
+                        797.38519,
+                        20,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "8": {
+                    "level": 8,
+                    "costItems": {
+                        "104343": 6,
+                        "112040": 6,
+                        "113056": 1
+                    },
+                    "coinCost": 260000,
+                    "description": [
+                        "Ousia Bubble DMG|{param1:F1P} Max HP",
+                        "Duration|{param2:F1}s",
+                        "Gentilhomme Usher DMG|{param3:F2P} Max HP",
+                        "Surintendante Chevalmarin DMG|{param4:F2P} Max HP",
+                        "Mademoiselle Crabaletta DMG|{param5:F2P} Max HP",
+                        "Gentilhomme Usher HP Consumption|{param6:F1P} Max HP",
+                        "Surintendante Chevalmarin HP Consumption|{param7:F1P} Max HP",
+                        "Mademoiselle Crabaletta HP Consumption|{param8:F1P} Max HP",
+                        "Singer of Many Waters Healing|{param9:F2P} Max HP+{param10:I}",
+                        "CD|{param11:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.12582,
+                        30,
+                        0.09536,
+                        0.05171,
+                        0.13261,
+                        0.024,
+                        0.016,
+                        0.036,
+                        0.0768,
+                        866.72864,
+                        20,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "9": {
+                    "level": 9,
+                    "costItems": {
+                        "104343": 12,
+                        "112040": 9,
+                        "113056": 2
+                    },
+                    "coinCost": 450000,
+                    "description": [
+                        "Ousia Bubble DMG|{param1:F1P} Max HP",
+                        "Duration|{param2:F1}s",
+                        "Gentilhomme Usher DMG|{param3:F2P} Max HP",
+                        "Surintendante Chevalmarin DMG|{param4:F2P} Max HP",
+                        "Mademoiselle Crabaletta DMG|{param5:F2P} Max HP",
+                        "Gentilhomme Usher HP Consumption|{param6:F1P} Max HP",
+                        "Surintendante Chevalmarin HP Consumption|{param7:F1P} Max HP",
+                        "Mademoiselle Crabaletta HP Consumption|{param8:F1P} Max HP",
+                        "Singer of Many Waters Healing|{param9:F2P} Max HP+{param10:I}",
+                        "CD|{param11:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.13369,
+                        30,
+                        0.10132,
+                        0.05494,
+                        0.1409,
+                        0.024,
+                        0.016,
+                        0.036,
+                        0.0816,
+                        939.9245,
+                        20,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "10": {
+                    "level": 10,
+                    "costItems": {
+                        "104319": 1,
+                        "104343": 16,
+                        "112040": 12,
+                        "113056": 2
+                    },
+                    "coinCost": 700000,
+                    "description": [
+                        "Ousia Bubble DMG|{param1:F1P} Max HP",
+                        "Duration|{param2:F1}s",
+                        "Gentilhomme Usher DMG|{param3:F2P} Max HP",
+                        "Surintendante Chevalmarin DMG|{param4:F2P} Max HP",
+                        "Mademoiselle Crabaletta DMG|{param5:F2P} Max HP",
+                        "Gentilhomme Usher HP Consumption|{param6:F1P} Max HP",
+                        "Surintendante Chevalmarin HP Consumption|{param7:F1P} Max HP",
+                        "Mademoiselle Crabaletta HP Consumption|{param8:F1P} Max HP",
+                        "Singer of Many Waters Healing|{param9:F2P} Max HP+{param10:I}",
+                        "CD|{param11:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.14155,
+                        30,
+                        0.10728,
+                        0.05818,
+                        0.14918,
+                        0.024,
+                        0.016,
+                        0.036,
+                        0.0864,
+                        1016.97278,
+                        20,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "11": {
+                    "level": 11,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Ousia Bubble DMG|{param1:F1P} Max HP",
+                        "Duration|{param2:F1}s",
+                        "Gentilhomme Usher DMG|{param3:F2P} Max HP",
+                        "Surintendante Chevalmarin DMG|{param4:F2P} Max HP",
+                        "Mademoiselle Crabaletta DMG|{param5:F2P} Max HP",
+                        "Gentilhomme Usher HP Consumption|{param6:F1P} Max HP",
+                        "Surintendante Chevalmarin HP Consumption|{param7:F1P} Max HP",
+                        "Mademoiselle Crabaletta HP Consumption|{param8:F1P} Max HP",
+                        "Singer of Many Waters Healing|{param9:F2P} Max HP+{param10:I}",
+                        "CD|{param11:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.14942,
+                        30,
+                        0.11324,
+                        0.06141,
+                        0.15747,
+                        0.024,
+                        0.016,
+                        0.036,
+                        0.0912,
+                        1097.87341,
+                        20,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "12": {
+                    "level": 12,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Ousia Bubble DMG|{param1:F1P} Max HP",
+                        "Duration|{param2:F1}s",
+                        "Gentilhomme Usher DMG|{param3:F2P} Max HP",
+                        "Surintendante Chevalmarin DMG|{param4:F2P} Max HP",
+                        "Mademoiselle Crabaletta DMG|{param5:F2P} Max HP",
+                        "Gentilhomme Usher HP Consumption|{param6:F1P} Max HP",
+                        "Surintendante Chevalmarin HP Consumption|{param7:F1P} Max HP",
+                        "Mademoiselle Crabaletta HP Consumption|{param8:F1P} Max HP",
+                        "Singer of Many Waters Healing|{param9:F2P} Max HP+{param10:I}",
+                        "CD|{param11:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.15728,
+                        30,
+                        0.1192,
+                        0.06464,
+                        0.16576,
+                        0.024,
+                        0.016,
+                        0.036,
+                        0.096,
+                        1182.62646,
+                        20,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "13": {
+                    "level": 13,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Ousia Bubble DMG|{param1:F1P} Max HP",
+                        "Duration|{param2:F1}s",
+                        "Gentilhomme Usher DMG|{param3:F2P} Max HP",
+                        "Surintendante Chevalmarin DMG|{param4:F2P} Max HP",
+                        "Mademoiselle Crabaletta DMG|{param5:F2P} Max HP",
+                        "Gentilhomme Usher HP Consumption|{param6:F1P} Max HP",
+                        "Surintendante Chevalmarin HP Consumption|{param7:F1P} Max HP",
+                        "Mademoiselle Crabaletta HP Consumption|{param8:F1P} Max HP",
+                        "Singer of Many Waters Healing|{param9:F2P} Max HP+{param10:I}",
+                        "CD|{param11:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.16711,
+                        30,
+                        0.12665,
+                        0.06868,
+                        0.17612,
+                        0.024,
+                        0.016,
+                        0.036,
+                        0.102,
+                        1271.23206,
+                        20,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "14": {
+                    "level": 14,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Ousia Bubble DMG|{param1:F1P} Max HP",
+                        "Duration|{param2:F1}s",
+                        "Gentilhomme Usher DMG|{param3:F2P} Max HP",
+                        "Surintendante Chevalmarin DMG|{param4:F2P} Max HP",
+                        "Mademoiselle Crabaletta DMG|{param5:F2P} Max HP",
+                        "Gentilhomme Usher HP Consumption|{param6:F1P} Max HP",
+                        "Surintendante Chevalmarin HP Consumption|{param7:F1P} Max HP",
+                        "Mademoiselle Crabaletta HP Consumption|{param8:F1P} Max HP",
+                        "Singer of Many Waters Healing|{param9:F2P} Max HP+{param10:I}",
+                        "CD|{param11:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.17694,
+                        30,
+                        0.1341,
+                        0.07272,
+                        0.18648,
+                        0.024,
+                        0.016,
+                        0.036,
+                        0.108,
+                        1363.68994,
+                        20,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "15": {
+                    "level": 15,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Ousia Bubble DMG|{param1:F1P} Max HP",
+                        "Duration|{param2:F1}s",
+                        "Gentilhomme Usher DMG|{param3:F2P} Max HP",
+                        "Surintendante Chevalmarin DMG|{param4:F2P} Max HP",
+                        "Mademoiselle Crabaletta DMG|{param5:F2P} Max HP",
+                        "Gentilhomme Usher HP Consumption|{param6:F1P} Max HP",
+                        "Surintendante Chevalmarin HP Consumption|{param7:F1P} Max HP",
+                        "Mademoiselle Crabaletta HP Consumption|{param8:F1P} Max HP",
+                        "Singer of Many Waters Healing|{param9:F2P} Max HP+{param10:I}",
+                        "CD|{param11:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.18677,
+                        30,
+                        0.14155,
+                        0.07676,
+                        0.19684,
+                        0.024,
+                        0.016,
+                        0.036,
+                        0.114,
+                        1460.00024,
+                        20,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            "cooldown": 20,
+            "cost": 0,
+            "linkedConstellations": {
+                "isLevelIncluded": true,
+                "prop": [
+                    {
+                        "id": 3,
+                        "type": "normal"
+                    },
+                    {
+                        "id": 4,
+                        "type": "level"
+                    },
+                    {
+                        "id": 5,
+                        "type": "normal"
+                    }
+                ]
+            },
+            "advancedProps": [
+                {
+                    "name": "Ousia Bubble DMG",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "20",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Gentilhomme Usher DMG",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": null,
+                            "text": "Octopus"
+                        },
+                        "type": {
+                            "span": null,
+                            "text": "30s/2 Hits"
+                        }
+                    },
+                    "interruptionResistance": "15",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Surintendante Chevalmarin DMG",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": null,
+                            "text": "Seahorse"
+                        },
+                        "type": {
+                            "span": null,
+                            "text": "30s/2 Hits"
+                        }
+                    },
+                    "interruptionResistance": "10",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Mademoiselle Crabaletta DMG",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "30",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                }
+            ]
+        },
+        "3": {
+            "type": 1,
+            "name": "Let the People Rejoice",
+            "description": "Rouses the impulse to revel, creating a stage of foam that will deal <color=#80C0FFFF>AoE Hydro DMG</color> based on Furina's Max HP and cause nearby party members to enter the Universal Revelry state: During this time, when nearby party members' HP increases or decreases, 1 Fanfare point will be granted to Furina for each percentage point of their Max HP by which their HP changes.\\nAt the same time, Furina will increase the DMG dealt by and Incoming Healing Bonus of all nearby party members based on the amount of Fanfare she has.\\nWhen the duration ends, Furina's Fanfare points will be cleared.\\n\\n<i>\"Cheer! Give praise! Be awed! Raise your glasses! Every night bereft of banqueting is a sordid squandering of sore, sober daylight... And, uh, those who are not yet of age may have grape juice instead!\"</i>",
+            "icon": "Skill_E_Furina_01",
+            "promote": {
+                "1": {
+                    "level": 1,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Skill DMG|{param1:F1P} Max HP",
+                        "Duration|{param2:F1}s",
+                        "Maximum Fanfare|{param4:I}",
+                        "Fanfare to DMG Increase Conversion Ratio|{param5:F2P}",
+                        "Fanfare to Incoming Healing Bonus Conversion Ratio|{param6:F2P}",
+                        "CD|{param7:F1}s",
+                        "Energy Cost|{param8:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.11406,
+                        18,
+                        0.01,
+                        300,
+                        0.0007,
+                        0.0001,
+                        15,
+                        60,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "2": {
+                    "level": 2,
+                    "costItems": {
+                        "104341": 3,
+                        "112038": 6
+                    },
+                    "coinCost": 12500,
+                    "description": [
+                        "Skill DMG|{param1:F1P} Max HP",
+                        "Duration|{param2:F1}s",
+                        "Maximum Fanfare|{param4:I}",
+                        "Fanfare to DMG Increase Conversion Ratio|{param5:F2P}",
+                        "Fanfare to Incoming Healing Bonus Conversion Ratio|{param6:F2P}",
+                        "CD|{param7:F1}s",
+                        "Energy Cost|{param8:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.12262,
+                        18,
+                        0.01,
+                        300,
+                        0.0009,
+                        0.0002,
+                        15,
+                        60,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "3": {
+                    "level": 3,
+                    "costItems": {
+                        "104342": 2,
+                        "112039": 3
+                    },
+                    "coinCost": 17500,
+                    "description": [
+                        "Skill DMG|{param1:F1P} Max HP",
+                        "Duration|{param2:F1}s",
+                        "Maximum Fanfare|{param4:I}",
+                        "Fanfare to DMG Increase Conversion Ratio|{param5:F2P}",
+                        "Fanfare to Incoming Healing Bonus Conversion Ratio|{param6:F2P}",
+                        "CD|{param7:F1}s",
+                        "Energy Cost|{param8:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.13117,
+                        18,
+                        0.01,
+                        300,
+                        0.0011,
+                        0.0003,
+                        15,
+                        60,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "4": {
+                    "level": 4,
+                    "costItems": {
+                        "104342": 4,
+                        "112039": 4
+                    },
+                    "coinCost": 25000,
+                    "description": [
+                        "Skill DMG|{param1:F1P} Max HP",
+                        "Duration|{param2:F1}s",
+                        "Maximum Fanfare|{param4:I}",
+                        "Fanfare to DMG Increase Conversion Ratio|{param5:F2P}",
+                        "Fanfare to Incoming Healing Bonus Conversion Ratio|{param6:F2P}",
+                        "CD|{param7:F1}s",
+                        "Energy Cost|{param8:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.14258,
+                        18,
+                        0.01,
+                        300,
+                        0.0013,
+                        0.0004,
+                        15,
+                        60,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "5": {
+                    "level": 5,
+                    "costItems": {
+                        "104342": 6,
+                        "112039": 6
+                    },
+                    "coinCost": 30000,
+                    "description": [
+                        "Skill DMG|{param1:F1P} Max HP",
+                        "Duration|{param2:F1}s",
+                        "Maximum Fanfare|{param4:I}",
+                        "Fanfare to DMG Increase Conversion Ratio|{param5:F2P}",
+                        "Fanfare to Incoming Healing Bonus Conversion Ratio|{param6:F2P}",
+                        "CD|{param7:F1}s",
+                        "Energy Cost|{param8:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.15113,
+                        18,
+                        0.01,
+                        300,
+                        0.0015,
+                        0.0005,
+                        15,
+                        60,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "6": {
+                    "level": 6,
+                    "costItems": {
+                        "104342": 9,
+                        "112039": 9
+                    },
+                    "coinCost": 37500,
+                    "description": [
+                        "Skill DMG|{param1:F1P} Max HP",
+                        "Duration|{param2:F1}s",
+                        "Maximum Fanfare|{param4:I}",
+                        "Fanfare to DMG Increase Conversion Ratio|{param5:F2P}",
+                        "Fanfare to Incoming Healing Bonus Conversion Ratio|{param6:F2P}",
+                        "CD|{param7:F1}s",
+                        "Energy Cost|{param8:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.15969,
+                        18,
+                        0.01,
+                        300,
+                        0.0017,
+                        0.0006,
+                        15,
+                        60,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "7": {
+                    "level": 7,
+                    "costItems": {
+                        "104343": 4,
+                        "112040": 4,
+                        "113056": 1
+                    },
+                    "coinCost": 120000,
+                    "description": [
+                        "Skill DMG|{param1:F1P} Max HP",
+                        "Duration|{param2:F1}s",
+                        "Maximum Fanfare|{param4:I}",
+                        "Fanfare to DMG Increase Conversion Ratio|{param5:F2P}",
+                        "Fanfare to Incoming Healing Bonus Conversion Ratio|{param6:F2P}",
+                        "CD|{param7:F1}s",
+                        "Energy Cost|{param8:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.1711,
+                        18,
+                        0.01,
+                        300,
+                        0.0019,
+                        0.0007,
+                        15,
+                        60,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "8": {
+                    "level": 8,
+                    "costItems": {
+                        "104343": 6,
+                        "112040": 6,
+                        "113056": 1
+                    },
+                    "coinCost": 260000,
+                    "description": [
+                        "Skill DMG|{param1:F1P} Max HP",
+                        "Duration|{param2:F1}s",
+                        "Maximum Fanfare|{param4:I}",
+                        "Fanfare to DMG Increase Conversion Ratio|{param5:F2P}",
+                        "Fanfare to Incoming Healing Bonus Conversion Ratio|{param6:F2P}",
+                        "CD|{param7:F1}s",
+                        "Energy Cost|{param8:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.1825,
+                        18,
+                        0.01,
+                        300,
+                        0.0021,
+                        0.0008,
+                        15,
+                        60,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "9": {
+                    "level": 9,
+                    "costItems": {
+                        "104343": 12,
+                        "112040": 9,
+                        "113056": 2
+                    },
+                    "coinCost": 450000,
+                    "description": [
+                        "Skill DMG|{param1:F1P} Max HP",
+                        "Duration|{param2:F1}s",
+                        "Maximum Fanfare|{param4:I}",
+                        "Fanfare to DMG Increase Conversion Ratio|{param5:F2P}",
+                        "Fanfare to Incoming Healing Bonus Conversion Ratio|{param6:F2P}",
+                        "CD|{param7:F1}s",
+                        "Energy Cost|{param8:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.19391,
+                        18,
+                        0.01,
+                        300,
+                        0.0023,
+                        0.0009,
+                        15,
+                        60,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "10": {
+                    "level": 10,
+                    "costItems": {
+                        "104319": 1,
+                        "104343": 16,
+                        "112040": 12,
+                        "113056": 2
+                    },
+                    "coinCost": 700000,
+                    "description": [
+                        "Skill DMG|{param1:F1P} Max HP",
+                        "Duration|{param2:F1}s",
+                        "Maximum Fanfare|{param4:I}",
+                        "Fanfare to DMG Increase Conversion Ratio|{param5:F2P}",
+                        "Fanfare to Incoming Healing Bonus Conversion Ratio|{param6:F2P}",
+                        "CD|{param7:F1}s",
+                        "Energy Cost|{param8:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.20531,
+                        18,
+                        0.01,
+                        300,
+                        0.0025,
+                        0.001,
+                        15,
+                        60,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "11": {
+                    "level": 11,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Skill DMG|{param1:F1P} Max HP",
+                        "Duration|{param2:F1}s",
+                        "Maximum Fanfare|{param4:I}",
+                        "Fanfare to DMG Increase Conversion Ratio|{param5:F2P}",
+                        "Fanfare to Incoming Healing Bonus Conversion Ratio|{param6:F2P}",
+                        "CD|{param7:F1}s",
+                        "Energy Cost|{param8:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.21672,
+                        18,
+                        0.01,
+                        300,
+                        0.0027,
+                        0.0011,
+                        15,
+                        60,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "12": {
+                    "level": 12,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Skill DMG|{param1:F1P} Max HP",
+                        "Duration|{param2:F1}s",
+                        "Maximum Fanfare|{param4:I}",
+                        "Fanfare to DMG Increase Conversion Ratio|{param5:F2P}",
+                        "Fanfare to Incoming Healing Bonus Conversion Ratio|{param6:F2P}",
+                        "CD|{param7:F1}s",
+                        "Energy Cost|{param8:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.22813,
+                        18,
+                        0.01,
+                        300,
+                        0.0029,
+                        0.0012,
+                        15,
+                        60,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "13": {
+                    "level": 13,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Skill DMG|{param1:F1P} Max HP",
+                        "Duration|{param2:F1}s",
+                        "Maximum Fanfare|{param4:I}",
+                        "Fanfare to DMG Increase Conversion Ratio|{param5:F2P}",
+                        "Fanfare to Incoming Healing Bonus Conversion Ratio|{param6:F2P}",
+                        "CD|{param7:F1}s",
+                        "Energy Cost|{param8:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.24239,
+                        18,
+                        0.01,
+                        300,
+                        0.0031,
+                        0.0013,
+                        15,
+                        60,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "14": {
+                    "level": 14,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Skill DMG|{param1:F1P} Max HP",
+                        "Duration|{param2:F1}s",
+                        "Maximum Fanfare|{param4:I}",
+                        "Fanfare to DMG Increase Conversion Ratio|{param5:F2P}",
+                        "Fanfare to Incoming Healing Bonus Conversion Ratio|{param6:F2P}",
+                        "CD|{param7:F1}s",
+                        "Energy Cost|{param8:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.25664,
+                        18,
+                        0.01,
+                        300,
+                        0.0033,
+                        0.0014,
+                        15,
+                        60,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "15": {
+                    "level": 15,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Skill DMG|{param1:F1P} Max HP",
+                        "Duration|{param2:F1}s",
+                        "Maximum Fanfare|{param4:I}",
+                        "Fanfare to DMG Increase Conversion Ratio|{param5:F2P}",
+                        "Fanfare to Incoming Healing Bonus Conversion Ratio|{param6:F2P}",
+                        "CD|{param7:F1}s",
+                        "Energy Cost|{param8:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.2709,
+                        18,
+                        0.01,
+                        300,
+                        0.0035,
+                        0.0015,
+                        15,
+                        60,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            "cooldown": 15,
+            "cost": 60,
+            "linkedConstellations": {
+                "isLevelIncluded": true,
+                "prop": [
+                    {
+                        "id": 0,
+                        "type": "normal"
+                    },
+                    {
+                        "id": 1,
+                        "type": "normal"
+                    },
+                    {
+                        "id": 2,
+                        "type": "level"
+                    }
+                ]
+            },
+            "advancedProps": [
+                {
+                    "name": "Skill DMG",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "120",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                }
+            ]
+        },
+        "4": {
+            "type": 2,
+            "name": "Endless Waltz",
+            "description": "When the active character in your party receives healing, if the source of the healing is not Furina herself and the healing overflows, then Furina will heal nearby party members for 2% of their Max HP once every 2s for the next 4s.",
+            "icon": "UI_Talent_S_Furina_05",
+            "linkedConstellations": null
+        },
+        "5": {
+            "type": 2,
+            "name": "Unheard Confession",
+            "description": "Every 1,000 points of Furina's Max HP can buff the different Arkhe-aligned <color=#FFD780FF>Salon Solitaire</color> in the following ways:\\nWill increase Salon Members' DMG dealt by 0.7%, up to a maximum of 28%.\\nWill decrease the Singer of Many Waters' healing interval for nearby active characters by 0.4%, up to a maximum of 16%.",
+            "icon": "UI_Talent_S_Furina_06",
+            "linkedConstellations": null
+        },
+        "6": {
+            "type": 2,
+            "name": "The Sea Is My Stage",
+            "description": "Xenochromatic Fontemer Aberrant ability CD decreased by 30%.",
+            "icon": "UI_Talent_S_Furina_07",
+            "linkedConstellations": null
+        }
+    },
+    "constellation": {
+        "0": {
+            "id": 0,
+            "name": "\"Love Is a Rebellious Bird That None Can Tame\"",
+            "description": "When using <color=#FFD780FF>Let the People Rejoice</color>, Furina will gain 150 Fanfare.\\nAdditionally, Furina's Fanfare limit is increased by 100.",
+            "extraData": null,
+            "icon": "UI_Talent_S_Furina_01"
+        },
+        "1": {
+            "id": 1,
+            "name": "\"A Woman Adapts Like Duckweed in Water\"",
+            "description": "While <color=#FFD780FF>Let the People Rejoice</color> lasts, Furina's Fanfare gain from increases or decreases in nearby characters' HP is increased by 250%. Each point of Fanfare above the limit will increase Furina's Max HP by 0.35%. Her maximum Max HP increase is 140%.",
+            "extraData": null,
+            "icon": "UI_Talent_S_Furina_04"
+        },
+        "2": {
+            "id": 2,
+            "name": "\"My Secret Is Hidden Within Me, No One Will Know My Name\"",
+            "description": "Increases the Level of <color=#FFD780FF>Let the People Rejoice</color> by 3.\\nMaximum upgrade level is 15.",
+            "extraData": {
+                "addTalentExtraLevel": {
+                    "talentType": "AvatarSkill",
+                    "talentIndex": 9,
+                    "extraLevel": 3
+                }
+            },
+            "icon": "UI_Talent_U_Furina_02"
+        },
+        "3": {
+            "id": 3,
+            "name": "\"They Know Not Life, Who Dwelt in the Netherworld Not!\"",
+            "description": "When the Salon Members from <color=#FFD780FF>Salon Solitaire</color> hit an opponent, or the Singer of Many Waters restores HP to nearby active characters, Furina will restore 4 Energy. This effect can be triggered once every 5s.",
+            "extraData": null,
+            "icon": "UI_Talent_S_Furina_03"
+        },
+        "4": {
+            "id": 4,
+            "name": "\"His Name I Now Know, It Is...!\"",
+            "description": "Increases the Level of <color=#FFD780FF>Salon Solitaire</color> by 3.\\nMaximum upgrade level is 15.",
+            "extraData": {
+                "addTalentExtraLevel": {
+                    "talentType": "AvatarSkill",
+                    "talentIndex": 2,
+                    "extraLevel": 3
+                }
+            },
+            "icon": "UI_Talent_U_Furina_01"
+        },
+        "5": {
+            "id": 5,
+            "name": "\"Hear Me — Let Us Raise the Chalice of Love!\"",
+            "description": "When using <color=#FFD780FF>Salon Solitaire</color>, Furina gains \"Center of Attention\" for 10s.\\nThroughout the duration, Furina's Normal Attacks, Charged Attacks, and Plunging Attacks are converted into <color=#80C0FFFF>Hydro DMG</color> which cannot be overridden by any other elemental infusion. DMG is also increased by an amount equivalent to 18% of Furina's max HP.\\nThroughout the duration, Furina's Normal Attacks (not including Arkhe: Seats Sacred and Secular Attacks), Charged Attacks, and the impact of Plunging Attacks will cause different effects up to every 0.1s after hitting opponents depending on her current Arkhe alignment:\\n\\nArkhe: Ousia\\nEvery 1s, all nearby characters in the party will be healed by 4% of Furina's max HP, for a duration of 2.9s. Triggering this effect again will extend its duration.\\nArkhe: Pneuma\\nThis Normal Attack (not including Arkhe: Seats Sacred and Secular Attacks), Charged Attack, or Plunging Attack ground impact DMG will be further increased by an amount equivalent to 25% of Furina's max HP. When any of the attacks mentioned previously hit an opponent, all nearby characters in the party will consume 1% of their current HP.\\n\\nDuring the duration of each instance of \"Center of Attention,\" the above effects can be triggered up to 6 times. \"Center of Attention\" will end when its effects have triggered 6 times or when the duration expires.",
+            "extraData": null,
+            "icon": "UI_Talent_S_Furina_02"
+        }
+    },
+    "_id": 10000089
+}

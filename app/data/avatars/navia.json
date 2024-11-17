@@ -1,0 +1,2698 @@
+{
+    "id": "navia",
+    "rank": 5,
+    "name": "Navia",
+    "element": "Rock",
+    "weaponType": "WEAPON_CLAYMORE",
+    "region": "FONTAINE",
+    "specialProp": "FIGHT_PROP_CRITICAL_HURT",
+    "bodyType": "LADY",
+    "icon": "UI_AvatarIcon_Navia",
+    "birthday": [
+        8,
+        16
+    ],
+    "release": 1702936800,
+    "route": "Navia",
+    "fetter": {
+        "title": "Helm of the Radiant Rose",
+        "detail": "The current President of Spina di Rosula, who is lovely, dutiful, and a great boss.",
+        "constellation": "Rosa Multiflora",
+        "native": "Spina di Rosula",
+        "cv": {
+            "EN": "Brenna Larsen",
+            "CHS": "小敢",
+            "JP": "豊崎愛生",
+            "KR": "Jeong Hae-eun"
+        }
+    },
+    "upgrade": {
+        "prop": [
+            {
+                "propType": "FIGHT_PROP_BASE_HP",
+                "initValue": 984.77954,
+                "type": "GROW_CURVE_HP_S5"
+            },
+            {
+                "propType": "FIGHT_PROP_BASE_ATTACK",
+                "initValue": 27.3714,
+                "type": "GROW_CURVE_ATTACK_S5"
+            },
+            {
+                "propType": "FIGHT_PROP_BASE_DEFENSE",
+                "initValue": 61.74456,
+                "type": "GROW_CURVE_HP_S5"
+            }
+        ],
+        "promote": [
+            {
+                "unlockMaxLevel": 20,
+                "promoteLevel": 0
+            },
+            {
+                "promoteLevel": 1,
+                "costItems": {
+                    "101240": 3,
+                    "104171": 1,
+                    "112080": 3
+                },
+                "unlockMaxLevel": 40,
+                "addProps": {
+                    "FIGHT_PROP_BASE_HP": 844.35944,
+                    "FIGHT_PROP_BASE_DEFENSE": 52.9416,
+                    "FIGHT_PROP_BASE_ATTACK": 23.46679,
+                    "FIGHT_PROP_CRITICAL_HURT": 0
+                },
+                "requiredPlayerLevel": 15,
+                "coinCost": 20000
+            },
+            {
+                "promoteLevel": 2,
+                "costItems": {
+                    "101240": 10,
+                    "104172": 3,
+                    "112080": 15,
+                    "113050": 2
+                },
+                "unlockMaxLevel": 50,
+                "addProps": {
+                    "FIGHT_PROP_BASE_HP": 1444.29907,
+                    "FIGHT_PROP_BASE_DEFENSE": 90.558,
+                    "FIGHT_PROP_BASE_ATTACK": 40.14056,
+                    "FIGHT_PROP_CRITICAL_HURT": 0.096
+                },
+                "requiredPlayerLevel": 25,
+                "coinCost": 40000
+            },
+            {
+                "promoteLevel": 3,
+                "costItems": {
+                    "101240": 20,
+                    "104172": 6,
+                    "112081": 12,
+                    "113050": 4
+                },
+                "unlockMaxLevel": 60,
+                "addProps": {
+                    "FIGHT_PROP_BASE_HP": 2244.21851,
+                    "FIGHT_PROP_BASE_DEFENSE": 140.7132,
+                    "FIGHT_PROP_BASE_ATTACK": 62.37225,
+                    "FIGHT_PROP_CRITICAL_HURT": 0.192
+                },
+                "requiredPlayerLevel": 30,
+                "coinCost": 60000
+            },
+            {
+                "promoteLevel": 4,
+                "costItems": {
+                    "101240": 30,
+                    "104173": 3,
+                    "112081": 18,
+                    "113050": 8
+                },
+                "unlockMaxLevel": 70,
+                "addProps": {
+                    "FIGHT_PROP_BASE_HP": 2844.15796,
+                    "FIGHT_PROP_BASE_DEFENSE": 178.32961,
+                    "FIGHT_PROP_BASE_ATTACK": 79.04601,
+                    "FIGHT_PROP_CRITICAL_HURT": 0.192
+                },
+                "requiredPlayerLevel": 35,
+                "coinCost": 80000
+            },
+            {
+                "promoteLevel": 5,
+                "costItems": {
+                    "101240": 45,
+                    "104173": 6,
+                    "112082": 12,
+                    "113050": 12
+                },
+                "unlockMaxLevel": 80,
+                "addProps": {
+                    "FIGHT_PROP_BASE_HP": 3444.09766,
+                    "FIGHT_PROP_BASE_DEFENSE": 215.946,
+                    "FIGHT_PROP_BASE_ATTACK": 95.71979,
+                    "FIGHT_PROP_CRITICAL_HURT": 0.288
+                },
+                "requiredPlayerLevel": 40,
+                "coinCost": 100000
+            },
+            {
+                "promoteLevel": 6,
+                "costItems": {
+                    "101240": 60,
+                    "104174": 6,
+                    "112082": 24,
+                    "113050": 20
+                },
+                "unlockMaxLevel": 90,
+                "addProps": {
+                    "FIGHT_PROP_BASE_HP": 4044.03735,
+                    "FIGHT_PROP_BASE_DEFENSE": 253.56239,
+                    "FIGHT_PROP_BASE_ATTACK": 112.39355,
+                    "FIGHT_PROP_CRITICAL_HURT": 0.384
+                },
+                "requiredPlayerLevel": 50,
+                "coinCost": 120000
+            }
+        ]
+    },
+    "other": {
+        "costume": [
+            {
+                "name": "Yellow Velvet Salon",
+                "description": "Navia's outfit. An elegant dress that cleaves perfectly to the image of a Fontainian lady, lending this adventurous, far-from-traditional young woman a fresh look indeed.",
+                "isDefault": true
+            }
+        ],
+        "furnitureId": 368177,
+        "nameCard": {
+            "id": 210184,
+            "name": "Navia: Rosula",
+            "description": "Namecard style.\\nRoses shall bloom, and thus does Ms. Navia's umbrella flower. Yet beware, for roses have thorns, and Navia's booming brolly packs a powerful punch.",
+            "icon": "UI_NameCardIcon_Navia"
+        },
+        "specialFood": {
+            "id": 108620,
+            "name": "\"Pick What You Like!\"",
+            "rank": 3,
+            "effectIcon": "UI_Buff_Item_Other_SPReduceConsume",
+            "icon": "UI_ItemIcon_108620"
+        }
+    },
+    "ascension": {
+        "101240": 1,
+        "104171": 2,
+        "104172": 3,
+        "104173": 4,
+        "104174": 5,
+        "104319": 5,
+        "104338": 2,
+        "104339": 3,
+        "104340": 4,
+        "112080": 1,
+        "112081": 2,
+        "112082": 3,
+        "113050": 4,
+        "113054": 5
+    },
+    "items": {
+        "202": {
+            "name": "Mora",
+            "rank": 3,
+            "icon": "UI_ItemIcon_202"
+        },
+        "101240": {
+            "name": "Spring of the First Dewdrop",
+            "rank": 1,
+            "icon": "UI_ItemIcon_101240"
+        },
+        "104001": {
+            "name": "Wanderer's Advice",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104001"
+        },
+        "104002": {
+            "name": "Adventurer's Experience",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104002"
+        },
+        "104003": {
+            "name": "Hero's Wit",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104003"
+        },
+        "104171": {
+            "name": "Prithiva Topaz Sliver",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104171"
+        },
+        "104172": {
+            "name": "Prithiva Topaz Fragment",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104172"
+        },
+        "104173": {
+            "name": "Prithiva Topaz Chunk",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104173"
+        },
+        "104174": {
+            "name": "Prithiva Topaz Gemstone",
+            "rank": 5,
+            "icon": "UI_ItemIcon_104174"
+        },
+        "104319": {
+            "name": "Crown of Insight",
+            "rank": 5,
+            "icon": "UI_ItemIcon_104319"
+        },
+        "104338": {
+            "name": "Teachings of Equity",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104338"
+        },
+        "104339": {
+            "name": "Guide to Equity",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104339"
+        },
+        "104340": {
+            "name": "Philosophies of Equity",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104340"
+        },
+        "112080": {
+            "name": "Transoceanic Pearl",
+            "rank": 1,
+            "icon": "UI_ItemIcon_112080"
+        },
+        "112081": {
+            "name": "Transoceanic Chunk",
+            "rank": 2,
+            "icon": "UI_ItemIcon_112081"
+        },
+        "112082": {
+            "name": "Xenochromatic Crystal",
+            "rank": 3,
+            "icon": "UI_ItemIcon_112082"
+        },
+        "113050": {
+            "name": "Artificed Spare Clockwork Component — Coppelius",
+            "rank": 4,
+            "icon": "UI_ItemIcon_113050"
+        },
+        "113054": {
+            "name": "Lightless Silk String",
+            "rank": 5,
+            "icon": "UI_ItemIcon_113054"
+        }
+    },
+    "talent": {
+        "0": {
+            "type": 0,
+            "name": "Normal Attack: Blunt Refusal",
+            "description": "<color=#FFD780FF>Normal Attack</color>\\nPerforms up to 4 consecutive strikes.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nDrains Stamina over time to perform continuous spinning attacks against all nearby opponents.\\nAt the end of the sequence, performs a more powerful slash.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+            "icon": "Skill_A_04",
+            "promote": {
+                "1": {
+                    "level": 1,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}×3",
+                        "4-Hit DMG|{param4:F1P}",
+                        "Charged Attack Cyclic DMG|{param5:F1P}",
+                        "Charged Attack Final DMG|{param6:P}",
+                        "Charged Attack Stamina Cost|{param7:F1}/s",
+                        "Max Duration|{param8:F1}s",
+                        "Plunge DMG|{param9:F1P}",
+                        "Low/High Plunge DMG|{param10:P}/{param11:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.93519,
+                        0.86506,
+                        0.34886,
+                        1.33432,
+                        0.62522,
+                        1.1309,
+                        40,
+                        5,
+                        0.74588,
+                        1.49144,
+                        1.86289,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "2": {
+                    "level": 2,
+                    "costItems": {
+                        "104338": 3,
+                        "112080": 6
+                    },
+                    "coinCost": 12500,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}×3",
+                        "4-Hit DMG|{param4:F1P}",
+                        "Charged Attack Cyclic DMG|{param5:F1P}",
+                        "Charged Attack Final DMG|{param6:P}",
+                        "Charged Attack Stamina Cost|{param7:F1}/s",
+                        "Max Duration|{param8:F1}s",
+                        "Plunge DMG|{param9:F1P}",
+                        "Low/High Plunge DMG|{param10:P}/{param11:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.01131,
+                        0.93548,
+                        0.37725,
+                        1.44292,
+                        0.67611,
+                        1.22295,
+                        40,
+                        5,
+                        0.80659,
+                        1.61284,
+                        2.01452,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "3": {
+                    "level": 3,
+                    "costItems": {
+                        "104339": 2,
+                        "112081": 3
+                    },
+                    "coinCost": 17500,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}×3",
+                        "4-Hit DMG|{param4:F1P}",
+                        "Charged Attack Cyclic DMG|{param5:F1P}",
+                        "Charged Attack Final DMG|{param6:P}",
+                        "Charged Attack Stamina Cost|{param7:F1}/s",
+                        "Max Duration|{param8:F1}s",
+                        "Plunge DMG|{param9:F1P}",
+                        "Low/High Plunge DMG|{param10:P}/{param11:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.08743,
+                        1.00589,
+                        0.40565,
+                        1.55153,
+                        0.727,
+                        1.315,
+                        40,
+                        5,
+                        0.8673,
+                        1.73423,
+                        2.16615,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "4": {
+                    "level": 4,
+                    "costItems": {
+                        "104339": 4,
+                        "112081": 4
+                    },
+                    "coinCost": 25000,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}×3",
+                        "4-Hit DMG|{param4:F1P}",
+                        "Charged Attack Cyclic DMG|{param5:F1P}",
+                        "Charged Attack Final DMG|{param6:P}",
+                        "Charged Attack Stamina Cost|{param7:F1}/s",
+                        "Max Duration|{param8:F1}s",
+                        "Plunge DMG|{param9:F1P}",
+                        "Low/High Plunge DMG|{param10:P}/{param11:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.19617,
+                        1.10648,
+                        0.44622,
+                        1.70668,
+                        0.7997,
+                        1.4465,
+                        40,
+                        5,
+                        0.95403,
+                        1.90766,
+                        2.38277,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "5": {
+                    "level": 5,
+                    "costItems": {
+                        "104339": 6,
+                        "112081": 6
+                    },
+                    "coinCost": 30000,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}×3",
+                        "4-Hit DMG|{param4:F1P}",
+                        "Charged Attack Cyclic DMG|{param5:F1P}",
+                        "Charged Attack Final DMG|{param6:P}",
+                        "Charged Attack Stamina Cost|{param7:F1}/s",
+                        "Max Duration|{param8:F1}s",
+                        "Plunge DMG|{param9:F1P}",
+                        "Low/High Plunge DMG|{param10:P}/{param11:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.27229,
+                        1.17689,
+                        0.47461,
+                        1.81529,
+                        0.85059,
+                        1.53855,
+                        40,
+                        5,
+                        1.01474,
+                        2.02905,
+                        2.5344,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "6": {
+                    "level": 6,
+                    "costItems": {
+                        "104339": 9,
+                        "112081": 9
+                    },
+                    "coinCost": 37500,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}×3",
+                        "4-Hit DMG|{param4:F1P}",
+                        "Charged Attack Cyclic DMG|{param5:F1P}",
+                        "Charged Attack Final DMG|{param6:P}",
+                        "Charged Attack Stamina Cost|{param7:F1}/s",
+                        "Max Duration|{param8:F1}s",
+                        "Plunge DMG|{param9:F1P}",
+                        "Low/High Plunge DMG|{param10:P}/{param11:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.35929,
+                        1.25736,
+                        0.50706,
+                        1.93941,
+                        0.90875,
+                        1.64375,
+                        40,
+                        5,
+                        1.08413,
+                        2.16779,
+                        2.70769,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "7": {
+                    "level": 7,
+                    "costItems": {
+                        "104340": 4,
+                        "112082": 4,
+                        "113054": 1
+                    },
+                    "coinCost": 120000,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}×3",
+                        "4-Hit DMG|{param4:F1P}",
+                        "Charged Attack Cyclic DMG|{param5:F1P}",
+                        "Charged Attack Final DMG|{param6:P}",
+                        "Charged Attack Stamina Cost|{param7:F1}/s",
+                        "Max Duration|{param8:F1}s",
+                        "Plunge DMG|{param9:F1P}",
+                        "Low/High Plunge DMG|{param10:P}/{param11:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.4789,
+                        1.36801,
+                        0.55168,
+                        2.11008,
+                        0.98872,
+                        1.7884,
+                        40,
+                        5,
+                        1.17953,
+                        2.35856,
+                        2.94596,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "8": {
+                    "level": 8,
+                    "costItems": {
+                        "104340": 6,
+                        "112082": 6,
+                        "113054": 1
+                    },
+                    "coinCost": 260000,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}×3",
+                        "4-Hit DMG|{param4:F1P}",
+                        "Charged Attack Cyclic DMG|{param5:F1P}",
+                        "Charged Attack Final DMG|{param6:P}",
+                        "Charged Attack Stamina Cost|{param7:F1}/s",
+                        "Max Duration|{param8:F1}s",
+                        "Plunge DMG|{param9:F1P}",
+                        "Low/High Plunge DMG|{param10:P}/{param11:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.59852,
+                        1.47866,
+                        0.59631,
+                        2.28075,
+                        1.06869,
+                        1.93305,
+                        40,
+                        5,
+                        1.27493,
+                        2.54932,
+                        3.18424,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "9": {
+                    "level": 9,
+                    "costItems": {
+                        "104340": 12,
+                        "112082": 9,
+                        "113054": 2
+                    },
+                    "coinCost": 450000,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}×3",
+                        "4-Hit DMG|{param4:F1P}",
+                        "Charged Attack Cyclic DMG|{param5:F1P}",
+                        "Charged Attack Final DMG|{param6:P}",
+                        "Charged Attack Stamina Cost|{param7:F1}/s",
+                        "Max Duration|{param8:F1}s",
+                        "Plunge DMG|{param9:F1P}",
+                        "Low/High Plunge DMG|{param10:P}/{param11:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.71814,
+                        1.58931,
+                        0.64093,
+                        2.45142,
+                        1.14866,
+                        2.0777,
+                        40,
+                        5,
+                        1.37033,
+                        2.74009,
+                        3.42252,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "10": {
+                    "level": 10,
+                    "costItems": {
+                        "104319": 1,
+                        "104340": 16,
+                        "112082": 12,
+                        "113054": 2
+                    },
+                    "coinCost": 700000,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}×3",
+                        "4-Hit DMG|{param4:F1P}",
+                        "Charged Attack Cyclic DMG|{param5:F1P}",
+                        "Charged Attack Final DMG|{param6:P}",
+                        "Charged Attack Stamina Cost|{param7:F1}/s",
+                        "Max Duration|{param8:F1}s",
+                        "Plunge DMG|{param9:F1P}",
+                        "Low/High Plunge DMG|{param10:P}/{param11:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.84863,
+                        1.71001,
+                        0.6896,
+                        2.6376,
+                        1.2359,
+                        2.2355,
+                        40,
+                        5,
+                        1.47441,
+                        2.94819,
+                        3.68246,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "11": {
+                    "level": 11,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}×3",
+                        "4-Hit DMG|{param4:F1P}",
+                        "Charged Attack Cyclic DMG|{param5:F1P}",
+                        "Charged Attack Final DMG|{param6:P}",
+                        "Charged Attack Stamina Cost|{param7:F1}/s",
+                        "Max Duration|{param8:F1}s",
+                        "Plunge DMG|{param9:F1P}",
+                        "Low/High Plunge DMG|{param10:P}/{param11:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.97912,
+                        1.83072,
+                        0.73828,
+                        2.82379,
+                        1.32314,
+                        2.3933,
+                        40,
+                        5,
+                        1.57849,
+                        3.1563,
+                        3.94239,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "12": {
+                    "level": 12,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}×3",
+                        "4-Hit DMG|{param4:F1P}",
+                        "Charged Attack Cyclic DMG|{param5:F1P}",
+                        "Charged Attack Final DMG|{param6:P}",
+                        "Charged Attack Stamina Cost|{param7:F1}/s",
+                        "Max Duration|{param8:F1}s",
+                        "Plunge DMG|{param9:F1P}",
+                        "Low/High Plunge DMG|{param10:P}/{param11:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        2.10961,
+                        1.95143,
+                        0.78696,
+                        3.00997,
+                        1.41038,
+                        2.5511,
+                        40,
+                        5,
+                        1.68256,
+                        3.36441,
+                        4.20233,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "13": {
+                    "level": 13,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}×3",
+                        "4-Hit DMG|{param4:F1P}",
+                        "Charged Attack Cyclic DMG|{param5:F1P}",
+                        "Charged Attack Final DMG|{param6:P}",
+                        "Charged Attack Stamina Cost|{param7:F1}/s",
+                        "Max Duration|{param8:F1}s",
+                        "Plunge DMG|{param9:F1P}",
+                        "Low/High Plunge DMG|{param10:P}/{param11:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        2.24011,
+                        2.07213,
+                        0.83564,
+                        3.19615,
+                        1.49762,
+                        2.7089,
+                        40,
+                        5,
+                        1.78664,
+                        3.57252,
+                        4.46227,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "14": {
+                    "level": 14,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}×3",
+                        "4-Hit DMG|{param4:F1P}",
+                        "Charged Attack Cyclic DMG|{param5:F1P}",
+                        "Charged Attack Final DMG|{param6:P}",
+                        "Charged Attack Stamina Cost|{param7:F1}/s",
+                        "Max Duration|{param8:F1}s",
+                        "Plunge DMG|{param9:F1P}",
+                        "Low/High Plunge DMG|{param10:P}/{param11:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        2.3706,
+                        2.19284,
+                        0.88432,
+                        3.38233,
+                        1.58486,
+                        2.8667,
+                        40,
+                        5,
+                        1.89071,
+                        3.78063,
+                        4.72221,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "15": {
+                    "level": 15,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}×3",
+                        "4-Hit DMG|{param4:F1P}",
+                        "Charged Attack Cyclic DMG|{param5:F1P}",
+                        "Charged Attack Final DMG|{param6:P}",
+                        "Charged Attack Stamina Cost|{param7:F1}/s",
+                        "Max Duration|{param8:F1}s",
+                        "Plunge DMG|{param9:F1P}",
+                        "Low/High Plunge DMG|{param10:P}/{param11:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        2.50109,
+                        2.31355,
+                        0.933,
+                        3.56852,
+                        1.6721,
+                        3.0245,
+                        40,
+                        5,
+                        1.99479,
+                        3.98873,
+                        4.98214,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            "cooldown": 0,
+            "cost": 0,
+            "linkedConstellations": null,
+            "advancedProps": [
+                {
+                    "name": "Normal Attack 1-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": "5",
+                            "text": "Normal Attack"
+                        },
+                        "type": {
+                            "span": "5",
+                            "text": "2.5s/3 Hits"
+                        }
+                    },
+                    "interruptionResistance": "129.8",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": true
+                },
+                {
+                    "name": "Normal Attack 2-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "120.1",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "400",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": true
+                },
+                {
+                    "name": "Normal Attack 3-Hit A",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "50.5",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Shake",
+                        "horizontalForce": "0",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": true
+                },
+                {
+                    "name": "Normal Attack 3-Hit B",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "50.5",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Shake",
+                        "horizontalForce": "0",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": true
+                },
+                {
+                    "name": "Normal Attack 3-Hit C",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "50.5",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Shake",
+                        "horizontalForce": "0",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": true
+                }
+            ]
+        },
+        "1": {
+            "type": 0,
+            "name": "Ceremonial Crystalshot",
+            "description": "When a character in the party obtains an Elemental Shard created from the Crystallize reaction, Navia will gain 1 Crystal Shrapnel stack. Navia can have up to 6 stacks of Crystal Shrapnel at once. Each time Crystal Shrapnel gain is triggered, the duration of the Crystal Shrapnel stacks you already have will be reset.\\nWhen she fires, Navia will consume all Crystal Shrapnel stacks and open her elegant yet lethal Gunbrella, firing multiple Rosula Shardshots that can penetrate opponents, dealing <color=#FFE699FF>Geo DMG</color> to opponents hit.\\nWhen 0/1/2/3 or more stacks of Crystal Shrapnel are consumed, 5/7/9/11 Rosula Shardshots will be fired respectively. The more Rosula Shardshots that strike a single opponent, the greater the DMG dealt to them. When all 11 Rosula Shardshots strike, 200% of the original amount of DMG is dealt.\\nIn addition, when more than 3 stacks of Crystal Shrapnel are consumed, every stack consumed beyond those 3 will increase the DMG dealt by this Gunbrella attack by an additional 15%.\\n\\n<color=#FFD780FF>Hold</color>\\nEnter Aiming Mode, continually collecting nearby Elemental Shards created by Crystallize reactions. When released, fire Rosula Shardshots with the same effect as when the skill is Tapped.\\n\\nTwo initial charges.\\n\\n<color=#FFD780FF>Arkhe: Ousia</color>\\nPeriodically, when Navia fires her Gunbrella, a Surging Blade will be summoned, dealing Ousia-aligned <color=#FFE699FF>Geo DMG</color>.\\n\\n<i>\"Maintaining the appropriate distance with those whom distance should be maintained is an essential part of etiquette. Naturally, there are also many ways to do this...\"</i>",
+            "icon": "Skill_S_Navia_01",
+            "promote": {
+                "1": {
+                    "level": 1,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Rosula Shardshot Base DMG|{param1:F1P}",
+                        "Crystal Shrapnel Duration|{param3:F1}s",
+                        "Surging Blade DMG|{param5:F1P}",
+                        "Surging Blade Interval|{param6:F1}s",
+                        "CD|{param4:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        3.948,
+                        0.15,
+                        300,
+                        9,
+                        0.36,
+                        7,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "2": {
+                    "level": 2,
+                    "costItems": {
+                        "104338": 3,
+                        "112080": 6
+                    },
+                    "coinCost": 12500,
+                    "description": [
+                        "Rosula Shardshot Base DMG|{param1:F1P}",
+                        "Crystal Shrapnel Duration|{param3:F1}s",
+                        "Surging Blade DMG|{param5:F1P}",
+                        "Surging Blade Interval|{param6:F1}s",
+                        "CD|{param4:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        4.2441,
+                        0.15,
+                        300,
+                        9,
+                        0.387,
+                        7,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "3": {
+                    "level": 3,
+                    "costItems": {
+                        "104339": 2,
+                        "112081": 3
+                    },
+                    "coinCost": 17500,
+                    "description": [
+                        "Rosula Shardshot Base DMG|{param1:F1P}",
+                        "Crystal Shrapnel Duration|{param3:F1}s",
+                        "Surging Blade DMG|{param5:F1P}",
+                        "Surging Blade Interval|{param6:F1}s",
+                        "CD|{param4:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        4.5402,
+                        0.15,
+                        300,
+                        9,
+                        0.414,
+                        7,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "4": {
+                    "level": 4,
+                    "costItems": {
+                        "104339": 4,
+                        "112081": 4
+                    },
+                    "coinCost": 25000,
+                    "description": [
+                        "Rosula Shardshot Base DMG|{param1:F1P}",
+                        "Crystal Shrapnel Duration|{param3:F1}s",
+                        "Surging Blade DMG|{param5:F1P}",
+                        "Surging Blade Interval|{param6:F1}s",
+                        "CD|{param4:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        4.935,
+                        0.15,
+                        300,
+                        9,
+                        0.45,
+                        7,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "5": {
+                    "level": 5,
+                    "costItems": {
+                        "104339": 6,
+                        "112081": 6
+                    },
+                    "coinCost": 30000,
+                    "description": [
+                        "Rosula Shardshot Base DMG|{param1:F1P}",
+                        "Crystal Shrapnel Duration|{param3:F1}s",
+                        "Surging Blade DMG|{param5:F1P}",
+                        "Surging Blade Interval|{param6:F1}s",
+                        "CD|{param4:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        5.2311,
+                        0.15,
+                        300,
+                        9,
+                        0.477,
+                        7,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "6": {
+                    "level": 6,
+                    "costItems": {
+                        "104339": 9,
+                        "112081": 9
+                    },
+                    "coinCost": 37500,
+                    "description": [
+                        "Rosula Shardshot Base DMG|{param1:F1P}",
+                        "Crystal Shrapnel Duration|{param3:F1}s",
+                        "Surging Blade DMG|{param5:F1P}",
+                        "Surging Blade Interval|{param6:F1}s",
+                        "CD|{param4:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        5.5272,
+                        0.15,
+                        300,
+                        9,
+                        0.504,
+                        7,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "7": {
+                    "level": 7,
+                    "costItems": {
+                        "104340": 4,
+                        "112082": 4,
+                        "113054": 1
+                    },
+                    "coinCost": 120000,
+                    "description": [
+                        "Rosula Shardshot Base DMG|{param1:F1P}",
+                        "Crystal Shrapnel Duration|{param3:F1}s",
+                        "Surging Blade DMG|{param5:F1P}",
+                        "Surging Blade Interval|{param6:F1}s",
+                        "CD|{param4:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        5.922,
+                        0.15,
+                        300,
+                        9,
+                        0.54,
+                        7,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "8": {
+                    "level": 8,
+                    "costItems": {
+                        "104340": 6,
+                        "112082": 6,
+                        "113054": 1
+                    },
+                    "coinCost": 260000,
+                    "description": [
+                        "Rosula Shardshot Base DMG|{param1:F1P}",
+                        "Crystal Shrapnel Duration|{param3:F1}s",
+                        "Surging Blade DMG|{param5:F1P}",
+                        "Surging Blade Interval|{param6:F1}s",
+                        "CD|{param4:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        6.3168,
+                        0.15,
+                        300,
+                        9,
+                        0.576,
+                        7,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "9": {
+                    "level": 9,
+                    "costItems": {
+                        "104340": 12,
+                        "112082": 9,
+                        "113054": 2
+                    },
+                    "coinCost": 450000,
+                    "description": [
+                        "Rosula Shardshot Base DMG|{param1:F1P}",
+                        "Crystal Shrapnel Duration|{param3:F1}s",
+                        "Surging Blade DMG|{param5:F1P}",
+                        "Surging Blade Interval|{param6:F1}s",
+                        "CD|{param4:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        6.7116,
+                        0.15,
+                        300,
+                        9,
+                        0.612,
+                        7,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "10": {
+                    "level": 10,
+                    "costItems": {
+                        "104319": 1,
+                        "104340": 16,
+                        "112082": 12,
+                        "113054": 2
+                    },
+                    "coinCost": 700000,
+                    "description": [
+                        "Rosula Shardshot Base DMG|{param1:F1P}",
+                        "Crystal Shrapnel Duration|{param3:F1}s",
+                        "Surging Blade DMG|{param5:F1P}",
+                        "Surging Blade Interval|{param6:F1}s",
+                        "CD|{param4:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        7.1064,
+                        0.15,
+                        300,
+                        9,
+                        0.648,
+                        7,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "11": {
+                    "level": 11,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Rosula Shardshot Base DMG|{param1:F1P}",
+                        "Crystal Shrapnel Duration|{param3:F1}s",
+                        "Surging Blade DMG|{param5:F1P}",
+                        "Surging Blade Interval|{param6:F1}s",
+                        "CD|{param4:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        7.5012,
+                        0.15,
+                        300,
+                        9,
+                        0.684,
+                        7,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "12": {
+                    "level": 12,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Rosula Shardshot Base DMG|{param1:F1P}",
+                        "Crystal Shrapnel Duration|{param3:F1}s",
+                        "Surging Blade DMG|{param5:F1P}",
+                        "Surging Blade Interval|{param6:F1}s",
+                        "CD|{param4:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        7.896,
+                        0.15,
+                        300,
+                        9,
+                        0.72,
+                        7,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "13": {
+                    "level": 13,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Rosula Shardshot Base DMG|{param1:F1P}",
+                        "Crystal Shrapnel Duration|{param3:F1}s",
+                        "Surging Blade DMG|{param5:F1P}",
+                        "Surging Blade Interval|{param6:F1}s",
+                        "CD|{param4:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        8.3895,
+                        0.15,
+                        300,
+                        9,
+                        0.765,
+                        7,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "14": {
+                    "level": 14,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Rosula Shardshot Base DMG|{param1:F1P}",
+                        "Crystal Shrapnel Duration|{param3:F1}s",
+                        "Surging Blade DMG|{param5:F1P}",
+                        "Surging Blade Interval|{param6:F1}s",
+                        "CD|{param4:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        8.883,
+                        0.15,
+                        300,
+                        9,
+                        0.81,
+                        7,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "15": {
+                    "level": 15,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Rosula Shardshot Base DMG|{param1:F1P}",
+                        "Crystal Shrapnel Duration|{param3:F1}s",
+                        "Surging Blade DMG|{param5:F1P}",
+                        "Surging Blade Interval|{param6:F1}s",
+                        "CD|{param4:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        9.3765,
+                        0.15,
+                        300,
+                        9,
+                        0.855,
+                        7,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            "cooldown": 9,
+            "cost": 0,
+            "linkedConstellations": {
+                "isLevelIncluded": true,
+                "prop": [
+                    {
+                        "id": 0,
+                        "type": "normal"
+                    },
+                    {
+                        "id": 1,
+                        "type": "normal"
+                    },
+                    {
+                        "id": 2,
+                        "type": "level"
+                    },
+                    {
+                        "id": 5,
+                        "type": "normal"
+                    }
+                ]
+            },
+            "advancedProps": [
+                {
+                    "name": "Rosula Shardshots DMG",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "150",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": true
+                },
+                {
+                    "name": "Surging Blade DMG",
+                    "elementalGaugeTheory": "0U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "20",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                }
+            ]
+        },
+        "3": {
+            "type": 1,
+            "name": "As the Sunlit Sky's Singing Salute",
+            "description": "On the orders of the President of the Spina di Rosula, call for a magnificent Rosula Dorata Salute. Unleashes a massive cannon bombardment on opponents in front of her, dealing <color=#FFE699FF>AoE Geo DMG</color> and providing Cannon Fire Support for a duration afterward, periodically dealing <color=#FFE699FF>Geo DMG</color> to nearby opponents.\\nWhen cannon attacks hit opponents, Navia will gain 1 stack of Crystal Shrapnel. This effect can be triggered up to once every 2.4s.\\n\\n<i>\"The Spina di Rosula's salute is a preemptive celebration of the successful conclusion of our negotiations and is fired just before talks begin. Don't misunderstand, it isn't in any way, shape, or form some kind of threat.\"</i>",
+            "icon": "Skill_E_Navia_01",
+            "promote": {
+                "1": {
+                    "level": 1,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Skill DMG|{param1:F1P}",
+                        "Cannon Fire Support DMG|{param2:F1P}",
+                        "Cannon Fire Support Duration|{param3:F1}s",
+                        "CD|{param4:F1}s",
+                        "Energy Cost|{param5:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.752,
+                        0.4315,
+                        12,
+                        15,
+                        60,
+                        2.4,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "2": {
+                    "level": 2,
+                    "costItems": {
+                        "104338": 3,
+                        "112080": 6
+                    },
+                    "coinCost": 12500,
+                    "description": [
+                        "Skill DMG|{param1:F1P}",
+                        "Cannon Fire Support DMG|{param2:F1P}",
+                        "Cannon Fire Support Duration|{param3:F1}s",
+                        "CD|{param4:F1}s",
+                        "Energy Cost|{param5:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.8084,
+                        0.46386,
+                        12,
+                        15,
+                        60,
+                        2.4,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "3": {
+                    "level": 3,
+                    "costItems": {
+                        "104339": 2,
+                        "112081": 3
+                    },
+                    "coinCost": 17500,
+                    "description": [
+                        "Skill DMG|{param1:F1P}",
+                        "Cannon Fire Support DMG|{param2:F1P}",
+                        "Cannon Fire Support Duration|{param3:F1}s",
+                        "CD|{param4:F1}s",
+                        "Energy Cost|{param5:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.8648,
+                        0.49622,
+                        12,
+                        15,
+                        60,
+                        2.4,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "4": {
+                    "level": 4,
+                    "costItems": {
+                        "104339": 4,
+                        "112081": 4
+                    },
+                    "coinCost": 25000,
+                    "description": [
+                        "Skill DMG|{param1:F1P}",
+                        "Cannon Fire Support DMG|{param2:F1P}",
+                        "Cannon Fire Support Duration|{param3:F1}s",
+                        "CD|{param4:F1}s",
+                        "Energy Cost|{param5:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.94,
+                        0.53938,
+                        12,
+                        15,
+                        60,
+                        2.4,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "5": {
+                    "level": 5,
+                    "costItems": {
+                        "104339": 6,
+                        "112081": 6
+                    },
+                    "coinCost": 30000,
+                    "description": [
+                        "Skill DMG|{param1:F1P}",
+                        "Cannon Fire Support DMG|{param2:F1P}",
+                        "Cannon Fire Support Duration|{param3:F1}s",
+                        "CD|{param4:F1}s",
+                        "Energy Cost|{param5:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.9964,
+                        0.57174,
+                        12,
+                        15,
+                        60,
+                        2.4,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "6": {
+                    "level": 6,
+                    "costItems": {
+                        "104339": 9,
+                        "112081": 9
+                    },
+                    "coinCost": 37500,
+                    "description": [
+                        "Skill DMG|{param1:F1P}",
+                        "Cannon Fire Support DMG|{param2:F1P}",
+                        "Cannon Fire Support Duration|{param3:F1}s",
+                        "CD|{param4:F1}s",
+                        "Energy Cost|{param5:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.0528,
+                        0.6041,
+                        12,
+                        15,
+                        60,
+                        2.4,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "7": {
+                    "level": 7,
+                    "costItems": {
+                        "104340": 4,
+                        "112082": 4,
+                        "113054": 1
+                    },
+                    "coinCost": 120000,
+                    "description": [
+                        "Skill DMG|{param1:F1P}",
+                        "Cannon Fire Support DMG|{param2:F1P}",
+                        "Cannon Fire Support Duration|{param3:F1}s",
+                        "CD|{param4:F1}s",
+                        "Energy Cost|{param5:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.128,
+                        0.64725,
+                        12,
+                        15,
+                        60,
+                        2.4,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "8": {
+                    "level": 8,
+                    "costItems": {
+                        "104340": 6,
+                        "112082": 6,
+                        "113054": 1
+                    },
+                    "coinCost": 260000,
+                    "description": [
+                        "Skill DMG|{param1:F1P}",
+                        "Cannon Fire Support DMG|{param2:F1P}",
+                        "Cannon Fire Support Duration|{param3:F1}s",
+                        "CD|{param4:F1}s",
+                        "Energy Cost|{param5:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.2032,
+                        0.6904,
+                        12,
+                        15,
+                        60,
+                        2.4,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "9": {
+                    "level": 9,
+                    "costItems": {
+                        "104340": 12,
+                        "112082": 9,
+                        "113054": 2
+                    },
+                    "coinCost": 450000,
+                    "description": [
+                        "Skill DMG|{param1:F1P}",
+                        "Cannon Fire Support DMG|{param2:F1P}",
+                        "Cannon Fire Support Duration|{param3:F1}s",
+                        "CD|{param4:F1}s",
+                        "Energy Cost|{param5:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.2784,
+                        0.73355,
+                        12,
+                        15,
+                        60,
+                        2.4,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "10": {
+                    "level": 10,
+                    "costItems": {
+                        "104319": 1,
+                        "104340": 16,
+                        "112082": 12,
+                        "113054": 2
+                    },
+                    "coinCost": 700000,
+                    "description": [
+                        "Skill DMG|{param1:F1P}",
+                        "Cannon Fire Support DMG|{param2:F1P}",
+                        "Cannon Fire Support Duration|{param3:F1}s",
+                        "CD|{param4:F1}s",
+                        "Energy Cost|{param5:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.3536,
+                        0.7767,
+                        12,
+                        15,
+                        60,
+                        2.4,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "11": {
+                    "level": 11,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Skill DMG|{param1:F1P}",
+                        "Cannon Fire Support DMG|{param2:F1P}",
+                        "Cannon Fire Support Duration|{param3:F1}s",
+                        "CD|{param4:F1}s",
+                        "Energy Cost|{param5:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.4288,
+                        0.81985,
+                        12,
+                        15,
+                        60,
+                        2.4,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "12": {
+                    "level": 12,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Skill DMG|{param1:F1P}",
+                        "Cannon Fire Support DMG|{param2:F1P}",
+                        "Cannon Fire Support Duration|{param3:F1}s",
+                        "CD|{param4:F1}s",
+                        "Energy Cost|{param5:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.504,
+                        0.863,
+                        12,
+                        15,
+                        60,
+                        2.4,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "13": {
+                    "level": 13,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Skill DMG|{param1:F1P}",
+                        "Cannon Fire Support DMG|{param2:F1P}",
+                        "Cannon Fire Support Duration|{param3:F1}s",
+                        "CD|{param4:F1}s",
+                        "Energy Cost|{param5:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.598,
+                        0.91694,
+                        12,
+                        15,
+                        60,
+                        2.4,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "14": {
+                    "level": 14,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Skill DMG|{param1:F1P}",
+                        "Cannon Fire Support DMG|{param2:F1P}",
+                        "Cannon Fire Support Duration|{param3:F1}s",
+                        "CD|{param4:F1}s",
+                        "Energy Cost|{param5:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.692,
+                        0.97088,
+                        12,
+                        15,
+                        60,
+                        2.4,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "15": {
+                    "level": 15,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Skill DMG|{param1:F1P}",
+                        "Cannon Fire Support DMG|{param2:F1P}",
+                        "Cannon Fire Support Duration|{param3:F1}s",
+                        "CD|{param4:F1}s",
+                        "Energy Cost|{param5:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.786,
+                        1.02481,
+                        12,
+                        15,
+                        60,
+                        2.4,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            "cooldown": 15,
+            "cost": 60,
+            "linkedConstellations": {
+                "isLevelIncluded": true,
+                "prop": [
+                    {
+                        "id": 0,
+                        "type": "normal"
+                    },
+                    {
+                        "id": 1,
+                        "type": "normal"
+                    },
+                    {
+                        "id": 3,
+                        "type": "normal"
+                    },
+                    {
+                        "id": 4,
+                        "type": "level"
+                    }
+                ]
+            },
+            "advancedProps": [
+                {
+                    "name": "Skill DMG",
+                    "elementalGaugeTheory": "2U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "100",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "800",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": true
+                },
+                {
+                    "name": "Cannon Fire Support DMG",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": null,
+                            "text": "Elemental Burst"
+                        },
+                        "type": {
+                            "span": null,
+                            "text": "12s/3 Hits"
+                        }
+                    },
+                    "interruptionResistance": "50",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Shake",
+                        "horizontalForce": "0",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": true
+                }
+            ]
+        },
+        "4": {
+            "type": 2,
+            "name": "Undisclosed Distribution Channels",
+            "description": "For 4s after using <color=#FFD780FF>Ceremonial Crystalshot</color>, the DMG dealt by Navia's Normal Attacks, Charged Attacks, and Plunging Attacks will be converted into <color=#FFE699FF>Geo DMG</color> which cannot be overridden by other Elemental infusions, and the DMG dealt by Navia's Normal Attacks, Charged Attacks, and Plunging Attacks will be increased by 40%.",
+            "icon": "UI_Talent_S_Navia_05",
+            "linkedConstellations": null
+        },
+        "5": {
+            "type": 2,
+            "name": "Mutual Assistance Network",
+            "description": "For each <color=#FF9999FF>Pyro</color>/<color=#FFACFFFF>Electro</color>/<color=#99FFFFFF>Cryo</color>/<color=#80C0FFFF>Hydro</color> party member, Navia gains 20% increased ATK. This effect can stack up to 2 times.",
+            "icon": "UI_Talent_S_Navia_06",
+            "linkedConstellations": null
+        },
+        "6": {
+            "type": 2,
+            "name": "Painstaking Transaction",
+            "description": "Gains 25% more rewards when dispatched on a Fontaine Expedition for 20 hours.",
+            "icon": "UI_Talent_S_Navia_07",
+            "linkedConstellations": null
+        }
+    },
+    "constellation": {
+        "0": {
+            "id": 0,
+            "name": "A Lady's Rules for Keeping a Courteous Distance",
+            "description": "Each stack of Crystal Shrapnel consumed when Navia uses <color=#FFD780FF>Ceremonial Crystalshot</color> will restore 3 Energy to her and decrease the CD of <color=#FFD780FF>As the Sunlit Sky's Singing Salute</color> by 1s. Up to 9 Energy can be gained this way, and the CD of \"As the Sunlit Sky's Singing Salute\" can be decreased by up to 3s.",
+            "extraData": null,
+            "icon": "UI_Talent_S_Navia_01"
+        },
+        "1": {
+            "id": 1,
+            "name": "The President's Pursuit of Victory",
+            "description": "Each stack of Crystal Shrapnel consumed will increase the CRIT Rate of this <color=#FFD780FF>Ceremonial Crystalshot</color> instance by 12%. CRIT Rate can be increased by up to 36% in this way.\\nIn addition, when Ceremonial Crystalshot hits an opponent, one Cannon Fire Support shot from <color=#FFD780FF>As the Sunlit Sky's Singing Salute</color> will strike near the location of the hit. Up to one instance of Cannon Fire Support can be triggered each time Ceremonial Crystalshot is used, and DMG dealt by said Cannon Fire Support this way is considered Elemental Burst DMG.",
+            "extraData": null,
+            "icon": "UI_Talent_S_Navia_02"
+        },
+        "2": {
+            "id": 2,
+            "name": "Businesswoman's Broad Vision",
+            "description": "Increases the Level of <color=#FFD780FF>Ceremonial Crystalshot</color> by 3.\\nMaximum upgrade level is 15.",
+            "extraData": {
+                "addTalentExtraLevel": {
+                    "talentType": "AvatarSkill",
+                    "talentIndex": 2,
+                    "extraLevel": 3
+                }
+            },
+            "icon": "UI_Talent_U_Navia_01"
+        },
+        "3": {
+            "id": 3,
+            "name": "The Oathsworn Never Capitulate",
+            "description": "When <color=#FFD780FF>As the Sunlit Sky's Singing Salute</color> hits an opponent, that opponent's <color=#FFE699FF>Geo RES</color> will be decreased by 20% for 8s.",
+            "extraData": null,
+            "icon": "UI_Talent_S_Navia_03"
+        },
+        "4": {
+            "id": 4,
+            "name": "Negotiator's Resolute Negotiations",
+            "description": "Increases the Level of <color=#FFD780FF>As the Sunlit Sky's Singing Salute</color> by 3.\\nMaximum upgrade level is 15.",
+            "extraData": {
+                "addTalentExtraLevel": {
+                    "talentType": "AvatarSkill",
+                    "talentIndex": 9,
+                    "extraLevel": 3
+                }
+            },
+            "icon": "UI_Talent_U_Navia_02"
+        },
+        "5": {
+            "id": 5,
+            "name": "The Flexible Finesse of the Spina's President",
+            "description": "If more than 3 stacks of Crystal Shrapnel are consumed when using <color=#FFD780FF>Ceremonial Crystalshot</color>, each stack consumed beyond the first 3 increases the CRIT DMG of that Ceremonial Crystalshot by 45%, and any stacks consumed beyond the first 3 are returned to Navia.",
+            "extraData": null,
+            "icon": "UI_Talent_S_Navia_04"
+        }
+    },
+    "_id": 10000091
+}

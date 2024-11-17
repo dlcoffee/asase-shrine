@@ -1,0 +1,2744 @@
+{
+    "id": "mualani",
+    "rank": 5,
+    "name": "Mualani",
+    "element": "Water",
+    "weaponType": "WEAPON_CATALYST",
+    "region": "NATLAN",
+    "specialProp": "FIGHT_PROP_CRITICAL",
+    "bodyType": "GIRL",
+    "icon": "UI_AvatarIcon_Mualani",
+    "birthday": [
+        8,
+        3
+    ],
+    "release": 1724706000,
+    "route": "Mualani",
+    "fetter": {
+        "title": "Splish-Splash Wavechaser",
+        "detail": "A well-known guide in Natlan who owns a watersports shop, and expert in all forms of wave-chasing.",
+        "constellation": "Phoca Neomonachus",
+        "native": "Meztli",
+        "cv": {
+            "EN": "Cassandra Lee Morris",
+            "CHS": "王晓彤",
+            "JP": "東山奈央",
+            "KR": "Kim Do-hee"
+        }
+    },
+    "upgrade": {
+        "prop": [
+            {
+                "propType": "FIGHT_PROP_BASE_HP",
+                "initValue": 1182.11682,
+                "type": "GROW_CURVE_HP_S5"
+            },
+            {
+                "propType": "FIGHT_PROP_BASE_ATTACK",
+                "initValue": 14.1512,
+                "type": "GROW_CURVE_ATTACK_S5"
+            },
+            {
+                "propType": "FIGHT_PROP_BASE_DEFENSE",
+                "initValue": 44.39386,
+                "type": "GROW_CURVE_HP_S5"
+            }
+        ],
+        "promote": [
+            {
+                "unlockMaxLevel": 20,
+                "promoteLevel": 0
+            },
+            {
+                "promoteLevel": 1,
+                "costItems": {
+                    "101247": 3,
+                    "104121": 1,
+                    "112104": 3
+                },
+                "unlockMaxLevel": 40,
+                "addProps": {
+                    "FIGHT_PROP_BASE_HP": 1013.55829,
+                    "FIGHT_PROP_BASE_DEFENSE": 38.0646,
+                    "FIGHT_PROP_BASE_ATTACK": 12.13249,
+                    "FIGHT_PROP_CRITICAL": 0
+                },
+                "requiredPlayerLevel": 15,
+                "coinCost": 20000
+            },
+            {
+                "promoteLevel": 2,
+                "costItems": {
+                    "101247": 10,
+                    "104122": 3,
+                    "112104": 15,
+                    "113064": 2
+                },
+                "unlockMaxLevel": 50,
+                "addProps": {
+                    "FIGHT_PROP_BASE_HP": 1733.71814,
+                    "FIGHT_PROP_BASE_DEFENSE": 65.1105,
+                    "FIGHT_PROP_BASE_ATTACK": 20.75294,
+                    "FIGHT_PROP_CRITICAL": 0.048
+                },
+                "requiredPlayerLevel": 25,
+                "coinCost": 40000
+            },
+            {
+                "promoteLevel": 3,
+                "costItems": {
+                    "101247": 20,
+                    "104122": 6,
+                    "112105": 12,
+                    "113064": 4
+                },
+                "unlockMaxLevel": 60,
+                "addProps": {
+                    "FIGHT_PROP_BASE_HP": 2693.93115,
+                    "FIGHT_PROP_BASE_DEFENSE": 101.1717,
+                    "FIGHT_PROP_BASE_ATTACK": 32.24688,
+                    "FIGHT_PROP_CRITICAL": 0.096
+                },
+                "requiredPlayerLevel": 30,
+                "coinCost": 60000
+            },
+            {
+                "promoteLevel": 4,
+                "costItems": {
+                    "101247": 30,
+                    "104123": 3,
+                    "112105": 18,
+                    "113064": 8
+                },
+                "unlockMaxLevel": 70,
+                "addProps": {
+                    "FIGHT_PROP_BASE_HP": 3414.09106,
+                    "FIGHT_PROP_BASE_DEFENSE": 128.21761,
+                    "FIGHT_PROP_BASE_ATTACK": 40.86733,
+                    "FIGHT_PROP_CRITICAL": 0.096
+                },
+                "requiredPlayerLevel": 35,
+                "coinCost": 80000
+            },
+            {
+                "promoteLevel": 5,
+                "costItems": {
+                    "101247": 45,
+                    "104123": 6,
+                    "112106": 12,
+                    "113064": 12
+                },
+                "unlockMaxLevel": 80,
+                "addProps": {
+                    "FIGHT_PROP_BASE_HP": 4134.25098,
+                    "FIGHT_PROP_BASE_DEFENSE": 155.2635,
+                    "FIGHT_PROP_BASE_ATTACK": 49.48778,
+                    "FIGHT_PROP_CRITICAL": 0.144
+                },
+                "requiredPlayerLevel": 40,
+                "coinCost": 100000
+            },
+            {
+                "promoteLevel": 6,
+                "costItems": {
+                    "101247": 60,
+                    "104124": 6,
+                    "112106": 24,
+                    "113064": 20
+                },
+                "unlockMaxLevel": 90,
+                "addProps": {
+                    "FIGHT_PROP_BASE_HP": 4854.41064,
+                    "FIGHT_PROP_BASE_DEFENSE": 182.3094,
+                    "FIGHT_PROP_BASE_ATTACK": 58.10823,
+                    "FIGHT_PROP_CRITICAL": 0.192
+                },
+                "requiredPlayerLevel": 50,
+                "coinCost": 120000
+            }
+        ]
+    },
+    "other": {
+        "costume": [
+            {
+                "name": "Flying Fish, Heat Waves, and Moon Scallop",
+                "description": "Mualani's outfit. She originally intended to stick the designs of all the fish ever as ornaments for her clothes, but this design was politely rejected by the tailor on account of being too avant-garde. Despite the immense simplification, this outfit has more than enough personality to mark the enthusiastic guide out even in a crowd.",
+                "isDefault": true
+            }
+        ],
+        "furnitureId": 368188,
+        "nameCard": {
+            "id": 210209,
+            "name": "Mualani: Sharky",
+            "description": "Namecard style.\\nSharks that live in the sea don't actually like eating people — they prefer marine creatures. So as a shark that lives in freshwater hot springs, it's only natural that Mualani's Sharky Surfboard will only eat hot spring creatures. ...Just kidding, those Capybaras can sleep easy. Firstly, because their meat's too tough. And secondly, because... it's a surfboard?",
+            "icon": "UI_NameCardIcon_Mualani"
+        },
+        "specialFood": {
+            "id": 108746,
+            "name": "Pass the Luck",
+            "rank": 3,
+            "effectIcon": "UI_Buff_Item_Def_Add",
+            "icon": "UI_ItemIcon_108746"
+        }
+    },
+    "ascension": {
+        "101247": 1,
+        "104121": 2,
+        "104122": 3,
+        "104123": 4,
+        "104124": 5,
+        "104319": 5,
+        "104347": 2,
+        "104348": 3,
+        "104349": 4,
+        "112104": 1,
+        "112105": 2,
+        "112106": 3,
+        "113056": 5,
+        "113064": 4
+    },
+    "items": {
+        "202": {
+            "name": "Mora",
+            "rank": 3,
+            "icon": "UI_ItemIcon_202"
+        },
+        "101247": {
+            "name": "Sprayfeather Gill",
+            "rank": 1,
+            "icon": "UI_ItemIcon_101247"
+        },
+        "104001": {
+            "name": "Wanderer's Advice",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104001"
+        },
+        "104002": {
+            "name": "Adventurer's Experience",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104002"
+        },
+        "104003": {
+            "name": "Hero's Wit",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104003"
+        },
+        "104121": {
+            "name": "Varunada Lazurite Sliver",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104121"
+        },
+        "104122": {
+            "name": "Varunada Lazurite Fragment",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104122"
+        },
+        "104123": {
+            "name": "Varunada Lazurite Chunk",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104123"
+        },
+        "104124": {
+            "name": "Varunada Lazurite Gemstone",
+            "rank": 5,
+            "icon": "UI_ItemIcon_104124"
+        },
+        "104319": {
+            "name": "Crown of Insight",
+            "rank": 5,
+            "icon": "UI_ItemIcon_104319"
+        },
+        "104347": {
+            "name": "Teachings of Contention",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104347"
+        },
+        "104348": {
+            "name": "Guide to Contention",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104348"
+        },
+        "104349": {
+            "name": "Philosophies of Contention",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104349"
+        },
+        "112104": {
+            "name": "Sentry's Wooden Whistle",
+            "rank": 1,
+            "icon": "UI_ItemIcon_112104"
+        },
+        "112105": {
+            "name": "Warrior's Metal Whistle",
+            "rank": 2,
+            "icon": "UI_ItemIcon_112105"
+        },
+        "112106": {
+            "name": "Saurian-Crowned Warrior's Golden Whistle",
+            "rank": 3,
+            "icon": "UI_ItemIcon_112106"
+        },
+        "113056": {
+            "name": "Lightless Mass",
+            "rank": 5,
+            "icon": "UI_ItemIcon_113056"
+        },
+        "113064": {
+            "name": "Mark of the Binding Blessing",
+            "rank": 4,
+            "icon": "UI_ItemIcon_113064"
+        }
+    },
+    "talent": {
+        "0": {
+            "type": 0,
+            "name": "Normal Attack: Cooling Treatment",
+            "description": "<color=#FFD780FF>Normal Attack</color>\\nPerforms up to 3 attacks that deal <color=#80C0FFFF>Hydro DMG</color>.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nConsumes a certain amount of Stamina to smack a Pufferball into the air that deals <color=#80C0FFFF>AoE Hydro DMG</color> upon landing.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nGathers the power of Hydro and plunges towards the ground from mid-air, damaging all opponents in her path. Deals <color=#80C0FFFF>AoE Hydro DMG</color> upon impact with the ground.",
+            "icon": "Skill_A_Catalyst_MD",
+            "promote": {
+                "1": {
+                    "level": 1,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}",
+                        "Charged Attack DMG|{param4:P}",
+                        "Charged Attack Stamina Cost|{param5:F1}",
+                        "Plunge DMG|{param6:F1P}",
+                        "Low/High Plunge DMG|{param7:P}/{param8:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.51396,
+                        0.44626,
+                        0.70034,
+                        1.4288,
+                        50,
+                        0.56829,
+                        1.13634,
+                        1.41934,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "2": {
+                    "level": 2,
+                    "costItems": {
+                        "104347": 3,
+                        "112104": 6
+                    },
+                    "coinCost": 12500,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}",
+                        "Charged Attack DMG|{param4:P}",
+                        "Charged Attack Stamina Cost|{param5:F1}",
+                        "Plunge DMG|{param6:F1P}",
+                        "Low/High Plunge DMG|{param7:P}/{param8:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.55251,
+                        0.47973,
+                        0.75287,
+                        1.53596,
+                        50,
+                        0.61454,
+                        1.22883,
+                        1.53487,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "3": {
+                    "level": 3,
+                    "costItems": {
+                        "104348": 2,
+                        "112105": 3
+                    },
+                    "coinCost": 17500,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}",
+                        "Charged Attack DMG|{param4:P}",
+                        "Charged Attack Stamina Cost|{param5:F1}",
+                        "Plunge DMG|{param6:F1P}",
+                        "Low/High Plunge DMG|{param7:P}/{param8:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.59105,
+                        0.51319,
+                        0.8054,
+                        1.64312,
+                        50,
+                        0.6608,
+                        1.32132,
+                        1.6504,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "4": {
+                    "level": 4,
+                    "costItems": {
+                        "104348": 4,
+                        "112105": 4
+                    },
+                    "coinCost": 25000,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}",
+                        "Charged Attack DMG|{param4:P}",
+                        "Charged Attack Stamina Cost|{param5:F1}",
+                        "Plunge DMG|{param6:F1P}",
+                        "Low/High Plunge DMG|{param7:P}/{param8:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.64245,
+                        0.55782,
+                        0.87543,
+                        1.786,
+                        50,
+                        0.72688,
+                        1.45345,
+                        1.81544,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "5": {
+                    "level": 5,
+                    "costItems": {
+                        "104348": 6,
+                        "112105": 6
+                    },
+                    "coinCost": 30000,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}",
+                        "Charged Attack DMG|{param4:P}",
+                        "Charged Attack Stamina Cost|{param5:F1}",
+                        "Plunge DMG|{param6:F1P}",
+                        "Low/High Plunge DMG|{param7:P}/{param8:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.681,
+                        0.59129,
+                        0.92796,
+                        1.89316,
+                        50,
+                        0.77314,
+                        1.54594,
+                        1.93097,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "6": {
+                    "level": 6,
+                    "costItems": {
+                        "104348": 9,
+                        "112105": 9
+                    },
+                    "coinCost": 37500,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}",
+                        "Charged Attack DMG|{param4:P}",
+                        "Charged Attack Stamina Cost|{param5:F1}",
+                        "Plunge DMG|{param6:F1P}",
+                        "Low/High Plunge DMG|{param7:P}/{param8:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.71954,
+                        0.62476,
+                        0.98048,
+                        2.00032,
+                        50,
+                        0.826,
+                        1.65165,
+                        2.063,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "7": {
+                    "level": 7,
+                    "costItems": {
+                        "104349": 4,
+                        "112106": 4,
+                        "113056": 1
+                    },
+                    "coinCost": 120000,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}",
+                        "Charged Attack DMG|{param4:P}",
+                        "Charged Attack Stamina Cost|{param5:F1}",
+                        "Plunge DMG|{param6:F1P}",
+                        "Low/High Plunge DMG|{param7:P}/{param8:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.77094,
+                        0.66938,
+                        1.05052,
+                        2.1432,
+                        50,
+                        0.89869,
+                        1.797,
+                        2.24454,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "8": {
+                    "level": 8,
+                    "costItems": {
+                        "104349": 6,
+                        "112106": 6,
+                        "113056": 1
+                    },
+                    "coinCost": 260000,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}",
+                        "Charged Attack DMG|{param4:P}",
+                        "Charged Attack Stamina Cost|{param5:F1}",
+                        "Plunge DMG|{param6:F1P}",
+                        "Low/High Plunge DMG|{param7:P}/{param8:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.82234,
+                        0.71401,
+                        1.12055,
+                        2.28608,
+                        50,
+                        0.97138,
+                        1.94234,
+                        2.42609,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "9": {
+                    "level": 9,
+                    "costItems": {
+                        "104349": 12,
+                        "112106": 9,
+                        "113056": 2
+                    },
+                    "coinCost": 450000,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}",
+                        "Charged Attack DMG|{param4:P}",
+                        "Charged Attack Stamina Cost|{param5:F1}",
+                        "Plunge DMG|{param6:F1P}",
+                        "Low/High Plunge DMG|{param7:P}/{param8:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.87373,
+                        0.75863,
+                        1.19059,
+                        2.42896,
+                        50,
+                        1.04406,
+                        2.08769,
+                        2.60763,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "10": {
+                    "level": 10,
+                    "costItems": {
+                        "104319": 1,
+                        "104349": 16,
+                        "112106": 12,
+                        "113056": 2
+                    },
+                    "coinCost": 700000,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}",
+                        "Charged Attack DMG|{param4:P}",
+                        "Charged Attack Stamina Cost|{param5:F1}",
+                        "Plunge DMG|{param6:F1P}",
+                        "Low/High Plunge DMG|{param7:P}/{param8:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.92513,
+                        0.80326,
+                        1.26062,
+                        2.57184,
+                        50,
+                        1.12336,
+                        2.24624,
+                        2.80568,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "11": {
+                    "level": 11,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}",
+                        "Charged Attack DMG|{param4:P}",
+                        "Charged Attack Stamina Cost|{param5:F1}",
+                        "Plunge DMG|{param6:F1P}",
+                        "Low/High Plunge DMG|{param7:P}/{param8:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.97652,
+                        0.84789,
+                        1.33065,
+                        2.71472,
+                        50,
+                        1.20266,
+                        2.4048,
+                        3.00373,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "12": {
+                    "level": 12,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}",
+                        "Charged Attack DMG|{param4:P}",
+                        "Charged Attack Stamina Cost|{param5:F1}",
+                        "Plunge DMG|{param6:F1P}",
+                        "Low/High Plunge DMG|{param7:P}/{param8:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.02792,
+                        0.89251,
+                        1.40069,
+                        2.8576,
+                        50,
+                        1.28195,
+                        2.56336,
+                        3.20178,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "13": {
+                    "level": 13,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}",
+                        "Charged Attack DMG|{param4:P}",
+                        "Charged Attack Stamina Cost|{param5:F1}",
+                        "Plunge DMG|{param6:F1P}",
+                        "Low/High Plunge DMG|{param7:P}/{param8:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.09216,
+                        0.94829,
+                        1.48823,
+                        3.0362,
+                        50,
+                        1.36125,
+                        2.72192,
+                        3.39982,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "14": {
+                    "level": 14,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}",
+                        "Charged Attack DMG|{param4:P}",
+                        "Charged Attack Stamina Cost|{param5:F1}",
+                        "Plunge DMG|{param6:F1P}",
+                        "Low/High Plunge DMG|{param7:P}/{param8:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.15641,
+                        1.00408,
+                        1.57577,
+                        3.2148,
+                        50,
+                        1.44054,
+                        2.88048,
+                        3.59787,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "15": {
+                    "level": 15,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}",
+                        "Charged Attack DMG|{param4:P}",
+                        "Charged Attack Stamina Cost|{param5:F1}",
+                        "Plunge DMG|{param6:F1P}",
+                        "Low/High Plunge DMG|{param7:P}/{param8:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.22065,
+                        1.05986,
+                        1.66332,
+                        3.3934,
+                        50,
+                        1.51984,
+                        3.03904,
+                        3.79592,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            "cooldown": 0,
+            "cost": 0,
+            "linkedConstellations": null,
+            "advancedProps": [
+                {
+                    "name": "Normal Attack 1-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": "3",
+                            "text": "Normal Attack"
+                        },
+                        "type": {
+                            "span": "3",
+                            "text": "2.5s/3 Hits"
+                        }
+                    },
+                    "interruptionResistance": "9.6",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Shake",
+                        "horizontalForce": "0",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 2-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "8.39",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Shake",
+                        "horizontalForce": "0",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 3-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "13.1",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Shake",
+                        "horizontalForce": "0",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Charged Attack",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "50",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "0",
+                        "verticalForce": "600"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Plunging Attack Collision",
+                    "elementalGaugeTheory": "0U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "5",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Low Plunge",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "50",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "High Plunge",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "100",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "800",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                }
+            ]
+        },
+        "1": {
+            "type": 0,
+            "name": "Surfshark Wavebreaker",
+            "description": "Combining her mastery of speed and the waves and water, Mualani can surf anytime, anywhere.\\nAfter using this skill, Mualani will gain 60 Nightsoul points and enter the Nightsoul's Blessing state.\\n\\n<color=#FFD780FF>Nightsoul's Blessing: Mualani</color>\\nContinuously consume Nightsoul points. When they are depleted or when the skill is used again, Mualani's Nightsoul's Blessing will end. The state itself has the following traits:\\n·Mualani mounts her Sharky Surfboard, increasing Mualani's Movement SPD and interruption resistance. Mualani can move on water and liquid Phlogiston while this state is active, and she will take no DMG from the latter.\\n·Normal Attacks will be converted to Sharky's Bites, dealing Nightsoul-aligned <color=#80C0FFFF>Hydro DMG</color> based on Mualani's Max HP. Sharky's Bites can be used in mid-air. DMG dealt this way is considered Normal Attack DMG.\\n·When she makes contact with opponents in this state, Mualani applies \"Marked as Prey\" to them and gains 1 Wave Momentum stack. Max 3 stacks. 1 stack can be gained from the same opponent every 0.7s.\\n\\n<color=#FFD780FF>Wave Momentum and Marked as Prey</color>\\nWhen Mualani uses Sharky's Bite, her DMG dealt increases based on Wave Momentum stacks. When she has 3 stacks, Sharky's Bite will be converted to Sharky's Surging Bite, further increasing her DMG and removing all her stacks when hitting an opponent.\\nWhen Sharky's Bite hits an opponent Marked as Prey, that mark will be removed, and she will fire Shark Missiles at up to 5 nearby opponents Marked as Prey, dealing DMG to them equal to this Sharky's Bite instance and clearing their Marks. If more than 1 opponent is the target of Sharky's Bite and Shark Missiles, the DMG dealt will decrease, decreasing at most to 72% of the original DMG when 3 opponents are targeted.\\n\\n<i>First off, Sharky is a freshwater shark on top of being a surfboard. Second, it's not that it wants to eat for real, just that it definitely bites for real.</i>",
+            "icon": "Skill_S_Mualani_01",
+            "promote": {
+                "1": {
+                    "level": 1,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Sharky's Bite Base DMG|{param1:F2P} Max HP",
+                        "Wave Momentum DMG Bonus|{param2:F2P} Max HP/Stack",
+                        "Sharky's Surging Bite Additional DMG Bonus|{param3:F2P} Max HP",
+                        "Sharky's Bite CD|{param4:F1}s",
+                        "Nightsoul Point Limit|{param5:F1}",
+                        "CD|{param6:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.0868,
+                        0.0434,
+                        0.217,
+                        1.8,
+                        60,
+                        6,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "2": {
+                    "level": 2,
+                    "costItems": {
+                        "104347": 3,
+                        "112104": 6
+                    },
+                    "coinCost": 12500,
+                    "description": [
+                        "Sharky's Bite Base DMG|{param1:F2P} Max HP",
+                        "Wave Momentum DMG Bonus|{param2:F2P} Max HP/Stack",
+                        "Sharky's Surging Bite Additional DMG Bonus|{param3:F2P} Max HP",
+                        "Sharky's Bite CD|{param4:F1}s",
+                        "Nightsoul Point Limit|{param5:F1}",
+                        "CD|{param6:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.09331,
+                        0.04665,
+                        0.23327,
+                        1.8,
+                        60,
+                        6,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "3": {
+                    "level": 3,
+                    "costItems": {
+                        "104348": 2,
+                        "112105": 3
+                    },
+                    "coinCost": 17500,
+                    "description": [
+                        "Sharky's Bite Base DMG|{param1:F2P} Max HP",
+                        "Wave Momentum DMG Bonus|{param2:F2P} Max HP/Stack",
+                        "Sharky's Surging Bite Additional DMG Bonus|{param3:F2P} Max HP",
+                        "Sharky's Bite CD|{param4:F1}s",
+                        "Nightsoul Point Limit|{param5:F1}",
+                        "CD|{param6:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.09982,
+                        0.04991,
+                        0.24955,
+                        1.8,
+                        60,
+                        6,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "4": {
+                    "level": 4,
+                    "costItems": {
+                        "104348": 4,
+                        "112105": 4
+                    },
+                    "coinCost": 25000,
+                    "description": [
+                        "Sharky's Bite Base DMG|{param1:F2P} Max HP",
+                        "Wave Momentum DMG Bonus|{param2:F2P} Max HP/Stack",
+                        "Sharky's Surging Bite Additional DMG Bonus|{param3:F2P} Max HP",
+                        "Sharky's Bite CD|{param4:F1}s",
+                        "Nightsoul Point Limit|{param5:F1}",
+                        "CD|{param6:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.1085,
+                        0.05425,
+                        0.27125,
+                        1.8,
+                        60,
+                        6,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "5": {
+                    "level": 5,
+                    "costItems": {
+                        "104348": 6,
+                        "112105": 6
+                    },
+                    "coinCost": 30000,
+                    "description": [
+                        "Sharky's Bite Base DMG|{param1:F2P} Max HP",
+                        "Wave Momentum DMG Bonus|{param2:F2P} Max HP/Stack",
+                        "Sharky's Surging Bite Additional DMG Bonus|{param3:F2P} Max HP",
+                        "Sharky's Bite CD|{param4:F1}s",
+                        "Nightsoul Point Limit|{param5:F1}",
+                        "CD|{param6:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.11501,
+                        0.05751,
+                        0.28752,
+                        1.8,
+                        60,
+                        6,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "6": {
+                    "level": 6,
+                    "costItems": {
+                        "104348": 9,
+                        "112105": 9
+                    },
+                    "coinCost": 37500,
+                    "description": [
+                        "Sharky's Bite Base DMG|{param1:F2P} Max HP",
+                        "Wave Momentum DMG Bonus|{param2:F2P} Max HP/Stack",
+                        "Sharky's Surging Bite Additional DMG Bonus|{param3:F2P} Max HP",
+                        "Sharky's Bite CD|{param4:F1}s",
+                        "Nightsoul Point Limit|{param5:F1}",
+                        "CD|{param6:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.12152,
+                        0.06076,
+                        0.3038,
+                        1.8,
+                        60,
+                        6,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "7": {
+                    "level": 7,
+                    "costItems": {
+                        "104349": 4,
+                        "112106": 4,
+                        "113056": 1
+                    },
+                    "coinCost": 120000,
+                    "description": [
+                        "Sharky's Bite Base DMG|{param1:F2P} Max HP",
+                        "Wave Momentum DMG Bonus|{param2:F2P} Max HP/Stack",
+                        "Sharky's Surging Bite Additional DMG Bonus|{param3:F2P} Max HP",
+                        "Sharky's Bite CD|{param4:F1}s",
+                        "Nightsoul Point Limit|{param5:F1}",
+                        "CD|{param6:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.1302,
+                        0.0651,
+                        0.3255,
+                        1.8,
+                        60,
+                        6,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "8": {
+                    "level": 8,
+                    "costItems": {
+                        "104349": 6,
+                        "112106": 6,
+                        "113056": 1
+                    },
+                    "coinCost": 260000,
+                    "description": [
+                        "Sharky's Bite Base DMG|{param1:F2P} Max HP",
+                        "Wave Momentum DMG Bonus|{param2:F2P} Max HP/Stack",
+                        "Sharky's Surging Bite Additional DMG Bonus|{param3:F2P} Max HP",
+                        "Sharky's Bite CD|{param4:F1}s",
+                        "Nightsoul Point Limit|{param5:F1}",
+                        "CD|{param6:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.13888,
+                        0.06944,
+                        0.3472,
+                        1.8,
+                        60,
+                        6,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "9": {
+                    "level": 9,
+                    "costItems": {
+                        "104349": 12,
+                        "112106": 9,
+                        "113056": 2
+                    },
+                    "coinCost": 450000,
+                    "description": [
+                        "Sharky's Bite Base DMG|{param1:F2P} Max HP",
+                        "Wave Momentum DMG Bonus|{param2:F2P} Max HP/Stack",
+                        "Sharky's Surging Bite Additional DMG Bonus|{param3:F2P} Max HP",
+                        "Sharky's Bite CD|{param4:F1}s",
+                        "Nightsoul Point Limit|{param5:F1}",
+                        "CD|{param6:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.14756,
+                        0.07378,
+                        0.3689,
+                        1.8,
+                        60,
+                        6,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "10": {
+                    "level": 10,
+                    "costItems": {
+                        "104319": 1,
+                        "104349": 16,
+                        "112106": 12,
+                        "113056": 2
+                    },
+                    "coinCost": 700000,
+                    "description": [
+                        "Sharky's Bite Base DMG|{param1:F2P} Max HP",
+                        "Wave Momentum DMG Bonus|{param2:F2P} Max HP/Stack",
+                        "Sharky's Surging Bite Additional DMG Bonus|{param3:F2P} Max HP",
+                        "Sharky's Bite CD|{param4:F1}s",
+                        "Nightsoul Point Limit|{param5:F1}",
+                        "CD|{param6:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.15624,
+                        0.07812,
+                        0.3906,
+                        1.8,
+                        60,
+                        6,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "11": {
+                    "level": 11,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Sharky's Bite Base DMG|{param1:F2P} Max HP",
+                        "Wave Momentum DMG Bonus|{param2:F2P} Max HP/Stack",
+                        "Sharky's Surging Bite Additional DMG Bonus|{param3:F2P} Max HP",
+                        "Sharky's Bite CD|{param4:F1}s",
+                        "Nightsoul Point Limit|{param5:F1}",
+                        "CD|{param6:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.16492,
+                        0.08246,
+                        0.4123,
+                        1.8,
+                        60,
+                        6,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "12": {
+                    "level": 12,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Sharky's Bite Base DMG|{param1:F2P} Max HP",
+                        "Wave Momentum DMG Bonus|{param2:F2P} Max HP/Stack",
+                        "Sharky's Surging Bite Additional DMG Bonus|{param3:F2P} Max HP",
+                        "Sharky's Bite CD|{param4:F1}s",
+                        "Nightsoul Point Limit|{param5:F1}",
+                        "CD|{param6:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.1736,
+                        0.0868,
+                        0.434,
+                        1.8,
+                        60,
+                        6,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "13": {
+                    "level": 13,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Sharky's Bite Base DMG|{param1:F2P} Max HP",
+                        "Wave Momentum DMG Bonus|{param2:F2P} Max HP/Stack",
+                        "Sharky's Surging Bite Additional DMG Bonus|{param3:F2P} Max HP",
+                        "Sharky's Bite CD|{param4:F1}s",
+                        "Nightsoul Point Limit|{param5:F1}",
+                        "CD|{param6:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.18445,
+                        0.09223,
+                        0.46112,
+                        1.8,
+                        60,
+                        6,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "14": {
+                    "level": 14,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Sharky's Bite Base DMG|{param1:F2P} Max HP",
+                        "Wave Momentum DMG Bonus|{param2:F2P} Max HP/Stack",
+                        "Sharky's Surging Bite Additional DMG Bonus|{param3:F2P} Max HP",
+                        "Sharky's Bite CD|{param4:F1}s",
+                        "Nightsoul Point Limit|{param5:F1}",
+                        "CD|{param6:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.1953,
+                        0.09765,
+                        0.48825,
+                        1.8,
+                        60,
+                        6,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "15": {
+                    "level": 15,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Sharky's Bite Base DMG|{param1:F2P} Max HP",
+                        "Wave Momentum DMG Bonus|{param2:F2P} Max HP/Stack",
+                        "Sharky's Surging Bite Additional DMG Bonus|{param3:F2P} Max HP",
+                        "Sharky's Bite CD|{param4:F1}s",
+                        "Nightsoul Point Limit|{param5:F1}",
+                        "CD|{param6:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.20615,
+                        0.10307,
+                        0.51538,
+                        1.8,
+                        60,
+                        6,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            "cooldown": 6,
+            "cost": 0,
+            "linkedConstellations": {
+                "isLevelIncluded": true,
+                "prop": [
+                    {
+                        "id": 0,
+                        "type": "normal"
+                    },
+                    {
+                        "id": 1,
+                        "type": "normal"
+                    },
+                    {
+                        "id": 2,
+                        "type": "level"
+                    }
+                ]
+            },
+            "advancedProps": [
+                {
+                    "name": "Sharky's Bite",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "80",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Sharky's Surging Bite",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "150",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Shark Missile",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "80",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Surging Shark Missile",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "150",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Surfing Collision (Damageless)",
+                    "elementalGaugeTheory": "—",
+                    "internalCooldown": null,
+                    "interruptionResistance": "25",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                }
+            ]
+        },
+        "3": {
+            "type": 1,
+            "name": "Boomsharka-laka",
+            "description": "Fires a Super Shark Missile that can track opponents, dealing Nightsoul-aligned <color=#80C0FFFF>AoE Hydro DMG</color> based on Mualani's Max HP.\\n\\n<i>Mualani picked this moniker for launching her Shark Missile because it combines the warmth of explosive passion with a more chill, laid-back vibe — most hot spring-ish.</i>",
+            "icon": "Skill_E_Mualani_01",
+            "promote": {
+                "1": {
+                    "level": 1,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Skill DMG|{param1:F1P} Max HP",
+                        "CD|{param2:F1}s",
+                        "Energy Cost|{param3:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.58439,
+                        15,
+                        60,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "2": {
+                    "level": 2,
+                    "costItems": {
+                        "104347": 3,
+                        "112104": 6
+                    },
+                    "coinCost": 12500,
+                    "description": [
+                        "Skill DMG|{param1:F1P} Max HP",
+                        "CD|{param2:F1}s",
+                        "Energy Cost|{param3:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.62822,
+                        15,
+                        60,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "3": {
+                    "level": 3,
+                    "costItems": {
+                        "104348": 2,
+                        "112105": 3
+                    },
+                    "coinCost": 17500,
+                    "description": [
+                        "Skill DMG|{param1:F1P} Max HP",
+                        "CD|{param2:F1}s",
+                        "Energy Cost|{param3:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.67205,
+                        15,
+                        60,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "4": {
+                    "level": 4,
+                    "costItems": {
+                        "104348": 4,
+                        "112105": 4
+                    },
+                    "coinCost": 25000,
+                    "description": [
+                        "Skill DMG|{param1:F1P} Max HP",
+                        "CD|{param2:F1}s",
+                        "Energy Cost|{param3:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.73049,
+                        15,
+                        60,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "5": {
+                    "level": 5,
+                    "costItems": {
+                        "104348": 6,
+                        "112105": 6
+                    },
+                    "coinCost": 30000,
+                    "description": [
+                        "Skill DMG|{param1:F1P} Max HP",
+                        "CD|{param2:F1}s",
+                        "Energy Cost|{param3:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.77432,
+                        15,
+                        60,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "6": {
+                    "level": 6,
+                    "costItems": {
+                        "104348": 9,
+                        "112105": 9
+                    },
+                    "coinCost": 37500,
+                    "description": [
+                        "Skill DMG|{param1:F1P} Max HP",
+                        "CD|{param2:F1}s",
+                        "Energy Cost|{param3:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.81815,
+                        15,
+                        60,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "7": {
+                    "level": 7,
+                    "costItems": {
+                        "104349": 4,
+                        "112106": 4,
+                        "113056": 1
+                    },
+                    "coinCost": 120000,
+                    "description": [
+                        "Skill DMG|{param1:F1P} Max HP",
+                        "CD|{param2:F1}s",
+                        "Energy Cost|{param3:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.87659,
+                        15,
+                        60,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "8": {
+                    "level": 8,
+                    "costItems": {
+                        "104349": 6,
+                        "112106": 6,
+                        "113056": 1
+                    },
+                    "coinCost": 260000,
+                    "description": [
+                        "Skill DMG|{param1:F1P} Max HP",
+                        "CD|{param2:F1}s",
+                        "Energy Cost|{param3:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.93503,
+                        15,
+                        60,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "9": {
+                    "level": 9,
+                    "costItems": {
+                        "104349": 12,
+                        "112106": 9,
+                        "113056": 2
+                    },
+                    "coinCost": 450000,
+                    "description": [
+                        "Skill DMG|{param1:F1P} Max HP",
+                        "CD|{param2:F1}s",
+                        "Energy Cost|{param3:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.99347,
+                        15,
+                        60,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "10": {
+                    "level": 10,
+                    "costItems": {
+                        "104319": 1,
+                        "104349": 16,
+                        "112106": 12,
+                        "113056": 2
+                    },
+                    "coinCost": 700000,
+                    "description": [
+                        "Skill DMG|{param1:F1P} Max HP",
+                        "CD|{param2:F1}s",
+                        "Energy Cost|{param3:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.05191,
+                        15,
+                        60,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "11": {
+                    "level": 11,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Skill DMG|{param1:F1P} Max HP",
+                        "CD|{param2:F1}s",
+                        "Energy Cost|{param3:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.11035,
+                        15,
+                        60,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "12": {
+                    "level": 12,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Skill DMG|{param1:F1P} Max HP",
+                        "CD|{param2:F1}s",
+                        "Energy Cost|{param3:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.16878,
+                        15,
+                        60,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "13": {
+                    "level": 13,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Skill DMG|{param1:F1P} Max HP",
+                        "CD|{param2:F1}s",
+                        "Energy Cost|{param3:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.24183,
+                        15,
+                        60,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "14": {
+                    "level": 14,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Skill DMG|{param1:F1P} Max HP",
+                        "CD|{param2:F1}s",
+                        "Energy Cost|{param3:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.31488,
+                        15,
+                        60,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "15": {
+                    "level": 15,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Skill DMG|{param1:F1P} Max HP",
+                        "CD|{param2:F1}s",
+                        "Energy Cost|{param3:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.38793,
+                        15,
+                        60,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            "cooldown": 15,
+            "cost": 60,
+            "linkedConstellations": {
+                "isLevelIncluded": true,
+                "prop": [
+                    {
+                        "id": 3,
+                        "type": "normal"
+                    },
+                    {
+                        "id": 4,
+                        "type": "level"
+                    }
+                ]
+            },
+            "advancedProps": [
+                {
+                    "name": "Skill DMG",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "200",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "0",
+                        "verticalForce": "800"
+                    },
+                    "bluntAttack": false
+                }
+            ]
+        },
+        "4": {
+            "type": 2,
+            "name": "Heat-Resistant Freshwater Floater",
+            "description": "When Sharky's Surging Bite hits an opponent, a Puffer will be generated nearby. Mualani will restore 20 Nightsoul points when she picks up a Puffer. Only 2 such Puffers can be created in this way during a single instance of being in Nightsoul's Blessing.",
+            "icon": "UI_Talent_S_Mualani_05",
+            "linkedConstellations": {
+                "isLevelIncluded": false,
+                "prop": [
+                    {
+                        "id": 1,
+                        "type": "normal"
+                    },
+                    {
+                        "id": 3,
+                        "type": "normal"
+                    }
+                ]
+            }
+        },
+        "5": {
+            "type": 2,
+            "name": "Natlan's Greatest Guide",
+            "description": "After a nearby party member triggers a Nightsoul Burst, Mualani will gain 1 stack of Wavechaser's Exploits, which lasts for 20s. Max 3 stacks. When she uses <color=#FFD780FF>Boomsharka-laka</color>, Mualani will clear all Wavechaser's Exploits stacks and increase the DMG of this Boomsharka-laka by 15%/30%/45% of her Max HP based on the number of stacks cleared.",
+            "icon": "UI_Talent_S_Mualani_06",
+            "linkedConstellations": null
+        },
+        "6": {
+            "type": 2,
+            "name": "Night Realm's Gift: Crests and Troughs",
+            "description": "After her Nightsoul points are depleted, Mualani will switch to consuming Phlogiston to maintain her Nightsoul's Blessing.\\nWhile in an area with Phlogiston Mechanics within Natlan, she can use Nightsoul Transmission: Mualani. When the active character is currently sprinting, swimming, in a movement mode caused by certain Talents, or at a certain height in the air, the following will trigger when switching to Mualani: Mualani will enter the Nightsoul's Blessing state and gain 40 Nightsoul points. Nightsoul Transmission can be triggered once every 10s by your own team.\\n\\nAdditionally, Mualani's Nightsoul point or Phlogiston consumption while moving on water and Liquid Phlogiston during Nightsoul's Blessing is decreased by 75% while in Natlan, and her Nightsoul point consumption is decreased by 35% while doing the same outside Natlan.",
+            "icon": "UI_Talent_S_Mualani_07",
+            "linkedConstellations": null
+        },
+        "8": {
+            "type": 2,
+            "name": "The Trick Is to Keep Smiling!",
+            "description": "While in an area with Phlogiston Mechanics within Natlan, 15 Phlogiston will be restored when interacting with some harvestable items. Additionally, the location of nearby <color=#FFD780FF>resources unique to Natlan</color> will appear on your mini-map.",
+            "icon": "UI_Talent_S_Kachina_08",
+            "linkedConstellations": null
+        }
+    },
+    "constellation": {
+        "0": {
+            "id": 0,
+            "name": "The Leisurely \"Meztli\"...",
+            "description": "The DMG dealt by the first Sharky's Surging Bite after Mualani enters Nightsoul's Blessing and the Shark Missiles it triggers is increased by 66% of Mualani's Max HP. This instance of increased DMG is subject to the diminishing DMG rules of <color=#FFD780FF>Surfshark Wavebreaker</color>.\\nIn addition, while out of combat, Mualani's Nightsoul's Blessing state consumes 30% less Phlogiston and Nightsoul points.",
+            "extraData": null,
+            "icon": "UI_Talent_S_Mualani_01"
+        },
+        "1": {
+            "id": 1,
+            "name": "Mualani, Going All Out!",
+            "description": "Mualani gains 2 of <color=#FFD780FF>Surfshark Wavebreaker</color>'s Wave Momentum stacks when she enters Nightsoul's Blessing state. She will gain 1 stack when obtaining a Puffer.\\nIn addition, whenever Mualani obtains 2 Puffers within a single instance of the Nightsoul's Blessing state, she will recover an additional 12 Nightsoul points over 2s. This effect requires the Passive Talent \"Heat-Resistant Freshwater Floater\" to be unlocked first.",
+            "extraData": null,
+            "icon": "UI_Talent_S_Mualani_02"
+        },
+        "2": {
+            "id": 2,
+            "name": "Surfing Atop Joyous Seas",
+            "description": "Increases the Level of <color=#FFD780FF>Surfshark Wavebreaker</color> by 3.\\nMaximum upgrade level is 15.",
+            "extraData": {
+                "addTalentExtraLevel": {
+                    "talentType": "AvatarSkill",
+                    "talentIndex": 2,
+                    "extraLevel": 3
+                }
+            },
+            "icon": "UI_Talent_U_Mualani_01"
+        },
+        "3": {
+            "id": 3,
+            "name": "Sharky Eats Puffies",
+            "description": "Mualani regenerates 8 Energy when obtaining a Puffer. Must first unlock the Passive Talent \"Heat-Resistant Freshwater Floater.\"\\nAdditionally, <color=#FFD780FF>Boomsharka-laka</color> deals 75% increased DMG.",
+            "extraData": null,
+            "icon": "UI_Talent_S_Mualani_03"
+        },
+        "4": {
+            "id": 4,
+            "name": "Same Style of Surfboard on Sale!",
+            "description": "Increases the Level of <color=#FFD780FF>Boomsharka-laka</color> by 3.\\nMaximum upgrade level is 15.",
+            "extraData": {
+                "addTalentExtraLevel": {
+                    "talentType": "AvatarSkill",
+                    "talentIndex": 9,
+                    "extraLevel": 3
+                }
+            },
+            "icon": "UI_Talent_U_Mualani_02"
+        },
+        "5": {
+            "id": 5,
+            "name": "Spirit of the Springs' People",
+            "description": "The DMG increase from the Constellation \"The Leisurely 'Meztli'...\" is no longer limited to being triggered once every Nightsoul's Blessing.",
+            "extraData": null,
+            "icon": "UI_Talent_S_Mualani_04"
+        }
+    },
+    "_id": 10000102
+}

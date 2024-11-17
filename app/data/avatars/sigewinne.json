@@ -1,0 +1,2795 @@
+{
+    "id": "sigewinne",
+    "rank": 5,
+    "name": "Sigewinne",
+    "element": "Water",
+    "weaponType": "WEAPON_BOW",
+    "region": "FONTAINE",
+    "specialProp": "FIGHT_PROP_HP_PERCENT",
+    "bodyType": "LOLI",
+    "icon": "UI_AvatarIcon_Sigewinne",
+    "birthday": [
+        3,
+        30
+    ],
+    "release": 1719414000,
+    "route": "Sigewinne",
+    "fetter": {
+        "title": "Wondrous Dragonheir",
+        "detail": "A Melusine and the Fortress of Meropide's head nurse. She cares equally for every convict locked in the undersea prison.",
+        "constellation": "Nereides",
+        "native": "Fortress of Meropide",
+        "cv": {
+            "EN": "Sarah Williams",
+            "CHS": "赵爽",
+            "JP": "木野日菜",
+            "KR": "Kim Chae-rin"
+        }
+    },
+    "upgrade": {
+        "prop": [
+            {
+                "propType": "FIGHT_PROP_BASE_HP",
+                "initValue": 1039.11877,
+                "type": "GROW_CURVE_HP_S5"
+            },
+            {
+                "propType": "FIGHT_PROP_BASE_ATTACK",
+                "initValue": 14.9891,
+                "type": "GROW_CURVE_ATTACK_S5"
+            },
+            {
+                "propType": "FIGHT_PROP_BASE_DEFENSE",
+                "initValue": 38.8895,
+                "type": "GROW_CURVE_HP_S5"
+            }
+        ],
+        "promote": [
+            {
+                "unlockMaxLevel": 20,
+                "promoteLevel": 0
+            },
+            {
+                "promoteLevel": 1,
+                "costItems": {
+                    "101233": 3,
+                    "104121": 1,
+                    "112080": 3
+                },
+                "unlockMaxLevel": 40,
+                "addProps": {
+                    "FIGHT_PROP_BASE_HP": 890.95044,
+                    "FIGHT_PROP_BASE_DEFENSE": 33.345,
+                    "FIGHT_PROP_BASE_ATTACK": 12.85086,
+                    "FIGHT_PROP_HP_PERCENT": 0
+                },
+                "requiredPlayerLevel": 15,
+                "coinCost": 20000
+            },
+            {
+                "promoteLevel": 2,
+                "costItems": {
+                    "101233": 10,
+                    "104122": 3,
+                    "112080": 15,
+                    "113057": 2
+                },
+                "unlockMaxLevel": 50,
+                "addProps": {
+                    "FIGHT_PROP_BASE_HP": 1523.99414,
+                    "FIGHT_PROP_BASE_DEFENSE": 57.0375,
+                    "FIGHT_PROP_BASE_ATTACK": 21.98173,
+                    "FIGHT_PROP_HP_PERCENT": 0.072
+                },
+                "requiredPlayerLevel": 25,
+                "coinCost": 40000
+            },
+            {
+                "promoteLevel": 3,
+                "costItems": {
+                    "101233": 20,
+                    "104122": 6,
+                    "112081": 12,
+                    "113057": 4
+                },
+                "unlockMaxLevel": 60,
+                "addProps": {
+                    "FIGHT_PROP_BASE_HP": 2368.05249,
+                    "FIGHT_PROP_BASE_DEFENSE": 88.6275,
+                    "FIGHT_PROP_BASE_ATTACK": 34.15623,
+                    "FIGHT_PROP_HP_PERCENT": 0.144
+                },
+                "requiredPlayerLevel": 30,
+                "coinCost": 60000
+            },
+            {
+                "promoteLevel": 4,
+                "costItems": {
+                    "101233": 30,
+                    "104123": 3,
+                    "112081": 18,
+                    "113057": 8
+                },
+                "unlockMaxLevel": 70,
+                "addProps": {
+                    "FIGHT_PROP_BASE_HP": 3001.09619,
+                    "FIGHT_PROP_BASE_DEFENSE": 112.32,
+                    "FIGHT_PROP_BASE_ATTACK": 43.28711,
+                    "FIGHT_PROP_HP_PERCENT": 0.144
+                },
+                "requiredPlayerLevel": 35,
+                "coinCost": 80000
+            },
+            {
+                "promoteLevel": 5,
+                "costItems": {
+                    "101233": 45,
+                    "104123": 6,
+                    "112082": 12,
+                    "113057": 12
+                },
+                "unlockMaxLevel": 80,
+                "addProps": {
+                    "FIGHT_PROP_BASE_HP": 3634.13989,
+                    "FIGHT_PROP_BASE_DEFENSE": 136.0125,
+                    "FIGHT_PROP_BASE_ATTACK": 52.41798,
+                    "FIGHT_PROP_HP_PERCENT": 0.216
+                },
+                "requiredPlayerLevel": 40,
+                "coinCost": 100000
+            },
+            {
+                "promoteLevel": 6,
+                "costItems": {
+                    "101233": 60,
+                    "104124": 6,
+                    "112082": 24,
+                    "113057": 20
+                },
+                "unlockMaxLevel": 90,
+                "addProps": {
+                    "FIGHT_PROP_BASE_HP": 4267.18359,
+                    "FIGHT_PROP_BASE_DEFENSE": 159.705,
+                    "FIGHT_PROP_BASE_ATTACK": 61.54885,
+                    "FIGHT_PROP_HP_PERCENT": 0.288
+                },
+                "requiredPlayerLevel": 50,
+                "coinCost": 120000
+            }
+        ]
+    },
+    "other": {
+        "costume": [
+            {
+                "name": "Sweetness of the Sea",
+                "description": "Sigewinne's outfit. Its brilliant colors epitomize Head Nurse Sigewinne herself — a welcome ray of sunshine brightening life down in the gloomy depths.",
+                "isDefault": true
+            }
+        ],
+        "furnitureId": 368182,
+        "nameCard": {
+            "id": 210201,
+            "name": "Sigewinne: Treatment",
+            "description": "Namecard style.\\nSigewinne will take good care of her patients. Don't worry, her injections aren't that painful — and while the medicines aren't very tasty, you'd take them over the barren wasteland that special blend milkshakes represent.",
+            "icon": "UI_NameCardIcon_Sigewinne"
+        },
+        "specialFood": {
+            "id": 108673,
+            "name": "Well-Balanced Meal",
+            "rank": 3,
+            "effectIcon": "UI_Buff_Item_Recovery_HpAddAll",
+            "icon": "UI_ItemIcon_108673"
+        }
+    },
+    "ascension": {
+        "101233": 1,
+        "104121": 2,
+        "104122": 3,
+        "104123": 4,
+        "104124": 5,
+        "104319": 5,
+        "104338": 2,
+        "104339": 3,
+        "104340": 4,
+        "112080": 1,
+        "112081": 2,
+        "112082": 3,
+        "113055": 5,
+        "113057": 4
+    },
+    "items": {
+        "202": {
+            "name": "Mora",
+            "rank": 3,
+            "icon": "UI_ItemIcon_202"
+        },
+        "101233": {
+            "name": "Romaritime Flower",
+            "rank": 1,
+            "icon": "UI_ItemIcon_101233"
+        },
+        "104001": {
+            "name": "Wanderer's Advice",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104001"
+        },
+        "104002": {
+            "name": "Adventurer's Experience",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104002"
+        },
+        "104003": {
+            "name": "Hero's Wit",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104003"
+        },
+        "104121": {
+            "name": "Varunada Lazurite Sliver",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104121"
+        },
+        "104122": {
+            "name": "Varunada Lazurite Fragment",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104122"
+        },
+        "104123": {
+            "name": "Varunada Lazurite Chunk",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104123"
+        },
+        "104124": {
+            "name": "Varunada Lazurite Gemstone",
+            "rank": 5,
+            "icon": "UI_ItemIcon_104124"
+        },
+        "104319": {
+            "name": "Crown of Insight",
+            "rank": 5,
+            "icon": "UI_ItemIcon_104319"
+        },
+        "104338": {
+            "name": "Teachings of Equity",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104338"
+        },
+        "104339": {
+            "name": "Guide to Equity",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104339"
+        },
+        "104340": {
+            "name": "Philosophies of Equity",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104340"
+        },
+        "112080": {
+            "name": "Transoceanic Pearl",
+            "rank": 1,
+            "icon": "UI_ItemIcon_112080"
+        },
+        "112081": {
+            "name": "Transoceanic Chunk",
+            "rank": 2,
+            "icon": "UI_ItemIcon_112081"
+        },
+        "112082": {
+            "name": "Xenochromatic Crystal",
+            "rank": 3,
+            "icon": "UI_ItemIcon_112082"
+        },
+        "113055": {
+            "name": "Lightless Eye of the Maelstrom",
+            "rank": 5,
+            "icon": "UI_ItemIcon_113055"
+        },
+        "113057": {
+            "name": "Water That Failed To Transcend",
+            "rank": 4,
+            "icon": "UI_ItemIcon_113057"
+        }
+    },
+    "talent": {
+        "0": {
+            "type": 0,
+            "name": "Normal Attack: Targeted Treatment",
+            "description": "<color=#FFD780FF>Normal Attack</color>\\nPerforms up to 3 consecutive attacks.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nPerforms a more precise <color=#FFD780FF>Aimed Shot</color> with increased DMG.\\nWhile aiming, the power of Hydro will continually accumulate on the arrow. After fully charging, Sigewinne will periodically fire slow-moving Mini-Stration Bubbles toward the target, dealing <color=#80C0FFFF>Hydro DMG</color>. When released, an arrow imbued with torrential energy will deal <color=#80C0FFFF>Hydro DMG</color> to the opponent hit.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
+            "icon": "Skill_A_02",
+            "promote": {
+                "1": {
+                    "level": 1,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}",
+                        "Aimed Shot|{param7:F1P}",
+                        "Fully-Charged Aimed Shot|{param8:F1P}",
+                        "Mini-Stration Bubble DMG|{param9:F1P}",
+                        "Plunge DMG|{param4:F1P}",
+                        "Low/High Plunge DMG|{param5:F1P}/{param6:F1P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.52614,
+                        0.51071,
+                        0.78291,
+                        0.56829,
+                        1.13634,
+                        1.41934,
+                        0.4386,
+                        1.24,
+                        0.248,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "2": {
+                    "level": 2,
+                    "costItems": {
+                        "104338": 3,
+                        "112080": 6
+                    },
+                    "coinCost": 12500,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}",
+                        "Aimed Shot|{param7:F1P}",
+                        "Fully-Charged Aimed Shot|{param8:F1P}",
+                        "Mini-Stration Bubble DMG|{param9:F1P}",
+                        "Plunge DMG|{param4:F1P}",
+                        "Low/High Plunge DMG|{param5:F1P}/{param6:F1P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.56897,
+                        0.55228,
+                        0.84663,
+                        0.61454,
+                        1.22883,
+                        1.53487,
+                        0.4743,
+                        1.333,
+                        0.2666,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "3": {
+                    "level": 3,
+                    "costItems": {
+                        "104339": 2,
+                        "112081": 3
+                    },
+                    "coinCost": 17500,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}",
+                        "Aimed Shot|{param7:F1P}",
+                        "Fully-Charged Aimed Shot|{param8:F1P}",
+                        "Mini-Stration Bubble DMG|{param9:F1P}",
+                        "Plunge DMG|{param4:F1P}",
+                        "Low/High Plunge DMG|{param5:F1P}/{param6:F1P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.61179,
+                        0.59385,
+                        0.91036,
+                        0.6608,
+                        1.32132,
+                        1.6504,
+                        0.51,
+                        1.426,
+                        0.2852,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "4": {
+                    "level": 4,
+                    "costItems": {
+                        "104339": 4,
+                        "112081": 4
+                    },
+                    "coinCost": 25000,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}",
+                        "Aimed Shot|{param7:F1P}",
+                        "Fully-Charged Aimed Shot|{param8:F1P}",
+                        "Mini-Stration Bubble DMG|{param9:F1P}",
+                        "Plunge DMG|{param4:F1P}",
+                        "Low/High Plunge DMG|{param5:F1P}/{param6:F1P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.67297,
+                        0.65324,
+                        1.0014,
+                        0.72688,
+                        1.45345,
+                        1.81544,
+                        0.561,
+                        1.55,
+                        0.31,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "5": {
+                    "level": 5,
+                    "costItems": {
+                        "104339": 6,
+                        "112081": 6
+                    },
+                    "coinCost": 30000,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}",
+                        "Aimed Shot|{param7:F1P}",
+                        "Fully-Charged Aimed Shot|{param8:F1P}",
+                        "Mini-Stration Bubble DMG|{param9:F1P}",
+                        "Plunge DMG|{param4:F1P}",
+                        "Low/High Plunge DMG|{param5:F1P}/{param6:F1P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.71579,
+                        0.6948,
+                        1.06512,
+                        0.77314,
+                        1.54594,
+                        1.93097,
+                        0.5967,
+                        1.643,
+                        0.3286,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "6": {
+                    "level": 6,
+                    "costItems": {
+                        "104339": 9,
+                        "112081": 9
+                    },
+                    "coinCost": 37500,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}",
+                        "Aimed Shot|{param7:F1P}",
+                        "Fully-Charged Aimed Shot|{param8:F1P}",
+                        "Mini-Stration Bubble DMG|{param9:F1P}",
+                        "Plunge DMG|{param4:F1P}",
+                        "Low/High Plunge DMG|{param5:F1P}/{param6:F1P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.76474,
+                        0.74231,
+                        1.13795,
+                        0.826,
+                        1.65165,
+                        2.063,
+                        0.6375,
+                        1.736,
+                        0.3472,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "7": {
+                    "level": 7,
+                    "costItems": {
+                        "104340": 4,
+                        "112082": 4,
+                        "113055": 1
+                    },
+                    "coinCost": 120000,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}",
+                        "Aimed Shot|{param7:F1P}",
+                        "Fully-Charged Aimed Shot|{param8:F1P}",
+                        "Mini-Stration Bubble DMG|{param9:F1P}",
+                        "Plunge DMG|{param4:F1P}",
+                        "Low/High Plunge DMG|{param5:F1P}/{param6:F1P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.83203,
+                        0.80764,
+                        1.23809,
+                        0.89869,
+                        1.797,
+                        2.24454,
+                        0.6936,
+                        1.86,
+                        0.372,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "8": {
+                    "level": 8,
+                    "costItems": {
+                        "104340": 6,
+                        "112082": 6,
+                        "113055": 1
+                    },
+                    "coinCost": 260000,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}",
+                        "Aimed Shot|{param7:F1P}",
+                        "Fully-Charged Aimed Shot|{param8:F1P}",
+                        "Mini-Stration Bubble DMG|{param9:F1P}",
+                        "Plunge DMG|{param4:F1P}",
+                        "Low/High Plunge DMG|{param5:F1P}/{param6:F1P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.89933,
+                        0.87296,
+                        1.33823,
+                        0.97138,
+                        1.94234,
+                        2.42609,
+                        0.7497,
+                        1.984,
+                        0.3968,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "9": {
+                    "level": 9,
+                    "costItems": {
+                        "104340": 12,
+                        "112082": 9,
+                        "113055": 2
+                    },
+                    "coinCost": 450000,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}",
+                        "Aimed Shot|{param7:F1P}",
+                        "Fully-Charged Aimed Shot|{param8:F1P}",
+                        "Mini-Stration Bubble DMG|{param9:F1P}",
+                        "Plunge DMG|{param4:F1P}",
+                        "Low/High Plunge DMG|{param5:F1P}/{param6:F1P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.96663,
+                        0.93828,
+                        1.43837,
+                        1.04406,
+                        2.08769,
+                        2.60763,
+                        0.8058,
+                        2.108,
+                        0.4216,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "10": {
+                    "level": 10,
+                    "costItems": {
+                        "104319": 1,
+                        "104340": 16,
+                        "112082": 12,
+                        "113055": 2
+                    },
+                    "coinCost": 700000,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}",
+                        "Aimed Shot|{param7:F1P}",
+                        "Fully-Charged Aimed Shot|{param8:F1P}",
+                        "Mini-Stration Bubble DMG|{param9:F1P}",
+                        "Plunge DMG|{param4:F1P}",
+                        "Low/High Plunge DMG|{param5:F1P}/{param6:F1P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.04004,
+                        1.00954,
+                        1.54761,
+                        1.12336,
+                        2.24624,
+                        2.80568,
+                        0.867,
+                        2.232,
+                        0.4464,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "11": {
+                    "level": 11,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}",
+                        "Aimed Shot|{param7:F1P}",
+                        "Fully-Charged Aimed Shot|{param8:F1P}",
+                        "Mini-Stration Bubble DMG|{param9:F1P}",
+                        "Plunge DMG|{param4:F1P}",
+                        "Low/High Plunge DMG|{param5:F1P}/{param6:F1P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.11346,
+                        1.08081,
+                        1.65685,
+                        1.20266,
+                        2.4048,
+                        3.00373,
+                        0.9282,
+                        2.356,
+                        0.4712,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "12": {
+                    "level": 12,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}",
+                        "Aimed Shot|{param7:F1P}",
+                        "Fully-Charged Aimed Shot|{param8:F1P}",
+                        "Mini-Stration Bubble DMG|{param9:F1P}",
+                        "Plunge DMG|{param4:F1P}",
+                        "Low/High Plunge DMG|{param5:F1P}/{param6:F1P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.18687,
+                        1.15207,
+                        1.7661,
+                        1.28195,
+                        2.56336,
+                        3.20178,
+                        0.9894,
+                        2.48,
+                        0.496,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "13": {
+                    "level": 13,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}",
+                        "Aimed Shot|{param7:F1P}",
+                        "Fully-Charged Aimed Shot|{param8:F1P}",
+                        "Mini-Stration Bubble DMG|{param9:F1P}",
+                        "Plunge DMG|{param4:F1P}",
+                        "Low/High Plunge DMG|{param5:F1P}/{param6:F1P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.26029,
+                        1.22333,
+                        1.87534,
+                        1.36125,
+                        2.72192,
+                        3.39982,
+                        1.0506,
+                        2.635,
+                        0.527,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "14": {
+                    "level": 14,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}",
+                        "Aimed Shot|{param7:F1P}",
+                        "Fully-Charged Aimed Shot|{param8:F1P}",
+                        "Mini-Stration Bubble DMG|{param9:F1P}",
+                        "Plunge DMG|{param4:F1P}",
+                        "Low/High Plunge DMG|{param5:F1P}/{param6:F1P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.3337,
+                        1.29459,
+                        1.98459,
+                        1.44054,
+                        2.88048,
+                        3.59787,
+                        1.1118,
+                        2.79,
+                        0.558,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "15": {
+                    "level": 15,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}",
+                        "Aimed Shot|{param7:F1P}",
+                        "Fully-Charged Aimed Shot|{param8:F1P}",
+                        "Mini-Stration Bubble DMG|{param9:F1P}",
+                        "Plunge DMG|{param4:F1P}",
+                        "Low/High Plunge DMG|{param5:F1P}/{param6:F1P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.40712,
+                        1.36585,
+                        2.09383,
+                        1.51984,
+                        3.03904,
+                        3.79592,
+                        1.173,
+                        2.945,
+                        0.589,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            "cooldown": 0,
+            "cost": 0,
+            "linkedConstellations": null,
+            "advancedProps": [
+                {
+                    "name": "Normal Attack 1-Hit",
+                    "elementalGaugeTheory": "—",
+                    "internalCooldown": null,
+                    "interruptionResistance": "18.354",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Shake",
+                        "horizontalForce": "0",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 2-Hit",
+                    "elementalGaugeTheory": "—",
+                    "internalCooldown": null,
+                    "interruptionResistance": "17.816",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Shake",
+                        "horizontalForce": "0",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 3-Hit",
+                    "elementalGaugeTheory": "—",
+                    "internalCooldown": null,
+                    "interruptionResistance": "27.311",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Shake",
+                        "horizontalForce": "0",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Aimed Shot",
+                    "elementalGaugeTheory": "—",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": "5",
+                            "text": "Charged Attack"
+                        },
+                        "type": {
+                            "span": "5",
+                            "text": "2s"
+                        }
+                    },
+                    "interruptionResistance": "10",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Aimed Shot (Hit Weak Spot)",
+                    "elementalGaugeTheory": "—",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "30",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "480",
+                        "verticalForce": "600"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Fully-Charged Aimed Shot",
+                    "elementalGaugeTheory": "1U(w/ Dropoff)",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "20",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Fully-Charged Aimed Shot (Hit Weak Spot)",
+                    "elementalGaugeTheory": "1U(w/ Dropoff)",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "60",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "480",
+                        "verticalForce": "600"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Mini-Stration Bubble DMG",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "20",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Plunging Attack Collision",
+                    "elementalGaugeTheory": "—",
+                    "internalCooldown": null,
+                    "interruptionResistance": "10",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Low Plunge",
+                    "elementalGaugeTheory": "—",
+                    "internalCooldown": null,
+                    "interruptionResistance": "50",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "High Plunge",
+                    "elementalGaugeTheory": "—",
+                    "internalCooldown": null,
+                    "interruptionResistance": "100",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                }
+            ]
+        },
+        "1": {
+            "type": 0,
+            "name": "Rebound Hydrotherapy",
+            "description": "Blows a <color=#FFD780FF>Bolstering Bubblebalm</color> that can stimulate blood flow and help patients drift off to sleep using a bubblegun specially made in the Fortress of Meropide.\\nBolstering Bubblebalms will bounce between nearby opponents, dealing <color=#80C0FFFF>Hydro DMG</color> based on Sigewinne's max HP to opponents it hits. When it bounces, it will restore HP to all nearby party members except Sigewinne herself. The amount healed is based on Sigewinne's max HP.\\nAfter bouncing 5 times, the Bolstering Bubblebalm will disappear and restore HP to Sigewinne based on her max HP value.\\nWhen no opponents are present, the Bolstering Bubblebalm will bounce nearby. Only one Bolstering Bubblebalm created by a Sigewinne may exist at once.\\nWhen Held, the Bolstering Bubblebalm can be boosted to an even bigger size.\\n\\n<color=#FFD780FF>Hold</color>\\nEnter Aiming Mode to begin blowing an even bigger, even more breathtaking Bolstering Bubblebalm!\\nThe Bolstering Bubblebalm will grow bigger the longer the skill is Held, until it grows up to two tiers in size. Each tier it grows increases its DMG by 5% and healing by 5%. When a Bolstering Bubblebalm bounces, it will drop down a tier in size, until it returns to being a normal Bolstering Bubblebalm.\\nAfter weaker opponents are hit by big Bolstering Bubblebalms, they will be imprisoned and will be unable to move.\\n\\nIn addition, 2 Sourcewater Droplets will be created near Sigewinne when she uses this Skill. Each Sourcewater Droplet Sigewinne collects will grant her a Bond of Life worth 10% of her Max HP.\\nWhen Sigewinne's Bond of Life is cleared, she regains 1 Elemental Energy for every 2,000 HP worth of the Bond of Life that was cleared. Sigewinne can regain up to 5 Elemental Energy in this way.\\n\\n<color=#FFD780FF>Arkhe: Ousia</color>\\nBolstering Bubblebalms periodically call down a Surging Blade on the position they hit, dealing Ousia-aligned <color=#80C0FFFF>Hydro DMG</color> based on Sigewinne's max HP.\\n\\n<i>\"What do you think? Not only can this kind of hydrotherapy stimulate the circulatory system, but it can also cheer patients up, ooh, and that's not all, it can even help patients who ought to get some rest have a nice nap...\"</i>",
+            "icon": "Skill_S_Sigewinne_01",
+            "promote": {
+                "1": {
+                    "level": 1,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Bolstering Bubblebalm DMG|{param1:F2P} Max HP",
+                        "Bolstering Bubblebalm Healing|{param2:F2P} Max HP+{param3:I}",
+                        "Final Bounce Healing|{param4:F1P} Max HP",
+                        "Surging Blade DMG|{param7:F2P} Max HP",
+                        "Surging Blade Interval|{param8:F1}s",
+                        "CD|{param9:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.0228,
+                        0.028,
+                        269.63141,
+                        0.5,
+                        0,
+                        0.1,
+                        0.00684,
+                        10,
+                        18,
+                        0.0005,
+                        5,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "2": {
+                    "level": 2,
+                    "costItems": {
+                        "104338": 3,
+                        "112080": 6
+                    },
+                    "coinCost": 12500,
+                    "description": [
+                        "Bolstering Bubblebalm DMG|{param1:F2P} Max HP",
+                        "Bolstering Bubblebalm Healing|{param2:F2P} Max HP+{param3:I}",
+                        "Final Bounce Healing|{param4:F1P} Max HP",
+                        "Surging Blade DMG|{param7:F2P} Max HP",
+                        "Surging Blade Interval|{param8:F1}s",
+                        "CD|{param9:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.02451,
+                        0.0301,
+                        296.5983,
+                        0.5,
+                        0,
+                        0.1,
+                        0.00735,
+                        10,
+                        18,
+                        0.0005,
+                        5,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "3": {
+                    "level": 3,
+                    "costItems": {
+                        "104339": 2,
+                        "112081": 3
+                    },
+                    "coinCost": 17500,
+                    "description": [
+                        "Bolstering Bubblebalm DMG|{param1:F2P} Max HP",
+                        "Bolstering Bubblebalm Healing|{param2:F2P} Max HP+{param3:I}",
+                        "Final Bounce Healing|{param4:F1P} Max HP",
+                        "Surging Blade DMG|{param7:F2P} Max HP",
+                        "Surging Blade Interval|{param8:F1}s",
+                        "CD|{param9:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.02622,
+                        0.0322,
+                        325.81244,
+                        0.5,
+                        0,
+                        0.1,
+                        0.00787,
+                        10,
+                        18,
+                        0.0005,
+                        5,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "4": {
+                    "level": 4,
+                    "costItems": {
+                        "104339": 4,
+                        "112081": 4
+                    },
+                    "coinCost": 25000,
+                    "description": [
+                        "Bolstering Bubblebalm DMG|{param1:F2P} Max HP",
+                        "Bolstering Bubblebalm Healing|{param2:F2P} Max HP+{param3:I}",
+                        "Final Bounce Healing|{param4:F1P} Max HP",
+                        "Surging Blade DMG|{param7:F2P} Max HP",
+                        "Surging Blade Interval|{param8:F1}s",
+                        "CD|{param9:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.0285,
+                        0.035,
+                        357.2738,
+                        0.5,
+                        0,
+                        0.1,
+                        0.00855,
+                        10,
+                        18,
+                        0.0005,
+                        5,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "5": {
+                    "level": 5,
+                    "costItems": {
+                        "104339": 6,
+                        "112081": 6
+                    },
+                    "coinCost": 30000,
+                    "description": [
+                        "Bolstering Bubblebalm DMG|{param1:F2P} Max HP",
+                        "Bolstering Bubblebalm Healing|{param2:F2P} Max HP+{param3:I}",
+                        "Final Bounce Healing|{param4:F1P} Max HP",
+                        "Surging Blade DMG|{param7:F2P} Max HP",
+                        "Surging Blade Interval|{param8:F1}s",
+                        "CD|{param9:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.03021,
+                        0.0371,
+                        390.98242,
+                        0.5,
+                        0,
+                        0.1,
+                        0.00906,
+                        10,
+                        18,
+                        0.0005,
+                        5,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "6": {
+                    "level": 6,
+                    "costItems": {
+                        "104339": 9,
+                        "112081": 9
+                    },
+                    "coinCost": 37500,
+                    "description": [
+                        "Bolstering Bubblebalm DMG|{param1:F2P} Max HP",
+                        "Bolstering Bubblebalm Healing|{param2:F2P} Max HP+{param3:I}",
+                        "Final Bounce Healing|{param4:F1P} Max HP",
+                        "Surging Blade DMG|{param7:F2P} Max HP",
+                        "Surging Blade Interval|{param8:F1}s",
+                        "CD|{param9:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.03192,
+                        0.0392,
+                        426.93826,
+                        0.5,
+                        0,
+                        0.1,
+                        0.00958,
+                        10,
+                        18,
+                        0.0005,
+                        5,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "7": {
+                    "level": 7,
+                    "costItems": {
+                        "104340": 4,
+                        "112082": 4,
+                        "113055": 1
+                    },
+                    "coinCost": 120000,
+                    "description": [
+                        "Bolstering Bubblebalm DMG|{param1:F2P} Max HP",
+                        "Bolstering Bubblebalm Healing|{param2:F2P} Max HP+{param3:I}",
+                        "Final Bounce Healing|{param4:F1P} Max HP",
+                        "Surging Blade DMG|{param7:F2P} Max HP",
+                        "Surging Blade Interval|{param8:F1}s",
+                        "CD|{param9:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.0342,
+                        0.042,
+                        465.14136,
+                        0.5,
+                        0,
+                        0.1,
+                        0.01026,
+                        10,
+                        18,
+                        0.0005,
+                        5,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "8": {
+                    "level": 8,
+                    "costItems": {
+                        "104340": 6,
+                        "112082": 6,
+                        "113055": 1
+                    },
+                    "coinCost": 260000,
+                    "description": [
+                        "Bolstering Bubblebalm DMG|{param1:F2P} Max HP",
+                        "Bolstering Bubblebalm Healing|{param2:F2P} Max HP+{param3:I}",
+                        "Final Bounce Healing|{param4:F1P} Max HP",
+                        "Surging Blade DMG|{param7:F2P} Max HP",
+                        "Surging Blade Interval|{param8:F1}s",
+                        "CD|{param9:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.03648,
+                        0.0448,
+                        505.59167,
+                        0.5,
+                        0,
+                        0.1,
+                        0.01094,
+                        10,
+                        18,
+                        0.0005,
+                        5,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "9": {
+                    "level": 9,
+                    "costItems": {
+                        "104340": 12,
+                        "112082": 9,
+                        "113055": 2
+                    },
+                    "coinCost": 450000,
+                    "description": [
+                        "Bolstering Bubblebalm DMG|{param1:F2P} Max HP",
+                        "Bolstering Bubblebalm Healing|{param2:F2P} Max HP+{param3:I}",
+                        "Final Bounce Healing|{param4:F1P} Max HP",
+                        "Surging Blade DMG|{param7:F2P} Max HP",
+                        "Surging Blade Interval|{param8:F1}s",
+                        "CD|{param9:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.03876,
+                        0.0476,
+                        548.28925,
+                        0.5,
+                        0,
+                        0.1,
+                        0.01163,
+                        10,
+                        18,
+                        0.0005,
+                        5,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "10": {
+                    "level": 10,
+                    "costItems": {
+                        "104319": 1,
+                        "104340": 16,
+                        "112082": 12,
+                        "113055": 2
+                    },
+                    "coinCost": 700000,
+                    "description": [
+                        "Bolstering Bubblebalm DMG|{param1:F2P} Max HP",
+                        "Bolstering Bubblebalm Healing|{param2:F2P} Max HP+{param3:I}",
+                        "Final Bounce Healing|{param4:F1P} Max HP",
+                        "Surging Blade DMG|{param7:F2P} Max HP",
+                        "Surging Blade Interval|{param8:F1}s",
+                        "CD|{param9:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.04104,
+                        0.0504,
+                        593.23407,
+                        0.5,
+                        0,
+                        0.1,
+                        0.01231,
+                        10,
+                        18,
+                        0.0005,
+                        5,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "11": {
+                    "level": 11,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Bolstering Bubblebalm DMG|{param1:F2P} Max HP",
+                        "Bolstering Bubblebalm Healing|{param2:F2P} Max HP+{param3:I}",
+                        "Final Bounce Healing|{param4:F1P} Max HP",
+                        "Surging Blade DMG|{param7:F2P} Max HP",
+                        "Surging Blade Interval|{param8:F1}s",
+                        "CD|{param9:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.04332,
+                        0.0532,
+                        640.42615,
+                        0.5,
+                        0,
+                        0.1,
+                        0.013,
+                        10,
+                        18,
+                        0.0005,
+                        5,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "12": {
+                    "level": 12,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Bolstering Bubblebalm DMG|{param1:F2P} Max HP",
+                        "Bolstering Bubblebalm Healing|{param2:F2P} Max HP+{param3:I}",
+                        "Final Bounce Healing|{param4:F1P} Max HP",
+                        "Surging Blade DMG|{param7:F2P} Max HP",
+                        "Surging Blade Interval|{param8:F1}s",
+                        "CD|{param9:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.0456,
+                        0.056,
+                        689.86542,
+                        0.5,
+                        0,
+                        0.1,
+                        0.01368,
+                        10,
+                        18,
+                        0.0005,
+                        5,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "13": {
+                    "level": 13,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Bolstering Bubblebalm DMG|{param1:F2P} Max HP",
+                        "Bolstering Bubblebalm Healing|{param2:F2P} Max HP+{param3:I}",
+                        "Final Bounce Healing|{param4:F1P} Max HP",
+                        "Surging Blade DMG|{param7:F2P} Max HP",
+                        "Surging Blade Interval|{param8:F1}s",
+                        "CD|{param9:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.04845,
+                        0.0595,
+                        741.55194,
+                        0.5,
+                        0,
+                        0.1,
+                        0.01453,
+                        10,
+                        18,
+                        0.0005,
+                        5,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "14": {
+                    "level": 14,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Bolstering Bubblebalm DMG|{param1:F2P} Max HP",
+                        "Bolstering Bubblebalm Healing|{param2:F2P} Max HP+{param3:I}",
+                        "Final Bounce Healing|{param4:F1P} Max HP",
+                        "Surging Blade DMG|{param7:F2P} Max HP",
+                        "Surging Blade Interval|{param8:F1}s",
+                        "CD|{param9:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.0513,
+                        0.063,
+                        795.48572,
+                        0.5,
+                        0,
+                        0.1,
+                        0.01539,
+                        10,
+                        18,
+                        0.0005,
+                        5,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "15": {
+                    "level": 15,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Bolstering Bubblebalm DMG|{param1:F2P} Max HP",
+                        "Bolstering Bubblebalm Healing|{param2:F2P} Max HP+{param3:I}",
+                        "Final Bounce Healing|{param4:F1P} Max HP",
+                        "Surging Blade DMG|{param7:F2P} Max HP",
+                        "Surging Blade Interval|{param8:F1}s",
+                        "CD|{param9:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.05415,
+                        0.0665,
+                        851.66675,
+                        0.5,
+                        0,
+                        0.1,
+                        0.01625,
+                        10,
+                        18,
+                        0.0005,
+                        5,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            "cooldown": 18,
+            "cost": 0,
+            "linkedConstellations": {
+                "isLevelIncluded": true,
+                "prop": [
+                    {
+                        "id": 0,
+                        "type": "normal"
+                    },
+                    {
+                        "id": 1,
+                        "type": "normal"
+                    },
+                    {
+                        "id": 2,
+                        "type": "level"
+                    }
+                ]
+            },
+            "advancedProps": [
+                {
+                    "name": "Bolstering Bubblebalm DMG (Large)",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": "3",
+                            "text": "Elemental Skill"
+                        },
+                        "type": {
+                            "span": "3",
+                            "text": "2s"
+                        }
+                    },
+                    "interruptionResistance": "200",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Shake",
+                        "horizontalForce": "0",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Bolstering Bubblebalm DMG (Medium)",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "150",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Shake",
+                        "horizontalForce": "0",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Bolstering Bubblebalm DMG (Small)",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "100",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Shake",
+                        "horizontalForce": "0",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Surging Blade DMG",
+                    "elementalGaugeTheory": "0U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "50",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                }
+            ]
+        },
+        "3": {
+            "type": 1,
+            "name": "Super Saturated Syringing",
+            "description": "Takes out a special Fortress of Meropide-made syringe and assault the area in front with waves of kindness and medicine, dealing <color=#80C0FFFF>AoE Hydro DMG</color> based on Sigewinne's max HP.\\nIn addition, Sigewinne absorbs up to 2 nearby Sourcewater Droplets within a certain range when she uses this skill.\\n\\n<i>\"Hey, overdosing on medicine is no different from poison, you know, it's real dangerous! But patients need care and concern, and nobody can overdose on that!\"</i>",
+            "icon": "Skill_E_Sigewinne_01",
+            "promote": {
+                "1": {
+                    "level": 1,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Skill DMG|{param1:F1P} Max HP",
+                        "Duration|{param4:F1}s",
+                        "CD|{param2:F1}s",
+                        "Energy Cost|{param3:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.11771,
+                        18,
+                        70,
+                        2.5,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "2": {
+                    "level": 2,
+                    "costItems": {
+                        "104338": 3,
+                        "112080": 6
+                    },
+                    "coinCost": 12500,
+                    "description": [
+                        "Skill DMG|{param1:F1P} Max HP",
+                        "Duration|{param4:F1}s",
+                        "CD|{param2:F1}s",
+                        "Energy Cost|{param3:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.12654,
+                        18,
+                        70,
+                        2.5,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "3": {
+                    "level": 3,
+                    "costItems": {
+                        "104339": 2,
+                        "112081": 3
+                    },
+                    "coinCost": 17500,
+                    "description": [
+                        "Skill DMG|{param1:F1P} Max HP",
+                        "Duration|{param4:F1}s",
+                        "CD|{param2:F1}s",
+                        "Energy Cost|{param3:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.13536,
+                        18,
+                        70,
+                        2.5,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "4": {
+                    "level": 4,
+                    "costItems": {
+                        "104339": 4,
+                        "112081": 4
+                    },
+                    "coinCost": 25000,
+                    "description": [
+                        "Skill DMG|{param1:F1P} Max HP",
+                        "Duration|{param4:F1}s",
+                        "CD|{param2:F1}s",
+                        "Energy Cost|{param3:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.14714,
+                        18,
+                        70,
+                        2.5,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "5": {
+                    "level": 5,
+                    "costItems": {
+                        "104339": 6,
+                        "112081": 6
+                    },
+                    "coinCost": 30000,
+                    "description": [
+                        "Skill DMG|{param1:F1P} Max HP",
+                        "Duration|{param4:F1}s",
+                        "CD|{param2:F1}s",
+                        "Energy Cost|{param3:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.15596,
+                        18,
+                        70,
+                        2.5,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "6": {
+                    "level": 6,
+                    "costItems": {
+                        "104339": 9,
+                        "112081": 9
+                    },
+                    "coinCost": 37500,
+                    "description": [
+                        "Skill DMG|{param1:F1P} Max HP",
+                        "Duration|{param4:F1}s",
+                        "CD|{param2:F1}s",
+                        "Energy Cost|{param3:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.16479,
+                        18,
+                        70,
+                        2.5,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "7": {
+                    "level": 7,
+                    "costItems": {
+                        "104340": 4,
+                        "112082": 4,
+                        "113055": 1
+                    },
+                    "coinCost": 120000,
+                    "description": [
+                        "Skill DMG|{param1:F1P} Max HP",
+                        "Duration|{param4:F1}s",
+                        "CD|{param2:F1}s",
+                        "Energy Cost|{param3:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.17656,
+                        18,
+                        70,
+                        2.5,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "8": {
+                    "level": 8,
+                    "costItems": {
+                        "104340": 6,
+                        "112082": 6,
+                        "113055": 1
+                    },
+                    "coinCost": 260000,
+                    "description": [
+                        "Skill DMG|{param1:F1P} Max HP",
+                        "Duration|{param4:F1}s",
+                        "CD|{param2:F1}s",
+                        "Energy Cost|{param3:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.18833,
+                        18,
+                        70,
+                        2.5,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "9": {
+                    "level": 9,
+                    "costItems": {
+                        "104340": 12,
+                        "112082": 9,
+                        "113055": 2
+                    },
+                    "coinCost": 450000,
+                    "description": [
+                        "Skill DMG|{param1:F1P} Max HP",
+                        "Duration|{param4:F1}s",
+                        "CD|{param2:F1}s",
+                        "Energy Cost|{param3:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.2001,
+                        18,
+                        70,
+                        2.5,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "10": {
+                    "level": 10,
+                    "costItems": {
+                        "104319": 1,
+                        "104340": 16,
+                        "112082": 12,
+                        "113055": 2
+                    },
+                    "coinCost": 700000,
+                    "description": [
+                        "Skill DMG|{param1:F1P} Max HP",
+                        "Duration|{param4:F1}s",
+                        "CD|{param2:F1}s",
+                        "Energy Cost|{param3:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.21187,
+                        18,
+                        70,
+                        2.5,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "11": {
+                    "level": 11,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Skill DMG|{param1:F1P} Max HP",
+                        "Duration|{param4:F1}s",
+                        "CD|{param2:F1}s",
+                        "Energy Cost|{param3:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.22365,
+                        18,
+                        70,
+                        2.5,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "12": {
+                    "level": 12,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Skill DMG|{param1:F1P} Max HP",
+                        "Duration|{param4:F1}s",
+                        "CD|{param2:F1}s",
+                        "Energy Cost|{param3:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.23542,
+                        18,
+                        70,
+                        2.5,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "13": {
+                    "level": 13,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Skill DMG|{param1:F1P} Max HP",
+                        "Duration|{param4:F1}s",
+                        "CD|{param2:F1}s",
+                        "Energy Cost|{param3:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.25013,
+                        18,
+                        70,
+                        2.5,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "14": {
+                    "level": 14,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Skill DMG|{param1:F1P} Max HP",
+                        "Duration|{param4:F1}s",
+                        "CD|{param2:F1}s",
+                        "Energy Cost|{param3:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.26484,
+                        18,
+                        70,
+                        2.5,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "15": {
+                    "level": 15,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Skill DMG|{param1:F1P} Max HP",
+                        "Duration|{param4:F1}s",
+                        "CD|{param2:F1}s",
+                        "Energy Cost|{param3:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.27956,
+                        18,
+                        70,
+                        2.5,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            "cooldown": 18,
+            "cost": 70,
+            "linkedConstellations": {
+                "isLevelIncluded": true,
+                "prop": [
+                    {
+                        "id": 1,
+                        "type": "normal"
+                    },
+                    {
+                        "id": 3,
+                        "type": "normal"
+                    },
+                    {
+                        "id": 4,
+                        "type": "level"
+                    },
+                    {
+                        "id": 5,
+                        "type": "normal"
+                    }
+                ]
+            },
+            "advancedProps": [
+                {
+                    "name": "Skill DMG (First Hit)",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": null,
+                            "text": "Elemental Burst"
+                        },
+                        "type": {
+                            "span": null,
+                            "text": "1.9s"
+                        }
+                    },
+                    "interruptionResistance": "100",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                }
+            ]
+        },
+        "4": {
+            "type": 2,
+            "name": "Requires Appropriate Rest",
+            "description": "Sigewinne grants herself the \"Semi-Strict Bedrest\" effect for 18s after using <color=#FFD780FF>Rebound Hydrotherapy</color>: Sigewinne gains an 8% <color=#80C0FFFF>Hydro DMG Bonus</color> and 10 stacks of Convalescence. When the Elemental Skills of your nearby off-field party members other than Sigewinne deal DMG, consume 1 stack of Convalescence, and increase the DMG dealt by this instance of Elemental Skill DMG. Every 1,000 Max HP Sigewinne has above 30,000 increases the DMG by 80. The maximum DMG increase for Elemental Skills that can be gained in this way is 2,800.",
+            "icon": "UI_Talent_S_Sigewinne_05",
+            "linkedConstellations": {
+                "isLevelIncluded": false,
+                "prop": [
+                    {
+                        "id": 0,
+                        "type": "normal"
+                    }
+                ]
+            }
+        },
+        "5": {
+            "type": 2,
+            "name": "Detailed Diagnosis, Thorough Treatment",
+            "description": "When Sigewinne performs healing, the amount healed for this instance is increased based on the total current value of the Bonds of Life on all party members: For each 1,000 HP worth of Bonds of Life, the outgoing healing is increased by 3%. The amount of healing provided can be increased by up to 30% in this way.",
+            "icon": "UI_Talent_S_Sigewinne_06",
+            "linkedConstellations": null
+        },
+        "6": {
+            "type": 2,
+            "name": "Emergency Dose",
+            "description": "While underwater, heals your active character over 2.5s when their HP falls under 50%. The amount healed is equal to 50% of their Max HP, and their All Elemental and Physical RES will be decreased by 10% for 10s. This effect can be triggered up to once every 20s.",
+            "icon": "UI_Talent_S_Sigewinne_07",
+            "linkedConstellations": null
+        }
+    },
+    "constellation": {
+        "0": {
+            "id": 0,
+            "name": "\"Can the Happiest of Spirits Understand Anxiety?\"",
+            "description": "<color=#FFD780FF>Rebound Hydrotherapy</color>'s Bolstering Bubblebalm can bounce 3 extra times, and the first 3 bounces will not cause big Bubblebalms to become smaller.\\nThe Passive Talent \"Requires Appropriate Rest\" is enhanced: Each Bubblebalm bounce adds 1 stack to her Convalescence tally, and the values for the Convalescence stacks' DMG bonus will be modified to: Every 1,000 max HP Sigewinne has above 30,000 increases the DMG by 100. The maximum DMG increase for Elemental Skills that can be gained in this way is 3,500. You must first unlock the Passive Talent \"Requires Appropriate Rest.\"",
+            "extraData": null,
+            "icon": "UI_Talent_S_Sigewinne_01"
+        },
+        "1": {
+            "id": 1,
+            "name": "\"Can the Most Merciful of Spirits Defeat Its Foes?\"",
+            "description": "When using <color=#FFD780FF>Rebound Hydrotherapy</color> and <color=#FFD780FF>Super Saturated Syringing</color>, Sigewinne can create a Bubbly Shield worth 30% of her Max HP that absorbs <color=#80C0FFFF>Hydro DMG</color> with 250% efficiency. The Bubbly Shield will persist until Sigewinne finishes using relevant skills.\\nAdditionally, after Rebound Hydrotherapy's Bolstering Bubblebalm or Super Saturated Syringing hits an opponent, that opponent's <color=#80C0FFFF>Hydro RES</color> will be decreased by 35% for 8s.",
+            "extraData": null,
+            "icon": "UI_Talent_S_Sigewinne_02"
+        },
+        "2": {
+            "id": 2,
+            "name": "\"Can the Healthiest of Spirits Cure Fevers?\"",
+            "description": "Increases the Level of <color=#FFD780FF>Rebound Hydrotherapy</color> by 3.\\nMaximum upgrade level is 15.",
+            "extraData": {
+                "addTalentExtraLevel": {
+                    "talentType": "AvatarSkill",
+                    "talentIndex": 2,
+                    "extraLevel": 3
+                }
+            },
+            "icon": "UI_Talent_U_Sigewinne_01"
+        },
+        "3": {
+            "id": 3,
+            "name": "\"Can the Loveliest of Spirits Keep Decay at Bay?\"",
+            "description": "The duration of <color=#FFD780FF>Super Saturated Syringing</color> is extended by 3s.",
+            "extraData": null,
+            "icon": "UI_Talent_S_Sigewinne_03"
+        },
+        "4": {
+            "id": 4,
+            "name": "\"Can the Most Joyful of Spirits Alleviate Agony?\"",
+            "description": "Increases the Level of <color=#FFD780FF>Super Saturated Syringing</color> by 3.\\nMaximum upgrade level is 15.",
+            "extraData": {
+                "addTalentExtraLevel": {
+                    "talentType": "AvatarSkill",
+                    "talentIndex": 9,
+                    "extraLevel": 3
+                }
+            },
+            "icon": "UI_Talent_U_Sigewinne_02"
+        },
+        "5": {
+            "id": 5,
+            "name": "\"Can the Most Radiant of Spirits Pray For Me?\"",
+            "description": "When Sigewinne performs healing, she will increase the CRIT Rate and CRIT DMG of her <color=#FFD780FF>Super Saturated Syringing</color> based on her Max HP. Every 1,000 Max HP she has will increase CRIT Rate by 0.4% and CRIT DMG by 2.2% for 15s. The maximum increase achievable this way is 20% CRIT Rate and 110% CRIT DMG.",
+            "extraData": null,
+            "icon": "UI_Talent_S_Sigewinne_04"
+        }
+    },
+    "_id": 10000095
+}

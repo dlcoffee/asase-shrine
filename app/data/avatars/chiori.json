@@ -1,0 +1,2801 @@
+{
+    "id": "chiori",
+    "rank": 5,
+    "name": "Chiori",
+    "element": "Rock",
+    "weaponType": "WEAPON_SWORD_ONE_HAND",
+    "region": "INAZUMA",
+    "specialProp": "FIGHT_PROP_CRITICAL",
+    "bodyType": "GIRL",
+    "icon": "UI_AvatarIcon_Chiori",
+    "birthday": [
+        8,
+        17
+    ],
+    "release": 1710194400,
+    "route": "Chiori",
+    "fetter": {
+        "title": "The Thundering Seamstress",
+        "detail": "The owner of Chioriya Boutique. A tailor renowned throughout Fontaine.",
+        "constellation": "Cisoria",
+        "native": "Court of Fontaine",
+        "cv": {
+            "EN": "Brittany Lauda",
+            "CHS": "陈阳",
+            "JP": "竹達彩奈",
+            "KR": "Lee Da-eun"
+        }
+    },
+    "upgrade": {
+        "prop": [
+            {
+                "propType": "FIGHT_PROP_BASE_HP",
+                "initValue": 890.40088,
+                "type": "GROW_CURVE_HP_S5"
+            },
+            {
+                "propType": "FIGHT_PROP_BASE_ATTACK",
+                "initValue": 25.137,
+                "type": "GROW_CURVE_ATTACK_S5"
+            },
+            {
+                "propType": "FIGHT_PROP_BASE_DEFENSE",
+                "initValue": 74.1892,
+                "type": "GROW_CURVE_HP_S5"
+            }
+        ],
+        "promote": [
+            {
+                "unlockMaxLevel": 20,
+                "promoteLevel": 0
+            },
+            {
+                "promoteLevel": 1,
+                "costItems": {
+                    "101204": 3,
+                    "104171": 1,
+                    "112053": 3
+                },
+                "unlockMaxLevel": 40,
+                "addProps": {
+                    "FIGHT_PROP_BASE_HP": 763.43823,
+                    "FIGHT_PROP_BASE_DEFENSE": 63.612,
+                    "FIGHT_PROP_BASE_ATTACK": 21.55113,
+                    "FIGHT_PROP_CRITICAL": 0
+                },
+                "requiredPlayerLevel": 15,
+                "coinCost": 20000
+            },
+            {
+                "promoteLevel": 2,
+                "costItems": {
+                    "101204": 10,
+                    "104172": 3,
+                    "112053": 15,
+                    "113049": 2
+                },
+                "unlockMaxLevel": 50,
+                "addProps": {
+                    "FIGHT_PROP_BASE_HP": 1305.88123,
+                    "FIGHT_PROP_BASE_DEFENSE": 108.81,
+                    "FIGHT_PROP_BASE_ATTACK": 36.86377,
+                    "FIGHT_PROP_CRITICAL": 0.048
+                },
+                "requiredPlayerLevel": 25,
+                "coinCost": 40000
+            },
+            {
+                "promoteLevel": 3,
+                "costItems": {
+                    "101204": 20,
+                    "104172": 6,
+                    "112054": 12,
+                    "113049": 4
+                },
+                "unlockMaxLevel": 60,
+                "addProps": {
+                    "FIGHT_PROP_BASE_HP": 2029.13855,
+                    "FIGHT_PROP_BASE_DEFENSE": 169.07401,
+                    "FIGHT_PROP_BASE_ATTACK": 57.28064,
+                    "FIGHT_PROP_CRITICAL": 0.096
+                },
+                "requiredPlayerLevel": 30,
+                "coinCost": 60000
+            },
+            {
+                "promoteLevel": 4,
+                "costItems": {
+                    "101204": 30,
+                    "104173": 3,
+                    "112054": 18,
+                    "113049": 8
+                },
+                "unlockMaxLevel": 70,
+                "addProps": {
+                    "FIGHT_PROP_BASE_HP": 2571.58154,
+                    "FIGHT_PROP_BASE_DEFENSE": 214.272,
+                    "FIGHT_PROP_BASE_ATTACK": 72.59328,
+                    "FIGHT_PROP_CRITICAL": 0.096
+                },
+                "requiredPlayerLevel": 35,
+                "coinCost": 80000
+            },
+            {
+                "promoteLevel": 5,
+                "costItems": {
+                    "101204": 45,
+                    "104173": 6,
+                    "112055": 12,
+                    "113049": 12
+                },
+                "unlockMaxLevel": 80,
+                "addProps": {
+                    "FIGHT_PROP_BASE_HP": 3114.02441,
+                    "FIGHT_PROP_BASE_DEFENSE": 259.47,
+                    "FIGHT_PROP_BASE_ATTACK": 87.90592,
+                    "FIGHT_PROP_CRITICAL": 0.144
+                },
+                "requiredPlayerLevel": 40,
+                "coinCost": 100000
+            },
+            {
+                "promoteLevel": 6,
+                "costItems": {
+                    "101204": 60,
+                    "104174": 6,
+                    "112055": 24,
+                    "113049": 20
+                },
+                "unlockMaxLevel": 90,
+                "addProps": {
+                    "FIGHT_PROP_BASE_HP": 3656.46729,
+                    "FIGHT_PROP_BASE_DEFENSE": 304.668,
+                    "FIGHT_PROP_BASE_ATTACK": 103.21857,
+                    "FIGHT_PROP_CRITICAL": 0.192
+                },
+                "requiredPlayerLevel": 50,
+                "coinCost": 120000
+            }
+        ]
+    },
+    "other": {
+        "costume": [
+            {
+                "name": "Plucked Yamabuki Splendor",
+                "description": "Chiori's outfit. An elegant dress ensemble personally designed by Chiori herself, the exquisite craftsmanship has a distinctive Inazuman flair. She once wore this outfit when she graced the front page of a Fontainian fashion review magazine, and her unique aesthetics immediately catapulted her to the forefront of Fontaine's fashion world.",
+                "isDefault": true
+            }
+        ],
+        "furnitureId": 368180,
+        "nameCard": {
+            "id": 210193,
+            "name": "Chiori: Spectacular Sleeves",
+            "description": "Namecard style.\\nThe doll known as \"Tamoto-chan\" was one of Chiori's earliest works, and is also the model that requires the least fabric and tailoring.",
+            "icon": "UI_NameCardIcon_Chiori"
+        },
+        "specialFood": {
+            "id": 108668,
+            "name": "\"Fashion Show\"",
+            "rank": 3,
+            "effectIcon": "UI_Buff_Item_Recovery_HpAddAll",
+            "icon": "UI_ItemIcon_108668"
+        }
+    },
+    "ascension": {
+        "101204": 1,
+        "104171": 2,
+        "104172": 3,
+        "104173": 4,
+        "104174": 5,
+        "104319": 5,
+        "104326": 2,
+        "104327": 3,
+        "104328": 4,
+        "112053": 1,
+        "112054": 2,
+        "112055": 3,
+        "113049": 4,
+        "113054": 5
+    },
+    "items": {
+        "202": {
+            "name": "Mora",
+            "rank": 3,
+            "icon": "UI_ItemIcon_202"
+        },
+        "101204": {
+            "name": "Dendrobium",
+            "rank": 1,
+            "icon": "UI_ItemIcon_101204"
+        },
+        "104001": {
+            "name": "Wanderer's Advice",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104001"
+        },
+        "104002": {
+            "name": "Adventurer's Experience",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104002"
+        },
+        "104003": {
+            "name": "Hero's Wit",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104003"
+        },
+        "104171": {
+            "name": "Prithiva Topaz Sliver",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104171"
+        },
+        "104172": {
+            "name": "Prithiva Topaz Fragment",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104172"
+        },
+        "104173": {
+            "name": "Prithiva Topaz Chunk",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104173"
+        },
+        "104174": {
+            "name": "Prithiva Topaz Gemstone",
+            "rank": 5,
+            "icon": "UI_ItemIcon_104174"
+        },
+        "104319": {
+            "name": "Crown of Insight",
+            "rank": 5,
+            "icon": "UI_ItemIcon_104319"
+        },
+        "104326": {
+            "name": "Teachings of Light",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104326"
+        },
+        "104327": {
+            "name": "Guide to Light",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104327"
+        },
+        "104328": {
+            "name": "Philosophies of Light",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104328"
+        },
+        "112053": {
+            "name": "Spectral Husk",
+            "rank": 1,
+            "icon": "UI_ItemIcon_112053"
+        },
+        "112054": {
+            "name": "Spectral Heart",
+            "rank": 2,
+            "icon": "UI_ItemIcon_112054"
+        },
+        "112055": {
+            "name": "Spectral Nucleus",
+            "rank": 3,
+            "icon": "UI_ItemIcon_112055"
+        },
+        "113049": {
+            "name": "Artificed Spare Clockwork Component — Coppelia",
+            "rank": 4,
+            "icon": "UI_ItemIcon_113049"
+        },
+        "113054": {
+            "name": "Lightless Silk String",
+            "rank": 5,
+            "icon": "UI_ItemIcon_113054"
+        }
+    },
+    "talent": {
+        "0": {
+            "type": 0,
+            "name": "Normal Attack: Weaving Blade",
+            "description": "<color=#FFD780FF>Normal Attack</color>\\nPerforms up to 4 rapid strikes.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+            "icon": "Skill_A_01",
+            "promote": {
+                "1": {
+                    "level": 1,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}+{param4:F1P}",
+                        "4-Hit DMG|{param5:F1P}",
+                        "Charged Attack DMG|{param6:F1P}+{param7:F1P}",
+                        "Charged Attack Stamina Cost|{param8:F1}",
+                        "Plunge DMG|{param9:F1P}",
+                        "Low/High Plunge DMG|{param10:P}/{param11:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.4941,
+                        0.46834,
+                        0.30417,
+                        0.30417,
+                        0.75123,
+                        0.54309,
+                        0.54309,
+                        20,
+                        0.63932,
+                        1.27838,
+                        1.59676,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "2": {
+                    "level": 2,
+                    "costItems": {
+                        "104326": 3,
+                        "112053": 6
+                    },
+                    "coinCost": 12500,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}+{param4:F1P}",
+                        "4-Hit DMG|{param5:F1P}",
+                        "Charged Attack DMG|{param6:F1P}+{param7:F1P}",
+                        "Charged Attack Stamina Cost|{param8:F1}",
+                        "Plunge DMG|{param9:F1P}",
+                        "Low/High Plunge DMG|{param10:P}/{param11:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.53432,
+                        0.50646,
+                        0.32892,
+                        0.32892,
+                        0.81237,
+                        0.58729,
+                        0.58729,
+                        20,
+                        0.69136,
+                        1.38243,
+                        1.72673,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "3": {
+                    "level": 3,
+                    "costItems": {
+                        "104327": 2,
+                        "112054": 3
+                    },
+                    "coinCost": 17500,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}+{param4:F1P}",
+                        "4-Hit DMG|{param5:F1P}",
+                        "Charged Attack DMG|{param6:F1P}+{param7:F1P}",
+                        "Charged Attack Stamina Cost|{param8:F1}",
+                        "Plunge DMG|{param9:F1P}",
+                        "Low/High Plunge DMG|{param10:P}/{param11:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.57454,
+                        0.54458,
+                        0.35368,
+                        0.35368,
+                        0.87352,
+                        0.6315,
+                        0.6315,
+                        20,
+                        0.7434,
+                        1.48649,
+                        1.8567,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "4": {
+                    "level": 4,
+                    "costItems": {
+                        "104327": 4,
+                        "112054": 4
+                    },
+                    "coinCost": 25000,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}+{param4:F1P}",
+                        "4-Hit DMG|{param5:F1P}",
+                        "Charged Attack DMG|{param6:F1P}+{param7:F1P}",
+                        "Charged Attack Stamina Cost|{param8:F1}",
+                        "Plunge DMG|{param9:F1P}",
+                        "Low/High Plunge DMG|{param10:P}/{param11:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.63199,
+                        0.59904,
+                        0.38905,
+                        0.38905,
+                        0.96087,
+                        0.69465,
+                        0.69465,
+                        20,
+                        0.81774,
+                        1.63513,
+                        2.04237,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "5": {
+                    "level": 5,
+                    "costItems": {
+                        "104327": 6,
+                        "112054": 6
+                    },
+                    "coinCost": 30000,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}+{param4:F1P}",
+                        "4-Hit DMG|{param5:F1P}",
+                        "Charged Attack DMG|{param6:F1P}+{param7:F1P}",
+                        "Charged Attack Stamina Cost|{param8:F1}",
+                        "Plunge DMG|{param9:F1P}",
+                        "Low/High Plunge DMG|{param10:P}/{param11:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.67221,
+                        0.63716,
+                        0.41381,
+                        0.41381,
+                        1.02202,
+                        0.73886,
+                        0.73886,
+                        20,
+                        0.86978,
+                        1.73919,
+                        2.17234,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "6": {
+                    "level": 6,
+                    "costItems": {
+                        "104327": 9,
+                        "112054": 9
+                    },
+                    "coinCost": 37500,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}+{param4:F1P}",
+                        "4-Hit DMG|{param5:F1P}",
+                        "Charged Attack DMG|{param6:F1P}+{param7:F1P}",
+                        "Charged Attack Stamina Cost|{param8:F1}",
+                        "Plunge DMG|{param9:F1P}",
+                        "Low/High Plunge DMG|{param10:P}/{param11:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.71817,
+                        0.68072,
+                        0.4421,
+                        0.4421,
+                        1.0919,
+                        0.78938,
+                        0.78938,
+                        20,
+                        0.92925,
+                        1.85811,
+                        2.32087,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "7": {
+                    "level": 7,
+                    "costItems": {
+                        "104328": 4,
+                        "112055": 4,
+                        "113054": 1
+                    },
+                    "coinCost": 120000,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}+{param4:F1P}",
+                        "4-Hit DMG|{param5:F1P}",
+                        "Charged Attack DMG|{param6:F1P}+{param7:F1P}",
+                        "Charged Attack Stamina Cost|{param8:F1}",
+                        "Plunge DMG|{param9:F1P}",
+                        "Low/High Plunge DMG|{param10:P}/{param11:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.78137,
+                        0.74063,
+                        0.48101,
+                        0.48101,
+                        1.18799,
+                        0.85884,
+                        0.85884,
+                        20,
+                        1.01102,
+                        2.02162,
+                        2.52511,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "8": {
+                    "level": 8,
+                    "costItems": {
+                        "104328": 6,
+                        "112055": 6,
+                        "113054": 1
+                    },
+                    "coinCost": 260000,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}+{param4:F1P}",
+                        "4-Hit DMG|{param5:F1P}",
+                        "Charged Attack DMG|{param6:F1P}+{param7:F1P}",
+                        "Charged Attack Stamina Cost|{param8:F1}",
+                        "Plunge DMG|{param9:F1P}",
+                        "Low/High Plunge DMG|{param10:P}/{param11:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.84457,
+                        0.80053,
+                        0.51991,
+                        0.51991,
+                        1.28407,
+                        0.9283,
+                        0.9283,
+                        20,
+                        1.0928,
+                        2.18513,
+                        2.72935,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "9": {
+                    "level": 9,
+                    "costItems": {
+                        "104328": 12,
+                        "112055": 9,
+                        "113054": 2
+                    },
+                    "coinCost": 450000,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}+{param4:F1P}",
+                        "4-Hit DMG|{param5:F1P}",
+                        "Charged Attack DMG|{param6:F1P}+{param7:F1P}",
+                        "Charged Attack Stamina Cost|{param8:F1}",
+                        "Plunge DMG|{param9:F1P}",
+                        "Low/High Plunge DMG|{param10:P}/{param11:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.90777,
+                        0.86044,
+                        0.55881,
+                        0.55881,
+                        1.38016,
+                        0.99777,
+                        0.99777,
+                        20,
+                        1.17457,
+                        2.34865,
+                        2.93359,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "10": {
+                    "level": 10,
+                    "costItems": {
+                        "104319": 1,
+                        "104328": 16,
+                        "112055": 12,
+                        "113054": 2
+                    },
+                    "coinCost": 700000,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}+{param4:F1P}",
+                        "4-Hit DMG|{param5:F1P}",
+                        "Charged Attack DMG|{param6:F1P}+{param7:F1P}",
+                        "Charged Attack Stamina Cost|{param8:F1}",
+                        "Plunge DMG|{param9:F1P}",
+                        "Low/High Plunge DMG|{param10:P}/{param11:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.97672,
+                        0.92579,
+                        0.60126,
+                        0.60126,
+                        1.48498,
+                        1.07355,
+                        1.07355,
+                        20,
+                        1.26378,
+                        2.52702,
+                        3.15639,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "11": {
+                    "level": 11,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}+{param4:F1P}",
+                        "4-Hit DMG|{param5:F1P}",
+                        "Charged Attack DMG|{param6:F1P}+{param7:F1P}",
+                        "Charged Attack Stamina Cost|{param8:F1}",
+                        "Plunge DMG|{param9:F1P}",
+                        "Low/High Plunge DMG|{param10:P}/{param11:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.04566,
+                        0.99114,
+                        0.6437,
+                        0.6437,
+                        1.58981,
+                        1.14933,
+                        1.14933,
+                        20,
+                        1.35299,
+                        2.7054,
+                        3.37919,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "12": {
+                    "level": 12,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}+{param4:F1P}",
+                        "4-Hit DMG|{param5:F1P}",
+                        "Charged Attack DMG|{param6:F1P}+{param7:F1P}",
+                        "Charged Attack Stamina Cost|{param8:F1}",
+                        "Plunge DMG|{param9:F1P}",
+                        "Low/High Plunge DMG|{param10:P}/{param11:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.11461,
+                        1.05649,
+                        0.68614,
+                        0.68614,
+                        1.69463,
+                        1.22511,
+                        1.22511,
+                        20,
+                        1.4422,
+                        2.88378,
+                        3.602,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "13": {
+                    "level": 13,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}+{param4:F1P}",
+                        "4-Hit DMG|{param5:F1P}",
+                        "Charged Attack DMG|{param6:F1P}+{param7:F1P}",
+                        "Charged Attack Stamina Cost|{param8:F1}",
+                        "Plunge DMG|{param9:F1P}",
+                        "Low/High Plunge DMG|{param10:P}/{param11:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.18355,
+                        1.12183,
+                        0.72858,
+                        0.72858,
+                        1.79945,
+                        1.30089,
+                        1.30089,
+                        20,
+                        1.5314,
+                        3.06216,
+                        3.8248,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "14": {
+                    "level": 14,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}+{param4:F1P}",
+                        "4-Hit DMG|{param5:F1P}",
+                        "Charged Attack DMG|{param6:F1P}+{param7:F1P}",
+                        "Charged Attack Stamina Cost|{param8:F1}",
+                        "Plunge DMG|{param9:F1P}",
+                        "Low/High Plunge DMG|{param10:P}/{param11:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.2525,
+                        1.18718,
+                        0.77102,
+                        0.77102,
+                        1.90427,
+                        1.37667,
+                        1.37667,
+                        20,
+                        1.62061,
+                        3.24054,
+                        4.04761,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "15": {
+                    "level": 15,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}+{param4:F1P}",
+                        "4-Hit DMG|{param5:F1P}",
+                        "Charged Attack DMG|{param6:F1P}+{param7:F1P}",
+                        "Charged Attack Stamina Cost|{param8:F1}",
+                        "Plunge DMG|{param9:F1P}",
+                        "Low/High Plunge DMG|{param10:P}/{param11:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.32144,
+                        1.25253,
+                        0.81346,
+                        0.81346,
+                        2.0091,
+                        1.45245,
+                        1.45245,
+                        20,
+                        1.70982,
+                        3.41892,
+                        4.27041,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            "cooldown": 0,
+            "cost": 0,
+            "linkedConstellations": null,
+            "advancedProps": [
+                {
+                    "name": "Normal Attack 1-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": "7",
+                            "text": "Normal Attack"
+                        },
+                        "type": {
+                            "span": "7",
+                            "text": "2.5s/3 Hits"
+                        }
+                    },
+                    "interruptionResistance": "51.7",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 2-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "49",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 3-Hit A",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "31.3",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 3-Hit B",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "31.3",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 4-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "78.6",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "480",
+                        "verticalForce": "600"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Charged Attack 1-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "60",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Charged Attack 2-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "60",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "480",
+                        "verticalForce": "600"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Plunging Attack Collision",
+                    "elementalGaugeTheory": "0U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "25",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Low Plunge",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "100",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "800",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": true
+                },
+                {
+                    "name": "High Plunge",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "150",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "0",
+                        "verticalForce": "800"
+                    },
+                    "bluntAttack": true
+                }
+            ]
+        },
+        "1": {
+            "type": 0,
+            "name": "Fluttering Hasode",
+            "description": "Dashes nimbly forward with silken steps. Once this dash ends, Chiori will summon the automaton doll \"Tamoto\" beside her and sweep her blade upward, dealing <color=#FFE699FF>AoE Geo DMG</color> to nearby opponents based on her ATK and DEF.\\nHolding the Skill will cause it to behave differently.\\n\\n<color=#FFD780FF>Hold</color>\\nEnter Aiming Mode to adjust the dash direction.\\n\\n<color=#FFD780FF>Tamoto</color>\\n· Will slash at nearby opponents at intervals, dealing <color=#FFE699FF>AoE Geo DMG</color> based on Chiori's ATK and DEF.\\n· While active, if there are nearby <color=#FFE699FF>Geo Construct(s)</color> or <color=#FFE699FF>Geo Construct(s)</color> are created nearby, an additional Tamoto will be summoned next to your active character. Only 1 additional Tamoto can be summoned in this manner, and its duration is independently counted.\\n\\n<i>\"Sakura red dyes the brocade, the fragrance suffuses the sleeves, the orioles intoxicated.\"</i>",
+            "icon": "Skill_S_Chiori_01",
+            "promote": {
+                "1": {
+                    "level": 1,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Tamoto DMG|{param1:P} ATK+{param2:P} DEF",
+                        "Tamoto Duration|{param3:F1}s",
+                        "Tamoto Attack Interval|{param4:F1}s",
+                        "Upward Sweep Attack DMG|{param5:P} ATK+{param6:P} DEF",
+                        "CD|{param7:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.8208,
+                        1.026,
+                        17,
+                        3.6,
+                        1.4928,
+                        1.866,
+                        16,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "2": {
+                    "level": 2,
+                    "costItems": {
+                        "104326": 3,
+                        "112053": 6
+                    },
+                    "coinCost": 12500,
+                    "description": [
+                        "Tamoto DMG|{param1:P} ATK+{param2:P} DEF",
+                        "Tamoto Duration|{param3:F1}s",
+                        "Tamoto Attack Interval|{param4:F1}s",
+                        "Upward Sweep Attack DMG|{param5:P} ATK+{param6:P} DEF",
+                        "CD|{param7:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.88236,
+                        1.10295,
+                        17,
+                        3.6,
+                        1.60476,
+                        2.00595,
+                        16,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "3": {
+                    "level": 3,
+                    "costItems": {
+                        "104327": 2,
+                        "112054": 3
+                    },
+                    "coinCost": 17500,
+                    "description": [
+                        "Tamoto DMG|{param1:P} ATK+{param2:P} DEF",
+                        "Tamoto Duration|{param3:F1}s",
+                        "Tamoto Attack Interval|{param4:F1}s",
+                        "Upward Sweep Attack DMG|{param5:P} ATK+{param6:P} DEF",
+                        "CD|{param7:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.94392,
+                        1.1799,
+                        17,
+                        3.6,
+                        1.71672,
+                        2.1459,
+                        16,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "4": {
+                    "level": 4,
+                    "costItems": {
+                        "104327": 4,
+                        "112054": 4
+                    },
+                    "coinCost": 25000,
+                    "description": [
+                        "Tamoto DMG|{param1:P} ATK+{param2:P} DEF",
+                        "Tamoto Duration|{param3:F1}s",
+                        "Tamoto Attack Interval|{param4:F1}s",
+                        "Upward Sweep Attack DMG|{param5:P} ATK+{param6:P} DEF",
+                        "CD|{param7:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.026,
+                        1.2825,
+                        17,
+                        3.6,
+                        1.866,
+                        2.3325,
+                        16,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "5": {
+                    "level": 5,
+                    "costItems": {
+                        "104327": 6,
+                        "112054": 6
+                    },
+                    "coinCost": 30000,
+                    "description": [
+                        "Tamoto DMG|{param1:P} ATK+{param2:P} DEF",
+                        "Tamoto Duration|{param3:F1}s",
+                        "Tamoto Attack Interval|{param4:F1}s",
+                        "Upward Sweep Attack DMG|{param5:P} ATK+{param6:P} DEF",
+                        "CD|{param7:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.08756,
+                        1.35945,
+                        17,
+                        3.6,
+                        1.97796,
+                        2.47245,
+                        16,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "6": {
+                    "level": 6,
+                    "costItems": {
+                        "104327": 9,
+                        "112054": 9
+                    },
+                    "coinCost": 37500,
+                    "description": [
+                        "Tamoto DMG|{param1:P} ATK+{param2:P} DEF",
+                        "Tamoto Duration|{param3:F1}s",
+                        "Tamoto Attack Interval|{param4:F1}s",
+                        "Upward Sweep Attack DMG|{param5:P} ATK+{param6:P} DEF",
+                        "CD|{param7:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.14912,
+                        1.4364,
+                        17,
+                        3.6,
+                        2.08992,
+                        2.6124,
+                        16,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "7": {
+                    "level": 7,
+                    "costItems": {
+                        "104328": 4,
+                        "112055": 4,
+                        "113054": 1
+                    },
+                    "coinCost": 120000,
+                    "description": [
+                        "Tamoto DMG|{param1:P} ATK+{param2:P} DEF",
+                        "Tamoto Duration|{param3:F1}s",
+                        "Tamoto Attack Interval|{param4:F1}s",
+                        "Upward Sweep Attack DMG|{param5:P} ATK+{param6:P} DEF",
+                        "CD|{param7:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.2312,
+                        1.539,
+                        17,
+                        3.6,
+                        2.2392,
+                        2.799,
+                        16,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "8": {
+                    "level": 8,
+                    "costItems": {
+                        "104328": 6,
+                        "112055": 6,
+                        "113054": 1
+                    },
+                    "coinCost": 260000,
+                    "description": [
+                        "Tamoto DMG|{param1:P} ATK+{param2:P} DEF",
+                        "Tamoto Duration|{param3:F1}s",
+                        "Tamoto Attack Interval|{param4:F1}s",
+                        "Upward Sweep Attack DMG|{param5:P} ATK+{param6:P} DEF",
+                        "CD|{param7:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.31328,
+                        1.6416,
+                        17,
+                        3.6,
+                        2.38848,
+                        2.9856,
+                        16,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "9": {
+                    "level": 9,
+                    "costItems": {
+                        "104328": 12,
+                        "112055": 9,
+                        "113054": 2
+                    },
+                    "coinCost": 450000,
+                    "description": [
+                        "Tamoto DMG|{param1:P} ATK+{param2:P} DEF",
+                        "Tamoto Duration|{param3:F1}s",
+                        "Tamoto Attack Interval|{param4:F1}s",
+                        "Upward Sweep Attack DMG|{param5:P} ATK+{param6:P} DEF",
+                        "CD|{param7:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.39536,
+                        1.7442,
+                        17,
+                        3.6,
+                        2.53776,
+                        3.1722,
+                        16,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "10": {
+                    "level": 10,
+                    "costItems": {
+                        "104319": 1,
+                        "104328": 16,
+                        "112055": 12,
+                        "113054": 2
+                    },
+                    "coinCost": 700000,
+                    "description": [
+                        "Tamoto DMG|{param1:P} ATK+{param2:P} DEF",
+                        "Tamoto Duration|{param3:F1}s",
+                        "Tamoto Attack Interval|{param4:F1}s",
+                        "Upward Sweep Attack DMG|{param5:P} ATK+{param6:P} DEF",
+                        "CD|{param7:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.47744,
+                        1.8468,
+                        17,
+                        3.6,
+                        2.68704,
+                        3.3588,
+                        16,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "11": {
+                    "level": 11,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Tamoto DMG|{param1:P} ATK+{param2:P} DEF",
+                        "Tamoto Duration|{param3:F1}s",
+                        "Tamoto Attack Interval|{param4:F1}s",
+                        "Upward Sweep Attack DMG|{param5:P} ATK+{param6:P} DEF",
+                        "CD|{param7:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.55952,
+                        1.9494,
+                        17,
+                        3.6,
+                        2.83632,
+                        3.5454,
+                        16,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "12": {
+                    "level": 12,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Tamoto DMG|{param1:P} ATK+{param2:P} DEF",
+                        "Tamoto Duration|{param3:F1}s",
+                        "Tamoto Attack Interval|{param4:F1}s",
+                        "Upward Sweep Attack DMG|{param5:P} ATK+{param6:P} DEF",
+                        "CD|{param7:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.6416,
+                        2.052,
+                        17,
+                        3.6,
+                        2.9856,
+                        3.732,
+                        16,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "13": {
+                    "level": 13,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Tamoto DMG|{param1:P} ATK+{param2:P} DEF",
+                        "Tamoto Duration|{param3:F1}s",
+                        "Tamoto Attack Interval|{param4:F1}s",
+                        "Upward Sweep Attack DMG|{param5:P} ATK+{param6:P} DEF",
+                        "CD|{param7:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.7442,
+                        2.18025,
+                        17,
+                        3.6,
+                        3.1722,
+                        3.96525,
+                        16,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "14": {
+                    "level": 14,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Tamoto DMG|{param1:P} ATK+{param2:P} DEF",
+                        "Tamoto Duration|{param3:F1}s",
+                        "Tamoto Attack Interval|{param4:F1}s",
+                        "Upward Sweep Attack DMG|{param5:P} ATK+{param6:P} DEF",
+                        "CD|{param7:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.8468,
+                        2.3085,
+                        17,
+                        3.6,
+                        3.3588,
+                        4.1985,
+                        16,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "15": {
+                    "level": 15,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Tamoto DMG|{param1:P} ATK+{param2:P} DEF",
+                        "Tamoto Duration|{param3:F1}s",
+                        "Tamoto Attack Interval|{param4:F1}s",
+                        "Upward Sweep Attack DMG|{param5:P} ATK+{param6:P} DEF",
+                        "CD|{param7:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.9494,
+                        2.43675,
+                        17,
+                        3.6,
+                        3.5454,
+                        4.43175,
+                        16,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            "cooldown": 16,
+            "cost": 0,
+            "linkedConstellations": {
+                "isLevelIncluded": true,
+                "prop": [
+                    {
+                        "id": 0,
+                        "type": "normal"
+                    },
+                    {
+                        "id": 2,
+                        "type": "level"
+                    },
+                    {
+                        "id": 5,
+                        "type": "normal"
+                    }
+                ]
+            },
+            "advancedProps": [
+                {
+                    "name": "Upward Sweep Attack DMG",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": "3",
+                            "text": "Elemental Skill"
+                        },
+                        "type": {
+                            "span": "3",
+                            "text": "1.9s"
+                        }
+                    },
+                    "interruptionResistance": "50",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "100",
+                        "verticalForce": "400"
+                    },
+                    "bluntAttack": true
+                },
+                {
+                    "name": "Tamoto DMG",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "30",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": true
+                },
+                {
+                    "name": "Coordinated Attack (A1)",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "50",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                }
+            ]
+        },
+        "3": {
+            "type": 1,
+            "name": "Hiyoku: Twin Blades",
+            "description": "Twin blades leave their sheaths as Chiori slices with the clean cuts of a master tailor, dealing <color=#FFE699FF>AoE Geo DMG</color> based on her ATK and DEF.\\n\\n<i>\"Master one principle, and the path to all others shall open to you.\"</i>",
+            "icon": "Skill_E_Chiori_01",
+            "promote": {
+                "1": {
+                    "level": 1,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Skill DMG|{param1:P} ATK+{param2:P} DEF",
+                        "CD|{param3:F1}s",
+                        "Energy Cost|{param4:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        2.5632,
+                        3.204,
+                        13.5,
+                        50,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "2": {
+                    "level": 2,
+                    "costItems": {
+                        "104326": 3,
+                        "112053": 6
+                    },
+                    "coinCost": 12500,
+                    "description": [
+                        "Skill DMG|{param1:P} ATK+{param2:P} DEF",
+                        "CD|{param3:F1}s",
+                        "Energy Cost|{param4:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        2.75544,
+                        3.4443,
+                        13.5,
+                        50,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "3": {
+                    "level": 3,
+                    "costItems": {
+                        "104327": 2,
+                        "112054": 3
+                    },
+                    "coinCost": 17500,
+                    "description": [
+                        "Skill DMG|{param1:P} ATK+{param2:P} DEF",
+                        "CD|{param3:F1}s",
+                        "Energy Cost|{param4:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        2.94768,
+                        3.6846,
+                        13.5,
+                        50,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "4": {
+                    "level": 4,
+                    "costItems": {
+                        "104327": 4,
+                        "112054": 4
+                    },
+                    "coinCost": 25000,
+                    "description": [
+                        "Skill DMG|{param1:P} ATK+{param2:P} DEF",
+                        "CD|{param3:F1}s",
+                        "Energy Cost|{param4:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        3.204,
+                        4.005,
+                        13.5,
+                        50,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "5": {
+                    "level": 5,
+                    "costItems": {
+                        "104327": 6,
+                        "112054": 6
+                    },
+                    "coinCost": 30000,
+                    "description": [
+                        "Skill DMG|{param1:P} ATK+{param2:P} DEF",
+                        "CD|{param3:F1}s",
+                        "Energy Cost|{param4:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        3.39624,
+                        4.2453,
+                        13.5,
+                        50,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "6": {
+                    "level": 6,
+                    "costItems": {
+                        "104327": 9,
+                        "112054": 9
+                    },
+                    "coinCost": 37500,
+                    "description": [
+                        "Skill DMG|{param1:P} ATK+{param2:P} DEF",
+                        "CD|{param3:F1}s",
+                        "Energy Cost|{param4:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        3.58848,
+                        4.4856,
+                        13.5,
+                        50,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "7": {
+                    "level": 7,
+                    "costItems": {
+                        "104328": 4,
+                        "112055": 4,
+                        "113054": 1
+                    },
+                    "coinCost": 120000,
+                    "description": [
+                        "Skill DMG|{param1:P} ATK+{param2:P} DEF",
+                        "CD|{param3:F1}s",
+                        "Energy Cost|{param4:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        3.8448,
+                        4.806,
+                        13.5,
+                        50,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "8": {
+                    "level": 8,
+                    "costItems": {
+                        "104328": 6,
+                        "112055": 6,
+                        "113054": 1
+                    },
+                    "coinCost": 260000,
+                    "description": [
+                        "Skill DMG|{param1:P} ATK+{param2:P} DEF",
+                        "CD|{param3:F1}s",
+                        "Energy Cost|{param4:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        4.10112,
+                        5.1264,
+                        13.5,
+                        50,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "9": {
+                    "level": 9,
+                    "costItems": {
+                        "104328": 12,
+                        "112055": 9,
+                        "113054": 2
+                    },
+                    "coinCost": 450000,
+                    "description": [
+                        "Skill DMG|{param1:P} ATK+{param2:P} DEF",
+                        "CD|{param3:F1}s",
+                        "Energy Cost|{param4:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        4.35744,
+                        5.4468,
+                        13.5,
+                        50,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "10": {
+                    "level": 10,
+                    "costItems": {
+                        "104319": 1,
+                        "104328": 16,
+                        "112055": 12,
+                        "113054": 2
+                    },
+                    "coinCost": 700000,
+                    "description": [
+                        "Skill DMG|{param1:P} ATK+{param2:P} DEF",
+                        "CD|{param3:F1}s",
+                        "Energy Cost|{param4:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        4.61376,
+                        5.7672,
+                        13.5,
+                        50,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "11": {
+                    "level": 11,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Skill DMG|{param1:P} ATK+{param2:P} DEF",
+                        "CD|{param3:F1}s",
+                        "Energy Cost|{param4:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        4.87008,
+                        6.0876,
+                        13.5,
+                        50,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "12": {
+                    "level": 12,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Skill DMG|{param1:P} ATK+{param2:P} DEF",
+                        "CD|{param3:F1}s",
+                        "Energy Cost|{param4:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        5.1264,
+                        6.408,
+                        13.5,
+                        50,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "13": {
+                    "level": 13,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Skill DMG|{param1:P} ATK+{param2:P} DEF",
+                        "CD|{param3:F1}s",
+                        "Energy Cost|{param4:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        5.4468,
+                        6.8085,
+                        13.5,
+                        50,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "14": {
+                    "level": 14,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Skill DMG|{param1:P} ATK+{param2:P} DEF",
+                        "CD|{param3:F1}s",
+                        "Energy Cost|{param4:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        5.7672,
+                        7.209,
+                        13.5,
+                        50,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "15": {
+                    "level": 15,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Skill DMG|{param1:P} ATK+{param2:P} DEF",
+                        "CD|{param3:F1}s",
+                        "Energy Cost|{param4:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        6.0876,
+                        7.6095,
+                        13.5,
+                        50,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            "cooldown": 13.5,
+            "cost": 50,
+            "linkedConstellations": {
+                "isLevelIncluded": true,
+                "prop": [
+                    {
+                        "id": 1,
+                        "type": "normal"
+                    },
+                    {
+                        "id": 4,
+                        "type": "level"
+                    }
+                ]
+            },
+            "advancedProps": [
+                {
+                    "name": "Skill DMG",
+                    "elementalGaugeTheory": "2U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "200",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "800",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": true
+                },
+                {
+                    "name": "Activation Damageless Knockback",
+                    "elementalGaugeTheory": "—",
+                    "internalCooldown": null,
+                    "interruptionResistance": "400",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "800",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                }
+            ]
+        },
+        "4": {
+            "type": 2,
+            "name": "Tailor-Made",
+            "description": "#Gain different effects depending on the next action you take within a short duration after using <color=#FFD780FF>Fluttering Hasode</color>'s upward sweep. If you {LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} the Elemental Skill, you will trigger the Tapestry effect. If you {LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} your Normal Attack, the Tailoring effect will be triggered instead.\\n\\n<color=#FFD780FF>Tapestry</color>\\n· Switches to the next character in your roster.\\n· Grants all your party members \"Seize the Moment\": When your active party member's Normal Attacks, Charged Attacks, and Plunging Attacks hit a nearby opponent, \"Tamoto\" will execute a coordinated attack, dealing 100% of Fluttering Hasode's upward sweep DMG as <color=#FFE699FF>AoE Geo DMG</color> at the opponent's location. DMG dealt this way is considered Elemental Skill DMG.\\n· \"Seize the Moment\" lasts 8s, and 1 of \"Tamoto\"'s coordinated attack can be unleashed every 2s. 2 such coordinated attacks can occur per \"Seize the Moment\" effect duration.\\n\\n<color=#FFD780FF>Tailoring</color>\\n· Chiori gains <color=#FFE699FF>Geo infusion</color> for 5s.\\n\\nWhen on the field, if Chiori does not either {LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} her Elemental Skill or use a Normal Attack within a short time after using Fluttering Hasode's upward sweep, the Tailoring effect will be triggered by default.",
+            "icon": "UI_Talent_S_Chiori_05",
+            "linkedConstellations": {
+                "isLevelIncluded": false,
+                "prop": [
+                    {
+                        "id": 3,
+                        "type": "normal"
+                    },
+                    {
+                        "id": 5,
+                        "type": "normal"
+                    }
+                ]
+            },
+            "advancedProps": [
+                {
+                    "name": "Coordinated Attack",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": null,
+                            "text": "Elemental Skill"
+                        },
+                        "type": {
+                            "span": null,
+                            "text": "1.9s"
+                        }
+                    },
+                    "interruptionResistance": "50",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                }
+            ]
+        },
+        "5": {
+            "type": 2,
+            "name": "The Finishing Touch",
+            "description": "When a nearby party member creates a <color=#FFE699FF>Geo Construct</color>, Chiori will gain 20% <color=#FFE699FF>Geo DMG Bonus</color> for 20s.",
+            "icon": "UI_Talent_S_Chiori_06",
+            "linkedConstellations": {
+                "isLevelIncluded": false,
+                "prop": [
+                    {
+                        "id": 0,
+                        "type": "normal"
+                    }
+                ]
+            }
+        },
+        "6": {
+            "type": 2,
+            "name": "Brocaded Collar's Beauteous Silhouette",
+            "description": "When any party member is wearing an outfit apart from their default outfit, or is wearing a wind glider other than the Wings of First Flight, your party members will obtain the Swift Stride effect: Movement SPD is increased by 10%.\\nThis effect does not take effect in Domains, Trounce Domains, and the Spiral Abyss. Swift Stride does not stack.",
+            "icon": "UI_Talent_S_Chiori_07",
+            "linkedConstellations": null
+        }
+    },
+    "constellation": {
+        "0": {
+            "id": 0,
+            "name": "Six Paths of Sage Silkcraft",
+            "description": "The AoE of the automaton doll \"Tamoto\" summoned by <color=#FFD780FF>Fluttering Hasode</color> is increased by 50%.\\nAdditionally, if there is a <color=#FFE699FF>Geo</color> party member other than Chiori, Fluttering Hasode will trigger the following after the dash is completed:\\n· Summon an additional Tamoto. Only one additional Tamoto can exist at the same time, whether summoned by Chiori this way or through the presence of a Geo Construct.\\n· Triggers the Passive Talent \"The Finishing Touch.\" This effect requires you to first unlock the Passive Talent \"The Finishing Touch.\"",
+            "extraData": null,
+            "icon": "UI_Talent_S_Chiori_01"
+        },
+        "1": {
+            "id": 1,
+            "name": "In Five Colors Dyed",
+            "description": "For 10s after using <color=#FFD780FF>Hiyoku: Twin Blades</color>, a simplified automaton doll, \"Kinu,\" will be summoned next to your active character every 3s. Kinu will attack nearby opponents, dealing <color=#FFE699FF>AoE Geo DMG</color> equivalent to 170% of Tamoto's DMG. DMG dealt this way is considered Elemental Skill DMG.\\nKinu will leave the field after 1 attack or after lasting 3s.",
+            "extraData": null,
+            "icon": "UI_Talent_S_Chiori_03"
+        },
+        "2": {
+            "id": 2,
+            "name": "Four Brocade Embellishments",
+            "description": "Increases the Level of <color=#FFD780FF>Fluttering Hasode</color> by 3.\\nMaximum upgrade level is 15.",
+            "extraData": {
+                "addTalentExtraLevel": {
+                    "talentType": "AvatarSkill",
+                    "talentIndex": 2,
+                    "extraLevel": 3
+                }
+            },
+            "icon": "UI_Talent_U_Chiori_01"
+        },
+        "3": {
+            "id": 3,
+            "name": "A Tailor's Three Courtesies",
+            "description": "For 8s after triggering either follow-up effect of the Passive Talent \"Tailor-Made,\" when your current active character's Normal, Charged, or Plunging Attacks hit a nearby opponent, a simplified automaton doll, \"Kinu,\" will be summoned near this opponent. You can summon 1 Kinu every 1s in this way, and up to 3 Kinu may be summoned this way during each instance of \"Tailor-Made\"'s Seize the Moment or Tailoring effect. The above effect can be triggered up to once every 15s.\\nMust unlock the Passive Talent \"Tailor-Made\" first.",
+            "extraData": null,
+            "icon": "UI_Talent_S_Chiori_02"
+        },
+        "4": {
+            "id": 4,
+            "name": "Two Silken Plumules",
+            "description": "Increases the Level of <color=#FFD780FF>Hiyoku: Twin Blades</color> by 3.\\nMaximum upgrade level is 15.",
+            "extraData": {
+                "addTalentExtraLevel": {
+                    "talentType": "AvatarSkill",
+                    "talentIndex": 9,
+                    "extraLevel": 3
+                }
+            },
+            "icon": "UI_Talent_U_Chiori_02"
+        },
+        "5": {
+            "id": 5,
+            "name": "Sole Principle Pursuit",
+            "description": "After triggering a follow-up effect of the Passive Talent \"Tailor-Made,\" Chiori's own <color=#FFD780FF>Fluttering Hasode</color>'s CD is decreased by 12s. Must unlock the Passive \"Tailor-Made\" first.\\nIn addition, the DMG dealt by Chiori's own Normal Attacks is increased by an amount equal to 235% of her own DEF.",
+            "extraData": null,
+            "icon": "UI_Talent_S_Chiori_04"
+        }
+    },
+    "_id": 10000094
+}
