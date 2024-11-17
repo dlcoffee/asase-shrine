@@ -4,12 +4,15 @@
     "name": "Jean",
     "element": "Wind",
     "weaponType": "WEAPON_SWORD_ONE_HAND",
+    "region": "MONDSTADT",
+    "specialProp": "FIGHT_PROP_HEAL_ADD",
+    "bodyType": "LADY",
     "icon": "UI_AvatarIcon_Qin",
     "birthday": [
         3,
         14
     ],
-    "release": 1600131600,
+    "release": 1601244000,
     "route": "Jean",
     "fetter": {
         "title": "Dandelion Knight",
@@ -207,6 +210,98 @@
         "112007": 3,
         "113001": 4,
         "113003": 5
+    },
+    "items": {
+        "202": {
+            "name": "Mora",
+            "rank": 3,
+            "icon": "UI_ItemIcon_202"
+        },
+        "100057": {
+            "name": "Dandelion Seed",
+            "rank": 1,
+            "icon": "UI_ItemIcon_100057"
+        },
+        "104001": {
+            "name": "Wanderer's Advice",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104001"
+        },
+        "104002": {
+            "name": "Adventurer's Experience",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104002"
+        },
+        "104003": {
+            "name": "Hero's Wit",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104003"
+        },
+        "104151": {
+            "name": "Vayuda Turquoise Sliver",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104151"
+        },
+        "104152": {
+            "name": "Vayuda Turquoise Fragment",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104152"
+        },
+        "104153": {
+            "name": "Vayuda Turquoise Chunk",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104153"
+        },
+        "104154": {
+            "name": "Vayuda Turquoise Gemstone",
+            "rank": 5,
+            "icon": "UI_ItemIcon_104154"
+        },
+        "104304": {
+            "name": "Teachings of Resistance",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104304"
+        },
+        "104305": {
+            "name": "Guide to Resistance",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104305"
+        },
+        "104306": {
+            "name": "Philosophies of Resistance",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104306"
+        },
+        "104319": {
+            "name": "Crown of Insight",
+            "rank": 5,
+            "icon": "UI_ItemIcon_104319"
+        },
+        "112005": {
+            "name": "Damaged Mask",
+            "rank": 1,
+            "icon": "UI_ItemIcon_112005"
+        },
+        "112006": {
+            "name": "Stained Mask",
+            "rank": 2,
+            "icon": "UI_ItemIcon_112006"
+        },
+        "112007": {
+            "name": "Ominous Mask",
+            "rank": 3,
+            "icon": "UI_ItemIcon_112007"
+        },
+        "113001": {
+            "name": "Hurricane Seed",
+            "rank": 4,
+            "icon": "UI_ItemIcon_113001"
+        },
+        "113003": {
+            "name": "Dvalin's Plume",
+            "rank": 5,
+            "icon": "UI_ItemIcon_113003"
+        }
     },
     "talent": {
         "0": {
@@ -924,7 +1019,127 @@
                 }
             },
             "cooldown": 0,
-            "cost": 0
+            "cost": 0,
+            "linkedConstellations": null,
+            "advancedProps": [
+                {
+                    "name": "Normal Attack 1-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": "6",
+                            "text": "Normal Attack"
+                        },
+                        "type": {
+                            "span": "6",
+                            "text": "2.5s/3 Hits"
+                        }
+                    },
+                    "interruptionResistance": "37.8",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 2-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "35.1",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 3-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "48.6",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 4-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "54",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 5-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "60.3",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "655",
+                        "verticalForce": "800"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Charged Attack",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "200",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "0",
+                        "verticalForce": "1050"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Plunging Attack Collision",
+                    "elementalGaugeTheory": "0U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "25",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Low Plunge",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "100",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "800",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": true
+                },
+                {
+                    "name": "High Plunge",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "150",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "0",
+                        "verticalForce": "800"
+                    },
+                    "bluntAttack": true
+                }
+            ]
         },
         "1": {
             "type": 0,
@@ -1641,7 +1856,34 @@
                 }
             },
             "cooldown": 6,
-            "cost": 0
+            "cost": 0,
+            "linkedConstellations": {
+                "isLevelIncluded": false,
+                "prop": [
+                    {
+                        "id": 0,
+                        "type": "normal"
+                    },
+                    {
+                        "id": 4,
+                        "type": "normal"
+                    }
+                ]
+            },
+            "advancedProps": [
+                {
+                    "name": "Skill DMG",
+                    "elementalGaugeTheory": "2U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "250",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "1200",
+                        "verticalForce": "600"
+                    },
+                    "bluntAttack": false
+                }
+            ]
         },
         "3": {
             "type": 1,
@@ -2358,59 +2600,119 @@
                 }
             },
             "cooldown": 20,
-            "cost": 80
+            "cost": 80,
+            "linkedConstellations": {
+                "isLevelIncluded": false,
+                "prop": [
+                    {
+                        "id": 2,
+                        "type": "normal"
+                    },
+                    {
+                        "id": 3,
+                        "type": "normal"
+                    },
+                    {
+                        "id": 5,
+                        "type": "normal"
+                    }
+                ]
+            },
+            "advancedProps": [
+                {
+                    "name": "Elemental Burst DMG",
+                    "elementalGaugeTheory": "2U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "400",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "800",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Entering/Exiting DMG",
+                    "elementalGaugeTheory": "2U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "50",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Anemo To Self",
+                    "elementalGaugeTheory": "1U, 0.2s",
+                    "internalCooldown": null,
+                    "interruptionResistance": "—",
+                    "interruptionResistanceStagger": null,
+                    "bluntAttack": "—"
+                }
+            ]
         },
         "4": {
             "type": 2,
             "name": "Wind Companion",
             "description": "On hit, Jean's Normal Attacks have a 50% chance to regenerate HP equal to 15% of Jean's ATK for all party members.",
-            "icon": "UI_Talent_S_Qin_05"
+            "icon": "UI_Talent_S_Qin_05",
+            "linkedConstellations": null
         },
         "5": {
             "type": 2,
             "name": "Let the Wind Lead",
             "description": "Using <color=#FFD780FF>Dandelion Breeze</color> will regenerate 20% of its Energy.",
-            "icon": "UI_Talent_S_Qin_06"
+            "icon": "UI_Talent_S_Qin_06",
+            "linkedConstellations": null
         },
         "6": {
             "type": 2,
             "name": "Guiding Breeze",
             "description": "When a Perfect Cooking is achieved on a dish with restorative effects, there is a 12% chance to obtain double the product.",
-            "icon": "UI_Talent_Cook_Heal"
+            "icon": "UI_Talent_Cook_Heal",
+            "linkedConstellations": null
         }
     },
     "constellation": {
         "0": {
+            "id": 0,
             "name": "Spiraling Tempest",
             "description": "Increases the pulling speed of <color=#FFD780FF>Gale Blade</color> after holding for more than 1s, and increases the DMG dealt by 40%.",
             "extraData": null,
             "icon": "UI_Talent_S_Qin_01"
         },
         "1": {
+            "id": 1,
             "name": "People's Aegis",
             "description": "When Jean picks up an Elemental Orb/Particle, all party members have their Movement SPD and ATK SPD increased by 15% for 15s.",
             "extraData": null,
             "icon": "UI_Talent_S_Qin_02"
         },
         "2": {
+            "id": 2,
             "name": "When the West Wind Arises",
             "description": "Increases the Level of <color=#FFD780FF>Dandelion Breeze</color> by 3.\\nMaximum upgrade level is 15.",
             "extraData": null,
             "icon": "UI_Talent_U_Qin_02"
         },
         "3": {
+            "id": 3,
             "name": "Lands of Dandelion",
             "description": "Within the Field created by <color=#FFD780FF>Dandelion Breeze</color>, all opponents have their <color=#80FFD7FF>Anemo RES</color> decreased by 40%.",
             "extraData": null,
             "icon": "UI_Talent_S_Qin_03"
         },
         "4": {
+            "id": 4,
             "name": "Outbursting Gust",
             "description": "Increases the Level of <color=#FFD780FF>Gale Blade</color> by 3.\\nMaximum upgrade level is 15.",
             "extraData": null,
             "icon": "UI_Talent_U_Qin_01"
         },
         "5": {
+            "id": 5,
             "name": "Lion's Fang, Fair Protector of Mondstadt",
             "description": "Incoming DMG is decreased by 35% within the Field created by <color=#FFD780FF>Dandelion Breeze</color>. Upon leaving the Dandelion Field, this effect lasts for 3 attacks or 10s.",
             "extraData": null,

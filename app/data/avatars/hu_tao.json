@@ -4,6 +4,9 @@
     "name": "Hu Tao",
     "element": "Fire",
     "weaponType": "WEAPON_POLE",
+    "region": "LIYUE",
+    "specialProp": "FIGHT_PROP_CRITICAL_HURT",
+    "bodyType": "GIRL",
     "icon": "UI_AvatarIcon_Hutao",
     "birthday": [
         7,
@@ -193,6 +196,98 @@
         "112040": 3,
         "113014": 5,
         "113016": 4
+    },
+    "items": {
+        "202": {
+            "name": "Mora",
+            "rank": 3,
+            "icon": "UI_ItemIcon_202"
+        },
+        "100029": {
+            "name": "Silk Flower",
+            "rank": 1,
+            "icon": "UI_ItemIcon_100029"
+        },
+        "104001": {
+            "name": "Wanderer's Advice",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104001"
+        },
+        "104002": {
+            "name": "Adventurer's Experience",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104002"
+        },
+        "104003": {
+            "name": "Hero's Wit",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104003"
+        },
+        "104111": {
+            "name": "Agnidus Agate Sliver",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104111"
+        },
+        "104112": {
+            "name": "Agnidus Agate Fragment",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104112"
+        },
+        "104113": {
+            "name": "Agnidus Agate Chunk",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104113"
+        },
+        "104114": {
+            "name": "Agnidus Agate Gemstone",
+            "rank": 5,
+            "icon": "UI_ItemIcon_104114"
+        },
+        "104313": {
+            "name": "Teachings of Diligence",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104313"
+        },
+        "104314": {
+            "name": "Guide to Diligence",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104314"
+        },
+        "104315": {
+            "name": "Philosophies of Diligence",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104315"
+        },
+        "104319": {
+            "name": "Crown of Insight",
+            "rank": 5,
+            "icon": "UI_ItemIcon_104319"
+        },
+        "112038": {
+            "name": "Whopperflower Nectar",
+            "rank": 1,
+            "icon": "UI_ItemIcon_112038"
+        },
+        "112039": {
+            "name": "Shimmering Nectar",
+            "rank": 2,
+            "icon": "UI_ItemIcon_112039"
+        },
+        "112040": {
+            "name": "Energy Nectar",
+            "rank": 3,
+            "icon": "UI_ItemIcon_112040"
+        },
+        "113014": {
+            "name": "Shard of a Foul Legacy",
+            "rank": 5,
+            "icon": "UI_ItemIcon_113014"
+        },
+        "113016": {
+            "name": "Juvenile Jade",
+            "rank": 4,
+            "icon": "UI_ItemIcon_113016"
+        }
     },
     "talent": {
         "0": {
@@ -910,7 +1005,160 @@
                 }
             },
             "cooldown": 0,
-            "cost": 0
+            "cost": 0,
+            "linkedConstellations": null,
+            "advancedProps": [
+                {
+                    "name": "Normal Attack 1-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": "7",
+                            "text": "Normal Attack"
+                        },
+                        "type": {
+                            "span": "7",
+                            "text": "2.5s/3 Hits"
+                        }
+                    },
+                    "interruptionResistance": "35.76",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 2-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "36.88",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 3-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "46.64",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 4-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "50.08",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 5-Hit A",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "26.2",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Shake",
+                        "horizontalForce": "0",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 5-Hit B",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "26.2",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "800",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 6-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "65.52",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "655",
+                        "verticalForce": "800"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Charged Attack",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": null,
+                            "text": "Charged Attack"
+                        },
+                        "type": {
+                            "span": null,
+                            "text": "0.5s"
+                        }
+                    },
+                    "interruptionResistance": "120",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "480",
+                        "verticalForce": "600"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Plunging Attack Collision",
+                    "elementalGaugeTheory": "0U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "25",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Low Plunge",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "100",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "800",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": true
+                },
+                {
+                    "name": "High Plunge",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "150",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "0",
+                        "verticalForce": "800"
+                    },
+                    "bluntAttack": true
+                }
+            ]
         },
         "1": {
             "type": 0,
@@ -1627,7 +1875,46 @@
                 }
             },
             "cooldown": 16,
-            "cost": 0
+            "cost": 0,
+            "linkedConstellations": {
+                "isLevelIncluded": true,
+                "prop": [
+                    {
+                        "id": 0,
+                        "type": "normal"
+                    },
+                    {
+                        "id": 2,
+                        "type": "level"
+                    }
+                ]
+            },
+            "advancedProps": [
+                {
+                    "name": "Activation Knockback",
+                    "elementalGaugeTheory": "0U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "120",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Blood Blossom DMG",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "1",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Shake",
+                        "horizontalForce": "0",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                }
+            ]
         },
         "3": {
             "type": 1,
@@ -2344,41 +2631,74 @@
                 }
             },
             "cooldown": 15,
-            "cost": 60
+            "cost": 60,
+            "linkedConstellations": {
+                "isLevelIncluded": true,
+                "prop": [
+                    {
+                        "id": 1,
+                        "type": "normal"
+                    },
+                    {
+                        "id": 4,
+                        "type": "level"
+                    }
+                ]
+            },
+            "advancedProps": [
+                {
+                    "name": "Skill DMG",
+                    "elementalGaugeTheory": "2U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "250",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                }
+            ]
         },
         "4": {
             "type": 2,
             "name": "Flutter By",
             "description": "When a <color=#FFD780FF>Paramita Papilio</color> state activated by <color=#FFD780FF>Guide to Afterlife</color> ends, all allies in the party (excluding Hu Tao herself) will have their CRIT Rate increased by 12% for 8s.",
-            "icon": "UI_Talent_S_Hutao_05"
+            "icon": "UI_Talent_S_Hutao_05",
+            "linkedConstellations": null
         },
         "5": {
             "type": 2,
             "name": "Sanguine Rouge",
             "description": "When Hu Tao's HP is equal to or less than 50%, her <color=#FF9999FF>Pyro DMG Bonus</color> is increased by 33%.",
-            "icon": "UI_Talent_S_Hutao_06"
+            "icon": "UI_Talent_S_Hutao_06",
+            "linkedConstellations": null
         },
         "6": {
             "type": 2,
             "name": "The More the Merrier",
             "description": "When Hu Tao cooks a dish perfectly, she has a 18% chance to receive an additional \"Suspicious\" dish of the same type.",
-            "icon": "UI_Talent_Cook_ExtraFailedItem"
+            "icon": "UI_Talent_Cook_ExtraFailedItem",
+            "linkedConstellations": null
         }
     },
     "constellation": {
         "0": {
+            "id": 0,
             "name": "Crimson Bouquet",
             "description": "While in a <color=#FFD780FF>Paramita Papilio</color> state activated by <color=#FFD780FF>Guide to Afterlife</color>, Hu Tao's Charged Attacks do not consume Stamina.",
             "extraData": null,
             "icon": "UI_Talent_S_Hutao_03"
         },
         "1": {
+            "id": 1,
             "name": "Ominous Rainfall",
             "description": "Increases the <color=#FFD780FF>Blood Blossom</color> DMG by an amount equal to 10% of Hu Tao's Max HP at the time the effect is applied.\\nAdditionally, <color=#FFD780FF>Spirit Soother</color> will also apply the <color=#FFD780FF>Blood Blossom</color> effect.",
             "extraData": null,
             "icon": "UI_Talent_S_Hutao_01"
         },
         "2": {
+            "id": 2,
             "name": "Lingering Carmine",
             "description": "Increases the Level of <color=#FFD780FF>Guide to Afterlife</color> by 3.\\nMaximum upgrade level is 15.",
             "extraData": {
@@ -2391,12 +2711,14 @@
             "icon": "UI_Talent_U_Hutao_01"
         },
         "3": {
+            "id": 3,
             "name": "Garden of Eternal Rest",
             "description": "Upon defeating an enemy affected by a <color=#FFD780FF>Blood Blossom</color> that Hu Tao applied herself, all nearby allies in the party (excluding Hu Tao herself) will have their CRIT Rate increased by 12% for 15s.",
             "extraData": null,
             "icon": "UI_Talent_S_Hutao_02"
         },
         "4": {
+            "id": 4,
             "name": "Floral Incense",
             "description": "Increases the Level of <color=#FFD780FF>Spirit Soother</color> by 3.\\nMaximum upgrade level is 15.",
             "extraData": {
@@ -2409,6 +2731,7 @@
             "icon": "UI_Talent_U_Hutao_02"
         },
         "5": {
+            "id": 5,
             "name": "Butterfly's Embrace",
             "description": "Triggers when Hu Tao's HP drops below 25%, or when she suffers a lethal strike:\\nHu Tao will not fall as a result of the DMG sustained. Additionally, for the next 10s, her All Elemental and Physical RES is increased by 200%, her CRIT Rate is increased by 100%, and her resistance to interruption is greatly increased.\\nThis effect triggers automatically when Hu Tao has 1 HP left.\\nCan only occur once every 60s.",
             "extraData": null,

@@ -4,6 +4,9 @@
     "name": "Layla",
     "element": "Ice",
     "weaponType": "WEAPON_SWORD_ONE_HAND",
+    "region": "SUMERU",
+    "specialProp": "FIGHT_PROP_HP_PERCENT",
+    "bodyType": "GIRL",
     "icon": "UI_AvatarIcon_Layla",
     "birthday": [
         12,
@@ -193,6 +196,98 @@
         "112010": 3,
         "113038": 4,
         "113042": 5
+    },
+    "items": {
+        "202": {
+            "name": "Mora",
+            "rank": 3,
+            "icon": "UI_ItemIcon_202"
+        },
+        "101215": {
+            "name": "Nilotpala Lotus",
+            "rank": 1,
+            "icon": "UI_ItemIcon_101215"
+        },
+        "104001": {
+            "name": "Wanderer's Advice",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104001"
+        },
+        "104002": {
+            "name": "Adventurer's Experience",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104002"
+        },
+        "104003": {
+            "name": "Hero's Wit",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104003"
+        },
+        "104161": {
+            "name": "Shivada Jade Sliver",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104161"
+        },
+        "104162": {
+            "name": "Shivada Jade Fragment",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104162"
+        },
+        "104163": {
+            "name": "Shivada Jade Chunk",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104163"
+        },
+        "104164": {
+            "name": "Shivada Jade Gemstone",
+            "rank": 5,
+            "icon": "UI_ItemIcon_104164"
+        },
+        "104319": {
+            "name": "Crown of Insight",
+            "rank": 5,
+            "icon": "UI_ItemIcon_104319"
+        },
+        "104332": {
+            "name": "Teachings of Ingenuity",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104332"
+        },
+        "104333": {
+            "name": "Guide to Ingenuity",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104333"
+        },
+        "104334": {
+            "name": "Philosophies of Ingenuity",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104334"
+        },
+        "112008": {
+            "name": "Divining Scroll",
+            "rank": 1,
+            "icon": "UI_ItemIcon_112008"
+        },
+        "112009": {
+            "name": "Sealed Scroll",
+            "rank": 2,
+            "icon": "UI_ItemIcon_112009"
+        },
+        "112010": {
+            "name": "Forbidden Curse Scroll",
+            "rank": 3,
+            "icon": "UI_ItemIcon_112010"
+        },
+        "113038": {
+            "name": "Perpetual Caliber",
+            "rank": 4,
+            "icon": "UI_ItemIcon_113038"
+        },
+        "113042": {
+            "name": "Mirror of Mushin",
+            "rank": 5,
+            "icon": "UI_ItemIcon_113042"
+        }
     },
     "talent": {
         "0": {
@@ -910,7 +1005,115 @@
                 }
             },
             "cooldown": 0,
-            "cost": 0
+            "cost": 0,
+            "linkedConstellations": null,
+            "advancedProps": [
+                {
+                    "name": "Normal Attack 1-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": "5",
+                            "text": "Normal Attack"
+                        },
+                        "type": {
+                            "span": "5",
+                            "text": "2.5s/3 Hits"
+                        }
+                    },
+                    "interruptionResistance": "53.6",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 2-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "50.738",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 3-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "76.368",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "480",
+                        "verticalForce": "600"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Charged Attack 1-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "60",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Charged Attack 2-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "60",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "480",
+                        "verticalForce": "600"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Plunging Attack Collision",
+                    "elementalGaugeTheory": "0U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "25",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Low Plunge",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "100",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "800",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "High Plunge",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "150",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "0",
+                        "verticalForce": "800"
+                    },
+                    "bluntAttack": true
+                }
+            ]
         },
         "1": {
             "type": 0,
@@ -1627,7 +1830,75 @@
                 }
             },
             "cooldown": 12,
-            "cost": 0
+            "cost": 0,
+            "linkedConstellations": {
+                "isLevelIncluded": true,
+                "prop": [
+                    {
+                        "id": 0,
+                        "type": "normal"
+                    },
+                    {
+                        "id": 1,
+                        "type": "normal"
+                    },
+                    {
+                        "id": 2,
+                        "type": "level"
+                    },
+                    {
+                        "id": 3,
+                        "type": "normal"
+                    },
+                    {
+                        "id": 5,
+                        "type": "normal"
+                    }
+                ]
+            },
+            "advancedProps": [
+                {
+                    "name": "Skill DMG",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "30",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Shooting Star DMG",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": null,
+                            "text": "Elemental Skill"
+                        },
+                        "type": {
+                            "span": null,
+                            "text": "3s/7 Hits"
+                        }
+                    },
+                    "interruptionResistance": "15",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Frozen to Self",
+                    "elementalGaugeTheory": "1U, 0.1s",
+                    "internalCooldown": null,
+                    "interruptionResistance": "—",
+                    "interruptionResistanceStagger": null,
+                    "bluntAttack": "—"
+                }
+            ]
         },
         "3": {
             "type": 1,
@@ -2344,41 +2615,83 @@
                 }
             },
             "cooldown": 12,
-            "cost": 40
+            "cost": 40,
+            "linkedConstellations": {
+                "isLevelIncluded": true,
+                "prop": [
+                    {
+                        "id": 4,
+                        "type": "level"
+                    },
+                    {
+                        "id": 5,
+                        "type": "normal"
+                    }
+                ]
+            },
+            "advancedProps": [
+                {
+                    "name": "Starlight Slug DMG",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": null,
+                            "text": "Elemental Burst"
+                        },
+                        "type": {
+                            "span": null,
+                            "text": "2.5s/3 Hits"
+                        }
+                    },
+                    "interruptionResistance": "20",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                }
+            ]
         },
         "4": {
             "type": 2,
             "name": "Like Nascent Light",
             "description": "While the <color=#FFD780FF>Curtain of Slumber</color> is active, the Deep Sleep effect will activate each time the Curtain gains 1 Night Star:\\n·The Shield Strength of a character under the effect of the Curtain of Slumber increases by 6%.\\n·This effect can have a maximum of 4 stacks and persists until the Curtain of Slumber disappears.",
-            "icon": "UI_Talent_S_Layla_05"
+            "icon": "UI_Talent_S_Layla_05",
+            "linkedConstellations": null
         },
         "5": {
             "type": 2,
             "name": "Sweet Slumber Undisturbed",
             "description": "The DMG dealt by the Shooting Stars fired by <color=#FFD780FF>Nights of Formal Focus</color> is increased by 1.5% of Layla's Max HP.",
-            "icon": "UI_Talent_S_Layla_06"
+            "icon": "UI_Talent_S_Layla_06",
+            "linkedConstellations": null
         },
         "6": {
             "type": 2,
             "name": "Shadowy Dream-Signs",
             "description": "When Layla crafts Character Talent Materials, she has a 10% chance to receive double the product.",
-            "icon": "UI_Talent_Eula_Combine"
+            "icon": "UI_Talent_Eula_Combine",
+            "linkedConstellations": null
         }
     },
     "constellation": {
         "0": {
+            "id": 0,
             "name": "Fortress of Fantasy",
             "description": "The Shield Absorption of the Curtain of Slumber generated by <color=#FFD780FF>Nights of Formal Focus</color> is increased by 20%.\\nAdditionally, when unleashing Nights of Formal Focus, she will generate a shield for any nearby party members who are not being protected by a Curtain of Slumber. This shield will have 35% of the absorption of a Curtain of Slumber, will last for 12s, and will absorb <color=#99FFFFFF>Cryo DMG</color> with 250% effectiveness.",
             "extraData": null,
             "icon": "UI_Talent_S_Layla_01"
         },
         "1": {
+            "id": 1,
             "name": "Light's Remit",
             "description": "When Shooting Stars from <color=#FFD780FF>Nights of Formal Focus</color> strike opponents, they will each restore 1 Energy to Layla. Each Shooting Star can restore Energy to her in this manner once.",
             "extraData": null,
             "icon": "UI_Talent_S_Layla_02"
         },
         "2": {
+            "id": 2,
             "name": "Secrets of the Night",
             "description": "Increases the Level of <color=#FFD780FF>Nights of Formal Focus</color> by 3.\\nMaximum upgrade level is 15.",
             "extraData": {
@@ -2391,12 +2704,14 @@
             "icon": "UI_Talent_U_Layla_01"
         },
         "3": {
+            "id": 3,
             "name": "Starry Illumination",
             "description": "When <color=#FFD780FF>Nights of Formal Focus</color> starts to fire off Shooting Stars, it will grant all nearby party members the Dawn Star effect, causing their Normal and Charged Attack DMG to increase based on 5% of Layla's Max HP.\\nDawn Star can last up to 3s and will be removed 0.05s after dealing Normal or Charged Attack DMG.",
             "extraData": null,
             "icon": "UI_Talent_S_Layla_03"
         },
         "4": {
+            "id": 4,
             "name": "Stream of Consciousness",
             "description": "Increases the Level of <color=#FFD780FF>Dream of the Star-Stream Shaker</color> by 3.\\nMaximum upgrade level is 15.",
             "extraData": {
@@ -2409,6 +2724,7 @@
             "icon": "UI_Talent_U_Layla_02"
         },
         "5": {
+            "id": 5,
             "name": "Radiant Soulfire",
             "description": "Shooting Stars from <color=#FFD780FF>Nights of Formal Focus</color> deal 40% increased DMG, and Starlight Slugs from <color=#FFD780FF>Dream of the Star-Stream Shaker</color> deal 40% increased DMG.\\nAdditionally, the interval between the creation of Night Stars via Nights of Formal Focus is decreased by 20%.",
             "extraData": null,

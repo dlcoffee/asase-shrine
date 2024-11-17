@@ -4,6 +4,9 @@
     "name": "Arataki Itto",
     "element": "Rock",
     "weaponType": "WEAPON_CLAYMORE",
+    "region": "INAZUMA",
+    "specialProp": "FIGHT_PROP_CRITICAL",
+    "bodyType": "MALE",
     "icon": "UI_AvatarIcon_Itto",
     "birthday": [
         6,
@@ -193,6 +196,98 @@
         "112004": 3,
         "113027": 5,
         "113030": 4
+    },
+    "items": {
+        "202": {
+            "name": "Mora",
+            "rank": 3,
+            "icon": "UI_ItemIcon_202"
+        },
+        "101201": {
+            "name": "Onikabuto",
+            "rank": 1,
+            "icon": "UI_ItemIcon_101201"
+        },
+        "104001": {
+            "name": "Wanderer's Advice",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104001"
+        },
+        "104002": {
+            "name": "Adventurer's Experience",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104002"
+        },
+        "104003": {
+            "name": "Hero's Wit",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104003"
+        },
+        "104171": {
+            "name": "Prithiva Topaz Sliver",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104171"
+        },
+        "104172": {
+            "name": "Prithiva Topaz Fragment",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104172"
+        },
+        "104173": {
+            "name": "Prithiva Topaz Chunk",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104173"
+        },
+        "104174": {
+            "name": "Prithiva Topaz Gemstone",
+            "rank": 5,
+            "icon": "UI_ItemIcon_104174"
+        },
+        "104319": {
+            "name": "Crown of Insight",
+            "rank": 5,
+            "icon": "UI_ItemIcon_104319"
+        },
+        "104323": {
+            "name": "Teachings of Elegance",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104323"
+        },
+        "104324": {
+            "name": "Guide to Elegance",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104324"
+        },
+        "104325": {
+            "name": "Philosophies of Elegance",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104325"
+        },
+        "112002": {
+            "name": "Slime Condensate",
+            "rank": 1,
+            "icon": "UI_ItemIcon_112002"
+        },
+        "112003": {
+            "name": "Slime Secretions",
+            "rank": 2,
+            "icon": "UI_ItemIcon_112003"
+        },
+        "112004": {
+            "name": "Slime Concentrate",
+            "rank": 3,
+            "icon": "UI_ItemIcon_112004"
+        },
+        "113027": {
+            "name": "Ashen Heart",
+            "rank": 5,
+            "icon": "UI_ItemIcon_113027"
+        },
+        "113030": {
+            "name": "Riftborn Regalia",
+            "rank": 4,
+            "icon": "UI_ItemIcon_113030"
+        }
     },
     "talent": {
         "0": {
@@ -910,7 +1005,151 @@
                 }
             },
             "cooldown": 0,
-            "cost": 0
+            "cost": 0,
+            "linkedConstellations": null,
+            "advancedProps": [
+                {
+                    "name": "Normal Attack 1-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": "8",
+                            "text": "Normal Attack"
+                        },
+                        "type": {
+                            "span": "8",
+                            "text": "2.5s/3 Hits"
+                        }
+                    },
+                    "interruptionResistance": "82.9",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": true
+                },
+                {
+                    "name": "Normal Attack 2-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "77.9",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": true
+                },
+                {
+                    "name": "Normal Attack 3-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "98.3",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": true
+                },
+                {
+                    "name": "Normal Attack 4-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "124.5",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "655",
+                        "verticalForce": "800"
+                    },
+                    "bluntAttack": true
+                },
+                {
+                    "name": "Saichimonji Slash",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "120",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "480",
+                        "verticalForce": "600"
+                    },
+                    "bluntAttack": true
+                },
+                {
+                    "name": "Arataki Kesagiri First Slash",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "143.4",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "250",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": true
+                },
+                {
+                    "name": "Arataki Kesagiri Consecutive Slashes",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "81.7",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "250",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": true
+                },
+                {
+                    "name": "Arataki Kesagiri Final Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "143.4",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "100",
+                        "verticalForce": "800"
+                    },
+                    "bluntAttack": true
+                },
+                {
+                    "name": "Plunging Attack Collision",
+                    "elementalGaugeTheory": "0U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "35",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Low Plunge",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "150",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "800",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": true
+                },
+                {
+                    "name": "High Plunge",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "200",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "0",
+                        "verticalForce": "800"
+                    },
+                    "bluntAttack": true
+                }
+            ]
         },
         "1": {
             "type": 0,
@@ -1627,7 +1866,30 @@
                 }
             },
             "cooldown": 10,
-            "cost": 0
+            "cost": 0,
+            "linkedConstellations": {
+                "isLevelIncluded": true,
+                "prop": [
+                    {
+                        "id": 2,
+                        "type": "level"
+                    }
+                ]
+            },
+            "advancedProps": [
+                {
+                    "name": "Skill DMG",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "250",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "480",
+                        "verticalForce": "600"
+                    },
+                    "bluntAttack": true
+                }
+            ]
         },
         "3": {
             "type": 1,
@@ -2344,41 +2606,68 @@
                 }
             },
             "cooldown": 18,
-            "cost": 70
+            "cost": 70,
+            "linkedConstellations": {
+                "isLevelIncluded": true,
+                "prop": [
+                    {
+                        "id": 0,
+                        "type": "normal"
+                    },
+                    {
+                        "id": 1,
+                        "type": "normal"
+                    },
+                    {
+                        "id": 3,
+                        "type": "normal"
+                    },
+                    {
+                        "id": 4,
+                        "type": "level"
+                    }
+                ]
+            }
         },
         "4": {
             "type": 2,
             "name": "Arataki Ichiban",
             "description": "When Arataki Itto uses consecutive Arataki Kesagiri, he obtains the following effects:\\n· Each slash increases the ATK SPD of the next slash by 10%. Max ATK SPD increase is 30%.\\n· Increases his resistance to interruption.\\n\\nThese effects will be cleared once he stops performing consecutive slashes.",
-            "icon": "UI_Talent_S_Itto_05"
+            "icon": "UI_Talent_S_Itto_05",
+            "linkedConstellations": null
         },
         "5": {
             "type": 2,
             "name": "Bloodline of the Crimson Oni",
             "description": "Arataki Kesagiri DMG is increased by 35% of Arataki Itto's DEF.",
-            "icon": "UI_Talent_S_Itto_06"
+            "icon": "UI_Talent_S_Itto_06",
+            "linkedConstellations": null
         },
         "6": {
             "type": 2,
             "name": "Woodchuck Chucked",
             "description": "When a party member uses attacks to obtain wood from a tree, they have a 25% chance to get an additional log of wood.",
-            "icon": "UI_Talent_S_Itto_07"
+            "icon": "UI_Talent_S_Itto_07",
+            "linkedConstellations": null
         }
     },
     "constellation": {
         "0": {
+            "id": 0,
             "name": "Stay a While and Listen Up",
             "description": "After using <color=#FFD780FF>Royal Descent: Behold, Itto the Evil!</color>, Arataki Itto gains 2 stacks of Superlative Superstrength. After 1s, Itto will gain 1 stack of Superlative Superstrength every 0.5s for 1.5s.",
             "extraData": null,
             "icon": "UI_Talent_S_Itto_01"
         },
         "1": {
+            "id": 1,
             "name": "Gather 'Round, It's a Brawl!",
             "description": "After using <color=#FFD780FF>Royal Descent: Behold, Itto the Evil!</color>, each party member whose Element is <color=#FFE699FF>Geo</color> will decrease that skill's CD by 1.5s and restore 6 Energy to Arataki Itto.\\nCD can be decreased by up to 4.5s in this manner. Max 18 Energy can be restored in this manner.",
             "extraData": null,
             "icon": "UI_Talent_S_Itto_02"
         },
         "2": {
+            "id": 2,
             "name": "Horns Lowered, Coming Through",
             "description": "Increases the Level of <color=#FFD780FF>Masatsu Zetsugi: Akaushi Burst!</color> by 3.\\nMaximum upgrade level is 15.",
             "extraData": {
@@ -2391,12 +2680,14 @@
             "icon": "UI_Talent_U_Itto_01"
         },
         "3": {
+            "id": 3,
             "name": "Jailhouse Bread and Butter",
             "description": "When the Raging Oni King state caused by <color=#FFD780FF>Royal Descent: Behold, Itto the Evil!</color> ends, all nearby party members gain 20% DEF and 20% ATK for 10s.",
             "extraData": null,
             "icon": "UI_Talent_S_Itto_03"
         },
         "4": {
+            "id": 4,
             "name": "10 Years of Hanamizaka Fame",
             "description": "Increases the Level of <color=#FFD780FF>Royal Descent: Behold, Itto the Evil!</color> by 3.\\nMaximum upgrade level is 15.",
             "extraData": {
@@ -2409,6 +2700,7 @@
             "icon": "UI_Talent_U_Itto_02"
         },
         "5": {
+            "id": 5,
             "name": "Arataki Itto, Present!",
             "description": "Arataki Itto's Charged Attacks deal +70% Crit DMG. Additionally, when he uses Arataki Kesagiri, he has a 50% chance to not consume stacks of Superlative Superstrength.",
             "extraData": null,

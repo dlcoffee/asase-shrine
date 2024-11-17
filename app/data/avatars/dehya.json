@@ -4,6 +4,9 @@
     "name": "Dehya",
     "element": "Fire",
     "weaponType": "WEAPON_CLAYMORE",
+    "region": "SUMERU",
+    "specialProp": "FIGHT_PROP_HP_PERCENT",
+    "bodyType": "LADY",
     "icon": "UI_AvatarIcon_Dehya",
     "birthday": [
         4,
@@ -193,6 +196,98 @@
         "112067": 3,
         "113039": 4,
         "113041": 5
+    },
+    "items": {
+        "202": {
+            "name": "Mora",
+            "rank": 3,
+            "icon": "UI_ItemIcon_202"
+        },
+        "101222": {
+            "name": "Sand Grease Pupa",
+            "rank": 1,
+            "icon": "UI_ItemIcon_101222"
+        },
+        "104001": {
+            "name": "Wanderer's Advice",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104001"
+        },
+        "104002": {
+            "name": "Adventurer's Experience",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104002"
+        },
+        "104003": {
+            "name": "Hero's Wit",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104003"
+        },
+        "104111": {
+            "name": "Agnidus Agate Sliver",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104111"
+        },
+        "104112": {
+            "name": "Agnidus Agate Fragment",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104112"
+        },
+        "104113": {
+            "name": "Agnidus Agate Chunk",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104113"
+        },
+        "104114": {
+            "name": "Agnidus Agate Gemstone",
+            "rank": 5,
+            "icon": "UI_ItemIcon_104114"
+        },
+        "104319": {
+            "name": "Crown of Insight",
+            "rank": 5,
+            "icon": "UI_ItemIcon_104319"
+        },
+        "104335": {
+            "name": "Teachings of Praxis",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104335"
+        },
+        "104336": {
+            "name": "Guide to Praxis",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104336"
+        },
+        "104337": {
+            "name": "Philosophies of Praxis",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104337"
+        },
+        "112065": {
+            "name": "Faded Red Satin",
+            "rank": 1,
+            "icon": "UI_ItemIcon_112065"
+        },
+        "112066": {
+            "name": "Trimmed Red Silk",
+            "rank": 2,
+            "icon": "UI_ItemIcon_112066"
+        },
+        "112067": {
+            "name": "Rich Red Brocade",
+            "rank": 3,
+            "icon": "UI_ItemIcon_112067"
+        },
+        "113039": {
+            "name": "Light Guiding Tetrahedron",
+            "rank": 4,
+            "icon": "UI_ItemIcon_113039"
+        },
+        "113041": {
+            "name": "Puppet Strings",
+            "rank": 5,
+            "icon": "UI_ItemIcon_113041"
+        }
     },
     "talent": {
         "0": {
@@ -910,7 +1005,127 @@
                 }
             },
             "cooldown": 0,
-            "cost": 0
+            "cost": 0,
+            "linkedConstellations": null,
+            "advancedProps": [
+                {
+                    "name": "Normal Attack 1-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": "6",
+                            "text": "Normal Attack"
+                        },
+                        "type": {
+                            "span": "6",
+                            "text": "2.5s/3 Hits"
+                        }
+                    },
+                    "interruptionResistance": "93.33",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": true
+                },
+                {
+                    "name": "Normal Attack 2-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "92.72",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": true
+                },
+                {
+                    "name": "Normal Attack 3-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "115.14",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "800",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": true
+                },
+                {
+                    "name": "Normal Attack 4-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "143.17",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "400",
+                        "verticalForce": "800"
+                    },
+                    "bluntAttack": true
+                },
+                {
+                    "name": "Charged Attack Cyclic",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "60",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": true
+                },
+                {
+                    "name": "Charged Attack Final Slash",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "120",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "655",
+                        "verticalForce": "800"
+                    },
+                    "bluntAttack": true
+                },
+                {
+                    "name": "Plunging Attack Collision",
+                    "elementalGaugeTheory": "0U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "35",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Low Plunge",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "150",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "800",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": true
+                },
+                {
+                    "name": "High Plunge",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "200",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "0",
+                        "verticalForce": "800"
+                    },
+                    "bluntAttack": true
+                }
+            ]
         },
         "1": {
             "type": 0,
@@ -1627,7 +1842,74 @@
                 }
             },
             "cooldown": 20,
-            "cost": 0
+            "cost": 0,
+            "linkedConstellations": {
+                "isLevelIncluded": true,
+                "prop": [
+                    {
+                        "id": 0,
+                        "type": "normal"
+                    },
+                    {
+                        "id": 1,
+                        "type": "normal"
+                    },
+                    {
+                        "id": 4,
+                        "type": "level"
+                    }
+                ]
+            },
+            "advancedProps": [
+                {
+                    "name": "Indomitable Flame DMG",
+                    "elementalGaugeTheory": "1",
+                    "internalCooldown": null,
+                    "interruptionResistance": "50",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "800",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": true
+                },
+                {
+                    "name": "Ranging Flame DMG",
+                    "elementalGaugeTheory": "1",
+                    "internalCooldown": null,
+                    "interruptionResistance": "50",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "100",
+                        "verticalForce": "600"
+                    },
+                    "bluntAttack": true
+                },
+                {
+                    "name": "Field DMG",
+                    "elementalGaugeTheory": "1",
+                    "internalCooldown": null,
+                    "interruptionResistance": "50",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "DMG to Self",
+                    "elementalGaugeTheory": "—",
+                    "internalCooldown": null,
+                    "interruptionResistance": "0",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Mute",
+                        "horizontalForce": "0",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                }
+            ]
         },
         "3": {
             "type": 1,
@@ -2344,41 +2626,103 @@
                 }
             },
             "cooldown": 18,
-            "cost": 70
+            "cost": 70,
+            "linkedConstellations": {
+                "isLevelIncluded": true,
+                "prop": [
+                    {
+                        "id": 0,
+                        "type": "normal"
+                    },
+                    {
+                        "id": 2,
+                        "type": "level"
+                    },
+                    {
+                        "id": 3,
+                        "type": "normal"
+                    },
+                    {
+                        "id": 5,
+                        "type": "normal"
+                    }
+                ]
+            },
+            "advancedProps": [
+                {
+                    "name": "Flame-Mane's Fist DMG",
+                    "elementalGaugeTheory": "1",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": null,
+                            "text": "Elemental Burst"
+                        },
+                        "type": {
+                            "span": null,
+                            "text": "2.5s/3 Hits"
+                        }
+                    },
+                    "interruptionResistance": "50",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "250",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": true
+                },
+                {
+                    "name": "Incineration Drive DMG",
+                    "elementalGaugeTheory": "1",
+                    "internalCooldown": null,
+                    "interruptionResistance": "100",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "100",
+                        "verticalForce": "900"
+                    },
+                    "bluntAttack": true
+                }
+            ]
         },
         "4": {
             "type": 2,
             "name": "Unstinting Succor",
             "description": "Within 6 seconds after Dehya retrieves the Fiery Sanctum field through <color=#FFD780FF>Molten Inferno: Ranging Flame</color> or <color=#FFD780FF>Leonine Bite</color>, she will take 60% less DMG when receiving DMG from Redmane's Blood. This effect can be triggered once every 2s.\\nAdditionally, within 9s after Dehya unleashes <color=#FFD780FF>Molten Inferno: Indomitable Flame</color>, she will grant all party members the Gold-Forged Form state. This state will further increase a character's resistance to interruption when they are within the Fiery Sanctum field. Gold-Forged Form can be activated once every 18s.",
-            "icon": "UI_Talent_S_Dehya_05"
+            "icon": "UI_Talent_S_Dehya_05",
+            "linkedConstellations": null
         },
         "5": {
             "type": 2,
             "name": "Stalwart and True",
             "description": "When her HP is less than 40%, Dehya will recover 20% of her Max HP and will restore 6% of her Max HP every 2s for the next 10s. This effect can be triggered once every 20s.",
-            "icon": "UI_Talent_S_Dehya_06"
+            "icon": "UI_Talent_S_Dehya_06",
+            "linkedConstellations": null
         },
         "6": {
             "type": 2,
             "name": "The Sunlit Way",
-            "description": "Increases the Movement SPD of your own party members by 10% during the day (6:00 – 18:00).\\nDoes not take effect in Domains, Trounce Domains, or Spiral Abyss. Not stackable with Passive Talents that provide the exact same effects.",
-            "icon": "UI_Talent_S_Dehya_07"
+            "description": "During the day (06:00 – 18:00), your party members gain the Swift Stride effect: Movement SPD increased by 10%.\\nDoes not take effect in Domains, Trounce Domains, or Spiral Abyss. Swift Stride does not stack.",
+            "icon": "UI_Talent_S_Dehya_07",
+            "linkedConstellations": null
         }
     },
     "constellation": {
         "0": {
+            "id": 0,
             "name": "The Flame Incandescent",
             "description": "Dehya's Max HP is increased by 20%, and she deals bonus DMG based on her Max HP when using the following attacks:\\n·<color=#FFD780FF>Molten Inferno</color>'s DMG will be increased by 3.6% of her Max HP.\\n·<color=#FFD780FF>Leonine Bite</color>'s DMG will be increased by 6% of her Max HP.",
             "extraData": null,
             "icon": "UI_Talent_S_Dehya_01"
         },
         "1": {
+            "id": 1,
             "name": "The Sand-Blades Glittering",
             "description": "When Dehya uses <color=#FFD780FF>Molten Inferno: Ranging Flame</color>, the duration of the recreated Fiery Sanctum field will be increased by 6s.\\nAdditionally, when a Fiery Sanctum exists on the field, DMG dealt by its next coordinated attack will be increased by 50% when active character(s) within the Fiery Sanctum field are attacked.",
             "extraData": null,
             "icon": "UI_Talent_S_Dehya_02"
         },
         "2": {
+            "id": 2,
             "name": "A Rage Swift as Fire",
             "description": "Increases the Level of <color=#FFD780FF>Leonine Bite</color> by 3.\\nMaximum upgrade level is 15.",
             "extraData": {
@@ -2391,12 +2735,14 @@
             "icon": "UI_Talent_U_Dehya_01"
         },
         "3": {
+            "id": 3,
             "name": "An Oath Abiding",
             "description": "When Flame-Mane's Fist and Incineration Drive attacks unleashed during <color=#FFD780FF>Leonine Bite</color> hit opponents, they will restore 1.5 Energy for Dehya and 2.5% of her Max HP. This effect can be triggered once every 0.2s.",
             "extraData": null,
             "icon": "UI_Talent_S_Dehya_03"
         },
         "4": {
+            "id": 4,
             "name": "The Alpha Unleashed",
             "description": "Increases the Level of <color=#FFD780FF>Molten Inferno</color> by 3.\\nMaximum upgrade level is 15.",
             "extraData": {
@@ -2409,6 +2755,7 @@
             "icon": "UI_Talent_U_Dehya_02"
         },
         "5": {
+            "id": 5,
             "name": "The Burning Claws Cleaving",
             "description": "The CRIT Rate of <color=#FFD780FF>Leonine Bite</color> is increased by 10%.\\nAdditionally, after a Flame-Mane's Fist attack hits an opponent and deals CRIT Hits during a single Blazing Lioness state, it will cause the CRIT DMG of Leonine Bite to increase by 15% for the rest of Blazing Lioness's duration and extend that duration by 0.5s. This effect can be triggered every 0.2s. The duration can be extended for a maximum of 2s and CRIT DMG can be increased by a maximum of 60% this way.",
             "extraData": null,

@@ -91,7 +91,7 @@ function nameToId(str) {
 
 async function fetchAndWriteAvatar(id) {
   try {
-    const response = await axios.get(`https://api.ambr.top/v2/en/avatar/${id}`)
+    const response = await axios.get(`https://gi.yatta.moe/api/v2/en/avatar/${id}`)
     const { data: avatar } = response.data
 
     // i prefer name ids for readability
@@ -126,7 +126,7 @@ async function fetchAndWriteAvatar(id) {
 
 async function fetchItem(id) {
   try {
-    const response = await axios.get(`https://api.ambr.top/v2/EN/material/${id}`)
+    const response = await axios.get(`https://gi.yatta.moe/api/v2/EN/material/${id}`)
     const { data: item } = response.data
 
     const formatted = {

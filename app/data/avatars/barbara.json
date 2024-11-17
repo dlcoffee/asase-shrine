@@ -4,12 +4,15 @@
     "name": "Barbara",
     "element": "Water",
     "weaponType": "WEAPON_CATALYST",
+    "region": "MONDSTADT",
+    "specialProp": "FIGHT_PROP_HP_PERCENT",
+    "bodyType": "GIRL",
     "icon": "UI_AvatarIcon_Barbara",
     "birthday": [
         7,
         5
     ],
-    "release": 1600131600,
+    "release": 1601244000,
     "route": "Barbara",
     "fetter": {
         "title": "Shining Idol",
@@ -200,6 +203,98 @@
         "112010": 3,
         "113007": 5,
         "113012": 4
+    },
+    "items": {
+        "202": {
+            "name": "Mora",
+            "rank": 3,
+            "icon": "UI_ItemIcon_202"
+        },
+        "100025": {
+            "name": "Philanemo Mushroom",
+            "rank": 1,
+            "icon": "UI_ItemIcon_100025"
+        },
+        "104001": {
+            "name": "Wanderer's Advice",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104001"
+        },
+        "104002": {
+            "name": "Adventurer's Experience",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104002"
+        },
+        "104003": {
+            "name": "Hero's Wit",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104003"
+        },
+        "104121": {
+            "name": "Varunada Lazurite Sliver",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104121"
+        },
+        "104122": {
+            "name": "Varunada Lazurite Fragment",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104122"
+        },
+        "104123": {
+            "name": "Varunada Lazurite Chunk",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104123"
+        },
+        "104124": {
+            "name": "Varunada Lazurite Gemstone",
+            "rank": 5,
+            "icon": "UI_ItemIcon_104124"
+        },
+        "104301": {
+            "name": "Teachings of Freedom",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104301"
+        },
+        "104302": {
+            "name": "Guide to Freedom",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104302"
+        },
+        "104303": {
+            "name": "Philosophies of Freedom",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104303"
+        },
+        "104319": {
+            "name": "Crown of Insight",
+            "rank": 5,
+            "icon": "UI_ItemIcon_104319"
+        },
+        "112008": {
+            "name": "Divining Scroll",
+            "rank": 1,
+            "icon": "UI_ItemIcon_112008"
+        },
+        "112009": {
+            "name": "Sealed Scroll",
+            "rank": 2,
+            "icon": "UI_ItemIcon_112009"
+        },
+        "112010": {
+            "name": "Forbidden Curse Scroll",
+            "rank": 3,
+            "icon": "UI_ItemIcon_112010"
+        },
+        "113007": {
+            "name": "Ring of Boreas",
+            "rank": 5,
+            "icon": "UI_ItemIcon_113007"
+        },
+        "113012": {
+            "name": "Cleansing Heart",
+            "rank": 4,
+            "icon": "UI_ItemIcon_113012"
+        }
     },
     "talent": {
         "0": {
@@ -917,7 +1012,115 @@
                 }
             },
             "cooldown": 0,
-            "cost": 0
+            "cost": 0,
+            "linkedConstellations": null,
+            "advancedProps": [
+                {
+                    "name": "Normal Attack 1-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": "4",
+                            "text": "Barbara Hydro DMG"
+                        },
+                        "type": {
+                            "span": "4",
+                            "text": "2.5s/3 Hits"
+                        }
+                    },
+                    "interruptionResistance": "7.35",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Shake",
+                        "horizontalForce": "0",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 2-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "7.5",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Shake",
+                        "horizontalForce": "0",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 3-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "7.5",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Shake",
+                        "horizontalForce": "0",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 4-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "9.45",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Charged Attack",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "30",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Plunging Attack Collision",
+                    "elementalGaugeTheory": "0U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "5",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Low Plunge",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "50",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "High Plunge",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "100",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "800",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                }
+            ]
         },
         "1": {
             "type": 0,
@@ -1634,7 +1837,63 @@
                 }
             },
             "cooldown": 32,
-            "cost": 0
+            "cost": 0,
+            "linkedConstellations": {
+                "isLevelIncluded": true,
+                "prop": [
+                    {
+                        "id": 1,
+                        "type": "normal"
+                    },
+                    {
+                        "id": 4,
+                        "type": "level"
+                    }
+                ]
+            },
+            "advancedProps": [
+                {
+                    "name": "Droplet DMG",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": null,
+                            "text": "Elemental Skill"
+                        },
+                        "type": {
+                            "span": null,
+                            "text": "2.5s/3 Hits"
+                        }
+                    },
+                    "interruptionResistance": "40",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "800",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Wet Application On Contact",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "Elemental Skill",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "2.5s/1st, 4th Hits Apply Element",
+                        "horizontalForce": "—",
+                        "verticalForce": "—"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Wet to Self",
+                    "elementalGaugeTheory": "1U, 0.3s",
+                    "internalCooldown": null,
+                    "interruptionResistance": "—",
+                    "interruptionResistanceStagger": null,
+                    "bluntAttack": "—"
+                }
+            ]
         },
         "3": {
             "type": 1,
@@ -2351,41 +2610,56 @@
                 }
             },
             "cooldown": 20,
-            "cost": 80
+            "cost": 80,
+            "linkedConstellations": {
+                "isLevelIncluded": true,
+                "prop": [
+                    {
+                        "id": 2,
+                        "type": "level"
+                    }
+                ]
+            }
         },
         "4": {
             "type": 2,
             "name": "Glorious Season",
             "description": "The Stamina Consumption of characters within <color=#FFD780FF>Let the Show Begin♪</color>'s Melody Loop is reduced by 12%.",
-            "icon": "UI_Talent_S_Barbara_05"
+            "icon": "UI_Talent_S_Barbara_05",
+            "linkedConstellations": null
         },
         "5": {
             "type": 2,
             "name": "Encore",
             "description": "When your active character gains an Elemental Orb/Particle, the duration of the Melody Loop of <color=#FFD780FF>Let the Show Begin♪</color> is extended by 1s.\\nThe maximum extension is 5s.",
-            "icon": "UI_Talent_S_Barbara_06"
+            "icon": "UI_Talent_S_Barbara_06",
+            "linkedConstellations": null
         },
         "6": {
             "type": 2,
             "name": "With My Whole Heart♪",
             "description": "When a Perfect Cooking is achieved on a dish with restorative effects, there is a 12% chance to obtain double the product.",
-            "icon": "UI_Talent_Cook_Heal"
+            "icon": "UI_Talent_Cook_Heal",
+            "linkedConstellations": null
         }
     },
     "constellation": {
         "0": {
+            "id": 0,
             "name": "Gleeful Songs",
             "description": "Barbara regenerates 1 Energy every 10s.",
             "extraData": null,
             "icon": "UI_Talent_S_Barbara_01"
         },
         "1": {
+            "id": 1,
             "name": "Vitality Burst",
             "description": "Decreases the CD of <color=#FFD780FF>Let the Show Begin♪</color> by 15%.\\nDuring the ability's duration, your active character gains a 15% <color=#80C0FFFF>Hydro DMG Bonus</color>.",
             "extraData": null,
             "icon": "UI_Talent_S_Barbara_02"
         },
         "2": {
+            "id": 2,
             "name": "Star of Tomorrow",
             "description": "Increases the Level of <color=#FFD780FF>Shining Miracle♪</color> by 3.\\nMaximum upgrade level is 15.",
             "extraData": {
@@ -2398,12 +2672,14 @@
             "icon": "UI_Talent_U_Barbara_02"
         },
         "3": {
+            "id": 3,
             "name": "Attentiveness Be My Power",
             "description": "Every opponent Barbara hits with her Charged Attack regenerates 1 Energy for her.\\nA maximum of 5 energy can be regenerated in this manner with any one Charged Attack.",
             "extraData": null,
             "icon": "UI_Talent_S_Barbara_03"
         },
         "4": {
+            "id": 4,
             "name": "The Purest Companionship",
             "description": "Increases the Level of <color=#FFD780FF>Let the Show Begin♪</color> by 3.\\nMaximum upgrade level is 15.",
             "extraData": {
@@ -2416,6 +2692,7 @@
             "icon": "UI_Talent_U_Barbara_01"
         },
         "5": {
+            "id": 5,
             "name": "Dedicating Everything to You",
             "description": "When Barbara is in the party but not on the field, and one of your own party members falls:\\n·Automatically revives the fallen character.\\n·Fully restores the revived character's HP to 100%.\\nThis effect can only occur once every 15 mins.",
             "extraData": null,

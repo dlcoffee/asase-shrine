@@ -4,6 +4,9 @@
     "name": "Shenhe",
     "element": "Ice",
     "weaponType": "WEAPON_POLE",
+    "region": "LIYUE",
+    "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
+    "bodyType": "LADY",
     "icon": "UI_AvatarIcon_Shenhe",
     "birthday": [
         3,
@@ -161,6 +164,13 @@
                 "name": "The World's Shackles",
                 "description": "Shenhe's outfit. These elegant garments have accompanied her through long years of training. The red ropes that surround her body are fetters and wards simultaneously.",
                 "isDefault": true
+            },
+            {
+                "name": "Frostflower Dew",
+                "description": "This Lantern Rite gift that Shenhe received is a set of elegant formal attire that her master, Cloud Retainer had commissioned for her. Red ropes still adorn her arms, but the bitter cold in Shenhe's heart has faded.",
+                "storyId": 340014,
+                "icon": "UI_AvatarIcon_ShenheCostumeDai",
+                "rank": 4
             }
         ],
         "furnitureId": 368145,
@@ -193,6 +203,98 @@
         "112040": 3,
         "113026": 5,
         "113031": 4
+    },
+    "items": {
+        "202": {
+            "name": "Mora",
+            "rank": 3,
+            "icon": "UI_ItemIcon_202"
+        },
+        "100031": {
+            "name": "Qingxin",
+            "rank": 1,
+            "icon": "UI_ItemIcon_100031"
+        },
+        "104001": {
+            "name": "Wanderer's Advice",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104001"
+        },
+        "104002": {
+            "name": "Adventurer's Experience",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104002"
+        },
+        "104003": {
+            "name": "Hero's Wit",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104003"
+        },
+        "104161": {
+            "name": "Shivada Jade Sliver",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104161"
+        },
+        "104162": {
+            "name": "Shivada Jade Fragment",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104162"
+        },
+        "104163": {
+            "name": "Shivada Jade Chunk",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104163"
+        },
+        "104164": {
+            "name": "Shivada Jade Gemstone",
+            "rank": 5,
+            "icon": "UI_ItemIcon_104164"
+        },
+        "104310": {
+            "name": "Teachings of Prosperity",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104310"
+        },
+        "104311": {
+            "name": "Guide to Prosperity",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104311"
+        },
+        "104312": {
+            "name": "Philosophies of Prosperity",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104312"
+        },
+        "104319": {
+            "name": "Crown of Insight",
+            "rank": 5,
+            "icon": "UI_ItemIcon_104319"
+        },
+        "112038": {
+            "name": "Whopperflower Nectar",
+            "rank": 1,
+            "icon": "UI_ItemIcon_112038"
+        },
+        "112039": {
+            "name": "Shimmering Nectar",
+            "rank": 2,
+            "icon": "UI_ItemIcon_112039"
+        },
+        "112040": {
+            "name": "Energy Nectar",
+            "rank": 3,
+            "icon": "UI_ItemIcon_112040"
+        },
+        "113026": {
+            "name": "Hellfire Butterfly",
+            "rank": 5,
+            "icon": "UI_ItemIcon_113026"
+        },
+        "113031": {
+            "name": "Dragonheir's False Fin",
+            "rank": 4,
+            "icon": "UI_ItemIcon_113031"
+        }
     },
     "talent": {
         "0": {
@@ -910,7 +1012,148 @@
                 }
             },
             "cooldown": 0,
-            "cost": 0
+            "cost": 0,
+            "linkedConstellations": null,
+            "advancedProps": [
+                {
+                    "name": "Normal Attack 1-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": "6",
+                            "text": "Normal Attack"
+                        },
+                        "type": {
+                            "span": "6",
+                            "text": "2.5s/3 Hits"
+                        }
+                    },
+                    "interruptionResistance": "46.08",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 2-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "43.44",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 3-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "56.31",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "800",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 4-Hit A",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "27.88",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 4-Hit B",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "27.88",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "800",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 5-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "73.6",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "655",
+                        "verticalForce": "800"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Charged Attack",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": null,
+                            "text": "Charged Attack"
+                        },
+                        "type": {
+                            "span": null,
+                            "text": "0.5s"
+                        }
+                    },
+                    "interruptionResistance": "120",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "480",
+                        "verticalForce": "600"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Plunging Attack Collision",
+                    "elementalGaugeTheory": "0U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "25",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Low Plunge",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "100",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "800",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": true
+                },
+                {
+                    "name": "High Plunge",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "150",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "0",
+                        "verticalForce": "800"
+                    },
+                    "bluntAttack": true
+                }
+            ]
         },
         "1": {
             "type": 0,
@@ -1627,7 +1870,59 @@
                 }
             },
             "cooldown": 10,
-            "cost": 0
+            "cost": 0,
+            "linkedConstellations": {
+                "isLevelIncluded": true,
+                "prop": [
+                    {
+                        "id": 0,
+                        "type": "normal"
+                    },
+                    {
+                        "id": 2,
+                        "type": "level"
+                    },
+                    {
+                        "id": 3,
+                        "type": "normal"
+                    }
+                ]
+            },
+            "advancedProps": [
+                {
+                    "name": "Press DMG",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": null,
+                            "text": "Elemental Skill"
+                        },
+                        "type": {
+                            "span": null,
+                            "text": "0.1s"
+                        }
+                    },
+                    "interruptionResistance": "100",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Hold DMG",
+                    "elementalGaugeTheory": "2U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "200",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                }
+            ]
         },
         "3": {
             "type": 1,
@@ -2344,41 +2639,95 @@
                 }
             },
             "cooldown": 20,
-            "cost": 80
+            "cost": 80,
+            "linkedConstellations": {
+                "isLevelIncluded": true,
+                "prop": [
+                    {
+                        "id": 1,
+                        "type": "normal"
+                    },
+                    {
+                        "id": 4,
+                        "type": "level"
+                    }
+                ]
+            },
+            "advancedProps": [
+                {
+                    "name": "Skill DMG",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "250",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": true
+                },
+                {
+                    "name": "DoT",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": null,
+                            "text": "Elemental Burst"
+                        },
+                        "type": {
+                            "span": null,
+                            "text": "2.5s/3 Hits"
+                        }
+                    },
+                    "interruptionResistance": "50",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                }
+            ]
         },
         "4": {
             "type": 2,
             "name": "Deific Embrace",
             "description": "An active character within the field created by <color=#FFD780FF>Divine Maiden's Deliverance</color> gains 15% <color=#99FFFFFF>Cryo DMG Bonus</color>.",
-            "icon": "UI_Talent_S_Shenhe_05"
+            "icon": "UI_Talent_S_Shenhe_05",
+            "linkedConstellations": null
         },
         "5": {
             "type": 2,
             "name": "Spirit Communion Seal",
             "description": "#After Shenhe uses <color=#FFD780FF>Spring Spirit Summoning</color>, she will grant all nearby party members the following effects:\\n· {LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}: Elemental Skill and Elemental Burst DMG increased by 15% for 10s.\\n· Hold: Normal, Charged, and Plunging Attack DMG increased by 15% for 15s.",
-            "icon": "UI_Talent_S_Shenhe_06"
+            "icon": "UI_Talent_S_Shenhe_06",
+            "linkedConstellations": null
         },
         "6": {
             "type": 2,
             "name": "Precise Comings and Goings",
             "description": "Gains 25% more rewards when dispatched on a Liyue Expedition for 20 hours.",
-            "icon": "UI_Talent_Expedition_Liyue"
+            "icon": "UI_Talent_Expedition_Liyue",
+            "linkedConstellations": null
         }
     },
     "constellation": {
         "0": {
+            "id": 0,
             "name": "Clarity of Heart",
             "description": "<color=#FFD780FF>Spring Spirit Summoning</color> can be used 1 more time.",
             "extraData": null,
             "icon": "UI_Talent_S_Shenhe_02"
         },
         "1": {
+            "id": 1,
             "name": "Centered Spirit",
             "description": "<color=#FFD780FF>Divine Maiden's Deliverance</color> lasts for 6 seconds longer. Active characters within the skill's field deal 15% increased <color=#99FFFFFF>Cryo</color> CRIT DMG.",
             "extraData": null,
             "icon": "UI_Talent_S_Shenhe_01"
         },
         "2": {
+            "id": 2,
             "name": "Seclusion",
             "description": "Increases the Level of <color=#FFD780FF>Spring Spirit Summoning</color> by 3.\\nMaximum upgrade level is 15.",
             "extraData": {
@@ -2391,12 +2740,14 @@
             "icon": "UI_Talent_U_Shenhe_01"
         },
         "3": {
+            "id": 3,
             "name": "Insight",
             "description": "When characters under the effect of <color=#FFD780FF>Icy Quill</color> applied by Shenhe trigger its DMG Bonus effects, Shenhe will gain a Skyfrost Mantra stack:\\n· When Shenhe uses <color=#FFD780FF>Spring Spirit Summoning</color>, she will consume all stacks of Skyfrost Mantra, increasing the DMG of that Spring Spirit Summoning by 5% for each stack consumed.\\n· Max 50 stacks. Stacks last for 60s.",
             "extraData": null,
             "icon": "UI_Talent_S_Shenhe_03"
         },
         "4": {
+            "id": 4,
             "name": "Divine Attainment",
             "description": "Increases the Level of <color=#FFD780FF>Divine Maiden's Deliverance</color> by 3.\\nMaximum upgrade level is 15.",
             "extraData": {
@@ -2409,6 +2760,7 @@
             "icon": "UI_Talent_U_Shenhe_02"
         },
         "5": {
+            "id": 5,
             "name": "Mystical Abandon",
             "description": "When characters trigger <color=#FFD780FF>Icy Quill</color>'s effects using Normal and Charged Attack DMG, it does not count toward the Trigger Quota.",
             "extraData": null,

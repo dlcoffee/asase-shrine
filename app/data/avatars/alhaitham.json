@@ -4,6 +4,9 @@
     "name": "Alhaitham",
     "element": "Grass",
     "weaponType": "WEAPON_SWORD_ONE_HAND",
+    "region": "SUMERU",
+    "specialProp": "FIGHT_PROP_GRASS_ADD_HURT",
+    "bodyType": "MALE",
     "icon": "UI_AvatarIcon_Alhatham",
     "birthday": [
         2,
@@ -193,6 +196,98 @@
         "112067": 3,
         "113042": 5,
         "113044": 4
+    },
+    "items": {
+        "202": {
+            "name": "Mora",
+            "rank": 3,
+            "icon": "UI_ItemIcon_202"
+        },
+        "101222": {
+            "name": "Sand Grease Pupa",
+            "rank": 1,
+            "icon": "UI_ItemIcon_101222"
+        },
+        "104001": {
+            "name": "Wanderer's Advice",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104001"
+        },
+        "104002": {
+            "name": "Adventurer's Experience",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104002"
+        },
+        "104003": {
+            "name": "Hero's Wit",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104003"
+        },
+        "104131": {
+            "name": "Nagadus Emerald Sliver",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104131"
+        },
+        "104132": {
+            "name": "Nagadus Emerald Fragment",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104132"
+        },
+        "104133": {
+            "name": "Nagadus Emerald Chunk",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104133"
+        },
+        "104134": {
+            "name": "Nagadus Emerald Gemstone",
+            "rank": 5,
+            "icon": "UI_ItemIcon_104134"
+        },
+        "104319": {
+            "name": "Crown of Insight",
+            "rank": 5,
+            "icon": "UI_ItemIcon_104319"
+        },
+        "104332": {
+            "name": "Teachings of Ingenuity",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104332"
+        },
+        "104333": {
+            "name": "Guide to Ingenuity",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104333"
+        },
+        "104334": {
+            "name": "Philosophies of Ingenuity",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104334"
+        },
+        "112065": {
+            "name": "Faded Red Satin",
+            "rank": 1,
+            "icon": "UI_ItemIcon_112065"
+        },
+        "112066": {
+            "name": "Trimmed Red Silk",
+            "rank": 2,
+            "icon": "UI_ItemIcon_112066"
+        },
+        "112067": {
+            "name": "Rich Red Brocade",
+            "rank": 3,
+            "icon": "UI_ItemIcon_112067"
+        },
+        "113042": {
+            "name": "Mirror of Mushin",
+            "rank": 5,
+            "icon": "UI_ItemIcon_113042"
+        },
+        "113044": {
+            "name": "Pseudo-Stamens",
+            "rank": 4,
+            "icon": "UI_ItemIcon_113044"
+        }
     },
     "talent": {
         "0": {
@@ -910,7 +1005,160 @@
                 }
             },
             "cooldown": 0,
-            "cost": 0
+            "cost": 0,
+            "linkedConstellations": null,
+            "advancedProps": [
+                {
+                    "name": "Normal Attack 1-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": "6",
+                            "text": "Normal Attack"
+                        },
+                        "type": {
+                            "span": "6",
+                            "text": "2.5s/3 Hits"
+                        }
+                    },
+                    "interruptionResistance": "58.5",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 2-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "59.5",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 3-Hit A",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "39",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 3-Hit B",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "39",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 4-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "77",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "800",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 5-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "101",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "480",
+                        "verticalForce": "600"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Charged Attack A",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": "2",
+                            "text": "Charged Attack"
+                        },
+                        "type": {
+                            "span": "2",
+                            "text": "2s"
+                        }
+                    },
+                    "interruptionResistance": "60",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Charged Attack B",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "60",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "655",
+                        "verticalForce": "800"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Plunging Attack Collision",
+                    "elementalGaugeTheory": "0U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "25",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Low Plunge",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "100",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "800",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": true
+                },
+                {
+                    "name": "High Plunge",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "150",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "0",
+                        "verticalForce": "800"
+                    },
+                    "bluntAttack": true
+                }
+            ]
         },
         "1": {
             "type": 0,
@@ -1627,7 +1875,79 @@
                 }
             },
             "cooldown": 18,
-            "cost": 0
+            "cost": 0,
+            "linkedConstellations": {
+                "isLevelIncluded": true,
+                "prop": [
+                    {
+                        "id": 0,
+                        "type": "normal"
+                    },
+                    {
+                        "id": 2,
+                        "type": "level"
+                    }
+                ]
+            },
+            "advancedProps": [
+                {
+                    "name": "Rush Attack DMG",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "100",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "1-Mirror Projection Attack DMG",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": "3",
+                            "text": "Elemental Skill"
+                        },
+                        "type": {
+                            "span": "3",
+                            "text": "12s/2 Hits"
+                        }
+                    },
+                    "interruptionResistance": "50",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "2-Mirror Projection Attack DMG",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "50",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "3-Mirror Projection Attack DMG",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "50",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                }
+            ]
         },
         "3": {
             "type": 1,
@@ -2344,41 +2664,87 @@
                 }
             },
             "cooldown": 18,
-            "cost": 70
+            "cost": 70,
+            "linkedConstellations": {
+                "isLevelIncluded": true,
+                "prop": [
+                    {
+                        "id": 3,
+                        "type": "normal"
+                    },
+                    {
+                        "id": 4,
+                        "type": "level"
+                    },
+                    {
+                        "id": 5,
+                        "type": "normal"
+                    }
+                ]
+            },
+            "advancedProps": [
+                {
+                    "name": "Single-Instance DMG",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": null,
+                            "text": "Elemental Burst"
+                        },
+                        "type": {
+                            "span": null,
+                            "text": "2.5s/3 Hits"
+                        }
+                    },
+                    "interruptionResistance": "35",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                }
+            ]
         },
         "4": {
             "type": 2,
             "name": "Four-Causal Correction",
             "description": "When Alhaitham's Charged or Plunging Attacks hit opponents, they will generate 1 Chisel-Light Mirror. This effect can be triggered once every 12s.",
-            "icon": "UI_Talent_S_Alhatham_05"
+            "icon": "UI_Talent_S_Alhatham_05",
+            "linkedConstellations": null
         },
         "5": {
             "type": 2,
             "name": "Mysteries Laid Bare",
             "description": "Each point of Alhaitham's Elemental Mastery will increase the DMG dealt by Projection Attacks and <color=#FFD780FF>Particular Field: Fetters of Phenomena</color> by 0.1%.\\nThe DMG of both aforementioned abilities can be increased by a maximum of 100% this way.",
-            "icon": "UI_Talent_S_Alhatham_06"
+            "icon": "UI_Talent_S_Alhatham_06",
+            "linkedConstellations": null
         },
         "6": {
             "type": 2,
             "name": "Law of Reductive Overdetermination",
             "description": "When Alhaitham crafts Weapon Ascension Materials, he has a 10% chance to receive double the product.",
-            "icon": "UI_Talent_S_Alhatham_07"
+            "icon": "UI_Talent_S_Alhatham_07",
+            "linkedConstellations": null
         }
     },
     "constellation": {
         "0": {
+            "id": 0,
             "name": "Intuition",
             "description": "When a Projection Attack hits an opponent, <color=#FFD780FF>Universality: An Elaboration on Form</color>'s CD is decreased by 1.2s. This effect can be triggered once every 1s.",
             "extraData": null,
             "icon": "UI_Talent_S_Alhatham_02"
         },
         "1": {
+            "id": 1,
             "name": "Debate",
             "description": "When Alhaitham generates a Chisel-Light Mirror, his Elemental Mastery will be increased by 50 for 8 seconds, max 4 stacks. Each stack's duration is counted independently. This effect can be triggered even when the maximum number of Chisel-Light Mirrors has been reached.",
             "extraData": null,
             "icon": "UI_Talent_S_Alhatham_01"
         },
         "2": {
+            "id": 2,
             "name": "Negation",
             "description": "Increases the Level of <color=#FFD780FF>Universality: An Elaboration on Form</color> by 3.\\nMaximum upgrade level is 15.",
             "extraData": {
@@ -2391,12 +2757,14 @@
             "icon": "UI_Talent_U_Alhatham_01"
         },
         "3": {
+            "id": 3,
             "name": "Elucidation",
             "description": "When <color=#FFD780FF>Particular Field: Fetters of Phenomena</color> is unleashed, the following effects will become active based on the number of Chisel-Light Mirrors consumed and created this time around:\\n·Each Mirror consumed will increase the Elemental Mastery of all other nearby party members by 30 for 15s.\\n·Each Mirror generated will grant Alhaitham a 10% <color=#99FF88FF>Dendro DMG Bonus</color> for 15s.\\n\\nThe pre-existing duration of the aforementioned effects will be cleared if you use Particular Field: Fetters of Phenomena again while they are in effect.",
             "extraData": null,
             "icon": "UI_Talent_S_Alhatham_03"
         },
         "4": {
+            "id": 4,
             "name": "Sagacity",
             "description": "Increases the Level of <color=#FFD780FF>Particular Field: Fetters of Phenomena</color> by 3.\\nMaximum upgrade level is 15.",
             "extraData": {
@@ -2409,6 +2777,7 @@
             "icon": "UI_Talent_U_Alhatham_02"
         },
         "5": {
+            "id": 5,
             "name": "Structuration",
             "description": "Alhaitham gains the following effects:\\n· 2 seconds after <color=#FFD780FF>Particular Field: Fetters of Phenomena</color> is unleashed, he will generate 3 Chisel-Light Mirrors regardless of the number of mirrors consumed.\\n· If Alhaitham generates Chisel-Light Mirrors when their numbers have already maxed out, his CRIT Rate and CRIT DMG will increase by 10% and 70% respectively for 6s. If this effect is triggered again during its initial duration, the duration remaining will be increased by 6s.",
             "extraData": null,

@@ -4,12 +4,15 @@
     "name": "Lisa",
     "element": "Electric",
     "weaponType": "WEAPON_CATALYST",
+    "region": "MONDSTADT",
+    "specialProp": "FIGHT_PROP_ELEMENT_MASTERY",
+    "bodyType": "LADY",
     "icon": "UI_AvatarIcon_Lisa",
     "birthday": [
         6,
         9
     ],
-    "release": 1600131600,
+    "release": 1601244000,
     "route": "Lisa",
     "fetter": {
         "title": "Witch of Purple Rose",
@@ -200,6 +203,98 @@
         "112004": 3,
         "113002": 4,
         "113004": 5
+    },
+    "items": {
+        "202": {
+            "name": "Mora",
+            "rank": 3,
+            "icon": "UI_ItemIcon_202"
+        },
+        "100022": {
+            "name": "Valberry",
+            "rank": 1,
+            "icon": "UI_ItemIcon_100022"
+        },
+        "104001": {
+            "name": "Wanderer's Advice",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104001"
+        },
+        "104002": {
+            "name": "Adventurer's Experience",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104002"
+        },
+        "104003": {
+            "name": "Hero's Wit",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104003"
+        },
+        "104141": {
+            "name": "Vajrada Amethyst Sliver",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104141"
+        },
+        "104142": {
+            "name": "Vajrada Amethyst Fragment",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104142"
+        },
+        "104143": {
+            "name": "Vajrada Amethyst Chunk",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104143"
+        },
+        "104144": {
+            "name": "Vajrada Amethyst Gemstone",
+            "rank": 5,
+            "icon": "UI_ItemIcon_104144"
+        },
+        "104307": {
+            "name": "Teachings of Ballad",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104307"
+        },
+        "104308": {
+            "name": "Guide to Ballad",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104308"
+        },
+        "104309": {
+            "name": "Philosophies of Ballad",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104309"
+        },
+        "104319": {
+            "name": "Crown of Insight",
+            "rank": 5,
+            "icon": "UI_ItemIcon_104319"
+        },
+        "112002": {
+            "name": "Slime Condensate",
+            "rank": 1,
+            "icon": "UI_ItemIcon_112002"
+        },
+        "112003": {
+            "name": "Slime Secretions",
+            "rank": 2,
+            "icon": "UI_ItemIcon_112003"
+        },
+        "112004": {
+            "name": "Slime Concentrate",
+            "rank": 3,
+            "icon": "UI_ItemIcon_112004"
+        },
+        "113002": {
+            "name": "Lightning Prism",
+            "rank": 4,
+            "icon": "UI_ItemIcon_113002"
+        },
+        "113004": {
+            "name": "Dvalin's Claw",
+            "rank": 5,
+            "icon": "UI_ItemIcon_113004"
+        }
     },
     "talent": {
         "0": {
@@ -917,7 +1012,115 @@
                 }
             },
             "cooldown": 0,
-            "cost": 0
+            "cost": 0,
+            "linkedConstellations": null,
+            "advancedProps": [
+                {
+                    "name": "Normal Attack 1-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": "4",
+                            "text": "Lisa Electro DMG"
+                        },
+                        "type": {
+                            "span": "4",
+                            "text": "2.5s/3 Hits"
+                        }
+                    },
+                    "interruptionResistance": "6.75",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Shake",
+                        "horizontalForce": "0",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 2-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "6",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Shake",
+                        "horizontalForce": "0",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 3-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "7.35",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Shake",
+                        "horizontalForce": "0",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 4-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "8.7",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Shake",
+                        "horizontalForce": "0",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Charged Attack",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "15",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Plunging Attack Collision",
+                    "elementalGaugeTheory": "0U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "5",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Low Plunge",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "50",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "High Plunge",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "100",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "800",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                }
+            ]
         },
         "1": {
             "type": 0,
@@ -1634,7 +1837,99 @@
                 }
             },
             "cooldown": 16,
-            "cost": 0
+            "cost": 0,
+            "linkedConstellations": {
+                "isLevelIncluded": true,
+                "prop": [
+                    {
+                        "id": 0,
+                        "type": "normal"
+                    },
+                    {
+                        "id": 1,
+                        "type": "normal"
+                    },
+                    {
+                        "id": 4,
+                        "type": "level"
+                    },
+                    {
+                        "id": 5,
+                        "type": "normal"
+                    }
+                ]
+            },
+            "advancedProps": [
+                {
+                    "name": "Press DMG",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": null,
+                            "text": "Lisa Electro DMG"
+                        },
+                        "type": {
+                            "span": null,
+                            "text": "2.5s/3 Hits"
+                        }
+                    },
+                    "interruptionResistance": "18",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Hold DMG (0 Stacks)",
+                    "elementalGaugeTheory": "2U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "150",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Hold DMG (1 Stack)",
+                    "elementalGaugeTheory": "2U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "195",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Hold DMG (2 Stacks)",
+                    "elementalGaugeTheory": "2U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "240",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Hold DMG (3 Stacks)",
+                    "elementalGaugeTheory": "2U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "300",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                }
+            ]
         },
         "3": {
             "type": 1,
@@ -2351,41 +2646,95 @@
                 }
             },
             "cooldown": 20,
-            "cost": 80
+            "cost": 80,
+            "linkedConstellations": {
+                "isLevelIncluded": true,
+                "prop": [
+                    {
+                        "id": 2,
+                        "type": "level"
+                    },
+                    {
+                        "id": 3,
+                        "type": "normal"
+                    }
+                ]
+            },
+            "advancedProps": [
+                {
+                    "name": "Activation DMG",
+                    "elementalGaugeTheory": "0U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "10",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "800",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Discharge DMG",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": null,
+                            "text": "Elemental Burst"
+                        },
+                        "type": {
+                            "span": null,
+                            "text": "2.5s/3 Hits"
+                        }
+                    },
+                    "interruptionResistance": "10",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                }
+            ]
         },
         "4": {
             "type": 2,
             "name": "Induced Aftershock",
             "description": "Hits by Charged Attacks apply <color=#FFD780FF>Violet Arc</color>'s Conductive status to opponents.",
-            "icon": "UI_Talent_S_Lisa_05"
+            "icon": "UI_Talent_S_Lisa_05",
+            "linkedConstellations": null
         },
         "5": {
             "type": 2,
             "name": "Static Electricity Field",
             "description": "Opponents hit by <color=#FFD780FF>Lightning Rose</color> have their DEF decreased by 15% for 10s.",
-            "icon": "UI_Talent_S_Lisa_06"
+            "icon": "UI_Talent_S_Lisa_06",
+            "linkedConstellations": null
         },
         "6": {
             "type": 2,
             "name": "General Pharmaceutics",
             "description": "When Lisa crafts a potion, she has a 20% chance to refund a portion of the crafting materials used.",
-            "icon": "UI_Talent_Combine_Potion"
+            "icon": "UI_Talent_Combine_Potion",
+            "linkedConstellations": null
         }
     },
     "constellation": {
         "0": {
+            "id": 0,
             "name": "Infinite Circuit",
             "description": "Lisa regenerates 2 Energy for every opponent hit while holding <color=#FFD780FF>Violet Arc</color>.\\nA maximum of 10 Energy can be regenerated in this manner at any one time.",
             "extraData": null,
             "icon": "UI_Talent_S_Lisa_01"
         },
         "1": {
+            "id": 1,
             "name": "Electromagnetic Field",
             "description": "Holding <color=#FFD780FF>Violet Arc</color> has the following effects:\\n·Increases DEF by 25%.\\n·Increases Lisa's resistance to interruption.",
             "extraData": null,
             "icon": "UI_Talent_S_Lisa_02"
         },
         "2": {
+            "id": 2,
             "name": "Resonant Thunder",
             "description": "Increases the Level of <color=#FFD780FF>Lightning Rose</color> by 3.\\nMaximum upgrade level is 15.",
             "extraData": {
@@ -2398,12 +2747,14 @@
             "icon": "UI_Talent_U_Lisa_02"
         },
         "3": {
+            "id": 3,
             "name": "Plasma Eruption",
             "description": "<color=#FFD780FF>Lightning Rose</color> now unleashes 1-3 lightning bolts when it attacks.",
             "extraData": null,
             "icon": "UI_Talent_S_Lisa_03"
         },
         "4": {
+            "id": 4,
             "name": "Electrocute",
             "description": "Increases the Level of <color=#FFD780FF>Violet Arc</color> by 3.\\nMaximum upgrade level is 15.",
             "extraData": {
@@ -2416,6 +2767,7 @@
             "icon": "UI_Talent_U_Lisa_01"
         },
         "5": {
+            "id": 5,
             "name": "Pulsating Witch",
             "description": "When Lisa takes the field, she applies 3 stacks of <color=#FFD780FF>Violet Arc</color>'s Conductive status onto nearby opponents.\\nThis effect can only occur once every 5s.",
             "extraData": null,

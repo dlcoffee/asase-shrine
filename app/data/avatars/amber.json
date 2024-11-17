@@ -4,12 +4,15 @@
     "name": "Amber",
     "element": "Fire",
     "weaponType": "WEAPON_BOW",
+    "region": "MONDSTADT",
+    "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
+    "bodyType": "GIRL",
     "icon": "UI_AvatarIcon_Ambor",
     "birthday": [
         8,
         10
     ],
-    "release": 1600131600,
+    "release": 1601244000,
     "route": "Amber",
     "fetter": {
         "title": "Gliding Champion",
@@ -200,6 +203,98 @@
         "112013": 3,
         "113005": 5,
         "113011": 4
+    },
+    "items": {
+        "202": {
+            "name": "Mora",
+            "rank": 3,
+            "icon": "UI_ItemIcon_202"
+        },
+        "100055": {
+            "name": "Small Lamp Grass",
+            "rank": 1,
+            "icon": "UI_ItemIcon_100055"
+        },
+        "104001": {
+            "name": "Wanderer's Advice",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104001"
+        },
+        "104002": {
+            "name": "Adventurer's Experience",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104002"
+        },
+        "104003": {
+            "name": "Hero's Wit",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104003"
+        },
+        "104111": {
+            "name": "Agnidus Agate Sliver",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104111"
+        },
+        "104112": {
+            "name": "Agnidus Agate Fragment",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104112"
+        },
+        "104113": {
+            "name": "Agnidus Agate Chunk",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104113"
+        },
+        "104114": {
+            "name": "Agnidus Agate Gemstone",
+            "rank": 5,
+            "icon": "UI_ItemIcon_104114"
+        },
+        "104301": {
+            "name": "Teachings of Freedom",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104301"
+        },
+        "104302": {
+            "name": "Guide to Freedom",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104302"
+        },
+        "104303": {
+            "name": "Philosophies of Freedom",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104303"
+        },
+        "104319": {
+            "name": "Crown of Insight",
+            "rank": 5,
+            "icon": "UI_ItemIcon_104319"
+        },
+        "112011": {
+            "name": "Firm Arrowhead",
+            "rank": 1,
+            "icon": "UI_ItemIcon_112011"
+        },
+        "112012": {
+            "name": "Sharp Arrowhead",
+            "rank": 2,
+            "icon": "UI_ItemIcon_112012"
+        },
+        "112013": {
+            "name": "Weathered Arrowhead",
+            "rank": 3,
+            "icon": "UI_ItemIcon_112013"
+        },
+        "113005": {
+            "name": "Dvalin's Sigh",
+            "rank": 5,
+            "icon": "UI_ItemIcon_113005"
+        },
+        "113011": {
+            "name": "Everflame Seed",
+            "rank": 4,
+            "icon": "UI_ItemIcon_113011"
+        }
     },
     "talent": {
         "0": {
@@ -917,7 +1012,163 @@
                 }
             },
             "cooldown": 0,
-            "cost": 0
+            "cost": 0,
+            "linkedConstellations": null,
+            "advancedProps": [
+                {
+                    "name": "Normal Attack 1-Hit",
+                    "elementalGaugeTheory": "—",
+                    "internalCooldown": null,
+                    "interruptionResistance": "12.9",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Shake",
+                        "horizontalForce": "0",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 2-Hit",
+                    "elementalGaugeTheory": "—",
+                    "internalCooldown": null,
+                    "interruptionResistance": "13.2",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Shake",
+                        "horizontalForce": "0",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 3-Hit",
+                    "elementalGaugeTheory": "—",
+                    "internalCooldown": null,
+                    "interruptionResistance": "15",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Shake",
+                        "horizontalForce": "0",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 4-Hit",
+                    "elementalGaugeTheory": "—",
+                    "internalCooldown": null,
+                    "interruptionResistance": "14.4",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Shake",
+                        "horizontalForce": "0",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 5-Hit",
+                    "elementalGaugeTheory": "—",
+                    "internalCooldown": null,
+                    "interruptionResistance": "16.5",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Shake",
+                        "horizontalForce": "0",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Aimed Shot",
+                    "elementalGaugeTheory": "—",
+                    "internalCooldown": null,
+                    "interruptionResistance": "10",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Aimed Shot (Hit Weak Spot)",
+                    "elementalGaugeTheory": "—",
+                    "internalCooldown": null,
+                    "interruptionResistance": "30",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "480",
+                        "verticalForce": "600"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Fully-Charged Aimed Shot",
+                    "elementalGaugeTheory": "2U(w/ Dropoff)",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": "2",
+                            "text": "Charged Attack"
+                        },
+                        "type": {
+                            "span": "2",
+                            "text": "1s/3 Hits"
+                        }
+                    },
+                    "interruptionResistance": "20",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Fully-Charged Aimed Shot (Hit Weak Spot)",
+                    "elementalGaugeTheory": "2U(w/ Dropoff)",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "60",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "480",
+                        "verticalForce": "600"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Plunging Attack Collision",
+                    "elementalGaugeTheory": "—",
+                    "internalCooldown": null,
+                    "interruptionResistance": "10",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Low Plunge",
+                    "elementalGaugeTheory": "—",
+                    "internalCooldown": null,
+                    "interruptionResistance": "50",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "High Plunge",
+                    "elementalGaugeTheory": "—",
+                    "internalCooldown": null,
+                    "interruptionResistance": "100",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                }
+            ]
         },
         "1": {
             "type": 0,
@@ -1634,7 +1885,34 @@
                 }
             },
             "cooldown": 15,
-            "cost": 0
+            "cost": 0,
+            "linkedConstellations": {
+                "isLevelIncluded": false,
+                "prop": [
+                    {
+                        "id": 3,
+                        "type": "normal"
+                    },
+                    {
+                        "id": 4,
+                        "type": "normal"
+                    }
+                ]
+            },
+            "advancedProps": [
+                {
+                    "name": "Explosion DMG",
+                    "elementalGaugeTheory": "2U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "260",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "480",
+                        "verticalForce": "600"
+                    },
+                    "bluntAttack": true
+                }
+            ]
         },
         "3": {
             "type": 1,
@@ -2351,59 +2629,139 @@
                 }
             },
             "cooldown": 12,
-            "cost": 40
+            "cost": 40,
+            "linkedConstellations": {
+                "isLevelIncluded": false,
+                "prop": [
+                    {
+                        "id": 2,
+                        "type": "normal"
+                    },
+                    {
+                        "id": 5,
+                        "type": "normal"
+                    }
+                ]
+            },
+            "advancedProps": [
+                {
+                    "name": "5 Main Arrows",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": "2",
+                            "text": "Elemental Burst"
+                        },
+                        "type": {
+                            "span": "2",
+                            "text": "1s/3 Hits"
+                        }
+                    },
+                    "interruptionResistance": "7.22",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "13 Sub Arrows",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "7.22",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Mute",
+                        "horizontalForce": "0",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                }
+            ]
         },
         "4": {
             "type": 2,
             "name": "Every Arrow Finds Its Target",
             "description": "Increases the CRIT Rate of <color=#FFD780FF>Fiery Rain</color> by 10% and widens its AoE by 30%.",
-            "icon": "UI_Talent_S_Ambor_05"
+            "icon": "UI_Talent_S_Ambor_05",
+            "linkedConstellations": null
         },
         "5": {
             "type": 2,
             "name": "Precise Shot",
             "description": "Aimed Shot hits on weak points increase ATK by 15% for 10s.",
-            "icon": "UI_Talent_S_Ambor_06"
+            "icon": "UI_Talent_S_Ambor_06",
+            "linkedConstellations": null
         },
         "6": {
             "type": 2,
             "name": "Gliding Champion",
             "description": "Decreases gliding Stamina consumption for your own party members by 20%.\\nNot stackable with Passive Talents that provide the exact same effects.",
-            "icon": "UI_Talent_Explosion_Glide"
+            "icon": "UI_Talent_Explosion_Glide",
+            "linkedConstellations": null
         }
     },
     "constellation": {
         "0": {
+            "id": 0,
             "name": "One Arrow to Rule Them All",
             "description": "Fires 2 arrows per <color=#FFD780FF>Aimed Shot</color>. The second arrow deals 20% of the first arrow's DMG.",
             "extraData": null,
-            "icon": "UI_Talent_S_Ambor_01"
+            "icon": "UI_Talent_S_Ambor_01",
+            "advancedProps": [
+                {
+                    "name": "Extra Arrow",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": null,
+                            "text": "Charged Attack"
+                        },
+                        "type": {
+                            "span": null,
+                            "text": "1s/3 Hits"
+                        }
+                    },
+                    "interruptionResistance": "2",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                }
+            ]
         },
         "1": {
+            "id": 1,
             "name": "Bunny Triggered",
             "description": "Baron Bunny, new and improved! Hitting Baron Bunny's foot with a fully-charged Aimed Shot manually detonates it.\\nExplosion via manual detonation deals 200% additional DMG.",
             "extraData": null,
             "icon": "UI_Talent_S_Ambor_02"
         },
         "2": {
+            "id": 2,
             "name": "It Burns!",
             "description": "Increases the Level of <color=#FFD780FF>Fiery Rain</color> by 3.\\nMaximum upgrade level is 15.",
             "extraData": null,
             "icon": "UI_Talent_U_Ambor_02"
         },
         "3": {
+            "id": 3,
             "name": "It's Not Just Any Doll...",
             "description": "Decreases <color=#FFD780FF>Explosive Puppet</color>'s CD by 20%. Adds 1 additional charge.",
             "extraData": null,
             "icon": "UI_Talent_S_Ambor_03"
         },
         "4": {
+            "id": 4,
             "name": "It's Baron Bunny!",
             "description": "Increases the Level of <color=#FFD780FF>Explosive Puppet</color> by 3.\\nMaximum upgrade level is 15.",
             "extraData": null,
             "icon": "UI_Talent_U_Ambor_01"
         },
         "5": {
+            "id": 5,
             "name": "Wildfire",
             "description": "<color=#FFD780FF>Fiery Rain</color> increases all party members' Movement SPD by 15% and ATK by 15% for 10s.",
             "extraData": null,

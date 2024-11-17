@@ -4,12 +4,15 @@
     "name": "Razor",
     "element": "Electric",
     "weaponType": "WEAPON_CLAYMORE",
+    "region": "MONDSTADT",
+    "specialProp": "FIGHT_PROP_PHYSICAL_ADD_HURT",
+    "bodyType": "BOY",
     "icon": "UI_AvatarIcon_Razor",
     "birthday": [
         9,
         9
     ],
-    "release": 1600131600,
+    "release": 1601244000,
     "route": "Razor",
     "fetter": {
         "title": "Wolf Boy",
@@ -193,6 +196,98 @@
         "112007": 3,
         "113002": 4,
         "113004": 5
+    },
+    "items": {
+        "202": {
+            "name": "Mora",
+            "rank": 3,
+            "icon": "UI_ItemIcon_202"
+        },
+        "100021": {
+            "name": "Wolfhook",
+            "rank": 1,
+            "icon": "UI_ItemIcon_100021"
+        },
+        "104001": {
+            "name": "Wanderer's Advice",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104001"
+        },
+        "104002": {
+            "name": "Adventurer's Experience",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104002"
+        },
+        "104003": {
+            "name": "Hero's Wit",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104003"
+        },
+        "104141": {
+            "name": "Vajrada Amethyst Sliver",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104141"
+        },
+        "104142": {
+            "name": "Vajrada Amethyst Fragment",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104142"
+        },
+        "104143": {
+            "name": "Vajrada Amethyst Chunk",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104143"
+        },
+        "104144": {
+            "name": "Vajrada Amethyst Gemstone",
+            "rank": 5,
+            "icon": "UI_ItemIcon_104144"
+        },
+        "104304": {
+            "name": "Teachings of Resistance",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104304"
+        },
+        "104305": {
+            "name": "Guide to Resistance",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104305"
+        },
+        "104306": {
+            "name": "Philosophies of Resistance",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104306"
+        },
+        "104319": {
+            "name": "Crown of Insight",
+            "rank": 5,
+            "icon": "UI_ItemIcon_104319"
+        },
+        "112005": {
+            "name": "Damaged Mask",
+            "rank": 1,
+            "icon": "UI_ItemIcon_112005"
+        },
+        "112006": {
+            "name": "Stained Mask",
+            "rank": 2,
+            "icon": "UI_ItemIcon_112006"
+        },
+        "112007": {
+            "name": "Ominous Mask",
+            "rank": 3,
+            "icon": "UI_ItemIcon_112007"
+        },
+        "113002": {
+            "name": "Lightning Prism",
+            "rank": 4,
+            "icon": "UI_ItemIcon_113002"
+        },
+        "113004": {
+            "name": "Dvalin's Claw",
+            "rank": 5,
+            "icon": "UI_ItemIcon_113004"
+        }
     },
     "talent": {
         "0": {
@@ -910,7 +1005,127 @@
                 }
             },
             "cooldown": 0,
-            "cost": 0
+            "cost": 0,
+            "linkedConstellations": null,
+            "advancedProps": [
+                {
+                    "name": "Normal Attack 1-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": "6",
+                            "text": "Normal Attack"
+                        },
+                        "type": {
+                            "span": "6",
+                            "text": "2.5s/3 Hits"
+                        }
+                    },
+                    "interruptionResistance": "112.93",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": true
+                },
+                {
+                    "name": "Normal Attack 2-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "97.27",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": true
+                },
+                {
+                    "name": "Normal Attack 3-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "121.67",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": true
+                },
+                {
+                    "name": "Normal Attack 4-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "160.19",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "655",
+                        "verticalForce": "800"
+                    },
+                    "bluntAttack": true
+                },
+                {
+                    "name": "Charged Attack Cyclic",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "60",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": true
+                },
+                {
+                    "name": "Charged Attack Final Slash",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "120",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "655",
+                        "verticalForce": "800"
+                    },
+                    "bluntAttack": true
+                },
+                {
+                    "name": "Plunging Attack Collision",
+                    "elementalGaugeTheory": "0U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "35",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Low Plunge",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "150",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "800",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": true
+                },
+                {
+                    "name": "High Plunge",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "200",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "0",
+                        "verticalForce": "800"
+                    },
+                    "bluntAttack": true
+                }
+            ]
         },
         "1": {
             "type": 0,
@@ -1627,7 +1842,62 @@
                 }
             },
             "cooldown": 6,
-            "cost": 0
+            "cost": 0,
+            "linkedConstellations": {
+                "isLevelIncluded": true,
+                "prop": [
+                    {
+                        "id": 3,
+                        "type": "normal"
+                    },
+                    {
+                        "id": 4,
+                        "type": "level"
+                    },
+                    {
+                        "id": 5,
+                        "type": "normal"
+                    }
+                ]
+            },
+            "advancedProps": [
+                {
+                    "name": "Press DMG",
+                    "elementalGaugeTheory": "2U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "140",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Hold DMG",
+                    "elementalGaugeTheory": "2U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "300",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": true
+                },
+                {
+                    "name": "Hold DMG (During Burst)",
+                    "elementalGaugeTheory": "2U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "300",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "480",
+                        "verticalForce": "600"
+                    },
+                    "bluntAttack": true
+                }
+            ]
         },
         "3": {
             "type": 1,
@@ -2344,41 +2614,139 @@
                 }
             },
             "cooldown": 20,
-            "cost": 80
+            "cost": 80,
+            "linkedConstellations": {
+                "isLevelIncluded": true,
+                "prop": [
+                    {
+                        "id": 2,
+                        "type": "level"
+                    },
+                    {
+                        "id": 5,
+                        "type": "normal"
+                    }
+                ]
+            },
+            "advancedProps": [
+                {
+                    "name": "Elemental Burst DMG",
+                    "elementalGaugeTheory": "2U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "51.75",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": true
+                },
+                {
+                    "name": "Soul Companion DMG 1-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": "4",
+                            "text": "Elemental Burst Extra"
+                        },
+                        "type": {
+                            "span": "4",
+                            "text": "2.5s/3 Hits"
+                        }
+                    },
+                    "interruptionResistance": "88.23",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Soul Companion DMG 2-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "76.12",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Soul Companion DMG 3-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "95.15",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Soul Companion DMG 4-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "124.26",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "655",
+                        "verticalForce": "800"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Electro to Self",
+                    "elementalGaugeTheory": "1U, 2.1s",
+                    "internalCooldown": null,
+                    "interruptionResistance": "—",
+                    "interruptionResistanceStagger": null,
+                    "bluntAttack": "—"
+                }
+            ]
         },
         "4": {
             "type": 2,
             "name": "Awakening",
             "description": "Decreases <color=#FFD780FF>Claw and Thunder</color>'s CD by 18%.\\nUsing <color=#FFD780FF>Lightning Fang</color> resets the CD of <color=#FFD780FF>Claw and Thunder</color>.",
-            "icon": "UI_Talent_S_Razor_05"
+            "icon": "UI_Talent_S_Razor_05",
+            "linkedConstellations": null
         },
         "5": {
             "type": 2,
             "name": "Hunger",
             "description": "When Razor's Energy is below 50%, increases Energy Recharge by 30%.",
-            "icon": "UI_Talent_S_Razor_06"
+            "icon": "UI_Talent_S_Razor_06",
+            "linkedConstellations": null
         },
         "6": {
             "type": 2,
             "name": "Wolvensprint",
             "description": "Decreases sprinting Stamina consumption for your own party members by 20%.\\nNot stackable with Passive Talents that provide the exact same effects.",
-            "icon": "UI_Talent_Explosion_Sprint"
+            "icon": "UI_Talent_Explosion_Sprint",
+            "linkedConstellations": null
         }
     },
     "constellation": {
         "0": {
+            "id": 0,
             "name": "Wolf's Instinct",
             "description": "Picking up an Elemental Orb or Particle increases Razor's DMG by 10% for 8s.",
             "extraData": null,
             "icon": "UI_Talent_S_Razor_01"
         },
         "1": {
+            "id": 1,
             "name": "Suppression",
             "description": "Increases CRIT Rate against opponents with less than 30% HP by 10%.",
             "extraData": null,
             "icon": "UI_Talent_S_Razor_02"
         },
         "2": {
+            "id": 2,
             "name": "Soul Companion",
             "description": "Increases the Level of <color=#FFD780FF>Lightning Fang</color> by 3.\\nMaximum upgrade level is 15.",
             "extraData": {
@@ -2391,12 +2759,14 @@
             "icon": "UI_Talent_U_Razor_02"
         },
         "3": {
+            "id": 3,
             "name": "Bite",
             "description": "#When casting <color=#FFD780FF>Claw and Thunder</color> ({LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}), opponents hit will have their DEF decreased by 15% for 7s.",
             "extraData": null,
             "icon": "UI_Talent_S_Razor_03"
         },
         "4": {
+            "id": 4,
             "name": "Sharpened Claws",
             "description": "Increases the Level of <color=#FFD780FF>Claw and Thunder</color> by 3.\\nMaximum upgrade level is 15.",
             "extraData": {
@@ -2409,10 +2779,25 @@
             "icon": "UI_Talent_U_Razor_01"
         },
         "5": {
+            "id": 5,
             "name": "Lupus Fulguris",
             "description": "Every 10s, Razor's sword charges up, causing the next Normal Attack to release lightning that deals 100% of Razor's ATK as <color=#FFACFFFF>Electro DMG</color>.\\nWhen Razor is not using <color=#FFD780FF>Lightning Fang</color>, a lightning strike on an opponent will grant Razor an Electro Sigil for <color=#FFD780FF>Claw and Thunder</color>.",
             "extraData": null,
-            "icon": "UI_Talent_S_Razor_04"
+            "icon": "UI_Talent_S_Razor_04",
+            "advancedProps": [
+                {
+                    "name": "Lightning",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "69",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                }
+            ]
         }
     },
     "_id": 10000020

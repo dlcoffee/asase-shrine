@@ -71,7 +71,7 @@ function parseDescription(description: string) {
 }
 
 function iconUrl(icon: string) {
-  return `https://api.ambr.top/assets/UI/${icon}.png`
+  return `https://gi.yatta.moe/assets/UI/${icon}.png`
 }
 
 function titleCase(text: string) {

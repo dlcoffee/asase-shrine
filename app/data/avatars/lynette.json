@@ -4,23 +4,26 @@
     "name": "Lynette",
     "element": "Wind",
     "weaponType": "WEAPON_SWORD_ONE_HAND",
+    "region": "FONTAINE",
+    "specialProp": "FIGHT_PROP_WIND_ADD_HURT",
+    "bodyType": "GIRL",
     "icon": "UI_AvatarIcon_Linette",
     "birthday": [
         2,
         2
     ],
-    "release": 1690059600,
+    "release": 1692046800,
     "route": "Lynette",
     "fetter": {
         "title": "Elegance in the Shadows",
-        "detail": "???",
+        "detail": "A magic assistant of few words, her emotions are as inscrutable as any cat's.",
         "constellation": "Felis Alba",
-        "native": "???",
+        "native": "Hotel Bouffes d'ete",
         "cv": {
-            "EN": "",
-            "CHS": "",
-            "JP": "",
-            "KR": ""
+            "EN": "Anairis Quiñones",
+            "CHS": "可可味",
+            "JP": "篠原侑",
+            "KR": "Lee Serena"
         }
     },
     "upgrade": {
@@ -166,8 +169,8 @@
         "furnitureId": 368169,
         "nameCard": {
             "id": 210166,
-            "name": "？？？",
-            "description": "？？？",
+            "name": "Lynette: Earnestness",
+            "description": "Namecard style.\\nOne major type of magic revolves around \"appearing suddenly.\" Lynette is usually conserving her energy, but her serious side can \"appear\" as abruptly as pigeons from a hat.",
             "icon": "UI_NameCardIcon_Linette"
         },
         "specialFood": {
@@ -193,6 +196,98 @@
         "112085": 3,
         "113048": 5,
         "113049": 4
+    },
+    "items": {
+        "202": {
+            "name": "Mora",
+            "rank": 3,
+            "icon": "UI_ItemIcon_202"
+        },
+        "101235": {
+            "name": "Lumidouce Bell",
+            "rank": 1,
+            "icon": "UI_ItemIcon_101235"
+        },
+        "104001": {
+            "name": "Wanderer's Advice",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104001"
+        },
+        "104002": {
+            "name": "Adventurer's Experience",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104002"
+        },
+        "104003": {
+            "name": "Hero's Wit",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104003"
+        },
+        "104151": {
+            "name": "Vayuda Turquoise Sliver",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104151"
+        },
+        "104152": {
+            "name": "Vayuda Turquoise Fragment",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104152"
+        },
+        "104153": {
+            "name": "Vayuda Turquoise Chunk",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104153"
+        },
+        "104154": {
+            "name": "Vayuda Turquoise Gemstone",
+            "rank": 5,
+            "icon": "UI_ItemIcon_104154"
+        },
+        "104319": {
+            "name": "Crown of Insight",
+            "rank": 5,
+            "icon": "UI_ItemIcon_104319"
+        },
+        "104344": {
+            "name": "Teachings of Order",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104344"
+        },
+        "104345": {
+            "name": "Guide to Order",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104345"
+        },
+        "104346": {
+            "name": "Philosophies of Order",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104346"
+        },
+        "112083": {
+            "name": "Meshing Gear",
+            "rank": 1,
+            "icon": "UI_ItemIcon_112083"
+        },
+        "112084": {
+            "name": "Mechanical Spur Gear",
+            "rank": 2,
+            "icon": "UI_ItemIcon_112084"
+        },
+        "112085": {
+            "name": "Artificed Dynamic Gear",
+            "rank": 3,
+            "icon": "UI_ItemIcon_112085"
+        },
+        "113048": {
+            "name": "Everamber",
+            "rank": 5,
+            "icon": "UI_ItemIcon_113048"
+        },
+        "113049": {
+            "name": "Artificed Spare Clockwork Component — Coppelia",
+            "rank": 4,
+            "icon": "UI_ItemIcon_113049"
+        }
     },
     "talent": {
         "0": {
@@ -910,12 +1005,144 @@
                 }
             },
             "cooldown": 0,
-            "cost": 0
+            "cost": 0,
+            "linkedConstellations": null,
+            "advancedProps": [
+                {
+                    "name": "Normal Attack 1-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": "7",
+                            "text": "Normal Attack"
+                        },
+                        "type": {
+                            "span": "7",
+                            "text": "2.5s/3 Hits"
+                        }
+                    },
+                    "interruptionResistance": "46.0575",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 2-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "40.2102",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 3-Hit A",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "27",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 3-Hit B",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "27",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 4-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "67.6422",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "800",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Charged Attack 1-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "60",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Charged Attack 2-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "60",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "655",
+                        "verticalForce": "800"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Plunging Attack Collision",
+                    "elementalGaugeTheory": "0U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "25",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Low Plunge",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "100",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "800",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": true
+                },
+                {
+                    "name": "High Plunge",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "150",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "0",
+                        "verticalForce": "800"
+                    },
+                    "bluntAttack": true
+                }
+            ]
         },
         "1": {
             "type": 0,
             "name": "Enigmatic Feint",
-            "description": "#Flicks her mantle and executes an Enigma Thrust, dealing <color=#80FFD7FF>Anemo DMG</color>.\\nWhen the Enigma Thrust hits an opponent, it will restore Lynette's HP based on her Max HP, and in the 4s afterward, she will lose a certain amount of HP per second.\\nBased on whether you {LAYOUT_MOBILE#tap}{LAYOUT_PC#press}{LAYOUT_PS#press} or hold this ability, she will use Enigma Thrust differently.\\n\\n<color=#FFD780FF>{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}</color>\\nShe swiftly uses an Enigma Thrust.\\n\\n<color=#FFD780FF>Hold</color>\\nLynette will enter a high-speed Pilfering Shadow state and apply Shadowsign to a nearby opponent.\\nWhen this high-speed state ends, Lynette will unleash her Enigma Thrust. If there is an opponent with Shadowsign applied to them nearby, Lynette will approach them in a flash before using Enigma Thrust.\\n\\nA maximum of 1 opponent can have Shadowsign at any one time. When this opponent gets too far from Lynette, the Shadowsign will be canceled.\\n\\n<color=#FFD780FF>Arkhe: Ousia</color>\\nAt specific intervals, Lynette will unleash a Surging Blade when she uses Enigma Thrust, dealing Ousia-aligned <color=#80FFD7FF>Anemo DMG</color>.\\n\\n<i>\"Now then, turn your eyes to the stage and continue to enjoy the performance. When I next appear, I'll be where you least expect.\"</i>",
+            "description": "#Flicks her mantle and executes an Enigma Thrust, dealing <color=#80FFD7FF>Anemo DMG</color>.\\nWhen the Enigma Thrust hits an opponent, it will restore Lynette's HP based on her Max HP, and in the 4s afterward, she will lose a certain amount of HP per second.\\nBased on whether you {LAYOUT_MOBILE#tap}{LAYOUT_PC#press}{LAYOUT_PS#press} or hold this ability, she will use Enigma Thrust differently.\\n\\n<color=#FFD780FF>{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}</color>\\nShe swiftly uses an Enigma Thrust.\\n\\n<color=#FFD780FF>Hold</color>\\nLynette will enter a high-speed Pilfering Shadow state and apply Shadowsign to a nearby opponent. You can control her movement direction during this state, and you can end it prematurely by using this skill again.\\nWhen this high-speed state ends, Lynette will unleash her Enigma Thrust. If there is an opponent with Shadowsign applied to them nearby, Lynette will approach them in a flash before using Enigma Thrust.\\n\\nA maximum of 1 opponent can have Shadowsign at any one time. When this opponent gets too far from Lynette, the Shadowsign will be canceled.\\n\\n<color=#FFD780FF>Arkhe: Ousia</color>\\nAt specific intervals, Lynette will unleash a Surging Blade when she uses Enigma Thrust, dealing Ousia-aligned <color=#80FFD7FF>Anemo DMG</color>.\\n\\n<i>\"Now then, turn your eyes to the stage and continue to enjoy the performance. When I next appear, I'll be where you least expect.\"</i>",
             "icon": "Skill_S_Linette_01",
             "promote": {
                 "1": {
@@ -1627,7 +1854,66 @@
                 }
             },
             "cooldown": 12,
-            "cost": 0
+            "cost": 0,
+            "linkedConstellations": {
+                "isLevelIncluded": true,
+                "prop": [
+                    {
+                        "id": 0,
+                        "type": "normal"
+                    },
+                    {
+                        "id": 3,
+                        "type": "normal"
+                    },
+                    {
+                        "id": 4,
+                        "type": "level"
+                    },
+                    {
+                        "id": 5,
+                        "type": "normal"
+                    }
+                ]
+            },
+            "advancedProps": [
+                {
+                    "name": "Enigma Thrust DMG (Press)",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "100",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Enigma Thrust DMG (Hold)",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "125",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Surging Blade DMG",
+                    "elementalGaugeTheory": "0U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "20",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                }
+            ]
         },
         "3": {
             "type": 1,
@@ -2344,41 +2630,116 @@
                 }
             },
             "cooldown": 18,
-            "cost": 70
+            "cost": 70,
+            "linkedConstellations": {
+                "isLevelIncluded": true,
+                "prop": [
+                    {
+                        "id": 1,
+                        "type": "normal"
+                    },
+                    {
+                        "id": 2,
+                        "type": "level"
+                    }
+                ]
+            },
+            "advancedProps": [
+                {
+                    "name": "Skill DMG",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": "2",
+                            "text": "Elemental Burst"
+                        },
+                        "type": {
+                            "span": "2",
+                            "text": "2.5s/3 Hits"
+                        }
+                    },
+                    "interruptionResistance": "40",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Bogglecat Box DMG",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "40",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Vivid Shot DMG",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": null,
+                            "text": "Vivid Shot"
+                        },
+                        "type": {
+                            "span": null,
+                            "text": "2.5s/3 Hits"
+                        }
+                    },
+                    "interruptionResistance": "40",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                }
+            ]
         },
         "4": {
             "type": 2,
             "name": "Sophisticated Synergy",
             "description": "Within 10s after using <color=#FFD780FF>Magic Trick: Astonishing Shift</color>, when there are 1/2/3/4 Elemental Types in the party, all party members' ATK will be increased by 8%/12%/16%/20% respectively.",
-            "icon": "UI_Talent_S_Linette_05"
+            "icon": "UI_Talent_S_Linette_05",
+            "linkedConstellations": null
         },
         "5": {
             "type": 2,
             "name": "Props Positively Prepped",
             "description": "After the Bogglecat Box summoned by <color=#FFD780FF>Magic Trick: Astonishing Shift</color> performs Elemental Conversion, Lynette's Elemental Burst will deal 15% more DMG. This effect will persist until the Bogglecat Box's duration ends.",
-            "icon": "UI_Talent_S_Linette_06"
+            "icon": "UI_Talent_S_Linette_06",
+            "linkedConstellations": null
         },
         "6": {
             "type": 2,
             "name": "Loci-Based Mnemonics",
-            "description": "Shows the location of nearby <color=#FFD780FF>Recovery Orbs</color> on the minimap. The underwater Stamina and HP gained from touching Orbs will be increased by 25%.",
-            "icon": "UI_Talent_S_Linette_07"
+            "description": "Shows the location of nearby <color=#FFD780FF>Recovery Orbs</color> on the minimap. The Aquatic Stamina and HP gained from touching Orbs will be increased by 25%.",
+            "icon": "UI_Talent_S_Linette_07",
+            "linkedConstellations": null
         }
     },
     "constellation": {
         "0": {
+            "id": 0,
             "name": "A Cold Blade Like a Shadow",
             "description": "When <color=#FFD780FF>Enigmatic Feint</color>'s Enigma Thrust hits an opponent with Shadowsign, a vortex will be created at that opponent's position that will pull nearby opponents in.",
             "extraData": null,
             "icon": "UI_Talent_S_Linette_01"
         },
         "1": {
+            "id": 1,
             "name": "Endless Mysteries",
             "description": "Whenever the Bogglecat Box summoned by <color=#FFD780FF>Magic Trick: Astonishing Shift</color> fires a Vivid Shot, it will fire an extra Vivid Shot.",
             "extraData": null,
             "icon": "UI_Talent_S_Linette_02"
         },
         "2": {
+            "id": 2,
             "name": "Cognition-Inverting Gaze",
             "description": "Increases the Level of <color=#FFD780FF>Magic Trick: Astonishing Shift</color> by 3.\\nMaximum upgrade level is 15.",
             "extraData": {
@@ -2391,12 +2752,14 @@
             "icon": "UI_Talent_U_Linette_01"
         },
         "3": {
+            "id": 3,
             "name": "Tacit Coordination",
             "description": "Increases <color=#FFD780FF>Enigmatic Feint</color>'s charges by 1.",
             "extraData": null,
             "icon": "UI_Talent_S_Linette_03"
         },
         "4": {
+            "id": 4,
             "name": "Obscuring Ambiguity",
             "description": "Increases the Level of <color=#FFD780FF>Enigmatic Feint</color> by 3.\\nMaximum upgrade level is 15.",
             "extraData": {
@@ -2409,12 +2772,12 @@
             "icon": "UI_Talent_U_Linette_02"
         },
         "5": {
+            "id": 5,
             "name": "Watchful Eye",
             "description": "When Lynette uses <color=#FFD780FF>Enigmatic Feint</color>'s Enigma Thrust, she will gain an <color=#80FFD7FF>Anemo Infusion</color> and 20% <color=#80FFD7FF>Anemo DMG Bonus</color> for 6s.",
             "extraData": null,
             "icon": "UI_Talent_S_Linette_04"
         }
     },
-    "beta": true,
     "_id": 10000083
 }

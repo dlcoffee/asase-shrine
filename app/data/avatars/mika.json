@@ -4,6 +4,9 @@
     "name": "Mika",
     "element": "Ice",
     "weaponType": "WEAPON_POLE",
+    "region": "MONDSTADT",
+    "specialProp": "FIGHT_PROP_HP_PERCENT",
+    "bodyType": "BOY",
     "icon": "UI_AvatarIcon_Mika",
     "birthday": [
         8,
@@ -193,6 +196,98 @@
         "112034": 3,
         "113042": 5,
         "113044": 4
+    },
+    "items": {
+        "202": {
+            "name": "Mora",
+            "rank": 3,
+            "icon": "UI_ItemIcon_202"
+        },
+        "100021": {
+            "name": "Wolfhook",
+            "rank": 1,
+            "icon": "UI_ItemIcon_100021"
+        },
+        "104001": {
+            "name": "Wanderer's Advice",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104001"
+        },
+        "104002": {
+            "name": "Adventurer's Experience",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104002"
+        },
+        "104003": {
+            "name": "Hero's Wit",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104003"
+        },
+        "104161": {
+            "name": "Shivada Jade Sliver",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104161"
+        },
+        "104162": {
+            "name": "Shivada Jade Fragment",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104162"
+        },
+        "104163": {
+            "name": "Shivada Jade Chunk",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104163"
+        },
+        "104164": {
+            "name": "Shivada Jade Gemstone",
+            "rank": 5,
+            "icon": "UI_ItemIcon_104164"
+        },
+        "104307": {
+            "name": "Teachings of Ballad",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104307"
+        },
+        "104308": {
+            "name": "Guide to Ballad",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104308"
+        },
+        "104309": {
+            "name": "Philosophies of Ballad",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104309"
+        },
+        "104319": {
+            "name": "Crown of Insight",
+            "rank": 5,
+            "icon": "UI_ItemIcon_104319"
+        },
+        "112032": {
+            "name": "Recruit's Insignia",
+            "rank": 1,
+            "icon": "UI_ItemIcon_112032"
+        },
+        "112033": {
+            "name": "Sergeant's Insignia",
+            "rank": 2,
+            "icon": "UI_ItemIcon_112033"
+        },
+        "112034": {
+            "name": "Lieutenant's Insignia",
+            "rank": 3,
+            "icon": "UI_ItemIcon_112034"
+        },
+        "113042": {
+            "name": "Mirror of Mushin",
+            "rank": 5,
+            "icon": "UI_ItemIcon_113042"
+        },
+        "113044": {
+            "name": "Pseudo-Stamens",
+            "rank": 4,
+            "icon": "UI_ItemIcon_113044"
+        }
     },
     "talent": {
         "0": {
@@ -910,7 +1005,148 @@
                 }
             },
             "cooldown": 0,
-            "cost": 0
+            "cost": 0,
+            "linkedConstellations": null,
+            "advancedProps": [
+                {
+                    "name": "Normal Attack 1-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": "6",
+                            "text": "Normal Attack"
+                        },
+                        "type": {
+                            "span": "6",
+                            "text": "2.5s/3 Hits"
+                        }
+                    },
+                    "interruptionResistance": "40.245",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 2-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "38.606",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 3-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "50.701",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "800",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 4-Hit A",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "25.68",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Shake",
+                        "horizontalForce": "0",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 4-Hit B",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "25.68",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Shake",
+                        "horizontalForce": "0",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 5-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "65.93",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "480",
+                        "verticalForce": "600"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Charged Attack",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": null,
+                            "text": "0.5s"
+                        },
+                        "type": {
+                            "span": null,
+                            "text": ""
+                        }
+                    },
+                    "interruptionResistance": "120",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "480",
+                        "verticalForce": "600"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Plunging Attack Collision",
+                    "elementalGaugeTheory": "0U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "25",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Low Plunge",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "100",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "800",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": true
+                },
+                {
+                    "name": "High Plunge",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "150",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "0",
+                        "verticalForce": "800"
+                    },
+                    "bluntAttack": true
+                }
+            ]
         },
         "1": {
             "type": 0,
@@ -1627,7 +1863,75 @@
                 }
             },
             "cooldown": 15,
-            "cost": 0
+            "cost": 0,
+            "linkedConstellations": {
+                "isLevelIncluded": true,
+                "prop": [
+                    {
+                        "id": 0,
+                        "type": "normal"
+                    },
+                    {
+                        "id": 1,
+                        "type": "normal"
+                    },
+                    {
+                        "id": 4,
+                        "type": "level"
+                    },
+                    {
+                        "id": 5,
+                        "type": "normal"
+                    }
+                ]
+            },
+            "advancedProps": [
+                {
+                    "name": "Flowfrost Arrow DMG",
+                    "elementalGaugeTheory": "1",
+                    "internalCooldown": null,
+                    "interruptionResistance": "100",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Rimestar Flare DMG",
+                    "elementalGaugeTheory": "1",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": "2",
+                            "text": "Elemental Skill"
+                        },
+                        "type": {
+                            "span": "2",
+                            "text": "2.5s/3 Hits"
+                        }
+                    },
+                    "interruptionResistance": "100",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Rimestar Shard DMG",
+                    "elementalGaugeTheory": "1",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "50",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                }
+            ]
         },
         "3": {
             "type": 1,
@@ -2344,41 +2648,76 @@
                 }
             },
             "cooldown": 18,
-            "cost": 70
+            "cost": 70,
+            "linkedConstellations": {
+                "isLevelIncluded": true,
+                "prop": [
+                    {
+                        "id": 0,
+                        "type": "normal"
+                    },
+                    {
+                        "id": 2,
+                        "type": "level"
+                    },
+                    {
+                        "id": 3,
+                        "type": "normal"
+                    }
+                ]
+            }
         },
         "4": {
             "type": 2,
             "name": "Suppressive Barrage",
             "description": "Per the following circumstances, the Soulwind state caused by <color=#FFD780FF>Starfrost Swirl</color> will grant characters the Detector effect, increasing their Physical DMG by 10% when they are on the field.\\n·If the Flowfrost Arrow hits more than one opponent, each additional opponent hit will generate 1 Detector stack.\\n·When a Rimestar Shard hits an opponent, it will generate 1 Detector stack. Each Rimestar Shard can trigger the effect 1 time.\\n\\nThe Soulwind state can have a maximum of 3 Detector stacks, and if Starfrost Swirl is cast again during this duration, the pre-existing Soulwind state and all its Detector stacks will be cleared.",
-            "icon": "UI_Talent_S_Mika_05"
+            "icon": "UI_Talent_S_Mika_05",
+            "linkedConstellations": {
+                "isLevelIncluded": false,
+                "prop": [
+                    {
+                        "id": 1,
+                        "type": "normal"
+                    },
+                    {
+                        "id": 5,
+                        "type": "normal"
+                    }
+                ]
+            }
         },
         "5": {
             "type": 2,
             "name": "Topographical Mapping",
             "description": "When an active character affected by both <color=#FFD780FF>Skyfeather Song</color>'s Eagleplume and <color=#FFD780FF>Starfrost Swirl</color>'s Soulwind at once scores a CRIT Hit with their attacks, Soulwind will grant them 1 stack of Detector from Suppressive Barrage. During a single instance of Soulwind, 1 Detector stack can be gained in this manner.\\nAdditionally, the maximum number of stacks that can be gained through Soulwind alone is increased by 1.\\nRequires Suppressive Barrage to be unlocked first.",
-            "icon": "UI_Talent_S_Mika_06"
+            "icon": "UI_Talent_S_Mika_06",
+            "linkedConstellations": null
         },
         "6": {
             "type": 2,
             "name": "Demarcation",
             "description": "Displays the location of nearby <color=#FFD780FF>resources unique to Mondstadt</color> on the mini-map.",
-            "icon": "UI_Talent_Collect_Local_Mengde"
+            "icon": "UI_Talent_Collect_Local_Mengde",
+            "linkedConstellations": null
         }
     },
     "constellation": {
         "0": {
+            "id": 0,
             "name": "Factor Confluence",
             "description": "The Soulwind state of <color=#FFD780FF>Starfrost Swirl</color> can decrease the healing interval between instances caused by <color=#FFD780FF>Skyfeather Song</color>'s Eagleplume state. This decrease percentage is equal to the ATK SPD increase provided by Soulwind.",
             "extraData": null,
             "icon": "UI_Talent_S_Mika_01"
         },
         "1": {
+            "id": 1,
             "name": "Companion's Ingress",
             "description": "When <color=#FFD780FF>Starfrost Swirl</color>'s Flowfrost Arrow first hits an opponent, or its Rimestar Flare hits an opponent, 1 Detector stack from Passive Talent \"Suppressive Barrage\" will be generated.\\nYou must have unlocked the Passive Talent \"Suppressive Barrage\" first.",
             "extraData": null,
             "icon": "UI_Talent_S_Mika_02"
         },
         "2": {
+            "id": 2,
             "name": "Reconnaissance Experience",
             "description": "Increases the Level of <color=#FFD780FF>Skyfeather Song</color> by 3.\\nMaximum upgrade level is 15.",
             "extraData": {
@@ -2391,12 +2730,14 @@
             "icon": "UI_Talent_U_Mika_01"
         },
         "3": {
+            "id": 3,
             "name": "Sunfrost Encomium",
             "description": "When Mika's own <color=#FFD780FF>Skyfeather Song</color>'s Eagleplume state heals party members, this will restore 3 Energy to Mika. This form of Energy restoration can occur 5 times during the Eagleplume state created by 1 use of Skyfeather Song.",
             "extraData": null,
             "icon": "UI_Talent_S_Mika_03"
         },
         "4": {
+            "id": 4,
             "name": "Signal Arrow",
             "description": "Increases the Level of <color=#FFD780FF>Starfrost Swirl</color> by 3.\\nMaximum upgrade level is 15.",
             "extraData": {
@@ -2409,6 +2750,7 @@
             "icon": "UI_Talent_U_Mika_02"
         },
         "5": {
+            "id": 5,
             "name": "Companion's Counsel",
             "description": "The maximum number of Detector stacks that <color=#FFD780FF>Starfrost Swirl</color>'s Soulwind can gain is increased by 1. You need to have unlocked the Passive Talent \"Suppressive Barrage\" first.\\nAdditionally, active characters affected by Soulwind will deal 60% more Physical CRIT DMG.",
             "extraData": null,

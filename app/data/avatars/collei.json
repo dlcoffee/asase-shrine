@@ -4,6 +4,9 @@
     "name": "Collei",
     "element": "Grass",
     "weaponType": "WEAPON_BOW",
+    "region": "SUMERU",
+    "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
+    "bodyType": "GIRL",
     "icon": "UI_AvatarIcon_Collei",
     "birthday": [
         5,
@@ -193,6 +196,98 @@
         "112013": 3,
         "113033": 5,
         "113036": 4
+    },
+    "items": {
+        "202": {
+            "name": "Mora",
+            "rank": 3,
+            "icon": "UI_ItemIcon_202"
+        },
+        "101213": {
+            "name": "Rukkhashava Mushrooms",
+            "rank": 1,
+            "icon": "UI_ItemIcon_101213"
+        },
+        "104001": {
+            "name": "Wanderer's Advice",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104001"
+        },
+        "104002": {
+            "name": "Adventurer's Experience",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104002"
+        },
+        "104003": {
+            "name": "Hero's Wit",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104003"
+        },
+        "104131": {
+            "name": "Nagadus Emerald Sliver",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104131"
+        },
+        "104132": {
+            "name": "Nagadus Emerald Fragment",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104132"
+        },
+        "104133": {
+            "name": "Nagadus Emerald Chunk",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104133"
+        },
+        "104134": {
+            "name": "Nagadus Emerald Gemstone",
+            "rank": 5,
+            "icon": "UI_ItemIcon_104134"
+        },
+        "104319": {
+            "name": "Crown of Insight",
+            "rank": 5,
+            "icon": "UI_ItemIcon_104319"
+        },
+        "104335": {
+            "name": "Teachings of Praxis",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104335"
+        },
+        "104336": {
+            "name": "Guide to Praxis",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104336"
+        },
+        "104337": {
+            "name": "Philosophies of Praxis",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104337"
+        },
+        "112011": {
+            "name": "Firm Arrowhead",
+            "rank": 1,
+            "icon": "UI_ItemIcon_112011"
+        },
+        "112012": {
+            "name": "Sharp Arrowhead",
+            "rank": 2,
+            "icon": "UI_ItemIcon_112012"
+        },
+        "112013": {
+            "name": "Weathered Arrowhead",
+            "rank": 3,
+            "icon": "UI_ItemIcon_112013"
+        },
+        "113033": {
+            "name": "Tears of the Calamitous God",
+            "rank": 5,
+            "icon": "UI_ItemIcon_113033"
+        },
+        "113036": {
+            "name": "Majestic Hooked Beak",
+            "rank": 4,
+            "icon": "UI_ItemIcon_113036"
+        }
     },
     "talent": {
         "0": {
@@ -910,7 +1005,142 @@
                 }
             },
             "cooldown": 0,
-            "cost": 0
+            "cost": 0,
+            "linkedConstellations": null,
+            "advancedProps": [
+                {
+                    "name": "Normal Attack 1-Hit",
+                    "elementalGaugeTheory": "—",
+                    "internalCooldown": null,
+                    "interruptionResistance": "15.21",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Shake",
+                        "horizontalForce": "0",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 2-Hit",
+                    "elementalGaugeTheory": "—",
+                    "internalCooldown": null,
+                    "interruptionResistance": "14.88",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Shake",
+                        "horizontalForce": "0",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 3-Hit",
+                    "elementalGaugeTheory": "—",
+                    "internalCooldown": null,
+                    "interruptionResistance": "18.87",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Shake",
+                        "horizontalForce": "0",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 4-Hit",
+                    "elementalGaugeTheory": "—",
+                    "internalCooldown": null,
+                    "interruptionResistance": "23.73",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Shake",
+                        "horizontalForce": "0",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Aimed Shot",
+                    "elementalGaugeTheory": "—",
+                    "internalCooldown": null,
+                    "interruptionResistance": "10",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Aimed Shot (Hit Weak Spot)",
+                    "elementalGaugeTheory": "—",
+                    "internalCooldown": null,
+                    "interruptionResistance": "30",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "480",
+                        "verticalForce": "600"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Fully-Charged Aimed Shot",
+                    "elementalGaugeTheory": "1U(w/ Dropoff)",
+                    "internalCooldown": null,
+                    "interruptionResistance": "20",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Fully-Charged Aimed Shot (Hit Weak Spot)",
+                    "elementalGaugeTheory": "1U(w/ Dropoff)",
+                    "internalCooldown": null,
+                    "interruptionResistance": "60",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "480",
+                        "verticalForce": "600"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Plunging Attack Collision",
+                    "elementalGaugeTheory": "—",
+                    "internalCooldown": null,
+                    "interruptionResistance": "10",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Low Plunge",
+                    "elementalGaugeTheory": "—",
+                    "internalCooldown": null,
+                    "interruptionResistance": "50",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "High Plunge",
+                    "elementalGaugeTheory": "—",
+                    "internalCooldown": null,
+                    "interruptionResistance": "100",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                }
+            ]
         },
         "1": {
             "type": 0,
@@ -1627,7 +1857,38 @@
                 }
             },
             "cooldown": 12,
-            "cost": 0
+            "cost": 0,
+            "linkedConstellations": {
+                "isLevelIncluded": true,
+                "prop": [
+                    {
+                        "id": 1,
+                        "type": "normal"
+                    },
+                    {
+                        "id": 2,
+                        "type": "level"
+                    },
+                    {
+                        "id": 5,
+                        "type": "normal"
+                    }
+                ]
+            },
+            "advancedProps": [
+                {
+                    "name": "Skill DMG",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "40",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                }
+            ]
         },
         "3": {
             "type": 1,
@@ -2344,41 +2605,126 @@
                 }
             },
             "cooldown": 15,
-            "cost": 60
+            "cost": 60,
+            "linkedConstellations": {
+                "isLevelIncluded": true,
+                "prop": [
+                    {
+                        "id": 3,
+                        "type": "normal"
+                    },
+                    {
+                        "id": 4,
+                        "type": "level"
+                    }
+                ]
+            },
+            "advancedProps": [
+                {
+                    "name": "Explosion DMG",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": "2",
+                            "text": "Elemental Burst"
+                        },
+                        "type": {
+                            "span": "2",
+                            "text": "3s"
+                        }
+                    },
+                    "interruptionResistance": "30",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Leap DMG",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "10",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                }
+            ]
         },
         "4": {
             "type": 2,
             "name": "Floral Sidewinder",
             "description": "If one of your party members has triggered Burning, Quicken, Aggravate, Spread, Bloom, Hyperbloom, or Burgeon reactions before the <color=#FFD780FF>Floral Ring</color> returns, it will grant the character the Sprout effect upon return, which will continuously deal <color=#99FF88FF>Dendro DMG</color> equivalent to 40% of Collei's ATK to nearby opponents for 3s.\\nIf another Sprout effect is triggered during its initial duration, the initial effect will be removed. DMG dealt by Sprout is considered Elemental Skill DMG.",
-            "icon": "UI_Talent_S_Collei_05"
+            "icon": "UI_Talent_S_Collei_05",
+            "linkedConstellations": {
+                "isLevelIncluded": false,
+                "prop": [
+                    {
+                        "id": 1,
+                        "type": "normal"
+                    }
+                ]
+            },
+            "advancedProps": [
+                {
+                    "name": "Miniature Cuilein-Anbar",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": null,
+                            "text": "Sprout"
+                        },
+                        "type": {
+                            "span": null,
+                            "text": "2.5s/3 Hits"
+                        }
+                    },
+                    "interruptionResistance": "10",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                }
+            ]
         },
         "5": {
             "type": 2,
             "name": "The Languid Wood",
             "description": "When a character within the <color=#FFD780FF>Cuilein-Anbar Zone</color> triggers Burning, Quicken, Aggravate, Spread, Bloom, Hyperbloom, or Burgeon reactions, the Zone's duration will be increased by 1s.\\nA single <color=#FFD780FF>Trump-Card Kitty</color> can be extended this way by up to 3s.",
-            "icon": "UI_Talent_S_Collei_06"
+            "icon": "UI_Talent_S_Collei_06",
+            "linkedConstellations": null
         },
         "6": {
             "type": 2,
             "name": "Gliding Champion of Sumeru",
             "description": "Decreases gliding Stamina consumption for your own party members by 20%.\\nNot stackable with Passive Talents that provide the exact same effects.",
-            "icon": "UI_Talent_Explosion_Glide"
+            "icon": "UI_Talent_Explosion_Glide",
+            "linkedConstellations": null
         }
     },
     "constellation": {
         "0": {
+            "id": 0,
             "name": "Deepwood Patrol",
             "description": "When in the party and not on the field, Collei's Energy Recharge is increased by 20%.",
             "extraData": null,
             "icon": "UI_Talent_S_Collei_01"
         },
         "1": {
+            "id": 1,
             "name": "Through Hill and Copse",
             "description": "The Passive Talent Floral Sidewinder is changed to this:\\nThe <color=#FFD780FF>Floral Ring</color> will grant the character the Sprout effect from Floral Sidewinder upon return, dealing 40% of Collei's ATK as <color=#99FF88FF>Dendro DMG</color> to nearby opponents for 3s.\\nFrom the moment of using <color=#FFD780FF>Floral Brush</color> to the moment when this instance of Sprout effect ends, if any of your party members triggers Burning, Quicken, Aggravate, Spread, Bloom, Hyperbloom, or Burgeon reactions, the Sprout effect will be extended by 3s.\\nThe Sprout effect can only be extended this way once. If another Sprout effect is triggered during its initial duration, the initial effect will be removed. DMG dealt by Sprout is considered Elemental Skill DMG.\\nRequires you to have unlocked the Floral Sidewinder Passive Talent.",
             "extraData": null,
             "icon": "UI_Talent_S_Collei_02"
         },
         "2": {
+            "id": 2,
             "name": "Scent of Summer",
             "description": "Increases the Level of <color=#FFD780FF>Floral Brush</color> by 3.\\nMaximum upgrade level is 15.",
             "extraData": {
@@ -2391,12 +2737,14 @@
             "icon": "UI_Talent_U_Collei_02"
         },
         "3": {
+            "id": 3,
             "name": "Gift of the Woods",
             "description": "Using <color=#FFD780FF>Trump-Card Kitty</color> will increase all nearby characters' Elemental Mastery by 60 for 12s (not including Collei herself).",
             "extraData": null,
             "icon": "UI_Talent_S_Collei_03"
         },
         "4": {
+            "id": 4,
             "name": "All Embers",
             "description": "Increases the Level of <color=#FFD780FF>Trump-Card Kitty</color> by 3.\\nMaximum upgrade level is 15.",
             "extraData": {
@@ -2409,10 +2757,25 @@
             "icon": "UI_Talent_U_Collei_01"
         },
         "5": {
+            "id": 5,
             "name": "Forest of Falling Arrows",
             "description": "When the <color=#FFD780FF>Floral Ring</color> hits, it will create a miniature Cuilein-Anbar that will deal 200% of Collei's ATK as <color=#99FF88FF>Dendro DMG</color>.\\nEach <color=#FFD780FF>Floral Brush</color> can only create one such miniature Cuilein-Anbar.",
             "extraData": null,
-            "icon": "UI_Talent_S_Collei_04"
+            "icon": "UI_Talent_S_Collei_04",
+            "advancedProps": [
+                {
+                    "name": "Miniature Cuilein-Anbar",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "30",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                }
+            ]
         }
     },
     "_id": 10000067

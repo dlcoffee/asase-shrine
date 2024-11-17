@@ -4,6 +4,9 @@
     "name": "Baizhu",
     "element": "Grass",
     "weaponType": "WEAPON_CATALYST",
+    "region": "LIYUE",
+    "specialProp": "FIGHT_PROP_HP_PERCENT",
+    "bodyType": "MALE",
     "icon": "UI_AvatarIcon_Baizhuer",
     "birthday": [
         4,
@@ -193,6 +196,98 @@
         "112061": 3,
         "113045": 4,
         "113046": 5
+    },
+    "items": {
+        "202": {
+            "name": "Mora",
+            "rank": 3,
+            "icon": "UI_ItemIcon_202"
+        },
+        "100034": {
+            "name": "Violetgrass",
+            "rank": 1,
+            "icon": "UI_ItemIcon_100034"
+        },
+        "104001": {
+            "name": "Wanderer's Advice",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104001"
+        },
+        "104002": {
+            "name": "Adventurer's Experience",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104002"
+        },
+        "104003": {
+            "name": "Hero's Wit",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104003"
+        },
+        "104131": {
+            "name": "Nagadus Emerald Sliver",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104131"
+        },
+        "104132": {
+            "name": "Nagadus Emerald Fragment",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104132"
+        },
+        "104133": {
+            "name": "Nagadus Emerald Chunk",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104133"
+        },
+        "104134": {
+            "name": "Nagadus Emerald Gemstone",
+            "rank": 5,
+            "icon": "UI_ItemIcon_104134"
+        },
+        "104316": {
+            "name": "Teachings of Gold",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104316"
+        },
+        "104317": {
+            "name": "Guide to Gold",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104317"
+        },
+        "104318": {
+            "name": "Philosophies of Gold",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104318"
+        },
+        "104319": {
+            "name": "Crown of Insight",
+            "rank": 5,
+            "icon": "UI_ItemIcon_104319"
+        },
+        "112059": {
+            "name": "Fungal Spores",
+            "rank": 1,
+            "icon": "UI_ItemIcon_112059"
+        },
+        "112060": {
+            "name": "Luminescent Pollen",
+            "rank": 2,
+            "icon": "UI_ItemIcon_112060"
+        },
+        "112061": {
+            "name": "Crystalline Cyst Dust",
+            "rank": 3,
+            "icon": "UI_ItemIcon_112061"
+        },
+        "113045": {
+            "name": "Evergloom Ring",
+            "rank": 4,
+            "icon": "UI_ItemIcon_113045"
+        },
+        "113046": {
+            "name": "Worldspan Fern",
+            "rank": 5,
+            "icon": "UI_ItemIcon_113046"
+        }
     },
     "talent": {
         "0": {
@@ -910,7 +1005,127 @@
                 }
             },
             "cooldown": 0,
-            "cost": 0
+            "cost": 0,
+            "linkedConstellations": null,
+            "advancedProps": [
+                {
+                    "name": "Normal Attack 1-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": "5",
+                            "text": "Normal Attack"
+                        },
+                        "type": {
+                            "span": "5",
+                            "text": "2.5s/3 Hits"
+                        }
+                    },
+                    "interruptionResistance": "7.2801",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Shake",
+                        "horizontalForce": "0",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 2-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "6.9396",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Shake",
+                        "horizontalForce": "0",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 3-Hit A",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "4.2913",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Shake",
+                        "horizontalForce": "0",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 3-Hit B",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "4.2913",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Shake",
+                        "horizontalForce": "0",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 4-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "10.3056",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Charged Attack",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Plunging Attack Collision",
+                    "elementalGaugeTheory": "0U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "5",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Low Plunge",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "50",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "High Plunge",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "100",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "800",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                }
+            ]
         },
         "1": {
             "type": 0,
@@ -1627,7 +1842,47 @@
                 }
             },
             "cooldown": 10,
-            "cost": 0
+            "cost": 0,
+            "linkedConstellations": {
+                "isLevelIncluded": true,
+                "prop": [
+                    {
+                        "id": 0,
+                        "type": "normal"
+                    },
+                    {
+                        "id": 1,
+                        "type": "normal"
+                    },
+                    {
+                        "id": 4,
+                        "type": "level"
+                    }
+                ]
+            },
+            "advancedProps": [
+                {
+                    "name": "Skill DMG",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": null,
+                            "text": "Elemental Skill"
+                        },
+                        "type": {
+                            "span": null,
+                            "text": "2s"
+                        }
+                    },
+                    "interruptionResistance": "30",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                }
+            ]
         },
         "3": {
             "type": 1,
@@ -2344,41 +2599,99 @@
                 }
             },
             "cooldown": 20,
-            "cost": 80
+            "cost": 80,
+            "linkedConstellations": {
+                "isLevelIncluded": true,
+                "prop": [
+                    {
+                        "id": 2,
+                        "type": "level"
+                    },
+                    {
+                        "id": 3,
+                        "type": "normal"
+                    },
+                    {
+                        "id": 5,
+                        "type": "normal"
+                    }
+                ]
+            },
+            "advancedProps": [
+                {
+                    "name": "Activation Damageless Knockback",
+                    "elementalGaugeTheory": "—",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": null,
+                            "text": "—"
+                        },
+                        "type": {
+                            "span": null,
+                            "text": "—"
+                        }
+                    },
+                    "interruptionResistance": "200",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Spiritvein DMG",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "50",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Shake",
+                        "horizontalForce": "0",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                }
+            ]
         },
         "4": {
             "type": 2,
             "name": "Five Fortunes Forever",
             "description": "Baizhu gains different effects according to the current HP of your current active character:\\n·When their HP is less than 50%, Baizhu gains 20% Healing Bonus.\\n·When their HP is equal to or more than 50%, Baizhu gains 25% <color=#99FF88FF>Dendro DMG Bonus</color>.",
-            "icon": "UI_Talent_S_Baizhuer_05"
+            "icon": "UI_Talent_S_Baizhuer_05",
+            "linkedConstellations": null
         },
         "5": {
             "type": 2,
             "name": "All Things Are of the Earth",
             "description": "Characters who are healed by <color=#FFD780FF>Seamless Shields</color> will gain the Year of Verdant Favor effect: Each 1,000 Max HP that Baizhu possesses that does not exceed 50,000 will increase the Burning, Bloom, Hyperbloom, and Burgeon reaction DMG dealt by these characters by 2%, and will increase the DMG Bonus provided by Aggravate and Spread by 0.8%. This effect lasts 6s.",
-            "icon": "UI_Talent_S_Baizhuer_06"
+            "icon": "UI_Talent_S_Baizhuer_06",
+            "linkedConstellations": null
         },
         "6": {
             "type": 2,
             "name": "Herbal Nourishment",
             "description": "When Baizhu is in the party, interacting with certain harvestable items will heal your current active character for 2.5% of Baizhu's Max HP.",
-            "icon": "UI_Talent_S_Baizhuer_07"
+            "icon": "UI_Talent_S_Baizhuer_07",
+            "linkedConstellations": null
         }
     },
     "constellation": {
         "0": {
+            "id": 0,
             "name": "Attentive Observation",
             "description": "<color=#FFD780FF>Universal Diagnosis</color> gains 1 additional charge.",
             "extraData": null,
             "icon": "UI_Talent_S_Baizhuer_01"
         },
         "1": {
+            "id": 1,
             "name": "Incisive Discernment",
             "description": "When your own active character hits a nearby opponent with their attacks, Baizhu will unleash a Gossamer Sprite: Splice.\\nGossamer Sprite: Splice will initiate 1 attack before returning, dealing 250% of Baizhu's ATK as <color=#99FF88FF>Dendro DMG</color> and healing for 20% of <color=#FFD780FF>Universal Diagnosis</color>'s Gossamer Sprite's normal healing.\\nDMG dealt this way is considered Elemental Skill DMG.\\nThis effect can be triggered once every 5s.",
             "extraData": null,
             "icon": "UI_Talent_S_Baizhuer_02"
         },
         "2": {
+            "id": 2,
             "name": "All Aspects Stabilized",
             "description": "Increases the Level of <color=#FFD780FF>Holistic Revivification</color> by 3.\\nMaximum upgrade level is 15.",
             "extraData": {
@@ -2391,12 +2704,14 @@
             "icon": "UI_Talent_U_Baizhuer_01"
         },
         "3": {
+            "id": 3,
             "name": "Ancient Art of Perception",
             "description": "For 15s after <color=#FFD780FF>Holistic Revivification</color> is used, Baizhu will increase all nearby party members' Elemental Mastery by 80.",
             "extraData": null,
             "icon": "UI_Talent_S_Baizhuer_03"
         },
         "4": {
+            "id": 4,
             "name": "The Hidden Ebb and Flow",
             "description": "Increases the Level of <color=#FFD780FF>Universal Diagnosis</color> by 3.\\nMaximum upgrade level is 15.",
             "extraData": {
@@ -2409,6 +2724,7 @@
             "icon": "UI_Talent_U_Baizhuer_02"
         },
         "5": {
+            "id": 5,
             "name": "Elimination of Malicious Qi",
             "description": "Increases the DMG dealt by <color=#FFD780FF>Holistic Revivification</color>'s Spiritveins by 8% of Baizhu's Max HP.\\nAdditionally, when a <color=#FFD780FF>Gossamer Sprite</color> or Gossamer Sprite: Splice hits opponents, there is a 100% chance of generating one of <color=#FFD780FF>Holistic Revivification</color>'s Seamless Shields. This effect can only be triggered once by each Gossamer Sprite or Gossamer Sprite: Splice.",
             "extraData": null,

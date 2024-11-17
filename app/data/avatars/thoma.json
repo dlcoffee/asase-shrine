@@ -4,6 +4,9 @@
     "name": "Thoma",
     "element": "Fire",
     "weaponType": "WEAPON_POLE",
+    "region": "INAZUMA",
+    "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
+    "bodyType": "MALE",
     "icon": "UI_AvatarIcon_Tohma",
     "birthday": [
         1,
@@ -193,6 +196,98 @@
         "112037": 3,
         "113024": 4,
         "113026": 5
+    },
+    "items": {
+        "202": {
+            "name": "Mora",
+            "rank": 3,
+            "icon": "UI_ItemIcon_202"
+        },
+        "101209": {
+            "name": "Fluorescent Fungus",
+            "rank": 1,
+            "icon": "UI_ItemIcon_101209"
+        },
+        "104001": {
+            "name": "Wanderer's Advice",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104001"
+        },
+        "104002": {
+            "name": "Adventurer's Experience",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104002"
+        },
+        "104003": {
+            "name": "Hero's Wit",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104003"
+        },
+        "104111": {
+            "name": "Agnidus Agate Sliver",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104111"
+        },
+        "104112": {
+            "name": "Agnidus Agate Fragment",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104112"
+        },
+        "104113": {
+            "name": "Agnidus Agate Chunk",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104113"
+        },
+        "104114": {
+            "name": "Agnidus Agate Gemstone",
+            "rank": 5,
+            "icon": "UI_ItemIcon_104114"
+        },
+        "104319": {
+            "name": "Crown of Insight",
+            "rank": 5,
+            "icon": "UI_ItemIcon_104319"
+        },
+        "104320": {
+            "name": "Teachings of Transience",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104320"
+        },
+        "104321": {
+            "name": "Guide to Transience",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104321"
+        },
+        "104322": {
+            "name": "Philosophies of Transience",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104322"
+        },
+        "112035": {
+            "name": "Treasure Hoarder Insignia",
+            "rank": 1,
+            "icon": "UI_ItemIcon_112035"
+        },
+        "112036": {
+            "name": "Silver Raven Insignia",
+            "rank": 2,
+            "icon": "UI_ItemIcon_112036"
+        },
+        "112037": {
+            "name": "Golden Raven Insignia",
+            "rank": 3,
+            "icon": "UI_ItemIcon_112037"
+        },
+        "113024": {
+            "name": "Smoldering Pearl",
+            "rank": 4,
+            "icon": "UI_ItemIcon_113024"
+        },
+        "113026": {
+            "name": "Hellfire Butterfly",
+            "rank": 5,
+            "icon": "UI_ItemIcon_113026"
+        }
     },
     "talent": {
         "0": {
@@ -910,7 +1005,136 @@
                 }
             },
             "cooldown": 0,
-            "cost": 0
+            "cost": 0,
+            "linkedConstellations": null,
+            "advancedProps": [
+                {
+                    "name": "Normal Attack 1-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": "5",
+                            "text": "Normal Attack"
+                        },
+                        "type": {
+                            "span": "5",
+                            "text": "2.5s/3 Hits"
+                        }
+                    },
+                    "interruptionResistance": "41.3",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 2-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "40.58",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 3-Hit A",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "24.92",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 3-Hit B",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "24.92",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 4-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "62.66",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "655",
+                        "verticalForce": "800"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Charged Attack",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": null,
+                            "text": "Charged Attack"
+                        },
+                        "type": {
+                            "span": null,
+                            "text": "0.5s"
+                        }
+                    },
+                    "interruptionResistance": "120",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "480",
+                        "verticalForce": "600"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Plunging Attack Collision",
+                    "elementalGaugeTheory": "0U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "25",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Low Plunge",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "100",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "800",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": true
+                },
+                {
+                    "name": "High Plunge",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "150",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "0",
+                        "verticalForce": "800"
+                    },
+                    "bluntAttack": true
+                }
+            ]
         },
         "1": {
             "type": 0,
@@ -1627,7 +1851,42 @@
                 }
             },
             "cooldown": 15,
-            "cost": 0
+            "cost": 0,
+            "linkedConstellations": {
+                "isLevelIncluded": true,
+                "prop": [
+                    {
+                        "id": 0,
+                        "type": "normal"
+                    },
+                    {
+                        "id": 2,
+                        "type": "level"
+                    }
+                ]
+            },
+            "advancedProps": [
+                {
+                    "name": "Skill DMG",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "150",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Pyro to Self",
+                    "elementalGaugeTheory": "1U, 1s",
+                    "internalCooldown": null,
+                    "interruptionResistance": "—",
+                    "interruptionResistanceStagger": null,
+                    "bluntAttack": "—"
+                }
+            ]
         },
         "3": {
             "type": 1,
@@ -2344,41 +2603,103 @@
                 }
             },
             "cooldown": 20,
-            "cost": 80
+            "cost": 80,
+            "linkedConstellations": {
+                "isLevelIncluded": true,
+                "prop": [
+                    {
+                        "id": 0,
+                        "type": "normal"
+                    },
+                    {
+                        "id": 1,
+                        "type": "normal"
+                    },
+                    {
+                        "id": 3,
+                        "type": "normal"
+                    },
+                    {
+                        "id": 4,
+                        "type": "level"
+                    }
+                ]
+            },
+            "advancedProps": [
+                {
+                    "name": "Skill DMG",
+                    "elementalGaugeTheory": "2U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "200",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Fiery Collapse DMG",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": null,
+                            "text": "Elemental Burst"
+                        },
+                        "type": {
+                            "span": null,
+                            "text": "2.5s/3 Hits"
+                        }
+                    },
+                    "interruptionResistance": "35",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                }
+            ]
         },
         "4": {
             "type": 2,
             "name": "Imbricated Armor",
             "description": "When your current active character obtains or refreshes a <color=#FFD780FF>Blazing Barrier</color>, this character's Shield Strength will increase by 5% for 6s.\\nThis effect can be triggered once every 0.3s seconds. Max 5 stacks.",
-            "icon": "UI_Talent_S_Tohma_05"
+            "icon": "UI_Talent_S_Tohma_05",
+            "linkedConstellations": null
         },
         "5": {
             "type": 2,
             "name": "Flaming Assault",
             "description": "DMG dealt by <color=#FFD780FF>Crimson Ooyoroi</color>'s Fiery Collapse is increased by 2.2% of Thoma's Max HP.",
-            "icon": "UI_Talent_S_Tohma_06"
+            "icon": "UI_Talent_S_Tohma_06",
+            "linkedConstellations": null
         },
         "6": {
             "type": 2,
             "name": "Snap and Swing",
             "description": "When you <color=#FFD780FF>fish</color> successfully in Inazuma, Thoma's help grants a 20% chance of scoring a double catch.",
-            "icon": "UI_Talent_S_Tohma_07"
+            "icon": "UI_Talent_S_Tohma_07",
+            "linkedConstellations": null
         }
     },
     "constellation": {
         "0": {
+            "id": 0,
             "name": "A Comrade's Duty",
             "description": "When a character protected by Thoma's own <color=#FFD780FF>Blazing Barrier</color> (Thoma excluded) is attacked, Thoma's own <color=#FFD780FF>Blazing Blessing</color> CD is decreased by 3s, while his own <color=#FFD780FF>Crimson Ooyoroi</color>'s CD is decreased by 3s.\\nThis effect can be triggered once every 20s.",
             "extraData": null,
             "icon": "UI_Talent_S_Tohma_01"
         },
         "1": {
+            "id": 1,
             "name": "A Subordinate's Skills",
             "description": "<color=#FFD780FF>Crimson Ooyoroi</color>'s duration is increased by 3s.",
             "extraData": null,
             "icon": "UI_Talent_S_Tohma_02"
         },
         "2": {
+            "id": 2,
             "name": "Fortified Resolve",
             "description": "Increases the Level of <color=#FFD780FF>Blazing Blessing</color> by 3.\\nMaximum upgrade level is 15.",
             "extraData": {
@@ -2391,12 +2712,14 @@
             "icon": "UI_Talent_U_Tohma_01"
         },
         "3": {
+            "id": 3,
             "name": "Long-Term Planning",
             "description": "After using <color=#FFD780FF>Crimson Ooyoroi</color>, 15 Energy will be restored to Thoma.",
             "extraData": null,
             "icon": "UI_Talent_S_Tohma_03"
         },
         "4": {
+            "id": 4,
             "name": "Raging Wildfire",
             "description": "Increases the Level of <color=#FFD780FF>Crimson Ooyoroi</color> by 3.\\nMaximum upgrade level is 15.",
             "extraData": {
@@ -2409,6 +2732,7 @@
             "icon": "UI_Talent_U_Tohma_02"
         },
         "5": {
+            "id": 5,
             "name": "Burning Heart",
             "description": "When a <color=#FFD780FF>Blazing Barrier</color> is obtained or refreshed, the DMG dealt by all party members' Normal, Charged, and Plunging Attacks is increased by 15% for 6s.",
             "extraData": null,

@@ -4,23 +4,26 @@
     "name": "Freminet",
     "element": "Ice",
     "weaponType": "WEAPON_CLAYMORE",
+    "region": "FONTAINE",
+    "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
+    "bodyType": "BOY",
     "icon": "UI_AvatarIcon_Freminet",
     "birthday": [
         9,
         24
     ],
-    "release": 1690059600,
+    "release": 1693926000,
     "route": "Freminet",
     "fetter": {
         "title": "Yearning for Unseen Depths",
-        "detail": "A reserved young man who is well-versed in diving. Beneath his distant, icy demeanor lies a pure heart bereft of all flaw.",
+        "detail": "A reserved young man who is well-versed in diving. Beneath his distant, icy demeanor lies a pure heart bereft of all flaws.",
         "constellation": "Automaton",
         "native": "Hotel Bouffes d'ete",
         "cv": {
-            "EN": "",
-            "CHS": "",
-            "JP": "",
-            "KR": ""
+            "EN": "Paul Castro Jr.",
+            "CHS": "锦鲤",
+            "JP": "土岐隼一",
+            "KR": "Lee Ju-seung"
         }
     },
     "upgrade": {
@@ -159,15 +162,15 @@
         "costume": [
             {
                 "name": "Icy Skin",
-                "description": "Freminet's outfit. This suit wraps around the deep diver like a second skin, his constant company in countless sallies into the silent seabed.",
+                "description": "Freminet's outfit. This suit wraps around the deep diver like a second skin, his constant companion in countless sallies to the silent seabed.",
                 "isDefault": true
             }
         ],
         "furnitureId": 368171,
         "nameCard": {
             "id": 210167,
-            "name": "？？？",
-            "description": "？？？",
+            "name": "Freminet: Progress",
+            "description": "Namecard style.\\nAs the clockwork devices do naught but round and round in circles turn, the dolls march forward.",
             "icon": "UI_NameCardIcon_Freminet"
         },
         "specialFood": {
@@ -193,6 +196,98 @@
         "112082": 3,
         "113046": 5,
         "113050": 4
+    },
+    "items": {
+        "202": {
+            "name": "Mora",
+            "rank": 3,
+            "icon": "UI_ItemIcon_202"
+        },
+        "101233": {
+            "name": "Romaritime Flower",
+            "rank": 1,
+            "icon": "UI_ItemIcon_101233"
+        },
+        "104001": {
+            "name": "Wanderer's Advice",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104001"
+        },
+        "104002": {
+            "name": "Adventurer's Experience",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104002"
+        },
+        "104003": {
+            "name": "Hero's Wit",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104003"
+        },
+        "104161": {
+            "name": "Shivada Jade Sliver",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104161"
+        },
+        "104162": {
+            "name": "Shivada Jade Fragment",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104162"
+        },
+        "104163": {
+            "name": "Shivada Jade Chunk",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104163"
+        },
+        "104164": {
+            "name": "Shivada Jade Gemstone",
+            "rank": 5,
+            "icon": "UI_ItemIcon_104164"
+        },
+        "104319": {
+            "name": "Crown of Insight",
+            "rank": 5,
+            "icon": "UI_ItemIcon_104319"
+        },
+        "104341": {
+            "name": "Teachings of Justice",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104341"
+        },
+        "104342": {
+            "name": "Guide to Justice",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104342"
+        },
+        "104343": {
+            "name": "Philosophies of Justice",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104343"
+        },
+        "112080": {
+            "name": "Transoceanic Pearl",
+            "rank": 1,
+            "icon": "UI_ItemIcon_112080"
+        },
+        "112081": {
+            "name": "Transoceanic Chunk",
+            "rank": 2,
+            "icon": "UI_ItemIcon_112081"
+        },
+        "112082": {
+            "name": "Xenochromatic Crystal",
+            "rank": 3,
+            "icon": "UI_ItemIcon_112082"
+        },
+        "113046": {
+            "name": "Worldspan Fern",
+            "rank": 5,
+            "icon": "UI_ItemIcon_113046"
+        },
+        "113050": {
+            "name": "Artificed Spare Clockwork Component — Coppelius",
+            "rank": 4,
+            "icon": "UI_ItemIcon_113050"
+        }
     },
     "talent": {
         "0": {
@@ -910,12 +1005,140 @@
                 }
             },
             "cooldown": 0,
-            "cost": 0
+            "cost": 0,
+            "linkedConstellations": {
+                "isLevelIncluded": true,
+                "prop": [
+                    {
+                        "id": 2,
+                        "type": "level"
+                    }
+                ]
+            },
+            "advancedProps": [
+                {
+                    "name": "Normal Attack 1-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": "6",
+                            "text": "Normal Attack"
+                        },
+                        "type": {
+                            "span": "6",
+                            "text": "2.5s/3 Hits"
+                        }
+                    },
+                    "interruptionResistance": "112.6437",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": true
+                },
+                {
+                    "name": "Normal Attack 2-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "107.8804",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": true
+                },
+                {
+                    "name": "Normal Attack 3-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "136.267",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": true
+                },
+                {
+                    "name": "Normal Attack 4-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "165.5529",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "480",
+                        "verticalForce": "600"
+                    },
+                    "bluntAttack": true
+                },
+                {
+                    "name": "Charged Attack Cyclic",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "60",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": true
+                },
+                {
+                    "name": "Charged Attack Final Slash",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "120",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "480",
+                        "verticalForce": "600"
+                    },
+                    "bluntAttack": true
+                },
+                {
+                    "name": "Plunging Attack Collision",
+                    "elementalGaugeTheory": "0U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "35",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Low Plunge",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "150",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "800",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": true
+                },
+                {
+                    "name": "High Plunge",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "200",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "0",
+                        "verticalForce": "800"
+                    },
+                    "bluntAttack": true
+                }
+            ]
         },
         "1": {
             "type": 0,
             "name": "Pressurized Floe",
-            "description": "Does an upward thrust that will deal <color=#99FFFFFF>Cryo DMG</color> and cause Freminet to enter Pers Timer for 10s.\\nWhile Pers Timer is active, his Elemental Skill will turn into Shattering Pressure.\\n\\n<color=#FFD780FF>Shattering Pressure</color>\\nExecutes different sorts of attacks based on the Pressure level of Pers Timer, and then cancels Pers Timer.\\n·Level 0: Unleashes a vertical cut that will deal <color=#99FFFFFF>Cryo DMG</color>.\\n·Levels 1 to 3: Unleashes a vertical cut alongside Pers, dealing <color=#99FFFFFF>Cryo DMG</color> and Physical DMG. DMG dealt scales based on Pressure level.\\n·Level 4: Borrows the power of a fully-pressurized Pers to deal Physical DMG. Meanwhile, Normal Attack: Flowing Eddies will be replaced by Shattering Pressure.\\n\\n<color=#FFD780FF>Pers Timer</color>\\nWhen Freminet uses Normal Attacks, he will also unleash waves of frost that deal <color=#99FFFFFF>Cryo DMG</color> and increase Pers' Pressure level.\\nThe accompanying <color=#99FFFFFF>Cryo DMG</color> dealt this way is considered Elemental Skill DMG.\\n\\n<color=#FFD780FF>Arkhe: Pneuma</color>\\nAt certain intervals, after using the upward thrust, a Spiritbreath Thorn in the form of another upward thrust will be created, dealing Pneuma-aligned <color=#99FFFFFF>Cryo DMG</color>.\\n\\n<i>To immobilize one's opponent without taking their life can also be considered something of a \"survival\" strategy that one may choose.</i>\\n<i>\"Pers... I leave the rest to you.\"</i>",
+            "description": "Performs an upward thrust that deals <color=#99FFFFFF>Cryo DMG</color> and causes Freminet to enter Pers Timer for 10s.\\nWhile Pers Timer is active, his Elemental Skill will turn into Shattering Pressure.\\n\\n<color=#FFD780FF>Shattering Pressure</color>\\nExecutes different sorts of attacks based on the Pressure Level of Pers Timer, and then cancels Pers Timer.\\n·Level 0: Unleashes a vertical cut, dealing <color=#99FFFFFF>Cryo DMG</color>.\\n·Levels 1 to 3: Unleashes a vertical cut alongside Pers, dealing <color=#99FFFFFF>Cryo DMG</color> and Physical DMG. DMG dealt scales based on Pressure Level.\\n·Level 4: Borrows the power of a fully-pressurized Pers to deal Physical DMG. Meanwhile, Normal Attack: Flowing Eddies will be replaced by Shattering Pressure.\\n\\n<color=#FFD780FF>Pers Timer</color>\\nWhen Freminet uses Normal Attacks, he will also unleash waves of frost that deal <color=#99FFFFFF>Cryo DMG</color> and increase Pers's Pressure Level.\\nThe accompanying <color=#99FFFFFF>Cryo DMG</color> dealt this way is considered Elemental Skill DMG.\\n\\n<color=#FFD780FF>Arkhe: Pneuma</color>\\nAt certain intervals, after using the upward thrust, a Spiritbreath Thorn in the form of another upward thrust will be created, dealing Pneuma-aligned <color=#99FFFFFF>Cryo DMG</color>.\\n\\n<i>To immobilize one's opponent without taking their life can also be considered something of a \"survival\" strategy that one may choose.</i>\\n<i>\"Pers... I leave the rest to you.\"</i>",
             "icon": "Skill_S_Freminet_01",
             "promote": {
                 "1": {
@@ -1627,12 +1850,178 @@
                 }
             },
             "cooldown": 10,
-            "cost": 0
+            "cost": 0,
+            "linkedConstellations": {
+                "isLevelIncluded": true,
+                "prop": [
+                    {
+                        "id": 0,
+                        "type": "normal"
+                    },
+                    {
+                        "id": 1,
+                        "type": "normal"
+                    },
+                    {
+                        "id": 4,
+                        "type": "level"
+                    }
+                ]
+            },
+            "advancedProps": [
+                {
+                    "name": "Upward Thrust DMG",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": "7",
+                            "text": "Elemental Skill"
+                        },
+                        "type": {
+                            "span": "7",
+                            "text": "2.5s/3 Hits"
+                        }
+                    },
+                    "interruptionResistance": "75",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "0",
+                        "verticalForce": "600"
+                    },
+                    "bluntAttack": true
+                },
+                {
+                    "name": "Frost DMG 1-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "25",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Shake",
+                        "horizontalForce": "0",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": true
+                },
+                {
+                    "name": "Frost DMG 2-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "25",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Shake",
+                        "horizontalForce": "0",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": true
+                },
+                {
+                    "name": "Frost DMG 3-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "25",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Shake",
+                        "horizontalForce": "0",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": true
+                },
+                {
+                    "name": "Frost DMG 4-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "25",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Shake",
+                        "horizontalForce": "0",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": true
+                },
+                {
+                    "name": "Level 0 Shattering Pressure DMG",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "150",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "480",
+                        "verticalForce": "600"
+                    },
+                    "bluntAttack": true
+                },
+                {
+                    "name": "Level 1–3 Shattering Pressure DMG (Cryo)",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "70",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "480",
+                        "verticalForce": "600"
+                    },
+                    "bluntAttack": true
+                },
+                {
+                    "name": "Level 1–3 Shattering Pressure DMG (Physical)",
+                    "elementalGaugeTheory": "—",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": "2",
+                            "text": "—"
+                        },
+                        "type": {
+                            "span": "2",
+                            "text": "—"
+                        }
+                    },
+                    "interruptionResistance": "70",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "480",
+                        "verticalForce": "600"
+                    },
+                    "bluntAttack": true
+                },
+                {
+                    "name": "Level 4 Shattering Pressure DMG",
+                    "elementalGaugeTheory": "—",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "150",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "480",
+                        "verticalForce": "600"
+                    },
+                    "bluntAttack": true
+                },
+                {
+                    "name": "Spiritbreath Thorn DMG",
+                    "elementalGaugeTheory": "0U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": null,
+                            "text": "—"
+                        },
+                        "type": {
+                            "span": null,
+                            "text": ""
+                        }
+                    },
+                    "interruptionResistance": "25",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                }
+            ]
         },
         "3": {
             "type": 1,
             "name": "Shadowhunter's Ambush",
-            "description": "Unleashes a wave of untouchable cold, dealing <color=#99FFFFFF>AoE Cryo DMG</color>, resetting the CD of the Elemental Skill \"Pressurized Floe,\" and causing Freminet to enter the Subnautical Hunter mode for 10s.\\n\\nWhile in Subnautical Hunter mode, his interruption resistance will increase, and Pressurized Floe will obtain the following buffs:\\n·CD decreased by 70%.\\n·Normal Attacks will give Pers 1 additional Pressure stack, and the frost released by his Normal Attacks deal 200% of their original DMG.\\n\\nThis effect will be canceled when Freminet leaves the field.\\n\\n<i>\"Now... I have no need of any extraneous noise.\"</i>",
+            "description": "Unleashes a wave of untouchable cold, dealing <color=#99FFFFFF>AoE Cryo DMG</color>, resetting the CD of the Elemental Skill \"Pressurized Floe,\" and causing Freminet to enter the Subnautical Hunter mode for 10s.\\n\\nWhile in Subnautical Hunter mode, Freminet's resistance to interruption will increase, and his Elemental Skill \"Pressurized Floe\" will obtain the following buffs:\\n·CD is decreased by 70%.\\n·Normal Attacks will increase the Pers Timer by 1 additional Pressure Level, and the frost released by his Normal Attacks deal 200% of their original DMG.\\n\\nThese effects will be canceled when Freminet leaves the field.\\n\\n<i>\"Now... I have no need of any extraneous noise.\"</i>",
             "icon": "Skill_E_Freminet_01",
             "promote": {
                 "1": {
@@ -2344,41 +2733,62 @@
                 }
             },
             "cooldown": 15,
-            "cost": 60
+            "cost": 60,
+            "linkedConstellations": null,
+            "advancedProps": [
+                {
+                    "name": "Skill DMG",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "200",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": true
+                }
+            ]
         },
         "4": {
             "type": 2,
             "name": "Saturation Deep Dive",
-            "description": "When using <color=#FFD780FF>Pressurized Floe: Shattering Pressure</color>, if Pers Timer has less than 4 levels of Pressure, the CD of Pressurized Floe will be decreased by 1s.",
-            "icon": "UI_Talent_S_Freminet_05"
+            "description": "When Freminet unleashes <color=#FFD780FF>Pressurized Floe: Shattering Pressure</color>, if Pers Timer has yet to reach Pressure Level 4, the CD of Pressurized Floe will be decreased by 1s.",
+            "icon": "UI_Talent_S_Freminet_05",
+            "linkedConstellations": null
         },
         "5": {
             "type": 2,
             "name": "Parallel Condensers",
             "description": "When Freminet triggers Shatter against opponents, the DMG dealt by <color=#FFD780FF>Pressurized Floe: Shattering Pressure</color> will be increased by 40% for 5s.",
-            "icon": "UI_Talent_S_Freminet_06"
+            "icon": "UI_Talent_S_Freminet_06",
+            "linkedConstellations": null
         },
         "6": {
             "type": 2,
             "name": "Deepwater Navigation",
-            "description": "Decreases underwater stamina consumption for your own party members by 35%.\\nNot stackable with Passive Talents that provide the exact same effects.",
-            "icon": "UI_Talent_S_Freminet_07"
+            "description": "Decreases Aquatic Stamina consumption for your own party members by 35%.\\nNot stackable with Passive Talents that provide the exact same effects.",
+            "icon": "UI_Talent_S_Freminet_07",
+            "linkedConstellations": null
         }
     },
     "constellation": {
         "0": {
+            "id": 0,
             "name": "Dreams of the Foamy Deep",
             "description": "The CRIT Rate of <color=#FFD780FF>Pressurized Floe: Shattering Pressure</color> will be increased by 15%.",
             "extraData": null,
             "icon": "UI_Talent_S_Freminet_01"
         },
         "1": {
+            "id": 1,
             "name": "Penguins and the Land of Plenty",
             "description": "Unleashing <color=#FFD780FF>Pressurized Floe: Shattering Pressure</color> will restore 2 Energy to Freminet. If a Pressure Level 4 Shattering Pressure is unleashed, this will restore 3 Energy.",
             "extraData": null,
             "icon": "UI_Talent_S_Freminet_02"
         },
         "2": {
+            "id": 2,
             "name": "Song of the Eddies and Bleached Sands",
             "description": "Increases the Level of <color=#FFD780FF>Normal Attack: Flowing Eddies</color> by 3.\\nMaximum upgrade level is 15.",
             "extraData": {
@@ -2391,12 +2801,14 @@
             "icon": "UI_Talent_U_Freminet_01"
         },
         "3": {
+            "id": 3,
             "name": "Dance of the Snowy Moon and Flute",
-            "description": "When Freminet triggers Frozen, Shatter, or Superconduct against opponents, his ATK will be increased by 9% for 6s. Max 2 stacks. This can be triggered once every 0.3s.",
+            "description": "After Freminet triggers Frozen, Shatter, or Superconduct against opponents, his ATK will be increased by 9% for 6s. Max 2 stacks. This can be triggered once every 0.3s.",
             "extraData": null,
             "icon": "UI_Talent_S_Freminet_03"
         },
         "4": {
+            "id": 4,
             "name": "Nights of Hearth and Happiness",
             "description": "Increases the Level of <color=#FFD780FF>Pressurized Floe</color> by 3.\\nMaximum upgrade level is 15.",
             "extraData": {
@@ -2409,12 +2821,12 @@
             "icon": "UI_Talent_U_Freminet_02"
         },
         "5": {
+            "id": 5,
             "name": "Moment of Waking and Resolve",
-            "description": "When Freminet triggers Frozen, Shatter, or Superconduct against opponents, his CRIT DMG will be increased by 12% for 6s. Max 3 stacks. This can be triggered once every 0.3s.",
+            "description": "After Freminet triggers Frozen, Shatter, or Superconduct against opponents, his CRIT DMG will be increased by 12% for 6s. Max 3 stacks. This can be triggered once every 0.3s.",
             "extraData": null,
             "icon": "UI_Talent_S_Freminet_04"
         }
     },
-    "beta": true,
     "_id": 10000085
 }

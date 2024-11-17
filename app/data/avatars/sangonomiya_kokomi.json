@@ -4,6 +4,9 @@
     "name": "Sangonomiya Kokomi",
     "element": "Water",
     "weaponType": "WEAPON_CATALYST",
+    "region": "INAZUMA",
+    "specialProp": "FIGHT_PROP_WATER_ADD_HURT",
+    "bodyType": "GIRL",
     "icon": "UI_AvatarIcon_Kokomi",
     "birthday": [
         2,
@@ -193,6 +196,98 @@
         "112055": 3,
         "113026": 5,
         "113028": 4
+    },
+    "items": {
+        "202": {
+            "name": "Mora",
+            "rank": 3,
+            "icon": "UI_ItemIcon_202"
+        },
+        "101207": {
+            "name": "Sango Pearl",
+            "rank": 1,
+            "icon": "UI_ItemIcon_101207"
+        },
+        "104001": {
+            "name": "Wanderer's Advice",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104001"
+        },
+        "104002": {
+            "name": "Adventurer's Experience",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104002"
+        },
+        "104003": {
+            "name": "Hero's Wit",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104003"
+        },
+        "104121": {
+            "name": "Varunada Lazurite Sliver",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104121"
+        },
+        "104122": {
+            "name": "Varunada Lazurite Fragment",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104122"
+        },
+        "104123": {
+            "name": "Varunada Lazurite Chunk",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104123"
+        },
+        "104124": {
+            "name": "Varunada Lazurite Gemstone",
+            "rank": 5,
+            "icon": "UI_ItemIcon_104124"
+        },
+        "104319": {
+            "name": "Crown of Insight",
+            "rank": 5,
+            "icon": "UI_ItemIcon_104319"
+        },
+        "104320": {
+            "name": "Teachings of Transience",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104320"
+        },
+        "104321": {
+            "name": "Guide to Transience",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104321"
+        },
+        "104322": {
+            "name": "Philosophies of Transience",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104322"
+        },
+        "112053": {
+            "name": "Spectral Husk",
+            "rank": 1,
+            "icon": "UI_ItemIcon_112053"
+        },
+        "112054": {
+            "name": "Spectral Heart",
+            "rank": 2,
+            "icon": "UI_ItemIcon_112054"
+        },
+        "112055": {
+            "name": "Spectral Nucleus",
+            "rank": 3,
+            "icon": "UI_ItemIcon_112055"
+        },
+        "113026": {
+            "name": "Hellfire Butterfly",
+            "rank": 5,
+            "icon": "UI_ItemIcon_113026"
+        },
+        "113028": {
+            "name": "Dew of Repudiation",
+            "rank": 4,
+            "icon": "UI_ItemIcon_113028"
+        }
     },
     "talent": {
         "0": {
@@ -910,7 +1005,151 @@
                 }
             },
             "cooldown": 0,
-            "cost": 0
+            "cost": 0,
+            "linkedConstellations": null,
+            "advancedProps": [
+                {
+                    "name": "Normal Attack 1-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": "6",
+                            "text": "Kokomi Hydro DMG"
+                        },
+                        "type": {
+                            "span": "6",
+                            "text": "2.5s/3 Hits"
+                        }
+                    },
+                    "interruptionResistance": "12.82",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Shake",
+                        "horizontalForce": "0",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 2-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "11.54",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Shake",
+                        "horizontalForce": "0",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 3-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "17.68",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Shake",
+                        "horizontalForce": "0",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 1-Hit (During Burst)",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "12.82",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 2-Hit (During Burst)",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "11.54",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 3-Hit (During Burst)",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "17.68",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Charged Attack",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "100",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Shake",
+                        "horizontalForce": "0",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Charged Attack (During Burst)",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "100",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "480",
+                        "verticalForce": "600"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Plunging Attack Collision",
+                    "elementalGaugeTheory": "0U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "5",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Low Plunge",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "50",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "High Plunge",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "100",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "800",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                }
+            ]
         },
         "1": {
             "type": 0,
@@ -1627,7 +1866,54 @@
                 }
             },
             "cooldown": 20,
-            "cost": 0
+            "cost": 0,
+            "linkedConstellations": {
+                "isLevelIncluded": true,
+                "prop": [
+                    {
+                        "id": 1,
+                        "type": "normal"
+                    },
+                    {
+                        "id": 4,
+                        "type": "level"
+                    }
+                ]
+            },
+            "advancedProps": [
+                {
+                    "name": "Ripple DMG",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "50",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Shake",
+                        "horizontalForce": "0",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Ripple DMG (During Burst)",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "100",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Shake",
+                        "horizontalForce": "0",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Wet to Self",
+                    "elementalGaugeTheory": "1U, 0.2s",
+                    "internalCooldown": null,
+                    "interruptionResistance": "—",
+                    "interruptionResistanceStagger": null,
+                    "bluntAttack": "—"
+                }
+            ]
         },
         "3": {
             "type": 1,
@@ -2344,47 +2630,107 @@
                 }
             },
             "cooldown": 18,
-            "cost": 70
+            "cost": 70,
+            "linkedConstellations": {
+                "isLevelIncluded": true,
+                "prop": [
+                    {
+                        "id": 0,
+                        "type": "normal"
+                    },
+                    {
+                        "id": 1,
+                        "type": "normal"
+                    },
+                    {
+                        "id": 2,
+                        "type": "level"
+                    },
+                    {
+                        "id": 3,
+                        "type": "normal"
+                    },
+                    {
+                        "id": 5,
+                        "type": "normal"
+                    }
+                ]
+            },
+            "advancedProps": [
+                {
+                    "name": "Skill DMG",
+                    "elementalGaugeTheory": "2U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "250",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                }
+            ]
         },
         "4": {
             "type": 2,
             "name": "Tamakushi Casket",
             "description": "If Sangonomiya Kokomi's own Bake-Kurage is on the field when she uses <color=#FFD780FF>Nereid's Ascension</color>, the Bake-Kurage's duration will be refreshed.",
-            "icon": "UI_Talent_S_Kokomi_05"
+            "icon": "UI_Talent_S_Kokomi_05",
+            "linkedConstellations": null
         },
         "5": {
             "type": 2,
             "name": "Song of Pearls",
             "description": "While donning the Ceremonial Garment created by <color=#FFD780FF>Nereid's Ascension</color>, the Normal and Charged Attack DMG Bonus Sangonomiya Kokomi gains based on her Max HP will receive a further increase based on 15% of her Healing Bonus.",
-            "icon": "UI_Talent_S_Kokomi_06"
+            "icon": "UI_Talent_S_Kokomi_06",
+            "linkedConstellations": null
         },
         "6": {
             "type": 2,
             "name": "Princess of Watatsumi",
             "description": "Decreases swimming Stamina consumption for your own party members by 20%.\\nNot stackable with Passive Talents that provide the exact same effects.",
-            "icon": "UI_Talent_Explosion_Swim"
+            "icon": "UI_Talent_Explosion_Swim",
+            "linkedConstellations": null
         },
         "8": {
             "type": 2,
             "name": "Flawless Strategy",
             "description": "Sangonomiya Kokomi has a 25% Healing Bonus, but a 100% decrease in CRIT Rate.",
-            "icon": "UI_Talent_S_Kokomi_07"
+            "icon": "UI_Talent_S_Kokomi_07",
+            "linkedConstellations": null
         }
     },
     "constellation": {
         "0": {
+            "id": 0,
             "name": "At Water's Edge",
             "description": "While donning the Ceremonial Garment created by <color=#FFD780FF>Nereid's Ascension</color>, the final Normal Attack in Sangonomiya Kokomi's combo will unleash a swimming fish to deal 30% of her Max HP as <color=#80C0FFFF>Hydro DMG</color>.\\nThis DMG is not considered Normal Attack DMG.",
             "extraData": null,
-            "icon": "UI_Talent_S_Kokomi_01"
+            "icon": "UI_Talent_S_Kokomi_01",
+            "advancedProps": [
+                {
+                    "name": "Extra Fish",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "0",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                }
+            ]
         },
         "1": {
+            "id": 1,
             "name": "The Clouds Like Waves Rippling",
             "description": "Sangonomiya Kokomi gains the following Healing Bonuses with regard to characters with 50% or less HP via the following methods:\\n·<color=#FFD780FF>Kurage's Oath</color> Bake-Kurage: 4.5% of Kokomi's Max HP.\\n·<color=#FFD780FF>Nereid's Ascension</color> Normal and Charged Attacks: 0.6% of Kokomi's Max HP.",
             "extraData": null,
             "icon": "UI_Talent_S_Kokomi_02"
         },
         "2": {
+            "id": 2,
             "name": "The Moon, A Ship O'er the Seas",
             "description": "Increases the Level of <color=#FFD780FF>Nereid's Ascension</color> by 3.\\nMaximum upgrade level is 15.",
             "extraData": {
@@ -2397,12 +2743,14 @@
             "icon": "UI_Talent_U_Kokomi_02"
         },
         "3": {
+            "id": 3,
             "name": "The Moon Overlooks the Waters",
             "description": "While donning the Ceremonial Garment created by <color=#FFD780FF>Nereid's Ascension</color>, Sangonomiya Kokomi's Normal Attack SPD is increased by 10%, and Normal Attacks that hit opponents will restore 0.8 Energy for her.\\nThis effect can occur once every 0.2s.",
             "extraData": null,
             "icon": "UI_Talent_S_Kokomi_03"
         },
         "4": {
+            "id": 4,
             "name": "All Streams Flow to the Sea",
             "description": "Increases the Level of <color=#FFD780FF>Kurage's Oath</color> by 3.\\nMaximum upgrade level is 15.",
             "extraData": {
@@ -2415,6 +2763,7 @@
             "icon": "UI_Talent_U_Kokomi_01"
         },
         "5": {
+            "id": 5,
             "name": "Sango Isshin",
             "description": "While donning the Ceremonial Garment created by <color=#FFD780FF>Nereid's Ascension</color>, Sangonomiya Kokomi gains a 40% <color=#80C0FFFF>Hydro DMG Bonus</color> for 4s when her Normal and Charged Attacks heal, or would heal, any party member with 80% or more HP.",
             "extraData": null,

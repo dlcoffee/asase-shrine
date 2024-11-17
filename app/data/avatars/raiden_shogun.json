@@ -4,6 +4,9 @@
     "name": "Raiden Shogun",
     "element": "Electric",
     "weaponType": "WEAPON_POLE",
+    "region": "INAZUMA",
+    "specialProp": "FIGHT_PROP_CHARGE_EFFICIENCY",
+    "bodyType": "LADY",
     "icon": "UI_AvatarIcon_Shougun",
     "birthday": [
         6,
@@ -187,6 +190,98 @@
         "112046": 3,
         "113025": 5,
         "113029": 4
+    },
+    "items": {
+        "202": {
+            "name": "Mora",
+            "rank": 3,
+            "icon": "UI_ItemIcon_202"
+        },
+        "101208": {
+            "name": "Amakumo Fruit",
+            "rank": 1,
+            "icon": "UI_ItemIcon_101208"
+        },
+        "104001": {
+            "name": "Wanderer's Advice",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104001"
+        },
+        "104002": {
+            "name": "Adventurer's Experience",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104002"
+        },
+        "104003": {
+            "name": "Hero's Wit",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104003"
+        },
+        "104141": {
+            "name": "Vajrada Amethyst Sliver",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104141"
+        },
+        "104142": {
+            "name": "Vajrada Amethyst Fragment",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104142"
+        },
+        "104143": {
+            "name": "Vajrada Amethyst Chunk",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104143"
+        },
+        "104144": {
+            "name": "Vajrada Amethyst Gemstone",
+            "rank": 5,
+            "icon": "UI_ItemIcon_104144"
+        },
+        "104319": {
+            "name": "Crown of Insight",
+            "rank": 5,
+            "icon": "UI_ItemIcon_104319"
+        },
+        "104326": {
+            "name": "Teachings of Light",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104326"
+        },
+        "104327": {
+            "name": "Guide to Light",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104327"
+        },
+        "104328": {
+            "name": "Philosophies of Light",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104328"
+        },
+        "112044": {
+            "name": "Old Handguard",
+            "rank": 1,
+            "icon": "UI_ItemIcon_112044"
+        },
+        "112045": {
+            "name": "Kageuchi Handguard",
+            "rank": 2,
+            "icon": "UI_ItemIcon_112045"
+        },
+        "112046": {
+            "name": "Famed Handguard",
+            "rank": 3,
+            "icon": "UI_ItemIcon_112046"
+        },
+        "113025": {
+            "name": "Molten Moment",
+            "rank": 5,
+            "icon": "UI_ItemIcon_113025"
+        },
+        "113029": {
+            "name": "Storm Beads",
+            "rank": 4,
+            "icon": "UI_ItemIcon_113029"
+        }
     },
     "talent": {
         "0": {
@@ -904,7 +999,139 @@
                 }
             },
             "cooldown": 0,
-            "cost": 0
+            "cost": 0,
+            "linkedConstellations": null,
+            "advancedProps": [
+                {
+                    "name": "Normal Attack 1-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": "6",
+                            "text": "Normal Attack"
+                        },
+                        "type": {
+                            "span": "6",
+                            "text": "2.5s/3 Hits"
+                        }
+                    },
+                    "interruptionResistance": "36.88",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 2-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "36.96",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 3-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "46.4",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "800",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 4-Hit A",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "26.96",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 4-Hit B",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "26.96",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "800",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 5-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "60.88",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "480",
+                        "verticalForce": "600"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Charged Attack",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "120",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "800",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Plunging Attack Collision",
+                    "elementalGaugeTheory": "0U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "25",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Low Plunge",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "100",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "800",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": true
+                },
+                {
+                    "name": "High Plunge",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "150",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "0",
+                        "verticalForce": "800"
+                    },
+                    "bluntAttack": true
+                }
+            ]
         },
         "1": {
             "type": 0,
@@ -1621,7 +1848,51 @@
                 }
             },
             "cooldown": 10,
-            "cost": 0
+            "cost": 0,
+            "linkedConstellations": {
+                "isLevelIncluded": true,
+                "prop": [
+                    {
+                        "id": 4,
+                        "type": "level"
+                    }
+                ]
+            },
+            "advancedProps": [
+                {
+                    "name": "Skill DMG",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "80",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Coordinated Attack DMG",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": null,
+                            "text": "Elemental Skill"
+                        },
+                        "type": {
+                            "span": null,
+                            "text": "2.5s/3 Hits"
+                        }
+                    },
+                    "interruptionResistance": "30",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                }
+            ]
         },
         "3": {
             "type": 1,
@@ -2338,47 +2609,258 @@
                 }
             },
             "cooldown": 18,
-            "cost": 90
+            "cost": 90,
+            "linkedConstellations": {
+                "isLevelIncluded": true,
+                "prop": [
+                    {
+                        "id": 1,
+                        "type": "normal"
+                    },
+                    {
+                        "id": 2,
+                        "type": "level"
+                    },
+                    {
+                        "id": 3,
+                        "type": "normal"
+                    },
+                    {
+                        "id": 5,
+                        "type": "normal"
+                    }
+                ]
+            },
+            "advancedProps": [
+                {
+                    "name": "Musou no Hitotachi DMG",
+                    "elementalGaugeTheory": "2U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "150",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "1-Hit DMG",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": "8",
+                            "text": "Musou Isshin Attack"
+                        },
+                        "type": {
+                            "span": "8",
+                            "text": "2.5s/3 Hits"
+                        }
+                    },
+                    "interruptionResistance": "36.88",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "2-Hit DMG",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "36.96",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "3-Hit DMG",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "46.4",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "800",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "4-Hit DMG 1",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "26.96",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "4-Hit DMG 2",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "26.96",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "800",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "5-Hit DMG",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "60.88",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "480",
+                        "verticalForce": "600"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Charged Attack DMG 1",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "60",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "800",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Charged Attack DMG 2",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "60",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "480",
+                        "verticalForce": "600"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Plunge DMG",
+                    "elementalGaugeTheory": "0U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "25",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Low Plunge DMG",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "100",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "800",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": true
+                },
+                {
+                    "name": "High Plunge DMG",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "150",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "0",
+                        "verticalForce": "800"
+                    },
+                    "bluntAttack": true
+                }
+            ]
         },
         "4": {
             "type": 2,
             "name": "Wishes Unnumbered",
             "description": "When nearby party members gain Elemental Orbs or Particles, <color=#FFD780FF>Chakra Desiderata</color> gains 2 Resolve stacks.\\nThis effect can occur once every 3s.",
-            "icon": "UI_Talent_S_Shougun_05"
+            "icon": "UI_Talent_S_Shougun_05",
+            "linkedConstellations": null
         },
         "5": {
             "type": 2,
             "name": "Enlightened One",
             "description": "Each 1% above 100% Energy Recharge that the Raiden Shogun possesses grants her:\\n·0.6% greater Energy restoration from <color=#FFD780FF>Musou Isshin</color>\\n·0.4% <color=#FFACFFFF>Electro DMG Bonus</color>.",
-            "icon": "UI_Talent_S_Shougun_06"
+            "icon": "UI_Talent_S_Shougun_06",
+            "linkedConstellations": null
         },
         "6": {
             "type": 2,
             "name": "",
             "description": "",
-            "icon": ""
+            "icon": "",
+            "linkedConstellations": {
+                "isLevelIncluded": true,
+                "prop": [
+                    {
+                        "id": 0,
+                        "type": "normal"
+                    },
+                    {
+                        "id": 1,
+                        "type": "normal"
+                    },
+                    {
+                        "id": 2,
+                        "type": "level"
+                    },
+                    {
+                        "id": 3,
+                        "type": "normal"
+                    },
+                    {
+                        "id": 4,
+                        "type": "level"
+                    },
+                    {
+                        "id": 5,
+                        "type": "normal"
+                    }
+                ]
+            }
         },
         "8": {
             "type": 2,
             "name": "All-Preserver",
             "description": "Mora expended when ascending Swords and Polearms is decreased by 50%.",
-            "icon": "UI_Talent_S_Shougun_07"
+            "icon": "UI_Talent_S_Shougun_07",
+            "linkedConstellations": null
         }
     },
     "constellation": {
         "0": {
+            "id": 0,
             "name": "Ominous Inscription",
             "description": "<color=#FFD780FF>Chakra Desiderata</color> will gather Resolve even faster. When <color=#FFACFFFF>Electro</color> characters use their Elemental Bursts, the Resolve gained is increased by 80%. When characters of other Elemental Types use their Elemental Bursts, the Resolve gained is increased by 20%.",
             "extraData": null,
             "icon": "UI_Talent_S_Shougun_01"
         },
         "1": {
+            "id": 1,
             "name": "Steelbreaker",
             "description": "While using Musou no Hitotachi and in the Musou Isshin state applied by <color=#FFD780FF>Secret Art: Musou Shinsetsu</color>, the Raiden Shogun's attacks ignore 60% of opponents' DEF.",
             "extraData": null,
             "icon": "UI_Talent_S_Shougun_03"
         },
         "2": {
+            "id": 2,
             "name": "Shinkage Bygones",
             "description": "Increases the Level of <color=#FFD780FF>Secret Art: Musou Shinsetsu</color> by 3.\\nMaximum upgrade level is 15.",
             "extraData": {
@@ -2391,12 +2873,14 @@
             "icon": "UI_Talent_U_Shougun_02"
         },
         "3": {
+            "id": 3,
             "name": "Pledge of Propriety",
             "description": "When the <color=#FFD780FF>Musou Isshin</color> state applied by <color=#FFD780FF>Secret Art: Musou Shinsetsu</color> expires, all nearby party members (excluding the Raiden Shogun) gain 30% bonus ATK for 10s.",
             "extraData": null,
             "icon": "UI_Talent_S_Shougun_02"
         },
         "4": {
+            "id": 4,
             "name": "Shogun's Descent",
             "description": "Increases the Level of <color=#FFD780FF>Transcendence: Baleful Omen</color> by 3.\\nMaximum upgrade level is 15.",
             "extraData": {
@@ -2409,6 +2893,7 @@
             "icon": "UI_Talent_U_Shougun_01"
         },
         "5": {
+            "id": 5,
             "name": "Wishbearer",
             "description": "While in the <color=#FFD780FF>Musou Isshin</color> state applied by <color=#FFD780FF>Secret Art: Musou Shinsetsu</color>, attacks by the Raiden Shogun that are considered part of her Elemental Burst will decrease all nearby party members' (not including the Raiden Shogun herself) Elemental Burst CD by 1s when they hit opponents.\\nThis effect can trigger once every 1s and can trigger a total of 5 times during Musou Isshin's duration.",
             "extraData": null,

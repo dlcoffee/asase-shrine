@@ -4,6 +4,9 @@
     "name": "Nahida",
     "element": "Grass",
     "weaponType": "WEAPON_CATALYST",
+    "region": "SUMERU",
+    "specialProp": "FIGHT_PROP_ELEMENT_MASTERY",
+    "bodyType": "LOLI",
     "icon": "UI_AvatarIcon_Nahida",
     "birthday": [
         10,
@@ -193,6 +196,98 @@
         "112061": 3,
         "113040": 4,
         "113041": 5
+    },
+    "items": {
+        "202": {
+            "name": "Mora",
+            "rank": 3,
+            "icon": "UI_ItemIcon_202"
+        },
+        "101217": {
+            "name": "Kalpalata Lotus",
+            "rank": 1,
+            "icon": "UI_ItemIcon_101217"
+        },
+        "104001": {
+            "name": "Wanderer's Advice",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104001"
+        },
+        "104002": {
+            "name": "Adventurer's Experience",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104002"
+        },
+        "104003": {
+            "name": "Hero's Wit",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104003"
+        },
+        "104131": {
+            "name": "Nagadus Emerald Sliver",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104131"
+        },
+        "104132": {
+            "name": "Nagadus Emerald Fragment",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104132"
+        },
+        "104133": {
+            "name": "Nagadus Emerald Chunk",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104133"
+        },
+        "104134": {
+            "name": "Nagadus Emerald Gemstone",
+            "rank": 5,
+            "icon": "UI_ItemIcon_104134"
+        },
+        "104319": {
+            "name": "Crown of Insight",
+            "rank": 5,
+            "icon": "UI_ItemIcon_104319"
+        },
+        "104332": {
+            "name": "Teachings of Ingenuity",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104332"
+        },
+        "104333": {
+            "name": "Guide to Ingenuity",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104333"
+        },
+        "104334": {
+            "name": "Philosophies of Ingenuity",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104334"
+        },
+        "112059": {
+            "name": "Fungal Spores",
+            "rank": 1,
+            "icon": "UI_ItemIcon_112059"
+        },
+        "112060": {
+            "name": "Luminescent Pollen",
+            "rank": 2,
+            "icon": "UI_ItemIcon_112060"
+        },
+        "112061": {
+            "name": "Crystalline Cyst Dust",
+            "rank": 3,
+            "icon": "UI_ItemIcon_112061"
+        },
+        "113040": {
+            "name": "Quelled Creeper",
+            "rank": 4,
+            "icon": "UI_ItemIcon_113040"
+        },
+        "113041": {
+            "name": "Puppet Strings",
+            "rank": 5,
+            "icon": "UI_ItemIcon_113041"
+        }
     },
     "talent": {
         "0": {
@@ -910,7 +1005,115 @@
                 }
             },
             "cooldown": 0,
-            "cost": 0
+            "cost": 0,
+            "linkedConstellations": null,
+            "advancedProps": [
+                {
+                    "name": "Normal Attack 1-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": "4",
+                            "text": "Normal Attack"
+                        },
+                        "type": {
+                            "span": "4",
+                            "text": "2.5s/3 Hits"
+                        }
+                    },
+                    "interruptionResistance": "7.557",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 2-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "6.933",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 3-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "8.601",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 4-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "10.951",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Charged Attack",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "80",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Plunging Attack Collision",
+                    "elementalGaugeTheory": "0U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "5",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Low Plunge",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "50",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "High Plunge",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "100",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "800",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                }
+            ]
         },
         "1": {
             "type": 0,
@@ -1627,7 +1830,71 @@
                 }
             },
             "cooldown": 5,
-            "cost": 0
+            "cost": 0,
+            "linkedConstellations": {
+                "isLevelIncluded": true,
+                "prop": [
+                    {
+                        "id": 2,
+                        "type": "level"
+                    },
+                    {
+                        "id": 3,
+                        "type": "normal"
+                    },
+                    {
+                        "id": 5,
+                        "type": "normal"
+                    }
+                ]
+            },
+            "advancedProps": [
+                {
+                    "name": "Press DMG",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "75",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Hold DMG",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "100",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Tri-Karma Purification DMG",
+                    "elementalGaugeTheory": "1.5U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": null,
+                            "text": "Nahida Tri-Karma Purification"
+                        },
+                        "type": {
+                            "span": null,
+                            "text": "1s"
+                        }
+                    },
+                    "interruptionResistance": "30",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                }
+            ]
         },
         "3": {
             "type": 1,
@@ -2344,41 +2611,60 @@
                 }
             },
             "cooldown": 13.5,
-            "cost": 50
+            "cost": 50,
+            "linkedConstellations": {
+                "isLevelIncluded": true,
+                "prop": [
+                    {
+                        "id": 4,
+                        "type": "level"
+                    },
+                    {
+                        "id": 5,
+                        "type": "normal"
+                    }
+                ]
+            }
         },
         "4": {
             "type": 2,
             "name": "Compassion Illuminated",
             "description": "When unleashing <color=#FFD780FF>Illusory Heart</color>, the Shrine of Maya will gain the following effects:\\nThe Elemental Mastery of the active character within the field will be increased by 25% of the Elemental Mastery of the party member with the highest Elemental Mastery.\\nYou can gain a maximum of 250 Elemental Mastery in this manner.",
-            "icon": "UI_Talent_S_Nahida_05"
+            "icon": "UI_Talent_S_Nahida_05",
+            "linkedConstellations": null
         },
         "5": {
             "type": 2,
             "name": "Awakening Elucidated",
             "description": "Each point of Nahida's Elemental Mastery beyond 200 will grant 0.1% Bonus DMG and 0.03% CRIT Rate to Tri-Karma Purification from <color=#FFD780FF>All Schemes to Know</color>.\\nA maximum of 80% Bonus DMG and 24% CRIT Rate can be granted to Tri-Karma Purification in this manner.",
-            "icon": "UI_Talent_S_Nahida_06"
+            "icon": "UI_Talent_S_Nahida_06",
+            "linkedConstellations": null
         },
         "6": {
             "type": 2,
             "name": "On All Things Meditated",
             "description": "Nahida can use <color=#FFD780FF>All Schemes to Know</color> to interact with some harvestable items within a fixed AoE.\\nThis skill may even have some other effects...",
-            "icon": "UI_Talent_S_Nahida_07"
+            "icon": "UI_Talent_S_Nahida_07",
+            "linkedConstellations": null
         }
     },
     "constellation": {
         "0": {
+            "id": 0,
             "name": "The Seed of Stored Knowledge",
             "description": "When the <color=#FFD780FF>Shrine of Maya</color> is unleashed and the Elemental Types of the party members are being tabulated, the count will add 1 to the number of Pyro, Electro, and Hydro characters respectively.",
             "extraData": null,
             "icon": "UI_Talent_S_Nahida_01"
         },
         "1": {
+            "id": 1,
             "name": "The Root of All Fullness",
             "description": "Opponents that are marked by <color=#FFD780FF>Seeds of Skandha</color> applied by Nahida herself will be affected by the following effects:\\n·Burning, Bloom, Hyperbloom, and Burgeon Reaction DMG they receive can score CRIT Hits. CRIT Rate and CRIT DMG are fixed at 20% and 100% respectively.\\n·Within 8s of being affected by Quicken, Aggravate, Spread, DEF is decreased by 30%.",
             "extraData": null,
             "icon": "UI_Talent_S_Nahida_02"
         },
         "2": {
+            "id": 2,
             "name": "The Shoot of Conscious Attainment",
             "description": "Increases the Level of <color=#FFD780FF>All Schemes to Know</color> by 3.\\nMaximum upgrade level is 15.",
             "extraData": {
@@ -2391,12 +2677,14 @@
             "icon": "UI_Talent_U_Nahida_01"
         },
         "3": {
+            "id": 3,
             "name": "The Stem of Manifest Inference",
             "description": "When 1/2/3/4 (or more) nearby opponents are affected by <color=#FFD780FF>All Schemes to Know</color>'s Seeds of Skandha, Nahida's Elemental Mastery will be increased by 100/120/140/160.",
             "extraData": null,
             "icon": "UI_Talent_S_Nahida_03"
         },
         "4": {
+            "id": 4,
             "name": "The Leaves of Enlightening Speech",
             "description": "Increases the Level of <color=#FFD780FF>Illusory Heart</color> by 3.\\nMaximum upgrade level is 15.",
             "extraData": {
@@ -2409,10 +2697,34 @@
             "icon": "UI_Talent_U_Nahida_02"
         },
         "5": {
+            "id": 5,
             "name": "The Fruit of Reason's Culmination",
             "description": "When Nahida hits an opponent affected by <color=#FFD780FF>All Schemes to Know</color>'s Seeds of Skandha with Normal or Charged Attacks after unleashing <color=#FFD780FF>Illusory Heart</color>, she will use Tri-Karma Purification: Karmic Oblivion on this opponent and all connected opponents, dealing <color=#99FF88FF>Dendro DMG</color> based on 200% of Nahida's ATK and 400% of her Elemental Mastery.\\nDMG dealt by Tri-Karma Purification: Karmic Oblivion is considered Elemental Skill DMG and can be triggered once every 0.2s.\\nThis effect can last up to 10s and will be removed after Nahida has unleashed 6 instances of Tri-Karma Purification: Karmic Oblivion.",
             "extraData": null,
-            "icon": "UI_Talent_S_Nahida_04"
+            "icon": "UI_Talent_S_Nahida_04",
+            "advancedProps": [
+                {
+                    "name": "Karmic Oblivion",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": null,
+                            "text": "Nahida C6"
+                        },
+                        "type": {
+                            "span": null,
+                            "text": "2.5s/3 Hits"
+                        }
+                    },
+                    "interruptionResistance": "30",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                }
+            ]
         }
     },
     "_id": 10000073

@@ -4,6 +4,9 @@
     "name": "Kirara",
     "element": "Grass",
     "weaponType": "WEAPON_SWORD_ONE_HAND",
+    "region": "INAZUMA",
+    "specialProp": "FIGHT_PROP_HP_PERCENT",
+    "bodyType": "GIRL",
     "icon": "UI_AvatarIcon_Momoka",
     "birthday": [
         1,
@@ -161,6 +164,13 @@
                 "name": "Whirling Bloom",
                 "description": "Kirara's outfit. The famous designer Chiori followed the principle of \"comfortably wearing a beautiful flower upon one's body\" when creating this outfit for Kirara.",
                 "isDefault": true
+            },
+            {
+                "name": "Phantom in Boots",
+                "description": "Kirara's outfit. The swashbuckling feline of fairytale fame, the crafty courier of dearly-held dreams... is pleased to make your acquaintance!",
+                "storyId": 340018,
+                "icon": "UI_AvatarIcon_MomokaCostumeErrantry",
+                "rank": 4
             }
         ],
         "furnitureId": 368168,
@@ -193,6 +203,98 @@
         "112055": 3,
         "113045": 4,
         "113048": 5
+    },
+    "items": {
+        "202": {
+            "name": "Mora",
+            "rank": 3,
+            "icon": "UI_ItemIcon_202"
+        },
+        "101208": {
+            "name": "Amakumo Fruit",
+            "rank": 1,
+            "icon": "UI_ItemIcon_101208"
+        },
+        "104001": {
+            "name": "Wanderer's Advice",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104001"
+        },
+        "104002": {
+            "name": "Adventurer's Experience",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104002"
+        },
+        "104003": {
+            "name": "Hero's Wit",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104003"
+        },
+        "104131": {
+            "name": "Nagadus Emerald Sliver",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104131"
+        },
+        "104132": {
+            "name": "Nagadus Emerald Fragment",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104132"
+        },
+        "104133": {
+            "name": "Nagadus Emerald Chunk",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104133"
+        },
+        "104134": {
+            "name": "Nagadus Emerald Gemstone",
+            "rank": 5,
+            "icon": "UI_ItemIcon_104134"
+        },
+        "104319": {
+            "name": "Crown of Insight",
+            "rank": 5,
+            "icon": "UI_ItemIcon_104319"
+        },
+        "104320": {
+            "name": "Teachings of Transience",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104320"
+        },
+        "104321": {
+            "name": "Guide to Transience",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104321"
+        },
+        "104322": {
+            "name": "Philosophies of Transience",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104322"
+        },
+        "112053": {
+            "name": "Spectral Husk",
+            "rank": 1,
+            "icon": "UI_ItemIcon_112053"
+        },
+        "112054": {
+            "name": "Spectral Heart",
+            "rank": 2,
+            "icon": "UI_ItemIcon_112054"
+        },
+        "112055": {
+            "name": "Spectral Nucleus",
+            "rank": 3,
+            "icon": "UI_ItemIcon_112055"
+        },
+        "113045": {
+            "name": "Evergloom Ring",
+            "rank": 4,
+            "icon": "UI_ItemIcon_113045"
+        },
+        "113048": {
+            "name": "Everamber",
+            "rank": 5,
+            "icon": "UI_ItemIcon_113048"
+        }
     },
     "talent": {
         "0": {
@@ -910,7 +1012,151 @@
                 }
             },
             "cooldown": 0,
-            "cost": 0
+            "cost": 0,
+            "linkedConstellations": null,
+            "advancedProps": [
+                {
+                    "name": "Normal Attack 1-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": "8",
+                            "text": "Normal Attack"
+                        },
+                        "type": {
+                            "span": "8",
+                            "text": "2.5s/3 Hits"
+                        }
+                    },
+                    "interruptionResistance": "50.1",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 2-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "48.51",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 3-Hit A",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "33.25",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 3-Hit B",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "33.25",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 4-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "76.72",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "480",
+                        "verticalForce": "600"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Charged Attack 1-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "40",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Charged Attack 2-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "40",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Charged Attack 3-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "40",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "655",
+                        "verticalForce": "800"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Plunging Attack Collision",
+                    "elementalGaugeTheory": "0U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "25",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Low Plunge",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "100",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "800",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": true
+                },
+                {
+                    "name": "High Plunge",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "150",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "0",
+                        "verticalForce": "800"
+                    },
+                    "bluntAttack": true
+                }
+            ]
         },
         "1": {
             "type": 0,
@@ -1627,7 +1873,75 @@
                 }
             },
             "cooldown": 8,
-            "cost": 0
+            "cost": 0,
+            "linkedConstellations": {
+                "isLevelIncluded": true,
+                "prop": [
+                    {
+                        "id": 1,
+                        "type": "normal"
+                    },
+                    {
+                        "id": 2,
+                        "type": "level"
+                    }
+                ]
+            },
+            "advancedProps": [
+                {
+                    "name": "Tail-Flicking Flying Kick DMG",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "100",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "100",
+                        "verticalForce": "800"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Urgent Neko Parcel Hit DMG",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": null,
+                            "text": "Elemental Skill"
+                        },
+                        "type": {
+                            "span": null,
+                            "text": "2.5s/3 Hits"
+                        }
+                    },
+                    "interruptionResistance": "25",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "250",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Flipclaw Strike DMG",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "200",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "100",
+                        "verticalForce": "800"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Dendro to Self",
+                    "elementalGaugeTheory": "1U, 0.1s",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "—",
+                    "interruptionResistanceStagger": null,
+                    "bluntAttack": "—"
+                }
+            ]
         },
         "3": {
             "type": 1,
@@ -2344,41 +2658,95 @@
                 }
             },
             "cooldown": 15,
-            "cost": 60
+            "cost": 60,
+            "linkedConstellations": {
+                "isLevelIncluded": true,
+                "prop": [
+                    {
+                        "id": 0,
+                        "type": "normal"
+                    },
+                    {
+                        "id": 4,
+                        "type": "level"
+                    }
+                ]
+            },
+            "advancedProps": [
+                {
+                    "name": "Skill DMG",
+                    "elementalGaugeTheory": "2U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "200",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Shake",
+                        "horizontalForce": "0",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Cat Grass Cardamom Explosion DMG",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": null,
+                            "text": "Elemental Burst"
+                        },
+                        "type": {
+                            "span": null,
+                            "text": "2.5s/3 Hits"
+                        }
+                    },
+                    "interruptionResistance": "25",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                }
+            ]
         },
         "4": {
             "type": 2,
             "name": "Bewitching, Betwitching Tails",
             "description": "When Kirara is in the Urgent Neko Parcel state of <color=#FFD780FF>Meow-teor Kick</color>, each impact against an opponent will grant her a stack of <color=#FFD780FF>Reinforced Packaging</color>. This effect can be triggered once for each opponent hit every 0.5s. Max 3 stacks. When the Urgent Neko Parcel state ends, each stack of Reinforced Packaging will create 1 Shield of Safe Transport for Kirara. The shields that are created this way will have 20% of the DMG absorption that the Shield of Safe Transport produced by <color=#FFD780FF>Meow-teor Kick</color> would have. If Kirara is already protected by a Shield of Safe Transport created by Meow-teor Kick, its DMG absorption will stack with these shields and its duration will reset.",
-            "icon": "UI_Talent_S_Momoka_05"
+            "icon": "UI_Talent_S_Momoka_05",
+            "linkedConstellations": null
         },
         "5": {
             "type": 2,
             "name": "Pupillary Variance",
             "description": "Every 1,000 Max HP Kirara possesses will increase the DMG dealt by <color=#FFD780FF>Meow-teor Kick</color> by 0.4%, and the DMG dealt by <color=#FFD780FF>Secret Art: Surprise Dispatch</color> by 0.3%.",
-            "icon": "UI_Talent_S_Momoka_06"
+            "icon": "UI_Talent_S_Momoka_06",
+            "linkedConstellations": null
         },
         "6": {
             "type": 2,
             "name": "Cat's Creeping Carriage",
             "description": "When Kirara is in the party, animals who produce Fowl, Raw Meat, or Chilled Meat will not be startled when party members approach them.",
-            "icon": "UI_Talent_S_Aloy_07"
+            "icon": "UI_Talent_S_Aloy_07",
+            "linkedConstellations": null
         }
     },
     "constellation": {
         "0": {
+            "id": 0,
             "name": "Material Circulation",
             "description": "Every 8,000 Max HP Kirara possesses will cause her to create 1 extra <color=#FFD780FF>Cat Grass Cardamom</color> when she uses <color=#FFD780FF>Secret Art: Surprise Dispatch</color>. A maximum of 4 extra can be created this way.",
             "extraData": null,
             "icon": "UI_Talent_S_Momoka_01"
         },
         "1": {
+            "id": 1,
             "name": "Perfectly Packaged",
             "description": "When Kirara is in the Urgent Neko Parcel state of <color=#FFD780FF>Meow-teor Kick</color>, she will grant other party members she crashes into Critical Transport Shields.\\nThe DMG absorption of Critical Transport Shield is 40% of the maximum absorption <color=#FFD780FF>Meow-teor Kick</color>'s normal Shields of Safe Transport are capable of, and will absorb <color=#99FF88FF>Dendro DMG</color> with 250% effectiveness.\\nCritical Transport Shields last 12s and can be triggered once on each character every 10s.",
             "extraData": null,
             "icon": "UI_Talent_S_Momoka_02"
         },
         "2": {
+            "id": 2,
             "name": "Universal Recognition",
             "description": "Increases the Level of <color=#FFD780FF>Meow-teor Kick</color> by 3.\\nMaximum upgrade level is 15.",
             "extraData": {
@@ -2391,12 +2759,37 @@
             "icon": "UI_Talent_U_Momoka_01"
         },
         "3": {
+            "id": 3,
             "name": "Steed of Skanda",
             "description": "After active character(s) protected by <color=#FFD780FF>Shields of Safe Transport</color> or <color=#FFD780FF>Critical Transport Shields</color> hit opponents with Normal, Charged, or Plunging Attacks, Kirara will perform a coordinated attack with them using <color=#FFD780FF>Small Cat Grass Cardamoms</color>, dealing 200% of her ATK as <color=#99FF88FF>Dendro DMG</color>. DMG dealt this way is considered Elemental Burst DMG. This effect can be triggered once every 3.8s. This CD is shared between all party members.",
             "extraData": null,
-            "icon": "UI_Talent_S_Momoka_04"
+            "icon": "UI_Talent_S_Momoka_04",
+            "advancedProps": [
+                {
+                    "name": "Small Cat Grass Cardamom",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": null,
+                            "text": "Elemental Burst"
+                        },
+                        "type": {
+                            "span": null,
+                            "text": "2.5s/3 Hits"
+                        }
+                    },
+                    "interruptionResistance": "25",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                }
+            ]
         },
         "4": {
+            "id": 4,
             "name": "A Thousand Miles in a Day",
             "description": "Increases the Level of <color=#FFD780FF>Secret Art: Surprise Dispatch</color> by 3.\\nMaximum upgrade level is 15.",
             "extraData": {
@@ -2409,6 +2802,7 @@
             "icon": "UI_Talent_U_Momoka_02"
         },
         "5": {
+            "id": 5,
             "name": "Countless Sights to See",
             "description": "All nearby party members will gain 12% All Elemental DMG Bonus within 15s after Kirara uses her Elemental Skill or Burst.",
             "extraData": null,
