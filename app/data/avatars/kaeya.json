@@ -4,12 +4,15 @@
     "name": "Kaeya",
     "element": "Ice",
     "weaponType": "WEAPON_SWORD_ONE_HAND",
+    "region": "MONDSTADT",
+    "specialProp": "FIGHT_PROP_CHARGE_EFFICIENCY",
+    "bodyType": "MALE",
     "icon": "UI_AvatarIcon_Kaeya",
     "birthday": [
         11,
         30
     ],
-    "release": 1600131600,
+    "release": 1601244000,
     "route": "Kaeya",
     "fetter": {
         "title": "Frostwind Swordsman",
@@ -200,6 +203,98 @@
         "112037": 3,
         "113008": 5,
         "113010": 4
+    },
+    "items": {
+        "202": {
+            "name": "Mora",
+            "rank": 3,
+            "icon": "UI_ItemIcon_202"
+        },
+        "100056": {
+            "name": "Calla Lily",
+            "rank": 1,
+            "icon": "UI_ItemIcon_100056"
+        },
+        "104001": {
+            "name": "Wanderer's Advice",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104001"
+        },
+        "104002": {
+            "name": "Adventurer's Experience",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104002"
+        },
+        "104003": {
+            "name": "Hero's Wit",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104003"
+        },
+        "104161": {
+            "name": "Shivada Jade Sliver",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104161"
+        },
+        "104162": {
+            "name": "Shivada Jade Fragment",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104162"
+        },
+        "104163": {
+            "name": "Shivada Jade Chunk",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104163"
+        },
+        "104164": {
+            "name": "Shivada Jade Gemstone",
+            "rank": 5,
+            "icon": "UI_ItemIcon_104164"
+        },
+        "104307": {
+            "name": "Teachings of Ballad",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104307"
+        },
+        "104308": {
+            "name": "Guide to Ballad",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104308"
+        },
+        "104309": {
+            "name": "Philosophies of Ballad",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104309"
+        },
+        "104319": {
+            "name": "Crown of Insight",
+            "rank": 5,
+            "icon": "UI_ItemIcon_104319"
+        },
+        "112035": {
+            "name": "Treasure Hoarder Insignia",
+            "rank": 1,
+            "icon": "UI_ItemIcon_112035"
+        },
+        "112036": {
+            "name": "Silver Raven Insignia",
+            "rank": 2,
+            "icon": "UI_ItemIcon_112036"
+        },
+        "112037": {
+            "name": "Golden Raven Insignia",
+            "rank": 3,
+            "icon": "UI_ItemIcon_112037"
+        },
+        "113008": {
+            "name": "Spirit Locket of Boreas",
+            "rank": 5,
+            "icon": "UI_ItemIcon_113008"
+        },
+        "113010": {
+            "name": "Hoarfrost Core",
+            "rank": 4,
+            "icon": "UI_ItemIcon_113010"
+        }
     },
     "talent": {
         "0": {
@@ -917,7 +1012,139 @@
                 }
             },
             "cooldown": 0,
-            "cost": 0
+            "cost": 0,
+            "linkedConstellations": null,
+            "advancedProps": [
+                {
+                    "name": "Normal Attack 1-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": "7",
+                            "text": "Normal Attack"
+                        },
+                        "type": {
+                            "span": "7",
+                            "text": "2.5s/3 Hits"
+                        }
+                    },
+                    "interruptionResistance": "27.3",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 2-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "23.4",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 3-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "44.1",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 4-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "56.7",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 5-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "110.6",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "655",
+                        "verticalForce": "800"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Charged Attack 1-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "45",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Charged Attack 2-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "45",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "655",
+                        "verticalForce": "800"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Plunging Attack Collision",
+                    "elementalGaugeTheory": "0U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "25",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Low Plunge",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "100",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "800",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": true
+                },
+                {
+                    "name": "High Plunge",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "150",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "0",
+                        "verticalForce": "800"
+                    },
+                    "bluntAttack": true
+                }
+            ]
         },
         "1": {
             "type": 0,
@@ -1634,7 +1861,42 @@
                 }
             },
             "cooldown": 6,
-            "cost": 0
+            "cost": 0,
+            "linkedConstellations": {
+                "isLevelIncluded": true,
+                "prop": [
+                    {
+                        "id": 2,
+                        "type": "level"
+                    }
+                ]
+            },
+            "advancedProps": [
+                {
+                    "name": "Skill DMG",
+                    "elementalGaugeTheory": "2U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "140",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "800",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Skill DMG (Against Water)",
+                    "elementalGaugeTheory": "4U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "0",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Mute",
+                        "horizontalForce": "0",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                }
+            ]
         },
         "3": {
             "type": 1,
@@ -2351,41 +2613,108 @@
                 }
             },
             "cooldown": 15,
-            "cost": 60
+            "cost": 60,
+            "linkedConstellations": {
+                "isLevelIncluded": true,
+                "prop": [
+                    {
+                        "id": 1,
+                        "type": "normal"
+                    },
+                    {
+                        "id": 4,
+                        "type": "level"
+                    },
+                    {
+                        "id": 5,
+                        "type": "normal"
+                    }
+                ]
+            },
+            "advancedProps": [
+                {
+                    "name": "Activation Knockback",
+                    "elementalGaugeTheory": "—",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": null,
+                            "text": "—"
+                        },
+                        "type": {
+                            "span": null,
+                            "text": "—"
+                        }
+                    },
+                    "interruptionResistance": "400",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "800",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Skill DMG",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": null,
+                            "text": "Elemental Burst"
+                        },
+                        "type": {
+                            "span": null,
+                            "text": "2.5s/3 Hits"
+                        }
+                    },
+                    "interruptionResistance": "25",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                }
+            ]
         },
         "4": {
             "type": 2,
             "name": "Cold-Blooded Strike",
             "description": "Every hit with <color=#FFD780FF>Frostgnaw</color> regenerates HP for Kaeya equal to 15% of his ATK.",
-            "icon": "UI_Talent_S_Kaeya_05"
+            "icon": "UI_Talent_S_Kaeya_05",
+            "linkedConstellations": null
         },
         "5": {
             "type": 2,
             "name": "Glacial Heart",
             "description": "Opponents <color=#99FFFFFF>Frozen</color> by <color=#FFD780FF>Frostgnaw</color> will drop additional Elemental Particles.\\nFrostgnaw may only produce a maximum of 2 additional Elemental Particles per use.",
-            "icon": "UI_Talent_S_Kaeya_06"
+            "icon": "UI_Talent_S_Kaeya_06",
+            "linkedConstellations": null
         },
         "6": {
             "type": 2,
             "name": "Hidden Strength",
             "description": "Decreases sprinting Stamina consumption for your own party members by 20%.\\nNot stackable with Passive Talents that provide the exact same effects.",
-            "icon": "UI_Talent_Explosion_Sprint"
+            "icon": "UI_Talent_Explosion_Sprint",
+            "linkedConstellations": null
         }
     },
     "constellation": {
         "0": {
+            "id": 0,
             "name": "Excellent Blood",
             "description": "The CRIT Rate of Kaeya's Normal and Charge Attacks against opponents affected by <color=#99FFFFFF>Cryo</color> is increased by 15%.",
             "extraData": null,
             "icon": "UI_Talent_S_Kaeya_01"
         },
         "1": {
+            "id": 1,
             "name": "Never-Ending Performance",
             "description": "While <color=#FFD780FF>Glacial Waltz</color> is in effect, for each opponent defeated, its duration is increased by 2.5s, up to a maximum of 15s.",
             "extraData": null,
             "icon": "UI_Talent_S_Kaeya_02"
         },
         "2": {
+            "id": 2,
             "name": "Dance of Frost",
             "description": "Increases the Level of <color=#FFD780FF>Frostgnaw</color> by 3.\\nMaximum upgrade level is 15.",
             "extraData": {
@@ -2398,12 +2727,14 @@
             "icon": "UI_Talent_U_Kaeya_01"
         },
         "3": {
+            "id": 3,
             "name": "Frozen Kiss",
             "description": "Triggers automatically when Kaeya's HP falls below 20%:\\nCreates a shield that absorbs damage equal to 30% of Kaeya's Max HP. Lasts for 20s.\\nThis shield absorbs <color=#99FFFFFF>Cryo DMG</color> with 250% efficiency.\\nCan only occur once every 60s.",
             "extraData": null,
             "icon": "UI_Talent_S_Kaeya_03"
         },
         "4": {
+            "id": 4,
             "name": "Frostbiting Embrace",
             "description": "Increases the Level of <color=#FFD780FF>Glacial Waltz</color> by 3.\\nMaximum upgrade level is 15.",
             "extraData": {
@@ -2416,6 +2747,7 @@
             "icon": "UI_Talent_U_Kaeya_02"
         },
         "5": {
+            "id": 5,
             "name": "Glacial Whirlwind",
             "description": "<color=#FFD780FF>Glacial Waltz</color> will generate 1 additional icicle, and will regenerate 15 Energy when cast.",
             "extraData": null,

@@ -4,6 +4,9 @@
     "name": "Kaedehara Kazuha",
     "element": "Wind",
     "weaponType": "WEAPON_SWORD_ONE_HAND",
+    "region": "INAZUMA",
+    "specialProp": "FIGHT_PROP_ELEMENT_MASTERY",
+    "bodyType": "BOY",
     "icon": "UI_AvatarIcon_Kazuha",
     "birthday": [
         10,
@@ -193,6 +196,98 @@
         "112037": 3,
         "113019": 5,
         "113022": 4
+    },
+    "items": {
+        "202": {
+            "name": "Mora",
+            "rank": 3,
+            "icon": "UI_ItemIcon_202"
+        },
+        "101206": {
+            "name": "Sea Ganoderma",
+            "rank": 1,
+            "icon": "UI_ItemIcon_101206"
+        },
+        "104001": {
+            "name": "Wanderer's Advice",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104001"
+        },
+        "104002": {
+            "name": "Adventurer's Experience",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104002"
+        },
+        "104003": {
+            "name": "Hero's Wit",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104003"
+        },
+        "104151": {
+            "name": "Vayuda Turquoise Sliver",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104151"
+        },
+        "104152": {
+            "name": "Vayuda Turquoise Fragment",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104152"
+        },
+        "104153": {
+            "name": "Vayuda Turquoise Chunk",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104153"
+        },
+        "104154": {
+            "name": "Vayuda Turquoise Gemstone",
+            "rank": 5,
+            "icon": "UI_ItemIcon_104154"
+        },
+        "104313": {
+            "name": "Teachings of Diligence",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104313"
+        },
+        "104314": {
+            "name": "Guide to Diligence",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104314"
+        },
+        "104315": {
+            "name": "Philosophies of Diligence",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104315"
+        },
+        "104319": {
+            "name": "Crown of Insight",
+            "rank": 5,
+            "icon": "UI_ItemIcon_104319"
+        },
+        "112035": {
+            "name": "Treasure Hoarder Insignia",
+            "rank": 1,
+            "icon": "UI_ItemIcon_112035"
+        },
+        "112036": {
+            "name": "Silver Raven Insignia",
+            "rank": 2,
+            "icon": "UI_ItemIcon_112036"
+        },
+        "112037": {
+            "name": "Golden Raven Insignia",
+            "rank": 3,
+            "icon": "UI_ItemIcon_112037"
+        },
+        "113019": {
+            "name": "Gilded Scale",
+            "rank": 5,
+            "icon": "UI_ItemIcon_113019"
+        },
+        "113022": {
+            "name": "Marionette Core",
+            "rank": 4,
+            "icon": "UI_ItemIcon_113022"
+        }
     },
     "talent": {
         "0": {
@@ -910,7 +1005,175 @@
                 }
             },
             "cooldown": 0,
-            "cost": 0
+            "cost": 0,
+            "linkedConstellations": null,
+            "advancedProps": [
+                {
+                    "name": "Normal Attack 1-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": "10",
+                            "text": "Normal Attack"
+                        },
+                        "type": {
+                            "span": "10",
+                            "text": "2.5s/3 Hits"
+                        }
+                    },
+                    "interruptionResistance": "47.7",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 2-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "47.37",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 3-Hit A",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "29.7",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 3-Hit B",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "29.7",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 4-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "63.54",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 5-Hit A",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "26.55",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 5-Hit B",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "26.55",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 5-Hit C",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "26.55",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "480",
+                        "verticalForce": "600"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Charged Attack 1-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "60",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Charged Attack 2-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "60",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "655",
+                        "verticalForce": "800"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Plunging Attack Collision",
+                    "elementalGaugeTheory": "0U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "25",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Low Plunge",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "100",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "800",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": true
+                },
+                {
+                    "name": "High Plunge",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "150",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "0",
+                        "verticalForce": "800"
+                    },
+                    "bluntAttack": true
+                }
+            ]
         },
         "1": {
             "type": 0,
@@ -1627,7 +1890,54 @@
                 }
             },
             "cooldown": 6,
-            "cost": 0
+            "cost": 0,
+            "linkedConstellations": {
+                "isLevelIncluded": true,
+                "prop": [
+                    {
+                        "id": 0,
+                        "type": "normal"
+                    },
+                    {
+                        "id": 2,
+                        "type": "level"
+                    },
+                    {
+                        "id": 3,
+                        "type": "normal"
+                    },
+                    {
+                        "id": 5,
+                        "type": "normal"
+                    }
+                ]
+            },
+            "advancedProps": [
+                {
+                    "name": "Press DMG",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "150",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "100",
+                        "verticalForce": "800"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Hold DMG",
+                    "elementalGaugeTheory": "2U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "300",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "0",
+                        "verticalForce": "800"
+                    },
+                    "bluntAttack": false
+                }
+            ]
         },
         "3": {
             "type": 1,
@@ -2344,41 +2654,120 @@
                 }
             },
             "cooldown": 15,
-            "cost": 60
+            "cost": 60,
+            "linkedConstellations": {
+                "isLevelIncluded": true,
+                "prop": [
+                    {
+                        "id": 0,
+                        "type": "normal"
+                    },
+                    {
+                        "id": 1,
+                        "type": "normal"
+                    },
+                    {
+                        "id": 4,
+                        "type": "level"
+                    },
+                    {
+                        "id": 5,
+                        "type": "normal"
+                    }
+                ]
+            },
+            "advancedProps": [
+                {
+                    "name": "Slashing DMG",
+                    "elementalGaugeTheory": "2U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "250",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "250",
+                        "verticalForce": "600"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "DoT",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "75",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "0",
+                        "verticalForce": "100"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Additional Elemental DMG",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "25",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "0",
+                        "verticalForce": "100"
+                    },
+                    "bluntAttack": false
+                }
+            ]
         },
         "4": {
             "type": 2,
             "name": "Soumon Swordsmanship",
             "description": "If <color=#FFD780FF>Chihayaburu</color> comes into contact with <color=#80C0FFFF>Hydro</color>/<color=#FF9999FF>Pyro</color>/<color=#99FFFFFF>Cryo</color>/<color=#FFACFFFF>Electro</color> when cast, this <color=#FFD780FF>Chihayaburu</color> will absorb that element and if Plunging Attack: Midare Ranzan is used before the effect expires, it will deal an additional 200% ATK of the absorbed elemental type as DMG. This will be considered Plunging Attack DMG.\\nElemental Absorption may only occur once per use of <color=#FFD780FF>Chihayaburu</color>.",
-            "icon": "UI_Talent_S_Kazuha_05"
+            "icon": "UI_Talent_S_Kazuha_05",
+            "linkedConstellations": null,
+            "advancedProps": [
+                {
+                    "name": "Additional Plunging DMG",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "20",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Shake",
+                        "horizontalForce": "0",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": true
+                }
+            ]
         },
         "5": {
             "type": 2,
             "name": "Poetics of Fuubutsu",
             "description": "Upon triggering a Swirl reaction, Kaedehara Kazuha will grant all party members a 0.04% Elemental DMG Bonus to the element absorbed by Swirl for every point of Elemental Mastery he has for 8s. Bonuses for different elements obtained through this method can co-exist.",
-            "icon": "UI_Talent_S_Kazuha_06"
+            "icon": "UI_Talent_S_Kazuha_06",
+            "linkedConstellations": null
         },
         "6": {
             "type": 2,
             "name": "Cloud Strider",
             "description": "Decreases sprinting Stamina consumption for your own party members by 20%.\\nNot stackable with Passive Talents that provide the exact same effects.",
-            "icon": "UI_Talent_Explosion_Sprint"
+            "icon": "UI_Talent_Explosion_Sprint",
+            "linkedConstellations": null
         }
     },
     "constellation": {
         "0": {
+            "id": 0,
             "name": "Scarlet Hills",
             "description": "Decreases <color=#FFD780FF>Chihayaburu</color>'s CD by 10%.\\nUsing <color=#FFD780FF>Kazuha Slash</color> resets the CD of <color=#FFD780FF>Chihayaburu</color>.",
             "extraData": null,
             "icon": "UI_Talent_S_Kazuha_01"
         },
         "1": {
+            "id": 1,
             "name": "Yamaarashi Tailwind",
             "description": "The Autumn Whirlwind field created by <color=#FFD780FF>Kazuha Slash</color> has the following effects:\\n· Increases Kaedehara Kazuha's own Elemental Mastery by 200 for its duration.\\n· Increases the Elemental Mastery of characters within the field by 200.\\n\\nThe Elemental Mastery-increasing effects of this Constellation do not stack.",
             "extraData": null,
             "icon": "UI_Talent_S_Kazuha_02"
         },
         "2": {
+            "id": 2,
             "name": "Maple Monogatari",
             "description": "Increases the Level of <color=#FFD780FF>Chihayaburu</color> by 3.\\nMaximum upgrade level is 15.",
             "extraData": {
@@ -2391,12 +2780,14 @@
             "icon": "UI_Talent_U_Kazuha_01"
         },
         "3": {
+            "id": 3,
             "name": "Oozora Genpou",
             "description": "#When Kaedehara Kazuha's Energy is lower than 45, he obtains the following effects:\\n·{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Pressing}{LAYOUT_PS#Pressing} or Holding <color=#FFD780FF>Chihayaburu</color> regenerates 3 or 4 Energy for Kaedehara Kazuha, respectively.\\n·When gliding, Kaedehara Kazuha regenerates 2 Energy per second.",
             "extraData": null,
             "icon": "UI_Talent_S_Kazuha_03"
         },
         "4": {
+            "id": 4,
             "name": "Wisdom of Bansei",
             "description": "Increases the Level of <color=#FFD780FF>Kazuha Slash</color> by 3.\\nMaximum upgrade level is 15.",
             "extraData": {
@@ -2409,6 +2800,7 @@
             "icon": "UI_Talent_U_Kazuha_02"
         },
         "5": {
+            "id": 5,
             "name": "Crimson Momiji",
             "description": "After using <color=#FFD780FF>Chihayaburu</color> or <color=#FFD780FF>Kazuha Slash</color>, Kaedehara Kazuha gains an <color=#80FFD7FF>Anemo Infusion</color> for 5s. Additionally, each point of Elemental Mastery will increase the DMG dealt by Kaedehara Kazuha's Normal, Charged, and Plunging Attacks by 0.2%.",
             "extraData": null,

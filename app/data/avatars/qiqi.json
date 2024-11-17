@@ -4,12 +4,15 @@
     "name": "Qiqi",
     "element": "Ice",
     "weaponType": "WEAPON_SWORD_ONE_HAND",
+    "region": "LIYUE",
+    "specialProp": "FIGHT_PROP_HEAL_ADD",
+    "bodyType": "LOLI",
     "icon": "UI_AvatarIcon_Qiqi",
     "birthday": [
         3,
         3
     ],
-    "release": 1600131600,
+    "release": 1601244000,
     "route": "Qiqi",
     "fetter": {
         "title": "Icy Resurrection",
@@ -193,6 +196,98 @@
         "112010": 3,
         "113006": 5,
         "113010": 4
+    },
+    "items": {
+        "202": {
+            "name": "Mora",
+            "rank": 3,
+            "icon": "UI_ItemIcon_202"
+        },
+        "100034": {
+            "name": "Violetgrass",
+            "rank": 1,
+            "icon": "UI_ItemIcon_100034"
+        },
+        "104001": {
+            "name": "Wanderer's Advice",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104001"
+        },
+        "104002": {
+            "name": "Adventurer's Experience",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104002"
+        },
+        "104003": {
+            "name": "Hero's Wit",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104003"
+        },
+        "104161": {
+            "name": "Shivada Jade Sliver",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104161"
+        },
+        "104162": {
+            "name": "Shivada Jade Fragment",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104162"
+        },
+        "104163": {
+            "name": "Shivada Jade Chunk",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104163"
+        },
+        "104164": {
+            "name": "Shivada Jade Gemstone",
+            "rank": 5,
+            "icon": "UI_ItemIcon_104164"
+        },
+        "104310": {
+            "name": "Teachings of Prosperity",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104310"
+        },
+        "104311": {
+            "name": "Guide to Prosperity",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104311"
+        },
+        "104312": {
+            "name": "Philosophies of Prosperity",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104312"
+        },
+        "104319": {
+            "name": "Crown of Insight",
+            "rank": 5,
+            "icon": "UI_ItemIcon_104319"
+        },
+        "112008": {
+            "name": "Divining Scroll",
+            "rank": 1,
+            "icon": "UI_ItemIcon_112008"
+        },
+        "112009": {
+            "name": "Sealed Scroll",
+            "rank": 2,
+            "icon": "UI_ItemIcon_112009"
+        },
+        "112010": {
+            "name": "Forbidden Curse Scroll",
+            "rank": 3,
+            "icon": "UI_ItemIcon_112010"
+        },
+        "113006": {
+            "name": "Tail of Boreas",
+            "rank": 5,
+            "icon": "UI_ItemIcon_113006"
+        },
+        "113010": {
+            "name": "Hoarfrost Core",
+            "rank": 4,
+            "icon": "UI_ItemIcon_113010"
+        }
     },
     "talent": {
         "0": {
@@ -910,7 +1005,163 @@
                 }
             },
             "cooldown": 0,
-            "cost": 0
+            "cost": 0,
+            "linkedConstellations": null,
+            "advancedProps": [
+                {
+                    "name": "Normal Attack 1-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": "9",
+                            "text": "Normal Attack"
+                        },
+                        "type": {
+                            "span": "9",
+                            "text": "2.5s/3 Hits"
+                        }
+                    },
+                    "interruptionResistance": "25.2",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 2-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "27.9",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 3-Hit A",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "35.1",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 3-Hit B",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "12.6",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 4-Hit A",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "12.6",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 4-Hit B",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "12.6",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 5-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "68.6",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "655",
+                        "verticalForce": "800"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Charged Attack 1-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "63",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Charged Attack 2-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "63",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "655",
+                        "verticalForce": "800"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Plunging Attack Collision",
+                    "elementalGaugeTheory": "0U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "25",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Low Plunge",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "100",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "800",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": true
+                },
+                {
+                    "name": "High Plunge",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "150",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "0",
+                        "verticalForce": "800"
+                    },
+                    "bluntAttack": true
+                }
+            ]
         },
         "1": {
             "type": 0,
@@ -1627,7 +1878,51 @@
                 }
             },
             "cooldown": 30,
-            "cost": 0
+            "cost": 0,
+            "linkedConstellations": {
+                "isLevelIncluded": true,
+                "prop": [
+                    {
+                        "id": 4,
+                        "type": "level"
+                    }
+                ]
+            },
+            "advancedProps": [
+                {
+                    "name": "Skill DMG",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": "2",
+                            "text": "Elemental Skill"
+                        },
+                        "type": {
+                            "span": "2",
+                            "text": "2.5s/3 Hits"
+                        }
+                    },
+                    "interruptionResistance": "40",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Herald of Frost DMG",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "80",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "600",
+                        "verticalForce": "400"
+                    },
+                    "bluntAttack": false
+                }
+            ]
         },
         "3": {
             "type": 1,
@@ -2344,41 +2639,74 @@
                 }
             },
             "cooldown": 20,
-            "cost": 80
+            "cost": 80,
+            "linkedConstellations": {
+                "isLevelIncluded": true,
+                "prop": [
+                    {
+                        "id": 2,
+                        "type": "level"
+                    },
+                    {
+                        "id": 5,
+                        "type": "normal"
+                    }
+                ]
+            },
+            "advancedProps": [
+                {
+                    "name": "Skill DMG",
+                    "elementalGaugeTheory": "2U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "200",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "800",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                }
+            ]
         },
         "4": {
             "type": 2,
             "name": "Life-Prolonging Methods",
             "description": "When a character under the effects of <color=#FFD780FF>Adeptus Art: Herald of Frost</color> triggers an Elemental Reaction, their Incoming Healing Bonus is increased by 20% for 8s.",
-            "icon": "UI_Talent_S_Qiqi_05"
+            "icon": "UI_Talent_S_Qiqi_05",
+            "linkedConstellations": null
         },
         "5": {
             "type": 2,
             "name": "A Glimpse Into Arcanum",
             "description": "When Qiqi hits opponents with her Normal and Charged Attacks, she has a 50% chance to apply a Fortune-Preserving Talisman to them for 6s. This effect can only occur once every 30s.",
-            "icon": "UI_Talent_S_Qiqi_06"
+            "icon": "UI_Talent_S_Qiqi_06",
+            "linkedConstellations": null
         },
         "6": {
             "type": 2,
             "name": "Former Life Memories",
             "description": "Displays the location of nearby <color=#FFD780FF>resources unique to Liyue</color> on the mini-map.",
-            "icon": "UI_Talent_Collect_Local_Liyue"
+            "icon": "UI_Talent_Collect_Local_Liyue",
+            "linkedConstellations": null
         }
     },
     "constellation": {
         "0": {
+            "id": 0,
             "name": "Ascetics of Frost",
             "description": "When the Herald of Frost hits an opponent marked by a Fortune-Preserving Talisman, Qiqi regenerates 2 Energy.",
             "extraData": null,
             "icon": "UI_Talent_S_Qiqi_01"
         },
         "1": {
+            "id": 1,
             "name": "Frozen to the Bone",
             "description": "Qiqi's Normal and Charge Attack DMG against opponents affected by <color=#99FFFFFF>Cryo</color> is increased by 15%.",
             "extraData": null,
             "icon": "UI_Talent_S_Qiqi_02"
         },
         "2": {
+            "id": 2,
             "name": "Ascendant Praise",
             "description": "Increases the Level of <color=#FFD780FF>Adeptus Art: Preserver of Fortune</color> by 3.\\nMaximum upgrade level is 15.",
             "extraData": {
@@ -2391,12 +2719,14 @@
             "icon": "UI_Talent_U_Qiqi_01"
         },
         "3": {
+            "id": 3,
             "name": "Divine Suppression",
             "description": "Targets marked by the Fortune-Preserving Talisman have their ATK decreased by 20%.",
             "extraData": null,
             "icon": "UI_Talent_S_Qiqi_03"
         },
         "4": {
+            "id": 4,
             "name": "Crimson Lotus Bloom",
             "description": "Increases the Level of <color=#FFD780FF>Adeptus Art: Herald of Frost</color> by 3.\\nMaximum upgrade level is 15.",
             "extraData": {
@@ -2409,6 +2739,7 @@
             "icon": "UI_Talent_U_Qiqi_02"
         },
         "5": {
+            "id": 5,
             "name": "Rite of Resurrection",
             "description": "Using <color=#FFD780FF>Adeptus Art: Preserver of Fortune</color> revives all fallen party members nearby and regenerates 50% of their HP.\\nThis effect can only occur once every 15 mins.",
             "extraData": null,

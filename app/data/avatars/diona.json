@@ -4,6 +4,9 @@
     "name": "Diona",
     "element": "Ice",
     "weaponType": "WEAPON_BOW",
+    "region": "MONDSTADT",
+    "specialProp": "FIGHT_PROP_ICE_ADD_HURT",
+    "bodyType": "LOLI",
     "icon": "UI_AvatarIcon_Diona",
     "birthday": [
         1,
@@ -193,6 +196,98 @@
         "112013": 3,
         "113010": 4,
         "113014": 5
+    },
+    "items": {
+        "202": {
+            "name": "Mora",
+            "rank": 3,
+            "icon": "UI_ItemIcon_202"
+        },
+        "100056": {
+            "name": "Calla Lily",
+            "rank": 1,
+            "icon": "UI_ItemIcon_100056"
+        },
+        "104001": {
+            "name": "Wanderer's Advice",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104001"
+        },
+        "104002": {
+            "name": "Adventurer's Experience",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104002"
+        },
+        "104003": {
+            "name": "Hero's Wit",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104003"
+        },
+        "104161": {
+            "name": "Shivada Jade Sliver",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104161"
+        },
+        "104162": {
+            "name": "Shivada Jade Fragment",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104162"
+        },
+        "104163": {
+            "name": "Shivada Jade Chunk",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104163"
+        },
+        "104164": {
+            "name": "Shivada Jade Gemstone",
+            "rank": 5,
+            "icon": "UI_ItemIcon_104164"
+        },
+        "104301": {
+            "name": "Teachings of Freedom",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104301"
+        },
+        "104302": {
+            "name": "Guide to Freedom",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104302"
+        },
+        "104303": {
+            "name": "Philosophies of Freedom",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104303"
+        },
+        "104319": {
+            "name": "Crown of Insight",
+            "rank": 5,
+            "icon": "UI_ItemIcon_104319"
+        },
+        "112011": {
+            "name": "Firm Arrowhead",
+            "rank": 1,
+            "icon": "UI_ItemIcon_112011"
+        },
+        "112012": {
+            "name": "Sharp Arrowhead",
+            "rank": 2,
+            "icon": "UI_ItemIcon_112012"
+        },
+        "112013": {
+            "name": "Weathered Arrowhead",
+            "rank": 3,
+            "icon": "UI_ItemIcon_112013"
+        },
+        "113010": {
+            "name": "Hoarfrost Core",
+            "rank": 4,
+            "icon": "UI_ItemIcon_113010"
+        },
+        "113014": {
+            "name": "Shard of a Foul Legacy",
+            "rank": 5,
+            "icon": "UI_ItemIcon_113014"
+        }
     },
     "talent": {
         "0": {
@@ -910,7 +1005,163 @@
                 }
             },
             "cooldown": 0,
-            "cost": 0
+            "cost": 0,
+            "linkedConstellations": null,
+            "advancedProps": [
+                {
+                    "name": "Normal Attack 1-Hit",
+                    "elementalGaugeTheory": "—",
+                    "internalCooldown": null,
+                    "interruptionResistance": "12.6",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Shake",
+                        "horizontalForce": "0",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 2-Hit",
+                    "elementalGaugeTheory": "—",
+                    "internalCooldown": null,
+                    "interruptionResistance": "11.7",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Shake",
+                        "horizontalForce": "0",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 3-Hit",
+                    "elementalGaugeTheory": "—",
+                    "internalCooldown": null,
+                    "interruptionResistance": "15.9",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Shake",
+                        "horizontalForce": "0",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 4-Hit",
+                    "elementalGaugeTheory": "—",
+                    "internalCooldown": null,
+                    "interruptionResistance": "15",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Shake",
+                        "horizontalForce": "0",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 5-Hit",
+                    "elementalGaugeTheory": "—",
+                    "internalCooldown": null,
+                    "interruptionResistance": "18.75",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Shake",
+                        "horizontalForce": "0",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Aimed Shot",
+                    "elementalGaugeTheory": "—",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": "4",
+                            "text": "Charged Attack"
+                        },
+                        "type": {
+                            "span": "4",
+                            "text": "2.5s/3 Hits"
+                        }
+                    },
+                    "interruptionResistance": "10",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Aimed Shot (Hit Weak Spot)",
+                    "elementalGaugeTheory": "—",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "30",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "480",
+                        "verticalForce": "600"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Fully-Charged Aimed Shot",
+                    "elementalGaugeTheory": "1U(w/ Dropoff)",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "20",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Fully-Charged Aimed Shot (Hit Weak Spot)",
+                    "elementalGaugeTheory": "1U(w/ Dropoff)",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "60",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "480",
+                        "verticalForce": "600"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Plunging Attack Collision",
+                    "elementalGaugeTheory": "—",
+                    "internalCooldown": null,
+                    "interruptionResistance": "10",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Low Plunge",
+                    "elementalGaugeTheory": "—",
+                    "internalCooldown": null,
+                    "interruptionResistance": "50",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "High Plunge",
+                    "elementalGaugeTheory": "—",
+                    "internalCooldown": null,
+                    "interruptionResistance": "100",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                }
+            ]
         },
         "1": {
             "type": 0,
@@ -1627,7 +1878,51 @@
                 }
             },
             "cooldown": 6,
-            "cost": 0
+            "cost": 0,
+            "linkedConstellations": {
+                "isLevelIncluded": true,
+                "prop": [
+                    {
+                        "id": 1,
+                        "type": "normal"
+                    },
+                    {
+                        "id": 4,
+                        "type": "level"
+                    }
+                ]
+            },
+            "advancedProps": [
+                {
+                    "name": "Icy Paw DMG",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": null,
+                            "text": "Elemental Skill"
+                        },
+                        "type": {
+                            "span": null,
+                            "text": "2.5s/3 Hits"
+                        }
+                    },
+                    "interruptionResistance": "30",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Frozen to Self",
+                    "elementalGaugeTheory": "2U, 0.1s",
+                    "internalCooldown": null,
+                    "interruptionResistance": "—",
+                    "interruptionResistanceStagger": null,
+                    "bluntAttack": "—"
+                }
+            ]
         },
         "3": {
             "type": 1,
@@ -2344,41 +2639,112 @@
                 }
             },
             "cooldown": 20,
-            "cost": 80
+            "cost": 80,
+            "linkedConstellations": {
+                "isLevelIncluded": true,
+                "prop": [
+                    {
+                        "id": 0,
+                        "type": "normal"
+                    },
+                    {
+                        "id": 2,
+                        "type": "level"
+                    },
+                    {
+                        "id": 3,
+                        "type": "normal"
+                    },
+                    {
+                        "id": 5,
+                        "type": "normal"
+                    }
+                ]
+            },
+            "advancedProps": [
+                {
+                    "name": "Skill DMG",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": null,
+                            "text": "Elemental Burst"
+                        },
+                        "type": {
+                            "span": null,
+                            "text": "2.5s/3 Hits"
+                        }
+                    },
+                    "interruptionResistance": "50",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Continuous Field DMG",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": null,
+                            "text": "Elemental Burst DMG"
+                        },
+                        "type": {
+                            "span": null,
+                            "text": "2.5s/3 Hits"
+                        }
+                    },
+                    "interruptionResistance": "50",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Shake",
+                        "horizontalForce": "0",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                }
+            ]
         },
         "4": {
             "type": 2,
             "name": "Cat's Tail Secret Menu",
             "description": "Characters shielded by <color=#FFD780FF>Icy Paws</color> have their Movement SPD increased by 10% and their Stamina Consumption decreased by 10%.",
-            "icon": "UI_Talent_S_Diona_05"
+            "icon": "UI_Talent_S_Diona_05",
+            "linkedConstellations": null
         },
         "5": {
             "type": 2,
             "name": "Drunkards' Farce",
             "description": "Opponents who enter the AoE of <color=#FFD780FF>Signature Mix</color> have 10% decreased ATK for 15s.",
-            "icon": "UI_Talent_S_Diona_06"
+            "icon": "UI_Talent_S_Diona_06",
+            "linkedConstellations": null
         },
         "6": {
             "type": 2,
             "name": "Complimentary Bar Food",
             "description": "When a Perfect Cooking is achieved on a dish with restorative effects, there is a 12% chance to obtain double the product.",
-            "icon": "UI_Talent_Cook_Heal"
+            "icon": "UI_Talent_Cook_Heal",
+            "linkedConstellations": null
         }
     },
     "constellation": {
         "0": {
+            "id": 0,
             "name": "A Lingering Flavor",
             "description": "Regenerates 15 Energy for Diona after the effects of <color=#FFD780FF>Signature Mix</color> end.",
             "extraData": null,
             "icon": "UI_Talent_S_Diona_01"
         },
         "1": {
+            "id": 1,
             "name": "Shaken, Not Purred",
             "description": "Increases <color=#FFD780FF>Icy Paws</color>' DMG by 15%, and increases its shield's DMG Absorption by 15%.\\nAdditionally, when paws hit their targets, creates a shield for other nearby characters on the field with 50% of the <color=#FFD780FF>Icy Paws</color> shield's DMG Absorption for 5s.",
             "extraData": null,
             "icon": "UI_Talent_S_Diona_02"
         },
         "2": {
+            "id": 2,
             "name": "A—Another Round?",
             "description": "Increases the Level of <color=#FFD780FF>Signature Mix</color> by 3.\\nMaximum upgrade level is 15.",
             "extraData": {
@@ -2391,12 +2757,14 @@
             "icon": "UI_Talent_U_Diona_01"
         },
         "3": {
+            "id": 3,
             "name": "Wine Industry Slayer",
             "description": "Within the radius of <color=#FFD780FF>Signature Mix</color>, Diona's charge time for aimed shots is reduced by 60%",
             "extraData": null,
             "icon": "UI_Talent_S_Diona_03"
         },
         "4": {
+            "id": 4,
             "name": "Double Shot, on the Rocks",
             "description": "Increases the Level of <color=#FFD780FF>Icy Paws</color> by 3.\\nMaximum upgrade level is 15.",
             "extraData": {
@@ -2409,6 +2777,7 @@
             "icon": "UI_Talent_U_Diona_02"
         },
         "5": {
+            "id": 5,
             "name": "Cat's Tail Closing Time",
             "description": "Characters within <color=#FFD780FF>Signature Mix</color>'s radius will gain the following effects based on their HP amounts:\\n·Increases Incoming Healing Bonus by 30% when HP falls below or is equal to 50%.\\n·Elemental Mastery increased by 200 when HP is above 50%.",
             "extraData": null,

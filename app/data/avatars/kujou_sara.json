@@ -4,6 +4,9 @@
     "name": "Kujou Sara",
     "element": "Electric",
     "weaponType": "WEAPON_BOW",
+    "region": "INAZUMA",
+    "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
+    "bodyType": "LADY",
     "icon": "UI_AvatarIcon_Sara",
     "birthday": [
         7,
@@ -193,6 +196,98 @@
         "112007": 3,
         "113027": 5,
         "113029": 4
+    },
+    "items": {
+        "202": {
+            "name": "Mora",
+            "rank": 3,
+            "icon": "UI_ItemIcon_202"
+        },
+        "101204": {
+            "name": "Dendrobium",
+            "rank": 1,
+            "icon": "UI_ItemIcon_101204"
+        },
+        "104001": {
+            "name": "Wanderer's Advice",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104001"
+        },
+        "104002": {
+            "name": "Adventurer's Experience",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104002"
+        },
+        "104003": {
+            "name": "Hero's Wit",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104003"
+        },
+        "104141": {
+            "name": "Vajrada Amethyst Sliver",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104141"
+        },
+        "104142": {
+            "name": "Vajrada Amethyst Fragment",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104142"
+        },
+        "104143": {
+            "name": "Vajrada Amethyst Chunk",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104143"
+        },
+        "104144": {
+            "name": "Vajrada Amethyst Gemstone",
+            "rank": 5,
+            "icon": "UI_ItemIcon_104144"
+        },
+        "104319": {
+            "name": "Crown of Insight",
+            "rank": 5,
+            "icon": "UI_ItemIcon_104319"
+        },
+        "104323": {
+            "name": "Teachings of Elegance",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104323"
+        },
+        "104324": {
+            "name": "Guide to Elegance",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104324"
+        },
+        "104325": {
+            "name": "Philosophies of Elegance",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104325"
+        },
+        "112005": {
+            "name": "Damaged Mask",
+            "rank": 1,
+            "icon": "UI_ItemIcon_112005"
+        },
+        "112006": {
+            "name": "Stained Mask",
+            "rank": 2,
+            "icon": "UI_ItemIcon_112006"
+        },
+        "112007": {
+            "name": "Ominous Mask",
+            "rank": 3,
+            "icon": "UI_ItemIcon_112007"
+        },
+        "113027": {
+            "name": "Ashen Heart",
+            "rank": 5,
+            "icon": "UI_ItemIcon_113027"
+        },
+        "113029": {
+            "name": "Storm Beads",
+            "rank": 4,
+            "icon": "UI_ItemIcon_113029"
+        }
     },
     "talent": {
         "0": {
@@ -910,7 +1005,154 @@
                 }
             },
             "cooldown": 0,
-            "cost": 0
+            "cost": 0,
+            "linkedConstellations": null,
+            "advancedProps": [
+                {
+                    "name": "Normal Attack 1-Hit",
+                    "elementalGaugeTheory": "—",
+                    "internalCooldown": null,
+                    "interruptionResistance": "12.87",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Shake",
+                        "horizontalForce": "0",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 2-Hit",
+                    "elementalGaugeTheory": "—",
+                    "internalCooldown": null,
+                    "interruptionResistance": "13.5",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Shake",
+                        "horizontalForce": "0",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 3-Hit",
+                    "elementalGaugeTheory": "—",
+                    "internalCooldown": null,
+                    "interruptionResistance": "16.92",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Shake",
+                        "horizontalForce": "0",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 4-Hit",
+                    "elementalGaugeTheory": "—",
+                    "internalCooldown": null,
+                    "interruptionResistance": "17.58",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Shake",
+                        "horizontalForce": "0",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 5-Hit",
+                    "elementalGaugeTheory": "—",
+                    "internalCooldown": null,
+                    "interruptionResistance": "20.25",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Shake",
+                        "horizontalForce": "0",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Aimed Shot",
+                    "elementalGaugeTheory": "—",
+                    "internalCooldown": null,
+                    "interruptionResistance": "10",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Aimed Shot (Hit Weak Spot)",
+                    "elementalGaugeTheory": "—",
+                    "internalCooldown": null,
+                    "interruptionResistance": "30",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "480",
+                        "verticalForce": "600"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Fully-Charged Aimed Shot",
+                    "elementalGaugeTheory": "1U(w/ Dropoff)",
+                    "internalCooldown": null,
+                    "interruptionResistance": "20",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Fully-Charged Aimed Shot (Hit Weak Spot)",
+                    "elementalGaugeTheory": "1U(w/ Dropoff)",
+                    "internalCooldown": null,
+                    "interruptionResistance": "60",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "480",
+                        "verticalForce": "600"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Plunging Attack Collision",
+                    "elementalGaugeTheory": "—",
+                    "internalCooldown": null,
+                    "interruptionResistance": "10",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Low Plunge",
+                    "elementalGaugeTheory": "—",
+                    "internalCooldown": null,
+                    "interruptionResistance": "50",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "High Plunge",
+                    "elementalGaugeTheory": "—",
+                    "internalCooldown": null,
+                    "interruptionResistance": "100",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                }
+            ]
         },
         "1": {
             "type": 0,
@@ -1627,7 +1869,38 @@
                 }
             },
             "cooldown": 10,
-            "cost": 0
+            "cost": 0,
+            "linkedConstellations": {
+                "isLevelIncluded": true,
+                "prop": [
+                    {
+                        "id": 0,
+                        "type": "normal"
+                    },
+                    {
+                        "id": 1,
+                        "type": "normal"
+                    },
+                    {
+                        "id": 4,
+                        "type": "level"
+                    }
+                ]
+            },
+            "advancedProps": [
+                {
+                    "name": "Tengu Juurai: Ambush DMG",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "100",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                }
+            ]
         },
         "3": {
             "type": 1,
@@ -2344,41 +2617,95 @@
                 }
             },
             "cooldown": 20,
-            "cost": 80
+            "cost": 80,
+            "linkedConstellations": {
+                "isLevelIncluded": true,
+                "prop": [
+                    {
+                        "id": 2,
+                        "type": "level"
+                    },
+                    {
+                        "id": 3,
+                        "type": "normal"
+                    }
+                ]
+            },
+            "advancedProps": [
+                {
+                    "name": "Tengu Juurai: Titanbreaker DMG",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "100",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "480",
+                        "verticalForce": "600"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Tengu Juurai: Stormcluster DMG",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": null,
+                            "text": "Elemental Burst"
+                        },
+                        "type": {
+                            "span": null,
+                            "text": "2.5s/3 Hits"
+                        }
+                    },
+                    "interruptionResistance": "20",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                }
+            ]
         },
         "4": {
             "type": 2,
             "name": "Immovable Will",
             "description": "While in the Crowfeather Cover state provided by <color=#FFD780FF>Tengu Stormcall</color>, Aimed Shot charge times are decreased by 60%.",
-            "icon": "UI_Talent_S_Sara_01"
+            "icon": "UI_Talent_S_Sara_01",
+            "linkedConstellations": null
         },
         "5": {
             "type": 2,
             "name": "Decorum",
             "description": "When Tengu Juurai: Ambush hits opponents, Kujou Sara will restore 1.2 Energy to all party members for every 100% Energy Recharge she has. This effect can be triggered once every 3s.",
-            "icon": "UI_Talent_S_Sara_06"
+            "icon": "UI_Talent_S_Sara_06",
+            "linkedConstellations": null
         },
         "6": {
             "type": 2,
             "name": "Land Survey",
             "description": "When dispatched on an expedition in Inazuma, time consumed is reduced by 25%.",
-            "icon": "UI_Talent_S_Sara_07"
+            "icon": "UI_Talent_S_Sara_07",
+            "linkedConstellations": null
         }
     },
     "constellation": {
         "0": {
+            "id": 0,
             "name": "Crow's Eye",
             "description": "When Tengu Juurai grant characters ATK Bonuses or hits opponents, the CD of <color=#FFD780FF>Tengu Stormcall</color> is decreased by 1s.\\nThis effect can be triggered once every 3s.",
             "extraData": null,
             "icon": "UI_Talent_S_Sara_05"
         },
         "1": {
+            "id": 1,
             "name": "Dark Wings",
             "description": "Unleashing <color=#FFD780FF>Tengu Stormcall</color> will leave a weaker Crowfeather at Kujou Sara's original position that will deal 30% of its original DMG.",
             "extraData": null,
             "icon": "UI_Talent_S_Sara_02"
         },
         "2": {
+            "id": 2,
             "name": "The War Within",
             "description": "Increases the Level of <color=#FFD780FF>Subjugation: Koukou Sendou</color> by 3.\\nMaximum upgrade level is 15.",
             "extraData": {
@@ -2391,12 +2718,14 @@
             "icon": "UI_Talent_U_Sara_02"
         },
         "3": {
+            "id": 3,
             "name": "Conclusive Proof",
             "description": "The number of Tengu Juurai: Stormcluster released by <color=#FFD780FF>Subjugation: Koukou Sendou</color> is increased to 6.",
             "extraData": null,
             "icon": "UI_Talent_S_Sara_03"
         },
         "4": {
+            "id": 4,
             "name": "Spellsinger",
             "description": "Increases the Level of <color=#FFD780FF>Tengu Stormcall</color> by 3.\\nMaximum upgrade level is 15.",
             "extraData": {
@@ -2409,6 +2738,7 @@
             "icon": "UI_Talent_U_Sara_01"
         },
         "5": {
+            "id": 5,
             "name": "Sin of Pride",
             "description": "The <color=#FFACFFFF>Electro DMG</color> of characters who have had their ATK increased by Tengu Juurai has its Crit DMG increased by 60%.",
             "extraData": null,

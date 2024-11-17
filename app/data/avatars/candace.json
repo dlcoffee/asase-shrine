@@ -4,6 +4,9 @@
     "name": "Candace",
     "element": "Water",
     "weaponType": "WEAPON_POLE",
+    "region": "SUMERU",
+    "specialProp": "FIGHT_PROP_HP_PERCENT",
+    "bodyType": "LADY",
     "icon": "UI_AvatarIcon_Candace",
     "birthday": [
         5,
@@ -193,6 +196,98 @@
         "112067": 3,
         "113033": 5,
         "113039": 4
+    },
+    "items": {
+        "202": {
+            "name": "Mora",
+            "rank": 3,
+            "icon": "UI_ItemIcon_202"
+        },
+        "101220": {
+            "name": "Henna Berry",
+            "rank": 1,
+            "icon": "UI_ItemIcon_101220"
+        },
+        "104001": {
+            "name": "Wanderer's Advice",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104001"
+        },
+        "104002": {
+            "name": "Adventurer's Experience",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104002"
+        },
+        "104003": {
+            "name": "Hero's Wit",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104003"
+        },
+        "104121": {
+            "name": "Varunada Lazurite Sliver",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104121"
+        },
+        "104122": {
+            "name": "Varunada Lazurite Fragment",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104122"
+        },
+        "104123": {
+            "name": "Varunada Lazurite Chunk",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104123"
+        },
+        "104124": {
+            "name": "Varunada Lazurite Gemstone",
+            "rank": 5,
+            "icon": "UI_ItemIcon_104124"
+        },
+        "104319": {
+            "name": "Crown of Insight",
+            "rank": 5,
+            "icon": "UI_ItemIcon_104319"
+        },
+        "104329": {
+            "name": "Teachings of Admonition",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104329"
+        },
+        "104330": {
+            "name": "Guide to Admonition",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104330"
+        },
+        "104331": {
+            "name": "Philosophies of Admonition",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104331"
+        },
+        "112065": {
+            "name": "Faded Red Satin",
+            "rank": 1,
+            "icon": "UI_ItemIcon_112065"
+        },
+        "112066": {
+            "name": "Trimmed Red Silk",
+            "rank": 2,
+            "icon": "UI_ItemIcon_112066"
+        },
+        "112067": {
+            "name": "Rich Red Brocade",
+            "rank": 3,
+            "icon": "UI_ItemIcon_112067"
+        },
+        "113033": {
+            "name": "Tears of the Calamitous God",
+            "rank": 5,
+            "icon": "UI_ItemIcon_113033"
+        },
+        "113039": {
+            "name": "Light Guiding Tetrahedron",
+            "rank": 4,
+            "icon": "UI_ItemIcon_113039"
+        }
     },
     "talent": {
         "0": {
@@ -910,7 +1005,136 @@
                 }
             },
             "cooldown": 0,
-            "cost": 0
+            "cost": 0,
+            "linkedConstellations": null,
+            "advancedProps": [
+                {
+                    "name": "Normal Attack 1-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": "5",
+                            "text": "Normal Attack"
+                        },
+                        "type": {
+                            "span": "5",
+                            "text": "2.5s/3 Hits"
+                        }
+                    },
+                    "interruptionResistance": "60.08",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 2-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "59.76",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "550",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": true
+                },
+                {
+                    "name": "Normal Attack 3-Hit A",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "38.08",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 3-Hit B",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "38.08",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 4-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "94.8",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "480",
+                        "verticalForce": "600"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Charged Attack",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": null,
+                            "text": "Charged Attack"
+                        },
+                        "type": {
+                            "span": null,
+                            "text": "0.5s"
+                        }
+                    },
+                    "interruptionResistance": "120",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "480",
+                        "verticalForce": "600"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Plunging Attack Collision",
+                    "elementalGaugeTheory": "0U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "25",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Low Plunge",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "100",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "800",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": true
+                },
+                {
+                    "name": "High Plunge",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "150",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "0",
+                        "verticalForce": "800"
+                    },
+                    "bluntAttack": true
+                }
+            ]
         },
         "1": {
             "type": 0,
@@ -1627,7 +1851,50 @@
                 }
             },
             "cooldown": 6,
-            "cost": 0
+            "cost": 0,
+            "linkedConstellations": {
+                "isLevelIncluded": true,
+                "prop": [
+                    {
+                        "id": 1,
+                        "type": "normal"
+                    },
+                    {
+                        "id": 3,
+                        "type": "normal"
+                    },
+                    {
+                        "id": 4,
+                        "type": "level"
+                    }
+                ]
+            },
+            "advancedProps": [
+                {
+                    "name": "Press",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "150",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "655",
+                        "verticalForce": "800"
+                    },
+                    "bluntAttack": true
+                },
+                {
+                    "name": "Hold",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "300",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "655",
+                        "verticalForce": "800"
+                    },
+                    "bluntAttack": true
+                }
+            ]
         },
         "3": {
             "type": 1,
@@ -2344,41 +2611,102 @@
                 }
             },
             "cooldown": 15,
-            "cost": 60
+            "cost": 60,
+            "linkedConstellations": {
+                "isLevelIncluded": true,
+                "prop": [
+                    {
+                        "id": 0,
+                        "type": "normal"
+                    },
+                    {
+                        "id": 2,
+                        "type": "level"
+                    },
+                    {
+                        "id": 5,
+                        "type": "normal"
+                    }
+                ]
+            },
+            "advancedProps": [
+                {
+                    "name": "Skill DMG",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "300",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Wave Impact DMG",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "300",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Extra Attack (C6)",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "300",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                }
+            ]
         },
         "4": {
             "type": 2,
             "name": "Aegis of Crossed Arrows",
             "description": "If Candace is hit by an attack in the Hold duration of <color=#FFD780FF>Sacred Rite: Heron's Sanctum</color>, that skill will finish charging instantly.",
-            "icon": "UI_Talent_S_Candace_05"
+            "icon": "UI_Talent_S_Candace_05",
+            "linkedConstellations": null
         },
         "5": {
             "type": 2,
             "name": "Celestial Dome of Sand",
             "description": "Characters affected by the Prayer of the Crimson Crown caused by <color=#FFD780FF>Sacred Rite: Wagtail's Tide</color> will deal 0.5% increased DMG to opponents for every 1,000 points of Candace's Max HP when they deal Elemental DMG with their Normal Attacks.",
-            "icon": "UI_Talent_S_Candace_06"
+            "icon": "UI_Talent_S_Candace_06",
+            "linkedConstellations": null
         },
         "6": {
             "type": 2,
             "name": "To Dawn's First Light",
             "description": "Decreases climbing Stamina consumption for your own party members by 20%.\\nNot stackable with Passive Talents that provide the exact same effects.",
-            "icon": "UI_Talent_Explosion_Climb"
+            "icon": "UI_Talent_Explosion_Climb",
+            "linkedConstellations": null
         }
     },
     "constellation": {
         "0": {
+            "id": 0,
             "name": "Returning Heiress of the Scarlet Sands",
             "description": "The duration of Prayer of the Crimson Crown effect triggered by <color=#FFD780FF>Sacred Rite: Wagtail's Tide</color> is increased by 3s.",
             "extraData": null,
             "icon": "UI_Talent_S_Candace_01"
         },
         "1": {
+            "id": 1,
             "name": "Moon-Piercing Brilliance",
             "description": "When <color=#FFD780FF>Sacred Rite: Heron's Sanctum</color> hits opponents, Candace's Max HP will be increased by 20% for 15s.",
             "extraData": null,
             "icon": "UI_Talent_S_Candace_02"
         },
         "2": {
+            "id": 2,
             "name": "Hunter's Supplication",
             "description": "Increases the Level of <color=#FFD780FF>Sacred Rite: Wagtail's Tide</color> by 3.\\nMaximum upgrade level is 15.",
             "extraData": {
@@ -2391,12 +2719,14 @@
             "icon": "UI_Talent_U_Candace_01"
         },
         "3": {
+            "id": 3,
             "name": "Sentinel Oath",
             "description": "Shortens the Hold CD of <color=#FFD780FF>Sacred Rite: Heron's Sanctum</color> to be the same as that of the Tapping CD.",
             "extraData": null,
             "icon": "UI_Talent_S_Candace_03"
         },
         "4": {
+            "id": 4,
             "name": "Heterochromatic Gaze",
             "description": "Increases the Level of <color=#FFD780FF>Sacred Rite: Heron's Sanctum</color> by 3.\\nMaximum upgrade level is 15.",
             "extraData": {
@@ -2409,10 +2739,25 @@
             "icon": "UI_Talent_U_Candace_02"
         },
         "5": {
+            "id": 5,
             "name": "The Overflow",
             "description": "When characters (excluding Candace herself) affected by the Prayer of the Crimson Crown caused by <color=#FFD780FF>Sacred Rite: Wagtail's Tide</color> deal Elemental DMG to opponents using Normal Attacks, an attack wave will be unleashed that deals <color=#80C0FFFF>AoE Hydro DMG</color> equal to 15% of Candace's Max HP.\\nThis effect can trigger once every 2.3s and is considered Elemental Burst DMG.",
             "extraData": null,
-            "icon": "UI_Talent_S_Candace_04"
+            "icon": "UI_Talent_S_Candace_04",
+            "advancedProps": [
+                {
+                    "name": "Extra Hydro DMG",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "300",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                }
+            ]
         }
     },
     "_id": 10000072

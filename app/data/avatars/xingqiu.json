@@ -4,12 +4,15 @@
     "name": "Xingqiu",
     "element": "Water",
     "weaponType": "WEAPON_SWORD_ONE_HAND",
+    "region": "LIYUE",
+    "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
+    "bodyType": "BOY",
     "icon": "UI_AvatarIcon_Xingqiu",
     "birthday": [
         10,
         9
     ],
-    "release": 1600131600,
+    "release": 1601244000,
     "route": "Xingqiu",
     "fetter": {
         "title": "Juvenile Galant",
@@ -161,6 +164,13 @@
                 "name": "Azure Silk",
                 "description": "Xingqiu's outfit. Fine robes woven from the high-quality silk sold by the Feiyun Commerce Guild.",
                 "isDefault": true
+            },
+            {
+                "name": "Bamboo Rain",
+                "description": "Formal wear prepared by the Feiyun Commerce Guild for Xingqiu. The bamboo prints are refined and the cut is most flattering, but Xingqiu's favorite aspect of the outfit is its inner pockets, into which a thinner novel might be stuffed.",
+                "storyId": 340016,
+                "icon": "UI_AvatarIcon_XingqiuCostumeBamboo",
+                "rank": 4
             }
         ],
         "furnitureId": 368114,
@@ -193,6 +203,98 @@
         "112007": 3,
         "113006": 5,
         "113012": 4
+    },
+    "items": {
+        "202": {
+            "name": "Mora",
+            "rank": 3,
+            "icon": "UI_ItemIcon_202"
+        },
+        "100029": {
+            "name": "Silk Flower",
+            "rank": 1,
+            "icon": "UI_ItemIcon_100029"
+        },
+        "104001": {
+            "name": "Wanderer's Advice",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104001"
+        },
+        "104002": {
+            "name": "Adventurer's Experience",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104002"
+        },
+        "104003": {
+            "name": "Hero's Wit",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104003"
+        },
+        "104121": {
+            "name": "Varunada Lazurite Sliver",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104121"
+        },
+        "104122": {
+            "name": "Varunada Lazurite Fragment",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104122"
+        },
+        "104123": {
+            "name": "Varunada Lazurite Chunk",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104123"
+        },
+        "104124": {
+            "name": "Varunada Lazurite Gemstone",
+            "rank": 5,
+            "icon": "UI_ItemIcon_104124"
+        },
+        "104316": {
+            "name": "Teachings of Gold",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104316"
+        },
+        "104317": {
+            "name": "Guide to Gold",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104317"
+        },
+        "104318": {
+            "name": "Philosophies of Gold",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104318"
+        },
+        "104319": {
+            "name": "Crown of Insight",
+            "rank": 5,
+            "icon": "UI_ItemIcon_104319"
+        },
+        "112005": {
+            "name": "Damaged Mask",
+            "rank": 1,
+            "icon": "UI_ItemIcon_112005"
+        },
+        "112006": {
+            "name": "Stained Mask",
+            "rank": 2,
+            "icon": "UI_ItemIcon_112006"
+        },
+        "112007": {
+            "name": "Ominous Mask",
+            "rank": 3,
+            "icon": "UI_ItemIcon_112007"
+        },
+        "113006": {
+            "name": "Tail of Boreas",
+            "rank": 5,
+            "icon": "UI_ItemIcon_113006"
+        },
+        "113012": {
+            "name": "Cleansing Heart",
+            "rank": 4,
+            "icon": "UI_ItemIcon_113012"
+        }
     },
     "talent": {
         "0": {
@@ -910,7 +1012,163 @@
                 }
             },
             "cooldown": 0,
-            "cost": 0
+            "cost": 0,
+            "linkedConstellations": null,
+            "advancedProps": [
+                {
+                    "name": "Normal Attack 1-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": "9",
+                            "text": "Normal Attack"
+                        },
+                        "type": {
+                            "span": "9",
+                            "text": "2.5s/3 Hits"
+                        }
+                    },
+                    "interruptionResistance": "47.7",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 2-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "49.5",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 3-Hit A",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "29.3",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 3-Hit B",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "29.3",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 4-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "57.6",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 5-Hit A",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "36.81",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "0",
+                        "verticalForce": "450"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 5-Hit B",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "36.81",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "655",
+                        "verticalForce": "800"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Charged Attack 1-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "50.3",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Charged Attack 2-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "50.3",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "655",
+                        "verticalForce": "800"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Plunging Attack Collision",
+                    "elementalGaugeTheory": "0U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "25",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Low Plunge",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "100",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "800",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": true
+                },
+                {
+                    "name": "High Plunge",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "150",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "0",
+                        "verticalForce": "800"
+                    },
+                    "bluntAttack": true
+                }
+            ]
         },
         "1": {
             "type": 0,
@@ -1627,7 +1885,54 @@
                 }
             },
             "cooldown": 21,
-            "cost": 0
+            "cost": 0,
+            "linkedConstellations": {
+                "isLevelIncluded": true,
+                "prop": [
+                    {
+                        "id": 3,
+                        "type": "normal"
+                    },
+                    {
+                        "id": 4,
+                        "type": "level"
+                    }
+                ]
+            },
+            "advancedProps": [
+                {
+                    "name": "Skill DMG 1-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "120",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Skill DMG 2-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "120",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Wet to Self",
+                    "elementalGaugeTheory": "1U, 0.5s",
+                    "internalCooldown": null,
+                    "interruptionResistance": "—",
+                    "interruptionResistanceStagger": null,
+                    "bluntAttack": "—"
+                }
+            ]
         },
         "3": {
             "type": 1,
@@ -2344,41 +2649,124 @@
                 }
             },
             "cooldown": 20,
-            "cost": 80
+            "cost": 80,
+            "linkedConstellations": {
+                "isLevelIncluded": true,
+                "prop": [
+                    {
+                        "id": 1,
+                        "type": "normal"
+                    },
+                    {
+                        "id": 2,
+                        "type": "level"
+                    },
+                    {
+                        "id": 3,
+                        "type": "normal"
+                    },
+                    {
+                        "id": 5,
+                        "type": "normal"
+                    }
+                ]
+            },
+            "advancedProps": [
+                {
+                    "name": "Activation Knockback",
+                    "elementalGaugeTheory": "—",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": null,
+                            "text": "—"
+                        },
+                        "type": {
+                            "span": null,
+                            "text": "—"
+                        }
+                    },
+                    "interruptionResistance": "400",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "800",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Sword Rain DMG (Primary Sword)",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": "2",
+                            "text": "Elemental Burst"
+                        },
+                        "type": {
+                            "span": "2",
+                            "text": "2.5s/3 Hits"
+                        }
+                    },
+                    "interruptionResistance": "25",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Shake",
+                        "horizontalForce": "0",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Sword Rain DMG (Other Swords)",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "25",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Mute",
+                        "horizontalForce": "0",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                }
+            ]
         },
         "4": {
             "type": 2,
             "name": "Hydropathic",
             "description": "When a Rain Sword is shattered or when its duration expires, it regenerates the current character's HP based on 6% of Xingqiu's Max HP.",
-            "icon": "UI_Talent_S_Xingqiu_05"
+            "icon": "UI_Talent_S_Xingqiu_05",
+            "linkedConstellations": null
         },
         "5": {
             "type": 2,
             "name": "Blades Amidst Raindrops",
             "description": "Xingqiu gains a 20% <color=#80C0FFFF>Hydro DMG Bonus</color>.",
-            "icon": "UI_Talent_S_Xingqiu_06"
+            "icon": "UI_Talent_S_Xingqiu_06",
+            "linkedConstellations": null
         },
         "6": {
             "type": 2,
             "name": "Flash of Genius",
             "description": "When Xingqiu crafts Character Talent Materials, he has a 25% chance to refund a portion of the crafting materials used.",
-            "icon": "UI_Talent_Combine_Talent"
+            "icon": "UI_Talent_Combine_Talent",
+            "linkedConstellations": null
         }
     },
     "constellation": {
         "0": {
+            "id": 0,
             "name": "The Scent Remained",
             "description": "Increases the maximum number of Rain Swords by 1.",
             "extraData": null,
             "icon": "UI_Talent_S_Xingqiu_01"
         },
         "1": {
+            "id": 1,
             "name": "Rainbow Upon the Azure Sky",
             "description": "Extends the duration of <color=#FFD780FF>Guhua Sword: Raincutter</color> by 3s.\\nDecreases the <color=#80C0FFFF>Hydro RES</color> of opponents hit by sword rain attacks by 15% for 4s.",
             "extraData": null,
             "icon": "UI_Talent_S_Xingqiu_02"
         },
         "2": {
+            "id": 2,
             "name": "Weaver of Verses",
             "description": "Increases the Level of <color=#FFD780FF>Guhua Sword: Raincutter</color> by 3.\\nMaximum upgrade level is 15.",
             "extraData": {
@@ -2391,12 +2779,14 @@
             "icon": "UI_Talent_U_Xingqiu_01"
         },
         "3": {
+            "id": 3,
             "name": "Evilsoother",
             "description": "Throughout the duration of <color=#FFD780FF>Guhua Sword: Raincutter</color>, the DMG dealt by <color=#FFD780FF>Guhua Sword: Fatal Rainscreen</color> is increased by 50%.",
             "extraData": null,
             "icon": "UI_Talent_S_Xingqiu_03"
         },
         "4": {
+            "id": 4,
             "name": "Embrace of Rain",
             "description": "Increases the Level of <color=#FFD780FF>Guhua Sword: Fatal Rainscreen</color> by 3.\\nMaximum upgrade level is 15.",
             "extraData": {
@@ -2409,6 +2799,7 @@
             "icon": "UI_Talent_U_Xingqiu_02"
         },
         "5": {
+            "id": 5,
             "name": "Hence, Call Them My Own Verses",
             "description": "Activating 2 of <color=#FFD780FF>Guhua Sword: Raincutter</color>'s sword rain attacks greatly enhances the third sword rain attack. On hit, the third sword rain attack also regenerates 3 Energy for Xingqiu.",
             "extraData": null,

@@ -4,6 +4,9 @@
     "name": "Traveler",
     "element": "Rock",
     "weaponType": "WEAPON_SWORD_ONE_HAND",
+    "region": "MAINACTOR",
+    "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
+    "bodyType": "GIRL",
     "icon": "UI_AvatarIcon_PlayerGirl",
     "birthday": [
         0,
@@ -183,6 +186,183 @@
         "112013": 3,
         "113005": 5,
         "113006": 5
+    },
+    "items": {
+        "202": {
+            "name": "Mora",
+            "rank": 3,
+            "icon": "UI_ItemIcon_202"
+        },
+        "100024": {
+            "name": "Windwheel Aster",
+            "rank": 1,
+            "icon": "UI_ItemIcon_100024"
+        },
+        "104001": {
+            "name": "Wanderer's Advice",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104001"
+        },
+        "104002": {
+            "name": "Adventurer's Experience",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104002"
+        },
+        "104003": {
+            "name": "Hero's Wit",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104003"
+        },
+        "104101": {
+            "name": "Brilliant Diamond Sliver",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104101"
+        },
+        "104102": {
+            "name": "Brilliant Diamond Fragment",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104102"
+        },
+        "104103": {
+            "name": "Brilliant Diamond Chunk",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104103"
+        },
+        "104104": {
+            "name": "Brilliant Diamond Gemstone",
+            "rank": 5,
+            "icon": "UI_ItemIcon_104104"
+        },
+        "104301": {
+            "name": "Teachings of Freedom",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104301"
+        },
+        "104302": {
+            "name": "Guide to Freedom",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104302"
+        },
+        "104303": {
+            "name": "Philosophies of Freedom",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104303"
+        },
+        "104305": {
+            "name": "Guide to Resistance",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104305"
+        },
+        "104306": {
+            "name": "Philosophies of Resistance",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104306"
+        },
+        "104308": {
+            "name": "Guide to Ballad",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104308"
+        },
+        "104309": {
+            "name": "Philosophies of Ballad",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104309"
+        },
+        "104310": {
+            "name": "Teachings of Prosperity",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104310"
+        },
+        "104311": {
+            "name": "Guide to Prosperity",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104311"
+        },
+        "104312": {
+            "name": "Philosophies of Prosperity",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104312"
+        },
+        "104314": {
+            "name": "Guide to Diligence",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104314"
+        },
+        "104315": {
+            "name": "Philosophies of Diligence",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104315"
+        },
+        "104317": {
+            "name": "Guide to Gold",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104317"
+        },
+        "104318": {
+            "name": "Philosophies of Gold",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104318"
+        },
+        "104319": {
+            "name": "Crown of Insight",
+            "rank": 5,
+            "icon": "UI_ItemIcon_104319"
+        },
+        "112005": {
+            "name": "Damaged Mask",
+            "rank": 1,
+            "icon": "UI_ItemIcon_112005"
+        },
+        "112006": {
+            "name": "Stained Mask",
+            "rank": 2,
+            "icon": "UI_ItemIcon_112006"
+        },
+        "112007": {
+            "name": "Ominous Mask",
+            "rank": 3,
+            "icon": "UI_ItemIcon_112007"
+        },
+        "112008": {
+            "name": "Divining Scroll",
+            "rank": 1,
+            "icon": "UI_ItemIcon_112008"
+        },
+        "112009": {
+            "name": "Sealed Scroll",
+            "rank": 2,
+            "icon": "UI_ItemIcon_112009"
+        },
+        "112010": {
+            "name": "Forbidden Curse Scroll",
+            "rank": 3,
+            "icon": "UI_ItemIcon_112010"
+        },
+        "112011": {
+            "name": "Firm Arrowhead",
+            "rank": 1,
+            "icon": "UI_ItemIcon_112011"
+        },
+        "112012": {
+            "name": "Sharp Arrowhead",
+            "rank": 2,
+            "icon": "UI_ItemIcon_112012"
+        },
+        "112013": {
+            "name": "Weathered Arrowhead",
+            "rank": 3,
+            "icon": "UI_ItemIcon_112013"
+        },
+        "113005": {
+            "name": "Dvalin's Sigh",
+            "rank": 5,
+            "icon": "UI_ItemIcon_113005"
+        },
+        "113006": {
+            "name": "Tail of Boreas",
+            "rank": 5,
+            "icon": "UI_ItemIcon_113006"
+        }
     },
     "talent": {
         "0": {
@@ -900,7 +1080,139 @@
                 }
             },
             "cooldown": 0,
-            "cost": 0
+            "cost": 0,
+            "linkedConstellations": null,
+            "advancedProps": [
+                {
+                    "name": "Normal Attack 1-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": "7",
+                            "text": "Normal Attack"
+                        },
+                        "type": {
+                            "span": "7",
+                            "text": "2.5s/3 Hits"
+                        }
+                    },
+                    "interruptionResistance": "40.5",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 2-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "39.6",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 3-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "48.6",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 4-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "54",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 5-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "64.8",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "655",
+                        "verticalForce": "800"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Charged Attack 1-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "50.6",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Charged Attack 2-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "50.6",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "655",
+                        "verticalForce": "800"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Plunging Attack Collision",
+                    "elementalGaugeTheory": "0U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "25",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Low Plunge",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "100",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "800",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": true
+                },
+                {
+                    "name": "High Plunge",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "150",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "0",
+                        "verticalForce": "800"
+                    },
+                    "bluntAttack": true
+                }
+            ]
         },
         "1": {
             "type": 0,
@@ -1617,7 +1929,59 @@
                 }
             },
             "cooldown": 8,
-            "cost": 0
+            "cost": 0,
+            "linkedConstellations": {
+                "isLevelIncluded": true,
+                "prop": [
+                    {
+                        "id": 1,
+                        "type": "normal"
+                    },
+                    {
+                        "id": 4,
+                        "type": "level"
+                    },
+                    {
+                        "id": 5,
+                        "type": "normal"
+                    }
+                ]
+            },
+            "advancedProps": [
+                {
+                    "name": "Skill DMG",
+                    "elementalGaugeTheory": "2U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": "2",
+                            "text": "Elemental Skill"
+                        },
+                        "type": {
+                            "span": "2",
+                            "text": "2.5s/3 Hits"
+                        }
+                    },
+                    "interruptionResistance": "133.2",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "480",
+                        "verticalForce": "600"
+                    },
+                    "bluntAttack": true
+                },
+                {
+                    "name": "Explosion (C2)",
+                    "elementalGaugeTheory": "2U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "133.2",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "480",
+                        "verticalForce": "600"
+                    },
+                    "bluntAttack": true
+                }
+            ]
         },
         "3": {
             "type": 1,
@@ -2334,35 +2698,98 @@
                 }
             },
             "cooldown": 15,
-            "cost": 60
+            "cost": 60,
+            "linkedConstellations": {
+                "isLevelIncluded": true,
+                "prop": [
+                    {
+                        "id": 0,
+                        "type": "normal"
+                    },
+                    {
+                        "id": 2,
+                        "type": "level"
+                    },
+                    {
+                        "id": 3,
+                        "type": "normal"
+                    },
+                    {
+                        "id": 5,
+                        "type": "normal"
+                    }
+                ]
+            },
+            "advancedProps": [
+                {
+                    "name": "Shockwave DMG",
+                    "elementalGaugeTheory": "2U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": null,
+                            "text": "Elemental Burst"
+                        },
+                        "type": {
+                            "span": null,
+                            "text": "2.5s/3 Hits"
+                        }
+                    },
+                    "interruptionResistance": "100",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "800",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": true
+                }
+            ]
         },
         "4": {
             "type": 2,
             "name": "Shattered Darkrock",
             "description": "Reduces <color=#FFD780FF>Starfell Sword</color>'s CD by 2s.",
-            "icon": "UI_Talent_S_PlayerRock_05"
+            "icon": "UI_Talent_S_PlayerRock_05",
+            "linkedConstellations": null
         },
         "5": {
             "type": 2,
             "name": "Frenzied Rockslide",
             "description": "The final hit of a Normal Attack combo triggers a collapse, dealing 60% of ATK as <color=#FFE699FF>AoE Geo DMG</color>.",
-            "icon": "UI_Talent_S_PlayerRock_06"
+            "icon": "UI_Talent_S_PlayerRock_06",
+            "linkedConstellations": null,
+            "advancedProps": [
+                {
+                    "name": "Collapse",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "13.5",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": true
+                }
+            ]
         }
     },
     "constellation": {
         "0": {
+            "id": 0,
             "name": "Invincible Stonewall",
             "description": "Party members within the radius of <color=#FFD780FF>Wake of Earth</color> have their CRIT Rate increased by 10% and have increased resistance against interruption.",
             "extraData": null,
             "icon": "UI_Talent_S_PlayerRock_01"
         },
         "1": {
+            "id": 1,
             "name": "Rockcore Meltdown",
             "description": "When the meteorite created by <color=#FFD780FF>Starfell Sword</color> is destroyed, it will also explode, dealing additional <color=#FFE699FF>AoE Geo DMG</color> equal to the amount of damage dealt by Starfell Sword.",
             "extraData": null,
             "icon": "UI_Talent_S_PlayerRock_02"
         },
         "2": {
+            "id": 2,
             "name": "Will of the Rock",
             "description": "Increases the Level of <color=#FFD780FF>Wake of Earth</color> by 3.\\nMaximum upgrade level is 15.",
             "extraData": {
@@ -2375,12 +2802,14 @@
             "icon": "UI_Talent_U_PlayerRock_02"
         },
         "3": {
+            "id": 3,
             "name": "Reaction Force",
             "description": "The shockwave triggered by <color=#FFD780FF>Wake of Earth</color> regenerates 5 Energy for every opponent hit.\\nA maximum of 25 Energy can be regenerated in this manner at any one time.",
             "extraData": null,
             "icon": "UI_Talent_S_PlayerRock_03"
         },
         "4": {
+            "id": 4,
             "name": "Meteorite Impact",
             "description": "Increases the Level of <color=#FFD780FF>Starfell Sword</color> by 3.\\nMaximum upgrade level is 15.",
             "extraData": {
@@ -2393,6 +2822,7 @@
             "icon": "UI_Talent_U_PlayerRock_01"
         },
         "5": {
+            "id": 5,
             "name": "Everlasting Boulder",
             "description": "The barrier created by <color=#FFD780FF>Wake of Earth</color> lasts 5s longer.\\nThe meteorite created by <color=#FFD780FF>Starfell Sword</color> lasts 10s longer.",
             "extraData": null,

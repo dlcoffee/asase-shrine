@@ -4,6 +4,9 @@
     "name": "Tighnari",
     "element": "Grass",
     "weaponType": "WEAPON_BOW",
+    "region": "SUMERU",
+    "specialProp": "FIGHT_PROP_GRASS_ADD_HURT",
+    "bodyType": "BOY",
     "icon": "UI_AvatarIcon_Tighnari",
     "birthday": [
         12,
@@ -193,6 +196,98 @@
         "112061": 3,
         "113034": 5,
         "113036": 4
+    },
+    "items": {
+        "202": {
+            "name": "Mora",
+            "rank": 3,
+            "icon": "UI_ItemIcon_202"
+        },
+        "101215": {
+            "name": "Nilotpala Lotus",
+            "rank": 1,
+            "icon": "UI_ItemIcon_101215"
+        },
+        "104001": {
+            "name": "Wanderer's Advice",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104001"
+        },
+        "104002": {
+            "name": "Adventurer's Experience",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104002"
+        },
+        "104003": {
+            "name": "Hero's Wit",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104003"
+        },
+        "104131": {
+            "name": "Nagadus Emerald Sliver",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104131"
+        },
+        "104132": {
+            "name": "Nagadus Emerald Fragment",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104132"
+        },
+        "104133": {
+            "name": "Nagadus Emerald Chunk",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104133"
+        },
+        "104134": {
+            "name": "Nagadus Emerald Gemstone",
+            "rank": 5,
+            "icon": "UI_ItemIcon_104134"
+        },
+        "104319": {
+            "name": "Crown of Insight",
+            "rank": 5,
+            "icon": "UI_ItemIcon_104319"
+        },
+        "104329": {
+            "name": "Teachings of Admonition",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104329"
+        },
+        "104330": {
+            "name": "Guide to Admonition",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104330"
+        },
+        "104331": {
+            "name": "Philosophies of Admonition",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104331"
+        },
+        "112059": {
+            "name": "Fungal Spores",
+            "rank": 1,
+            "icon": "UI_ItemIcon_112059"
+        },
+        "112060": {
+            "name": "Luminescent Pollen",
+            "rank": 2,
+            "icon": "UI_ItemIcon_112060"
+        },
+        "112061": {
+            "name": "Crystalline Cyst Dust",
+            "rank": 3,
+            "icon": "UI_ItemIcon_112061"
+        },
+        "113034": {
+            "name": "The Meaning of Aeons",
+            "rank": 5,
+            "icon": "UI_ItemIcon_113034"
+        },
+        "113036": {
+            "name": "Majestic Hooked Beak",
+            "rank": 4,
+            "icon": "UI_ItemIcon_113036"
+        }
     },
     "talent": {
         "0": {
@@ -910,7 +1005,163 @@
                 }
             },
             "cooldown": 0,
-            "cost": 0
+            "cost": 0,
+            "linkedConstellations": null,
+            "advancedProps": [
+                {
+                    "name": "Normal Attack 1-Hit",
+                    "elementalGaugeTheory": "—",
+                    "internalCooldown": null,
+                    "interruptionResistance": "16.5",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Shake",
+                        "horizontalForce": "0",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 2-Hit",
+                    "elementalGaugeTheory": "—",
+                    "internalCooldown": null,
+                    "interruptionResistance": "15.9",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Shake",
+                        "horizontalForce": "0",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 3-Hit A",
+                    "elementalGaugeTheory": "—",
+                    "internalCooldown": null,
+                    "interruptionResistance": "9.75",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Shake",
+                        "horizontalForce": "0",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 3-Hit B",
+                    "elementalGaugeTheory": "—",
+                    "internalCooldown": null,
+                    "interruptionResistance": "9.75",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Shake",
+                        "horizontalForce": "0",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 4-Hit",
+                    "elementalGaugeTheory": "—",
+                    "internalCooldown": null,
+                    "interruptionResistance": "25.5",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Shake",
+                        "horizontalForce": "0",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Aimed Shot",
+                    "elementalGaugeTheory": "—",
+                    "internalCooldown": null,
+                    "interruptionResistance": "10",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Aimed Shot (Hit Weak Spot)",
+                    "elementalGaugeTheory": "—",
+                    "internalCooldown": null,
+                    "interruptionResistance": "30",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "480",
+                        "verticalForce": "600"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Fully-Charged Aimed Shot",
+                    "elementalGaugeTheory": "1U(w/ Dropoff)",
+                    "internalCooldown": null,
+                    "interruptionResistance": "20",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Fully-Charged Aimed Shot (Hit Weak Spot)",
+                    "elementalGaugeTheory": "1U(w/ Dropoff)",
+                    "internalCooldown": null,
+                    "interruptionResistance": "60",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "480",
+                        "verticalForce": "600"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Wreath Arrow",
+                    "elementalGaugeTheory": "1U(w/ Dropoff)",
+                    "internalCooldown": null,
+                    "interruptionResistance": "30",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Wreath Arrow (Hit Weak Spot)",
+                    "elementalGaugeTheory": "1U(w/ Dropoff)",
+                    "internalCooldown": null,
+                    "interruptionResistance": "60",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "480",
+                        "verticalForce": "600"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Clusterbloom Arrow",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": null,
+                            "text": "Charged Attack"
+                        },
+                        "type": {
+                            "span": null,
+                            "text": "2.5s/4 Hits"
+                        }
+                    },
+                    "interruptionResistance": "20",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                }
+            ]
         },
         "1": {
             "type": 0,
@@ -1627,7 +1878,34 @@
                 }
             },
             "cooldown": 12,
-            "cost": 0
+            "cost": 0,
+            "linkedConstellations": {
+                "isLevelIncluded": true,
+                "prop": [
+                    {
+                        "id": 1,
+                        "type": "normal"
+                    },
+                    {
+                        "id": 4,
+                        "type": "level"
+                    }
+                ]
+            },
+            "advancedProps": [
+                {
+                    "name": "Skill DMG",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "50",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                }
+            ]
         },
         "3": {
             "type": 1,
@@ -2344,41 +2622,95 @@
                 }
             },
             "cooldown": 12,
-            "cost": 40
+            "cost": 40,
+            "linkedConstellations": {
+                "isLevelIncluded": true,
+                "prop": [
+                    {
+                        "id": 2,
+                        "type": "level"
+                    },
+                    {
+                        "id": 3,
+                        "type": "normal"
+                    }
+                ]
+            },
+            "advancedProps": [
+                {
+                    "name": "Tanglevine Shaft DMG",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": "2",
+                            "text": "Elemental Burst"
+                        },
+                        "type": {
+                            "span": "2",
+                            "text": "2.5s/3 Hits"
+                        }
+                    },
+                    "interruptionResistance": "30",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Secondary Tanglevine Shaft DMG",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "30",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                }
+            ]
         },
         "4": {
             "type": 2,
             "name": "Keen Sight",
             "description": "After Tighnari fires a <color=#FFD780FF>Wreath Arrow</color>, his Elemental Mastery is increased by 50 for 4s.",
-            "icon": "UI_Talent_S_Tighnari_05"
+            "icon": "UI_Talent_S_Tighnari_05",
+            "linkedConstellations": null
         },
         "5": {
             "type": 2,
             "name": "Scholarly Blade",
             "description": "For every point of Elemental Mastery Tighnari possesses, his Charged Attack and <color=#FFD780FF>Fashioner's Tanglevine Shaft</color> DMG are increased by 0.06%.\\nThe maximum DMG Bonus obtainable this way is 60%.",
-            "icon": "UI_Talent_S_Tighnari_06"
+            "icon": "UI_Talent_S_Tighnari_06",
+            "linkedConstellations": null
         },
         "6": {
             "type": 2,
             "name": "Encyclopedic Knowledge",
             "description": "Displays the location of nearby <color=#FFD780FF>resources unique to Sumeru</color> on the mini-map.",
-            "icon": "UI_Talent_S_Tighnari_07"
+            "icon": "UI_Talent_S_Tighnari_07",
+            "linkedConstellations": null
         }
     },
     "constellation": {
         "0": {
+            "id": 0,
             "name": "Beginnings Determined at the Roots",
             "description": "Tighnari's Charged Attack CRIT Rate is increased by 15%.",
             "extraData": null,
             "icon": "UI_Talent_S_Tighnari_01"
         },
         "1": {
+            "id": 1,
             "name": "Origins Known From the Stem",
             "description": "When there are opponents within the Vijnana-Khanda Field created by <color=#FFD780FF>Vijnana-Phala Mine</color>, Tighnari gains 20% <color=#99FF88FF>Dendro DMG Bonus</color>.\\nThe effect will last up to 6s if the field's duration ends or if it no longer has opponents within it.",
             "extraData": null,
             "icon": "UI_Talent_S_Tighnari_02"
         },
         "2": {
+            "id": 2,
             "name": "Fortunes Read Amongst the Branches",
             "description": "Increases the Level of <color=#FFD780FF>Fashioner's Tanglevine Shaft</color> by 3.\\nMaximum upgrade level is 15.",
             "extraData": {
@@ -2391,12 +2723,14 @@
             "icon": "UI_Talent_U_Tighnari_01"
         },
         "3": {
+            "id": 3,
             "name": "Withering Glimpsed in the Leaves",
             "description": "When <color=#FFD780FF>Fashioner's Tanglevine Shaft</color> is unleashed, all nearby party members gain 60 Elemental Mastery for 8s. If the Fashioner's Tanglevine Shaft triggers a Burning, Bloom, Quicken, or Spread reaction, their Elemental Mastery will be further increased by 60. This latter case will also refresh the buff state's duration.",
             "extraData": null,
             "icon": "UI_Talent_S_Tighnari_03"
         },
         "4": {
+            "id": 4,
             "name": "Comprehension Amidst the Flowers",
             "description": "Increases the Level of <color=#FFD780FF>Vijnana-Phala Mine</color> by 3.\\nMaximum upgrade level is 15.",
             "extraData": {
@@ -2409,10 +2743,25 @@
             "icon": "UI_Talent_U_Tighnari_02"
         },
         "5": {
+            "id": 5,
             "name": "Karma Adjudged From the Leaden Fruit",
             "description": "<color=#FFD780FF>Wreath Arrow</color>'s charging time is decreased by 0.9s, and will produce 1 additional Clusterbloom Arrow upon hit. This arrow deals 150% of Tighnari's ATK as DMG.",
             "extraData": null,
-            "icon": "UI_Talent_S_Tighnari_04"
+            "icon": "UI_Talent_S_Tighnari_04",
+            "advancedProps": [
+                {
+                    "name": "Additional Clusterbloom Arrow",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "20",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                }
+            ]
         }
     },
     "_id": 10000069

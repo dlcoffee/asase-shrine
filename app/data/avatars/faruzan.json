@@ -4,6 +4,9 @@
     "name": "Faruzan",
     "element": "Wind",
     "weaponType": "WEAPON_BOW",
+    "region": "SUMERU",
+    "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
+    "bodyType": "GIRL",
     "icon": "UI_AvatarIcon_Faruzan",
     "birthday": [
         8,
@@ -193,6 +196,98 @@
         "112067": 3,
         "113039": 4,
         "113041": 5
+    },
+    "items": {
+        "202": {
+            "name": "Mora",
+            "rank": 3,
+            "icon": "UI_ItemIcon_202"
+        },
+        "101220": {
+            "name": "Henna Berry",
+            "rank": 1,
+            "icon": "UI_ItemIcon_101220"
+        },
+        "104001": {
+            "name": "Wanderer's Advice",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104001"
+        },
+        "104002": {
+            "name": "Adventurer's Experience",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104002"
+        },
+        "104003": {
+            "name": "Hero's Wit",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104003"
+        },
+        "104151": {
+            "name": "Vayuda Turquoise Sliver",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104151"
+        },
+        "104152": {
+            "name": "Vayuda Turquoise Fragment",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104152"
+        },
+        "104153": {
+            "name": "Vayuda Turquoise Chunk",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104153"
+        },
+        "104154": {
+            "name": "Vayuda Turquoise Gemstone",
+            "rank": 5,
+            "icon": "UI_ItemIcon_104154"
+        },
+        "104319": {
+            "name": "Crown of Insight",
+            "rank": 5,
+            "icon": "UI_ItemIcon_104319"
+        },
+        "104329": {
+            "name": "Teachings of Admonition",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104329"
+        },
+        "104330": {
+            "name": "Guide to Admonition",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104330"
+        },
+        "104331": {
+            "name": "Philosophies of Admonition",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104331"
+        },
+        "112065": {
+            "name": "Faded Red Satin",
+            "rank": 1,
+            "icon": "UI_ItemIcon_112065"
+        },
+        "112066": {
+            "name": "Trimmed Red Silk",
+            "rank": 2,
+            "icon": "UI_ItemIcon_112066"
+        },
+        "112067": {
+            "name": "Rich Red Brocade",
+            "rank": 3,
+            "icon": "UI_ItemIcon_112067"
+        },
+        "113039": {
+            "name": "Light Guiding Tetrahedron",
+            "rank": 4,
+            "icon": "UI_ItemIcon_113039"
+        },
+        "113041": {
+            "name": "Puppet Strings",
+            "rank": 5,
+            "icon": "UI_ItemIcon_113041"
+        }
     },
     "talent": {
         "0": {
@@ -910,7 +1005,142 @@
                 }
             },
             "cooldown": 0,
-            "cost": 0
+            "cost": 0,
+            "linkedConstellations": null,
+            "advancedProps": [
+                {
+                    "name": "Normal Attack 1-Hit",
+                    "elementalGaugeTheory": "—",
+                    "internalCooldown": null,
+                    "interruptionResistance": "15.6033",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Shake",
+                        "horizontalForce": "0",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 2-Hit",
+                    "elementalGaugeTheory": "—",
+                    "internalCooldown": null,
+                    "interruptionResistance": "14.7162",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Shake",
+                        "horizontalForce": "0",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 3-Hit",
+                    "elementalGaugeTheory": "—",
+                    "internalCooldown": null,
+                    "interruptionResistance": "18.5454",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Shake",
+                        "horizontalForce": "0",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 4-Hit",
+                    "elementalGaugeTheory": "—",
+                    "internalCooldown": null,
+                    "interruptionResistance": "24.6351",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Shake",
+                        "horizontalForce": "0",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Aimed Shot",
+                    "elementalGaugeTheory": "—",
+                    "internalCooldown": null,
+                    "interruptionResistance": "10",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Aimed Shot (Hit Weak Spot)",
+                    "elementalGaugeTheory": "—",
+                    "internalCooldown": null,
+                    "interruptionResistance": "30",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "480",
+                        "verticalForce": "600"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Fully-Charged Aimed Shot",
+                    "elementalGaugeTheory": "1U(w/ Dropoff)",
+                    "internalCooldown": null,
+                    "interruptionResistance": "20",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Fully-Charged Aimed Shot (Hit Weak Spot)",
+                    "elementalGaugeTheory": "1U(w/ Dropoff)",
+                    "internalCooldown": null,
+                    "interruptionResistance": "60",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "480",
+                        "verticalForce": "600"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Plunging Attack Collision",
+                    "elementalGaugeTheory": "—",
+                    "internalCooldown": null,
+                    "interruptionResistance": "10",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Low Plunge",
+                    "elementalGaugeTheory": "—",
+                    "internalCooldown": null,
+                    "interruptionResistance": "50",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "High Plunge",
+                    "elementalGaugeTheory": "—",
+                    "internalCooldown": null,
+                    "interruptionResistance": "100",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                }
+            ]
         },
         "1": {
             "type": 0,
@@ -1627,7 +1857,54 @@
                 }
             },
             "cooldown": 6,
-            "cost": 0
+            "cost": 0,
+            "linkedConstellations": {
+                "isLevelIncluded": true,
+                "prop": [
+                    {
+                        "id": 0,
+                        "type": "normal"
+                    },
+                    {
+                        "id": 2,
+                        "type": "level"
+                    }
+                ]
+            },
+            "advancedProps": [
+                {
+                    "name": "Skill DMG",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "200",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Pressurized Collapse Vortex DMG (Normal)",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "150",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "0",
+                        "verticalForce": "800"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Pressurized Collapse Vortex DMG (Against Ally Objects)",
+                    "elementalGaugeTheory": "2U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "—",
+                    "interruptionResistanceStagger": null,
+                    "bluntAttack": "—"
+                }
+            ]
         },
         "3": {
             "type": 1,
@@ -2344,41 +2621,78 @@
                 }
             },
             "cooldown": 20,
-            "cost": 80
+            "cost": 80,
+            "linkedConstellations": {
+                "isLevelIncluded": true,
+                "prop": [
+                    {
+                        "id": 1,
+                        "type": "normal"
+                    },
+                    {
+                        "id": 4,
+                        "type": "level"
+                    },
+                    {
+                        "id": 5,
+                        "type": "normal"
+                    }
+                ]
+            },
+            "advancedProps": [
+                {
+                    "name": "Skill DMG",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "200",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                }
+            ]
         },
         "4": {
             "type": 2,
             "name": "Impetuous Flow",
             "description": "When Faruzan is in the Manifest Gale state created by <color=#FFD780FF>Wind Realm of Nasamjnin</color>, the amount of time taken to charge a shot is decreased by 60%, and she can apply <color=#FFD780FF>The Wind's Secret Ways</color>' Perfidious Wind's Bale to opponents who are hit by the vortex created by Pressurized Collapse.",
-            "icon": "UI_Talent_S_Faruzan_05"
+            "icon": "UI_Talent_S_Faruzan_05",
+            "linkedConstellations": null
         },
         "5": {
             "type": 2,
             "name": "Lost Wisdom of the Seven Caverns",
             "description": "When characters affected by <color=#FFD780FF>The Wind's Secret Ways</color>' Prayerful Wind's Benefit deal <color=#80FFD7FF>Anemo DMG</color> using Normal, Charged, Plunging Attacks, Elemental Skills, or Elemental Bursts to opponents, they will gain the Hurricane Guard effect: This DMG will be increased based on 32% of Faruzan's Base ATK. 1 instance of Hurricane Guard can occur once every 0.8s. This DMG Bonus will be cleared after Prayerful Wind's Benefit expires or after the effect is triggered once.",
-            "icon": "UI_Talent_S_Faruzan_06"
+            "icon": "UI_Talent_S_Faruzan_06",
+            "linkedConstellations": null
         },
         "6": {
             "type": 2,
             "name": "Tomes Light the Path",
             "description": "Gains 25% more rewards when dispatched on a Sumeru Expedition for 20 hours.",
-            "icon": "UI_Talent_S_Cyno_07"
+            "icon": "UI_Talent_S_Cyno_07",
+            "linkedConstellations": null
         }
     },
     "constellation": {
         "0": {
+            "id": 0,
             "name": "Truth by Any Means",
             "description": "Faruzan can fire off a maximum of 2 Hurricane Arrows using fully charged Aimed Shots while under the effect of a single Manifest Gale created by <color=#FFD780FF>Wind Realm of Nasamjnin</color>.",
             "extraData": null,
             "icon": "UI_Talent_S_Faruzan_01"
         },
         "1": {
+            "id": 1,
             "name": "Overzealous Intellect",
             "description": "The duration of the Dazzling Polyhedron created by <color=#FFD780FF>The Wind's Secret Ways</color> is increased by 6s.",
             "extraData": null,
             "icon": "UI_Talent_S_Faruzan_02"
         },
         "2": {
+            "id": 2,
             "name": "Spirit-Orchard Stroll",
             "description": "Increases the Level of <color=#FFD780FF>Wind Realm of Nasamjnin</color> by 3.\\nMaximum upgrade level is 15.",
             "extraData": {
@@ -2391,12 +2705,14 @@
             "icon": "UI_Talent_U_Faruzan_01"
         },
         "3": {
+            "id": 3,
             "name": "Divine Comprehension",
             "description": "The vortex created by <color=#FFD780FF>Pressurized Collapses</color> will restore Energy to Faruzan based on the number of opponents hit: If it hits 1 opponent, it will restore 2 Energy for Faruzan. Each additional opponent hit will restore 0.5 more Energy for Faruzan.\\nA maximum of 4 Energy can be restored to her per vortex.",
             "extraData": null,
             "icon": "UI_Talent_S_Faruzan_03"
         },
         "4": {
+            "id": 4,
             "name": "Wonderland of Rumination",
             "description": "Increases the Level of <color=#FFD780FF>The Wind's Secret Ways</color> by 3.\\nMaximum upgrade level is 15.",
             "extraData": {
@@ -2409,6 +2725,7 @@
             "icon": "UI_Talent_U_Faruzan_02"
         },
         "5": {
+            "id": 5,
             "name": "The Wondrous Path of Truth",
             "description": "Characters affected by <color=#FFD780FF>The Wind's Secret Ways</color>' Prayerful Wind's Benefit have 40% increased CRIT DMG when they deal <color=#80FFD7FF>Anemo DMG</color>. When the active character deals DMG while affected by Prayerful Wind's Benefit, they will apply Pressurized Collapse to the opponent damaged. This effect can be triggered once every 3s. This CD is shared between all party members.",
             "extraData": null,

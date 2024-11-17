@@ -4,12 +4,15 @@
     "name": "Xiangling",
     "element": "Fire",
     "weaponType": "WEAPON_POLE",
+    "region": "LIYUE",
+    "specialProp": "FIGHT_PROP_ELEMENT_MASTERY",
+    "bodyType": "GIRL",
     "icon": "UI_AvatarIcon_Xiangling",
     "birthday": [
         11,
         2
     ],
-    "release": 1600131600,
+    "release": 1601244000,
     "route": "Xiangling",
     "fetter": {
         "title": "Exquisite Delicacy",
@@ -193,6 +196,98 @@
         "112004": 3,
         "113004": 5,
         "113011": 4
+    },
+    "items": {
+        "202": {
+            "name": "Mora",
+            "rank": 3,
+            "icon": "UI_ItemIcon_202"
+        },
+        "100027": {
+            "name": "Jueyun Chili",
+            "rank": 1,
+            "icon": "UI_ItemIcon_100027"
+        },
+        "104001": {
+            "name": "Wanderer's Advice",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104001"
+        },
+        "104002": {
+            "name": "Adventurer's Experience",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104002"
+        },
+        "104003": {
+            "name": "Hero's Wit",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104003"
+        },
+        "104111": {
+            "name": "Agnidus Agate Sliver",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104111"
+        },
+        "104112": {
+            "name": "Agnidus Agate Fragment",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104112"
+        },
+        "104113": {
+            "name": "Agnidus Agate Chunk",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104113"
+        },
+        "104114": {
+            "name": "Agnidus Agate Gemstone",
+            "rank": 5,
+            "icon": "UI_ItemIcon_104114"
+        },
+        "104313": {
+            "name": "Teachings of Diligence",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104313"
+        },
+        "104314": {
+            "name": "Guide to Diligence",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104314"
+        },
+        "104315": {
+            "name": "Philosophies of Diligence",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104315"
+        },
+        "104319": {
+            "name": "Crown of Insight",
+            "rank": 5,
+            "icon": "UI_ItemIcon_104319"
+        },
+        "112002": {
+            "name": "Slime Condensate",
+            "rank": 1,
+            "icon": "UI_ItemIcon_112002"
+        },
+        "112003": {
+            "name": "Slime Secretions",
+            "rank": 2,
+            "icon": "UI_ItemIcon_112003"
+        },
+        "112004": {
+            "name": "Slime Concentrate",
+            "rank": 3,
+            "icon": "UI_ItemIcon_112004"
+        },
+        "113004": {
+            "name": "Dvalin's Claw",
+            "rank": 5,
+            "icon": "UI_ItemIcon_113004"
+        },
+        "113011": {
+            "name": "Everflame Seed",
+            "rank": 4,
+            "icon": "UI_ItemIcon_113011"
+        }
     },
     "talent": {
         "0": {
@@ -910,7 +1005,184 @@
                 }
             },
             "cooldown": 0,
-            "cost": 0
+            "cost": 0,
+            "linkedConstellations": null,
+            "advancedProps": [
+                {
+                    "name": "Normal Attack 1-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": "9",
+                            "text": "Normal Attack"
+                        },
+                        "type": {
+                            "span": "9",
+                            "text": "2.5s/3 Hits"
+                        }
+                    },
+                    "interruptionResistance": "16",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 2-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "19.2",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 3-Hit A",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "19.2",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 3-Hit B",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "20",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 4-Hit A",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "19.2",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 4-Hit B",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "19.2",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 4-Hit C",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "19.2",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 4-Hit D",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "12.8",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 5-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "71.2",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "655",
+                        "verticalForce": "800"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Charged Attack",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": null,
+                            "text": "Charged Attack"
+                        },
+                        "type": {
+                            "span": null,
+                            "text": "0.5s"
+                        }
+                    },
+                    "interruptionResistance": "120",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "480",
+                        "verticalForce": "600"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Plunging Attack Collision",
+                    "elementalGaugeTheory": "0U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "25",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Low Plunge",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "100",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "800",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": true
+                },
+                {
+                    "name": "High Plunge",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "150",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "0",
+                        "verticalForce": "800"
+                    },
+                    "bluntAttack": true
+                }
+            ]
         },
         "1": {
             "type": 0,
@@ -1627,7 +1899,30 @@
                 }
             },
             "cooldown": 12,
-            "cost": 0
+            "cost": 0,
+            "linkedConstellations": {
+                "isLevelIncluded": false,
+                "prop": [
+                    {
+                        "id": 4,
+                        "type": "normal"
+                    }
+                ]
+            },
+            "advancedProps": [
+                {
+                    "name": "Flame DMG",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "32",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                }
+            ]
         },
         "3": {
             "type": 1,
@@ -2344,59 +2639,134 @@
                 }
             },
             "cooldown": 20,
-            "cost": 80
+            "cost": 80,
+            "linkedConstellations": {
+                "isLevelIncluded": false,
+                "prop": [
+                    {
+                        "id": 2,
+                        "type": "normal"
+                    },
+                    {
+                        "id": 3,
+                        "type": "normal"
+                    },
+                    {
+                        "id": 5,
+                        "type": "normal"
+                    }
+                ]
+            },
+            "advancedProps": [
+                {
+                    "name": "Swing DMG",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": null,
+                            "text": "Elemental Burst"
+                        },
+                        "type": {
+                            "span": null,
+                            "text": "2.5s/3 Hits"
+                        }
+                    },
+                    "interruptionResistance": "30",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Pyronado DMG",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "30",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                }
+            ]
         },
         "4": {
             "type": 2,
             "name": "Crossfire",
             "description": "Increases the flame range of Guoba by 20%.",
-            "icon": "UI_Talent_S_Xiangling_05"
+            "icon": "UI_Talent_S_Xiangling_05",
+            "linkedConstellations": null
         },
         "5": {
             "type": 2,
             "name": "Beware, It's Super Hot!",
             "description": "When <color=#FFD780FF>Guoba Attack</color>'s effect ends, Guoba leaves a chili pepper on the spot where it disappeared. Picking up a chili pepper increases ATK by 10% for 10s.",
-            "icon": "UI_Talent_S_Xiangling_06"
+            "icon": "UI_Talent_S_Xiangling_06",
+            "linkedConstellations": null
         },
         "6": {
             "type": 2,
             "name": "Chef de Cuisine",
             "description": "When Xiangling cooks an ATK-boosting dish perfectly, she has a 12% chance to receive double the product.",
-            "icon": "UI_Talent_Cook_Attack"
+            "icon": "UI_Talent_Cook_Attack",
+            "linkedConstellations": null
         }
     },
     "constellation": {
         "0": {
+            "id": 0,
             "name": "Crispy Outside, Tender Inside",
             "description": "Opponents hit by Guoba's attacks have their <color=#FF9999FF>Pyro RES</color> reduced by 15% for 6s.",
             "extraData": null,
             "icon": "UI_Talent_S_Xiangling_01"
         },
         "1": {
+            "id": 1,
             "name": "Oil Meets Fire",
             "description": "The last attack in a Normal Attack sequence applies the Implode status onto the opponent for 2s. An explosion will occur once this duration ends, dealing 75% of Xiangling's ATK as <color=#FF9999FF>AoE Pyro DMG</color>.",
             "extraData": null,
-            "icon": "UI_Talent_S_Xiangling_02"
+            "icon": "UI_Talent_S_Xiangling_02",
+            "advancedProps": [
+                {
+                    "name": "Implode",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "8.8",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                }
+            ]
         },
         "2": {
+            "id": 2,
             "name": "Deepfry",
             "description": "Increases the Level of <color=#FFD780FF>Pyronado</color> by 3.\\nMaximum upgrade level is 15.",
             "extraData": null,
             "icon": "UI_Talent_U_Xiangling_02"
         },
         "3": {
+            "id": 3,
             "name": "Slowbake",
             "description": "<color=#FFD780FF>Pyronado</color>'s duration is increased by 40%.",
             "extraData": null,
             "icon": "UI_Talent_S_Xiangling_03"
         },
         "4": {
+            "id": 4,
             "name": "Guoba Mad",
             "description": "Increases the Level of <color=#FFD780FF>Guoba Attack</color> by 3.\\nMaximum upgrade level is 15.",
             "extraData": null,
             "icon": "UI_Talent_U_Xiangling_01"
         },
         "5": {
+            "id": 5,
             "name": "Condensed Pyronado",
             "description": "For the duration of <color=#FFD780FF>Pyronado</color>, all party members receive a 15% <color=#FF9999FF>Pyro DMG Bonus</color>.",
             "extraData": null,

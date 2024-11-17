@@ -4,6 +4,9 @@
     "name": "Xiao",
     "element": "Wind",
     "weaponType": "WEAPON_POLE",
+    "region": "LIYUE",
+    "specialProp": "FIGHT_PROP_CRITICAL",
+    "bodyType": "BOY",
     "icon": "UI_AvatarIcon_Xiao",
     "birthday": [
         4,
@@ -193,6 +196,98 @@
         "112004": 3,
         "113015": 5,
         "113016": 4
+    },
+    "items": {
+        "202": {
+            "name": "Mora",
+            "rank": 3,
+            "icon": "UI_ItemIcon_202"
+        },
+        "100031": {
+            "name": "Qingxin",
+            "rank": 1,
+            "icon": "UI_ItemIcon_100031"
+        },
+        "104001": {
+            "name": "Wanderer's Advice",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104001"
+        },
+        "104002": {
+            "name": "Adventurer's Experience",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104002"
+        },
+        "104003": {
+            "name": "Hero's Wit",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104003"
+        },
+        "104151": {
+            "name": "Vayuda Turquoise Sliver",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104151"
+        },
+        "104152": {
+            "name": "Vayuda Turquoise Fragment",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104152"
+        },
+        "104153": {
+            "name": "Vayuda Turquoise Chunk",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104153"
+        },
+        "104154": {
+            "name": "Vayuda Turquoise Gemstone",
+            "rank": 5,
+            "icon": "UI_ItemIcon_104154"
+        },
+        "104310": {
+            "name": "Teachings of Prosperity",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104310"
+        },
+        "104311": {
+            "name": "Guide to Prosperity",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104311"
+        },
+        "104312": {
+            "name": "Philosophies of Prosperity",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104312"
+        },
+        "104319": {
+            "name": "Crown of Insight",
+            "rank": 5,
+            "icon": "UI_ItemIcon_104319"
+        },
+        "112002": {
+            "name": "Slime Condensate",
+            "rank": 1,
+            "icon": "UI_ItemIcon_112002"
+        },
+        "112003": {
+            "name": "Slime Secretions",
+            "rank": 2,
+            "icon": "UI_ItemIcon_112003"
+        },
+        "112004": {
+            "name": "Slime Concentrate",
+            "rank": 3,
+            "icon": "UI_ItemIcon_112004"
+        },
+        "113015": {
+            "name": "Shadow of the Warrior",
+            "rank": 5,
+            "icon": "UI_ItemIcon_113015"
+        },
+        "113016": {
+            "name": "Juvenile Jade",
+            "rank": 4,
+            "icon": "UI_ItemIcon_113016"
+        }
     },
     "talent": {
         "0": {
@@ -910,7 +1005,172 @@
                 }
             },
             "cooldown": 0,
-            "cost": 0
+            "cost": 0,
+            "linkedConstellations": null,
+            "advancedProps": [
+                {
+                    "name": "Normal Attack 1-Hit A",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": "8",
+                            "text": "Normal Attack"
+                        },
+                        "type": {
+                            "span": "8",
+                            "text": "2.5s/3 Hits"
+                        }
+                    },
+                    "interruptionResistance": "25.08",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 1-Hit B",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "25.08",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 2-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "51.76",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 3-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "62.32",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 4-Hit A",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "34.28",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 4-Hit B",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "34.28",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 5-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "65.04",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 6-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "87.12",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "655",
+                        "verticalForce": "800"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Charged Attack",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": null,
+                            "text": "Charged Attack"
+                        },
+                        "type": {
+                            "span": null,
+                            "text": "0.5s"
+                        }
+                    },
+                    "interruptionResistance": "120",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "0",
+                        "verticalForce": "800"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Plunging Attack Collision",
+                    "elementalGaugeTheory": "0U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "25",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Low Plunge",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "100",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "800",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": true
+                },
+                {
+                    "name": "High Plunge",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "150",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "0",
+                        "verticalForce": "800"
+                    },
+                    "bluntAttack": true
+                }
+            ]
         },
         "1": {
             "type": 0,
@@ -1627,7 +1887,47 @@
                 }
             },
             "cooldown": 10,
-            "cost": 0
+            "cost": 0,
+            "linkedConstellations": {
+                "isLevelIncluded": true,
+                "prop": [
+                    {
+                        "id": 0,
+                        "type": "normal"
+                    },
+                    {
+                        "id": 2,
+                        "type": "level"
+                    },
+                    {
+                        "id": 5,
+                        "type": "normal"
+                    }
+                ]
+            },
+            "advancedProps": [
+                {
+                    "name": "Skill DMG",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": null,
+                            "text": "Elemental Skill"
+                        },
+                        "type": {
+                            "span": null,
+                            "text": "0.1s"
+                        }
+                    },
+                    "interruptionResistance": "100",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                }
+            ]
         },
         "3": {
             "type": 1,
@@ -2344,41 +2644,224 @@
                 }
             },
             "cooldown": 18,
-            "cost": 70
+            "cost": 70,
+            "linkedConstellations": {
+                "isLevelIncluded": true,
+                "prop": [
+                    {
+                        "id": 4,
+                        "type": "level"
+                    },
+                    {
+                        "id": 5,
+                        "type": "normal"
+                    }
+                ]
+            },
+            "advancedProps": [
+                {
+                    "name": "Converted Normal Attack 1-Hit A",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": "8",
+                            "text": "Normal Attack"
+                        },
+                        "type": {
+                            "span": "8",
+                            "text": "2.5s/3 Hits"
+                        }
+                    },
+                    "interruptionResistance": "37.62",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Converted Normal Attack 1-Hit B",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "37.62",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Converted Normal Attack 2-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "77.64",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Converted Normal Attack 3-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "93.48",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Converted Normal Attack 4-Hit A",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "51.42",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Converted Normal Attack 4-Hit B",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "51.42",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Converted Normal Attack 5-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "97.56",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Converted Normal Attack 6-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "130.68",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "655",
+                        "verticalForce": "800"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Converted Charged Attack",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": null,
+                            "text": "Charged Attack"
+                        },
+                        "type": {
+                            "span": null,
+                            "text": "0.5s"
+                        }
+                    },
+                    "interruptionResistance": "180",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "0",
+                        "verticalForce": "800"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Converted Plunging Attack Collision",
+                    "elementalGaugeTheory": "0U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "37.5",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Converted Low Plunge",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "150",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "800",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": true
+                },
+                {
+                    "name": "Converted High Plunge",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "225",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "0",
+                        "verticalForce": "800"
+                    },
+                    "bluntAttack": true
+                }
+            ]
         },
         "4": {
             "type": 2,
             "name": "Conqueror of Evil: Tamer of Demons",
             "description": "While under the effects of <color=#FFD780FF>Bane of All Evil</color>, all DMG dealt by Xiao increases by 5%. DMG increases by a further 5% for every 3s the ability persists.\\nThe maximum DMG Bonus is 25%.",
-            "icon": "UI_Talent_S_Xiao_05"
+            "icon": "UI_Talent_S_Xiao_05",
+            "linkedConstellations": null
         },
         "5": {
             "type": 2,
             "name": "Dissolution Eon: Heaven Fall",
             "description": "Using <color=#FFD780FF>Lemniscatic Wind Cycling</color> increases the DMG of subsequent uses of Lemniscatic Wind Cycling by 15%.\\nThis effect lasts for 7s, and has a maximum of 3 stacks. Gaining a new stack refreshes the effect's duration.",
-            "icon": "UI_Talent_S_Xiao_06"
+            "icon": "UI_Talent_S_Xiao_06",
+            "linkedConstellations": null
         },
         "6": {
             "type": 2,
             "name": "Transcension: Gravity Defier",
             "description": "Decreases climbing Stamina consumption for your own party members by 20%.\\nNot stackable with Passive Talents that provide the exact same effects.",
-            "icon": "UI_Talent_Explosion_Climb"
+            "icon": "UI_Talent_Explosion_Climb",
+            "linkedConstellations": null
         }
     },
     "constellation": {
         "0": {
+            "id": 0,
             "name": "Dissolution Eon: Destroyer of Worlds",
             "description": "Increases <color=#FFD780FF>Lemniscatic Wind Cycling</color>'s charges by 1.",
             "extraData": null,
             "icon": "UI_Talent_S_Xiao_01"
         },
         "1": {
+            "id": 1,
             "name": "Annihilation Eon: Blossom of Kaleidos",
             "description": "When in the party and not on the field, Xiao's Energy Recharge is increased by 25%.",
             "extraData": null,
             "icon": "UI_Talent_S_Xiao_02"
         },
         "2": {
+            "id": 2,
             "name": "Conqueror of Evil: Wrath Deity",
             "description": "Increases the Level of <color=#FFD780FF>Lemniscatic Wind Cycling</color> by 3.\\nMaximum upgrade level is 15.",
             "extraData": {
@@ -2391,12 +2874,14 @@
             "icon": "UI_Talent_U_Xiao_01"
         },
         "3": {
+            "id": 3,
             "name": "Transcension: Extinction of Suffering",
             "description": "When Xiao's HP falls below 50%, he gains a 100% DEF Bonus.",
             "extraData": null,
             "icon": "UI_Talent_S_Xiao_03"
         },
         "4": {
+            "id": 4,
             "name": "Evolution Eon: Origin of Ignorance",
             "description": "Increases the Level of <color=#FFD780FF>Bane of All Evil</color> by 3.\\nMaximum upgrade level is 15.",
             "extraData": {
@@ -2409,6 +2894,7 @@
             "icon": "UI_Talent_U_Xiao_02"
         },
         "5": {
+            "id": 5,
             "name": "Conqueror of Evil: Guardian Yaksha",
             "description": "While under the effects of <color=#FFD780FF>Bane of All Evil</color>, hitting at least 2 opponents with Xiao's Plunging Attack will immediately grant him 1 charge of <color=#FFD780FF>Lemniscatic Wind Cycling</color>, and for the next 1s, he may use Lemniscatic Wind Cycling while ignoring its CD.",
             "extraData": null,

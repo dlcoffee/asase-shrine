@@ -4,6 +4,9 @@
     "name": "Traveler",
     "element": "Wind",
     "weaponType": "WEAPON_SWORD_ONE_HAND",
+    "region": "MAINACTOR",
+    "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
+    "bodyType": "GIRL",
     "icon": "UI_AvatarIcon_PlayerGirl",
     "birthday": [
         0,
@@ -172,6 +175,128 @@
         "112009": 2,
         "112010": 3,
         "113005": 5
+    },
+    "items": {
+        "202": {
+            "name": "Mora",
+            "rank": 3,
+            "icon": "UI_ItemIcon_202"
+        },
+        "100024": {
+            "name": "Windwheel Aster",
+            "rank": 1,
+            "icon": "UI_ItemIcon_100024"
+        },
+        "104001": {
+            "name": "Wanderer's Advice",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104001"
+        },
+        "104002": {
+            "name": "Adventurer's Experience",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104002"
+        },
+        "104003": {
+            "name": "Hero's Wit",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104003"
+        },
+        "104101": {
+            "name": "Brilliant Diamond Sliver",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104101"
+        },
+        "104102": {
+            "name": "Brilliant Diamond Fragment",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104102"
+        },
+        "104103": {
+            "name": "Brilliant Diamond Chunk",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104103"
+        },
+        "104104": {
+            "name": "Brilliant Diamond Gemstone",
+            "rank": 5,
+            "icon": "UI_ItemIcon_104104"
+        },
+        "104301": {
+            "name": "Teachings of Freedom",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104301"
+        },
+        "104302": {
+            "name": "Guide to Freedom",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104302"
+        },
+        "104303": {
+            "name": "Philosophies of Freedom",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104303"
+        },
+        "104305": {
+            "name": "Guide to Resistance",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104305"
+        },
+        "104306": {
+            "name": "Philosophies of Resistance",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104306"
+        },
+        "104308": {
+            "name": "Guide to Ballad",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104308"
+        },
+        "104309": {
+            "name": "Philosophies of Ballad",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104309"
+        },
+        "104319": {
+            "name": "Crown of Insight",
+            "rank": 5,
+            "icon": "UI_ItemIcon_104319"
+        },
+        "112005": {
+            "name": "Damaged Mask",
+            "rank": 1,
+            "icon": "UI_ItemIcon_112005"
+        },
+        "112006": {
+            "name": "Stained Mask",
+            "rank": 2,
+            "icon": "UI_ItemIcon_112006"
+        },
+        "112007": {
+            "name": "Ominous Mask",
+            "rank": 3,
+            "icon": "UI_ItemIcon_112007"
+        },
+        "112008": {
+            "name": "Divining Scroll",
+            "rank": 1,
+            "icon": "UI_ItemIcon_112008"
+        },
+        "112009": {
+            "name": "Sealed Scroll",
+            "rank": 2,
+            "icon": "UI_ItemIcon_112009"
+        },
+        "112010": {
+            "name": "Forbidden Curse Scroll",
+            "rank": 3,
+            "icon": "UI_ItemIcon_112010"
+        },
+        "113005": {
+            "name": "Dvalin's Sigh",
+            "rank": 5,
+            "icon": "UI_ItemIcon_113005"
+        }
     },
     "talent": {
         "0": {
@@ -889,7 +1014,139 @@
                 }
             },
             "cooldown": 0,
-            "cost": 0
+            "cost": 0,
+            "linkedConstellations": null,
+            "advancedProps": [
+                {
+                    "name": "Normal Attack 1-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": "7",
+                            "text": "Normal Attack"
+                        },
+                        "type": {
+                            "span": "7",
+                            "text": "2.5s/3 Hits"
+                        }
+                    },
+                    "interruptionResistance": "40.5",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 2-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "39.6",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 3-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "48.6",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 4-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "54",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 5-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "64.8",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "655",
+                        "verticalForce": "800"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Charged Attack 1-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "50.6",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Charged Attack 2-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "50.6",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "655",
+                        "verticalForce": "800"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Plunging Attack Collision",
+                    "elementalGaugeTheory": "0U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "25",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Low Plunge",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "100",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "800",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": true
+                },
+                {
+                    "name": "High Plunge",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "150",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "0",
+                        "verticalForce": "800"
+                    },
+                    "bluntAttack": true
+                }
+            ]
         },
         "1": {
             "type": 0,
@@ -1606,7 +1863,167 @@
                 }
             },
             "cooldown": 5,
-            "cost": 0
+            "cost": 0,
+            "linkedConstellations": {
+                "isLevelIncluded": true,
+                "prop": [
+                    {
+                        "id": 0,
+                        "type": "normal"
+                    },
+                    {
+                        "id": 3,
+                        "type": "normal"
+                    },
+                    {
+                        "id": 4,
+                        "type": "level"
+                    }
+                ]
+            },
+            "advancedProps": [
+                {
+                    "name": "Cutting DMG",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": null,
+                            "text": "Elemental Skill Anemo"
+                        },
+                        "type": {
+                            "span": null,
+                            "text": "2.5s/3 Hits"
+                        }
+                    },
+                    "interruptionResistance": "10",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Press Storm DMG",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "200",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "480",
+                        "verticalForce": "600"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Hold Storm DMG",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "200",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "655",
+                        "verticalForce": "800"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Absorbed Cryo (Cutting)",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": null,
+                            "text": "Elemental Skill Cryo"
+                        },
+                        "type": {
+                            "span": null,
+                            "text": "2.5s/3 Hits"
+                        }
+                    },
+                    "interruptionResistance": "0",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Mute",
+                        "horizontalForce": "0",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Absorbed Electro (Cutting)",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": null,
+                            "text": "Elemental Skill Electro"
+                        },
+                        "type": {
+                            "span": null,
+                            "text": "2.5s/3 Hits"
+                        }
+                    },
+                    "interruptionResistance": "0",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Mute",
+                        "horizontalForce": "0",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Absorbed Hydro (Cutting)",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": null,
+                            "text": "Elemental Skill Hydro"
+                        },
+                        "type": {
+                            "span": null,
+                            "text": "2.5s/3 Hits"
+                        }
+                    },
+                    "interruptionResistance": "0",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Mute",
+                        "horizontalForce": "0",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Absorbed Pyro (Cutting)",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": null,
+                            "text": "Elemental Skill Pyro"
+                        },
+                        "type": {
+                            "span": null,
+                            "text": "2.5s/3 Hits"
+                        }
+                    },
+                    "interruptionResistance": "0",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Mute",
+                        "horizontalForce": "0",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Absorbed Element (Storm)",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "0",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Mute",
+                        "horizontalForce": "0",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                }
+            ]
         },
         "3": {
             "type": 1,
@@ -2323,35 +2740,174 @@
                 }
             },
             "cooldown": 15,
-            "cost": 60
+            "cost": 60,
+            "linkedConstellations": {
+                "isLevelIncluded": true,
+                "prop": [
+                    {
+                        "id": 2,
+                        "type": "level"
+                    },
+                    {
+                        "id": 5,
+                        "type": "normal"
+                    }
+                ]
+            },
+            "advancedProps": [
+                {
+                    "name": "Tornado DMG",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": null,
+                            "text": "Elemental Burst"
+                        },
+                        "type": {
+                            "span": null,
+                            "text": "2.5s/3 Hits"
+                        }
+                    },
+                    "interruptionResistance": "13",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Mute",
+                        "horizontalForce": "0",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Absorbed Cryo",
+                    "elementalGaugeTheory": "2U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": null,
+                            "text": "Elemental Burst Cryo"
+                        },
+                        "type": {
+                            "span": null,
+                            "text": "2.5s/3 Hits"
+                        }
+                    },
+                    "interruptionResistance": "3",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Mute",
+                        "horizontalForce": "0",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Absorbed Electro",
+                    "elementalGaugeTheory": "2U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": null,
+                            "text": "Elemental Burst Electro"
+                        },
+                        "type": {
+                            "span": null,
+                            "text": "2.5s/3 Hits"
+                        }
+                    },
+                    "interruptionResistance": "3",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Mute",
+                        "horizontalForce": "0",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Absorbed Hydro",
+                    "elementalGaugeTheory": "2U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": null,
+                            "text": "Elemental Burst Hydro"
+                        },
+                        "type": {
+                            "span": null,
+                            "text": "2.5s/3 Hits"
+                        }
+                    },
+                    "interruptionResistance": "3",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Mute",
+                        "horizontalForce": "0",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Absorbed Pyro",
+                    "elementalGaugeTheory": "2U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": null,
+                            "text": "Elemental Burst Pyro"
+                        },
+                        "type": {
+                            "span": null,
+                            "text": "2.5s/3 Hits"
+                        }
+                    },
+                    "interruptionResistance": "3",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Mute",
+                        "horizontalForce": "0",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                }
+            ]
         },
         "4": {
             "type": 2,
             "name": "Slitting Wind",
             "description": "The last hit of a Normal Attack combo unleashes a wind blade, dealing 60% of ATK as <color=#80FFD7FF>Anemo DMG</color> to all opponents in its path.",
-            "icon": "UI_Talent_S_PlayerWind_05"
+            "icon": "UI_Talent_S_PlayerWind_05",
+            "linkedConstellations": null,
+            "advancedProps": [
+                {
+                    "name": "Wind Blade",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "36",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                }
+            ]
         },
         "5": {
             "type": 2,
             "name": "Second Wind",
             "description": "<color=#FFD780FF>Palm Vortex</color> kills regenerate 2% HP for 5s.\\nThis effect can only occur once every 5s.",
-            "icon": "UI_Talent_S_PlayerWind_06"
+            "icon": "UI_Talent_S_PlayerWind_06",
+            "linkedConstellations": null
         }
     },
     "constellation": {
         "0": {
+            "id": 0,
             "name": "Raging Vortex",
             "description": "<color=#FFD780FF>Palm Vortex</color> pulls in opponents and objects within a 5m radius.",
             "extraData": null,
             "icon": "UI_Talent_S_PlayerWind_01"
         },
         "1": {
+            "id": 1,
             "name": "Uprising Whirlwind",
             "description": "Increases Energy Recharge by 16%.",
             "extraData": null,
             "icon": "UI_Talent_S_PlayerWind_02"
         },
         "2": {
+            "id": 2,
             "name": "Sweeping Gust",
             "description": "Increases the Level of <color=#FFD780FF>Gust Surge</color> by 3.\\nMaximum upgrade level is 15.",
             "extraData": {
@@ -2364,12 +2920,14 @@
             "icon": "UI_Talent_U_PlayerWind_02"
         },
         "3": {
+            "id": 3,
             "name": "Cherishing Breezes",
             "description": "Reduces DMG taken while casting <color=#FFD780FF>Palm Vortex</color> by 10%.",
             "extraData": null,
             "icon": "UI_Talent_S_PlayerWind_03"
         },
         "4": {
+            "id": 4,
             "name": "Vortex Stellaris",
             "description": "Increases the Level of <color=#FFD780FF>Palm Vortex</color> by 3.\\nMaximum upgrade level is 15.",
             "extraData": {
@@ -2382,6 +2940,7 @@
             "icon": "UI_Talent_U_PlayerWind_01"
         },
         "5": {
+            "id": 5,
             "name": "Intertwined Winds",
             "description": "Targets who take DMG from <color=#FFD780FF>Gust Surge</color> have their <color=#80FFD7FF>Anemo RES</color> decreased by 20%.\\nIf an Elemental Absorption occurred, then their RES towards the corresponding Element is also decreased by 20%.",
             "extraData": null,

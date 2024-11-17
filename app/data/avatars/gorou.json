@@ -4,6 +4,9 @@
     "name": "Gorou",
     "element": "Rock",
     "weaponType": "WEAPON_BOW",
+    "region": "INAZUMA",
+    "specialProp": "FIGHT_PROP_ROCK_ADD_HURT",
+    "bodyType": "BOY",
     "icon": "UI_AvatarIcon_Gorou",
     "birthday": [
         5,
@@ -193,6 +196,98 @@
         "112055": 3,
         "113023": 4,
         "113025": 5
+    },
+    "items": {
+        "202": {
+            "name": "Mora",
+            "rank": 3,
+            "icon": "UI_ItemIcon_202"
+        },
+        "101207": {
+            "name": "Sango Pearl",
+            "rank": 1,
+            "icon": "UI_ItemIcon_101207"
+        },
+        "104001": {
+            "name": "Wanderer's Advice",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104001"
+        },
+        "104002": {
+            "name": "Adventurer's Experience",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104002"
+        },
+        "104003": {
+            "name": "Hero's Wit",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104003"
+        },
+        "104171": {
+            "name": "Prithiva Topaz Sliver",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104171"
+        },
+        "104172": {
+            "name": "Prithiva Topaz Fragment",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104172"
+        },
+        "104173": {
+            "name": "Prithiva Topaz Chunk",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104173"
+        },
+        "104174": {
+            "name": "Prithiva Topaz Gemstone",
+            "rank": 5,
+            "icon": "UI_ItemIcon_104174"
+        },
+        "104319": {
+            "name": "Crown of Insight",
+            "rank": 5,
+            "icon": "UI_ItemIcon_104319"
+        },
+        "104326": {
+            "name": "Teachings of Light",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104326"
+        },
+        "104327": {
+            "name": "Guide to Light",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104327"
+        },
+        "104328": {
+            "name": "Philosophies of Light",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104328"
+        },
+        "112053": {
+            "name": "Spectral Husk",
+            "rank": 1,
+            "icon": "UI_ItemIcon_112053"
+        },
+        "112054": {
+            "name": "Spectral Heart",
+            "rank": 2,
+            "icon": "UI_ItemIcon_112054"
+        },
+        "112055": {
+            "name": "Spectral Nucleus",
+            "rank": 3,
+            "icon": "UI_ItemIcon_112055"
+        },
+        "113023": {
+            "name": "Perpetual Heart",
+            "rank": 4,
+            "icon": "UI_ItemIcon_113023"
+        },
+        "113025": {
+            "name": "Molten Moment",
+            "rank": 5,
+            "icon": "UI_ItemIcon_113025"
+        }
     },
     "talent": {
         "0": {
@@ -910,7 +1005,142 @@
                 }
             },
             "cooldown": 0,
-            "cost": 0
+            "cost": 0,
+            "linkedConstellations": null,
+            "advancedProps": [
+                {
+                    "name": "Normal Attack 1-Hit",
+                    "elementalGaugeTheory": "—",
+                    "internalCooldown": null,
+                    "interruptionResistance": "13.17",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Shake",
+                        "horizontalForce": "0",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 2-Hit",
+                    "elementalGaugeTheory": "—",
+                    "internalCooldown": null,
+                    "interruptionResistance": "12.96",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Shake",
+                        "horizontalForce": "0",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 3-Hit",
+                    "elementalGaugeTheory": "—",
+                    "internalCooldown": null,
+                    "interruptionResistance": "17.25",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Shake",
+                        "horizontalForce": "0",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 4-Hit",
+                    "elementalGaugeTheory": "—",
+                    "internalCooldown": null,
+                    "interruptionResistance": "20.58",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Shake",
+                        "horizontalForce": "0",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Aimed Shot",
+                    "elementalGaugeTheory": "—",
+                    "internalCooldown": null,
+                    "interruptionResistance": "10",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Aimed Shot (Hit Weak Spot)",
+                    "elementalGaugeTheory": "—",
+                    "internalCooldown": null,
+                    "interruptionResistance": "30",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "480",
+                        "verticalForce": "600"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Fully-Charged Aimed Shot",
+                    "elementalGaugeTheory": "1U(w/ Dropoff)",
+                    "internalCooldown": null,
+                    "interruptionResistance": "20",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Fully-Charged Aimed Shot (Hit Weak Spot)",
+                    "elementalGaugeTheory": "1U(w/ Dropoff)",
+                    "internalCooldown": null,
+                    "interruptionResistance": "60",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "480",
+                        "verticalForce": "600"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Plunging Attack Collision",
+                    "elementalGaugeTheory": "—",
+                    "internalCooldown": null,
+                    "interruptionResistance": "10",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Low Plunge",
+                    "elementalGaugeTheory": "—",
+                    "internalCooldown": null,
+                    "interruptionResistance": "50",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "High Plunge",
+                    "elementalGaugeTheory": "—",
+                    "internalCooldown": null,
+                    "interruptionResistance": "100",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                }
+            ]
         },
         "1": {
             "type": 0,
@@ -1627,7 +1857,38 @@
                 }
             },
             "cooldown": 10,
-            "cost": 0
+            "cost": 0,
+            "linkedConstellations": {
+                "isLevelIncluded": true,
+                "prop": [
+                    {
+                        "id": 0,
+                        "type": "normal"
+                    },
+                    {
+                        "id": 2,
+                        "type": "level"
+                    },
+                    {
+                        "id": 5,
+                        "type": "normal"
+                    }
+                ]
+            },
+            "advancedProps": [
+                {
+                    "name": "Skill DMG",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "80",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "800",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                }
+            ]
         },
         "3": {
             "type": 1,
@@ -2344,41 +2605,95 @@
                 }
             },
             "cooldown": 20,
-            "cost": 80
+            "cost": 80,
+            "linkedConstellations": {
+                "isLevelIncluded": true,
+                "prop": [
+                    {
+                        "id": 4,
+                        "type": "level"
+                    },
+                    {
+                        "id": 5,
+                        "type": "normal"
+                    }
+                ]
+            },
+            "advancedProps": [
+                {
+                    "name": "Skill DMG",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "40",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "800",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": true
+                },
+                {
+                    "name": "Crystal Collapse DMG",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": null,
+                            "text": "Elemental Burst"
+                        },
+                        "type": {
+                            "span": null,
+                            "text": "2.5s/3 Hits"
+                        }
+                    },
+                    "interruptionResistance": "20",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Shake",
+                        "horizontalForce": "0",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                }
+            ]
         },
         "4": {
             "type": 2,
             "name": "Heedless of the Wind and Weather",
             "description": "After using <color=#FFD780FF>Juuga: Forward Unto Victory</color>, all nearby party members' DEF is increased by 25% for 12s.",
-            "icon": "UI_Talent_S_Gorou_05"
+            "icon": "UI_Talent_S_Gorou_05",
+            "linkedConstellations": null
         },
         "5": {
             "type": 2,
             "name": "A Favor Repaid",
             "description": "Gorou receives the following DMG Bonuses to his attacks based on his DEF:\\n· <color=#FFD780FF>Inuzaka All-Round Defense</color>: Skill DMG increased by 156% of DEF\\n· <color=#FFD780FF>Juuga: Forward Unto Victory</color>: Skill DMG and Crystal Collapse DMG increased by 15.6% of DEF",
-            "icon": "UI_Talent_S_Gorou_06"
+            "icon": "UI_Talent_S_Gorou_06",
+            "linkedConstellations": null
         },
         "6": {
             "type": 2,
             "name": "Seeker of Shinies",
             "description": "Displays the location of nearby <color=#FFD780FF>resources unique to Inazuma</color> on the mini-map.",
-            "icon": "UI_Talent_S_Gorou_07"
+            "icon": "UI_Talent_S_Gorou_07",
+            "linkedConstellations": null
         }
     },
     "constellation": {
         "0": {
+            "id": 0,
             "name": "Rushing Hound: Swift as the Wind",
             "description": "When characters (other than Gorou) within the AoE of Gorou's <color=#FFD780FF>General's War Banner</color> or <color=#FFD780FF>General's Glory</color> deal Geo DMG to opponents, the CD of Gorou's <color=#FFD780FF>Inuzaka All-Round Defense</color> is decreased by 2s.\\nThis effect can occur once every 10s.",
             "extraData": null,
             "icon": "UI_Talent_S_Gorou_01"
         },
         "1": {
+            "id": 1,
             "name": "Sitting Hound: Steady as a Clock",
             "description": "While <color=#FFD780FF>General's Glory</color> is in effect, its duration is extended by 1s when a nearby active character obtains an Elemental Shard from a Crystallize reaction. \\nThis effect can occur once every 0.1s. Max extension is 3s.",
             "extraData": null,
             "icon": "UI_Talent_S_Gorou_02"
         },
         "2": {
+            "id": 2,
             "name": "Mauling Hound: Fierce as Fire",
             "description": "Increases the Level of <color=#FFD780FF>Inuzaka All-Round Defense</color> by 3.\\nMaximum upgrade level is 15.",
             "extraData": {
@@ -2391,12 +2706,14 @@
             "icon": "UI_Talent_U_Gorou_01"
         },
         "3": {
+            "id": 3,
             "name": "Lapping Hound: Warm as Water",
             "description": "When <color=#FFD780FF>General's Glory</color> is in the \"Impregnable\" or \"Crunch\" states, it will also heal active characters within its AoE by 50% of Gorou's own DEF every 1.5s.",
             "extraData": null,
             "icon": "UI_Talent_S_Gorou_03"
         },
         "4": {
+            "id": 4,
             "name": "Striking Hound: Thunderous Force",
             "description": "Increases the Level of <color=#FFD780FF>Juuga: Forward Unto Victory</color> by 3.\\nMaximum upgrade level is 15.",
             "extraData": {
@@ -2409,6 +2726,7 @@
             "icon": "UI_Talent_U_Gorou_02"
         },
         "5": {
+            "id": 5,
             "name": "Valiant Hound: Mountainous Fealty",
             "description": "For 12s after using <color=#FFD780FF>Inuzaka All-Round Defense</color> or <color=#FFD780FF>Juuga: Forward Unto Victory</color>, increases the CRIT DMG of all nearby party members' <color=#FFE699FF>Geo DMG</color> based on the buff level of the skill's field at the time of use:\\n· \"Standing Firm\": +10%\\n· \"Impregnable\": +20%\\n· \"Crunch\": +40%\\n\\nThis effect cannot stack and will take reference from the last instance of the effect that is triggered.",
             "extraData": null,

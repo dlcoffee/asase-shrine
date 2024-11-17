@@ -47,7 +47,7 @@ export default function TrackingNew() {
 
       <div className="flex flex-wrap px-2 py-3">
         {avatars.map((avatar) => {
-          const avatarImgSrc = `https://api.ambr.top/assets/UI/${avatar.icon}.png`
+          const avatarImgSrc = `https://gi.yatta.moe/assets/UI/${avatar.icon}.png`
 
           return (
             <div

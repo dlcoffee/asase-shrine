@@ -4,6 +4,9 @@
     "name": "Traveler",
     "element": null,
     "weaponType": "WEAPON_SWORD_ONE_HAND",
+    "region": "MAINACTOR",
+    "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
+    "bodyType": "GIRL",
     "icon": "UI_AvatarIcon_PlayerGirl",
     "birthday": [
         0,
@@ -160,6 +163,68 @@
         "112005": 1,
         "112006": 2,
         "112007": 3
+    },
+    "items": {
+        "202": {
+            "name": 3578052980,
+            "rank": 3,
+            "icon": "UI_ItemIcon_202"
+        },
+        "100024": {
+            "name": 3920833836,
+            "rank": 1,
+            "icon": "UI_ItemIcon_100024"
+        },
+        "104001": {
+            "name": 3678106388,
+            "rank": 2,
+            "icon": "UI_ItemIcon_104001"
+        },
+        "104002": {
+            "name": 509265284,
+            "rank": 3,
+            "icon": "UI_ItemIcon_104002"
+        },
+        "104003": {
+            "name": 1790552548,
+            "rank": 4,
+            "icon": "UI_ItemIcon_104003"
+        },
+        "104101": {
+            "name": 1542620268,
+            "rank": 2,
+            "icon": "UI_ItemIcon_104101"
+        },
+        "104102": {
+            "name": 311931636,
+            "rank": 3,
+            "icon": "UI_ItemIcon_104102"
+        },
+        "104103": {
+            "name": 3015246748,
+            "rank": 4,
+            "icon": "UI_ItemIcon_104103"
+        },
+        "104104": {
+            "name": 841425532,
+            "rank": 5,
+            "icon": "UI_ItemIcon_104104"
+        },
+        "112005": {
+            "name": 461826612,
+            "rank": 1,
+            "icon": "UI_ItemIcon_112005"
+        },
+        "112006": {
+            "name": 3015475460,
+            "rank": 2,
+            "icon": "UI_ItemIcon_112006"
+        },
+        "112007": {
+            "name": 1726035172,
+            "rank": 3,
+            "icon": "UI_ItemIcon_112007"
+        }
     },
     "_id": 10000007
 }

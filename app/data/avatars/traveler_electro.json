@@ -4,6 +4,9 @@
     "name": "Traveler",
     "element": "Electric",
     "weaponType": "WEAPON_SWORD_ONE_HAND",
+    "region": "MAINACTOR",
+    "specialProp": "FIGHT_PROP_ATTACK_PERCENT",
+    "bodyType": "GIRL",
     "icon": "UI_AvatarIcon_PlayerGirl",
     "birthday": [
         0,
@@ -172,6 +175,128 @@
         "112045": 2,
         "112046": 3,
         "113017": 5
+    },
+    "items": {
+        "202": {
+            "name": "Mora",
+            "rank": 3,
+            "icon": "UI_ItemIcon_202"
+        },
+        "100024": {
+            "name": "Windwheel Aster",
+            "rank": 1,
+            "icon": "UI_ItemIcon_100024"
+        },
+        "104001": {
+            "name": "Wanderer's Advice",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104001"
+        },
+        "104002": {
+            "name": "Adventurer's Experience",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104002"
+        },
+        "104003": {
+            "name": "Hero's Wit",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104003"
+        },
+        "104101": {
+            "name": "Brilliant Diamond Sliver",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104101"
+        },
+        "104102": {
+            "name": "Brilliant Diamond Fragment",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104102"
+        },
+        "104103": {
+            "name": "Brilliant Diamond Chunk",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104103"
+        },
+        "104104": {
+            "name": "Brilliant Diamond Gemstone",
+            "rank": 5,
+            "icon": "UI_ItemIcon_104104"
+        },
+        "104319": {
+            "name": "Crown of Insight",
+            "rank": 5,
+            "icon": "UI_ItemIcon_104319"
+        },
+        "104320": {
+            "name": "Teachings of Transience",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104320"
+        },
+        "104321": {
+            "name": "Guide to Transience",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104321"
+        },
+        "104322": {
+            "name": "Philosophies of Transience",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104322"
+        },
+        "104324": {
+            "name": "Guide to Elegance",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104324"
+        },
+        "104325": {
+            "name": "Philosophies of Elegance",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104325"
+        },
+        "104327": {
+            "name": "Guide to Light",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104327"
+        },
+        "104328": {
+            "name": "Philosophies of Light",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104328"
+        },
+        "112005": {
+            "name": "Damaged Mask",
+            "rank": 1,
+            "icon": "UI_ItemIcon_112005"
+        },
+        "112006": {
+            "name": "Stained Mask",
+            "rank": 2,
+            "icon": "UI_ItemIcon_112006"
+        },
+        "112007": {
+            "name": "Ominous Mask",
+            "rank": 3,
+            "icon": "UI_ItemIcon_112007"
+        },
+        "112044": {
+            "name": "Old Handguard",
+            "rank": 1,
+            "icon": "UI_ItemIcon_112044"
+        },
+        "112045": {
+            "name": "Kageuchi Handguard",
+            "rank": 2,
+            "icon": "UI_ItemIcon_112045"
+        },
+        "112046": {
+            "name": "Famed Handguard",
+            "rank": 3,
+            "icon": "UI_ItemIcon_112046"
+        },
+        "113017": {
+            "name": "Dragon Lord's Crown",
+            "rank": 5,
+            "icon": "UI_ItemIcon_113017"
+        }
     },
     "talent": {
         "0": {
@@ -889,7 +1014,139 @@
                 }
             },
             "cooldown": 0,
-            "cost": 0
+            "cost": 0,
+            "linkedConstellations": null,
+            "advancedProps": [
+                {
+                    "name": "Normal Attack 1-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": "7",
+                            "text": "Normal Attack"
+                        },
+                        "type": {
+                            "span": "7",
+                            "text": "2.5s/3 Hits"
+                        }
+                    },
+                    "interruptionResistance": "40.5",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 2-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "39.6",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 3-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "48.6",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 4-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "54",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 5-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "64.8",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "655",
+                        "verticalForce": "800"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Charged Attack 1-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "50.6",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Charged Attack 2-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "50.6",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "655",
+                        "verticalForce": "800"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Plunging Attack Collision",
+                    "elementalGaugeTheory": "0U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "25",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Low Plunge",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "100",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "800",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": true
+                },
+                {
+                    "name": "High Plunge",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "150",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "0",
+                        "verticalForce": "800"
+                    },
+                    "bluntAttack": true
+                }
+            ]
         },
         "1": {
             "type": 0,
@@ -1050,7 +1307,7 @@
                         "Energy Regeneration|{param2:F1} Per Amulet",
                         "Energy Recharge Increase|{param4:P}",
                         "Duration|{param5:F1}s",
-                        "Abundance Amulet Duration|{param3:F1}",
+                        "Abundance Amulet Duration|{param3:F1}s",
                         "CD|{param6:F1}s",
                         "",
                         "",
@@ -1606,7 +1863,47 @@
                 }
             },
             "cooldown": 13.5,
-            "cost": 0
+            "cost": 0,
+            "linkedConstellations": {
+                "isLevelIncluded": true,
+                "prop": [
+                    {
+                        "id": 0,
+                        "type": "normal"
+                    },
+                    {
+                        "id": 3,
+                        "type": "normal"
+                    },
+                    {
+                        "id": 4,
+                        "type": "level"
+                    }
+                ]
+            },
+            "advancedProps": [
+                {
+                    "name": "Skill DMG",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": null,
+                            "text": "Elemental Skill"
+                        },
+                        "type": {
+                            "span": null,
+                            "text": "2.5s/3 Hits"
+                        }
+                    },
+                    "interruptionResistance": "100",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                }
+            ]
         },
         "3": {
             "type": 1,
@@ -2323,35 +2620,92 @@
                 }
             },
             "cooldown": 20,
-            "cost": 80
+            "cost": 80,
+            "linkedConstellations": {
+                "isLevelIncluded": true,
+                "prop": [
+                    {
+                        "id": 1,
+                        "type": "normal"
+                    },
+                    {
+                        "id": 2,
+                        "type": "level"
+                    },
+                    {
+                        "id": 5,
+                        "type": "normal"
+                    }
+                ]
+            },
+            "advancedProps": [
+                {
+                    "name": "Skill DMG",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "150",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "800",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": true
+                },
+                {
+                    "name": "Falling Thunder DMG",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": null,
+                            "text": "Elemental Burst"
+                        },
+                        "type": {
+                            "span": null,
+                            "text": "2.5s/3 Hits"
+                        }
+                    },
+                    "interruptionResistance": "50",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                }
+            ]
         },
         "4": {
             "type": 2,
             "name": "Thunderflash",
             "description": "When another nearby character in the party obtains an Abundance Amulet created by <color=#FFD780FF>Lightning Blade</color>, <color=#FFD780FF>Lightning Blade's</color> CD is decreased by 1.5s.",
-            "icon": "UI_Talent_S_PlayerElectric_05"
+            "icon": "UI_Talent_S_PlayerElectric_05",
+            "linkedConstellations": null
         },
         "5": {
             "type": 2,
             "name": "Resounding Roar",
             "description": "Increases the Energy Recharge effect granted by <color=#FFD780FF>Lightning Blade</color>'s Abundance Amulet by 10% of the Traveler's Energy Recharge.",
-            "icon": "UI_Talent_S_PlayerElectric_06"
+            "icon": "UI_Talent_S_PlayerElectric_06",
+            "linkedConstellations": null
         }
     },
     "constellation": {
         "0": {
+            "id": 0,
             "name": "Spring Thunder of Fertility",
             "description": "The number of Abundance Amulets that can be generated using <color=#FFD780FF>Lightning Blade</color> is increased to 3.",
             "extraData": null,
             "icon": "UI_Talent_S_PlayerElectric_01"
         },
         "1": {
+            "id": 1,
             "name": "Violet Vehemence",
             "description": "When Falling Thunder created by <color=#FFD780FF>Bellowing Thunder</color> hits an opponent, it will decrease their <color=#FFACFFFF>Electro RES</color> by 15% for 8s.",
             "extraData": null,
             "icon": "UI_Talent_S_PlayerElectric_02"
         },
         "2": {
+            "id": 2,
             "name": "Distant Crackling",
             "description": "Increases the Level of <color=#FFD780FF>Bellowing Thunder</color> by 3.\\nMaximum upgrade level is 15.",
             "extraData": {
@@ -2364,12 +2718,14 @@
             "icon": "UI_Talent_U_PlayerElectric_01"
         },
         "3": {
+            "id": 3,
             "name": "Fickle Cloudstrike",
             "description": "When a character obtains Abundance Amulets generated by <color=#FFD780FF>Lightning Blade</color>, if this character's Energy is less than 35%, the Energy restored by the Abundance Amulets is increased by 100%.",
             "extraData": null,
             "icon": "UI_Talent_S_PlayerElectric_03"
         },
         "4": {
+            "id": 4,
             "name": "Clamor in the Wilds",
             "description": "Increases the Level of <color=#FFD780FF>Lightning Blade</color> by 3.\\nMaximum upgrade level is 15.",
             "extraData": {
@@ -2382,6 +2738,7 @@
             "icon": "UI_Talent_U_PlayerElectric_02"
         },
         "5": {
+            "id": 5,
             "name": "World-Shaker",
             "description": "Every 2 Falling Thunder attacks triggered by <color=#FFD780FF>Bellowing Thunder</color> will greatly increase the DMG dealt by the next Falling Thunder, which will deal 200% of its original DMG and will restore an additional 1 Energy to the current character.",
             "extraData": null,

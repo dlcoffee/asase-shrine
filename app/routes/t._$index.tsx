@@ -59,7 +59,7 @@ function itemToDisplay(item: Item): ItemDisplay {
 }
 
 function materialSrcUrl(item: ItemDisplay) {
-  return `https://api.ambr.top/assets/UI/${item.icon}.png`
+  return `https://gi.yatta.moe/assets/UI/${item.icon}.png`
 }
 
 export const loader = async ({ request }: LoaderArgs) => {
@@ -193,7 +193,7 @@ export default function TrackingIndex() {
             talent_materials: { book, crown },
             character_materials,
           } = avatar
-          const avatarImgSrc = `https://api.ambr.top/assets/UI/${avatar.icon}.png`
+          const avatarImgSrc = `https://gi.yatta.moe/assets/UI/${avatar.icon}.png`
 
           return (
             <div key={avatar.id} className="flex border border-emerald-700">

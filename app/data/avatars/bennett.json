@@ -4,12 +4,15 @@
     "name": "Bennett",
     "element": "Fire",
     "weaponType": "WEAPON_SWORD_ONE_HAND",
+    "region": "MONDSTADT",
+    "specialProp": "FIGHT_PROP_CHARGE_EFFICIENCY",
+    "bodyType": "BOY",
     "icon": "UI_AvatarIcon_Bennett",
     "birthday": [
         2,
         29
     ],
-    "release": 1600131600,
+    "release": 1601244000,
     "route": "Bennett",
     "fetter": {
         "title": "Trial by Fire",
@@ -193,6 +196,98 @@
         "112037": 3,
         "113003": 5,
         "113011": 4
+    },
+    "items": {
+        "202": {
+            "name": "Mora",
+            "rank": 3,
+            "icon": "UI_ItemIcon_202"
+        },
+        "100024": {
+            "name": "Windwheel Aster",
+            "rank": 1,
+            "icon": "UI_ItemIcon_100024"
+        },
+        "104001": {
+            "name": "Wanderer's Advice",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104001"
+        },
+        "104002": {
+            "name": "Adventurer's Experience",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104002"
+        },
+        "104003": {
+            "name": "Hero's Wit",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104003"
+        },
+        "104111": {
+            "name": "Agnidus Agate Sliver",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104111"
+        },
+        "104112": {
+            "name": "Agnidus Agate Fragment",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104112"
+        },
+        "104113": {
+            "name": "Agnidus Agate Chunk",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104113"
+        },
+        "104114": {
+            "name": "Agnidus Agate Gemstone",
+            "rank": 5,
+            "icon": "UI_ItemIcon_104114"
+        },
+        "104304": {
+            "name": "Teachings of Resistance",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104304"
+        },
+        "104305": {
+            "name": "Guide to Resistance",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104305"
+        },
+        "104306": {
+            "name": "Philosophies of Resistance",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104306"
+        },
+        "104319": {
+            "name": "Crown of Insight",
+            "rank": 5,
+            "icon": "UI_ItemIcon_104319"
+        },
+        "112035": {
+            "name": "Treasure Hoarder Insignia",
+            "rank": 1,
+            "icon": "UI_ItemIcon_112035"
+        },
+        "112036": {
+            "name": "Silver Raven Insignia",
+            "rank": 2,
+            "icon": "UI_ItemIcon_112036"
+        },
+        "112037": {
+            "name": "Golden Raven Insignia",
+            "rank": 3,
+            "icon": "UI_ItemIcon_112037"
+        },
+        "113003": {
+            "name": "Dvalin's Plume",
+            "rank": 5,
+            "icon": "UI_ItemIcon_113003"
+        },
+        "113011": {
+            "name": "Everflame Seed",
+            "rank": 4,
+            "icon": "UI_ItemIcon_113011"
+        }
     },
     "talent": {
         "0": {
@@ -910,7 +1005,139 @@
                 }
             },
             "cooldown": 0,
-            "cost": 0
+            "cost": 0,
+            "linkedConstellations": null,
+            "advancedProps": [
+                {
+                    "name": "Normal Attack 1-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": "7",
+                            "text": "Normal Attack"
+                        },
+                        "type": {
+                            "span": "7",
+                            "text": "2.5s/3 Hits"
+                        }
+                    },
+                    "interruptionResistance": "38.7",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 2-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "37.8",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 3-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "47.7",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 4-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "52.2",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 5-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "62.1",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "655",
+                        "verticalForce": "800"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Charged Attack 1-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "45",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Charged Attack 2-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "45",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "655",
+                        "verticalForce": "800"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Plunging Attack Collision",
+                    "elementalGaugeTheory": "0U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "25",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Low Plunge",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "100",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "800",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": true
+                },
+                {
+                    "name": "High Plunge",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "150",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "0",
+                        "verticalForce": "800"
+                    },
+                    "bluntAttack": true
+                }
+            ]
         },
         "1": {
             "type": 0,
@@ -1627,7 +1854,115 @@
                 }
             },
             "cooldown": 5,
-            "cost": 0
+            "cost": 0,
+            "linkedConstellations": {
+                "isLevelIncluded": true,
+                "prop": [
+                    {
+                        "id": 2,
+                        "type": "level"
+                    },
+                    {
+                        "id": 3,
+                        "type": "normal"
+                    }
+                ]
+            },
+            "advancedProps": [
+                {
+                    "name": "Press DMG",
+                    "elementalGaugeTheory": "2U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "100",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "800",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Charge Level 1 1-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "100",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Charge Level 1 2-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "100",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "300",
+                        "verticalForce": "900"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Charge Level 2 1-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "100",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Charge Level 2 2-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "100",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "300",
+                        "verticalForce": "900"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Explosion DMG",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "250",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "795",
+                        "verticalForce": "900"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Explosion To Self",
+                    "elementalGaugeTheory": "—",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": null,
+                            "text": "—"
+                        },
+                        "type": {
+                            "span": null,
+                            "text": "—"
+                        }
+                    },
+                    "interruptionResistance": "250",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "650",
+                        "verticalForce": "950"
+                    },
+                    "bluntAttack": false
+                }
+            ]
         },
         "3": {
             "type": 1,
@@ -2344,41 +2679,86 @@
                 }
             },
             "cooldown": 15,
-            "cost": 60
+            "cost": 60,
+            "linkedConstellations": {
+                "isLevelIncluded": true,
+                "prop": [
+                    {
+                        "id": 0,
+                        "type": "normal"
+                    },
+                    {
+                        "id": 4,
+                        "type": "level"
+                    },
+                    {
+                        "id": 5,
+                        "type": "normal"
+                    }
+                ]
+            },
+            "advancedProps": [
+                {
+                    "name": "Skill DMG",
+                    "elementalGaugeTheory": "2U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "200",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "800",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Pyro To Self",
+                    "elementalGaugeTheory": "1U, 2.1s",
+                    "internalCooldown": null,
+                    "interruptionResistance": "—",
+                    "interruptionResistanceStagger": null,
+                    "bluntAttack": "—"
+                }
+            ]
         },
         "4": {
             "type": 2,
             "name": "Rekindle",
             "description": "Decreases <color=#FFD780FF>Passion Overload</color>'s CD by 20%.",
-            "icon": "UI_Talent_S_Bennett_05"
+            "icon": "UI_Talent_S_Bennett_05",
+            "linkedConstellations": null
         },
         "5": {
             "type": 2,
             "name": "Fearnaught",
             "description": "Within the area created by <color=#FFD780FF>Fantastic Voyage</color>, <color=#FFD780FF>Passion Overload</color> takes on the following effects:\\n·CD is reduced by 50%.\\n·Bennett will not be launched by the effects of Charge Level 2.",
-            "icon": "UI_Talent_S_Bennett_06"
+            "icon": "UI_Talent_S_Bennett_06",
+            "linkedConstellations": null
         },
         "6": {
             "type": 2,
             "name": "It Should Be Safe...",
             "description": "When dispatched on an expedition in Mondstadt, time consumed is reduced by 25%.",
-            "icon": "UI_Talent_Expedition_Mengde"
+            "icon": "UI_Talent_Expedition_Mengde",
+            "linkedConstellations": null
         }
     },
     "constellation": {
         "0": {
+            "id": 0,
             "name": "Grand Expectation",
             "description": "<color=#FFD780FF>Fantastic Voyage</color>'s ATK increase no longer has an HP restriction, and gains an additional 20% of Bennett's Base ATK.",
             "extraData": null,
             "icon": "UI_Talent_S_Bennett_01"
         },
         "1": {
+            "id": 1,
             "name": "Impasse Conqueror",
             "description": "When Bennett's HP falls below 70%, his Energy Recharge is increased by 30%.",
             "extraData": null,
             "icon": "UI_Talent_S_Bennett_02"
         },
         "2": {
+            "id": 2,
             "name": "Unstoppable Fervor",
             "description": "Increases the Level of <color=#FFD780FF>Passion Overload</color> by 3.\\nMaximum upgrade level is 15.",
             "extraData": {
@@ -2391,12 +2771,28 @@
             "icon": "UI_Talent_U_Bennett_01"
         },
         "3": {
+            "id": 3,
             "name": "Unexpected Odyssey",
             "description": "Using a Normal Attack as the second attack of <color=#FFD780FF>Passion Overload</color>'s Charge Level 1 will perform a follow-up attack.\\nThis additional attack does 135% of the second attack's DMG.",
             "extraData": null,
-            "icon": "UI_Talent_S_Bennett_03"
+            "icon": "UI_Talent_S_Bennett_03",
+            "advancedProps": [
+                {
+                    "name": "Additional Attack",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "100",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "655",
+                        "verticalForce": "800"
+                    },
+                    "bluntAttack": false
+                }
+            ]
         },
         "4": {
+            "id": 4,
             "name": "True Explorer",
             "description": "Increases the Level of <color=#FFD780FF>Fantastic Voyage</color> by 3.\\nMaximum upgrade level is 15.",
             "extraData": {
@@ -2409,6 +2805,7 @@
             "icon": "UI_Talent_U_Bennett_02"
         },
         "5": {
+            "id": 5,
             "name": "Fire Ventures With Me",
             "description": "Sword, Claymore, or Polearm-wielding characters inside <color=#FFD780FF>Fantastic Voyage</color>'s radius gain a 15% <color=#FF9999FF>Pyro DMG Bonus</color> and their weapons are infused with <color=#FF9999FF>Pyro</color>.",
             "extraData": null,

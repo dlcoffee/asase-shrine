@@ -132,7 +132,7 @@ const DataList = ({ children }: { children: ReactNode }) => {
 }
 
 const DataListItem = ({ item, avatars }: { item: ItemDisplay; avatars: AvatarDisplay[] }) => {
-  const itemImageSrc = `https://api.ambr.top/assets/UI/${item.icon}.png`
+  const itemImageSrc = `https://gi.yatta.moe/assets/UI/${item.icon}.png`
 
   return (
     <div className="flex px-2 py-3">
@@ -144,7 +144,7 @@ const DataListItem = ({ item, avatars }: { item: ItemDisplay; avatars: AvatarDis
       <dd className="mt-1">
         <div className="flex flex-wrap">
           {avatars.map((avatar) => {
-            const avatarImgSrc = `https://api.ambr.top/assets/UI/${avatar.icon}.png`
+            const avatarImgSrc = `https://gi.yatta.moe/assets/UI/${avatar.icon}.png`
 
             return (
               <Link to={`/a/${avatar.id}`} key={avatar.id}>

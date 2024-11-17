@@ -4,12 +4,15 @@
     "name": "Ningguang",
     "element": "Rock",
     "weaponType": "WEAPON_CATALYST",
+    "region": "LIYUE",
+    "specialProp": "FIGHT_PROP_ROCK_ADD_HURT",
+    "bodyType": "LADY",
     "icon": "UI_AvatarIcon_Ningguang",
     "birthday": [
         8,
         26
     ],
-    "release": 1600131600,
+    "release": 1601244000,
     "route": "Ningguang",
     "fetter": {
         "title": "Eclipsing Star",
@@ -200,6 +203,98 @@
         "112034": 3,
         "113008": 5,
         "113009": 4
+    },
+    "items": {
+        "202": {
+            "name": "Mora",
+            "rank": 3,
+            "icon": "UI_ItemIcon_202"
+        },
+        "100030": {
+            "name": "Glaze Lily",
+            "rank": 1,
+            "icon": "UI_ItemIcon_100030"
+        },
+        "104001": {
+            "name": "Wanderer's Advice",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104001"
+        },
+        "104002": {
+            "name": "Adventurer's Experience",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104002"
+        },
+        "104003": {
+            "name": "Hero's Wit",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104003"
+        },
+        "104171": {
+            "name": "Prithiva Topaz Sliver",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104171"
+        },
+        "104172": {
+            "name": "Prithiva Topaz Fragment",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104172"
+        },
+        "104173": {
+            "name": "Prithiva Topaz Chunk",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104173"
+        },
+        "104174": {
+            "name": "Prithiva Topaz Gemstone",
+            "rank": 5,
+            "icon": "UI_ItemIcon_104174"
+        },
+        "104310": {
+            "name": "Teachings of Prosperity",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104310"
+        },
+        "104311": {
+            "name": "Guide to Prosperity",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104311"
+        },
+        "104312": {
+            "name": "Philosophies of Prosperity",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104312"
+        },
+        "104319": {
+            "name": "Crown of Insight",
+            "rank": 5,
+            "icon": "UI_ItemIcon_104319"
+        },
+        "112032": {
+            "name": "Recruit's Insignia",
+            "rank": 1,
+            "icon": "UI_ItemIcon_112032"
+        },
+        "112033": {
+            "name": "Sergeant's Insignia",
+            "rank": 2,
+            "icon": "UI_ItemIcon_112033"
+        },
+        "112034": {
+            "name": "Lieutenant's Insignia",
+            "rank": 3,
+            "icon": "UI_ItemIcon_112034"
+        },
+        "113008": {
+            "name": "Spirit Locket of Boreas",
+            "rank": 5,
+            "icon": "UI_ItemIcon_113008"
+        },
+        "113009": {
+            "name": "Basalt Pillar",
+            "rank": 4,
+            "icon": "UI_ItemIcon_113009"
+        }
     },
     "talent": {
         "0": {
@@ -917,12 +1012,105 @@
                 }
             },
             "cooldown": 0,
-            "cost": 0
+            "cost": 0,
+            "linkedConstellations": null,
+            "advancedProps": [
+                {
+                    "name": "Normal Attack",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": null,
+                            "text": "Normal Attack"
+                        },
+                        "type": {
+                            "span": null,
+                            "text": "2.5s/3 Hits"
+                        }
+                    },
+                    "interruptionResistance": "45",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": true
+                },
+                {
+                    "name": "Charged Attack",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": "2",
+                            "text": "Charged Attack"
+                        },
+                        "type": {
+                            "span": "2",
+                            "text": "2.5s/3 Hits"
+                        }
+                    },
+                    "interruptionResistance": "45",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": true
+                },
+                {
+                    "name": "Star Jade",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "30",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "480",
+                        "verticalForce": "600"
+                    },
+                    "bluntAttack": true
+                },
+                {
+                    "name": "Plunging Attack Collision",
+                    "elementalGaugeTheory": "0U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "5",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Low Plunge",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "50",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "High Plunge",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "100",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "800",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                }
+            ]
         },
         "1": {
             "type": 0,
             "name": "Jade Screen",
-            "description": "Ningguang creates a Jade Screen out of gold, obsidian and her great opulence, dealing <color=#FFE699FF>AoE Geo DMG</color>.\\n\\n<color=#FFD780FF>Jade Screen</color>\\n·Blocks opponents' projectiles.\\n·Endurance scales based on Ningguang's Max HP.\\n\\nJade Screen is considered a <color=#FFE699FF>Geo Construct</color> and can be used to block certain attacks, but cannot be climbed. Only one Jade Screen may exist at any one time.\\n\\n<i>The canvas of stars is written upon this jade screen.</i>",
+            "description": "Ningguang creates a Jade Screen out of gold, obsidian, and her great opulence, dealing <color=#FFE699FF>AoE Geo DMG</color>.\\n\\n<color=#FFD780FF>Jade Screen</color>\\n·Blocks opponents' projectiles.\\n·Endurance scales based on Ningguang's Max HP.\\n\\nJade Screen is considered a <color=#FFE699FF>Geo Construct</color> and can be used to block certain attacks, but cannot be climbed. Only one Jade Screen may exist at any one time.\\n\\n<i>The canvas of stars is written upon this jade screen.</i>",
             "icon": "Skill_S_Ningguang_01",
             "promote": {
                 "1": {
@@ -1634,7 +1822,38 @@
                 }
             },
             "cooldown": 12,
-            "cost": 0
+            "cost": 0,
+            "linkedConstellations": {
+                "isLevelIncluded": true,
+                "prop": [
+                    {
+                        "id": 1,
+                        "type": "normal"
+                    },
+                    {
+                        "id": 3,
+                        "type": "normal"
+                    },
+                    {
+                        "id": 4,
+                        "type": "level"
+                    }
+                ]
+            },
+            "advancedProps": [
+                {
+                    "name": "Skill DMG",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "133.2",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "480",
+                        "verticalForce": "600"
+                    },
+                    "bluntAttack": true
+                }
+            ]
         },
         "3": {
             "type": 1,
@@ -2351,41 +2570,83 @@
                 }
             },
             "cooldown": 12,
-            "cost": 40
+            "cost": 40,
+            "linkedConstellations": {
+                "isLevelIncluded": true,
+                "prop": [
+                    {
+                        "id": 2,
+                        "type": "level"
+                    },
+                    {
+                        "id": 5,
+                        "type": "normal"
+                    }
+                ]
+            },
+            "advancedProps": [
+                {
+                    "name": "Gem DMG",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": null,
+                            "text": "Elemental Burst"
+                        },
+                        "type": {
+                            "span": null,
+                            "text": "2.5s/3 Hits"
+                        }
+                    },
+                    "interruptionResistance": "30",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "480",
+                        "verticalForce": "600"
+                    },
+                    "bluntAttack": true
+                }
+            ]
         },
         "4": {
             "type": 2,
             "name": "Backup Plan",
             "description": "When Ningguang is in possession of Star Jades, her Charged Attack does not consume Stamina.",
-            "icon": "UI_Talent_S_Ningguang_02"
+            "icon": "UI_Talent_S_Ningguang_02",
+            "linkedConstellations": null
         },
         "5": {
             "type": 2,
             "name": "Strategic Reserve",
             "description": "A character that passes through the <color=#FFD780FF>Jade Screen</color> will gain a 12% <color=#FFE699FF>Geo DMG Bonus</color> for 10s.",
-            "icon": "UI_Talent_S_Ningguang_06"
+            "icon": "UI_Talent_S_Ningguang_06",
+            "linkedConstellations": null
         },
         "6": {
             "type": 2,
             "name": "Trove of Marvelous Treasures",
             "description": "Displays the location of nearby <color=#FFD780FF>ore veins used in forging</color> on the mini-map.",
-            "icon": "UI_Talent_Collect_Ore"
+            "icon": "UI_Talent_Collect_Ore",
+            "linkedConstellations": null
         }
     },
     "constellation": {
         "0": {
+            "id": 0,
             "name": "Piercing Fragments",
             "description": "When a Normal Attack hits, it deals AoE DMG.",
             "extraData": null,
             "icon": "UI_Talent_S_Ningguang_01"
         },
         "1": {
+            "id": 1,
             "name": "Shock Effect",
             "description": "When <color=#FFD780FF>Jade Screen</color> is shattered, its CD will reset.\\nCan occur once every 6s.",
             "extraData": null,
             "icon": "UI_Talent_S_Ningguang_05"
         },
         "2": {
+            "id": 2,
             "name": "Majesty Be the Array of Stars",
             "description": "Increases the Level of <color=#FFD780FF>Starshatter</color> by 3.\\nMaximum upgrade level is 15.",
             "extraData": {
@@ -2398,12 +2659,14 @@
             "icon": "UI_Talent_U_Ningguang_02"
         },
         "3": {
+            "id": 3,
             "name": "Exquisite be the Jade, Outshining All Beneath",
             "description": "<color=#FFD780FF>Jade Screen</color> increases nearby characters' Elemental RES by 10%.",
             "extraData": null,
             "icon": "UI_Talent_S_Ningguang_03"
         },
         "4": {
+            "id": 4,
             "name": "Invincible Be the Jade Screen",
             "description": "Increases the Level of <color=#FFD780FF>Jade Screen</color> by 3.\\nMaximum upgrade level is 15.",
             "extraData": {
@@ -2416,6 +2679,7 @@
             "icon": "UI_Talent_U_Ningguang_01"
         },
         "5": {
+            "id": 5,
             "name": "Grandeur Be the Seven Stars",
             "description": "When <color=#FFD780FF>Starshatter</color> is used, Ningguang gains 7 Star Jades.",
             "extraData": null,

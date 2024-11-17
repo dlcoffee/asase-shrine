@@ -4,6 +4,9 @@
     "name": "Dori",
     "element": "Electric",
     "weaponType": "WEAPON_CLAYMORE",
+    "region": "SUMERU",
+    "specialProp": "FIGHT_PROP_HP_PERCENT",
+    "bodyType": "LOLI",
     "icon": "UI_AvatarIcon_Dori",
     "birthday": [
         12,
@@ -193,6 +196,98 @@
         "112067": 3,
         "113018": 5,
         "113037": 4
+    },
+    "items": {
+        "202": {
+            "name": "Mora",
+            "rank": 3,
+            "icon": "UI_ItemIcon_202"
+        },
+        "101217": {
+            "name": "Kalpalata Lotus",
+            "rank": 1,
+            "icon": "UI_ItemIcon_101217"
+        },
+        "104001": {
+            "name": "Wanderer's Advice",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104001"
+        },
+        "104002": {
+            "name": "Adventurer's Experience",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104002"
+        },
+        "104003": {
+            "name": "Hero's Wit",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104003"
+        },
+        "104141": {
+            "name": "Vajrada Amethyst Sliver",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104141"
+        },
+        "104142": {
+            "name": "Vajrada Amethyst Fragment",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104142"
+        },
+        "104143": {
+            "name": "Vajrada Amethyst Chunk",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104143"
+        },
+        "104144": {
+            "name": "Vajrada Amethyst Gemstone",
+            "rank": 5,
+            "icon": "UI_ItemIcon_104144"
+        },
+        "104319": {
+            "name": "Crown of Insight",
+            "rank": 5,
+            "icon": "UI_ItemIcon_104319"
+        },
+        "104332": {
+            "name": "Teachings of Ingenuity",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104332"
+        },
+        "104333": {
+            "name": "Guide to Ingenuity",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104333"
+        },
+        "104334": {
+            "name": "Philosophies of Ingenuity",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104334"
+        },
+        "112065": {
+            "name": "Faded Red Satin",
+            "rank": 1,
+            "icon": "UI_ItemIcon_112065"
+        },
+        "112066": {
+            "name": "Trimmed Red Silk",
+            "rank": 2,
+            "icon": "UI_ItemIcon_112066"
+        },
+        "112067": {
+            "name": "Rich Red Brocade",
+            "rank": 3,
+            "icon": "UI_ItemIcon_112067"
+        },
+        "113018": {
+            "name": "Bloodjade Branch",
+            "rank": 5,
+            "icon": "UI_ItemIcon_113018"
+        },
+        "113037": {
+            "name": "Thunderclap Fruitcore",
+            "rank": 4,
+            "icon": "UI_ItemIcon_113037"
+        }
     },
     "talent": {
         "0": {
@@ -910,7 +1005,127 @@
                 }
             },
             "cooldown": 0,
-            "cost": 0
+            "cost": 0,
+            "linkedConstellations": null,
+            "advancedProps": [
+                {
+                    "name": "Normal Attack 1-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": "6",
+                            "text": "Normal Attack"
+                        },
+                        "type": {
+                            "span": "6",
+                            "text": "2.5s/3 Hits"
+                        }
+                    },
+                    "interruptionResistance": "95.22",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": true
+                },
+                {
+                    "name": "Normal Attack 2-Hit A",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "46.5175",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": true
+                },
+                {
+                    "name": "Normal Attack 2-Hit B",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "46.5175",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": true
+                },
+                {
+                    "name": "Normal Attack 3-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "127.42",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "480",
+                        "verticalForce": "600"
+                    },
+                    "bluntAttack": true
+                },
+                {
+                    "name": "Charged Attack Spinning",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "60",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": true
+                },
+                {
+                    "name": "Charged Attack Final Slash",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "120",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "480",
+                        "verticalForce": "600"
+                    },
+                    "bluntAttack": true
+                },
+                {
+                    "name": "Plunging Attack Collision",
+                    "elementalGaugeTheory": "0U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "35",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Low Plunge",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "150",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "800",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": true
+                },
+                {
+                    "name": "High Plunge",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "200",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "0",
+                        "verticalForce": "800"
+                    },
+                    "bluntAttack": true
+                }
+            ]
         },
         "1": {
             "type": 0,
@@ -1627,7 +1842,55 @@
                 }
             },
             "cooldown": 9,
-            "cost": 0
+            "cost": 0,
+            "linkedConstellations": {
+                "isLevelIncluded": true,
+                "prop": [
+                    {
+                        "id": 4,
+                        "type": "level"
+                    },
+                    {
+                        "id": 5,
+                        "type": "normal"
+                    }
+                ]
+            },
+            "advancedProps": [
+                {
+                    "name": "Troubleshooter Shot",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": "2",
+                            "text": "Elemental Skill"
+                        },
+                        "type": {
+                            "span": "2",
+                            "text": "2.5s/3 Hits"
+                        }
+                    },
+                    "interruptionResistance": "30",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "After-Sale Service Round",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "10",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                }
+            ]
         },
         "3": {
             "type": 1,
@@ -2344,41 +2607,144 @@
                 }
             },
             "cooldown": 20,
-            "cost": 80
+            "cost": 80,
+            "linkedConstellations": {
+                "isLevelIncluded": true,
+                "prop": [
+                    {
+                        "id": 2,
+                        "type": "level"
+                    }
+                ]
+            },
+            "advancedProps": [
+                {
+                    "name": "Connector DMG",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": null,
+                            "text": "Elemental Burst"
+                        },
+                        "type": {
+                            "span": null,
+                            "text": "3s"
+                        }
+                    },
+                    "interruptionResistance": "8",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Mute",
+                        "horizontalForce": "0",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Electro To Self",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": null,
+                            "text": "Charging Station"
+                        },
+                        "type": {
+                            "span": null,
+                            "text": "3s"
+                        }
+                    },
+                    "interruptionResistance": "0",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Mute",
+                        "horizontalForce": "0",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Jinni Toop (C2)",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": null,
+                            "text": "C2"
+                        },
+                        "type": {
+                            "span": null,
+                            "text": "2.5s/3 Hits"
+                        }
+                    },
+                    "interruptionResistance": "10",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                }
+            ]
         },
         "4": {
             "type": 2,
             "name": "An Eye for Gold",
             "description": "After a character connected to the <color=#FFD780FF>Jinni</color> triggers an Electro-Charged, Superconduct, Overloaded, Quicken, Aggravate, Hyperbloom, or an Electro Swirl or Crystallize reaction, the CD of <color=#FFD780FF>Spirit-Warding Lamp: Troubleshooter Cannon</color> is decreased by 1s.\\nThis effect can be triggered once every 3s.",
-            "icon": "UI_Talent_S_Dori_05"
+            "icon": "UI_Talent_S_Dori_05",
+            "linkedConstellations": null
         },
         "5": {
             "type": 2,
             "name": "Compound Interest",
             "description": "When the Troubleshooter Shots or After-Sales Service Rounds from <color=#FFD780FF>Spirit-Warding Lamp: Troubleshooter Cannon</color> hit opponents, Dori will restore 5 Elemental Energy for every 100% Energy Recharge possessed.\\nPer Spirit-Warding Lamp: Troubleshooter Cannon, only one instance of Energy restoration can be triggered and a maximum of 15 Energy can be restored this way.",
-            "icon": "UI_Talent_S_Dori_06"
+            "icon": "UI_Talent_S_Dori_06",
+            "linkedConstellations": null
         },
         "6": {
             "type": 2,
             "name": "Unexpected Order",
             "description": "Has a 25% chance to recover some of the materials used when crafting Character and Weapon Materials.",
-            "icon": "UI_Talent_S_Dori_07"
+            "icon": "UI_Talent_S_Dori_07",
+            "linkedConstellations": null
         }
     },
     "constellation": {
         "0": {
+            "id": 0,
             "name": "Additional Investment",
             "description": "The number of After-Sales Service Rounds created by <color=#FFD780FF>Troubleshooter Shots</color> is increased by 1.",
             "extraData": null,
             "icon": "UI_Talent_S_Dori_01"
         },
         "1": {
+            "id": 1,
             "name": "Special Franchise",
             "description": "When you are in combat and the <color=#FFD780FF>Jinni</color> heals the character it is connected to, it will fire a Jinni Toop from that character's position that deals 50% of Dori's ATK DMG.",
             "extraData": null,
-            "icon": "UI_Talent_S_Dori_02"
+            "icon": "UI_Talent_S_Dori_02",
+            "advancedProps": [
+                {
+                    "name": "Jinni Toop",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": null,
+                            "text": "C2"
+                        },
+                        "type": {
+                            "span": null,
+                            "text": "2.5s/3 Hits"
+                        }
+                    },
+                    "interruptionResistance": "10",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                }
+            ]
         },
         "2": {
+            "id": 2,
             "name": "Wonders Never Cease",
             "description": "Increases the Level of <color=#FFD780FF>Alcazarzaray's Exactitude</color> by 3.\\nMaximum upgrade level is 15.",
             "extraData": {
@@ -2391,12 +2757,14 @@
             "icon": "UI_Talent_U_Dori_02"
         },
         "3": {
+            "id": 3,
             "name": "Discretionary Supplement",
             "description": "The character connected to the <color=#FFD780FF>Jinni</color> will obtain the following buffs based on their current HP and Energy:\\n·When their HP is lower than 50%, they gain 50% Incoming Healing Bonus.\\n·When their Energy is less than 50%, they gain 30% Energy Recharge.",
             "extraData": null,
             "icon": "UI_Talent_S_Dori_03"
         },
         "4": {
+            "id": 4,
             "name": "Value for Mora",
             "description": "Increases the Level of <color=#FFD780FF>Spirit-Warding Lamp: Troubleshooter Cannon</color> by 3.\\nMaximum upgrade level is 15.",
             "extraData": {
@@ -2409,6 +2777,7 @@
             "icon": "UI_Talent_U_Dori_01"
         },
         "5": {
+            "id": 5,
             "name": "Sprinkling Weight",
             "description": "Dori gains the following effects for 3s after using <color=#FFD780FF>Spirit-Warding Lamp: Troubleshooter Cannon</color>:\\n·<color=#FFACFFFF>Electro Infusion</color>.\\n·When Normal Attacks hit opponents, all nearby party members will heal HP equivalent to 4% of Dori's Max HP. This type of healing can occur once every 0.1s.",
             "extraData": null,
