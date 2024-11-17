@@ -1,0 +1,2823 @@
+{
+    "id": "chevreuse",
+    "rank": 4,
+    "name": "Chevreuse",
+    "element": "Fire",
+    "weaponType": "WEAPON_POLE",
+    "region": "FONTAINE",
+    "specialProp": "FIGHT_PROP_HP_PERCENT",
+    "bodyType": "GIRL",
+    "icon": "UI_AvatarIcon_Chevreuse",
+    "birthday": [
+        1,
+        10
+    ],
+    "release": 1704816000,
+    "route": "Chevreuse",
+    "fetter": {
+        "title": "Executor of Justice",
+        "detail": "The captain of the Special Security and Surveillance Patrol, who wears justice as an ever-present seal upon her heart. Her musket shall only ever point at the guilty.",
+        "constellation": "Sclopetum Ensiferum",
+        "native": "Special Security and Surveillance Patrol",
+        "cv": {
+            "EN": "Erica Lindbeck",
+            "CHS": "潘丹妮",
+            "JP": "下地紫野",
+            "KR": "Chae Min-ji"
+        }
+    },
+    "upgrade": {
+        "prop": [
+            {
+                "propType": "FIGHT_PROP_BASE_HP",
+                "initValue": 1002.97009,
+                "type": "GROW_CURVE_HP_S4"
+            },
+            {
+                "propType": "FIGHT_PROP_BASE_ATTACK",
+                "initValue": 16.20528,
+                "type": "GROW_CURVE_ATTACK_S4"
+            },
+            {
+                "propType": "FIGHT_PROP_BASE_DEFENSE",
+                "initValue": 50.70135,
+                "type": "GROW_CURVE_HP_S4"
+            }
+        ],
+        "promote": [
+            {
+                "unlockMaxLevel": 20,
+                "promoteLevel": 0
+            },
+            {
+                "promoteLevel": 1,
+                "costItems": {
+                    "101235": 3,
+                    "104111": 1,
+                    "112083": 3
+                },
+                "unlockMaxLevel": 40,
+                "addProps": {
+                    "FIGHT_PROP_BASE_HP": 749.27002,
+                    "FIGHT_PROP_BASE_DEFENSE": 37.8765,
+                    "FIGHT_PROP_BASE_ATTACK": 12.10646,
+                    "FIGHT_PROP_HP_PERCENT": 0
+                },
+                "requiredPlayerLevel": 15,
+                "coinCost": 20000
+            },
+            {
+                "promoteLevel": 2,
+                "costItems": {
+                    "101235": 10,
+                    "104112": 3,
+                    "112083": 15,
+                    "113053": 2
+                },
+                "unlockMaxLevel": 50,
+                "addProps": {
+                    "FIGHT_PROP_BASE_HP": 1281.64612,
+                    "FIGHT_PROP_BASE_DEFENSE": 64.78875,
+                    "FIGHT_PROP_BASE_ATTACK": 20.70841,
+                    "FIGHT_PROP_HP_PERCENT": 0.06
+                },
+                "requiredPlayerLevel": 25,
+                "coinCost": 40000
+            },
+            {
+                "promoteLevel": 3,
+                "costItems": {
+                    "101235": 20,
+                    "104112": 6,
+                    "112084": 12,
+                    "113053": 4
+                },
+                "unlockMaxLevel": 60,
+                "addProps": {
+                    "FIGHT_PROP_BASE_HP": 1991.48083,
+                    "FIGHT_PROP_BASE_DEFENSE": 100.67175,
+                    "FIGHT_PROP_BASE_ATTACK": 32.17769,
+                    "FIGHT_PROP_HP_PERCENT": 0.12
+                },
+                "requiredPlayerLevel": 30,
+                "coinCost": 60000
+            },
+            {
+                "promoteLevel": 4,
+                "costItems": {
+                    "101235": 30,
+                    "104113": 3,
+                    "112084": 18,
+                    "113053": 8
+                },
+                "unlockMaxLevel": 70,
+                "addProps": {
+                    "FIGHT_PROP_BASE_HP": 2523.85693,
+                    "FIGHT_PROP_BASE_DEFENSE": 127.584,
+                    "FIGHT_PROP_BASE_ATTACK": 40.77965,
+                    "FIGHT_PROP_HP_PERCENT": 0.12
+                },
+                "requiredPlayerLevel": 35,
+                "coinCost": 80000
+            },
+            {
+                "promoteLevel": 5,
+                "costItems": {
+                    "101235": 45,
+                    "104113": 6,
+                    "112085": 12,
+                    "113053": 12
+                },
+                "unlockMaxLevel": 80,
+                "addProps": {
+                    "FIGHT_PROP_BASE_HP": 3056.23291,
+                    "FIGHT_PROP_BASE_DEFENSE": 154.49625,
+                    "FIGHT_PROP_BASE_ATTACK": 49.3816,
+                    "FIGHT_PROP_HP_PERCENT": 0.18
+                },
+                "requiredPlayerLevel": 40,
+                "coinCost": 100000
+            },
+            {
+                "promoteLevel": 6,
+                "costItems": {
+                    "101235": 60,
+                    "104114": 6,
+                    "112085": 24,
+                    "113053": 20
+                },
+                "unlockMaxLevel": 90,
+                "addProps": {
+                    "FIGHT_PROP_BASE_HP": 3588.60913,
+                    "FIGHT_PROP_BASE_DEFENSE": 181.40849,
+                    "FIGHT_PROP_BASE_ATTACK": 57.98356,
+                    "FIGHT_PROP_HP_PERCENT": 0.24
+                },
+                "requiredPlayerLevel": 50,
+                "coinCost": 120000
+            }
+        ]
+    },
+    "other": {
+        "costume": [
+            {
+                "name": "Guardian's Gun",
+                "description": "Chevreuse's outfit. The designers kept the uniform's classic black, white, and red color combination and added a bevy of accessories, but the result proved too heavy, which the captain protested. The final, fit-for-public-consumption version lacked most of those metal decorations.",
+                "isDefault": true
+            }
+        ],
+        "furnitureId": 368176,
+        "nameCard": {
+            "id": 210185,
+            "name": "Chevreuse: Type II",
+            "description": "Namecard style.\\nThe standard issue weapon of the Special Security and Surveillance Patrol is known as the \"Special Security and Surveillance Patrol Type II Standard Musket.\" Yet, though there may be countless flowers in this world, the one you treasure is special, even if it should be known to the world as nothing at all special.",
+            "icon": "UI_NameCardIcon_Chevreuse"
+        },
+        "specialFood": {
+            "id": 108619,
+            "name": "Sin: The Kind that Doesn't Need to be Dealt With",
+            "rank": 3,
+            "effectIcon": "UI_Buff_Item_Def_Add",
+            "icon": "UI_ItemIcon_108619"
+        }
+    },
+    "ascension": {
+        "101235": 1,
+        "104111": 2,
+        "104112": 3,
+        "104113": 4,
+        "104114": 5,
+        "104319": 5,
+        "104344": 2,
+        "104345": 3,
+        "104346": 4,
+        "112083": 1,
+        "112084": 2,
+        "112085": 3,
+        "113053": 4,
+        "113055": 5
+    },
+    "items": {
+        "202": {
+            "name": "Mora",
+            "rank": 3,
+            "icon": "UI_ItemIcon_202"
+        },
+        "101235": {
+            "name": "Lumidouce Bell",
+            "rank": 1,
+            "icon": "UI_ItemIcon_101235"
+        },
+        "104001": {
+            "name": "Wanderer's Advice",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104001"
+        },
+        "104002": {
+            "name": "Adventurer's Experience",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104002"
+        },
+        "104003": {
+            "name": "Hero's Wit",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104003"
+        },
+        "104111": {
+            "name": "Agnidus Agate Sliver",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104111"
+        },
+        "104112": {
+            "name": "Agnidus Agate Fragment",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104112"
+        },
+        "104113": {
+            "name": "Agnidus Agate Chunk",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104113"
+        },
+        "104114": {
+            "name": "Agnidus Agate Gemstone",
+            "rank": 5,
+            "icon": "UI_ItemIcon_104114"
+        },
+        "104319": {
+            "name": "Crown of Insight",
+            "rank": 5,
+            "icon": "UI_ItemIcon_104319"
+        },
+        "104344": {
+            "name": "Teachings of Order",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104344"
+        },
+        "104345": {
+            "name": "Guide to Order",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104345"
+        },
+        "104346": {
+            "name": "Philosophies of Order",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104346"
+        },
+        "112083": {
+            "name": "Meshing Gear",
+            "rank": 1,
+            "icon": "UI_ItemIcon_112083"
+        },
+        "112084": {
+            "name": "Mechanical Spur Gear",
+            "rank": 2,
+            "icon": "UI_ItemIcon_112084"
+        },
+        "112085": {
+            "name": "Artificed Dynamic Gear",
+            "rank": 3,
+            "icon": "UI_ItemIcon_112085"
+        },
+        "113053": {
+            "name": "Fontemer Unihorn",
+            "rank": 4,
+            "icon": "UI_ItemIcon_113053"
+        },
+        "113055": {
+            "name": "Lightless Eye of the Maelstrom",
+            "rank": 5,
+            "icon": "UI_ItemIcon_113055"
+        }
+    },
+    "talent": {
+        "0": {
+            "type": 0,
+            "name": "Normal Attack: Line Bayonet Thrust EX",
+            "description": "<color=#FFD780FF>Normal Attack</color>\\nPerforms up to 4 consecutive spear strikes.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nConsumes a certain amount of Stamina to lunge forward, dealing damage to opponents along the way.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+            "icon": "Skill_A_03",
+            "promote": {
+                "1": {
+                    "level": 1,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}+{param4:F1P}",
+                        "4-Hit DMG|{param5:F1P}",
+                        "Charged Attack DMG|{param6:F1P}",
+                        "Charged Attack Stamina Cost|{param7:F1}",
+                        "Plunge DMG|{param8:F1P}",
+                        "Low/High Plunge DMG|{param9:P}/{param10:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.5313,
+                        0.49311,
+                        0.27645,
+                        0.32453,
+                        0.77262,
+                        1.2169,
+                        25,
+                        0.63932,
+                        1.27838,
+                        1.59676,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "2": {
+                    "level": 2,
+                    "costItems": {
+                        "104344": 3,
+                        "112083": 6
+                    },
+                    "coinCost": 12500,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}+{param4:F1P}",
+                        "4-Hit DMG|{param5:F1P}",
+                        "Charged Attack DMG|{param6:F1P}",
+                        "Charged Attack Stamina Cost|{param7:F1}",
+                        "Plunge DMG|{param8:F1P}",
+                        "Low/High Plunge DMG|{param9:P}/{param10:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.57455,
+                        0.53324,
+                        0.29895,
+                        0.35094,
+                        0.8355,
+                        1.31595,
+                        25,
+                        0.69136,
+                        1.38243,
+                        1.72673,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "3": {
+                    "level": 3,
+                    "costItems": {
+                        "104345": 2,
+                        "112084": 3
+                    },
+                    "coinCost": 17500,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}+{param4:F1P}",
+                        "4-Hit DMG|{param5:F1P}",
+                        "Charged Attack DMG|{param6:F1P}",
+                        "Charged Attack Stamina Cost|{param7:F1}",
+                        "Plunge DMG|{param8:F1P}",
+                        "Low/High Plunge DMG|{param9:P}/{param10:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.61779,
+                        0.57338,
+                        0.32145,
+                        0.37736,
+                        0.89839,
+                        1.415,
+                        25,
+                        0.7434,
+                        1.48649,
+                        1.8567,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "4": {
+                    "level": 4,
+                    "costItems": {
+                        "104345": 4,
+                        "112084": 4
+                    },
+                    "coinCost": 25000,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}+{param4:F1P}",
+                        "4-Hit DMG|{param5:F1P}",
+                        "Charged Attack DMG|{param6:F1P}",
+                        "Charged Attack Stamina Cost|{param7:F1}",
+                        "Plunge DMG|{param8:F1P}",
+                        "Low/High Plunge DMG|{param9:P}/{param10:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.67957,
+                        0.63072,
+                        0.3536,
+                        0.41509,
+                        0.98823,
+                        1.5565,
+                        25,
+                        0.81774,
+                        1.63513,
+                        2.04237,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "5": {
+                    "level": 5,
+                    "costItems": {
+                        "104345": 6,
+                        "112084": 6
+                    },
+                    "coinCost": 30000,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}+{param4:F1P}",
+                        "4-Hit DMG|{param5:F1P}",
+                        "Charged Attack DMG|{param6:F1P}",
+                        "Charged Attack Stamina Cost|{param7:F1}",
+                        "Plunge DMG|{param8:F1P}",
+                        "Low/High Plunge DMG|{param9:P}/{param10:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.72281,
+                        0.67085,
+                        0.3761,
+                        0.44151,
+                        1.05112,
+                        1.65555,
+                        25,
+                        0.86978,
+                        1.73919,
+                        2.17234,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "6": {
+                    "level": 6,
+                    "costItems": {
+                        "104345": 9,
+                        "112084": 9
+                    },
+                    "coinCost": 37500,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}+{param4:F1P}",
+                        "4-Hit DMG|{param5:F1P}",
+                        "Charged Attack DMG|{param6:F1P}",
+                        "Charged Attack Stamina Cost|{param7:F1}",
+                        "Plunge DMG|{param8:F1P}",
+                        "Low/High Plunge DMG|{param9:P}/{param10:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.77224,
+                        0.71672,
+                        0.40182,
+                        0.4717,
+                        1.12299,
+                        1.76875,
+                        25,
+                        0.92925,
+                        1.85811,
+                        2.32087,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "7": {
+                    "level": 7,
+                    "costItems": {
+                        "104346": 4,
+                        "112085": 4,
+                        "113055": 1
+                    },
+                    "coinCost": 120000,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}+{param4:F1P}",
+                        "4-Hit DMG|{param5:F1P}",
+                        "Charged Attack DMG|{param6:F1P}",
+                        "Charged Attack Stamina Cost|{param7:F1}",
+                        "Plunge DMG|{param8:F1P}",
+                        "Low/High Plunge DMG|{param9:P}/{param10:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.84019,
+                        0.7798,
+                        0.43718,
+                        0.51321,
+                        1.22181,
+                        1.9244,
+                        25,
+                        1.01102,
+                        2.02162,
+                        2.52511,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "8": {
+                    "level": 8,
+                    "costItems": {
+                        "104346": 6,
+                        "112085": 6,
+                        "113055": 1
+                    },
+                    "coinCost": 260000,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}+{param4:F1P}",
+                        "4-Hit DMG|{param5:F1P}",
+                        "Charged Attack DMG|{param6:F1P}",
+                        "Charged Attack Stamina Cost|{param7:F1}",
+                        "Plunge DMG|{param8:F1P}",
+                        "Low/High Plunge DMG|{param9:P}/{param10:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.90815,
+                        0.84287,
+                        0.47254,
+                        0.55471,
+                        1.32063,
+                        2.08005,
+                        25,
+                        1.0928,
+                        2.18513,
+                        2.72935,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "9": {
+                    "level": 9,
+                    "costItems": {
+                        "104346": 12,
+                        "112085": 9,
+                        "113055": 2
+                    },
+                    "coinCost": 450000,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}+{param4:F1P}",
+                        "4-Hit DMG|{param5:F1P}",
+                        "Charged Attack DMG|{param6:F1P}",
+                        "Charged Attack Stamina Cost|{param7:F1}",
+                        "Plunge DMG|{param8:F1P}",
+                        "Low/High Plunge DMG|{param9:P}/{param10:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.97611,
+                        0.90594,
+                        0.50789,
+                        0.59623,
+                        1.41946,
+                        2.2357,
+                        25,
+                        1.17457,
+                        2.34865,
+                        2.93359,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "10": {
+                    "level": 10,
+                    "costItems": {
+                        "104319": 1,
+                        "104346": 16,
+                        "112085": 12,
+                        "113055": 2
+                    },
+                    "coinCost": 700000,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}+{param4:F1P}",
+                        "4-Hit DMG|{param5:F1P}",
+                        "Charged Attack DMG|{param6:F1P}",
+                        "Charged Attack Stamina Cost|{param7:F1}",
+                        "Plunge DMG|{param8:F1P}",
+                        "Low/High Plunge DMG|{param9:P}/{param10:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.05024,
+                        0.97475,
+                        0.54647,
+                        0.64151,
+                        1.52726,
+                        2.4055,
+                        25,
+                        1.26378,
+                        2.52702,
+                        3.15639,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "11": {
+                    "level": 11,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}+{param4:F1P}",
+                        "4-Hit DMG|{param5:F1P}",
+                        "Charged Attack DMG|{param6:F1P}",
+                        "Charged Attack Stamina Cost|{param7:F1}",
+                        "Plunge DMG|{param8:F1P}",
+                        "Low/High Plunge DMG|{param9:P}/{param10:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.12438,
+                        1.04355,
+                        0.58504,
+                        0.68679,
+                        1.63507,
+                        2.5753,
+                        25,
+                        1.35299,
+                        2.7054,
+                        3.37919,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "12": {
+                    "level": 12,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}+{param4:F1P}",
+                        "4-Hit DMG|{param5:F1P}",
+                        "Charged Attack DMG|{param6:F1P}",
+                        "Charged Attack Stamina Cost|{param7:F1}",
+                        "Plunge DMG|{param8:F1P}",
+                        "Low/High Plunge DMG|{param9:P}/{param10:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.19851,
+                        1.11236,
+                        0.62362,
+                        0.73207,
+                        1.74288,
+                        2.7451,
+                        25,
+                        1.4422,
+                        2.88378,
+                        3.602,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "13": {
+                    "level": 13,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}+{param4:F1P}",
+                        "4-Hit DMG|{param5:F1P}",
+                        "Charged Attack DMG|{param6:F1P}",
+                        "Charged Attack Stamina Cost|{param7:F1}",
+                        "Plunge DMG|{param8:F1P}",
+                        "Low/High Plunge DMG|{param9:P}/{param10:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.27265,
+                        1.18116,
+                        0.66219,
+                        0.77736,
+                        1.85068,
+                        2.9149,
+                        25,
+                        1.5314,
+                        3.06216,
+                        3.8248,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "14": {
+                    "level": 14,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}+{param4:F1P}",
+                        "4-Hit DMG|{param5:F1P}",
+                        "Charged Attack DMG|{param6:F1P}",
+                        "Charged Attack Stamina Cost|{param7:F1}",
+                        "Plunge DMG|{param8:F1P}",
+                        "Low/High Plunge DMG|{param9:P}/{param10:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.34678,
+                        1.24997,
+                        0.70077,
+                        0.82264,
+                        1.95849,
+                        3.0847,
+                        25,
+                        1.62061,
+                        3.24054,
+                        4.04761,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "15": {
+                    "level": 15,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}+{param4:F1P}",
+                        "4-Hit DMG|{param5:F1P}",
+                        "Charged Attack DMG|{param6:F1P}",
+                        "Charged Attack Stamina Cost|{param7:F1}",
+                        "Plunge DMG|{param8:F1P}",
+                        "Low/High Plunge DMG|{param9:P}/{param10:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.42092,
+                        1.31877,
+                        0.73934,
+                        0.86792,
+                        2.0663,
+                        3.2545,
+                        25,
+                        1.70982,
+                        3.41892,
+                        4.27041,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            "cooldown": 0,
+            "cost": 0,
+            "linkedConstellations": null,
+            "advancedProps": [
+                {
+                    "name": "Normal Attack 1-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": "5",
+                            "text": "Normal Attack"
+                        },
+                        "type": {
+                            "span": "5",
+                            "text": "2.5s/3 Hits"
+                        }
+                    },
+                    "interruptionResistance": "49.423",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 2-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "45.87",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 3-Hit A",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "25.716",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 3-Hit B",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "30.189",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 4-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "71.871",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "655",
+                        "verticalForce": "800"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Charged Attack",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": null,
+                            "text": "Charged Attack"
+                        },
+                        "type": {
+                            "span": null,
+                            "text": "0.5s"
+                        }
+                    },
+                    "interruptionResistance": "120",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "480",
+                        "verticalForce": "600"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Plunging Attack Collision",
+                    "elementalGaugeTheory": "0U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "25",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Low Plunge",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "100",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "800",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": true
+                },
+                {
+                    "name": "High Plunge",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "150",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "0",
+                        "verticalForce": "800"
+                    },
+                    "bluntAttack": true
+                }
+            ]
+        },
+        "1": {
+            "type": 0,
+            "name": "Short-Range Rapid Interdiction Fire",
+            "description": "Chevreuse quickly shoulders her musket and fires at her opponent(s), dealing <color=#FF9999FF>AoE Pyro DMG</color>.\\nFor a short duration after Chevreuse fires a shot, she will continuously restore HP to your active character on the field. The amount healed is based on her Max HP.\\nHold to fire in a different fashion.\\n\\n<color=#FFD780FF>Hold</color>\\nEnter Aiming Mode, locking a target in her sights to fire a precise interdiction shot. If Chevreuse has an Overcharged Ball, then she will fire the Overcharged Ball instead, dealing greater <color=#FF9999FF>Pyro DMG</color> in a larger area.\\nChevreuse gains 1 Overcharged Ball every time a nearby character in the party triggers an Overloaded reaction, and can have up to 1 Overcharged Ball at a time.\\n\\n<color=#FFD780FF>Arkhe: Ousia</color>\\nPeriodically, after Chevreuse's Short-Range Rapid Interdiction Fire hits, a Surging Blade will be called forth that deals Ousia-aligned <color=#FF9999FF>Pyro DMG</color>.\\n\\n<i>\"Actually, training regulations only had the phrase \"interdiction fire,\" but the protagonist of this novel believes that even how stylish your terminology is can affect how motivated your troops are, which can put your opponents on the back foot right from the get-go... I think that's a good point, so I changed the regulations!\"</i>",
+            "icon": "Skill_S_Chevreuse_01",
+            "promote": {
+                "1": {
+                    "level": 1,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:F1P}",
+                        "Hold DMG|{param2:F1P}",
+                        "Overcharged Ball DMG|{param3:F1P}",
+                        "HP Regeneration Over Time|{param5:F2P} Max HP+{param6:I}",
+                        "Healing Duration|{param4:F1}s",
+                        "Surging Blade DMG|{param7:F1P}",
+                        "Surging Blade Interval|{param8:F1}s",
+                        "CD|{param9:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.152,
+                        1.728,
+                        2.824,
+                        12,
+                        0.02667,
+                        256.79184,
+                        0.288,
+                        10,
+                        15,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "2": {
+                    "level": 2,
+                    "costItems": {
+                        "104344": 3,
+                        "112083": 6
+                    },
+                    "coinCost": 12500,
+                    "description": [
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:F1P}",
+                        "Hold DMG|{param2:F1P}",
+                        "Overcharged Ball DMG|{param3:F1P}",
+                        "HP Regeneration Over Time|{param5:F2P} Max HP+{param6:I}",
+                        "Healing Duration|{param4:F1}s",
+                        "Surging Blade DMG|{param7:F1P}",
+                        "Surging Blade Interval|{param8:F1}s",
+                        "CD|{param9:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.2384,
+                        1.8576,
+                        3.0358,
+                        12,
+                        0.02867,
+                        282.47458,
+                        0.3096,
+                        10,
+                        15,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "3": {
+                    "level": 3,
+                    "costItems": {
+                        "104345": 2,
+                        "112084": 3
+                    },
+                    "coinCost": 17500,
+                    "description": [
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:F1P}",
+                        "Hold DMG|{param2:F1P}",
+                        "Overcharged Ball DMG|{param3:F1P}",
+                        "HP Regeneration Over Time|{param5:F2P} Max HP+{param6:I}",
+                        "Healing Duration|{param4:F1}s",
+                        "Surging Blade DMG|{param7:F1P}",
+                        "Surging Blade Interval|{param8:F1}s",
+                        "CD|{param9:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.3248,
+                        1.9872,
+                        3.2476,
+                        12,
+                        0.03067,
+                        310.29758,
+                        0.3312,
+                        10,
+                        15,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "4": {
+                    "level": 4,
+                    "costItems": {
+                        "104345": 4,
+                        "112084": 4
+                    },
+                    "coinCost": 25000,
+                    "description": [
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:F1P}",
+                        "Hold DMG|{param2:F1P}",
+                        "Overcharged Ball DMG|{param3:F1P}",
+                        "HP Regeneration Over Time|{param5:F2P} Max HP+{param6:I}",
+                        "Healing Duration|{param4:F1}s",
+                        "Surging Blade DMG|{param7:F1P}",
+                        "Surging Blade Interval|{param8:F1}s",
+                        "CD|{param9:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.44,
+                        2.16,
+                        3.53,
+                        12,
+                        0.03333,
+                        340.26077,
+                        0.36,
+                        10,
+                        15,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "5": {
+                    "level": 5,
+                    "costItems": {
+                        "104345": 6,
+                        "112084": 6
+                    },
+                    "coinCost": 30000,
+                    "description": [
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:F1P}",
+                        "Hold DMG|{param2:F1P}",
+                        "Overcharged Ball DMG|{param3:F1P}",
+                        "HP Regeneration Over Time|{param5:F2P} Max HP+{param6:I}",
+                        "Healing Duration|{param4:F1}s",
+                        "Surging Blade DMG|{param7:F1P}",
+                        "Surging Blade Interval|{param8:F1}s",
+                        "CD|{param9:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.5264,
+                        2.2896,
+                        3.7418,
+                        12,
+                        0.03533,
+                        372.36423,
+                        0.3816,
+                        10,
+                        15,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "6": {
+                    "level": 6,
+                    "costItems": {
+                        "104345": 9,
+                        "112084": 9
+                    },
+                    "coinCost": 37500,
+                    "description": [
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:F1P}",
+                        "Hold DMG|{param2:F1P}",
+                        "Overcharged Ball DMG|{param3:F1P}",
+                        "HP Regeneration Over Time|{param5:F2P} Max HP+{param6:I}",
+                        "Healing Duration|{param4:F1}s",
+                        "Surging Blade DMG|{param7:F1P}",
+                        "Surging Blade Interval|{param8:F1}s",
+                        "CD|{param9:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.6128,
+                        2.4192,
+                        3.9536,
+                        12,
+                        0.03733,
+                        406.60788,
+                        0.4032,
+                        10,
+                        15,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "7": {
+                    "level": 7,
+                    "costItems": {
+                        "104346": 4,
+                        "112085": 4,
+                        "113055": 1
+                    },
+                    "coinCost": 120000,
+                    "description": [
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:F1P}",
+                        "Hold DMG|{param2:F1P}",
+                        "Overcharged Ball DMG|{param3:F1P}",
+                        "HP Regeneration Over Time|{param5:F2P} Max HP+{param6:I}",
+                        "Healing Duration|{param4:F1}s",
+                        "Surging Blade DMG|{param7:F1P}",
+                        "Surging Blade Interval|{param8:F1}s",
+                        "CD|{param9:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.728,
+                        2.592,
+                        4.236,
+                        12,
+                        0.04,
+                        442.99179,
+                        0.432,
+                        10,
+                        15,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "8": {
+                    "level": 8,
+                    "costItems": {
+                        "104346": 6,
+                        "112085": 6,
+                        "113055": 1
+                    },
+                    "coinCost": 260000,
+                    "description": [
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:F1P}",
+                        "Hold DMG|{param2:F1P}",
+                        "Overcharged Ball DMG|{param3:F1P}",
+                        "HP Regeneration Over Time|{param5:F2P} Max HP+{param6:I}",
+                        "Healing Duration|{param4:F1}s",
+                        "Surging Blade DMG|{param7:F1P}",
+                        "Surging Blade Interval|{param8:F1}s",
+                        "CD|{param9:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.8432,
+                        2.7648,
+                        4.5184,
+                        12,
+                        0.04267,
+                        481.51593,
+                        0.4608,
+                        10,
+                        15,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "9": {
+                    "level": 9,
+                    "costItems": {
+                        "104346": 12,
+                        "112085": 9,
+                        "113055": 2
+                    },
+                    "coinCost": 450000,
+                    "description": [
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:F1P}",
+                        "Hold DMG|{param2:F1P}",
+                        "Overcharged Ball DMG|{param3:F1P}",
+                        "HP Regeneration Over Time|{param5:F2P} Max HP+{param6:I}",
+                        "Healing Duration|{param4:F1}s",
+                        "Surging Blade DMG|{param7:F1P}",
+                        "Surging Blade Interval|{param8:F1}s",
+                        "CD|{param9:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.9584,
+                        2.9376,
+                        4.8008,
+                        12,
+                        0.04533,
+                        522.1803,
+                        0.4896,
+                        10,
+                        15,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "10": {
+                    "level": 10,
+                    "costItems": {
+                        "104319": 1,
+                        "104346": 16,
+                        "112085": 12,
+                        "113055": 2
+                    },
+                    "coinCost": 700000,
+                    "description": [
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:F1P}",
+                        "Hold DMG|{param2:F1P}",
+                        "Overcharged Ball DMG|{param3:F1P}",
+                        "HP Regeneration Over Time|{param5:F2P} Max HP+{param6:I}",
+                        "Healing Duration|{param4:F1}s",
+                        "Surging Blade DMG|{param7:F1P}",
+                        "Surging Blade Interval|{param8:F1}s",
+                        "CD|{param9:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        2.0736,
+                        3.1104,
+                        5.0832,
+                        12,
+                        0.048,
+                        564.98486,
+                        0.5184,
+                        10,
+                        15,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "11": {
+                    "level": 11,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:F1P}",
+                        "Hold DMG|{param2:F1P}",
+                        "Overcharged Ball DMG|{param3:F1P}",
+                        "HP Regeneration Over Time|{param5:F2P} Max HP+{param6:I}",
+                        "Healing Duration|{param4:F1}s",
+                        "Surging Blade DMG|{param7:F1P}",
+                        "Surging Blade Interval|{param8:F1}s",
+                        "CD|{param9:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        2.1888,
+                        3.2832,
+                        5.3656,
+                        12,
+                        0.05067,
+                        609.92969,
+                        0.5472,
+                        10,
+                        15,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "12": {
+                    "level": 12,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:F1P}",
+                        "Hold DMG|{param2:F1P}",
+                        "Overcharged Ball DMG|{param3:F1P}",
+                        "HP Regeneration Over Time|{param5:F2P} Max HP+{param6:I}",
+                        "Healing Duration|{param4:F1}s",
+                        "Surging Blade DMG|{param7:F1P}",
+                        "Surging Blade Interval|{param8:F1}s",
+                        "CD|{param9:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        2.304,
+                        3.456,
+                        5.648,
+                        12,
+                        0.05333,
+                        657.01471,
+                        0.576,
+                        10,
+                        15,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "13": {
+                    "level": 13,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:F1P}",
+                        "Hold DMG|{param2:F1P}",
+                        "Overcharged Ball DMG|{param3:F1P}",
+                        "HP Regeneration Over Time|{param5:F2P} Max HP+{param6:I}",
+                        "Healing Duration|{param4:F1}s",
+                        "Surging Blade DMG|{param7:F1P}",
+                        "Surging Blade Interval|{param8:F1}s",
+                        "CD|{param9:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        2.448,
+                        3.672,
+                        6.001,
+                        12,
+                        0.05667,
+                        706.23999,
+                        0.612,
+                        10,
+                        15,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "14": {
+                    "level": 14,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:F1P}",
+                        "Hold DMG|{param2:F1P}",
+                        "Overcharged Ball DMG|{param3:F1P}",
+                        "HP Regeneration Over Time|{param5:F2P} Max HP+{param6:I}",
+                        "Healing Duration|{param4:F1}s",
+                        "Surging Blade DMG|{param7:F1P}",
+                        "Surging Blade Interval|{param8:F1}s",
+                        "CD|{param9:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        2.592,
+                        3.888,
+                        6.354,
+                        12,
+                        0.06,
+                        757.60553,
+                        0.648,
+                        10,
+                        15,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "15": {
+                    "level": 15,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:F1P}",
+                        "Hold DMG|{param2:F1P}",
+                        "Overcharged Ball DMG|{param3:F1P}",
+                        "HP Regeneration Over Time|{param5:F2P} Max HP+{param6:I}",
+                        "Healing Duration|{param4:F1}s",
+                        "Surging Blade DMG|{param7:F1P}",
+                        "Surging Blade Interval|{param8:F1}s",
+                        "CD|{param9:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        2.736,
+                        4.104,
+                        6.707,
+                        12,
+                        0.06333,
+                        811.11127,
+                        0.684,
+                        10,
+                        15,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            "cooldown": 15,
+            "cost": 0,
+            "linkedConstellations": {
+                "isLevelIncluded": true,
+                "prop": [
+                    {
+                        "id": 1,
+                        "type": "normal"
+                    },
+                    {
+                        "id": 2,
+                        "type": "level"
+                    },
+                    {
+                        "id": 3,
+                        "type": "normal"
+                    },
+                    {
+                        "id": 5,
+                        "type": "normal"
+                    }
+                ]
+            },
+            "advancedProps": [
+                {
+                    "name": "Press DMG",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "50",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Hold DMG",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "75",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Overcharged Ball DMG",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "125",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "480",
+                        "verticalForce": "600"
+                    },
+                    "bluntAttack": true
+                },
+                {
+                    "name": "Surging Blade DMG",
+                    "elementalGaugeTheory": "0U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "20",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "C2 Chain Explosion",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": null,
+                            "text": "C2"
+                        },
+                        "type": {
+                            "span": null,
+                            "text": "2.5s/3 Hits"
+                        }
+                    },
+                    "interruptionResistance": "25",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "480",
+                        "verticalForce": "600"
+                    },
+                    "bluntAttack": true
+                }
+            ]
+        },
+        "3": {
+            "type": 1,
+            "name": "Ring of Bursting Grenades",
+            "description": "Chevreuse fires an explosive grenade at opponents with her musket, dealing <color=#FF9999FF>AoE Pyro DMG.</color> After the projectile hits, it will split into many secondary explosive shells.\\nThe secondary explosive shells will burst after a short interval, dealing <color=#FF9999FF>Pyro DMG</color> to nearby opponents.\\n\\n<i>\"Theoretically, a rectangular blast would be most efficient at destroying enemy formations. Unfortunately, the cross-section of an explosive shock wave is round, like most cakes. So, the secondary explosive shells can only be arranged like the fruit on a cake, forming a ring around the edge.\"</i>",
+            "icon": "Skill_E_Chevreuse_01",
+            "promote": {
+                "1": {
+                    "level": 1,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Explosive Grenade DMG|{param1:F1P}",
+                        "Secondary Explosive Shell DMG|{param2:F1P}",
+                        "CD|{param3:F1}s",
+                        "Energy Cost|{param4:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        3.6816,
+                        0.49088,
+                        15,
+                        60,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "2": {
+                    "level": 2,
+                    "costItems": {
+                        "104344": 3,
+                        "112083": 6
+                    },
+                    "coinCost": 12500,
+                    "description": [
+                        "Explosive Grenade DMG|{param1:F1P}",
+                        "Secondary Explosive Shell DMG|{param2:F1P}",
+                        "CD|{param3:F1}s",
+                        "Energy Cost|{param4:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        3.95772,
+                        0.5277,
+                        15,
+                        60,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "3": {
+                    "level": 3,
+                    "costItems": {
+                        "104345": 2,
+                        "112084": 3
+                    },
+                    "coinCost": 17500,
+                    "description": [
+                        "Explosive Grenade DMG|{param1:F1P}",
+                        "Secondary Explosive Shell DMG|{param2:F1P}",
+                        "CD|{param3:F1}s",
+                        "Energy Cost|{param4:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        4.23384,
+                        0.56451,
+                        15,
+                        60,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "4": {
+                    "level": 4,
+                    "costItems": {
+                        "104345": 4,
+                        "112084": 4
+                    },
+                    "coinCost": 25000,
+                    "description": [
+                        "Explosive Grenade DMG|{param1:F1P}",
+                        "Secondary Explosive Shell DMG|{param2:F1P}",
+                        "CD|{param3:F1}s",
+                        "Energy Cost|{param4:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        4.602,
+                        0.6136,
+                        15,
+                        60,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "5": {
+                    "level": 5,
+                    "costItems": {
+                        "104345": 6,
+                        "112084": 6
+                    },
+                    "coinCost": 30000,
+                    "description": [
+                        "Explosive Grenade DMG|{param1:F1P}",
+                        "Secondary Explosive Shell DMG|{param2:F1P}",
+                        "CD|{param3:F1}s",
+                        "Energy Cost|{param4:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        4.87812,
+                        0.65042,
+                        15,
+                        60,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "6": {
+                    "level": 6,
+                    "costItems": {
+                        "104345": 9,
+                        "112084": 9
+                    },
+                    "coinCost": 37500,
+                    "description": [
+                        "Explosive Grenade DMG|{param1:F1P}",
+                        "Secondary Explosive Shell DMG|{param2:F1P}",
+                        "CD|{param3:F1}s",
+                        "Energy Cost|{param4:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        5.15424,
+                        0.68723,
+                        15,
+                        60,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "7": {
+                    "level": 7,
+                    "costItems": {
+                        "104346": 4,
+                        "112085": 4,
+                        "113055": 1
+                    },
+                    "coinCost": 120000,
+                    "description": [
+                        "Explosive Grenade DMG|{param1:F1P}",
+                        "Secondary Explosive Shell DMG|{param2:F1P}",
+                        "CD|{param3:F1}s",
+                        "Energy Cost|{param4:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        5.5224,
+                        0.73632,
+                        15,
+                        60,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "8": {
+                    "level": 8,
+                    "costItems": {
+                        "104346": 6,
+                        "112085": 6,
+                        "113055": 1
+                    },
+                    "coinCost": 260000,
+                    "description": [
+                        "Explosive Grenade DMG|{param1:F1P}",
+                        "Secondary Explosive Shell DMG|{param2:F1P}",
+                        "CD|{param3:F1}s",
+                        "Energy Cost|{param4:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        5.89056,
+                        0.78541,
+                        15,
+                        60,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "9": {
+                    "level": 9,
+                    "costItems": {
+                        "104346": 12,
+                        "112085": 9,
+                        "113055": 2
+                    },
+                    "coinCost": 450000,
+                    "description": [
+                        "Explosive Grenade DMG|{param1:F1P}",
+                        "Secondary Explosive Shell DMG|{param2:F1P}",
+                        "CD|{param3:F1}s",
+                        "Energy Cost|{param4:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        6.25872,
+                        0.8345,
+                        15,
+                        60,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "10": {
+                    "level": 10,
+                    "costItems": {
+                        "104319": 1,
+                        "104346": 16,
+                        "112085": 12,
+                        "113055": 2
+                    },
+                    "coinCost": 700000,
+                    "description": [
+                        "Explosive Grenade DMG|{param1:F1P}",
+                        "Secondary Explosive Shell DMG|{param2:F1P}",
+                        "CD|{param3:F1}s",
+                        "Energy Cost|{param4:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        6.62688,
+                        0.88358,
+                        15,
+                        60,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "11": {
+                    "level": 11,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Explosive Grenade DMG|{param1:F1P}",
+                        "Secondary Explosive Shell DMG|{param2:F1P}",
+                        "CD|{param3:F1}s",
+                        "Energy Cost|{param4:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        6.99504,
+                        0.93267,
+                        15,
+                        60,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "12": {
+                    "level": 12,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Explosive Grenade DMG|{param1:F1P}",
+                        "Secondary Explosive Shell DMG|{param2:F1P}",
+                        "CD|{param3:F1}s",
+                        "Energy Cost|{param4:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        7.3632,
+                        0.98176,
+                        15,
+                        60,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "13": {
+                    "level": 13,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Explosive Grenade DMG|{param1:F1P}",
+                        "Secondary Explosive Shell DMG|{param2:F1P}",
+                        "CD|{param3:F1}s",
+                        "Energy Cost|{param4:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        7.8234,
+                        1.04312,
+                        15,
+                        60,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "14": {
+                    "level": 14,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Explosive Grenade DMG|{param1:F1P}",
+                        "Secondary Explosive Shell DMG|{param2:F1P}",
+                        "CD|{param3:F1}s",
+                        "Energy Cost|{param4:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        8.2836,
+                        1.10448,
+                        15,
+                        60,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "15": {
+                    "level": 15,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Explosive Grenade DMG|{param1:F1P}",
+                        "Secondary Explosive Shell DMG|{param2:F1P}",
+                        "CD|{param3:F1}s",
+                        "Energy Cost|{param4:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        8.7438,
+                        1.16584,
+                        15,
+                        60,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            "cooldown": 15,
+            "cost": 60,
+            "linkedConstellations": {
+                "isLevelIncluded": true,
+                "prop": [
+                    {
+                        "id": 3,
+                        "type": "normal"
+                    },
+                    {
+                        "id": 4,
+                        "type": "level"
+                    }
+                ]
+            },
+            "advancedProps": [
+                {
+                    "name": "Explosive Grenade DMG",
+                    "elementalGaugeTheory": "2U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "100",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": true
+                },
+                {
+                    "name": "Secondary Explosive Shell DMG",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": null,
+                            "text": "Elemental Burst"
+                        },
+                        "type": {
+                            "span": null,
+                            "text": "3s/1st, 4th Hits Apply Element"
+                        }
+                    },
+                    "interruptionResistance": "25",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "480",
+                        "verticalForce": "600"
+                    },
+                    "bluntAttack": true
+                }
+            ]
+        },
+        "4": {
+            "type": 2,
+            "name": "Vanguard's Coordinated Tactics",
+            "description": "When all party members are <color=#FF9999FF>Pyro</color> and <color=#FFACFFFF>Electro</color> characters and there is at least one Pyro and one Electro character each in the party:\\nChevreuse grants \"Coordinated Tactics\" to nearby party members: After a character triggers the Overloaded reaction, the <color=#FF9999FF>Pyro</color> and <color=#FFACFFFF>Electro</color> RES of the opponent(s) affected by this Overloaded reaction will be decreased by 40% for 6s.\\nThe \"Coordinated Tactics\" effect will be removed when the Elemental Types of the characters in the party do not meet the basic requirements for the Passive Talent.",
+            "icon": "UI_Talent_S_Chevreuse_05",
+            "linkedConstellations": {
+                "isLevelIncluded": false,
+                "prop": [
+                    {
+                        "id": 0,
+                        "type": "normal"
+                    }
+                ]
+            }
+        },
+        "5": {
+            "type": 2,
+            "name": "Vertical Force Coordination",
+            "description": "After Chevreuse fires an Overcharged Ball using <color=#FFD780FF>Short-Range Rapid Interdiction Fire</color>, nearby <color=#FF9999FF>Pyro</color> and <color=#FFACFFFF>Electro</color> characters in the party gain 1% increased ATK for every 1,000 Max HP Chevreuse has for 30s. ATK can be increased by up to 40% in this way.",
+            "icon": "UI_Talent_S_Chevreuse_06",
+            "linkedConstellations": null
+        },
+        "6": {
+            "type": 2,
+            "name": "Double Time March",
+            "description": "Decreases sprinting Stamina consumption for your own party members by 20%.\\nNot stackable with Passive Talents that provide the exact same effects.",
+            "icon": "UI_Talent_Explosion_Sprint",
+            "linkedConstellations": null
+        }
+    },
+    "constellation": {
+        "0": {
+            "id": 0,
+            "name": "Stable Front Line's Resolve",
+            "description": "When the active character with the \"Coordinated Tactics\" status (not including Chevreuse herself) triggers the Overloaded reaction, they will recover 6 Energy. This effect can be triggered once every 10s.\\nYou must first unlock the Passive Talent \"Vanguard's Coordinated Tactics.\"",
+            "extraData": null,
+            "icon": "UI_Talent_S_Chevreuse_01"
+        },
+        "1": {
+            "id": 1,
+            "name": "Sniper Induced Explosion",
+            "description": "After Holding <color=#FFD780FF>Short-Range Rapid Interdiction Fire</color> and hitting a target, 2 chain explosions will be triggered near the location where said target is hit. Each explosion deals <color=#FF9999FF>Pyro DMG</color> equal to 120% of Chevreuse's ATK. This effect can be triggered up to once every 10s, and DMG dealt this way is considered Elemental Skill DMG.",
+            "extraData": null,
+            "icon": "UI_Talent_S_Chevreuse_02",
+            "advancedProps": [
+                {
+                    "name": "Chain Explosion",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": null,
+                            "text": "C2"
+                        },
+                        "type": {
+                            "span": null,
+                            "text": "2.5s/3 Hits"
+                        }
+                    },
+                    "interruptionResistance": "25",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "480",
+                        "verticalForce": "600"
+                    },
+                    "bluntAttack": true
+                }
+            ]
+        },
+        "2": {
+            "id": 2,
+            "name": "Practiced Field Stripping Technique",
+            "description": "Increases the Level of <color=#FFD780FF>Short-Range Rapid Interdiction Fire</color> by 3.\\nMaximum upgrade level is 15.",
+            "extraData": {
+                "addTalentExtraLevel": {
+                    "talentType": "AvatarSkill",
+                    "talentIndex": 2,
+                    "extraLevel": 3
+                }
+            },
+            "icon": "UI_Talent_U_Chevreuse_01"
+        },
+        "3": {
+            "id": 3,
+            "name": "The Secret to Rapid-Fire Multishots",
+            "description": "After using <color=#FFD780FF>Ring of Bursting Grenades</color>, the Hold mode of <color=#FFD780FF>Short-Range Rapid Interdiction Fire</color> will not go on cooldown when Chevreuse uses it. This effect is removed after Short-Range Rapid Interdiction Fire has been fired twice using Hold or after 6s.",
+            "extraData": null,
+            "icon": "UI_Talent_S_Chevreuse_03"
+        },
+        "4": {
+            "id": 4,
+            "name": "Enhanced Incendiary Firepower",
+            "description": "Increases the Level of <color=#FFD780FF>Ring of Bursting Grenades</color> by 3.\\nMaximum upgrade level is 15.",
+            "extraData": {
+                "addTalentExtraLevel": {
+                    "talentType": "AvatarSkill",
+                    "talentIndex": 9,
+                    "extraLevel": 3
+                }
+            },
+            "icon": "UI_Talent_U_Chevreuse_02"
+        },
+        "5": {
+            "id": 5,
+            "name": "In Pursuit of Ending Evil",
+            "description": "After 12s of the healing effect from <color=#FFD780FF>Short-Range Rapid Interdiction Fire</color>, all nearby party members recover HP equivalent to 10% of Chevreuse's Max HP once.\\nAfter a party member is healed by Short-Range Rapid Interdiction Fire, they gain a 20% <color=#FF9999FF>Pyro DMG Bonus</color> and <color=#FFACFFFF>Electro DMG Bonus</color> for 8s. Max 3 stacks. Each stack's duration is counted independently.",
+            "extraData": null,
+            "icon": "UI_Talent_S_Chevreuse_04"
+        }
+    },
+    "_id": 10000090
+}

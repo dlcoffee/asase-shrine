@@ -7,6 +7,17 @@
 - [Enka.Network](https://api.enka.network/#/) - for getting player info
 - [Project Amber](https://ambr.top) - for retrieving game data and images
 
+### Updating game data
+
+Find the missing ids and add them to `import-data.js`. Then run
+
+```sh
+npm run import-data
+```
+
+This stores data in the `data/` directory. Next, add the new characters
+in `avatars.ts` so that they can be displayed in the app.
+
 ## Development
 
 You will be utilizing Wrangler for local development to emulate the Cloudflare runtime. This is already wired up in your package.json as the `dev` script:

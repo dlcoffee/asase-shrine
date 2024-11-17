@@ -1,0 +1,2756 @@
+{
+    "id": "wriothesley",
+    "rank": 5,
+    "name": "Wriothesley",
+    "element": "Ice",
+    "weaponType": "WEAPON_CATALYST",
+    "region": "FONTAINE",
+    "specialProp": "FIGHT_PROP_CRITICAL_HURT",
+    "bodyType": "MALE",
+    "icon": "UI_AvatarIcon_Wriothesley",
+    "birthday": [
+        11,
+        23
+    ],
+    "release": 1697554800,
+    "route": "Wriothesley",
+    "fetter": {
+        "title": "Emissary of Solitary Iniquity",
+        "detail": "Duke of the Fortress of Meropide, Lord Incognito of the murky depths.",
+        "constellation": "Cerberus",
+        "native": "Fortress of Meropide",
+        "cv": {
+            "EN": "Joe Zieja",
+            "CHS": "刘北辰",
+            "JP": "小野大輔",
+            "KR": "Kwon Chang-wook"
+        }
+    },
+    "upgrade": {
+        "prop": [
+            {
+                "propType": "FIGHT_PROP_BASE_HP",
+                "initValue": 1058.18518,
+                "type": "GROW_CURVE_HP_S5"
+            },
+            {
+                "propType": "FIGHT_PROP_BASE_ATTACK",
+                "initValue": 24.206,
+                "type": "GROW_CURVE_ATTACK_S5"
+            },
+            {
+                "propType": "FIGHT_PROP_BASE_DEFENSE",
+                "initValue": 59.41119,
+                "type": "GROW_CURVE_HP_S5"
+            }
+        ],
+        "promote": [
+            {
+                "unlockMaxLevel": 20,
+                "promoteLevel": 0
+            },
+            {
+                "promoteLevel": 1,
+                "costItems": {
+                    "101239": 3,
+                    "104161": 1,
+                    "112083": 3
+                },
+                "unlockMaxLevel": 40,
+                "addProps": {
+                    "FIGHT_PROP_BASE_HP": 907.29816,
+                    "FIGHT_PROP_BASE_DEFENSE": 50.9409,
+                    "FIGHT_PROP_BASE_ATTACK": 20.75294,
+                    "FIGHT_PROP_CRITICAL_HURT": 0
+                },
+                "requiredPlayerLevel": 15,
+                "coinCost": 20000
+            },
+            {
+                "promoteLevel": 2,
+                "costItems": {
+                    "101239": 10,
+                    "104162": 3,
+                    "112083": 15,
+                    "113052": 2
+                },
+                "unlockMaxLevel": 50,
+                "addProps": {
+                    "FIGHT_PROP_BASE_HP": 1551.95728,
+                    "FIGHT_PROP_BASE_DEFENSE": 87.13575,
+                    "FIGHT_PROP_BASE_ATTACK": 35.49845,
+                    "FIGHT_PROP_CRITICAL_HURT": 0.096
+                },
+                "requiredPlayerLevel": 25,
+                "coinCost": 40000
+            },
+            {
+                "promoteLevel": 3,
+                "costItems": {
+                    "101239": 20,
+                    "104162": 6,
+                    "112084": 12,
+                    "113052": 4
+                },
+                "unlockMaxLevel": 60,
+                "addProps": {
+                    "FIGHT_PROP_BASE_HP": 2411.50293,
+                    "FIGHT_PROP_BASE_DEFENSE": 135.39555,
+                    "FIGHT_PROP_BASE_ATTACK": 55.15913,
+                    "FIGHT_PROP_CRITICAL_HURT": 0.192
+                },
+                "requiredPlayerLevel": 30,
+                "coinCost": 60000
+            },
+            {
+                "promoteLevel": 4,
+                "costItems": {
+                    "101239": 30,
+                    "104163": 3,
+                    "112084": 18,
+                    "113052": 8
+                },
+                "unlockMaxLevel": 70,
+                "addProps": {
+                    "FIGHT_PROP_BASE_HP": 3056.16211,
+                    "FIGHT_PROP_BASE_DEFENSE": 171.59039,
+                    "FIGHT_PROP_BASE_ATTACK": 69.90464,
+                    "FIGHT_PROP_CRITICAL_HURT": 0.192
+                },
+                "requiredPlayerLevel": 35,
+                "coinCost": 80000
+            },
+            {
+                "promoteLevel": 5,
+                "costItems": {
+                    "101239": 45,
+                    "104163": 6,
+                    "112085": 12,
+                    "113052": 12
+                },
+                "unlockMaxLevel": 80,
+                "addProps": {
+                    "FIGHT_PROP_BASE_HP": 3700.82129,
+                    "FIGHT_PROP_BASE_DEFENSE": 207.78525,
+                    "FIGHT_PROP_BASE_ATTACK": 84.65015,
+                    "FIGHT_PROP_CRITICAL_HURT": 0.288
+                },
+                "requiredPlayerLevel": 40,
+                "coinCost": 100000
+            },
+            {
+                "promoteLevel": 6,
+                "costItems": {
+                    "101239": 60,
+                    "104164": 6,
+                    "112085": 24,
+                    "113052": 20
+                },
+                "unlockMaxLevel": 90,
+                "addProps": {
+                    "FIGHT_PROP_BASE_HP": 4345.48047,
+                    "FIGHT_PROP_BASE_DEFENSE": 243.9801,
+                    "FIGHT_PROP_BASE_ATTACK": 99.39566,
+                    "FIGHT_PROP_CRITICAL_HURT": 0.384
+                },
+                "requiredPlayerLevel": 50,
+                "coinCost": 120000
+            }
+        ]
+    },
+    "other": {
+        "costume": [
+            {
+                "name": "Night's Chilling Howl",
+                "description": "Wriothesley's outfit. It radiates both dignity and strength, with the rugged gray wolf chain serving as the mark of his rulership over the Fortress of Meropide.",
+                "isDefault": true
+            }
+        ],
+        "furnitureId": 368172,
+        "nameCard": {
+            "id": 210175,
+            "name": "Wriothesley: Detention",
+            "description": "Namecard style.\\nMaintaining order at the Fortress of Meropide is no simple affair. As such, a deft and sometimes firm hand is needed — along with a small pinch of truly regrettable cruelty.",
+            "icon": "UI_NameCardIcon_Wriothesley"
+        },
+        "specialFood": {
+            "id": 108604,
+            "name": "Secret Sauce BBQ Ribs",
+            "rank": 2,
+            "effectIcon": "UI_Buff_Item_Recovery_HpAdd",
+            "icon": "UI_ItemIcon_108604"
+        }
+    },
+    "ascension": {
+        "101239": 1,
+        "104161": 2,
+        "104162": 3,
+        "104163": 4,
+        "104164": 5,
+        "104319": 5,
+        "104344": 2,
+        "104345": 3,
+        "104346": 4,
+        "112083": 1,
+        "112084": 2,
+        "112085": 3,
+        "113047": 5,
+        "113052": 4
+    },
+    "items": {
+        "202": {
+            "name": "Mora",
+            "rank": 3,
+            "icon": "UI_ItemIcon_202"
+        },
+        "101239": {
+            "name": "Subdetection Unit",
+            "rank": 1,
+            "icon": "UI_ItemIcon_101239"
+        },
+        "104001": {
+            "name": "Wanderer's Advice",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104001"
+        },
+        "104002": {
+            "name": "Adventurer's Experience",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104002"
+        },
+        "104003": {
+            "name": "Hero's Wit",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104003"
+        },
+        "104161": {
+            "name": "Shivada Jade Sliver",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104161"
+        },
+        "104162": {
+            "name": "Shivada Jade Fragment",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104162"
+        },
+        "104163": {
+            "name": "Shivada Jade Chunk",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104163"
+        },
+        "104164": {
+            "name": "Shivada Jade Gemstone",
+            "rank": 5,
+            "icon": "UI_ItemIcon_104164"
+        },
+        "104319": {
+            "name": "Crown of Insight",
+            "rank": 5,
+            "icon": "UI_ItemIcon_104319"
+        },
+        "104344": {
+            "name": "Teachings of Order",
+            "rank": 2,
+            "icon": "UI_ItemIcon_104344"
+        },
+        "104345": {
+            "name": "Guide to Order",
+            "rank": 3,
+            "icon": "UI_ItemIcon_104345"
+        },
+        "104346": {
+            "name": "Philosophies of Order",
+            "rank": 4,
+            "icon": "UI_ItemIcon_104346"
+        },
+        "112083": {
+            "name": "Meshing Gear",
+            "rank": 1,
+            "icon": "UI_ItemIcon_112083"
+        },
+        "112084": {
+            "name": "Mechanical Spur Gear",
+            "rank": 2,
+            "icon": "UI_ItemIcon_112084"
+        },
+        "112085": {
+            "name": "Artificed Dynamic Gear",
+            "rank": 3,
+            "icon": "UI_ItemIcon_112085"
+        },
+        "113047": {
+            "name": "Primordial Greenbloom",
+            "rank": 5,
+            "icon": "UI_ItemIcon_113047"
+        },
+        "113052": {
+            "name": "\"Tourbillon Device\"",
+            "rank": 4,
+            "icon": "UI_ItemIcon_113052"
+        }
+    },
+    "talent": {
+        "0": {
+            "type": 0,
+            "name": "Normal Attack: Forceful Fists of Frost",
+            "description": "<color=#FFD780FF>Normal Attack</color>\\nCoalescing frost about his fist, Wriothesley will unleash powerful <color=#FFD780FF>Repelling Fists</color>, performing up to 5 rapid attacks that deal <color=#99FFFFFF>Cryo DMG</color>.\\nApart from this, Normal Attack combo count will not reset for a short time after using Icefang Rush or sprinting.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nConsumes a fixed amount of Stamina to leap and unleash a <color=#FFD780FF>Vaulting Fist</color>, dealing <color=#99FFFFFF>AoE Cryo DMG</color>.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing <color=#99FFFFFF>AoE Cryo DMG</color> upon impact.",
+            "icon": "Skill_A_Catalyst_MD",
+            "promote": {
+                "1": {
+                    "level": 1,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}",
+                        "4-Hit DMG|{param4:F1P}+{param5:F1P}",
+                        "5-Hit DMG|{param6:F1P}",
+                        "Charged Attack DMG|{param7:F1P}",
+                        "Charged Attack Stamina Cost|{param8:F1}",
+                        "Plunge DMG|{param9:F1P}",
+                        "Low/High Plunge DMG|{param10:P}/{param11:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.5336,
+                        0.51799,
+                        0.67223,
+                        0.37904,
+                        0.37904,
+                        0.90742,
+                        1.5296,
+                        50,
+                        0.56829,
+                        1.13634,
+                        1.41934,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "2": {
+                    "level": 2,
+                    "costItems": {
+                        "104344": 3,
+                        "112083": 6
+                    },
+                    "coinCost": 12500,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}",
+                        "4-Hit DMG|{param4:F1P}+{param5:F1P}",
+                        "5-Hit DMG|{param6:F1P}",
+                        "Charged Attack DMG|{param7:F1P}",
+                        "Charged Attack Stamina Cost|{param8:F1}",
+                        "Plunge DMG|{param9:F1P}",
+                        "Low/High Plunge DMG|{param10:P}/{param11:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.57703,
+                        0.56015,
+                        0.72694,
+                        0.40989,
+                        0.40989,
+                        0.98128,
+                        1.64432,
+                        50,
+                        0.61454,
+                        1.22883,
+                        1.53487,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "3": {
+                    "level": 3,
+                    "costItems": {
+                        "104345": 2,
+                        "112084": 3
+                    },
+                    "coinCost": 17500,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}",
+                        "4-Hit DMG|{param4:F1P}+{param5:F1P}",
+                        "5-Hit DMG|{param6:F1P}",
+                        "Charged Attack DMG|{param7:F1P}",
+                        "Charged Attack Stamina Cost|{param8:F1}",
+                        "Plunge DMG|{param9:F1P}",
+                        "Low/High Plunge DMG|{param10:P}/{param11:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.62046,
+                        0.60231,
+                        0.78166,
+                        0.44074,
+                        0.44074,
+                        1.05514,
+                        1.75904,
+                        50,
+                        0.6608,
+                        1.32132,
+                        1.6504,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "4": {
+                    "level": 4,
+                    "costItems": {
+                        "104345": 4,
+                        "112084": 4
+                    },
+                    "coinCost": 25000,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}",
+                        "4-Hit DMG|{param4:F1P}+{param5:F1P}",
+                        "5-Hit DMG|{param6:F1P}",
+                        "Charged Attack DMG|{param7:F1P}",
+                        "Charged Attack Stamina Cost|{param8:F1}",
+                        "Plunge DMG|{param9:F1P}",
+                        "Low/High Plunge DMG|{param10:P}/{param11:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.68251,
+                        0.66254,
+                        0.85983,
+                        0.48482,
+                        0.48482,
+                        1.16065,
+                        1.912,
+                        50,
+                        0.72688,
+                        1.45345,
+                        1.81544,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "5": {
+                    "level": 5,
+                    "costItems": {
+                        "104345": 6,
+                        "112084": 6
+                    },
+                    "coinCost": 30000,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}",
+                        "4-Hit DMG|{param4:F1P}+{param5:F1P}",
+                        "5-Hit DMG|{param6:F1P}",
+                        "Charged Attack DMG|{param7:F1P}",
+                        "Charged Attack Stamina Cost|{param8:F1}",
+                        "Plunge DMG|{param9:F1P}",
+                        "Low/High Plunge DMG|{param10:P}/{param11:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.72594,
+                        0.7047,
+                        0.91454,
+                        0.51567,
+                        0.51567,
+                        1.23451,
+                        2.02672,
+                        50,
+                        0.77314,
+                        1.54594,
+                        1.93097,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "6": {
+                    "level": 6,
+                    "costItems": {
+                        "104345": 9,
+                        "112084": 9
+                    },
+                    "coinCost": 37500,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}",
+                        "4-Hit DMG|{param4:F1P}+{param5:F1P}",
+                        "5-Hit DMG|{param6:F1P}",
+                        "Charged Attack DMG|{param7:F1P}",
+                        "Charged Attack Stamina Cost|{param8:F1}",
+                        "Plunge DMG|{param9:F1P}",
+                        "Low/High Plunge DMG|{param10:P}/{param11:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.77557,
+                        0.75289,
+                        0.97707,
+                        0.55093,
+                        0.55093,
+                        1.31893,
+                        2.14144,
+                        50,
+                        0.826,
+                        1.65165,
+                        2.063,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "7": {
+                    "level": 7,
+                    "costItems": {
+                        "104346": 4,
+                        "112085": 4,
+                        "113047": 1
+                    },
+                    "coinCost": 120000,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}",
+                        "4-Hit DMG|{param4:F1P}+{param5:F1P}",
+                        "5-Hit DMG|{param6:F1P}",
+                        "Charged Attack DMG|{param7:F1P}",
+                        "Charged Attack Stamina Cost|{param8:F1}",
+                        "Plunge DMG|{param9:F1P}",
+                        "Low/High Plunge DMG|{param10:P}/{param11:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.84383,
+                        0.81914,
+                        1.06306,
+                        0.59941,
+                        0.59941,
+                        1.43499,
+                        2.2944,
+                        50,
+                        0.89869,
+                        1.797,
+                        2.24454,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "8": {
+                    "level": 8,
+                    "costItems": {
+                        "104346": 6,
+                        "112085": 6,
+                        "113047": 1
+                    },
+                    "coinCost": 260000,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}",
+                        "4-Hit DMG|{param4:F1P}+{param5:F1P}",
+                        "5-Hit DMG|{param6:F1P}",
+                        "Charged Attack DMG|{param7:F1P}",
+                        "Charged Attack Stamina Cost|{param8:F1}",
+                        "Plunge DMG|{param9:F1P}",
+                        "Low/High Plunge DMG|{param10:P}/{param11:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.91208,
+                        0.8854,
+                        1.14904,
+                        0.64789,
+                        0.64789,
+                        1.55106,
+                        2.44736,
+                        50,
+                        0.97138,
+                        1.94234,
+                        2.42609,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "9": {
+                    "level": 9,
+                    "costItems": {
+                        "104346": 12,
+                        "112085": 9,
+                        "113047": 2
+                    },
+                    "coinCost": 450000,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}",
+                        "4-Hit DMG|{param4:F1P}+{param5:F1P}",
+                        "5-Hit DMG|{param6:F1P}",
+                        "Charged Attack DMG|{param7:F1P}",
+                        "Charged Attack Stamina Cost|{param8:F1}",
+                        "Plunge DMG|{param9:F1P}",
+                        "Low/High Plunge DMG|{param10:P}/{param11:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        0.98033,
+                        0.95165,
+                        1.23502,
+                        0.69638,
+                        0.69638,
+                        1.66712,
+                        2.60032,
+                        50,
+                        1.04406,
+                        2.08769,
+                        2.60763,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "10": {
+                    "level": 10,
+                    "costItems": {
+                        "104319": 1,
+                        "104346": 16,
+                        "112085": 12,
+                        "113047": 2
+                    },
+                    "coinCost": 700000,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}",
+                        "4-Hit DMG|{param4:F1P}+{param5:F1P}",
+                        "5-Hit DMG|{param6:F1P}",
+                        "Charged Attack DMG|{param7:F1P}",
+                        "Charged Attack Stamina Cost|{param8:F1}",
+                        "Plunge DMG|{param9:F1P}",
+                        "Low/High Plunge DMG|{param10:P}/{param11:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.05478,
+                        1.02393,
+                        1.32882,
+                        0.74927,
+                        0.74927,
+                        1.79374,
+                        2.75328,
+                        50,
+                        1.12336,
+                        2.24624,
+                        2.80568,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "11": {
+                    "level": 11,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}",
+                        "4-Hit DMG|{param4:F1P}+{param5:F1P}",
+                        "5-Hit DMG|{param6:F1P}",
+                        "Charged Attack DMG|{param7:F1P}",
+                        "Charged Attack Stamina Cost|{param8:F1}",
+                        "Plunge DMG|{param9:F1P}",
+                        "Low/High Plunge DMG|{param10:P}/{param11:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.12924,
+                        1.0962,
+                        1.42262,
+                        0.80216,
+                        0.80216,
+                        1.92035,
+                        2.90624,
+                        50,
+                        1.20266,
+                        2.4048,
+                        3.00373,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "12": {
+                    "level": 12,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}",
+                        "4-Hit DMG|{param4:F1P}+{param5:F1P}",
+                        "5-Hit DMG|{param6:F1P}",
+                        "Charged Attack DMG|{param7:F1P}",
+                        "Charged Attack Stamina Cost|{param8:F1}",
+                        "Plunge DMG|{param9:F1P}",
+                        "Low/High Plunge DMG|{param10:P}/{param11:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.20369,
+                        1.16848,
+                        1.51642,
+                        0.85505,
+                        0.85505,
+                        2.04697,
+                        3.0592,
+                        50,
+                        1.28195,
+                        2.56336,
+                        3.20178,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "13": {
+                    "level": 13,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}",
+                        "4-Hit DMG|{param4:F1P}+{param5:F1P}",
+                        "5-Hit DMG|{param6:F1P}",
+                        "Charged Attack DMG|{param7:F1P}",
+                        "Charged Attack Stamina Cost|{param8:F1}",
+                        "Plunge DMG|{param9:F1P}",
+                        "Low/High Plunge DMG|{param10:P}/{param11:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.27815,
+                        1.24076,
+                        1.61022,
+                        0.90794,
+                        0.90794,
+                        2.17359,
+                        3.2504,
+                        50,
+                        1.36125,
+                        2.72192,
+                        3.39982,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "14": {
+                    "level": 14,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}",
+                        "4-Hit DMG|{param4:F1P}+{param5:F1P}",
+                        "5-Hit DMG|{param6:F1P}",
+                        "Charged Attack DMG|{param7:F1P}",
+                        "Charged Attack Stamina Cost|{param8:F1}",
+                        "Plunge DMG|{param9:F1P}",
+                        "Low/High Plunge DMG|{param10:P}/{param11:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.3526,
+                        1.31304,
+                        1.70402,
+                        0.96082,
+                        0.96082,
+                        2.3002,
+                        3.4416,
+                        50,
+                        1.44054,
+                        2.88048,
+                        3.59787,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "15": {
+                    "level": 15,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "1-Hit DMG|{param1:F1P}",
+                        "2-Hit DMG|{param2:F1P}",
+                        "3-Hit DMG|{param3:F1P}",
+                        "4-Hit DMG|{param4:F1P}+{param5:F1P}",
+                        "5-Hit DMG|{param6:F1P}",
+                        "Charged Attack DMG|{param7:F1P}",
+                        "Charged Attack Stamina Cost|{param8:F1}",
+                        "Plunge DMG|{param9:F1P}",
+                        "Low/High Plunge DMG|{param10:P}/{param11:P}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.42706,
+                        1.38531,
+                        1.79782,
+                        1.01371,
+                        1.01371,
+                        2.42682,
+                        3.6328,
+                        50,
+                        1.51984,
+                        3.03904,
+                        3.79592,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            "cooldown": 0,
+            "cost": 0,
+            "linkedConstellations": {
+                "isLevelIncluded": true,
+                "prop": [
+                    {
+                        "id": 2,
+                        "type": "level"
+                    }
+                ]
+            },
+            "advancedProps": [
+                {
+                    "name": "Normal Attack 1-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": "6",
+                            "text": "Normal Attack"
+                        },
+                        "type": {
+                            "span": "6",
+                            "text": "2.5s/3 Hits"
+                        }
+                    },
+                    "interruptionResistance": "41.5062",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 2-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "40.223",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 3-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "51.36",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "800",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 4-Hit A",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "28.6",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 4-Hit B",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "28.6",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "800",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Normal Attack 5-Hit",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": "rowspan",
+                    "interruptionResistance": "71.9181",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "480",
+                        "verticalForce": "600"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Charged Attack",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "110",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "0",
+                        "verticalForce": "420"
+                    },
+                    "bluntAttack": true
+                },
+                {
+                    "name": "Charged Attack (C6 Icicle)",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "50",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Shake",
+                        "horizontalForce": "0",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Plunging Attack Collision",
+                    "elementalGaugeTheory": "0U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "5",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Light",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Low Plunge",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "50",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "200",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "High Plunge",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "100",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "800",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                }
+            ]
+        },
+        "1": {
+            "type": 0,
+            "name": "Icefang Rush",
+            "description": "Adjusting his breathing, rhythm, and pace, Wriothesley sprints forward a short distance, entering the <color=#FFD780FF>Chilling Penalty</color> state and unleashing more powerful attacks than before.\\n\\n<color=#FFD780FF>Chilling Penalty</color>\\n·Increases Wriothesley's interruption resistance\\n·When his HP is above 50%, it will enhance the Repelling Fists of <color=#FFD780FF>Normal Attack: Forceful Fists of Frost</color> and increase its DMG. When such an attack hits, it will consume a fixed amount of Wriothesley's HP. HP can be lost this way once every 0.1s.\\nThis effect will be canceled should Wriothesley leave the field.\\n\\n<i>\"Past convictions are past. It is our future choices that we must grasp.\"\\n\"Defy your fate, or else this glutton be, to pay your fate's due, by the crime and thee.\"</i>",
+            "icon": "Skill_S_Wriothesley_01",
+            "promote": {
+                "1": {
+                    "level": 1,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Enhanced Repelling Fist DMG|{param1:F1P} Normal Attack DMG",
+                        "HP Cost|{param2:F1P} Max HP",
+                        "Duration|{param3:F1}s",
+                        "CD|{param4:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.43169,
+                        0.045,
+                        10,
+                        16,
+                        0,
+                        0,
+                        0,
+                        0.4317,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "2": {
+                    "level": 2,
+                    "costItems": {
+                        "104344": 3,
+                        "112083": 6
+                    },
+                    "coinCost": 12500,
+                    "description": [
+                        "Enhanced Repelling Fist DMG|{param1:F1P} Normal Attack DMG",
+                        "HP Cost|{param2:F1P} Max HP",
+                        "Duration|{param3:F1}s",
+                        "CD|{param4:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.45755,
+                        0.045,
+                        10,
+                        16,
+                        0,
+                        0,
+                        0,
+                        0.45755,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "3": {
+                    "level": 3,
+                    "costItems": {
+                        "104345": 2,
+                        "112084": 3
+                    },
+                    "coinCost": 17500,
+                    "description": [
+                        "Enhanced Repelling Fist DMG|{param1:F1P} Normal Attack DMG",
+                        "HP Cost|{param2:F1P} Max HP",
+                        "Duration|{param3:F1}s",
+                        "CD|{param4:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.48339,
+                        0.045,
+                        10,
+                        16,
+                        0,
+                        0,
+                        0,
+                        0.4834,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "4": {
+                    "level": 4,
+                    "costItems": {
+                        "104345": 4,
+                        "112084": 4
+                    },
+                    "coinCost": 25000,
+                    "description": [
+                        "Enhanced Repelling Fist DMG|{param1:F1P} Normal Attack DMG",
+                        "HP Cost|{param2:F1P} Max HP",
+                        "Duration|{param3:F1}s",
+                        "CD|{param4:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.517,
+                        0.045,
+                        10,
+                        16,
+                        0,
+                        0,
+                        0,
+                        0.517,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "5": {
+                    "level": 5,
+                    "costItems": {
+                        "104345": 6,
+                        "112084": 6
+                    },
+                    "coinCost": 30000,
+                    "description": [
+                        "Enhanced Repelling Fist DMG|{param1:F1P} Normal Attack DMG",
+                        "HP Cost|{param2:F1P} Max HP",
+                        "Duration|{param3:F1}s",
+                        "CD|{param4:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.54285,
+                        0.045,
+                        10,
+                        16,
+                        0,
+                        0,
+                        0,
+                        0.54285,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "6": {
+                    "level": 6,
+                    "costItems": {
+                        "104345": 9,
+                        "112084": 9
+                    },
+                    "coinCost": 37500,
+                    "description": [
+                        "Enhanced Repelling Fist DMG|{param1:F1P} Normal Attack DMG",
+                        "HP Cost|{param2:F1P} Max HP",
+                        "Duration|{param3:F1}s",
+                        "CD|{param4:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.5687,
+                        0.045,
+                        10,
+                        16,
+                        0,
+                        0,
+                        0,
+                        0.5687,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "7": {
+                    "level": 7,
+                    "costItems": {
+                        "104346": 4,
+                        "112085": 4,
+                        "113047": 1
+                    },
+                    "coinCost": 120000,
+                    "description": [
+                        "Enhanced Repelling Fist DMG|{param1:F1P} Normal Attack DMG",
+                        "HP Cost|{param2:F1P} Max HP",
+                        "Duration|{param3:F1}s",
+                        "CD|{param4:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.60231,
+                        0.045,
+                        10,
+                        16,
+                        0,
+                        0,
+                        0,
+                        0.6023,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "8": {
+                    "level": 8,
+                    "costItems": {
+                        "104346": 6,
+                        "112085": 6,
+                        "113047": 1
+                    },
+                    "coinCost": 260000,
+                    "description": [
+                        "Enhanced Repelling Fist DMG|{param1:F1P} Normal Attack DMG",
+                        "HP Cost|{param2:F1P} Max HP",
+                        "Duration|{param3:F1}s",
+                        "CD|{param4:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.63591,
+                        0.045,
+                        10,
+                        16,
+                        0,
+                        0,
+                        0,
+                        0.63591,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "9": {
+                    "level": 9,
+                    "costItems": {
+                        "104346": 12,
+                        "112085": 9,
+                        "113047": 2
+                    },
+                    "coinCost": 450000,
+                    "description": [
+                        "Enhanced Repelling Fist DMG|{param1:F1P} Normal Attack DMG",
+                        "HP Cost|{param2:F1P} Max HP",
+                        "Duration|{param3:F1}s",
+                        "CD|{param4:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.66952,
+                        0.045,
+                        10,
+                        16,
+                        0,
+                        0,
+                        0,
+                        0.66952,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "10": {
+                    "level": 10,
+                    "costItems": {
+                        "104319": 1,
+                        "104346": 16,
+                        "112085": 12,
+                        "113047": 2
+                    },
+                    "coinCost": 700000,
+                    "description": [
+                        "Enhanced Repelling Fist DMG|{param1:F1P} Normal Attack DMG",
+                        "HP Cost|{param2:F1P} Max HP",
+                        "Duration|{param3:F1}s",
+                        "CD|{param4:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.70312,
+                        0.045,
+                        10,
+                        16,
+                        0,
+                        0,
+                        0,
+                        0.70312,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "11": {
+                    "level": 11,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Enhanced Repelling Fist DMG|{param1:F1P} Normal Attack DMG",
+                        "HP Cost|{param2:F1P} Max HP",
+                        "Duration|{param3:F1}s",
+                        "CD|{param4:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.73672,
+                        0.045,
+                        10,
+                        16,
+                        0,
+                        0,
+                        0,
+                        0.73672,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "12": {
+                    "level": 12,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Enhanced Repelling Fist DMG|{param1:F1P} Normal Attack DMG",
+                        "HP Cost|{param2:F1P} Max HP",
+                        "Duration|{param3:F1}s",
+                        "CD|{param4:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.77033,
+                        0.045,
+                        10,
+                        16,
+                        0,
+                        0,
+                        0,
+                        0.77033,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "13": {
+                    "level": 13,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Enhanced Repelling Fist DMG|{param1:F1P} Normal Attack DMG",
+                        "HP Cost|{param2:F1P} Max HP",
+                        "Duration|{param3:F1}s",
+                        "CD|{param4:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.80394,
+                        0.045,
+                        10,
+                        16,
+                        0,
+                        0,
+                        0,
+                        0.80393,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "14": {
+                    "level": 14,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Enhanced Repelling Fist DMG|{param1:F1P} Normal Attack DMG",
+                        "HP Cost|{param2:F1P} Max HP",
+                        "Duration|{param3:F1}s",
+                        "CD|{param4:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.83754,
+                        0.045,
+                        10,
+                        16,
+                        0,
+                        0,
+                        0,
+                        0.83754,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "15": {
+                    "level": 15,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Enhanced Repelling Fist DMG|{param1:F1P} Normal Attack DMG",
+                        "HP Cost|{param2:F1P} Max HP",
+                        "Duration|{param3:F1}s",
+                        "CD|{param4:F1}s",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.87115,
+                        0.045,
+                        10,
+                        16,
+                        0,
+                        0,
+                        0,
+                        0.87115,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            "cooldown": 16,
+            "cost": 0,
+            "linkedConstellations": {
+                "isLevelIncluded": false,
+                "prop": [
+                    {
+                        "id": 0,
+                        "type": "normal"
+                    }
+                ]
+            }
+        },
+        "3": {
+            "type": 1,
+            "name": "Darkgold Wolfbite",
+            "description": "Activating his boxing gloves, Wriothesley strikes out with an icy straight, then uses Icicle Impact to cause multiple instances of <color=#99FFFFFF>AoE Cryo DMG</color> in a frontal area.\\n\\n<color=#FFD780FF>Arkhe: Ousia</color>\\nAfter Icicle Impact ends, a Surging Blade will descend upon the opponent's position, dealing Ousia-aligned <color=#99FFFFFF>Cryo DMG</color>.\\n\\n<i>There are some things that even the Duke of the Fortress of Meropide can do little about — for example, complicated paperwork, the trivialities of a supervisor, or even... little kids pasting a whole host of cute but difficult-to-remove stickers on his boxing gloves.</i>",
+            "icon": "Skill_E_Wriothesley_01",
+            "promote": {
+                "1": {
+                    "level": 1,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Skill DMG|{param1:F2P}×5",
+                        "Surging Blade DMG|{param2:F2P}",
+                        "CD|{param3:F1}s",
+                        "Surging Blade CD|{param5:F1}s",
+                        "Energy Cost|{param4:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.272,
+                        0.424,
+                        15,
+                        60,
+                        10,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "2": {
+                    "level": 2,
+                    "costItems": {
+                        "104344": 3,
+                        "112083": 6
+                    },
+                    "coinCost": 12500,
+                    "description": [
+                        "Skill DMG|{param1:F2P}×5",
+                        "Surging Blade DMG|{param2:F2P}",
+                        "CD|{param3:F1}s",
+                        "Surging Blade CD|{param5:F1}s",
+                        "Energy Cost|{param4:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.3674,
+                        0.4558,
+                        15,
+                        60,
+                        10,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "3": {
+                    "level": 3,
+                    "costItems": {
+                        "104345": 2,
+                        "112084": 3
+                    },
+                    "coinCost": 17500,
+                    "description": [
+                        "Skill DMG|{param1:F2P}×5",
+                        "Surging Blade DMG|{param2:F2P}",
+                        "CD|{param3:F1}s",
+                        "Surging Blade CD|{param5:F1}s",
+                        "Energy Cost|{param4:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.4628,
+                        0.4876,
+                        15,
+                        60,
+                        10,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "4": {
+                    "level": 4,
+                    "costItems": {
+                        "104345": 4,
+                        "112084": 4
+                    },
+                    "coinCost": 25000,
+                    "description": [
+                        "Skill DMG|{param1:F2P}×5",
+                        "Surging Blade DMG|{param2:F2P}",
+                        "CD|{param3:F1}s",
+                        "Surging Blade CD|{param5:F1}s",
+                        "Energy Cost|{param4:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.59,
+                        0.53,
+                        15,
+                        60,
+                        10,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "5": {
+                    "level": 5,
+                    "costItems": {
+                        "104345": 6,
+                        "112084": 6
+                    },
+                    "coinCost": 30000,
+                    "description": [
+                        "Skill DMG|{param1:F2P}×5",
+                        "Surging Blade DMG|{param2:F2P}",
+                        "CD|{param3:F1}s",
+                        "Surging Blade CD|{param5:F1}s",
+                        "Energy Cost|{param4:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.6854,
+                        0.5618,
+                        15,
+                        60,
+                        10,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "6": {
+                    "level": 6,
+                    "costItems": {
+                        "104345": 9,
+                        "112084": 9
+                    },
+                    "coinCost": 37500,
+                    "description": [
+                        "Skill DMG|{param1:F2P}×5",
+                        "Surging Blade DMG|{param2:F2P}",
+                        "CD|{param3:F1}s",
+                        "Surging Blade CD|{param5:F1}s",
+                        "Energy Cost|{param4:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.7808,
+                        0.5936,
+                        15,
+                        60,
+                        10,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "7": {
+                    "level": 7,
+                    "costItems": {
+                        "104346": 4,
+                        "112085": 4,
+                        "113047": 1
+                    },
+                    "coinCost": 120000,
+                    "description": [
+                        "Skill DMG|{param1:F2P}×5",
+                        "Surging Blade DMG|{param2:F2P}",
+                        "CD|{param3:F1}s",
+                        "Surging Blade CD|{param5:F1}s",
+                        "Energy Cost|{param4:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        1.908,
+                        0.636,
+                        15,
+                        60,
+                        10,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "8": {
+                    "level": 8,
+                    "costItems": {
+                        "104346": 6,
+                        "112085": 6,
+                        "113047": 1
+                    },
+                    "coinCost": 260000,
+                    "description": [
+                        "Skill DMG|{param1:F2P}×5",
+                        "Surging Blade DMG|{param2:F2P}",
+                        "CD|{param3:F1}s",
+                        "Surging Blade CD|{param5:F1}s",
+                        "Energy Cost|{param4:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        2.0352,
+                        0.6784,
+                        15,
+                        60,
+                        10,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "9": {
+                    "level": 9,
+                    "costItems": {
+                        "104346": 12,
+                        "112085": 9,
+                        "113047": 2
+                    },
+                    "coinCost": 450000,
+                    "description": [
+                        "Skill DMG|{param1:F2P}×5",
+                        "Surging Blade DMG|{param2:F2P}",
+                        "CD|{param3:F1}s",
+                        "Surging Blade CD|{param5:F1}s",
+                        "Energy Cost|{param4:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        2.1624,
+                        0.7208,
+                        15,
+                        60,
+                        10,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "10": {
+                    "level": 10,
+                    "costItems": {
+                        "104319": 1,
+                        "104346": 16,
+                        "112085": 12,
+                        "113047": 2
+                    },
+                    "coinCost": 700000,
+                    "description": [
+                        "Skill DMG|{param1:F2P}×5",
+                        "Surging Blade DMG|{param2:F2P}",
+                        "CD|{param3:F1}s",
+                        "Surging Blade CD|{param5:F1}s",
+                        "Energy Cost|{param4:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        2.2896,
+                        0.7632,
+                        15,
+                        60,
+                        10,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "11": {
+                    "level": 11,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Skill DMG|{param1:F2P}×5",
+                        "Surging Blade DMG|{param2:F2P}",
+                        "CD|{param3:F1}s",
+                        "Surging Blade CD|{param5:F1}s",
+                        "Energy Cost|{param4:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        2.4168,
+                        0.8056,
+                        15,
+                        60,
+                        10,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "12": {
+                    "level": 12,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Skill DMG|{param1:F2P}×5",
+                        "Surging Blade DMG|{param2:F2P}",
+                        "CD|{param3:F1}s",
+                        "Surging Blade CD|{param5:F1}s",
+                        "Energy Cost|{param4:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        2.544,
+                        0.848,
+                        15,
+                        60,
+                        10,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "13": {
+                    "level": 13,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Skill DMG|{param1:F2P}×5",
+                        "Surging Blade DMG|{param2:F2P}",
+                        "CD|{param3:F1}s",
+                        "Surging Blade CD|{param5:F1}s",
+                        "Energy Cost|{param4:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        2.703,
+                        0.901,
+                        15,
+                        60,
+                        10,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "14": {
+                    "level": 14,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Skill DMG|{param1:F2P}×5",
+                        "Surging Blade DMG|{param2:F2P}",
+                        "CD|{param3:F1}s",
+                        "Surging Blade CD|{param5:F1}s",
+                        "Energy Cost|{param4:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        2.862,
+                        0.954,
+                        15,
+                        60,
+                        10,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "15": {
+                    "level": 15,
+                    "costItems": null,
+                    "coinCost": null,
+                    "description": [
+                        "Skill DMG|{param1:F2P}×5",
+                        "Surging Blade DMG|{param2:F2P}",
+                        "CD|{param3:F1}s",
+                        "Surging Blade CD|{param5:F1}s",
+                        "Energy Cost|{param4:I}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "params": [
+                        3.021,
+                        1.007,
+                        15,
+                        60,
+                        10,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            "cooldown": 15,
+            "cost": 60,
+            "linkedConstellations": {
+                "isLevelIncluded": true,
+                "prop": [
+                    {
+                        "id": 1,
+                        "type": "normal"
+                    },
+                    {
+                        "id": 4,
+                        "type": "level"
+                    }
+                ]
+            },
+            "advancedProps": [
+                {
+                    "name": "Skill DMG",
+                    "elementalGaugeTheory": "1U",
+                    "internalCooldown": {
+                        "tag": {
+                            "span": null,
+                            "text": "Elemental Burst"
+                        },
+                        "type": {
+                            "span": null,
+                            "text": "2.5s/3 Hits"
+                        }
+                    },
+                    "interruptionResistance": "250",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Heavy",
+                        "horizontalForce": "400",
+                        "verticalForce": "0"
+                    },
+                    "bluntAttack": false
+                },
+                {
+                    "name": "Surging Blade DMG",
+                    "elementalGaugeTheory": "0U",
+                    "internalCooldown": null,
+                    "interruptionResistance": "20",
+                    "interruptionResistanceStagger": {
+                        "staggerLevel": "Air",
+                        "horizontalForce": "0",
+                        "verticalForce": "600"
+                    },
+                    "bluntAttack": false
+                }
+            ]
+        },
+        "4": {
+            "type": 2,
+            "name": "There Shall Be a Plea for Justice",
+            "description": "When Wriothesley's HP is less than 60%, he will obtain a Gracious Rebuke. The next Charged Attack of his <color=#FFD780FF>Normal Attack: Forceful Fists of Frost</color> will be enhanced to become Rebuke: Vaulting Fist. It will not consume Stamina, will deal 50% increased DMG, and after hitting will restore HP for Wriothesley equal to 30% of his Max HP.\\nYou can gain a Gracious Rebuke this way once every 5s.",
+            "icon": "UI_Talent_S_Wriothesley_05",
+            "linkedConstellations": {
+                "isLevelIncluded": false,
+                "prop": [
+                    {
+                        "id": 0,
+                        "type": "normal"
+                    },
+                    {
+                        "id": 3,
+                        "type": "normal"
+                    },
+                    {
+                        "id": 5,
+                        "type": "normal"
+                    }
+                ]
+            }
+        },
+        "5": {
+            "type": 2,
+            "name": "There Shall Be a Reckoning for Sin",
+            "description": "When Wriothesley's current HP increases or decreases, if he is in the Chilling Penalty state conferred by <color=#FFD780FF>Icefang Rush</color>, Chilling Penalty will gain one stack of Prosecution Edict. Max 5 stacks. Each stack will increase Wriothesley's ATK by 6%.",
+            "icon": "UI_Talent_S_Wriothesley_06",
+            "linkedConstellations": {
+                "isLevelIncluded": false,
+                "prop": [
+                    {
+                        "id": 1,
+                        "type": "normal"
+                    }
+                ]
+            }
+        },
+        "6": {
+            "type": 2,
+            "name": "The Duke's Grace",
+            "description": "When Wriothesley crafts Weapon Ascension Materials, he has a 10% chance to receive double the product.",
+            "icon": "UI_Talent_Combine_Weapon_Double",
+            "linkedConstellations": null
+        }
+    },
+    "constellation": {
+        "0": {
+            "id": 0,
+            "name": "Terror for the Evildoers",
+            "description": "The Gracious Rebuke from the Passive Talent \"There Shall Be a Plea for Justice\" is changed to this:\\nWhen Wriothesley's HP is less than 60% or while he is in the Chilling Penalty state caused by <color=#FFD780FF>Icefang Rush</color>, when the fifth attack of Repelling Fists hits, it will create a Gracious Rebuke. 1 Gracious Rebuke effect can be obtained every 2.5s.\\n\\nAdditionally, Rebuke: Vaulting Fist will obtain the following enhancement:\\n·The DMG Bonus gained will be further increased to 200%.\\n·When it hits while Wriothesley is in the Chilling Penalty state, that state's duration is extended by 4s. 1 such extension can occur per 1 Chilling Penalty duration.\\n\\nYou must first unlock the Passive Talent \"There Shall Be a Plea for Justice.\"",
+            "extraData": null,
+            "icon": "UI_Talent_S_Wriothesley_01"
+        },
+        "1": {
+            "id": 1,
+            "name": "Shackles for the Arrogant",
+            "description": "When using <color=#FFD780FF>Darkgold Wolfbite</color>, each Prosecution Edict stack from the Passive Talent \"There Shall Be a Reckoning for Sin\" will increase said ability's DMG dealt by 40%.\\nYou must first unlock the Passive Talent \"There Shall Be a Reckoning for Sin.\"",
+            "extraData": null,
+            "icon": "UI_Talent_S_Wriothesley_02"
+        },
+        "2": {
+            "id": 2,
+            "name": "Punishment for the Frauds",
+            "description": "Increases the Level of <color=#FFD780FF>Normal Attack: Forceful Fists of Frost</color> by 3.\\nMaximum upgrade level is 15.",
+            "extraData": {
+                "addTalentExtraLevel": {
+                    "talentType": "AvatarSkill",
+                    "talentIndex": 1,
+                    "extraLevel": 3
+                }
+            },
+            "icon": "UI_Talent_U_Wriothesley_01"
+        },
+        "3": {
+            "id": 3,
+            "name": "Redemption for the Suffering",
+            "description": "The HP restored to Wriothesley through Rebuke: Vaulting Fist will be increased to 50% of his Max HP. You must first unlock the Passive Talent \"There Shall Be a Plea for Justice.\"\\nAdditionally, when Wriothesley is healed, if the amount of healing overflows, the following effects will occur depending on whether he is on the field or not. If he is on the field, his ATK SPD will be increased by 20% for 4s. If he is off-field, all of your own party members' ATK SPD will be increased by 10% for 6s. These two methods of increasing ATK SPD cannot stack.",
+            "extraData": null,
+            "icon": "UI_Talent_S_Wriothesley_03"
+        },
+        "4": {
+            "id": 4,
+            "name": "Mercy for the Wronged",
+            "description": "Increases the Level of <color=#FFD780FF>Darkgold Wolfbite</color> by 3.\\nMaximum upgrade level is 15.",
+            "extraData": {
+                "addTalentExtraLevel": {
+                    "talentType": "AvatarSkill",
+                    "talentIndex": 9,
+                    "extraLevel": 3
+                }
+            },
+            "icon": "UI_Talent_U_Wriothesley_02"
+        },
+        "5": {
+            "id": 5,
+            "name": "Esteem for the Innocent",
+            "description": "The CRIT Rate of Rebuke: Vaulting Fist will be increased by 10%, and its CRIT DMG by 80%. When unleashed, it will also create an additional icicle that deals 100% of Rebuke: Vaulting Fist's Base DMG as <color=#99FFFFFF>Cryo DMG</color>. DMG dealt this way is regarded as Charged Attack DMG.\\nYou must first unlock the Passive Talent \"There Shall Be a Plea for Justice.\"",
+            "extraData": null,
+            "icon": "UI_Talent_S_Wriothesley_04"
+        }
+    },
+    "_id": 10000086
+}
