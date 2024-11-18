@@ -1,9 +1,9 @@
 import { useLoaderData } from '@remix-run/react'
-import { json, type LoaderArgs, type V2_MetaFunction } from '@remix-run/cloudflare'
+import type { LoaderFunctionArgs, MetaFunction } from '@remix-run/cloudflare'
 
 import { db } from '~/utils/db.server'
 
-export const loader = async ({ params }: LoaderArgs) => {
+export const loader = async ({ params }: LoaderFunctionArgs) => {
   if (!params.id) {
     throw new Response('Not Found', {
       status: 404,
@@ -23,11 +23,11 @@ export const loader = async ({ params }: LoaderArgs) => {
 
   const name = isTraveler ? `${avatar.name} (${titleCase(element)})` : avatar.name
 
-  return json({ avatar: { ...avatar, ...{ name } } })
+  return { avatar: { ...avatar, ...{ name } } }
 }
 
-export const meta: V2_MetaFunction<typeof loader> = ({ data }) => {
-  return [{ title: `${data.avatar.name} | Asase Shrine` }]
+export const meta: MetaFunction<typeof loader> = ({ data }) => {
+  return [{ title: `${data!.avatar.name} | Asase Shrine` }]
 }
 
 function parseDescription(description: string) {

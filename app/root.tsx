@@ -1,10 +1,10 @@
-import { type V2_MetaFunction, type LinksFunction } from '@remix-run/cloudflare'
+import { type MetaFunction, type LinksFunction } from '@remix-run/cloudflare'
 import { Link, Links, LiveReload, Meta, Outlet, Scripts, ScrollRestoration } from '@remix-run/react'
 import stylesheet from '~/tailwind.css'
 
 export const links: LinksFunction = () => [{ rel: 'stylesheet', href: stylesheet }]
 
-export const meta: V2_MetaFunction = () => {
+export const meta: MetaFunction = () => {
   return [
     { title: 'Asase Shrine' },
     { name: 'charset', content: 'utf-8' },

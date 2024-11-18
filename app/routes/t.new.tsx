@@ -1,10 +1,10 @@
 import { useState } from 'react'
 import { useLoaderData, useNavigate } from '@remix-run/react'
-import { type LoaderArgs, json } from '@remix-run/cloudflare'
+import { type LoaderFunctionArgs } from '@remix-run/cloudflare'
 
 import { db } from '~/utils/db.server'
 
-export const loader = async ({ request }: LoaderArgs) => {
+export const loader = async ({ request }: LoaderFunctionArgs) => {
   const avatarData = await db.avatars.all()
 
   const avatars = avatarData.map((avatar) => {
@@ -15,7 +15,7 @@ export const loader = async ({ request }: LoaderArgs) => {
     }
   })
 
-  return json({ avatars })
+  return { avatars }
 }
 
 export default function TrackingNew() {
@@ -23,6 +23,8 @@ export default function TrackingNew() {
   const navigate = useNavigate()
   const [selected, setSelected] = useState<Record<string, boolean>>({})
   const { avatars } = data
+
+  console.log({ selected })
 
   return (
     <div className="mx-auto max-w-lg px-4">
@@ -54,6 +56,7 @@ export default function TrackingNew() {
               key={avatar.id}
               className={`flex ${selected[avatar.id] ? 'contrast-100' : 'contrast-50'}`}
               onClick={() => {
+                console.log('clicking, avatar.id:', avatar.id)
                 setSelected({
                   ...selected,
                   [avatar.id]: !selected[avatar.id],

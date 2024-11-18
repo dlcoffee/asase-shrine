@@ -1,5 +1,5 @@
 import { Link, useLoaderData } from '@remix-run/react'
-import { type LoaderArgs, json } from '@remix-run/cloudflare'
+import { type LoaderFunctionArgs } from '@remix-run/cloudflare'
 import { formatInTimeZone } from 'date-fns-tz'
 import { type Day, type Item, type SourceDomain } from '~/data/items'
 
@@ -62,7 +62,7 @@ function materialSrcUrl(item: ItemDisplay) {
   return `https://gi.yatta.moe/assets/UI/${item.icon}.png`
 }
 
-export const loader = async ({ request }: LoaderArgs) => {
+export const loader = async ({ request }: LoaderFunctionArgs) => {
   const url = new URL(request.url)
   const avatarIds = url.searchParams.getAll('a')
 
@@ -176,7 +176,7 @@ export const loader = async ({ request }: LoaderArgs) => {
     })
   }
 
-  return json({ avatars })
+  return { avatars }
 }
 
 export default function TrackingIndex() {
