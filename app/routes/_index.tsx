@@ -1,6 +1,5 @@
 import { type ReactNode } from 'react'
 import { Link, useLoaderData } from '@remix-run/react'
-import { type LoaderArgs, json } from '@remix-run/cloudflare'
 import { formatInTimeZone } from 'date-fns-tz'
 import { type Day, type Item, type SourceDomain } from '~/data/items'
 
@@ -19,7 +18,7 @@ interface ItemDisplay {
   icon: string
 }
 
-export const loader = async (args: LoaderArgs) => {
+export const loader = async () => {
   // todo: make more efficient
   // some approaches:
   // 1. use cloudflare KV to cache results. only needs to happen once a day
@@ -120,7 +119,7 @@ export const loader = async (args: LoaderArgs) => {
     }
   }
 
-  return json({ farmable })
+  return { farmable }
 }
 
 const DataList = ({ children }: { children: ReactNode }) => {

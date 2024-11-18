@@ -1,9 +1,9 @@
 import { useLoaderData } from '@remix-run/react'
-import { type LoaderArgs, json } from '@remix-run/cloudflare'
+import { type LoaderFunctionArgs } from '@remix-run/cloudflare'
 
 import { db } from '~/utils/db.server'
 
-export const loader = async ({ params }: LoaderArgs) => {
+export const loader = async ({ params }: LoaderFunctionArgs) => {
   if (!params.id) {
     throw new Response('Not Found', {
       status: 404,
@@ -18,7 +18,7 @@ export const loader = async ({ params }: LoaderArgs) => {
     })
   }
 
-  return json({ material })
+  return { material }
 }
 
 export default function MaterialDetails() {

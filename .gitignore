@@ -5,6 +5,7 @@ functions/
 /functions/\[\[path\]\].js
 /functions/\[\[path\]\].js.map
 /public/build
+/.wrangler
 .env
 
 .DS_Store
