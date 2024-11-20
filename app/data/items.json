@@ -2710,6 +2710,11 @@
                     "icon": "UI_MonsterIcon_Invoker_Archdeacon"
                 },
                 {
+                    "id": 22120101,
+                    "name": "Tenebrous Papilla: Type I",
+                    "icon": "UI_MonsterIcon_TheAbyss_Dendrite"
+                },
+                {
                     "id": 24050101,
                     "name": "Algorithm of Semi-Intransient Matrix of Overseer Network",
                     "icon": "UI_MonsterIcon_Monolith_Starchild"
@@ -2978,6 +2983,11 @@
                     "id": 22100501,
                     "name": "Iniquitous Baptist",
                     "icon": "UI_MonsterIcon_Invoker_Archdeacon"
+                },
+                {
+                    "id": 22120101,
+                    "name": "Tenebrous Papilla: Type I",
+                    "icon": "UI_MonsterIcon_TheAbyss_Dendrite"
                 },
                 {
                     "id": 24050101,
@@ -3250,6 +3260,11 @@
                     "icon": "UI_MonsterIcon_Invoker_Archdeacon"
                 },
                 {
+                    "id": 22120101,
+                    "name": "Tenebrous Papilla: Type I",
+                    "icon": "UI_MonsterIcon_TheAbyss_Dendrite"
+                },
+                {
                     "id": 24050101,
                     "name": "Algorithm of Semi-Intransient Matrix of Overseer Network",
                     "icon": "UI_MonsterIcon_Monolith_Starchild"
@@ -3518,6 +3533,11 @@
                     "id": 22100501,
                     "name": "Iniquitous Baptist",
                     "icon": "UI_MonsterIcon_Invoker_Archdeacon"
+                },
+                {
+                    "id": 22120101,
+                    "name": "Tenebrous Papilla: Type I",
+                    "icon": "UI_MonsterIcon_TheAbyss_Dendrite"
                 },
                 {
                     "id": 24050101,
@@ -5579,6 +5599,12 @@
                         "name": "Clorinde",
                         "rank": 5,
                         "icon": "UI_AvatarIcon_Clorinde"
+                    },
+                    {
+                        "id": 10000105,
+                        "name": "Ororon",
+                        "rank": 4,
+                        "icon": "UI_AvatarIcon_Olorun"
                     }
                 ]
             },
@@ -5597,6 +5623,11 @@
                     "id": 22100501,
                     "name": "Iniquitous Baptist",
                     "icon": "UI_MonsterIcon_Invoker_Archdeacon"
+                },
+                {
+                    "id": 22120101,
+                    "name": "Tenebrous Papilla: Type I",
+                    "icon": "UI_MonsterIcon_TheAbyss_Dendrite"
                 },
                 {
                     "id": 24090201,
@@ -5842,6 +5873,12 @@
                         "name": "Clorinde",
                         "rank": 5,
                         "icon": "UI_AvatarIcon_Clorinde"
+                    },
+                    {
+                        "id": 10000105,
+                        "name": "Ororon",
+                        "rank": 4,
+                        "icon": "UI_AvatarIcon_Olorun"
                     }
                 ]
             },
@@ -5860,6 +5897,11 @@
                     "id": 22100501,
                     "name": "Iniquitous Baptist",
                     "icon": "UI_MonsterIcon_Invoker_Archdeacon"
+                },
+                {
+                    "id": 22120101,
+                    "name": "Tenebrous Papilla: Type I",
+                    "icon": "UI_MonsterIcon_TheAbyss_Dendrite"
                 },
                 {
                     "id": 24090201,
@@ -6105,6 +6147,12 @@
                         "name": "Clorinde",
                         "rank": 5,
                         "icon": "UI_AvatarIcon_Clorinde"
+                    },
+                    {
+                        "id": 10000105,
+                        "name": "Ororon",
+                        "rank": 4,
+                        "icon": "UI_AvatarIcon_Olorun"
                     }
                 ]
             },
@@ -6123,6 +6171,11 @@
                     "id": 22100501,
                     "name": "Iniquitous Baptist",
                     "icon": "UI_MonsterIcon_Invoker_Archdeacon"
+                },
+                {
+                    "id": 22120101,
+                    "name": "Tenebrous Papilla: Type I",
+                    "icon": "UI_MonsterIcon_TheAbyss_Dendrite"
                 },
                 {
                     "id": 24090201,
@@ -6368,6 +6421,12 @@
                         "name": "Clorinde",
                         "rank": 5,
                         "icon": "UI_AvatarIcon_Clorinde"
+                    },
+                    {
+                        "id": 10000105,
+                        "name": "Ororon",
+                        "rank": 4,
+                        "icon": "UI_AvatarIcon_Olorun"
                     }
                 ]
             },
@@ -6386,6 +6445,11 @@
                     "id": 22100501,
                     "name": "Iniquitous Baptist",
                     "icon": "UI_MonsterIcon_Invoker_Archdeacon"
+                },
+                {
+                    "id": 22120101,
+                    "name": "Tenebrous Papilla: Type I",
+                    "icon": "UI_MonsterIcon_TheAbyss_Dendrite"
                 },
                 {
                     "id": 24090201,
@@ -6615,6 +6679,12 @@
                         "name": "Xianyun",
                         "rank": 5,
                         "icon": "UI_AvatarIcon_Liuyun"
+                    },
+                    {
+                        "id": 10000104,
+                        "name": "Chasca",
+                        "rank": 5,
+                        "icon": "UI_AvatarIcon_Chasca"
                     }
                 ]
             },
@@ -6623,6 +6693,11 @@
                     "id": 20040201,
                     "name": "Anemo Hypostasis",
                     "icon": "UI_MonsterIcon_Effigy_Wind"
+                },
+                {
+                    "id": 22120101,
+                    "name": "Tenebrous Papilla: Type I",
+                    "icon": "UI_MonsterIcon_TheAbyss_Dendrite"
                 },
                 {
                     "id": 24050101,
@@ -6841,6 +6916,12 @@
                         "name": "Xianyun",
                         "rank": 5,
                         "icon": "UI_AvatarIcon_Liuyun"
+                    },
+                    {
+                        "id": 10000104,
+                        "name": "Chasca",
+                        "rank": 5,
+                        "icon": "UI_AvatarIcon_Chasca"
                     }
                 ]
             },
@@ -6849,6 +6930,11 @@
                     "id": 20040201,
                     "name": "Anemo Hypostasis",
                     "icon": "UI_MonsterIcon_Effigy_Wind"
+                },
+                {
+                    "id": 22120101,
+                    "name": "Tenebrous Papilla: Type I",
+                    "icon": "UI_MonsterIcon_TheAbyss_Dendrite"
                 },
                 {
                     "id": 24050101,
@@ -7067,6 +7153,12 @@
                         "name": "Xianyun",
                         "rank": 5,
                         "icon": "UI_AvatarIcon_Liuyun"
+                    },
+                    {
+                        "id": 10000104,
+                        "name": "Chasca",
+                        "rank": 5,
+                        "icon": "UI_AvatarIcon_Chasca"
                     }
                 ]
             },
@@ -7075,6 +7167,11 @@
                     "id": 20040201,
                     "name": "Anemo Hypostasis",
                     "icon": "UI_MonsterIcon_Effigy_Wind"
+                },
+                {
+                    "id": 22120101,
+                    "name": "Tenebrous Papilla: Type I",
+                    "icon": "UI_MonsterIcon_TheAbyss_Dendrite"
                 },
                 {
                     "id": 24050101,
@@ -7293,6 +7390,12 @@
                         "name": "Xianyun",
                         "rank": 5,
                         "icon": "UI_AvatarIcon_Liuyun"
+                    },
+                    {
+                        "id": 10000104,
+                        "name": "Chasca",
+                        "rank": 5,
+                        "icon": "UI_AvatarIcon_Chasca"
                     }
                 ]
             },
@@ -7301,6 +7404,11 @@
                     "id": 20040201,
                     "name": "Anemo Hypostasis",
                     "icon": "UI_MonsterIcon_Effigy_Wind"
+                },
+                {
+                    "id": 22120101,
+                    "name": "Tenebrous Papilla: Type I",
+                    "icon": "UI_MonsterIcon_TheAbyss_Dendrite"
                 },
                 {
                     "id": 24050101,
@@ -11604,6 +11712,18 @@
                         "icon": "UI_AvatarIcon_Xilonen"
                     },
                     {
+                        "id": 10000104,
+                        "name": "Chasca",
+                        "rank": 5,
+                        "icon": "UI_AvatarIcon_Chasca"
+                    },
+                    {
+                        "id": 10000105,
+                        "name": "Ororon",
+                        "rank": 4,
+                        "icon": "UI_AvatarIcon_Olorun"
+                    },
+                    {
                         "id": "10000005-hydro",
                         "name": "Traveler",
                         "rank": 5,
@@ -13885,6 +14005,12 @@
                         "name": "Xilonen",
                         "rank": 5,
                         "icon": "UI_AvatarIcon_Xilonen"
+                    },
+                    {
+                        "id": 10000105,
+                        "name": "Ororon",
+                        "rank": 4,
+                        "icon": "UI_AvatarIcon_Olorun"
                     }
                 ]
             },
@@ -13934,9 +14060,15 @@
                     },
                     {
                         "id": 10000103,
-                        "name": 2515292882,
+                        "name": "Xilonen",
                         "rank": 5,
                         "icon": "UI_AvatarIcon_Xilonen"
+                    },
+                    {
+                        "id": 10000105,
+                        "name": "Ororon",
+                        "rank": 4,
+                        "icon": "UI_AvatarIcon_Olorun"
                     }
                 ]
             },
@@ -13986,9 +14118,15 @@
                     },
                     {
                         "id": 10000103,
-                        "name": 2515292882,
+                        "name": "Xilonen",
                         "rank": 5,
                         "icon": "UI_AvatarIcon_Xilonen"
+                    },
+                    {
+                        "id": 10000105,
+                        "name": "Ororon",
+                        "rank": 4,
+                        "icon": "UI_AvatarIcon_Olorun"
                     }
                 ]
             },
@@ -14030,6 +14168,12 @@
                         "name": "Kachina",
                         "rank": 4,
                         "icon": "UI_AvatarIcon_Kachina"
+                    },
+                    {
+                        "id": 10000104,
+                        "name": "Chasca",
+                        "rank": 5,
+                        "icon": "UI_AvatarIcon_Chasca"
                     }
                 ]
             },
@@ -14076,6 +14220,12 @@
                         "name": "Kachina",
                         "rank": 4,
                         "icon": "UI_AvatarIcon_Kachina"
+                    },
+                    {
+                        "id": 10000104,
+                        "name": "Chasca",
+                        "rank": 5,
+                        "icon": "UI_AvatarIcon_Chasca"
                     }
                 ]
             },
@@ -14122,6 +14272,12 @@
                         "name": "Kachina",
                         "rank": 4,
                         "icon": "UI_AvatarIcon_Kachina"
+                    },
+                    {
+                        "id": 10000104,
+                        "name": "Chasca",
+                        "rank": 5,
+                        "icon": "UI_AvatarIcon_Chasca"
                     }
                 ]
             },
@@ -22800,6 +22956,18 @@
                         "name": "Kinich",
                         "rank": 5,
                         "icon": "UI_AvatarIcon_Kinich"
+                    },
+                    {
+                        "id": 10000104,
+                        "name": "Chasca",
+                        "rank": 5,
+                        "icon": "UI_AvatarIcon_Chasca"
+                    },
+                    {
+                        "id": 10000105,
+                        "name": "Ororon",
+                        "rank": 4,
+                        "icon": "UI_AvatarIcon_Olorun"
                     }
                 ],
                 "weapon": [
@@ -22820,6 +22988,12 @@
                         "name": "Ash-Graven Drinking Horn",
                         "rank": 4,
                         "icon": "UI_EquipIcon_Catalyst_ConchSprayer"
+                    },
+                    {
+                        "id": 14430,
+                        "name": "Waveriding Whirl",
+                        "rank": 4,
+                        "icon": "UI_EquipIcon_Catalyst_Umpakati"
                     },
                     {
                         "id": 15431,
@@ -22914,6 +23088,18 @@
                         "name": "Kinich",
                         "rank": 5,
                         "icon": "UI_AvatarIcon_Kinich"
+                    },
+                    {
+                        "id": 10000104,
+                        "name": "Chasca",
+                        "rank": 5,
+                        "icon": "UI_AvatarIcon_Chasca"
+                    },
+                    {
+                        "id": 10000105,
+                        "name": "Ororon",
+                        "rank": 4,
+                        "icon": "UI_AvatarIcon_Olorun"
                     }
                 ],
                 "weapon": [
@@ -22934,6 +23120,12 @@
                         "name": "Ash-Graven Drinking Horn",
                         "rank": 4,
                         "icon": "UI_EquipIcon_Catalyst_ConchSprayer"
+                    },
+                    {
+                        "id": 14430,
+                        "name": "Waveriding Whirl",
+                        "rank": 4,
+                        "icon": "UI_EquipIcon_Catalyst_Umpakati"
                     },
                     {
                         "id": 15431,
@@ -23024,6 +23216,18 @@
                         "name": "Kinich",
                         "rank": 5,
                         "icon": "UI_AvatarIcon_Kinich"
+                    },
+                    {
+                        "id": 10000104,
+                        "name": "Chasca",
+                        "rank": 5,
+                        "icon": "UI_AvatarIcon_Chasca"
+                    },
+                    {
+                        "id": 10000105,
+                        "name": "Ororon",
+                        "rank": 4,
+                        "icon": "UI_AvatarIcon_Olorun"
                     }
                 ],
                 "weapon": [
@@ -23044,6 +23248,12 @@
                         "name": "Ash-Graven Drinking Horn",
                         "rank": 4,
                         "icon": "UI_EquipIcon_Catalyst_ConchSprayer"
+                    },
+                    {
+                        "id": 14430,
+                        "name": "Waveriding Whirl",
+                        "rank": 4,
+                        "icon": "UI_EquipIcon_Catalyst_Umpakati"
                     },
                     {
                         "id": 15431,
@@ -23151,6 +23361,12 @@
                         "icon": "UI_EquipIcon_Sword_Umpakati"
                     },
                     {
+                        "id": 11432,
+                        "name": "Calamity of Eshu",
+                        "rank": 4,
+                        "icon": "UI_EquipIcon_Sword_SacrificialNgombe"
+                    },
+                    {
                         "id": 12431,
                         "name": "Earth Shaker",
                         "rank": 4,
@@ -23163,10 +23379,22 @@
                         "icon": "UI_EquipIcon_Pole_Isikhulu"
                     },
                     {
+                        "id": 15430,
+                        "name": "Flower-Wreathed Feathers",
+                        "rank": 4,
+                        "icon": "UI_EquipIcon_Bow_Umpakati"
+                    },
+                    {
                         "id": 12513,
                         "name": "Fang of the Mountain King",
                         "rank": 5,
                         "icon": "UI_EquipIcon_Claymore_EmeraldSword"
+                    },
+                    {
+                        "id": 15514,
+                        "name": "Astral Vulture's Crimson Plumage",
+                        "rank": 5,
+                        "icon": "UI_EquipIcon_Bow_Qoyllorsnova"
                     }
                 ]
             },
@@ -23310,6 +23538,12 @@
                         "icon": "UI_EquipIcon_Sword_Umpakati"
                     },
                     {
+                        "id": 11432,
+                        "name": "Calamity of Eshu",
+                        "rank": 4,
+                        "icon": "UI_EquipIcon_Sword_SacrificialNgombe"
+                    },
+                    {
                         "id": 12431,
                         "name": "Earth Shaker",
                         "rank": 4,
@@ -23322,10 +23556,22 @@
                         "icon": "UI_EquipIcon_Pole_Isikhulu"
                     },
                     {
+                        "id": 15430,
+                        "name": "Flower-Wreathed Feathers",
+                        "rank": 4,
+                        "icon": "UI_EquipIcon_Bow_Umpakati"
+                    },
+                    {
                         "id": 12513,
                         "name": "Fang of the Mountain King",
                         "rank": 5,
                         "icon": "UI_EquipIcon_Claymore_EmeraldSword"
+                    },
+                    {
+                        "id": 15514,
+                        "name": "Astral Vulture's Crimson Plumage",
+                        "rank": 5,
+                        "icon": "UI_EquipIcon_Bow_Qoyllorsnova"
                     }
                 ]
             },
@@ -23465,6 +23711,12 @@
                         "icon": "UI_EquipIcon_Sword_Umpakati"
                     },
                     {
+                        "id": 11432,
+                        "name": "Calamity of Eshu",
+                        "rank": 4,
+                        "icon": "UI_EquipIcon_Sword_SacrificialNgombe"
+                    },
+                    {
                         "id": 12431,
                         "name": "Earth Shaker",
                         "rank": 4,
@@ -23477,10 +23729,22 @@
                         "icon": "UI_EquipIcon_Pole_Isikhulu"
                     },
                     {
+                        "id": 15430,
+                        "name": "Flower-Wreathed Feathers",
+                        "rank": 4,
+                        "icon": "UI_EquipIcon_Bow_Umpakati"
+                    },
+                    {
                         "id": 12513,
                         "name": "Fang of the Mountain King",
                         "rank": 5,
                         "icon": "UI_EquipIcon_Claymore_EmeraldSword"
+                    },
+                    {
+                        "id": 15514,
+                        "name": "Astral Vulture's Crimson Plumage",
+                        "rank": 5,
+                        "icon": "UI_EquipIcon_Bow_Qoyllorsnova"
                     }
                 ]
             },
@@ -26980,6 +27244,12 @@
                         "name": "Chiori",
                         "rank": 5,
                         "icon": "UI_AvatarIcon_Chiori"
+                    },
+                    {
+                        "id": 10000105,
+                        "name": "Ororon",
+                        "rank": 4,
+                        "icon": "UI_AvatarIcon_Olorun"
                     }
                 ]
             },
@@ -27410,6 +27680,12 @@
                         "name": "Emilie",
                         "rank": 5,
                         "icon": "UI_AvatarIcon_Emilie"
+                    },
+                    {
+                        "id": 10000104,
+                        "name": "Chasca",
+                        "rank": 5,
+                        "icon": "UI_AvatarIcon_Chasca"
                     }
                 ]
             },
@@ -27515,6 +27791,12 @@
                         "name": "Mualani",
                         "rank": 5,
                         "icon": "UI_AvatarIcon_Mualani"
+                    },
+                    {
+                        "id": 10000105,
+                        "name": "Ororon",
+                        "rank": 4,
+                        "icon": "UI_AvatarIcon_Olorun"
                     }
                 ]
             },
@@ -27578,7 +27860,7 @@
     },
     {
         "name": "Gold-Inscribed Secret Source Core",
-        "description": "This is a core component that separated from the body of a Secret Source Automaton: Configuration Device that lost its ability to move after being defeated.\\nSome say that the cores that power all the Secret Source Automatons are actually the same kind of device, and that they simply carry different information, as attested to by the fact that the golden patterns on them are different. At first, the many commands were only added to the circuits to aid in its smooth running, but it seems that all the superimposition and layering of orders onto one another has wound up creating a rudimentary artificial intelligence.",
+        "description": "This is a core component that separated from the body of a Secret Source Automaton: Configuration Device that lost its ability to move after being defeated.\\nSome say that the cores that power all the Secret Source Automatons are the same type, and that they simply carry different information, as attested by the fact that the golden patterns on them are different. At first, the many commands were only added to the circuits to aid their smooth running, but it seems that all the superimposition and layering of orders onto one another has wound up creating a rudimentary artificial intelligence.",
         "type": "Character Level-Up Material",
         "recipe": null,
         "storyId": null,

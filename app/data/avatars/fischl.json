@@ -1013,153 +1013,7 @@
             },
             "cooldown": 0,
             "cost": 0,
-            "linkedConstellations": null,
-            "advancedProps": [
-                {
-                    "name": "Normal Attack 1-Hit",
-                    "elementalGaugeTheory": "—",
-                    "internalCooldown": null,
-                    "interruptionResistance": "12",
-                    "interruptionResistanceStagger": {
-                        "staggerLevel": "Shake",
-                        "horizontalForce": "0",
-                        "verticalForce": "0"
-                    },
-                    "bluntAttack": false
-                },
-                {
-                    "name": "Normal Attack 2-Hit",
-                    "elementalGaugeTheory": "—",
-                    "internalCooldown": null,
-                    "interruptionResistance": "12.9",
-                    "interruptionResistanceStagger": {
-                        "staggerLevel": "Shake",
-                        "horizontalForce": "0",
-                        "verticalForce": "0"
-                    },
-                    "bluntAttack": false
-                },
-                {
-                    "name": "Normal Attack 3-Hit",
-                    "elementalGaugeTheory": "—",
-                    "internalCooldown": null,
-                    "interruptionResistance": "15.9",
-                    "interruptionResistanceStagger": {
-                        "staggerLevel": "Shake",
-                        "horizontalForce": "0",
-                        "verticalForce": "0"
-                    },
-                    "bluntAttack": false
-                },
-                {
-                    "name": "Normal Attack 4-Hit",
-                    "elementalGaugeTheory": "—",
-                    "internalCooldown": null,
-                    "interruptionResistance": "15.6",
-                    "interruptionResistanceStagger": {
-                        "staggerLevel": "Shake",
-                        "horizontalForce": "0",
-                        "verticalForce": "0"
-                    },
-                    "bluntAttack": false
-                },
-                {
-                    "name": "Normal Attack 5-Hit",
-                    "elementalGaugeTheory": "—",
-                    "internalCooldown": null,
-                    "interruptionResistance": "19.71",
-                    "interruptionResistanceStagger": {
-                        "staggerLevel": "Shake",
-                        "horizontalForce": "0",
-                        "verticalForce": "0"
-                    },
-                    "bluntAttack": false
-                },
-                {
-                    "name": "Aimed Shot",
-                    "elementalGaugeTheory": "—",
-                    "internalCooldown": null,
-                    "interruptionResistance": "10",
-                    "interruptionResistanceStagger": {
-                        "staggerLevel": "Light",
-                        "horizontalForce": "200",
-                        "verticalForce": "0"
-                    },
-                    "bluntAttack": false
-                },
-                {
-                    "name": "Aimed Shot (Hit Weak Spot)",
-                    "elementalGaugeTheory": "—",
-                    "internalCooldown": null,
-                    "interruptionResistance": "30",
-                    "interruptionResistanceStagger": {
-                        "staggerLevel": "Air",
-                        "horizontalForce": "480",
-                        "verticalForce": "600"
-                    },
-                    "bluntAttack": false
-                },
-                {
-                    "name": "Fully-Charged Aimed Shot",
-                    "elementalGaugeTheory": "1U(w/ Dropoff)",
-                    "internalCooldown": null,
-                    "interruptionResistance": "20",
-                    "interruptionResistanceStagger": {
-                        "staggerLevel": "Light",
-                        "horizontalForce": "200",
-                        "verticalForce": "0"
-                    },
-                    "bluntAttack": false
-                },
-                {
-                    "name": "Fully-Charged Aimed Shot (Hit Weak Spot)",
-                    "elementalGaugeTheory": "1U(w/ Dropoff)",
-                    "internalCooldown": null,
-                    "interruptionResistance": "60",
-                    "interruptionResistanceStagger": {
-                        "staggerLevel": "Air",
-                        "horizontalForce": "480",
-                        "verticalForce": "600"
-                    },
-                    "bluntAttack": false
-                },
-                {
-                    "name": "Plunging Attack Collision",
-                    "elementalGaugeTheory": "—",
-                    "internalCooldown": null,
-                    "interruptionResistance": "10",
-                    "interruptionResistanceStagger": {
-                        "staggerLevel": "Light",
-                        "horizontalForce": "200",
-                        "verticalForce": "0"
-                    },
-                    "bluntAttack": false
-                },
-                {
-                    "name": "Low Plunge",
-                    "elementalGaugeTheory": "—",
-                    "internalCooldown": null,
-                    "interruptionResistance": "50",
-                    "interruptionResistanceStagger": {
-                        "staggerLevel": "Light",
-                        "horizontalForce": "200",
-                        "verticalForce": "0"
-                    },
-                    "bluntAttack": false
-                },
-                {
-                    "name": "High Plunge",
-                    "elementalGaugeTheory": "—",
-                    "internalCooldown": null,
-                    "interruptionResistance": "100",
-                    "interruptionResistanceStagger": {
-                        "staggerLevel": "Heavy",
-                        "horizontalForce": "200",
-                        "verticalForce": "0"
-                    },
-                    "bluntAttack": false
-                }
-            ]
+            "linkedConstellations": null
         },
         "1": {
             "type": 0,
@@ -1889,87 +1743,7 @@
                         "type": "normal"
                     }
                 ]
-            },
-            "advancedProps": [
-                {
-                    "name": "Summon DMG",
-                    "elementalGaugeTheory": "1U",
-                    "internalCooldown": null,
-                    "interruptionResistance": "80",
-                    "interruptionResistanceStagger": {
-                        "staggerLevel": "Light",
-                        "horizontalForce": "200",
-                        "verticalForce": "0"
-                    },
-                    "bluntAttack": false
-                },
-                {
-                    "name": "Oz's ATK DMG",
-                    "elementalGaugeTheory": "1U",
-                    "internalCooldown": {
-                        "tag": {
-                            "span": null,
-                            "text": "Elemental Skill"
-                        },
-                        "type": {
-                            "span": null,
-                            "text": "5s/4 Hits"
-                        }
-                    },
-                    "interruptionResistance": "10",
-                    "interruptionResistanceStagger": {
-                        "staggerLevel": "Shake",
-                        "horizontalForce": "0",
-                        "verticalForce": "0"
-                    },
-                    "bluntAttack": false
-                },
-                {
-                    "name": "Thundering Retribution (A1)",
-                    "elementalGaugeTheory": "1U",
-                    "internalCooldown": null,
-                    "interruptionResistance": "40",
-                    "interruptionResistanceStagger": {
-                        "staggerLevel": "Shake",
-                        "horizontalForce": "0",
-                        "verticalForce": "0"
-                    },
-                    "bluntAttack": false
-                },
-                {
-                    "name": "Thundering Retribution (A4)",
-                    "elementalGaugeTheory": "1U",
-                    "internalCooldown": null,
-                    "interruptionResistance": "40",
-                    "interruptionResistanceStagger": {
-                        "staggerLevel": "Shake",
-                        "horizontalForce": "0",
-                        "verticalForce": "0"
-                    },
-                    "bluntAttack": false
-                },
-                {
-                    "name": "Coordinated Attacks (C6)",
-                    "elementalGaugeTheory": "1U",
-                    "internalCooldown": {
-                        "tag": {
-                            "span": null,
-                            "text": "Elemental Skill"
-                        },
-                        "type": {
-                            "span": null,
-                            "text": "5s/4 Hits"
-                        }
-                    },
-                    "interruptionResistance": "10",
-                    "interruptionResistanceStagger": {
-                        "staggerLevel": "Mute",
-                        "horizontalForce": "0",
-                        "verticalForce": "0"
-                    },
-                    "bluntAttack": false
-                }
-            ]
+            }
         },
         "3": {
             "type": 1,
@@ -2699,84 +2473,21 @@
                         "type": "normal"
                     }
                 ]
-            },
-            "advancedProps": [
-                {
-                    "name": "Falling Thunder DMG",
-                    "elementalGaugeTheory": "2U",
-                    "internalCooldown": {
-                        "tag": {
-                            "span": "2",
-                            "text": "Elemental Burst"
-                        },
-                        "type": {
-                            "span": "2",
-                            "text": "5s/4 Hits"
-                        }
-                    },
-                    "interruptionResistance": "150",
-                    "interruptionResistanceStagger": {
-                        "staggerLevel": "Heavy",
-                        "horizontalForce": "200",
-                        "verticalForce": "0"
-                    },
-                    "bluntAttack": true
-                },
-                {
-                    "name": "Extra AoE DMG (C4)",
-                    "elementalGaugeTheory": "2U",
-                    "internalCooldown": "rowspan",
-                    "interruptionResistance": "500",
-                    "interruptionResistanceStagger": {
-                        "staggerLevel": "Light",
-                        "horizontalForce": "200",
-                        "verticalForce": "0"
-                    },
-                    "bluntAttack": false
-                }
-            ]
+            }
         },
         "4": {
             "type": 2,
             "name": "Stellar Predator",
             "description": "When Fischl hits Oz with a fully-charged Aimed Shot, Oz brings down Thundering Retribution, dealing <color=#FFACFFFF>AoE Electro DMG</color> equal to 152.7% of the arrow's DMG.",
             "icon": "UI_Talent_S_Fischl_05",
-            "linkedConstellations": null,
-            "advancedProps": [
-                {
-                    "name": "Thundering Retribution",
-                    "elementalGaugeTheory": "1U",
-                    "internalCooldown": null,
-                    "interruptionResistance": "40",
-                    "interruptionResistanceStagger": {
-                        "staggerLevel": "Shake",
-                        "horizontalForce": "0",
-                        "verticalForce": "0"
-                    },
-                    "bluntAttack": false
-                }
-            ]
+            "linkedConstellations": null
         },
         "5": {
             "type": 2,
             "name": "Undone Be Thy Sinful Hex",
             "description": "If your current active character triggers an <color=#FFACFFFF>Electro-related Elemental Reaction</color> when Oz is on the field, the opponent shall be stricken with Thundering Retribution that deals <color=#FFACFFFF>Electro DMG</color> equal to 80% of Fischl's ATK.",
             "icon": "UI_Talent_S_Fischl_06",
-            "linkedConstellations": null,
-            "advancedProps": [
-                {
-                    "name": "Thundering Retribution",
-                    "elementalGaugeTheory": "1U",
-                    "internalCooldown": null,
-                    "interruptionResistance": "40",
-                    "interruptionResistanceStagger": {
-                        "staggerLevel": "Shake",
-                        "horizontalForce": "0",
-                        "verticalForce": "0"
-                    },
-                    "bluntAttack": false
-                }
-            ]
+            "linkedConstellations": null
         },
         "6": {
             "type": 2,
@@ -2792,30 +2503,7 @@
             "name": "Gaze of the Deep",
             "description": "Even when Oz is not present in combat, he can still watch over Fischl through his raven eyes. When Fischl performs a Normal Attack against an opponent, Oz fires a coordinated attack, dealing DMG equal to 22% of Fischl's ATK.",
             "extraData": null,
-            "icon": "UI_Talent_S_Fischl_01",
-            "advancedProps": [
-                {
-                    "name": "Coordinated Attack",
-                    "elementalGaugeTheory": "—",
-                    "internalCooldown": {
-                        "tag": {
-                            "span": null,
-                            "text": "—"
-                        },
-                        "type": {
-                            "span": null,
-                            "text": "—"
-                        }
-                    },
-                    "interruptionResistance": "30",
-                    "interruptionResistanceStagger": {
-                        "staggerLevel": "Mute",
-                        "horizontalForce": "0",
-                        "verticalForce": "0"
-                    },
-                    "bluntAttack": false
-                }
-            ]
+            "icon": "UI_Talent_S_Fischl_01"
         },
         "1": {
             "id": 1,
@@ -2836,30 +2524,7 @@
             "name": "Her Pilgrimage of Bleak",
             "description": "When <color=#FFD780FF>Midnight Phantasmagoria</color> is used, it deals 222% of ATK as <color=#FFACFFFF>Electro DMG</color> to surrounding opponents.\\nWhen the skill duration ends, Fischl regenerates 20% of her HP.",
             "extraData": null,
-            "icon": "UI_Talent_S_Fischl_03",
-            "advancedProps": [
-                {
-                    "name": "Extra Electro DMG",
-                    "elementalGaugeTheory": "2U",
-                    "internalCooldown": {
-                        "tag": {
-                            "span": null,
-                            "text": "Elemental Burst"
-                        },
-                        "type": {
-                            "span": null,
-                            "text": "5s/4 Hits"
-                        }
-                    },
-                    "interruptionResistance": "500",
-                    "interruptionResistanceStagger": {
-                        "staggerLevel": "Light",
-                        "horizontalForce": "200",
-                        "verticalForce": "0"
-                    },
-                    "bluntAttack": false
-                }
-            ]
+            "icon": "UI_Talent_S_Fischl_03"
         },
         "4": {
             "id": 4,
@@ -2873,30 +2538,7 @@
             "name": "Evernight Raven",
             "description": "Extends the duration of Oz's presence on the field by 2s. Additionally, Oz performs coordinated attacks with your active character when present, dealing 30% of Fischl's ATK as <color=#FFACFFFF>Electro DMG</color>.",
             "extraData": null,
-            "icon": "UI_Talent_S_Fischl_04",
-            "advancedProps": [
-                {
-                    "name": "Coordinated Attack",
-                    "elementalGaugeTheory": "1U",
-                    "internalCooldown": {
-                        "tag": {
-                            "span": null,
-                            "text": "Elemental Skill"
-                        },
-                        "type": {
-                            "span": null,
-                            "text": "5s/4 Hits"
-                        }
-                    },
-                    "interruptionResistance": "10",
-                    "interruptionResistanceStagger": {
-                        "staggerLevel": "Mute",
-                        "horizontalForce": "0",
-                        "verticalForce": "0"
-                    },
-                    "bluntAttack": false
-                }
-            ]
+            "icon": "UI_Talent_S_Fischl_04"
         }
     },
     "_id": 10000031
