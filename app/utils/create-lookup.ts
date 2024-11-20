@@ -2,6 +2,7 @@ type KeysMatching<T, V> = {
   [K in keyof T]-?: T[K] extends V ? K : never
 }[keyof T]
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 export const createLookup = <T extends Record<string, any>>(
   records: T[],
   lookupKey: KeysMatching<T, string | number>

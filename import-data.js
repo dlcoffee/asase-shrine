@@ -1,6 +1,7 @@
-const axios = require('axios')
-const fs = require('fs/promises')
-const path = require('path')
+import axios from 'axios'
+import fs from 'fs/promises'
+import path from 'path'
+import { fileURLToPath } from 'url'
 
 const avatarsToImport = [
   { id: 10000002 },
@@ -106,6 +107,10 @@ const avatarsToImport = [
 function nameToId(str) {
   return str.toLowerCase().split(' ').join('_')
 }
+
+const __filename = fileURLToPath(import.meta.url)
+
+const __dirname = path.dirname(__filename)
 
 async function fetchAndWriteAvatar(id) {
   try {

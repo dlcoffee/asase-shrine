@@ -1,8 +1,8 @@
-import { type MetaFunction, type LinksFunction } from '@remix-run/cloudflare'
-import { Link, Links, LiveReload, Meta, Outlet, Scripts, ScrollRestoration } from '@remix-run/react'
-import stylesheet from '~/tailwind.css'
+import { type MetaFunction } from '@remix-run/cloudflare'
+import { Link, Links, Meta, Outlet, Scripts, ScrollRestoration } from '@remix-run/react'
+import './tailwind.css'
 
-export const links: LinksFunction = () => [{ rel: 'stylesheet', href: stylesheet }]
+// export const links: LinksFunction = () => [{ rel: 'stylesheet', href: stylesheet }]
 
 export const meta: MetaFunction = () => {
   return [
@@ -12,17 +12,19 @@ export const meta: MetaFunction = () => {
   ]
 }
 
-export default function App() {
+export function Layout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
       <head>
+        <meta charSet="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <Meta />
         <Links />
       </head>
       <body>
         <nav className="bg-gray-800">
           <div className="mx-auto max-w-lg px-4">
-            <div className="space-y-1  pt-2 pb-3">
+            <div className="space-y-1  pb-3 pt-2">
               <Link to="/" className="pr-2 text-white">
                 Home
               </Link>
@@ -33,11 +35,14 @@ export default function App() {
             </div>
           </div>
         </nav>
-        <Outlet />
+        {children}
         <ScrollRestoration />
         <Scripts />
-        <LiveReload />
       </body>
     </html>
   )
+}
+
+export default function App() {
+  return <Outlet />
 }
