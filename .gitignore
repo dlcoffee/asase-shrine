@@ -1,11 +1,12 @@
 node_modules
 
 /.cache
-functions/
-/functions/\[\[path\]\].js
-/functions/\[\[path\]\].js.map
+/build
 /public/build
-/.wrangler
+.env
+.dev.vars
+
+.wrangler
 .env
 
 .DS_Store
