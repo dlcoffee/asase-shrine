@@ -1014,159 +1014,7 @@
                         "type": "level"
                     }
                 ]
-            },
-            "advancedProps": [
-                {
-                    "name": "Normal Attack 1-Hit",
-                    "elementalGaugeTheory": "1U",
-                    "internalCooldown": {
-                        "tag": {
-                            "span": "7",
-                            "text": "Normal Attack"
-                        },
-                        "type": {
-                            "span": "7",
-                            "text": "2.5s/3 Hits"
-                        }
-                    },
-                    "interruptionResistance": "43.8",
-                    "interruptionResistanceStagger": {
-                        "staggerLevel": "Heavy",
-                        "horizontalForce": "200",
-                        "verticalForce": "0"
-                    },
-                    "bluntAttack": false
-                },
-                {
-                    "name": "Normal Attack 2-Hit",
-                    "elementalGaugeTheory": "1U",
-                    "internalCooldown": "rowspan",
-                    "interruptionResistance": "48.1",
-                    "interruptionResistanceStagger": {
-                        "staggerLevel": "Heavy",
-                        "horizontalForce": "200",
-                        "verticalForce": "0"
-                    },
-                    "bluntAttack": false
-                },
-                {
-                    "name": "Normal Attack 3-Hit",
-                    "elementalGaugeTheory": "1U",
-                    "internalCooldown": "rowspan",
-                    "interruptionResistance": "60.3",
-                    "interruptionResistanceStagger": {
-                        "staggerLevel": "Heavy",
-                        "horizontalForce": "800",
-                        "verticalForce": "0"
-                    },
-                    "bluntAttack": false
-                },
-                {
-                    "name": "Normal Attack 4-Hit A",
-                    "elementalGaugeTheory": "1U",
-                    "internalCooldown": "rowspan",
-                    "interruptionResistance": "33.2",
-                    "interruptionResistanceStagger": {
-                        "staggerLevel": "Heavy",
-                        "horizontalForce": "200",
-                        "verticalForce": "0"
-                    },
-                    "bluntAttack": false
-                },
-                {
-                    "name": "Normal Attack 4-Hit B",
-                    "elementalGaugeTheory": "1U",
-                    "internalCooldown": "rowspan",
-                    "interruptionResistance": "33.2",
-                    "interruptionResistanceStagger": {
-                        "staggerLevel": "Heavy",
-                        "horizontalForce": "200",
-                        "verticalForce": "0"
-                    },
-                    "bluntAttack": false
-                },
-                {
-                    "name": "Normal Attack 5-Hit",
-                    "elementalGaugeTheory": "1U",
-                    "internalCooldown": "rowspan",
-                    "interruptionResistance": "65.9",
-                    "interruptionResistanceStagger": {
-                        "staggerLevel": "Air",
-                        "horizontalForce": "200",
-                        "verticalForce": "600"
-                    },
-                    "bluntAttack": false
-                },
-                {
-                    "name": "Normal Attack 6-Hit",
-                    "elementalGaugeTheory": "1U",
-                    "internalCooldown": "rowspan",
-                    "interruptionResistance": "78.9",
-                    "interruptionResistanceStagger": {
-                        "staggerLevel": "Heavy",
-                        "horizontalForce": "800",
-                        "verticalForce": "0"
-                    },
-                    "bluntAttack": false
-                },
-                {
-                    "name": "Charged Attack",
-                    "elementalGaugeTheory": "1U",
-                    "internalCooldown": {
-                        "tag": {
-                            "span": null,
-                            "text": "Charged Attack"
-                        },
-                        "type": {
-                            "span": null,
-                            "text": "0.5s"
-                        }
-                    },
-                    "interruptionResistance": "100",
-                    "interruptionResistanceStagger": {
-                        "staggerLevel": "Heavy",
-                        "horizontalForce": "800",
-                        "verticalForce": "0"
-                    },
-                    "bluntAttack": false
-                },
-                {
-                    "name": "Plunging Attack Collision",
-                    "elementalGaugeTheory": "0U",
-                    "internalCooldown": null,
-                    "interruptionResistance": "25",
-                    "interruptionResistanceStagger": {
-                        "staggerLevel": "Light",
-                        "horizontalForce": "200",
-                        "verticalForce": "0"
-                    },
-                    "bluntAttack": false
-                },
-                {
-                    "name": "Low Plunge",
-                    "elementalGaugeTheory": "1U",
-                    "internalCooldown": null,
-                    "interruptionResistance": "100",
-                    "interruptionResistanceStagger": {
-                        "staggerLevel": "Heavy",
-                        "horizontalForce": "800",
-                        "verticalForce": "0"
-                    },
-                    "bluntAttack": true
-                },
-                {
-                    "name": "High Plunge",
-                    "elementalGaugeTheory": "1U",
-                    "internalCooldown": null,
-                    "interruptionResistance": "150",
-                    "interruptionResistanceStagger": {
-                        "staggerLevel": "Air",
-                        "horizontalForce": "0",
-                        "verticalForce": "800"
-                    },
-                    "bluntAttack": true
-                }
-            ]
+            }
         },
         "1": {
             "type": 0,
@@ -1892,54 +1740,7 @@
                         "type": "normal"
                     }
                 ]
-            },
-            "advancedProps": [
-                {
-                    "name": "Spike DMG",
-                    "elementalGaugeTheory": "1U",
-                    "internalCooldown": {
-                        "tag": {
-                            "span": "2",
-                            "text": "Elemental Skill"
-                        },
-                        "type": {
-                            "span": "2",
-                            "text": "10s/1st, 3rd, 5th Hits Apply Element"
-                        }
-                    },
-                    "interruptionResistance": "25",
-                    "interruptionResistanceStagger": {
-                        "staggerLevel": "Heavy",
-                        "horizontalForce": "200",
-                        "verticalForce": "0"
-                    },
-                    "bluntAttack": false
-                },
-                {
-                    "name": "Blood-Debt Directive DMG",
-                    "elementalGaugeTheory": "1U",
-                    "internalCooldown": "rowspan",
-                    "interruptionResistance": "25",
-                    "interruptionResistanceStagger": {
-                        "staggerLevel": "Shake",
-                        "horizontalForce": "0",
-                        "verticalForce": "0"
-                    },
-                    "bluntAttack": false
-                },
-                {
-                    "name": "Cleave DMG",
-                    "elementalGaugeTheory": "1U",
-                    "internalCooldown": null,
-                    "interruptionResistance": "120",
-                    "interruptionResistanceStagger": {
-                        "staggerLevel": "Heavy",
-                        "horizontalForce": "800",
-                        "verticalForce": "0"
-                    },
-                    "bluntAttack": false
-                }
-            ]
+            }
         },
         "3": {
             "type": 1,
@@ -2673,21 +2474,7 @@
                         "type": "normal"
                     }
                 ]
-            },
-            "advancedProps": [
-                {
-                    "name": "Skill DMG",
-                    "elementalGaugeTheory": "1U",
-                    "internalCooldown": null,
-                    "interruptionResistance": "250",
-                    "interruptionResistanceStagger": {
-                        "staggerLevel": "Heavy",
-                        "horizontalForce": "800",
-                        "verticalForce": "0"
-                    },
-                    "bluntAttack": false
-                }
-            ]
+            }
         },
         "4": {
             "type": 2,
@@ -2732,21 +2519,7 @@
             "name": "\"All Rewards and Retribution, Mine to Bestow...\"",
             "description": "<color=#FFD780FF>Blood-Debt Directives</color> are now already Blood-Debt Due when first applied.\\nWhen Arlecchino absorbs such a Due, she unleashes Balemoon Bloodfire in front of her, dealing 900% of her ATK as <color=#FF9999FF>AoE Pyro DMG</color> and increasing her All Elemental RES and Physical RES by 20% for 15s. This effect can trigger once every 10s.\\nYou must first unlock the Passive Talent \"Agony Alone May Be Repaid.\"",
             "extraData": null,
-            "icon": "UI_Talent_S_Arlecchino_02",
-            "advancedProps": [
-                {
-                    "name": "Balemoon Bloodfire",
-                    "elementalGaugeTheory": "1U",
-                    "internalCooldown": null,
-                    "interruptionResistance": "150",
-                    "interruptionResistanceStagger": {
-                        "staggerLevel": "Heavy",
-                        "horizontalForce": "200",
-                        "verticalForce": "0"
-                    },
-                    "bluntAttack": false
-                }
-            ]
+            "icon": "UI_Talent_S_Arlecchino_02"
         },
         "2": {
             "id": 2,

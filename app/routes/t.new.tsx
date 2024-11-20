@@ -1,10 +1,9 @@
 import { useState } from 'react'
 import { useLoaderData, useNavigate } from '@remix-run/react'
-import { type LoaderFunctionArgs } from '@remix-run/cloudflare'
 
 import { db } from '~/utils/db.server'
 
-export const loader = async ({ request }: LoaderFunctionArgs) => {
+export const loader = async () => {
   const avatarData = await db.avatars.all()
 
   const avatars = avatarData.map((avatar) => {
@@ -24,16 +23,14 @@ export default function TrackingNew() {
   const [selected, setSelected] = useState<Record<string, boolean>>({})
   const { avatars } = data
 
-  console.log({ selected })
-
   return (
     <div className="mx-auto max-w-lg px-4">
-      <h1 className="pt-4 pb-2 text-3xl font-bold underline">New Tracking</h1>
+      <h1 className="pb-2 pt-4 text-3xl font-bold underline">New Tracking</h1>
 
       <div className="flex w-full justify-end px-2">
         <button
           type="button"
-          className="rounded bg-blue-500 py-2 px-4 font-bold text-white hover:bg-blue-700"
+          className="rounded bg-blue-500 px-4 py-2 font-bold text-white hover:bg-blue-700"
           onClick={() => {
             const ids = Object.keys(selected)
             const search = ids.map((id) => `a=${id}`).join('&')
@@ -52,11 +49,10 @@ export default function TrackingNew() {
           const avatarImgSrc = `https://gi.yatta.moe/assets/UI/${avatar.icon}.png`
 
           return (
-            <div
+            <button
               key={avatar.id}
               className={`flex ${selected[avatar.id] ? 'contrast-100' : 'contrast-50'}`}
               onClick={() => {
-                console.log('clicking, avatar.id:', avatar.id)
                 setSelected({
                   ...selected,
                   [avatar.id]: !selected[avatar.id],
@@ -71,7 +67,7 @@ export default function TrackingNew() {
                 width="48"
                 height="48"
               />
-            </div>
+            </button>
           )
         })}
       </div>

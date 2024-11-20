@@ -1013,114 +1013,7 @@
             },
             "cooldown": 0,
             "cost": 0,
-            "linkedConstellations": null,
-            "advancedProps": [
-                {
-                    "name": "Normal Attack 1-Hit",
-                    "elementalGaugeTheory": "1U",
-                    "internalCooldown": {
-                        "tag": {
-                            "span": "4",
-                            "text": "Mona Hydro DMG"
-                        },
-                        "type": {
-                            "span": "4",
-                            "text": "2.5s/3 Hits"
-                        }
-                    },
-                    "interruptionResistance": "7.65",
-                    "interruptionResistanceStagger": {
-                        "staggerLevel": "Shake",
-                        "horizontalForce": "0",
-                        "verticalForce": "0"
-                    },
-                    "bluntAttack": false
-                },
-                {
-                    "name": "Normal Attack 2-Hit",
-                    "elementalGaugeTheory": "1U",
-                    "internalCooldown": "rowspan",
-                    "interruptionResistance": "7.35",
-                    "interruptionResistanceStagger": {
-                        "staggerLevel": "Shake",
-                        "horizontalForce": "0",
-                        "verticalForce": "0"
-                    },
-                    "bluntAttack": false
-                },
-                {
-                    "name": "Normal Attack 3-Hit",
-                    "elementalGaugeTheory": "1U",
-                    "internalCooldown": "rowspan",
-                    "interruptionResistance": "9.15",
-                    "interruptionResistanceStagger": {
-                        "staggerLevel": "Shake",
-                        "horizontalForce": "0",
-                        "verticalForce": "0"
-                    },
-                    "bluntAttack": false
-                },
-                {
-                    "name": "Normal Attack 4-Hit",
-                    "elementalGaugeTheory": "1U",
-                    "internalCooldown": "rowspan",
-                    "interruptionResistance": "11.85",
-                    "interruptionResistanceStagger": {
-                        "staggerLevel": "Light",
-                        "horizontalForce": "200",
-                        "verticalForce": "0"
-                    },
-                    "bluntAttack": false
-                },
-                {
-                    "name": "Charged Attack",
-                    "elementalGaugeTheory": "1U",
-                    "internalCooldown": null,
-                    "interruptionResistance": "26.15",
-                    "interruptionResistanceStagger": {
-                        "staggerLevel": "Heavy",
-                        "horizontalForce": "200",
-                        "verticalForce": "0"
-                    },
-                    "bluntAttack": false
-                },
-                {
-                    "name": "Plunging Attack Collision",
-                    "elementalGaugeTheory": "0U",
-                    "internalCooldown": null,
-                    "interruptionResistance": "5",
-                    "interruptionResistanceStagger": {
-                        "staggerLevel": "Light",
-                        "horizontalForce": "200",
-                        "verticalForce": "0"
-                    },
-                    "bluntAttack": false
-                },
-                {
-                    "name": "Low Plunge",
-                    "elementalGaugeTheory": "1U",
-                    "internalCooldown": null,
-                    "interruptionResistance": "50",
-                    "interruptionResistanceStagger": {
-                        "staggerLevel": "Heavy",
-                        "horizontalForce": "200",
-                        "verticalForce": "0"
-                    },
-                    "bluntAttack": false
-                },
-                {
-                    "name": "High Plunge",
-                    "elementalGaugeTheory": "1U",
-                    "internalCooldown": null,
-                    "interruptionResistance": "100",
-                    "interruptionResistanceStagger": {
-                        "staggerLevel": "Heavy",
-                        "horizontalForce": "800",
-                        "verticalForce": "0"
-                    },
-                    "bluntAttack": false
-                }
-            ]
+            "linkedConstellations": null
         },
         "1": {
             "type": 0,
@@ -1846,42 +1739,7 @@
                         "type": "normal"
                     }
                 ]
-            },
-            "advancedProps": [
-                {
-                    "name": "DoT",
-                    "elementalGaugeTheory": "1U",
-                    "internalCooldown": {
-                        "tag": {
-                            "span": null,
-                            "text": "Elemental Skill"
-                        },
-                        "type": {
-                            "span": null,
-                            "text": "2.5s/3 Hits"
-                        }
-                    },
-                    "interruptionResistance": "40",
-                    "interruptionResistanceStagger": {
-                        "staggerLevel": "Light",
-                        "horizontalForce": "200",
-                        "verticalForce": "0"
-                    },
-                    "bluntAttack": false
-                },
-                {
-                    "name": "Explosion DMG",
-                    "elementalGaugeTheory": "1U",
-                    "internalCooldown": null,
-                    "interruptionResistance": "150",
-                    "interruptionResistanceStagger": {
-                        "staggerLevel": "Heavy",
-                        "horizontalForce": "200",
-                        "verticalForce": "0"
-                    },
-                    "bluntAttack": false
-                }
-            ]
+            }
         },
         "2": {
             "type": 0,
@@ -1945,30 +1803,7 @@
                         "type": "normal"
                     }
                 ]
-            },
-            "advancedProps": [
-                {
-                    "name": "Wet Application",
-                    "elementalGaugeTheory": "1U",
-                    "internalCooldown": {
-                        "tag": {
-                            "span": null,
-                            "text": "Alternate Sprint"
-                        },
-                        "type": {
-                            "span": null,
-                            "text": "2.5s/3 Hits"
-                        }
-                    },
-                    "interruptionResistance": "0",
-                    "interruptionResistanceStagger": {
-                        "staggerLevel": "Light",
-                        "horizontalForce": "200",
-                        "verticalForce": "0"
-                    },
-                    "bluntAttack": false
-                }
-            ]
+            }
         },
         "4": {
             "type": 1,
@@ -2694,63 +2529,14 @@
                         "type": "normal"
                     }
                 ]
-            },
-            "advancedProps": [
-                {
-                    "name": "Wet Application On Cast",
-                    "elementalGaugeTheory": "1U",
-                    "internalCooldown": {
-                        "tag": {
-                            "span": "2",
-                            "text": "Elemental Burst"
-                        },
-                        "type": {
-                            "span": "2",
-                            "text": "2.5s/3 Hits"
-                        }
-                    },
-                    "interruptionResistance": "50",
-                    "interruptionResistanceStagger": {
-                        "staggerLevel": "Shake",
-                        "horizontalForce": "0",
-                        "verticalForce": "0"
-                    },
-                    "bluntAttack": false
-                },
-                {
-                    "name": "Illusory Bubble Explosion DMG",
-                    "elementalGaugeTheory": "2U",
-                    "internalCooldown": "rowspan",
-                    "interruptionResistance": "200",
-                    "interruptionResistanceStagger": {
-                        "staggerLevel": "Shake",
-                        "horizontalForce": "0",
-                        "verticalForce": "0"
-                    },
-                    "bluntAttack": false
-                }
-            ]
+            }
         },
         "5": {
             "type": 2,
             "name": "\"Come 'n' Get Me, Hag!\"",
             "description": "After she has used <color=#FFD780FF>Illusory Torrent</color> for 2s, if there are any opponents nearby, Mona will automatically create a Phantom.\\nA Phantom created in this manner lasts for 2s, and its explosion DMG is equal to 50% of <color=#FFD780FF>Mirror Reflection of Doom</color>.",
             "icon": "UI_Talent_S_Mona_05",
-            "linkedConstellations": null,
-            "advancedProps": [
-                {
-                    "name": "Extra Explosion DMG",
-                    "elementalGaugeTheory": "1U",
-                    "internalCooldown": null,
-                    "interruptionResistance": "150",
-                    "interruptionResistanceStagger": {
-                        "staggerLevel": "Heavy",
-                        "horizontalForce": "200",
-                        "verticalForce": "0"
-                    },
-                    "bluntAttack": false
-                }
-            ]
+            "linkedConstellations": null
         },
         "6": {
             "type": 2,
@@ -2780,21 +2566,7 @@
             "name": "Lunar Chain",
             "description": "When a Normal Attack hits, there is a 20% chance that it will be automatically followed by a Charged Attack.\\nThis effect can only occur once every 5s.",
             "extraData": null,
-            "icon": "UI_Talent_S_Mona_02",
-            "advancedProps": [
-                {
-                    "name": "Extra Charged Attack",
-                    "elementalGaugeTheory": "1U",
-                    "internalCooldown": null,
-                    "interruptionResistance": "26.15",
-                    "interruptionResistanceStagger": {
-                        "staggerLevel": "Heavy",
-                        "horizontalForce": "200",
-                        "verticalForce": "0"
-                    },
-                    "bluntAttack": false
-                }
-            ]
+            "icon": "UI_Talent_S_Mona_02"
         },
         "2": {
             "id": 2,

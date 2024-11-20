@@ -1006,114 +1006,7 @@
             },
             "cooldown": 0,
             "cost": 0,
-            "linkedConstellations": null,
-            "advancedProps": [
-                {
-                    "name": "Normal Attack 1-Hit",
-                    "elementalGaugeTheory": "1U",
-                    "internalCooldown": {
-                        "tag": {
-                            "span": "4",
-                            "text": "Normal Attack"
-                        },
-                        "type": {
-                            "span": "4",
-                            "text": "2.5s/3 Hits"
-                        }
-                    },
-                    "interruptionResistance": "7.557",
-                    "interruptionResistanceStagger": {
-                        "staggerLevel": "Light",
-                        "horizontalForce": "200",
-                        "verticalForce": "0"
-                    },
-                    "bluntAttack": false
-                },
-                {
-                    "name": "Normal Attack 2-Hit",
-                    "elementalGaugeTheory": "1U",
-                    "internalCooldown": "rowspan",
-                    "interruptionResistance": "6.933",
-                    "interruptionResistanceStagger": {
-                        "staggerLevel": "Light",
-                        "horizontalForce": "200",
-                        "verticalForce": "0"
-                    },
-                    "bluntAttack": false
-                },
-                {
-                    "name": "Normal Attack 3-Hit",
-                    "elementalGaugeTheory": "1U",
-                    "internalCooldown": "rowspan",
-                    "interruptionResistance": "8.601",
-                    "interruptionResistanceStagger": {
-                        "staggerLevel": "Light",
-                        "horizontalForce": "200",
-                        "verticalForce": "0"
-                    },
-                    "bluntAttack": false
-                },
-                {
-                    "name": "Normal Attack 4-Hit",
-                    "elementalGaugeTheory": "1U",
-                    "internalCooldown": "rowspan",
-                    "interruptionResistance": "10.951",
-                    "interruptionResistanceStagger": {
-                        "staggerLevel": "Heavy",
-                        "horizontalForce": "200",
-                        "verticalForce": "0"
-                    },
-                    "bluntAttack": false
-                },
-                {
-                    "name": "Charged Attack",
-                    "elementalGaugeTheory": "1U",
-                    "internalCooldown": null,
-                    "interruptionResistance": "80",
-                    "interruptionResistanceStagger": {
-                        "staggerLevel": "Heavy",
-                        "horizontalForce": "200",
-                        "verticalForce": "0"
-                    },
-                    "bluntAttack": false
-                },
-                {
-                    "name": "Plunging Attack Collision",
-                    "elementalGaugeTheory": "0U",
-                    "internalCooldown": null,
-                    "interruptionResistance": "5",
-                    "interruptionResistanceStagger": {
-                        "staggerLevel": "Light",
-                        "horizontalForce": "200",
-                        "verticalForce": "0"
-                    },
-                    "bluntAttack": false
-                },
-                {
-                    "name": "Low Plunge",
-                    "elementalGaugeTheory": "1U",
-                    "internalCooldown": null,
-                    "interruptionResistance": "50",
-                    "interruptionResistanceStagger": {
-                        "staggerLevel": "Heavy",
-                        "horizontalForce": "200",
-                        "verticalForce": "0"
-                    },
-                    "bluntAttack": false
-                },
-                {
-                    "name": "High Plunge",
-                    "elementalGaugeTheory": "1U",
-                    "internalCooldown": null,
-                    "interruptionResistance": "100",
-                    "interruptionResistanceStagger": {
-                        "staggerLevel": "Heavy",
-                        "horizontalForce": "800",
-                        "verticalForce": "0"
-                    },
-                    "bluntAttack": false
-                }
-            ]
+            "linkedConstellations": null
         },
         "1": {
             "type": 0,
@@ -1847,54 +1740,7 @@
                         "type": "normal"
                     }
                 ]
-            },
-            "advancedProps": [
-                {
-                    "name": "Press DMG",
-                    "elementalGaugeTheory": "1U",
-                    "internalCooldown": null,
-                    "interruptionResistance": "75",
-                    "interruptionResistanceStagger": {
-                        "staggerLevel": "Light",
-                        "horizontalForce": "200",
-                        "verticalForce": "0"
-                    },
-                    "bluntAttack": false
-                },
-                {
-                    "name": "Hold DMG",
-                    "elementalGaugeTheory": "1U",
-                    "internalCooldown": null,
-                    "interruptionResistance": "100",
-                    "interruptionResistanceStagger": {
-                        "staggerLevel": "Light",
-                        "horizontalForce": "200",
-                        "verticalForce": "0"
-                    },
-                    "bluntAttack": false
-                },
-                {
-                    "name": "Tri-Karma Purification DMG",
-                    "elementalGaugeTheory": "1.5U",
-                    "internalCooldown": {
-                        "tag": {
-                            "span": null,
-                            "text": "Nahida Tri-Karma Purification"
-                        },
-                        "type": {
-                            "span": null,
-                            "text": "1s"
-                        }
-                    },
-                    "interruptionResistance": "30",
-                    "interruptionResistanceStagger": {
-                        "staggerLevel": "Light",
-                        "horizontalForce": "200",
-                        "verticalForce": "0"
-                    },
-                    "bluntAttack": false
-                }
-            ]
+            }
         },
         "3": {
             "type": 1,
@@ -2701,30 +2547,7 @@
             "name": "The Fruit of Reason's Culmination",
             "description": "When Nahida hits an opponent affected by <color=#FFD780FF>All Schemes to Know</color>'s Seeds of Skandha with Normal or Charged Attacks after unleashing <color=#FFD780FF>Illusory Heart</color>, she will use Tri-Karma Purification: Karmic Oblivion on this opponent and all connected opponents, dealing <color=#99FF88FF>Dendro DMG</color> based on 200% of Nahida's ATK and 400% of her Elemental Mastery.\\nDMG dealt by Tri-Karma Purification: Karmic Oblivion is considered Elemental Skill DMG and can be triggered once every 0.2s.\\nThis effect can last up to 10s and will be removed after Nahida has unleashed 6 instances of Tri-Karma Purification: Karmic Oblivion.",
             "extraData": null,
-            "icon": "UI_Talent_S_Nahida_04",
-            "advancedProps": [
-                {
-                    "name": "Karmic Oblivion",
-                    "elementalGaugeTheory": "1U",
-                    "internalCooldown": {
-                        "tag": {
-                            "span": null,
-                            "text": "Nahida C6"
-                        },
-                        "type": {
-                            "span": null,
-                            "text": "2.5s/3 Hits"
-                        }
-                    },
-                    "interruptionResistance": "30",
-                    "interruptionResistanceStagger": {
-                        "staggerLevel": "Light",
-                        "horizontalForce": "200",
-                        "verticalForce": "0"
-                    },
-                    "bluntAttack": false
-                }
-            ]
+            "icon": "UI_Talent_S_Nahida_04"
         }
     },
     "_id": 10000073

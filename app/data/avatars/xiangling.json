@@ -1006,183 +1006,7 @@
             },
             "cooldown": 0,
             "cost": 0,
-            "linkedConstellations": null,
-            "advancedProps": [
-                {
-                    "name": "Normal Attack 1-Hit",
-                    "elementalGaugeTheory": "1U",
-                    "internalCooldown": {
-                        "tag": {
-                            "span": "9",
-                            "text": "Normal Attack"
-                        },
-                        "type": {
-                            "span": "9",
-                            "text": "2.5s/3 Hits"
-                        }
-                    },
-                    "interruptionResistance": "16",
-                    "interruptionResistanceStagger": {
-                        "staggerLevel": "Heavy",
-                        "horizontalForce": "200",
-                        "verticalForce": "0"
-                    },
-                    "bluntAttack": false
-                },
-                {
-                    "name": "Normal Attack 2-Hit",
-                    "elementalGaugeTheory": "1U",
-                    "internalCooldown": "rowspan",
-                    "interruptionResistance": "19.2",
-                    "interruptionResistanceStagger": {
-                        "staggerLevel": "Heavy",
-                        "horizontalForce": "200",
-                        "verticalForce": "0"
-                    },
-                    "bluntAttack": false
-                },
-                {
-                    "name": "Normal Attack 3-Hit A",
-                    "elementalGaugeTheory": "1U",
-                    "internalCooldown": "rowspan",
-                    "interruptionResistance": "19.2",
-                    "interruptionResistanceStagger": {
-                        "staggerLevel": "Light",
-                        "horizontalForce": "200",
-                        "verticalForce": "0"
-                    },
-                    "bluntAttack": false
-                },
-                {
-                    "name": "Normal Attack 3-Hit B",
-                    "elementalGaugeTheory": "1U",
-                    "internalCooldown": "rowspan",
-                    "interruptionResistance": "20",
-                    "interruptionResistanceStagger": {
-                        "staggerLevel": "Heavy",
-                        "horizontalForce": "200",
-                        "verticalForce": "0"
-                    },
-                    "bluntAttack": false
-                },
-                {
-                    "name": "Normal Attack 4-Hit A",
-                    "elementalGaugeTheory": "1U",
-                    "internalCooldown": "rowspan",
-                    "interruptionResistance": "19.2",
-                    "interruptionResistanceStagger": {
-                        "staggerLevel": "Light",
-                        "horizontalForce": "200",
-                        "verticalForce": "0"
-                    },
-                    "bluntAttack": false
-                },
-                {
-                    "name": "Normal Attack 4-Hit B",
-                    "elementalGaugeTheory": "1U",
-                    "internalCooldown": "rowspan",
-                    "interruptionResistance": "19.2",
-                    "interruptionResistanceStagger": {
-                        "staggerLevel": "Light",
-                        "horizontalForce": "200",
-                        "verticalForce": "0"
-                    },
-                    "bluntAttack": false
-                },
-                {
-                    "name": "Normal Attack 4-Hit C",
-                    "elementalGaugeTheory": "1U",
-                    "internalCooldown": "rowspan",
-                    "interruptionResistance": "19.2",
-                    "interruptionResistanceStagger": {
-                        "staggerLevel": "Heavy",
-                        "horizontalForce": "200",
-                        "verticalForce": "0"
-                    },
-                    "bluntAttack": false
-                },
-                {
-                    "name": "Normal Attack 4-Hit D",
-                    "elementalGaugeTheory": "1U",
-                    "internalCooldown": "rowspan",
-                    "interruptionResistance": "12.8",
-                    "interruptionResistanceStagger": {
-                        "staggerLevel": "Heavy",
-                        "horizontalForce": "200",
-                        "verticalForce": "0"
-                    },
-                    "bluntAttack": false
-                },
-                {
-                    "name": "Normal Attack 5-Hit",
-                    "elementalGaugeTheory": "1U",
-                    "internalCooldown": "rowspan",
-                    "interruptionResistance": "71.2",
-                    "interruptionResistanceStagger": {
-                        "staggerLevel": "Air",
-                        "horizontalForce": "655",
-                        "verticalForce": "800"
-                    },
-                    "bluntAttack": false
-                },
-                {
-                    "name": "Charged Attack",
-                    "elementalGaugeTheory": "1U",
-                    "internalCooldown": {
-                        "tag": {
-                            "span": null,
-                            "text": "Charged Attack"
-                        },
-                        "type": {
-                            "span": null,
-                            "text": "0.5s"
-                        }
-                    },
-                    "interruptionResistance": "120",
-                    "interruptionResistanceStagger": {
-                        "staggerLevel": "Air",
-                        "horizontalForce": "480",
-                        "verticalForce": "600"
-                    },
-                    "bluntAttack": false
-                },
-                {
-                    "name": "Plunging Attack Collision",
-                    "elementalGaugeTheory": "0U",
-                    "internalCooldown": null,
-                    "interruptionResistance": "25",
-                    "interruptionResistanceStagger": {
-                        "staggerLevel": "Light",
-                        "horizontalForce": "200",
-                        "verticalForce": "0"
-                    },
-                    "bluntAttack": false
-                },
-                {
-                    "name": "Low Plunge",
-                    "elementalGaugeTheory": "1U",
-                    "internalCooldown": null,
-                    "interruptionResistance": "100",
-                    "interruptionResistanceStagger": {
-                        "staggerLevel": "Heavy",
-                        "horizontalForce": "800",
-                        "verticalForce": "0"
-                    },
-                    "bluntAttack": true
-                },
-                {
-                    "name": "High Plunge",
-                    "elementalGaugeTheory": "1U",
-                    "internalCooldown": null,
-                    "interruptionResistance": "150",
-                    "interruptionResistanceStagger": {
-                        "staggerLevel": "Air",
-                        "horizontalForce": "0",
-                        "verticalForce": "800"
-                    },
-                    "bluntAttack": true
-                }
-            ]
+            "linkedConstellations": null
         },
         "1": {
             "type": 0,
@@ -1908,21 +1732,7 @@
                         "type": "normal"
                     }
                 ]
-            },
-            "advancedProps": [
-                {
-                    "name": "Flame DMG",
-                    "elementalGaugeTheory": "1U",
-                    "internalCooldown": null,
-                    "interruptionResistance": "32",
-                    "interruptionResistanceStagger": {
-                        "staggerLevel": "Heavy",
-                        "horizontalForce": "200",
-                        "verticalForce": "0"
-                    },
-                    "bluntAttack": false
-                }
-            ]
+            }
         },
         "3": {
             "type": 1,
@@ -2656,42 +2466,7 @@
                         "type": "normal"
                     }
                 ]
-            },
-            "advancedProps": [
-                {
-                    "name": "Swing DMG",
-                    "elementalGaugeTheory": "1U",
-                    "internalCooldown": {
-                        "tag": {
-                            "span": null,
-                            "text": "Elemental Burst"
-                        },
-                        "type": {
-                            "span": null,
-                            "text": "2.5s/3 Hits"
-                        }
-                    },
-                    "interruptionResistance": "30",
-                    "interruptionResistanceStagger": {
-                        "staggerLevel": "Heavy",
-                        "horizontalForce": "200",
-                        "verticalForce": "0"
-                    },
-                    "bluntAttack": false
-                },
-                {
-                    "name": "Pyronado DMG",
-                    "elementalGaugeTheory": "1U",
-                    "internalCooldown": null,
-                    "interruptionResistance": "30",
-                    "interruptionResistanceStagger": {
-                        "staggerLevel": "Heavy",
-                        "horizontalForce": "200",
-                        "verticalForce": "0"
-                    },
-                    "bluntAttack": false
-                }
-            ]
+            }
         },
         "4": {
             "type": 2,
@@ -2728,21 +2503,7 @@
             "name": "Oil Meets Fire",
             "description": "The last attack in a Normal Attack sequence applies the Implode status onto the opponent for 2s. An explosion will occur once this duration ends, dealing 75% of Xiangling's ATK as <color=#FF9999FF>AoE Pyro DMG</color>.",
             "extraData": null,
-            "icon": "UI_Talent_S_Xiangling_02",
-            "advancedProps": [
-                {
-                    "name": "Implode",
-                    "elementalGaugeTheory": "1U",
-                    "internalCooldown": null,
-                    "interruptionResistance": "8.8",
-                    "interruptionResistanceStagger": {
-                        "staggerLevel": "Light",
-                        "horizontalForce": "200",
-                        "verticalForce": "0"
-                    },
-                    "bluntAttack": false
-                }
-            ]
+            "icon": "UI_Talent_S_Xiangling_02"
         },
         "2": {
             "id": 2,

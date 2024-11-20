@@ -1006,135 +1006,7 @@
             },
             "cooldown": 0,
             "cost": 0,
-            "linkedConstellations": null,
-            "advancedProps": [
-                {
-                    "name": "Normal Attack 1-Hit",
-                    "elementalGaugeTheory": "1U",
-                    "internalCooldown": {
-                        "tag": {
-                            "span": "5",
-                            "text": "Normal Attack"
-                        },
-                        "type": {
-                            "span": "5",
-                            "text": "2.5s/3 Hits"
-                        }
-                    },
-                    "interruptionResistance": "51.73",
-                    "interruptionResistanceStagger": {
-                        "staggerLevel": "Heavy",
-                        "horizontalForce": "200",
-                        "verticalForce": "0"
-                    },
-                    "bluntAttack": false
-                },
-                {
-                    "name": "Normal Attack 2-Hit",
-                    "elementalGaugeTheory": "1U",
-                    "internalCooldown": "rowspan",
-                    "interruptionResistance": "47.506",
-                    "interruptionResistanceStagger": {
-                        "staggerLevel": "Heavy",
-                        "horizontalForce": "200",
-                        "verticalForce": "0"
-                    },
-                    "bluntAttack": false
-                },
-                {
-                    "name": "Normal Attack 3-Hit A",
-                    "elementalGaugeTheory": "1U",
-                    "internalCooldown": "rowspan",
-                    "interruptionResistance": "33.035",
-                    "interruptionResistanceStagger": {
-                        "staggerLevel": "Heavy",
-                        "horizontalForce": "200",
-                        "verticalForce": "0"
-                    },
-                    "bluntAttack": false
-                },
-                {
-                    "name": "Normal Attack 3-Hit B",
-                    "elementalGaugeTheory": "1U",
-                    "internalCooldown": "rowspan",
-                    "interruptionResistance": "33.035",
-                    "interruptionResistanceStagger": {
-                        "staggerLevel": "Heavy",
-                        "horizontalForce": "200",
-                        "verticalForce": "0"
-                    },
-                    "bluntAttack": false
-                },
-                {
-                    "name": "Normal Attack 4-Hit",
-                    "elementalGaugeTheory": "1U",
-                    "internalCooldown": "rowspan",
-                    "interruptionResistance": "77.358",
-                    "interruptionResistanceStagger": {
-                        "staggerLevel": "Heavy",
-                        "horizontalForce": "800",
-                        "verticalForce": "0"
-                    },
-                    "bluntAttack": false
-                },
-                {
-                    "name": "Charged Attack",
-                    "elementalGaugeTheory": "1U",
-                    "internalCooldown": {
-                        "tag": {
-                            "span": null,
-                            "text": "Charged Attack"
-                        },
-                        "type": {
-                            "span": null,
-                            "text": "0.5s"
-                        }
-                    },
-                    "interruptionResistance": "120",
-                    "interruptionResistanceStagger": {
-                        "staggerLevel": "Air",
-                        "horizontalForce": "480",
-                        "verticalForce": "600"
-                    },
-                    "bluntAttack": false
-                },
-                {
-                    "name": "Plunging Attack Collision",
-                    "elementalGaugeTheory": "0U",
-                    "internalCooldown": null,
-                    "interruptionResistance": "25",
-                    "interruptionResistanceStagger": {
-                        "staggerLevel": "Light",
-                        "horizontalForce": "200",
-                        "verticalForce": "0"
-                    },
-                    "bluntAttack": false
-                },
-                {
-                    "name": "Low Plunge",
-                    "elementalGaugeTheory": "1U",
-                    "internalCooldown": null,
-                    "interruptionResistance": "100",
-                    "interruptionResistanceStagger": {
-                        "staggerLevel": "Heavy",
-                        "horizontalForce": "800",
-                        "verticalForce": "0"
-                    },
-                    "bluntAttack": true
-                },
-                {
-                    "name": "High Plunge",
-                    "elementalGaugeTheory": "1U",
-                    "internalCooldown": null,
-                    "interruptionResistance": "150",
-                    "interruptionResistanceStagger": {
-                        "staggerLevel": "Air",
-                        "horizontalForce": "0",
-                        "verticalForce": "800"
-                    },
-                    "bluntAttack": true
-                }
-            ]
+            "linkedConstellations": null
         },
         "1": {
             "type": 0,
@@ -1864,42 +1736,7 @@
                         "type": "normal"
                     }
                 ]
-            },
-            "advancedProps": [
-                {
-                    "name": "White Jade Radish DMG",
-                    "elementalGaugeTheory": "1U",
-                    "internalCooldown": {
-                        "tag": {
-                            "span": null,
-                            "text": "Elemental Skill"
-                        },
-                        "type": {
-                            "span": null,
-                            "text": "2.5s"
-                        }
-                    },
-                    "interruptionResistance": "15",
-                    "interruptionResistanceStagger": {
-                        "staggerLevel": "Light",
-                        "horizontalForce": "200",
-                        "verticalForce": "0"
-                    },
-                    "bluntAttack": false
-                },
-                {
-                    "name": "Mega Radish DMG (C6)",
-                    "elementalGaugeTheory": "1U",
-                    "internalCooldown": null,
-                    "interruptionResistance": "30",
-                    "interruptionResistanceStagger": {
-                        "staggerLevel": "Light",
-                        "horizontalForce": "200",
-                        "verticalForce": "0"
-                    },
-                    "bluntAttack": false
-                }
-            ]
+            }
         },
         "3": {
             "type": 1,
@@ -2633,42 +2470,7 @@
                         "type": "level"
                     }
                 ]
-            },
-            "advancedProps": [
-                {
-                    "name": "Skill DMG",
-                    "elementalGaugeTheory": "1U",
-                    "internalCooldown": null,
-                    "interruptionResistance": "50",
-                    "interruptionResistanceStagger": {
-                        "staggerLevel": "Heavy",
-                        "horizontalForce": "200",
-                        "verticalForce": "0"
-                    },
-                    "bluntAttack": false
-                },
-                {
-                    "name": "Adeptal Legacy White Jade Radish DMG",
-                    "elementalGaugeTheory": "1U",
-                    "internalCooldown": {
-                        "tag": {
-                            "span": null,
-                            "text": "Elemental Burst"
-                        },
-                        "type": {
-                            "span": null,
-                            "text": "1.5s"
-                        }
-                    },
-                    "interruptionResistance": "15",
-                    "interruptionResistanceStagger": {
-                        "staggerLevel": "Light",
-                        "horizontalForce": "200",
-                        "verticalForce": "0"
-                    },
-                    "bluntAttack": false
-                }
-            ]
+            }
         },
         "4": {
             "type": 2,
@@ -2745,21 +2547,7 @@
             "name": "Beneficent",
             "description": "For every 2 White Jade Radishes <color=#FFD780FF>Yuegui: Throwing Mode</color> throws out, the next throw will also release a Mega Radish that will have a larger AoE than the standard White Jade Radish and have the following effects upon exploding:\\n·Deals <color=#99FF88FF>AoE Dendro DMG</color> based on 75% of Yaoyao's ATK.\\n·Restores HP for the active character based on 7.5% of Yaoyao's Max HP.\\n\\nEvery Yuegui: Throwing Mode can throw out a maximum of 2 Mega Radishes.",
             "extraData": null,
-            "icon": "UI_Talent_S_Yaoyao_04",
-            "advancedProps": [
-                {
-                    "name": "Mega Radish DMG",
-                    "elementalGaugeTheory": "1U",
-                    "internalCooldown": null,
-                    "interruptionResistance": "30",
-                    "interruptionResistanceStagger": {
-                        "staggerLevel": "Light",
-                        "horizontalForce": "200",
-                        "verticalForce": "0"
-                    },
-                    "bluntAttack": false
-                }
-            ]
+            "icon": "UI_Talent_S_Yaoyao_04"
         }
     },
     "_id": 10000077

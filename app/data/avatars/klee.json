@@ -1013,102 +1013,7 @@
             },
             "cooldown": 0,
             "cost": 0,
-            "linkedConstellations": null,
-            "advancedProps": [
-                {
-                    "name": "Normal Attack 1-Hit",
-                    "elementalGaugeTheory": "1U",
-                    "internalCooldown": {
-                        "tag": {
-                            "span": "3",
-                            "text": "Klee Pyro DMG"
-                        },
-                        "type": {
-                            "span": "3",
-                            "text": "2.5s/3 Hits"
-                        }
-                    },
-                    "interruptionResistance": "65",
-                    "interruptionResistanceStagger": {
-                        "staggerLevel": "Heavy",
-                        "horizontalForce": "200",
-                        "verticalForce": "0"
-                    },
-                    "bluntAttack": true
-                },
-                {
-                    "name": "Normal Attack 2-Hit",
-                    "elementalGaugeTheory": "1U",
-                    "internalCooldown": "rowspan",
-                    "interruptionResistance": "65",
-                    "interruptionResistanceStagger": {
-                        "staggerLevel": "Heavy",
-                        "horizontalForce": "200",
-                        "verticalForce": "0"
-                    },
-                    "bluntAttack": true
-                },
-                {
-                    "name": "Normal Attack 3-Hit",
-                    "elementalGaugeTheory": "1U",
-                    "internalCooldown": "rowspan",
-                    "interruptionResistance": "130",
-                    "interruptionResistanceStagger": {
-                        "staggerLevel": "Air",
-                        "horizontalForce": "480",
-                        "verticalForce": "600"
-                    },
-                    "bluntAttack": true
-                },
-                {
-                    "name": "Charged Attack",
-                    "elementalGaugeTheory": "1U",
-                    "internalCooldown": null,
-                    "interruptionResistance": "180",
-                    "interruptionResistanceStagger": {
-                        "staggerLevel": "Air",
-                        "horizontalForce": "795",
-                        "verticalForce": "900"
-                    },
-                    "bluntAttack": true
-                },
-                {
-                    "name": "Plunging Attack Collision",
-                    "elementalGaugeTheory": "0U",
-                    "internalCooldown": null,
-                    "interruptionResistance": "5",
-                    "interruptionResistanceStagger": {
-                        "staggerLevel": "Light",
-                        "horizontalForce": "200",
-                        "verticalForce": "0"
-                    },
-                    "bluntAttack": false
-                },
-                {
-                    "name": "Low Plunge",
-                    "elementalGaugeTheory": "1U",
-                    "internalCooldown": null,
-                    "interruptionResistance": "50",
-                    "interruptionResistanceStagger": {
-                        "staggerLevel": "Heavy",
-                        "horizontalForce": "200",
-                        "verticalForce": "0"
-                    },
-                    "bluntAttack": false
-                },
-                {
-                    "name": "High Plunge",
-                    "elementalGaugeTheory": "1U",
-                    "internalCooldown": null,
-                    "interruptionResistance": "100",
-                    "interruptionResistanceStagger": {
-                        "staggerLevel": "Heavy",
-                        "horizontalForce": "800",
-                        "verticalForce": "0"
-                    },
-                    "bluntAttack": false
-                }
-            ]
+            "linkedConstellations": null
         },
         "1": {
             "type": 0,
@@ -1838,42 +1743,7 @@
                         "type": "level"
                     }
                 ]
-            },
-            "advancedProps": [
-                {
-                    "name": "Jumpy Dumpty DMG",
-                    "elementalGaugeTheory": "2U",
-                    "internalCooldown": {
-                        "tag": {
-                            "span": "2",
-                            "text": "Klee Pyro DMG"
-                        },
-                        "type": {
-                            "span": "2",
-                            "text": "2.5s/3 Hits"
-                        }
-                    },
-                    "interruptionResistance": "40",
-                    "interruptionResistanceStagger": {
-                        "staggerLevel": "Heavy",
-                        "horizontalForce": "200",
-                        "verticalForce": "0"
-                    },
-                    "bluntAttack": true
-                },
-                {
-                    "name": "Mine DMG",
-                    "elementalGaugeTheory": "1U",
-                    "internalCooldown": "rowspan",
-                    "interruptionResistance": "40",
-                    "interruptionResistanceStagger": {
-                        "staggerLevel": "Heavy",
-                        "horizontalForce": "200",
-                        "verticalForce": "0"
-                    },
-                    "bluntAttack": false
-                }
-            ]
+            }
         },
         "3": {
             "type": 1,
@@ -2611,54 +2481,7 @@
                         "type": "normal"
                     }
                 ]
-            },
-            "advancedProps": [
-                {
-                    "name": "Sparks 'n' Splash DMG",
-                    "elementalGaugeTheory": "1U",
-                    "internalCooldown": {
-                        "tag": {
-                            "span": "2",
-                            "text": "Elemental Burst"
-                        },
-                        "type": {
-                            "span": "2",
-                            "text": "2.5s/3 Hits"
-                        }
-                    },
-                    "interruptionResistance": "25",
-                    "interruptionResistanceStagger": {
-                        "staggerLevel": "Mute",
-                        "horizontalForce": "0",
-                        "verticalForce": "0"
-                    },
-                    "bluntAttack": false
-                },
-                {
-                    "name": "Additional Sparks (C1)",
-                    "elementalGaugeTheory": "1U",
-                    "internalCooldown": "rowspan",
-                    "interruptionResistance": "25",
-                    "interruptionResistanceStagger": {
-                        "staggerLevel": "Mute",
-                        "horizontalForce": "0",
-                        "verticalForce": "0"
-                    },
-                    "bluntAttack": false
-                },
-                {
-                    "name": "Explosion (C4)",
-                    "elementalGaugeTheory": "2U",
-                    "internalCooldown": null,
-                    "interruptionResistance": "120",
-                    "interruptionResistanceStagger": {
-                        "staggerLevel": "Air",
-                        "horizontalForce": "480",
-                        "verticalForce": "600"
-                    },
-                    "bluntAttack": false
-                }
-            ]
+            }
         },
         "4": {
             "type": 2,
@@ -2688,30 +2511,7 @@
             "name": "Chained Reactions",
             "description": "Attacks and Skills have a certain chance to summon sparks that bombard opponents, dealing DMG equal to 120% of <color=#FFD780FF>Sparks 'n' Splash</color>'s DMG.",
             "extraData": null,
-            "icon": "UI_Talent_S_Klee_01",
-            "advancedProps": [
-                {
-                    "name": "Extra Spark",
-                    "elementalGaugeTheory": "1U",
-                    "internalCooldown": {
-                        "tag": {
-                            "span": null,
-                            "text": "Elemental Burst"
-                        },
-                        "type": {
-                            "span": null,
-                            "text": "2.5s/3 Hits"
-                        }
-                    },
-                    "interruptionResistance": "25",
-                    "interruptionResistanceStagger": {
-                        "staggerLevel": "Mute",
-                        "horizontalForce": "0",
-                        "verticalForce": "0"
-                    },
-                    "bluntAttack": false
-                }
-            ]
+            "icon": "UI_Talent_S_Klee_01"
         },
         "1": {
             "id": 1,

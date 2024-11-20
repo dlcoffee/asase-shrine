@@ -1006,126 +1006,7 @@
             },
             "cooldown": 0,
             "cost": 0,
-            "linkedConstellations": null,
-            "advancedProps": [
-                {
-                    "name": "Normal Attack 1-Hit",
-                    "elementalGaugeTheory": "1U",
-                    "internalCooldown": {
-                        "tag": {
-                            "span": "6",
-                            "text": "Normal Attack"
-                        },
-                        "type": {
-                            "span": "6",
-                            "text": "2.5s/3 Hits"
-                        }
-                    },
-                    "interruptionResistance": "93.33",
-                    "interruptionResistanceStagger": {
-                        "staggerLevel": "Heavy",
-                        "horizontalForce": "200",
-                        "verticalForce": "0"
-                    },
-                    "bluntAttack": true
-                },
-                {
-                    "name": "Normal Attack 2-Hit",
-                    "elementalGaugeTheory": "1U",
-                    "internalCooldown": "rowspan",
-                    "interruptionResistance": "92.72",
-                    "interruptionResistanceStagger": {
-                        "staggerLevel": "Heavy",
-                        "horizontalForce": "200",
-                        "verticalForce": "0"
-                    },
-                    "bluntAttack": true
-                },
-                {
-                    "name": "Normal Attack 3-Hit",
-                    "elementalGaugeTheory": "1U",
-                    "internalCooldown": "rowspan",
-                    "interruptionResistance": "115.14",
-                    "interruptionResistanceStagger": {
-                        "staggerLevel": "Heavy",
-                        "horizontalForce": "800",
-                        "verticalForce": "0"
-                    },
-                    "bluntAttack": true
-                },
-                {
-                    "name": "Normal Attack 4-Hit",
-                    "elementalGaugeTheory": "1U",
-                    "internalCooldown": "rowspan",
-                    "interruptionResistance": "143.17",
-                    "interruptionResistanceStagger": {
-                        "staggerLevel": "Air",
-                        "horizontalForce": "400",
-                        "verticalForce": "800"
-                    },
-                    "bluntAttack": true
-                },
-                {
-                    "name": "Charged Attack Cyclic",
-                    "elementalGaugeTheory": "1U",
-                    "internalCooldown": "rowspan",
-                    "interruptionResistance": "60",
-                    "interruptionResistanceStagger": {
-                        "staggerLevel": "Heavy",
-                        "horizontalForce": "200",
-                        "verticalForce": "0"
-                    },
-                    "bluntAttack": true
-                },
-                {
-                    "name": "Charged Attack Final Slash",
-                    "elementalGaugeTheory": "1U",
-                    "internalCooldown": "rowspan",
-                    "interruptionResistance": "120",
-                    "interruptionResistanceStagger": {
-                        "staggerLevel": "Air",
-                        "horizontalForce": "655",
-                        "verticalForce": "800"
-                    },
-                    "bluntAttack": true
-                },
-                {
-                    "name": "Plunging Attack Collision",
-                    "elementalGaugeTheory": "0U",
-                    "internalCooldown": null,
-                    "interruptionResistance": "35",
-                    "interruptionResistanceStagger": {
-                        "staggerLevel": "Light",
-                        "horizontalForce": "200",
-                        "verticalForce": "0"
-                    },
-                    "bluntAttack": false
-                },
-                {
-                    "name": "Low Plunge",
-                    "elementalGaugeTheory": "1U",
-                    "internalCooldown": null,
-                    "interruptionResistance": "150",
-                    "interruptionResistanceStagger": {
-                        "staggerLevel": "Heavy",
-                        "horizontalForce": "800",
-                        "verticalForce": "0"
-                    },
-                    "bluntAttack": true
-                },
-                {
-                    "name": "High Plunge",
-                    "elementalGaugeTheory": "1U",
-                    "internalCooldown": null,
-                    "interruptionResistance": "200",
-                    "interruptionResistanceStagger": {
-                        "staggerLevel": "Air",
-                        "horizontalForce": "0",
-                        "verticalForce": "800"
-                    },
-                    "bluntAttack": true
-                }
-            ]
+            "linkedConstellations": null
         },
         "1": {
             "type": 0,
@@ -1859,57 +1740,7 @@
                         "type": "level"
                     }
                 ]
-            },
-            "advancedProps": [
-                {
-                    "name": "Indomitable Flame DMG",
-                    "elementalGaugeTheory": "1",
-                    "internalCooldown": null,
-                    "interruptionResistance": "50",
-                    "interruptionResistanceStagger": {
-                        "staggerLevel": "Heavy",
-                        "horizontalForce": "800",
-                        "verticalForce": "0"
-                    },
-                    "bluntAttack": true
-                },
-                {
-                    "name": "Ranging Flame DMG",
-                    "elementalGaugeTheory": "1",
-                    "internalCooldown": null,
-                    "interruptionResistance": "50",
-                    "interruptionResistanceStagger": {
-                        "staggerLevel": "Air",
-                        "horizontalForce": "100",
-                        "verticalForce": "600"
-                    },
-                    "bluntAttack": true
-                },
-                {
-                    "name": "Field DMG",
-                    "elementalGaugeTheory": "1",
-                    "internalCooldown": null,
-                    "interruptionResistance": "50",
-                    "interruptionResistanceStagger": {
-                        "staggerLevel": "Light",
-                        "horizontalForce": "200",
-                        "verticalForce": "0"
-                    },
-                    "bluntAttack": false
-                },
-                {
-                    "name": "DMG to Self",
-                    "elementalGaugeTheory": "—",
-                    "internalCooldown": null,
-                    "interruptionResistance": "0",
-                    "interruptionResistanceStagger": {
-                        "staggerLevel": "Mute",
-                        "horizontalForce": "0",
-                        "verticalForce": "0"
-                    },
-                    "bluntAttack": false
-                }
-            ]
+            }
         },
         "3": {
             "type": 1,
@@ -2647,42 +2478,7 @@
                         "type": "normal"
                     }
                 ]
-            },
-            "advancedProps": [
-                {
-                    "name": "Flame-Mane's Fist DMG",
-                    "elementalGaugeTheory": "1",
-                    "internalCooldown": {
-                        "tag": {
-                            "span": null,
-                            "text": "Elemental Burst"
-                        },
-                        "type": {
-                            "span": null,
-                            "text": "2.5s/3 Hits"
-                        }
-                    },
-                    "interruptionResistance": "50",
-                    "interruptionResistanceStagger": {
-                        "staggerLevel": "Heavy",
-                        "horizontalForce": "250",
-                        "verticalForce": "0"
-                    },
-                    "bluntAttack": true
-                },
-                {
-                    "name": "Incineration Drive DMG",
-                    "elementalGaugeTheory": "1",
-                    "internalCooldown": null,
-                    "interruptionResistance": "100",
-                    "interruptionResistanceStagger": {
-                        "staggerLevel": "Air",
-                        "horizontalForce": "100",
-                        "verticalForce": "900"
-                    },
-                    "bluntAttack": true
-                }
-            ]
+            }
         },
         "4": {
             "type": 2,

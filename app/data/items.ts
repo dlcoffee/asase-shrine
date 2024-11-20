@@ -35,8 +35,7 @@ export interface Item {
   recipe: false | Recipe
 }
 
-// using `as` because each item is strictly typed when imported (Recipe is problematic)
-// @ts-ignore
+// @ts-expect-error: using `as` because each item is strictly typed when imported (Recipe is problematic)
 const itemsList = itemsJson as Item[]
 
 export const items = createLookup(itemsList, '_id')
