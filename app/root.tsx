@@ -1,6 +1,6 @@
 import { type MetaFunction, type LinksFunction } from '@remix-run/cloudflare'
 import { Link, Links, Meta, Outlet, Scripts, ScrollRestoration } from '@remix-run/react'
-import stylesheet from '~/tailwind.css'
+import stylesheet from '~/tailwind.css?url'
 
 export const links: LinksFunction = () => [{ rel: 'stylesheet', href: stylesheet }]
 
