@@ -1,5 +1,5 @@
-import { type MetaFunction } from '@remix-run/cloudflare'
-import { Link, Links, Meta, Outlet, Scripts, ScrollRestoration } from '@remix-run/react'
+import { type MetaFunction } from 'react-router';
+import { Link, Links, Meta, Outlet, Scripts, ScrollRestoration } from 'react-router';
 import '~/tailwind.css'
 
 export const meta: MetaFunction = () => {
