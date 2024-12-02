@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { useLoaderData, useNavigate } from '@remix-run/react'
+import { useLoaderData, useNavigate } from 'react-router';
 
 import { db } from '~/utils/db.server'
 

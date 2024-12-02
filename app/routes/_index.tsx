@@ -1,5 +1,5 @@
 import { type ReactNode } from 'react'
-import { Link, useLoaderData } from '@remix-run/react'
+import { Link, useLoaderData } from 'react-router';
 import { formatInTimeZone } from 'date-fns-tz'
 import { type Day, type Item, type SourceDomain } from '~/data/items'
 

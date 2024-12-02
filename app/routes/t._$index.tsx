@@ -1,5 +1,5 @@
-import { Link, useLoaderData } from '@remix-run/react'
-import { type LoaderFunctionArgs } from '@remix-run/cloudflare'
+import { Link, useLoaderData } from 'react-router';
+import { type LoaderFunctionArgs } from 'react-router';
 import { formatInTimeZone } from 'date-fns-tz'
 import { type Day, type Item, type SourceDomain } from '~/data/items'
 
@@ -35,9 +35,8 @@ function isCharacterTalentMaterial(item: Item) {
 
   return (
     // talent materials are typed both ways for some reason
-    (type.includes('Character Talent Material') || type.includes('Talent Level-Up Material')) &&
-    names.some((name) => item.name.toLowerCase().includes(name))
-  )
+    ((type.includes('Character Talent Material') || type.includes('Talent Level-Up Material')) && names.some((name) => item.name.toLowerCase().includes(name)))
+  );
 }
 
 function isCharacterAscensionMaterial(item: Item) {
